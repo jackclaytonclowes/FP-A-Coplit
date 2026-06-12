@@ -1,31 +1,40 @@
 "use client"
 
-import { useUserStore } from "@/stores/userStore"
-import { cn } from "@/lib/utils"
+import { useCIQStore } from "@/hooks/useCIQStore"
 
 interface XPBarProps {
   className?: string
   showLevel?: boolean
 }
 
-export function XPBar({ className, showLevel = true }: XPBarProps) {
-  const { xp, level, levelTitle, progressPercent } = useUserStore()
+export function XPBar({ showLevel = true }: XPBarProps) {
+  const { xp, level, levelTitle, progressPercent } = useCIQStore()
 
   return (
-    <div className={cn("w-full", className)}>
+    <div style={{ width: "100%" }}>
       {showLevel && (
-        <div className="flex items-center justify-between mb-1.5">
-          <span className="text-xs font-medium text-zinc-400">
+        <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 6 }}>
+          <span style={{ font: "var(--text-label)", color: "var(--fg-3)" }}>
             Lv {level} · {levelTitle}
           </span>
-          <span className="text-xs text-zinc-500">{xp.toLocaleString()} XP</span>
+          <span style={{ font: "var(--text-label)", fontFamily: "var(--font-mono)", color: "var(--fg-3)" }}>
+            {xp.toLocaleString()} XP
+          </span>
         </div>
       )}
-      <div className="h-1.5 bg-zinc-800 rounded-full overflow-hidden">
-        <div
-          className="h-full bg-amber-400 rounded-full transition-all duration-700 ease-out"
-          style={{ width: `${progressPercent}%` }}
-        />
+      <div style={{
+        height: 6,
+        background: "var(--surface-3)",
+        borderRadius: "var(--radius-pill)",
+        overflow: "hidden",
+      }}>
+        <div style={{
+          height: "100%",
+          width: `${progressPercent}%`,
+          background: "var(--gold)",
+          borderRadius: "var(--radius-pill)",
+          transition: "width 0.7s ease-out",
+        }} />
       </div>
     </div>
   )

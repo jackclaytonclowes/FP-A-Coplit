@@ -1,51 +1,190 @@
+/* ============================================================================
+   CultureIQ — Colors & Type Foundations
+   Adapted from the FP&A Copilot design system.
+   Same font stack and token structure; dark photographic palette.
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 @import "tailwindcss";
 
 :root {
-  --font-geist: var(--font-geist);
+  /* ── Fonts ──────────────────────────────────────────────────────────────── */
+  --font-display: 'Schibsted Grotesk', 'Segoe UI', system-ui, sans-serif;
+  --font-sans:    'Hanken Grotesk', 'Segoe UI', system-ui, sans-serif;
+  --font-mono:    'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  /* ── Neutrals — photographic dark canvas ────────────────────────────────── */
+  --ink:        #EAF0F6;          /* primary text on dark */
+  --fg-1:       #EAF0F6;
+  --fg-2:       #9DB0C4;
+  --fg-3:       #5E7A94;
+  --fg-muted:   #3D5570;
+  --fg-on-light: #0F1B2D;         /* text on light surfaces */
+
+  --canvas:    #09090E;           /* near-black, photographic */
+  --surface:   #0F1520;           /* card background */
+  --surface-2: #151D2A;           /* slightly lifted */
+  --surface-3: #1C2637;           /* hover / active state */
+  --surface-4: #223044;           /* selected */
+
+  --border:        #1E2E42;
+  --border-strong: #2A3E56;
+  --border-subtle: #131E2D;
+
+  /* ── CultureIQ brand — Golden Hour amber ───────────────────────────────── */
+  --gold:        #E8C547;         /* primary brand: golden hour */
+  --gold-hover:  #D4B03C;
+  --gold-press:  #BF9D30;
+  --gold-soft:   rgba(232,197,71,0.12);
+  --gold-soft-2: rgba(232,197,71,0.20);
+  --gold-border: rgba(232,197,71,0.30);
+  --gold-text:   #F5D96A;         /* gold on dark surfaces */
+  --gold-ring:   rgba(232,197,71,0.35);
+
+  /* ── Accent — Darkroom violet ───────────────────────────────────────────── */
+  --violet:        #9B7FE8;
+  --violet-soft:   rgba(155,127,232,0.12);
+  --violet-border: rgba(155,127,232,0.30);
+  --violet-text:   #B49CF0;
+
+  /* ── Accent — Film grain rose ───────────────────────────────────────────── */
+  --rose:        #E87D9B;
+  --rose-soft:   rgba(232,125,155,0.12);
+  --rose-border: rgba(232,125,155,0.28);
+  --rose-text:   #F0A0B8;
+
+  /* ── Accent — Cyan / blue hour ──────────────────────────────────────────── */
+  --cyan:        #47B8E8;
+  --cyan-soft:   rgba(71,184,232,0.12);
+  --cyan-border: rgba(71,184,232,0.28);
+  --cyan-text:   #7ECFF2;
+
+  /* ── Semantic — carried over from AccountIQ ─────────────────────────────── */
+  --favourable:        #22C55E;
+  --favourable-text:   #4ADE80;
+  --favourable-soft:   rgba(34,197,94,0.12);
+  --favourable-border: rgba(34,197,94,0.30);
+
+  --adverse:        #EF4444;
+  --adverse-text:   #F87171;
+  --adverse-soft:   rgba(239,68,68,0.12);
+  --adverse-border: rgba(239,68,68,0.30);
+
+  --caution:        #F59E0B;
+  --caution-text:   #FCD34D;
+  --caution-soft:   rgba(245,158,11,0.12);
+  --caution-border: rgba(245,158,11,0.30);
+
+  /* ── Photographer accent palette (discovery cards) ──────────────────────── */
+  --ph-tillmans:  #C4A4E8;   /* violet */
+  --ph-lindbergh: #A0A0A0;   /* monochrome */
+  --ph-knight:    #47B8E8;   /* cyan */
+  --ph-walker:    #E8A447;   /* amber */
+  --ph-goldin:    #E87777;   /* rose */
+  --ph-zamiri:    #7BA88C;   /* sage */
+  --ph-roversi:   #B8C4E8;   /* soft blue */
+
+  /* ── Radii ──────────────────────────────────────────────────────────────── */
+  --radius-xs:   6px;
+  --radius-sm:   8px;
+  --radius-md:  12px;
+  --radius-lg:  16px;
+  --radius-xl:  20px;
+  --radius-pill: 999px;
+
+  /* ── Shadows ────────────────────────────────────────────────────────────── */
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.25);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.30), 0 1px 2px rgba(0,0,0,0.20);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.35);
+  --shadow-lg: 0 12px 32px rgba(0,0,0,0.45);
+  --shadow-focus: 0 0 0 3px var(--gold-ring);
+  --shadow-gold: 0 0 20px rgba(232,197,71,0.15);
+
+  /* ── Spacing ────────────────────────────────────────────────────────────── */
+  --space-1: 4px;  --space-2: 8px;   --space-3: 12px;  --space-4: 16px;
+  --space-5: 20px; --space-6: 24px;  --space-8: 32px;  --space-10: 40px;
+  --space-12: 48px; --space-16: 64px;
+
+  /* ── Type scale (mirrors AccountIQ system, display font swapped) ─────────── */
+  --text-display:      700 34px/1.12 var(--font-display);
+  --text-h1:           700 26px/1.18 var(--font-display);
+  --text-h2:           600 20px/1.25 var(--font-display);
+  --text-h3:           600 16px/1.35 var(--font-display);
+  --text-body:         400 14px/1.55 var(--font-sans);
+  --text-body-strong:  600 14px/1.55 var(--font-sans);
+  --text-label:        600 12px/1.3  var(--font-sans);
+  --text-caption:      400 12.5px/1.4 var(--font-sans);
+  --text-metric:       600 32px/1.05 var(--font-mono);
+  --text-data:         500 13.5px/1.4 var(--font-mono);
 }
 
-* {
-  box-sizing: border-box;
-}
+/* ── Base reset ─────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
 
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 body {
-  background: #09090b;
-  color: #fafafa;
-  font-family: var(--font-geist), system-ui, -apple-system, sans-serif;
+  background: var(--canvas);
+  color: var(--fg-1);
+  font: var(--text-body);
+  font-family: var(--font-sans);
+  min-height: 100%;
   overscroll-behavior: none;
 }
 
-/* Safe area for bottom nav on mobile */
-.pb-safe {
-  padding-bottom: env(safe-area-inset-bottom, 1rem);
+/* ── Typography utilities ───────────────────────────────────────────────── */
+.display  { font: var(--text-display); }
+.h1       { font: var(--text-h1); }
+.h2       { font: var(--text-h2); }
+.h3       { font: var(--text-h3); }
+.body     { font: var(--text-body); }
+.label    { font: var(--text-label); }
+.caption  { font: var(--text-caption); }
+.mono     { font-family: var(--font-mono); }
+
+/* ── Scrollbar ──────────────────────────────────────────────────────────── */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* ── Safe area bottom padding ───────────────────────────────────────────── */
+.pb-safe { padding-bottom: env(safe-area-inset-bottom, 1rem); }
+
+/* ── Animations ─────────────────────────────────────────────────────────── */
+@keyframes float-up {
+  0%   { opacity: 0; transform: translateX(-50%) translateY(0); }
+  20%  { opacity: 1; transform: translateX(-50%) translateY(-10px); }
+  80%  { opacity: 1; transform: translateX(-50%) translateY(-30px); }
+  100% { opacity: 0; transform: translateX(-50%) translateY(-50px); }
 }
 
-/* Smooth scrolling */
-.scroll-smooth {
-  scroll-behavior: smooth;
+@keyframes pulse-gold {
+  0%, 100% { box-shadow: 0 0 0 0 var(--gold-ring); }
+  50%       { box-shadow: 0 0 0 6px transparent; }
 }
 
-/* Hide scrollbar but keep scroll */
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-.no-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
-/* XP bar animation */
-@keyframes xp-fill {
-  from { width: 0%; }
+/* ── Card / surface primitives ──────────────────────────────────────────── */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
 }
 
-/* Lesson card hover */
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50%       { transform: translateY(-4px); }
+.card-2 {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
 }
+
+/* ── Focus ring ─────────────────────────────────────────────────────────── */
+:focus-visible { outline: none; box-shadow: var(--shadow-focus); }
