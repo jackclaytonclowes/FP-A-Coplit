@@ -16,30 +16,30 @@ const course: Course = {
       title: "Why People Buy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Three Motivations for Purchase" },
+        { type: "heading", content: "Three Reasons People Buy Anything" },
         {
           type: "paragraph",
           content:
-            "Consumer researchers generally identify three categories of motivation for purchase. Functional motivation: the purchase solves a problem. I need a coat because I am cold. The coat's primary value is its ability to keep me warm. Emotional motivation: the purchase creates a feeling. I want this coat because of how I feel wearing it — the texture of the fabric, the way it changes how I carry myself. Social motivation: the purchase communicates to others. I want this coat because of what it says about me — my taste, my resources, my tribe.",
+            "Functional: the purchase solves a problem. I need a coat because I'm cold. Emotional: the purchase creates a feeling — the texture, the way it changes how I carry myself. Social: the purchase communicates something. What it says about my taste, my tribe, my resources.",
         },
         {
           type: "paragraph",
           content:
-            "In practice, most significant purchases involve all three motivations simultaneously, but one usually dominates. Most basic commodity purchases are primarily functional. Most fashion and luxury purchases are primarily social and emotional. Understanding which motivation dominates a purchase is the first step in communicating effectively about a product.",
+            "Most significant purchases involve all three — but one dominates. Basic commodities: functional. Fashion and luxury: mostly social and emotional. Know which motivation you're speaking to before you open your mouth.",
         },
-        { type: "heading", content: "Maslow and Its Limitations" },
+        { type: "heading", content: "Maslow: Useful, But Incomplete" },
         {
           type: "paragraph",
           content:
-            "Abraham Maslow's hierarchy of needs (1943) proposes that human motivations are arranged in a hierarchy: physiological needs (food, shelter) at the base, then safety, then belonging, then esteem, then self-actualisation at the peak. Luxury purchases would sit at the esteem and self-actualisation levels — acquired only once the lower needs are met. The framework is useful as a first approximation, but it badly underestimates the power of status and belonging motivations at all income levels. People with genuinely unmet physiological needs will still spend on status objects if the social pressure is sufficiently strong.",
+            "Maslow's hierarchy says status purchases happen only after basic needs are met. Useful as a first pass — but it badly underestimates social pressure. People with genuinely unmet basic needs still spend on status objects when the social stakes are high enough.",
         },
-        { type: "heading", content: "Fashion as Social Communication" },
+        { type: "heading", content: "Fashion Is Social Communication" },
         {
           type: "paragraph",
           content:
-            "Fashion purchases are almost always primarily social. A garment is chosen not because it is the most functional covering available but because of what wearing it communicates: membership of a group, aspiration to a lifestyle, alignment with a set of values, distance from other groups. This is why fashion advertising rarely shows the product being used functionally. It shows the product being inhabited by someone living in a way the target customer aspires to.",
+            "Fashion purchases are almost always primarily social. The garment communicates group membership, aspiration, values, distance from other groups. That's why fashion ads never show the product being worn functionally. They show someone living in a way you want to live.",
         },
       ],
       quiz: {
@@ -75,30 +75,30 @@ const course: Course = {
       title: "Desire, Status and Aspiration",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Veblen and Conspicuous Consumption" },
+        { type: "heading", content: "Veblen: The Price Is the Point" },
         {
           type: "paragraph",
           content:
-            "In 1899, Thorstein Veblen published 'The Theory of the Leisure Class' and coined the term 'conspicuous consumption': the purchase and display of goods for the purpose of signalling economic status. Veblen observed that wealthy Americans did not simply buy things for their functional value — they bought visible things at visible prices, so that others could observe and register their wealth. The consumption was its own product: the buying and owning was a form of communication.",
+            "In 1899, Thorstein Veblen coined 'conspicuous consumption' — buying visible things at visible prices so others can register your wealth. The consumption was the product. Sound familiar?",
         },
         {
           type: "paragraph",
           content:
-            "Veblen's insight remains the foundation of luxury marketing. A Hermès Birkin bag costs tens of thousands of pounds not because it functions better than bags costing a hundredth of the price, but because it is a visible signal of resources so substantial that their owner can spare that sum on a handbag. The price is the point. The price is the signal.",
+            "A Birkin costs tens of thousands not because it functions better. It's a visible signal that you can spare that sum on a handbag. The price isn't a cost — it's the message.",
         },
-        { type: "heading", content: "Positional Goods" },
+        { type: "heading", content: "Positional Goods: Value From Scarcity" },
         {
           type: "paragraph",
           content:
-            "Positional goods are goods whose value derives partly from other people not having them. The value of a limited-edition sneaker release is not the sneaker's function but its scarcity: the fact that most people cannot have it. If it were universally available, its positional value would collapse entirely. Luxury brands understand this. The Birkin waiting list is not just a manufacturing reality — it is a deliberate mechanism for maintaining the bag's status as a positional good.",
+            "A positional good gets its value from other people not having it. Make the limited-edition sneaker universally available and its value collapses. Luxury brands understand this — the Birkin waiting list is a deliberate mechanism, not a manufacturing problem.",
         },
         { type: "heading", content: "The Dream Buyer" },
         {
           type: "paragraph",
           content:
-            "Luxury brands sell aspiration to many more people than can actually afford the products. Most people who follow Chanel on Instagram, who save images of Chanel campaigns, who stop at Chanel counters for samples, will never buy a Chanel suit. But they are part of the brand's market: the 'dream buyers' whose aspiration sustains the social meaning that makes the 'actual buyers' — those who can afford the suit — want to buy it. The aspiration of the many is what creates the desirability that drives the purchases of the few.",
+            "Most people who follow Chanel on Instagram will never buy a Chanel suit. But their aspiration sustains the social meaning that makes the suit desirable to the people who can. The aspiration of the many creates the desirability that drives the purchases of the few.",
         },
       ],
       quiz: {
@@ -134,31 +134,31 @@ const course: Course = {
       title: "Cognitive Biases in Consumer Decisions",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Anchoring" },
+        { type: "heading", content: "Anchoring: The First Number Wins" },
         {
           type: "paragraph",
           content:
-            "Anchoring is the tendency for the first piece of information encountered to disproportionately influence all subsequent judgements. In pricing, the first price seen becomes the anchor against which all other prices are evaluated. A restaurant that lists its most expensive bottle of wine first on the wine list makes all other wines look reasonable by comparison. A luxury brand that leads with its most expensive product makes the rest of the range feel accessible. The anchor is a frame; everything else is evaluated inside it.",
+            "The first price you see becomes the frame everything else is evaluated against. List the most expensive wine first and the rest of the list looks reasonable. Lead with your most expensive product and the range feels accessible. The anchor is the frame.",
         },
         { type: "heading", content: "Scarcity Bias and Social Proof" },
         {
           type: "paragraph",
           content:
-            "Scarcity bias is the tendency for limited availability to increase perceived value: the sense that if something is hard to get, it must be worth getting. 'Only 3 left in stock,' the Birkin waiting list, the limited-edition drop — all of these exploit scarcity bias. Social proof is the tendency to use other people's behaviour as evidence of the right choice: if many people are buying something, it is probably worth buying. Reviews, bestseller lists, and Instagram posts of celebrities wearing a brand all activate social proof. Both biases operate below conscious awareness.",
+            "'Only 3 left in stock.' The Birkin waiting list. The limited drop. All exploit scarcity bias — hard to get must be worth getting. Social proof works the other way: if lots of people are buying it, it's probably safe to buy. Both operate below conscious awareness.",
         },
         { type: "heading", content: "The Decoy Effect" },
         {
           type: "paragraph",
           content:
-            "The decoy effect is the observation that adding a third option can change choices between two existing options, even though the third option is not itself chosen. Classic example: a subscription that offers digital ($59) or print + digital ($125). Most choose digital. Add a print-only option at $125, and suddenly print + digital — the same price, but now 'better value' compared to print-only — is chosen by most. The decoy (print-only) is never purchased; its function is to make another option look attractive by comparison.",
+            "Add a third option that nobody chooses, and it changes which of the other two people pick. Print-only at £125 makes print + digital at £125 look like a steal — suddenly that's what everyone buys. The decoy exists only to shift perception. It never gets purchased.",
         },
-        { type: "heading", content: "Loss Aversion" },
+        { type: "heading", content: "Loss Aversion: Losses Hurt Twice as Much" },
         {
           type: "paragraph",
           content:
-            "Loss aversion — identified by Kahneman and Tversky in 1979 — is the finding that people feel losses approximately twice as strongly as equivalent gains. The pain of losing £100 is roughly twice the pleasure of gaining £100. This has significant implications for consumer psychology: framing a purchase as preventing a loss ('don't miss out') is more effective than framing it as acquiring a gain ('get this'). It also explains why warranties and guarantees increase purchase rates: they convert a potential loss (buying a product that breaks) into a protected gain.",
+            "Kahneman and Tversky found that the pain of losing £100 is roughly twice the pleasure of gaining £100. That's why 'don't miss out' outperforms 'get this' — and why warranties increase purchase rates. Frame purchases as preventing loss, not acquiring gain.",
         },
       ],
       quiz: {
@@ -194,13 +194,13 @@ const course: Course = {
       title: "The Psychology of Luxury",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Why People Pay 100x More" },
         {
           type: "paragraph",
           content:
-            "A Hermès Birkin bag can cost more than a car. A functional bag of equal carrying capacity can be purchased for a tiny fraction of the price. The Birkin buyer is not making an irrational choice — they are purchasing something entirely different from what the functional buyer is purchasing. The Birkin is not primarily a bag. It is a signal: of resources, of taste, of access (you had to wait for it, which means you have the patience and the relationship to wait). The bag is the delivery vehicle for the signal.",
+            "A Birkin buyer isn't making an irrational choice — they're buying something entirely different from what the functional buyer is buying. The Birkin isn't primarily a bag. It's a signal: resources, taste, access. The bag just delivers the signal.",
         },
         { type: "heading", content: "The Dimensions of Luxury Value" },
         {
@@ -212,17 +212,17 @@ const course: Course = {
             "Material quality: the leather, the stitching, the hardware — the actual functional superiority of materials, present as a foundation even if not the primary motivation",
           ],
         },
-        { type: "heading", content: "Counter-Intuitive Luxury Pricing" },
+        { type: "heading", content: "Higher Price, More Desirable" },
         {
           type: "paragraph",
           content:
-            "One of the most counter-intuitive findings in luxury marketing is that raising prices can increase desirability. At standard price points, higher price reduces demand (the normal demand curve). In luxury markets, higher price increases perceived value and desirability — up to a point. This is because price is not just a cost; it is a signal. A Hermès bag that cost £200 would be less desirable, not more accessible — the price is part of what makes it what it is. Luxury brands that discount damage their brand equity, sometimes permanently.",
+            "Raising prices can increase desirability in luxury markets. Price isn't just a cost — it's a signal. A Hermès bag at £200 would be less desirable, not more accessible. Brands that discount damage their equity, sometimes permanently.",
         },
         { type: "heading", content: "The Aspirational Majority" },
         {
           type: "paragraph",
           content:
-            "Most people who are aware of luxury brands cannot afford them. But their awareness and aspiration is essential to the brand's value. The Birkin's signal value depends on the majority of people knowing what a Birkin is and knowing they cannot have one. Without the aspirational majority who know and desire the brand, the signal sent to the few who actually buy it would be meaningless. Luxury marketing therefore targets two audiences simultaneously: the actual buyer (with the price and the product) and the aspirational majority (with the brand's cultural presence).",
+            "Most luxury brand followers can't afford the product. But their awareness is essential — the Birkin's signal value depends on the majority knowing what a Birkin is and knowing they can't have one. Luxury marketing targets two audiences at once: the actual buyer and the aspirational many.",
         },
       ],
       quiz: {
@@ -258,31 +258,31 @@ const course: Course = {
       title: "Emotion vs. Reason in Purchase Decisions",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "System 1 and System 2" },
         {
           type: "paragraph",
           content:
-            "Daniel Kahneman's framework distinguishes between two modes of thinking. System 1 is fast, automatic, emotional, and intuitive: it operates below conscious awareness, makes rapid judgements, and is responsible for most of our immediate responses to the world. System 2 is slow, deliberate, rational, and effortful: it reasons through problems step by step and can override System 1's responses when given time and attention. Most human decisions — including most purchase decisions — are made by System 1 and subsequently rationalised by System 2.",
+            "System 1 is fast, automatic, emotional — it runs below conscious awareness and makes most of our decisions. System 2 is slow, deliberate, rational — it reasons step by step and can override System 1, but usually doesn't bother. Most purchases: System 1.",
         },
         { type: "heading", content: "The Post-Purchase Rationalisation" },
         {
           type: "paragraph",
           content:
-            "When someone buys an expensive pair of shoes, they typically report reasons that sound System 2: 'they were well-made,' 'they'll last longer than cheaper alternatives,' 'the leather was superior.' These reasons may be true. But they are almost certainly not the primary driver of the purchase. The actual decision was made before the rational analysis: a System 1 response to seeing the shoes, to the feeling they produced, to the social signal they sent. System 2 then constructed a rational narrative that justified the System 1 decision — this is post-purchase rationalisation.",
+            "After buying expensive shoes, people report: 'they were well-made,' 'they'll last longer.' Maybe true. But almost certainly not the real reason. The actual decision was made before the rational analysis — System 1 saw the shoes and decided. System 2 wrote the justification.",
         },
-        { type: "heading", content: "What This Means for Brand Communication" },
+        { type: "heading", content: "Feel First. Argue Second." },
         {
           type: "paragraph",
           content:
-            "If most purchase decisions are System 1 — emotional, automatic, intuitive — then the primary job of brand communication is not to convince but to feel right. The brand that produces the right emotional response in the first fraction of a second of encounter has already done most of its work. The rational arguments about quality, value, and durability serve System 2's need for a story — they are necessary, but they are supporting, not primary. This is why great brand communications work emotionally first and rationally second.",
+            "If most purchase decisions are System 1, the primary job of brand communication is to feel right — not to convince. The brand that produces the right emotional response in three seconds has done most of its work. Rational arguments serve System 2's need for a story, not the decision itself.",
         },
         { type: "heading", content: "The Implications" },
         {
           type: "paragraph",
           content:
-            "For brand managers: lead with emotion, follow with reason. For creative directors: the image that produces the right feeling in three seconds has done more work than a paragraph of product benefits. For anyone building a creative practice: the work that feels right to the right person matters more than the work that argues most coherently for itself. System 1 decides; System 2 explains.",
+            "For brand managers: lead with emotion, follow with reason. For creative directors: the image that feels right in three seconds outperforms a paragraph of product benefits. System 1 decides. System 2 explains.",
         },
       ],
       quiz: {
@@ -318,19 +318,19 @@ const course: Course = {
       title: "Apply Consumer Psychology",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Turning the Lens Inward" },
+        { type: "heading", content: "Turn the Lens on Yourself First" },
         {
           type: "paragraph",
           content:
-            "The most useful application of consumer psychology is autobiographical: applying the frameworks to your own purchasing behaviour. This is uncomfortable, because it requires honest acknowledgement that your stated reasons for buying things are often not your real reasons. But the discomfort is the point. The person who can accurately identify the psychological mechanism behind their own purchases is in a far better position to design products and communications that activate those mechanisms in others.",
+            "The most useful application is autobiographical. Apply the frameworks to your own purchases — honestly. Your stated reasons are probably not your real reasons. The discomfort is the point. Understanding your own mechanisms makes you far better at activating them in others.",
         },
         { type: "heading", content: "The Real Reason" },
         {
           type: "paragraph",
           content:
-            "For any significant discretionary purchase — a piece of clothing, a piece of technology, an experience — the exercise is to identify the stated reason and the actual reason. The stated reason is the System 2 narrative: it was good value, it will last, the quality justified the price. The actual reason is the System 1 motivation: the status signal it sent, the aspiration it expressed, the social group membership it conferred, the scarcity that made it feel urgent, the social proof that made it feel safe.",
+            "The stated reason is the System 2 narrative: good value, will last, quality justified the price. The actual reason is the System 1 motivation: the status signal, the aspiration, the scarcity that made it urgent, the social proof that made it safe.",
         },
         { type: "heading", content: "The Psychological Mechanisms" },
         {
@@ -343,11 +343,11 @@ const course: Course = {
             "Emotional reward: I bought it because the act of buying it produced a specific positive feeling",
           ],
         },
-        { type: "heading", content: "Applying It to Your Work" },
+        { type: "heading", content: "Apply It to Your Work" },
         {
           type: "paragraph",
           content:
-            "The same analysis applies to work you create or contribute to. What psychological need does your work serve? If you are building a brand, which of these mechanisms are you activating — and are you activating them deliberately or accidentally? If you are creating content, what emotional response are you producing, and does that response serve the brand's positioning? Consumer psychology is not just a framework for understanding buyers. It is a tool for designing better work.",
+            "What psychological need does your brand serve? Are you activating it deliberately or accidentally? Consumer psychology isn't just a framework for understanding buyers — it's a tool for designing better work.",
         },
       ],
       reflection: {

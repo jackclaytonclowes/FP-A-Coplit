@@ -16,27 +16,27 @@ const course: Course = {
       title: "Origins & History",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Cross-Pollination of Film and Photography" },
+        { type: "heading", content: "Cinema Taught Photography to Stage a Story" },
         {
           type: "paragraph",
           content:
-            "Cinema and photography have shared technical ancestry and artistic vocabulary since cinema's invention in the 1890s. Film stills — photographs made on set for promotional purposes — created a visual language that blurred the boundary between the single image and the moving sequence. Throughout the 20th century, photographers absorbed the compositional language of widescreen cinema: the long horizontal frame, the depth-of-field management, the staging of figures in space.",
+            "Cinema and photography shared technical ancestry from the start. Film stills blurred the boundary between moving sequence and single image. Photographers absorbed cinema's widescreen frame, its depth-of-field management, its way of staging figures in space.",
         },
         {
           type: "paragraph",
           content:
-            "Film noir cinematography — developed in Hollywood in the 1940s and 50s — had a particular influence: its use of shadow, low angles, dramatic artificial light, and psychological atmosphere created a visual vocabulary that photographers from Weegee to Viviane Sassen have drawn on. The noir frame implied danger, moral ambiguity, and a world in which the darkness was as important as the light.",
+            "Film noir — hard shadows, low angles, psychological atmosphere, moral ambiguity made visible through light — crossed from Hollywood into photography and never left. From Weegee to Viviane Sassen, the debt is obvious.",
         },
         {
           type: "heading",
-          content: "Cindy Sherman and the Untitled Film Stills",
+          content: "Cindy Sherman Changes Everything",
         },
         {
           type: "paragraph",
           content:
-            "The founding text of deliberate cinematic photography is Cindy Sherman's Untitled Film Stills (1977–80): 69 black-and-white photographs in which Sherman staged herself as the protagonist of films that do not exist. Each image looked unmistakably like a still from a specific kind of film — European art cinema, film noir, women's pictures — yet no such film existed. The series raised fundamental questions about how cinema had shaped our understanding of women, narrative, and the single image.",
+            "Sherman's Untitled Film Stills (1977–80): 69 black-and-white photographs of herself as the protagonist of films that don't exist. Each looked unmistakably like a still from a specific genre. The realisation: cinema had taught us these visual codes so thoroughly we already knew the film.",
         },
         {
           type: "list",
@@ -72,31 +72,31 @@ const course: Course = {
       title: "Key Practitioners",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Cindy Sherman (b. 1954)" },
         {
           type: "paragraph",
           content:
-            "Sherman's Untitled Film Stills remain the most influential deployment of cinematic language in photography. Each image positions Sherman-as-character in a scene with a specific cinematic grammar: the angle, the light, the setting, the costume, and the expression all signal genre. She is at once subject, director, costume designer, and set designer — and the question of who the 'real' Cindy Sherman is behind all these performances is itself a subject of the work.",
+            "Subject, director, costume designer, set designer — all Sherman, all at once. Each Untitled Film Still positions her-as-character in a scene with specific cinematic grammar. The question of who the 'real' Cindy Sherman is underneath all the performances is itself part of the work.",
         },
         { type: "heading", content: "Gregory Crewdson (b. 1962)" },
         {
           type: "paragraph",
           content:
-            "Crewdson's work takes cinematic production values to their logical extreme in still photography: he hires film crews, closes streets, rigs elaborate lighting systems, and directs actors in carefully scripted scenarios. The results are large-format photographs that have the visual quality of frames from a Spielberg or Lynch film — suburban American life in states of psychological crisis, photographed with production design of extraordinary precision.",
+            "Film crew, closed streets, elaborate lighting rigs, directed actors. Crewdson takes cinematic production values to their logical extreme in still photography. The result looks like a frame from a Spielberg or Lynch film — American suburban life in states of psychological crisis.",
         },
         { type: "heading", content: "Philip-Lorca diCorcia (b. 1951)" },
         {
           type: "paragraph",
           content:
-            "DiCorcia photographs strangers on the street using hidden strobe lights mounted on scaffolding, which fire when subjects pass through the frame. The result is street photography that has the quality of film stills: figures are frozen in pools of dramatic artificial light, surrounded by the ambient urban world, their expressions and gestures caught at moments that imply complex inner lives. His Hustlers series — photographs of male prostitutes in their private spaces — combines documentary specificity with cinematic staging.",
+            "DiCorcia hid strobe lights on scaffolding that fire when strangers pass through the frame. Real, unposed people — documentary truth — lit with dramatic artificial light. The collision of chance and staging is the whole technique.",
         },
         { type: "heading", content: "Alex Prager (b. 1979) and Hannah Starkey (b. 1971)" },
         {
           type: "paragraph",
           content:
-            "Prager's crowd scenes — dozens of extras staged in airports, cinemas, and public spaces with a Hitchcockian quality of collective unease — achieve their effect through obsessive production design and a colour palette that references 1950s Technicolor. Starkey's quieter images of women in public and private spaces — waiting, looking, being still — have the quality of European art cinema stills: composed, psychologically present, and narratively incomplete.",
+            "Prager's crowd scenes — dozens of extras, Hitchcockian collective unease, 1950s Technicolor palette — are obsessive productions. Starkey's quieter images of women waiting and looking have the composed, narratively incomplete quality of European art cinema stills.",
         },
       ],
       quiz: {
@@ -116,31 +116,31 @@ const course: Course = {
       title: "Visual Characteristics",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Widescreen Aspect Ratios" },
+        { type: "heading", content: "Wide Frames, Cinematic Thinking" },
         {
           type: "paragraph",
           content:
-            "Cinematic photography typically favours widescreen aspect ratios — 16:9 (video/HD), 2.39:1 (anamorphic), or the classic 2.35:1 — rather than the squarer formats of standard photography. The wide frame privileges horizontal relationships: figures placed at different depths, environments that surround and dwarf human subjects, landscapes that read as stages. This formal choice alone signals cinematic intent.",
+            "16:9, 2.39:1, 2.35:1 — cinematic photography favours widescreen ratios over photography's squarer formats. The wide frame privileges horizontal relationships, environments that surround figures, landscapes that read as stages. The format alone signals intent.",
         },
-        { type: "heading", content: "Filmic Colour Grading" },
+        { type: "heading", content: "Cinema's Colour Vocabulary Is Now Photography's Too" },
         {
           type: "paragraph",
           content:
-            "Contemporary cinematic photography borrows cinema's colour grading vocabulary: teal-and-orange (warm skin tones, cool shadows), bleach bypass (desaturated highlights, retained grain), cross-processing effects. These colour treatments are now available as Lightroom presets and camera profiles, but their origin is in the work of Hollywood's directors of photography, who developed them to create specific emotional registers.",
+            "Teal-and-orange, bleach bypass, cross-processing — these colour treatments originated with Hollywood's directors of photography. Now available as Lightroom presets. The vocabulary is borrowed; the emotional registers are real.",
         },
-        { type: "heading", content: "Staged Narrative Implication" },
+        { type: "heading", content: "A Story Implied, Not Told" },
         {
           type: "paragraph",
           content:
-            "The central characteristic of cinematic photography is narrative implication: the frozen moment that contains a story. The figures are positioned as if something has just happened or is about to happen; the setting has been designed to suggest context; the expression or gesture carries emotional weight that implies the invisible events around it. The photograph is a frame from a film that doesn't exist.",
+            "The defining characteristic: a frozen moment that contains a story. Something happened before, something will happen after. The figures are positioned as if in the middle of an event. The photograph is a frame from a film that doesn't exist.",
         },
-        { type: "heading", content: "Production Design and the Quality of Loneliness" },
+        { type: "heading", content: "Production Design and a Specific Kind of Loneliness" },
         {
           type: "paragraph",
           content:
-            "Crewdson, Prager, and Sherman all share an attention to production design — costume, setting, prop — that is cinematic rather than photographic in origin. And across cinematic photography there is a recurring emotional quality: a specific kind of loneliness that cinema has made available. The figure in the diner, the woman in the motel room, the man on the empty street — these are images cinema has taught us to feel, and photography borrows their emotional charge.",
+            "Crewdson, Prager, and Sherman all share attention to production design — costume, setting, prop — borrowed from cinema, not photography. And across cinematic photography, a recurring emotion: a specific loneliness cinema taught us to feel.",
         },
       ],
       quiz: {
@@ -160,31 +160,31 @@ const course: Course = {
       title: "Defining Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Cindy Sherman: Untitled Film Stills (1977–80)" },
         {
           type: "paragraph",
           content:
-            "Sixty-nine black-and-white photographs in which Sherman staged herself as the protagonist of non-existent films. The series is the single most important work in the intersection of cinema and photography, and one of the most influential artworks of the 20th century. It is the founding document of cinematic photography as a deliberate practice. MoMA acquired the complete series for over one million dollars in 1995.",
+            "69 black-and-white photographs. Non-existent films from recognisable genres. The most influential work at the intersection of cinema and photography. MoMA bought the complete series for over one million dollars in 1995.",
         },
         { type: "heading", content: "Gregory Crewdson: Twilight and Beneath the Roses" },
         {
           type: "paragraph",
           content:
-            "Crewdson's two major series — Twilight (1998–2002) and Beneath the Roses (2003–08) — define the ambitions of cinematic still photography. Beneath the Roses in particular, with its closed-down New England towns, its figures frozen in suburban interiors, and its nocturnal production-design precision, is the fullest expression of what happens when a photographer applies Hollywood's resources to a still image.",
+            "Beneath the Roses in particular — closed-down New England towns, suburban interiors, nocturnal production-design precision — is the fullest expression of what happens when a photographer applies Hollywood's resources to a still image.",
         },
         { type: "heading", content: "Philip-Lorca diCorcia: Hustlers (1990–92)" },
         {
           type: "paragraph",
           content:
-            "DiCorcia's Hustlers series photographs male sex workers in their private spaces — motel rooms, street corners, domestic interiors — lit with the dramatic precision of a cinematographer working on a film set. The images have a quality of cinematic character study: each subject is seen at a specific moment of psychological complexity, in a specific environment that tells his story.",
+            "Male sex workers in motel rooms, street corners, and domestic interiors, lit with cinematographer's precision. Each image is a character study: a specific person at a specific psychological moment, in a specific environment that tells his story.",
         },
         { type: "heading", content: "Alex Prager: Face in the Crowd (2013)" },
         {
           type: "paragraph",
           content:
-            "Prager's large-scale crowd scenes — dozens of extras in airports, cinemas, and beaches, each with a specific expression and costume — achieve a collective quality of anxiety and unease that references Hitchcock's crowd sequences. Face in the Crowd is the fullest expression of her approach: elaborate production design, Technicolor saturation, and a compositional intelligence that manages dozens of figures without losing a single one.",
+            "Dozens of extras. Airports, cinemas, beaches. Hitchcockian collective anxiety, Technicolor saturation, compositional intelligence managing every figure. The fullest expression of her obsessive production design approach.",
         },
       ],
       quiz: {
@@ -204,31 +204,31 @@ const course: Course = {
       title: "Modern Influence",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Widescreen as Contemporary Editorial Default" },
+        { type: "heading", content: "Widescreen Is Now the Default" },
         {
           type: "paragraph",
           content:
-            "Widescreen aspect ratios have become the default format for editorial photography, fashion campaigns, and much fine art photography. The shift from 4:3 to 16:9 as the dominant screen format has pulled photography toward cinema's proportions. Contemporary photographers rarely discuss aspect ratio — it has become a default that carries cinematic associations without requiring deliberate choice.",
+            "The shift from 4:3 to 16:9 screens pulled photography toward cinema's proportions without requiring a deliberate choice. Widescreen now carries cinematic associations automatically — the format does the work before the content does.",
         },
-        { type: "heading", content: "Film-Look Presets and VSCO" },
+        { type: "heading", content: "Film-Look Presets Made It Accessible" },
         {
           type: "paragraph",
           content:
-            "VSCO's film simulation presets — Kodak Portra, Fuji Velvia, Ilford HP5 — and Lightroom's cinematic colour grading profiles have made the visual vocabulary of cinema and analogue photography available as one-click choices for any photographer. The teal-and-orange grade, the bleach-bypass look, the film grain filter: all are now standard tools in the amateur photographer's workflow, descended from Hollywood's cinematographers.",
+            "VSCO's Kodak Portra simulations, Lightroom's cinematic grades, the teal-and-orange look as a one-click choice. Hollywood's cinematographic vocabulary is now standard in any amateur's workflow. Borrowed. Democratised.",
         },
-        { type: "heading", content: "Narrative Fashion Editorial" },
+        { type: "heading", content: "Fashion Became a Film" },
         {
           type: "paragraph",
           content:
-            "Contemporary fashion photography has almost entirely absorbed the cinematic aesthetic: campaigns are styled as film stills, look books as storyboards, Instagram grids as sequential narratives. The most influential fashion photographers — Lachlan Bailey, Harley Weir, Jackie Nickerson — work in a cinematic register that owes more to European art cinema than to the studio photography tradition.",
+            "Campaigns styled as film stills. Look books as storyboards. Instagram grids as sequential narratives. The most influential fashion photographers — Lachlan Bailey, Harley Weir, Jackie Nickerson — work in a cinematic register that owes more to European art cinema than to studio photography.",
         },
-        { type: "heading", content: "Anamorphic Lenses for Photography" },
+        { type: "heading", content: "Anamorphic Lenses for Still Photographers" },
         {
           type: "paragraph",
           content:
-            "Anamorphic lenses — designed for widescreen cinema — are increasingly used for still photography. They produce characteristic oval bokeh, horizontal lens flare, and a specific quality of widescreen compression that is immediately recognisable as cinematic. Their growing availability for DSLR and mirrorless cameras has made the anamorphic look — previously achievable only with expensive cinema equipment — accessible to photographers.",
+            "Oval bokeh, horizontal lens flare, widescreen compression: the anamorphic look is now accessible for DSLR and mirrorless cameras. Cinema's most distinctive optical signature, now available to still photographers.",
         },
       ],
       quiz: {
@@ -248,37 +248,37 @@ const course: Course = {
       title: "What You Can Learn",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Making Photographs That Imply Stories" },
+        { type: "heading", content: "How to Make a Still That Implies a Film" },
         {
           type: "paragraph",
           content:
-            "Cinematic photography teaches the discipline of narrative implication: making a single image carry the weight of a story it doesn't tell. This is a different skill from documentary photography (which shows what happened) or portrait photography (which reveals who someone is). It is the skill of the filmmaker's single frame.",
+            "Cinematic photography teaches narrative implication: a single image carrying the weight of a story it doesn't tell. Different from documentary (shows what happened) or portraiture (reveals who someone is). This is the filmmaker's single frame.",
         },
-        { type: "heading", content: "1. Think in Production Design" },
+        { type: "heading", content: "1. Think Like a Production Designer" },
         {
           type: "paragraph",
           content:
-            "Before you photograph a staged scene, think about each element as a production designer would: what does this location say about the character? What does the costume communicate? What is the light source and what emotional quality does it create? Crewdson spends weeks on these questions before making a single exposure.",
+            "Before shooting: what does this location say about the character? What does the costume communicate? What emotional quality does the light source create? Crewdson spends weeks on these questions before making a single exposure.",
         },
-        { type: "heading", content: "2. Choose Your Aspect Ratio Deliberately" },
+        { type: "heading", content: "2. Crop to Widescreen and See What Changes" },
         {
           type: "paragraph",
           content:
-            "Crop one of your existing images to 2.39:1 — the anamorphic widescreen ratio. Notice what the format does to the image's meaning: how it changes the relationship between figure and environment, how it emphasises horizontal movement, how it creates a different kind of space. Then make a new image specifically for that format.",
+            "Crop an existing image to 2.39:1 — the anamorphic ratio. Notice how it changes the relationship between figure and environment, how horizontal movement is emphasised, how a different kind of space is created. Then make a new image specifically for that format.",
         },
         { type: "heading", content: "3. Study the Frozen Frame" },
         {
           type: "paragraph",
           content:
-            "Choose a film you know well and pause it at random moments. Notice which frames contain complete images and which are only comprehensible in motion. The frames that work as images are the ones a film photographer would keep. Study what makes them work: the composition, the light, the expression, the relationship between figures.",
+            "Pause a film you know well at random moments. Notice which frames work as images and which only make sense in motion. What makes the good ones work: composition, light, expression, the relationship between figures?",
         },
-        { type: "heading", content: "4. Imply Rather Than Show" },
+        { type: "heading", content: "4. Imply, Don't Show" },
         {
           type: "paragraph",
           content:
-            "Sherman's Film Stills imply films that don't exist. The technique is one of partial revelation: enough detail to generate a story in the viewer's imagination, but not enough to close it down. Practise withholding: what can you leave out of the frame that the viewer will supply themselves?",
+            "Sherman's Film Stills imply films that don't exist. Partial revelation: enough detail to generate a story in the viewer's imagination, not enough to close it down. Practise withholding. What can the viewer supply themselves?",
         },
       ],
       reflection: {

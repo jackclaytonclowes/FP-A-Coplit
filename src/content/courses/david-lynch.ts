@@ -16,23 +16,23 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "David Lynch (1946–2025, Missoula, Montana)" },
         {
           type: "paragraph",
           content:
-            "David Lynch was born in 1946 in Missoula, Montana, and grew up across multiple American towns as his father moved for work. He came to filmmaking through fine art — he studied at the Pennsylvania Academy of Fine Arts in Philadelphia, where he first made experimental moving images. The art school grounding was decisive: Lynch always thought as a painter who had discovered cinema, not as a filmmaker.",
+            "Lynch came to filmmaking through painting — he studied at the Pennsylvania Academy of Fine Arts in Philadelphia. He always thought as a painter who discovered cinema, not as a filmmaker. Image first. Story second, if at all.",
         },
         {
           type: "paragraph",
           content:
-            "Eraserhead, shot over five years in the early 1970s and partly funded by the AFI, established the core of his visual language: industrial soundscapes, distorted bodies, domestic horror, the uncanny beneath the ordinary. The Elephant Man (1980) was his first mainstream film. Dune (1984) was a commercial and critical disaster he later disowned. Blue Velvet (1986) was his definitive statement.",
+            "Eraserhead took five years and an AFI grant. Blue Velvet (1986) was his definitive statement. Mulholland Drive (2001) is consistently voted among the greatest films ever made. He died in January 2025, still making things.",
         },
         {
           type: "paragraph",
           content:
-            "What followed was a career of radical formal experiment: Wild at Heart won the Palme d'Or at Cannes in 1990. Twin Peaks (TV, 1990–91) brought his sensibility to a mass audience. Lost Highway (1997), Mulholland Drive (2001) — consistently voted among the greatest films ever made — and Inland Empire (2006) pushed further into dream logic. Twin Peaks: The Return (2017), an 18-hour work in TV format, was widely recognised as among the most ambitious things ever made for a screen. He died in January 2025.",
+            "Twin Peaks: The Return (2017) — 18 hours on Showtime — was widely recognised as among the most ambitious things ever made for a screen. Lynch never stopped pushing.",
         },
         {
           type: "heading",
@@ -91,37 +91,37 @@ const course: Course = {
       title: "Influences & Cinematic Education",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Franz Kafka: Inexplicable Bureaucratic Dread" },
+        { type: "heading", content: "Kafka: Rules That Are Wrong in Ways You Can't Explain" },
         {
           type: "paragraph",
           content:
-            "Kafka's novels — The Trial, The Castle, The Metamorphosis — gave Lynch a model for a world in which the rules are wrong in ways that cannot be explained or appealed. The inexplicable bureaucratic menace, the protagonist who cannot understand the forces operating on him, the transformation that happens without cause: all appear in Lynch.",
+            "The Trial, The Metamorphosis — inexplicable bureaucratic menace, guilt assumed, authority unreachable. This is Lynch's world too. You know something is wrong. You can't say what.",
         },
-        { type: "heading", content: "Francis Bacon: Distorted Flesh and the Body as Horror" },
+        { type: "heading", content: "Francis Bacon: The Body as Horror" },
         {
           type: "paragraph",
           content:
-            "Bacon's paintings — screaming figures, distorted flesh, bodies caught in their own biological horror — were a direct visual influence on Lynch's early work. Eraserhead's imagery of distorted bodies and Bacon's screaming popes share a world. Lynch absorbed from Bacon the idea that the human body could be the primary site of existential horror.",
+            "Bacon's screaming figures and distorted flesh showed Lynch that the human body itself could be the primary site of existential dread. Eraserhead shares a world with those paintings.",
         },
-        { type: "heading", content: "Edward Hopper: American Alienation and Isolation" },
+        { type: "heading", content: "Edward Hopper: The Darkness Inside American Normality" },
         {
           type: "paragraph",
           content:
-            "Hopper's paintings of American diners, motels, and suburban interiors — empty, lit harshly, inhabited by figures who cannot connect — are the visual world of Lynch's America. The dark underside of the sunny American suburban ideal is a Hopper inheritance. Lynch's suburbs are Hopper's suburbs with the rot revealed.",
+            "Hopper's diners, motels, and suburban interiors — empty, lit harshly, figures who can't connect. Lynch's suburbs are Hopper's suburbs with the rot revealed.",
         },
-        { type: "heading", content: "Roy Orbison: Darkness Within American Pop Music" },
+        { type: "heading", content: "Roy Orbison: Darkness Inside American Pop" },
         {
           type: "paragraph",
           content:
-            "Lynch's use of American popular music — Orbison's 'In Dreams' in Blue Velvet, the roadhouse performances in Twin Peaks — draws on his conviction that American pop music contains a darkness coiled within its sweetness. Orbison's voice, in Lynch's use, becomes unbearable: love songs that are also laments from somewhere beyond ordinary reality.",
+            "'In Dreams' in Blue Velvet — love songs that become laments from somewhere beyond ordinary reality. Lynch believed American pop music contains a darkness coiled inside its sweetness.",
         },
-        { type: "heading", content: "Billy Wilder's Sunset Boulevard: Hollywood's Dark Mythology" },
+        { type: "heading", content: "Sunset Boulevard: Hollywood's Dark Mythology" },
         {
           type: "paragraph",
           content:
-            "Sunset Boulevard's story of a faded Hollywood star and Hollywood's capacity for self-mythologisation is directly present in Mulholland Drive — Lynch's dream of Hollywood as a place where identity dissolves and the film industry's machinery grinds people to nothing. Lynch loves and is haunted by Hollywood mythology.",
+            "Wilder's film about Hollywood's capacity to grind people to nothing lives directly inside Mulholland Drive. Lynch loves Hollywood mythology — and is haunted by what it costs.",
         },
       ],
       quiz: {
@@ -157,37 +157,37 @@ const course: Course = {
       title: "Visual Style & Techniques",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Industrial Sound Design as Primary Emotional Instrument" },
+        { type: "heading", content: "Sound Is Half the Film" },
         {
           type: "paragraph",
           content:
-            "Lynch's sound designer Alan Splet was as crucial a collaborator as any cinematographer. In Eraserhead and subsequent films, industrial sound — hum, hiss, machinery, electrical noise — forms an ambient emotional field that operates beneath conscious attention. Lynch considers sound the more important half of film; his films are as much heard as seen.",
+            "Alan Splet, Lynch's sound designer, was as crucial as any cinematographer. Industrial hum, electrical noise, machinery — these form an ambient emotional field that operates below conscious attention.",
         },
         { type: "heading", content: "The Slow Zoom into Darkness" },
         {
           type: "paragraph",
           content:
-            "A characteristic Lynch move: a slow zoom or camera push toward a dark space — the grass at the beginning of Blue Velvet, the radiator in Eraserhead, the darkness behind the diner in Mulholland Drive. The camera as probe into the unconscious: moving slowly into a darkness from which something may emerge, or into which we may be drawn and not return.",
+            "The camera pushes toward a dark space — grass, a radiator, a diner corner. It's the unconscious as physical location. Something may emerge. You may be drawn in and not return.",
         },
-        { type: "heading", content: "Ordinary Space Concealing Extraordinary Menace" },
+        { type: "heading", content: "Ordinary Space, Pushed Slightly Past Comfort" },
         {
           type: "paragraph",
           content:
-            "Lynch's great subject is the American suburban ideal — white picket fences, manicured lawns, cheerful diners — and the horror concealed beneath it. He achieves this not by showing the horror beside the normality but by pushing the normality itself slightly past comfort. The perfectly normal neighbourhood in Blue Velvet is wrong in a way that is hard to locate precisely.",
+            "Lynch's great technique: take something normal and hold one element one beat too long. The fireman in Blue Velvet. The too-red roses. Nothing is overtly wrong — but something is.",
         },
-        { type: "heading", content: "Red Curtains, Fire, and Recurring Symbols" },
+        { type: "heading", content: "Red Curtains, Fire, and the Recurring Symbols" },
         {
           type: "paragraph",
           content:
-            "Lynch's visual language includes recurring symbols that function as emotional signals rather than narrative information: red velvet curtains (the threshold between ordinary and extraordinary consciousness), fire (transformation, the unconscious, the dangerous), the roadhouse (the place where American darkness surfaces through music), the diner (American normality as facade).",
+            "Red velvet curtains signal a threshold between ordinary and extraordinary consciousness. Fire means transformation. The roadhouse is where American darkness surfaces through music. Lynch's symbols work like emotional switches.",
         },
-        { type: "heading", content: "Dream Sequences That Contaminate Waking Reality" },
+        { type: "heading", content: "Dreams That Contaminate Waking Reality" },
         {
           type: "paragraph",
           content:
-            "In Mulholland Drive and Lost Highway, Lynch deliberately blurs the boundary between dream and reality until the viewer cannot orient themselves. This is not a narrative trick but a statement about the nature of consciousness: the dream is not separate from the waking world but continuous with it, and the waking world may be the less real of the two.",
+            "In Mulholland Drive and Lost Highway, Lynch blurs dream and reality until you can't orient yourself. His point: the dream is continuous with waking life, not separate. And the dream may be more real.",
         },
       ],
       quiz: {
@@ -223,31 +223,31 @@ const course: Course = {
       title: "Essential Films",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Eraserhead (1977)" },
         {
           type: "paragraph",
           content:
-            "Shot over five years on an AFI grant and personal funds, Eraserhead is Lynch's most purely personal film — a nightmare of industrial anxiety, paternal terror, and bodily horror set in a blasted urban landscape. It established every element of his visual language: the industrial soundscape, the distorted body, the domestic space as horror, the dream that contaminates reality.",
+            "Shot over five years, partly on an AFI grant. Industrial anxiety, paternal terror, distorted bodies in a blasted urban landscape. Every element of Lynch's visual language, fully formed from the start.",
         },
         { type: "heading", content: "Blue Velvet (1986)" },
         {
           type: "paragraph",
           content:
-            "Lynch's definitive statement: a young man finds a severed ear in a suburban field and descends into the darkness beneath American normality. Jeffrey Beaumont's discovery of Frank Booth's world is the discovery of the sexual violence, criminal pathology, and existential horror concealed beneath the white picket fence. The film that established Lynch's central theme once and for all.",
+            "A severed ear in a suburban field. Jeffrey Beaumont descends into the darkness beneath American normality. Lynch's definitive statement: beneath the white picket fence, something has been cut off and left to rot.",
         },
         { type: "heading", content: "Mulholland Drive (2001)" },
         {
           type: "paragraph",
           content:
-            "Consistently voted among the greatest films ever made, Mulholland Drive is Lynch's investigation of Hollywood mythology, identity, and the dream as more real than waking consciousness. A woman arrives in Los Angeles with dreams; the film gradually reveals that what we have been watching may be the dream of the woman she could have been.",
+            "Consistently voted among the greatest films ever made. A woman arrives in LA with dreams. The film gradually reveals that what you've been watching may be the dream of the woman she could have been.",
         },
         { type: "heading", content: "The Straight Story (1999)" },
         {
           type: "paragraph",
           content:
-            "Lynch's one 'normal' film — a G-rated road movie about an old man who drives a lawnmower across Iowa and Wisconsin to visit his dying brother — is as instructive as any of his stranger works. Made within conventional narrative form, it reveals that Lynch's formal experiments are not arbitrary but are demanded by his subjects. The exception clarifies the rule.",
+            "Lynch's one 'normal' film — a G-rated road movie about an old man on a lawnmower. It reveals: his formal experiments are not arbitrary. They're demanded by his subjects. The exception clarifies the rule.",
         },
       ],
       quiz: {
@@ -283,37 +283,37 @@ const course: Course = {
       title: "Themes & Obsessions",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Darkness Concealed Beneath American Suburban Normality" },
+        { type: "heading", content: "The Horror Beneath the Perfect Lawn" },
         {
           type: "paragraph",
           content:
-            "Lynch's fundamental subject is the gap between the American ideal — the clean suburb, the cheerful diner, the happy family — and the reality of violence, sexuality, and psychological damage that the ideal conceals. He is not cynical about the ideal: he seems genuinely to love it, and to find it genuinely beautiful. This makes the darkness beneath it more disturbing.",
+            "Lynch loves the American suburban ideal — genuinely. The white picket fence is beautiful to him. That's what makes the darkness beneath it so disturbing. He's not cynical. He's heartbroken.",
         },
-        { type: "heading", content: "Dreams as More Real Than Waking Consciousness" },
+        { type: "heading", content: "Dreams Are More Real Than Waking Life" },
         {
           type: "paragraph",
           content:
-            "Lynch's films increasingly treat the dream not as escapism but as a more accurate representation of reality than the waking world's conventional surfaces. Mulholland Drive's structure depends on this inversion: what we experience as dream is more real than what we experience as waking life.",
+            "Mulholland Drive's structure depends on this inversion. What we experience as dream is more real than what we experience as waking life. Lynch isn't using dream sequences — he's making you live in one.",
         },
-        { type: "heading", content: "Identity as Fluid and Unstable" },
+        { type: "heading", content: "Identity Is a Performance That Can Be Interrupted" },
         {
           type: "paragraph",
           content:
-            "Lynch's characters — particularly in Lost Highway and Mulholland Drive — undergo identity transformations that have no psychological or narrative explanation. Identity is not stable in Lynch's world; it is a performance that can be interrupted, replaced, or revealed to have been a fiction from the beginning.",
+            "In Lost Highway and Mulholland Drive, characters undergo identity transformations without explanation. Who you are isn't stable. It's a story that can be replaced by a different story.",
         },
-        { type: "heading", content: "Duality: Innocence and Corruption" },
+        { type: "heading", content: "Innocence and Corruption: Inseparable" },
         {
           type: "paragraph",
           content:
-            "Sandy and Dorothy in Blue Velvet, the two women in Mulholland Drive, the innocent detective and the corrupt world in Twin Peaks: Lynch returns obsessively to the opposition of innocence and corruption, and to the suggestion that the two are not separable — that innocence requires corruption to define itself, and may conceal corruption within.",
+            "Sandy and Dorothy in Blue Velvet, the two women in Mulholland Drive — innocence requires corruption to define itself, and may conceal corruption within. Lynch keeps showing you the same thing.",
         },
-        { type: "heading", content: "The Inexplicable as the Deepest Level of Truth" },
+        { type: "heading", content: "The Feeling Is the Meaning" },
         {
           type: "paragraph",
           content:
-            "Lynch resists rational explanation. When asked to explain his films' meanings, he declines: he believes the feeling produced by a work is its meaning, and that verbal explanation reduces feeling to information. His films end in states of inexplicable emotion — dread, grief, wonder — that are, he insists, more true than any interpretation.",
+            "Lynch refused to explain his films. He believed verbal explanation reduces feeling to information. The dread, the grief, the wonder — that's the meaning. Don't explain. Generate.",
         },
       ],
       quiz: {
@@ -349,31 +349,31 @@ const course: Course = {
       title: "What You Can Learn",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "The Technique Is Simple" },
         {
           type: "paragraph",
           content:
-            "Lynch's advice was to sit quietly for 20 minutes before working — to allow the surface noise of consciousness to settle before attempting to reach the ideas that live beneath it. This is not mysticism but practical creative methodology: the best ideas do not arrive under pressure.",
+            "Lynch's advice: sit quietly for 20 minutes before working. Let surface noise settle. The best ideas don't arrive under pressure — they arrive in the space you make for them.",
         },
-        { type: "heading", content: "The Opening of Blue Velvet" },
+        { type: "heading", content: "Study the Opening of Blue Velvet" },
         {
           type: "paragraph",
           content:
-            "Watch the opening five minutes of Blue Velvet. You will see: roses in sunlight, a white picket fence, a smiling fireman on a passing truck, a man watering his garden, a woman watching TV, a dog playing. Then the man falls, and the camera descends into the grass to find the ear. Notice how quickly the normal world becomes wrong. Nothing has changed except the direction of attention.",
+            "Roses, a white picket fence, a smiling fireman, a dog. Then the man falls and the camera descends into the grass. Nothing has changed — except the direction of attention. Watch it and count what makes you uneasy.",
         },
         { type: "heading", content: "Push One Element Past Comfort" },
         {
           type: "paragraph",
           content:
-            "Lynch's core technique is simple: take something ordinary and push one element slightly past the point of comfort, then hold it there. The fireman in Blue Velvet's opening is held one beat too long. The roses are slightly too red. The camera descends slightly further into the grass than any establishing shot needs to go. Nothing is overtly wrong — but something is wrong.",
+            "The fireman is held one beat too long. The roses are slightly too red. Lynch's core technique: take something ordinary, push one element slightly past comfort, then hold it there. Nothing overtly wrong. Something wrong.",
         },
         { type: "heading", content: "Sound Is Half the Film" },
         {
           type: "paragraph",
           content:
-            "Lynch's most transferable lesson for any discipline is his insistence that sound is half the film — or, in his later work, more than half. Before you commit to an image, consider what accompanies it acoustically. The industrial hum beneath Eraserhead is not incidental; it is the film's primary emotional instrument. Ask of any scene: what does this sound like, and what should it sound like?",
+            "Before you commit to an image, consider what accompanies it acoustically. The industrial hum in Eraserhead isn't incidental — it's the film's primary emotional instrument. What does your scene sound like?",
         },
       ],
       reflection: {

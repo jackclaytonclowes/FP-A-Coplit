@@ -16,23 +16,23 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Robert Eggers (born 1983, New Hampshire)" },
         {
           type: "paragraph",
           content:
-            "Robert Eggers was born in 1983 in New Hampshire and came to filmmaking through a background in theatre production design. He designed sets before he directed — an unusually concrete grounding in material culture that would define everything he subsequently made. A director who begins in production design thinks first about the physical world a story inhabits.",
+            "Eggers designed theatre sets before he directed anything. A director who starts in production design thinks first about the physical world a story inhabits — the materials, textures, and objects that make a period feel real.",
         },
         {
           type: "paragraph",
           content:
-            "His feature debut The Witch (2015), subtitled 'A New England Folktale', drew on actual historical records of witch trials and Puritan religious language to create a horror film unlike any other — one in which the supernatural threat is indistinguishable from the psychological collapse of a family under religious extremism.",
+            "The Witch (2015) drew on actual Puritan court records and diaries. The Lighthouse (2019) was shot in 1.19:1 on black-and-white Kodak Ortho Plus. He doesn't compromise on the specifics — ever.",
         },
         {
           type: "paragraph",
           content:
-            "The Lighthouse (2019), shot in the 1.19:1 aspect ratio on black-and-white Kodak Ortho Plus film stock, is among the most formally extreme films of its decade. The Northman (2022) applied the same historical rigour to Viking mythology. Nosferatu (2024), a remake of F.W. Murnau's 1922 film, completed a cycle of primal genre reinventions.",
+            "The Northman applied the same rigour to Viking mythology. Nosferatu (2024) completed a decade-long project to remake Murnau's 1922 expressionist masterwork. Each film is years of research first.",
         },
         {
           type: "heading",
@@ -88,37 +88,37 @@ const course: Course = {
       title: "Influences & Cinematic Education",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Carl Theodor Dreyer: Scandinavian Spiritual Dread" },
+        { type: "heading", content: "Dreyer: Faith as Pressure, Not Comfort" },
         {
           type: "paragraph",
           content:
-            "Dreyer's Day of Wrath and Ordet gave Eggers a model for films in which religious faith is both genuine and terrifying — where God's presence is felt not as comfort but as pressure. Dreyer's compositions, his use of light, and his refusal of narrative comfort are central influences on Eggers' work.",
+            "Day of Wrath, Ordet — Dreyer made films where God's presence is felt as weight, not reassurance. Eggers' Puritan characters experience their faith the same way.",
         },
-        { type: "heading", content: "F.W. Murnau: Expressionist Shadow" },
+        { type: "heading", content: "Murnau: Shadow as Psychological Map" },
         {
           type: "paragraph",
           content:
-            "Murnau's original Nosferatu (1922) and Faust demonstrated that horror could operate through visual metaphor — that shadow, distorted architecture, and expressionistic image-making could externalise psychological states. Eggers' affinity with Murnau deepened across his career and culminated in his remake of Nosferatu.",
+            "The original Nosferatu proved horror could operate through visual metaphor alone. Eggers' affinity with Murnau deepened across his career and ended in a remake. It was always coming.",
         },
-        { type: "heading", content: "Werner Herzog: Obsessive Historical Authenticity" },
+        { type: "heading", content: "Herzog: Obsessive Authenticity Produces Real Images" },
         {
           type: "paragraph",
           content:
-            "Herzog's Aguirre the Wrath of God and Fitzcarraldo showed Eggers that historical cinema could achieve something documentary and visionary simultaneously — that the obsessive pursuit of authenticity (including Herzog's literal methods, shooting in actual jungles with actual boats) produces a different quality of reality.",
+            "Filming in actual jungles with actual boats produces a quality of reality that constructed sets cannot match. Eggers absorbed this lesson and applies it to every period, every material, every word.",
         },
-        { type: "heading", content: "Ingmar Bergman: Isolation and Spiritual Crisis" },
+        { type: "heading", content: "Bergman: Isolation as Psychological Environment" },
         {
           type: "paragraph",
           content:
-            "Bergman's films of isolation — Winter Light, Through a Glass Darkly, The Seventh Seal — showed Eggers how to use confined space and extreme weather as psychological environments. The characters in The Lighthouse are descendants of Bergman's figures: cut off from ordinary society, unable to escape their own minds.",
+            "Winter Light, Through a Glass Darkly — characters cut off from society, unable to escape their own minds. The Lighthouse keepers are Bergman figures trapped in a different century.",
         },
-        { type: "heading", content: "Folk Horror: The Wicker Man, Witchfinder General, Blood on Satan's Claw" },
+        { type: "heading", content: "British Folk Horror: Community Ritual as Dread" },
         {
           type: "paragraph",
           content:
-            "The British folk horror tradition of the late 1960s and early 1970s was central to Eggers' development. These films understood that rural isolation, seasonal folklore, and community ritual could be more disturbing than any supernatural monster. The Witch inherits this tradition and traces it back to its historical sources.",
+            "The Wicker Man, Witchfinder General — rural isolation and seasonal folklore are more disturbing than any supernatural monster. The Witch traces this tradition back to its historical sources.",
         },
       ],
       quiz: {
@@ -154,31 +154,31 @@ const course: Course = {
       title: "Visual Style & Techniques",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Obsessive Historical Authenticity" },
+        { type: "heading", content: "Years of Research Before a Word of Dialogue" },
         {
           type: "paragraph",
           content:
-            "Eggers spends years on research for each film. The Witch's dialogue is drawn from actual 17th-century Puritan documents, court records, and diaries. The architecture was built from period evidence. The costumes were reconstructed from surviving garments. This level of specificity is not decoration — it is a method for reaching the psychological reality of a historical moment.",
+            "The Witch's dialogue comes from actual Puritan court records. The architecture was built from period evidence. The costumes were reconstructed from surviving garments. Specificity is the method.",
         },
-        { type: "heading", content: "Constricted Aspect Ratios" },
+        { type: "heading", content: "The Frame That Presses In" },
         {
           type: "paragraph",
           content:
-            "Eggers uses Academy ratio (1.33:1) or narrower to create claustrophobia. The Lighthouse was shot in the 1.19:1 ratio — even squarer than Academy — creating a frame that feels physically constraining. The forest looms over the Puritan family in The Witch not simply because of set design but because the frame itself has no room to escape.",
+            "The Lighthouse was shot in 1.19:1 — even squarer than Academy ratio. The nearly square frame has no room to escape. It traps the characters visually the way the rock traps them physically.",
         },
-        { type: "heading", content: "Natural and Practical Lighting Only" },
+        { type: "heading", content: "Period Light Only" },
         {
           type: "paragraph",
           content:
-            "Eggers' films are lit exclusively by sources available in the period: candles, hearth fires, overcast northern skies. This restriction is both historically accurate and aesthetically radical. The Witch and The Lighthouse have the quality of old paintings — a chiaroscuro that feels excavated from the period rather than constructed for the screen.",
+            "Candles, hearth fires, overcast northern skies — Eggers' films are lit exclusively by sources available in the period. The result looks like old paintings. It feels excavated, not constructed.",
         },
         { type: "heading", content: "Landscape as Psychological Projection" },
         {
           type: "paragraph",
           content:
-            "In Eggers' films, landscape does not illustrate a story — it embodies the psychological state of the characters. The forest surrounding the Puritan family is both literally threatening and a projection of their repressed sexuality and terror. The sea in The Lighthouse is both the physical environment of the keepers and the unconscious that they cannot escape.",
+            "The forest in The Witch isn't just threatening — it's a projection of the family's repressed sexuality and terror. The sea in The Lighthouse is the unconscious these men can't escape.",
         },
       ],
       quiz: {
@@ -214,31 +214,31 @@ const course: Course = {
       title: "Essential Films",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "The Witch (2015)" },
         {
           type: "paragraph",
           content:
-            "A Puritan family, banished from their plantation, attempts to farm at the edge of a New England forest. The dialogue is drawn from period documents. The supernatural threat — a witch in the forest — may or may not be real; the film is equally interested in the family's psychological dissolution under religious extremism and paranoia. Anya Taylor-Joy's debut performance as Thomasin is extraordinary.",
+            "A Puritan family at the edge of a New England forest. The dialogue is drawn from period documents. The witch may or may not be real — the psychological dissolution is absolutely real. Anya Taylor-Joy's debut.",
         },
         { type: "heading", content: "The Lighthouse (2019)" },
         {
           type: "paragraph",
           content:
-            "Two lighthouse keepers — Willem Dafoe as the old salt who guards the light, Robert Pattinson as the young assistant who covets it — are stranded on a rock during an extended storm. Shot in black-and-white in the 1.19:1 ratio, the film draws on Melville, Prometheus, Proteus, and the folklore of lighthouse keepers, and becomes a study in male hierarchy, jealousy, and psychotic breakdown.",
+            "Two men, one light, one rock, an extended storm. Black-and-white, 1.19:1, Melville and Prometheus and lighthouse folklore all at once. Male hierarchy, jealousy, and psychotic breakdown.",
         },
         { type: "heading", content: "The Northman (2022)" },
         {
           type: "paragraph",
           content:
-            "A Viking revenge epic based on the same Norse legend that inspired Hamlet, filmed with obsessive historical accuracy on authentic locations in Iceland, Ireland, and the UK. The film refuses Hollywood Viking mythology in favour of historical specificity — the actual religious practices, material culture, and social structures of early medieval Scandinavia.",
+            "The Norse legend behind Hamlet, filmed with obsessive historical accuracy in Iceland, Ireland, and the UK. No Hollywood Vikings — actual religious practices, material culture, social structures.",
         },
         { type: "heading", content: "Nosferatu (2024)" },
         {
           type: "paragraph",
           content:
-            "A remake of Murnau's 1922 expressionist masterwork, developed over more than a decade. Eggers relocates the story to 19th-century Germany and applies his methods of historical and material authenticity to a story that Murnau told through pure visual metaphor. Bill Skarsgård's Count Orlok is among the most terrifying figures in recent horror cinema.",
+            "Eggers remakes Murnau after more than a decade of development. Relocated to 19th-century Germany, with full historical and material authenticity applied to a story Murnau told through pure visual metaphor.",
         },
       ],
       quiz: {
@@ -274,37 +274,37 @@ const course: Course = {
       title: "Themes & Obsessions",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Faith and Its Disintegration" },
+        { type: "heading", content: "Faith Collapses Under the Inexplicable" },
         {
           type: "paragraph",
           content:
-            "Eggers' films are obsessed with religious faith and its collapse when confronted with the inexplicable. The Puritan family in The Witch believes absolutely in God's providence — and are destroyed by their inability to reconcile that belief with what happens to them. Faith, in Eggers, is not comfort; it is pressure.",
+            "Eggers' characters believe absolutely — then can't reconcile their faith with what happens to them. Faith in his films isn't comfort. It's a pressure that builds until something breaks.",
         },
         { type: "heading", content: "Isolation as Psychological Torture" },
         {
           type: "paragraph",
           content:
-            "Every Eggers film is set in radical isolation — a forest clearing, a lighthouse rock, the Viking age world before modern communication. Isolation in his films is not merely a narrative device but a psychological environment: it removes the social supports that allow people to maintain their ordinary selves.",
+            "Every Eggers film is set in radical isolation. Cut off from ordinary society, his characters lose the social supports that allow people to maintain their ordinary selves. Then things get worse.",
         },
-        { type: "heading", content: "Folklore as Repressed Psychological Truth" },
+        { type: "heading", content: "Folklore Is Repressed Psychological Truth" },
         {
           type: "paragraph",
           content:
-            "Eggers regards folklore — witch mythology, lighthouse superstition, Viking cosmology — as the repository of repressed psychological truth. Folklore gives terrifying form to what a culture cannot say directly: its fears about sexuality, death, the body, and social transgression. His films treat folklore with the seriousness of documentary evidence.",
+            "Witch mythology, lighthouse superstition, Viking cosmology — folklore gives terrifying form to what a culture can't say directly. Eggers treats it like documentary evidence. He's right to.",
         },
-        { type: "heading", content: "The Body's Terror at Dissolution" },
+        { type: "heading", content: "The Body's Vulnerability" },
         {
           type: "paragraph",
           content:
-            "A recurring preoccupation in Eggers' work is the body's vulnerability — its capacity for corruption, dissolution, and transformation. The Witch uses the body as the site of supernatural invasion. The Lighthouse is obsessed with bodily fluids, functions, and the boundary between human and animal.",
+            "The Witch uses the body as the site of supernatural invasion. The Lighthouse is obsessed with bodily fluids and the boundary between human and animal. Bodies fail. Bodies transform. Bodies betray.",
         },
-        { type: "heading", content: "The Past as Closer and More Real Than the Present" },
+        { type: "heading", content: "The Past Is Not Over" },
         {
           type: "paragraph",
           content:
-            "Eggers treats history not as remote and safely past but as immediate and pressing. His historical periods are chosen because they contain forces that have not been resolved — the religious extremism of Puritan New England, the violence of Viking society, the folk beliefs of pre-modern Europe. The past is not over; it is the substrate of the present.",
+            "Eggers picks historical periods because they contain forces that haven't been resolved. Puritan religious extremism, Viking violence, pre-modern folk belief — the past is the substrate of the present.",
         },
       ],
       quiz: {
@@ -340,31 +340,31 @@ const course: Course = {
       title: "What You Can Learn",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "The Research Principle" },
         {
           type: "paragraph",
           content:
-            "Eggers spends years researching each film before writing a word of dialogue. For The Witch he read 17th-century Puritan diaries, court records, and theological texts. For The Northman he consulted archaeologists, historians, and Old Norse scholars. This is not academic completism — it is a creative method.",
+            "Eggers spends years researching each film before writing a word of dialogue. Puritan diaries, court records, Old Norse scholars, archaeologists. This isn't academic completism — it's a creative method.",
         },
         { type: "heading", content: "What Specificity Does" },
         {
           type: "paragraph",
           content:
-            "Specific historical details — the exact words people used, the actual texture of the materials they handled, the real beliefs they held — produce a different quality of reality than general historical atmosphere. The audience does not need to know that a line of dialogue is drawn from a 1662 court record to feel its truth. Specificity communicates without announcing itself.",
+            "Specific historical details — exact words, actual textures, real beliefs — produce a different quality of reality than general atmosphere. Audiences feel truth without knowing why. Specificity communicates without announcing itself.",
         },
-        { type: "heading", content: "The Practical Exercise" },
+        { type: "heading", content: "Spend a Day in a Primary Source" },
         {
           type: "paragraph",
           content:
-            "Before your next project — whatever its subject — spend a day in a library, an archive, or a specialist collection researching the time, place, or subject you are working with. Look for primary sources: diaries, letters, accounts written at the time rather than about it. Notice how specific historical details change the quality of your work.",
+            "Before your next project, spend a day in a library or archive with primary sources — diaries, letters, accounts written at the time, not about it. Notice what a general history would never contain.",
         },
         { type: "heading", content: "Research as a Creative Act" },
         {
           type: "paragraph",
           content:
-            "Eggers' method suggests that research is not a preliminary to creative work but a creative act in itself. The specific historical detail that suddenly illuminates a character's inner life, or gives a scene its unexpected resonance, is a discovery rather than a fact. The archive is a place where stories are found, not just verified.",
+            "The specific historical detail that illuminates a character's inner life is a discovery, not a fact. The archive is a place where stories are found. Eggers knows this. Go find yours.",
         },
       ],
       reflection: {

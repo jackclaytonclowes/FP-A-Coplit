@@ -16,29 +16,29 @@ const course: Course = {
       title: "Origins & Context",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Revolution and Its Consequences" },
+        { type: "heading", content: "The French Revolution Launched the Modern Political Vocabulary" },
         {
           type: "paragraph",
           content:
-            "The French Revolution of 1789 launched the modern political vocabulary: liberty, equality, fraternity, citizen, nation, right. The Declaration of the Rights of Man and of the Citizen proclaimed principles that undermined every existing monarchical and aristocratic order in Europe. But the Revolution also demonstrated how quickly emancipatory politics could produce the Terror — the systematic execution of thousands in the name of revolutionary purity — and ultimately Napoleon Bonaparte, a military genius who became emperor while claiming to carry revolutionary principles across Europe.",
+            "Liberty, equality, fraternity, citizen, nation, right — all launched in 1789. The Revolution also demonstrated how fast emancipatory politics could produce the Terror, then Napoleon: emperor, claiming to carry revolutionary principles across Europe at swordpoint.",
         },
         {
           type: "paragraph",
           content:
-            "The Napoleonic Wars (1803–1815) had the paradoxical effect of spreading revolutionary ideas even as Napoleon's armies conquered. Nationalism — the political principle that each 'people' sharing language, culture, and history deserves its own state — was ignited wherever French armies marched, both by inspiration and by reaction against French occupation. The Congress of Vienna (1815) attempted to restore the conservative order and suppress nationalism; the revolutions of 1848 — the 'Spring of Nations', in which nationalist and liberal uprisings swept through France, the German states, the Austrian Empire, and Italy — demonstrated how thoroughly nationalism had already taken hold.",
+            "The Napoleonic Wars paradoxically spread revolutionary ideas while conquering. Nationalism — the principle that each people deserves its own state — ignited wherever French armies marched, both by inspiration and by resistance to occupation. The Congress of Vienna tried to suppress it. The 1848 revolutions showed how thoroughly it had already taken hold.",
         },
-        { type: "heading", content: "Industrialisation and Its Discontents" },
+        { type: "heading", content: "Industrialisation: The Biggest Disruption Since Agriculture" },
         {
           type: "paragraph",
           content:
-            "The Industrial Revolution, beginning in Britain in the 1760s and spreading to continental Europe and North America through the 19th century, was the most fundamental transformation of human labour and living conditions since the Agricultural Revolution ten thousand years earlier. Steam power, mechanised production, and the factory system concentrated workers in cities in conditions of often brutal exploitation — child labour, twelve-hour days, slum housing, no safety regulations.",
+            "Steam power, the factory system, mechanised production — workers concentrated in cities under brutal exploitation. Child labour, twelve-hour days, slum housing. The most fundamental transformation of human labour in ten thousand years.",
         },
         {
           type: "paragraph",
           content:
-            "Karl Marx and Friedrich Engels's Communist Manifesto (1848) gave this experience its most influential theoretical expression: history as class struggle, capitalism as a system that creates the conditions for its own overthrow, and the proletariat as the historical agent of transformation. Written during the 1848 revolutions, it was largely ignored at the time. Its influence on the following century was incalculable.",
+            "Marx and Engels's Communist Manifesto (1848) gave this experience its most influential theoretical expression. Written during the 1848 revolutions, largely ignored at the time — its influence on the following century was incalculable.",
         },
       ],
       quiz: {
@@ -75,29 +75,29 @@ const course: Course = {
       title: "Key Events",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The 19th Century: Empire, Nation, and Crisis" },
+        { type: "heading", content: "The 19th Century: Empires, Nations, and Crises" },
         {
           type: "paragraph",
           content:
-            "The American Civil War (1861–65) settled by force the question that the Constitution had evaded: whether the United States would be a free nation or a slaveholding one. The war cost 620,000 lives — more Americans than any other conflict — and ended chattel slavery in the United States. Reconstruction's promise of Black political equality was betrayed within a decade, but the constitutional amendments that abolished slavery and guaranteed equal protection created the legal foundation for the civil rights struggles of the following century.",
+            "The American Civil War (1861–65) settled what the Constitution had evaded: slavery. 620,000 lives. Reconstruction's promise of Black equality was betrayed within a decade — but the constitutional amendments created the foundation for civil rights struggles a century later.",
         },
         {
           type: "paragraph",
           content:
-            "The Berlin Conference of 1884–85, convened by Bismarck, formalised the Scramble for Africa in which European powers partitioned the continent among themselves. Africa was divided into states whose borders reflected European negotiating convenience rather than African ethnic, linguistic, or political realities. By 1914, only Ethiopia and Liberia remained nominally independent. The colonial systems established — extractive, racially hierarchical, structurally dependent — shaped African economies and politics in ways that persist today.",
+            "The Berlin Conference of 1884–85 formalised the Scramble for Africa. Europeans drew borders in straight lines reflecting negotiating convenience, not African realities. By 1914, only Ethiopia and Liberia remained independent. Those borders still shape African politics today.",
         },
         { type: "heading", content: "The 20th Century's Arc of Violence and Change" },
         {
           type: "paragraph",
           content:
-            "World War I (1914–18) ended four empires — the Ottoman, Austro-Hungarian, Russian, and German — and killed approximately 20 million people. The Bolshevik Revolution of 1917, seizing power in the chaos of Russia's defeat, created the first communist state and split the international left for the following seventy years. The Great Depression, beginning with the Wall Street Crash of October 1929, destroyed the liberal economic order and created the conditions for fascism's rise.",
+            "WWI ended four empires and killed 20 million. The Bolshevik Revolution of 1917 created the first communist state and split the international left for seventy years. The Great Depression created the conditions for fascism's rise.",
         },
         {
           type: "paragraph",
           content:
-            "World War II (1939–45) killed approximately 70 million people and ended with the United States and Soviet Union as the only remaining great powers. The subsequent Cold War, decolonisation wave, and the creation of international institutions — the UN, IMF, World Bank — defined the post-war order. India's independence in 1947, quickly followed by most of Africa and Asia through the 1950s–1970s, ended the European colonial system. The fall of the Berlin Wall in 1989 and the Soviet Union's dissolution in 1991 opened a brief unipolar moment. September 11, 2001, the 2008 financial crisis, and the COVID-19 pandemic of 2020 each in their way tested the resilience of the liberal order built after 1945.",
+            "WWII killed 70 million and left the US and USSR as the only remaining great powers. Decolonisation followed — India in 1947, most of Africa by the 1970s. The Berlin Wall fell in 1989. Then came September 11, the 2008 financial crisis, and COVID — each testing the liberal order built after 1945.",
         },
       ],
       quiz: {
@@ -134,29 +134,29 @@ const course: Course = {
       title: "Major Figures",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Revolutionaries and Reformers" },
+        { type: "heading", content: "Napoleon: Revolution's Greatest Paradox" },
         {
           type: "paragraph",
           content:
-            "Napoleon Bonaparte (1769–1821) is modernity's first great paradox: a revolutionary general who became an emperor, who abolished feudalism across Europe while conquering it, who codified revolutionary legal principles in the Napoleonic Code while suppressing political liberty. The Code Napoleon — establishing equality before the law, property rights, religious toleration, and the abolition of feudal privilege — outlasted his empire and remains the basis of legal systems across France, Belgium, Louisiana, Quebec, and much of the world that French colonialism reached.",
+            "He abolished feudalism across Europe while conquering it. His Napoleonic Code — equality before the law, property rights, religious toleration — outlasted his empire and still underpins legal systems across France, Belgium, Quebec, and beyond.",
         },
         {
           type: "paragraph",
           content:
-            "Otto von Bismarck (1815–1898) unified the German states through 'blood and iron' — strategic wars against Denmark, Austria, and France — and in doing so created the most powerful state in Europe and fundamentally destabilised the continental balance of power. His diplomatic genius in managing the rivalries he had created died with him; the alliance system he built became the mechanism that turned a Balkan assassination into a world war. Karl Marx (1818–1883), whose Capital provided the theoretical architecture for socialist and communist movements worldwide, spent much of his life as a refugee in London writing in the British Museum library.",
+            "Bismarck unified Germany through 'blood and iron' — strategic wars against Denmark, Austria, and France. His diplomatic genius in managing the rivalries he'd created died with him. The alliance system he built became the mechanism that turned a Balkan assassination into a world war.",
         },
-        { type: "heading", content: "The 20th Century's Defining Leaders" },
+        { type: "heading", content: "Gandhi: Non-Violence as Political Technology" },
         {
           type: "paragraph",
           content:
-            "Mahatma Gandhi (1869–1948) developed non-violent resistance as a political technology with global consequences. His methods — civil disobedience, non-cooperation, the strategic acceptance of imprisonment — were consciously designed to expose the moral illegitimacy of colonial power and force the coloniser to either concede or reveal its violence to the world. The model was exported to the American civil rights movement, the anti-apartheid struggle, and independence movements across Asia and Africa.",
+            "Gandhi designed non-violent resistance to force a dilemma: concede, or visibly brutalise peaceful protesters. Either way, the coloniser loses. The method was exported to the US civil rights movement, anti-apartheid, and independence movements worldwide.",
         },
         {
           type: "paragraph",
           content:
-            "Franklin Roosevelt (1882–1945) responded to the Great Depression with the New Deal — a transformation of American government's role in economic management whose legacy still shapes the argument about the state's economic responsibilities. His wartime leadership forged the alliance that defeated the Axis. Mao Zedong (1893–1976) led the Chinese Communist revolution that created the People's Republic in 1949, and then launched the Great Leap Forward (1958–62) — a forced industrialisation and collectivisation programme that caused a famine killing 30–45 million people — and the Cultural Revolution (1966–76) that destroyed China's cultural heritage and persecuted millions of intellectuals. Nelson Mandela (1918–2013) spent 27 years in prison for his resistance to apartheid and emerged without bitterness to negotiate and lead South Africa's transition to democracy — one of the 20th century's most remarkable acts of political and personal reconciliation.",
+            "Roosevelt's New Deal transformed the American state's role in economic management. Mao's Great Leap Forward killed 30–45 million through famine. Mandela spent 27 years in prison and emerged without bitterness to negotiate South Africa's transition to democracy — one of the century's most remarkable acts of political reconciliation.",
         },
       ],
       quiz: {
@@ -193,29 +193,29 @@ const course: Course = {
       title: "Turning Points",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Moments That Made the Modern World" },
+        { type: "heading", content: "Industrialisation: Not an Event, a Transformation" },
         {
           type: "paragraph",
           content:
-            "The Industrial Revolution was the first turning point — not a single event but a decades-long transformation that changed the material basis of human life more fundamentally than anything since agriculture. Steam power, mechanised production, global trade networks, the factory city, and the wage labourer all emerged from this transformation. The political ideologies of the 19th and 20th centuries — liberalism, socialism, conservatism, nationalism, communism, fascism — were all responses to industrialisation's disruptions.",
+            "Steam power, mechanised production, the factory city, the wage labourer — these reshaped human life more fundamentally than anything since agriculture. Every 19th-century ideology — liberalism, socialism, nationalism, conservatism — was a response to industrialisation's disruptions.",
         },
         {
           type: "paragraph",
           content:
-            "1914 is the end of the long 19th century — the moment when the European optimism of the Belle Époque, the international order built since Vienna, and four empires all began to collapse. The assassination of Archduke Franz Ferdinand in Sarajevo on June 28, 1914, was not the cause of the war — the cause was the system of alliances, the military planning that allowed no diplomatic pause, the nationalism that made mobilisation popular, and the imperialism that had been building tensions for decades. But it was the trigger, and what it triggered was the destruction of the world that had existed.",
+            "1914 ended the long 19th century. The assassination of Archduke Franz Ferdinand wasn't the cause of WWI — the alliance system, military planning that allowed no diplomatic pause, and decades of nationalism and imperialism built the pressure. The assassination just pulled the trigger.",
         },
-        { type: "heading", content: "1945, 1989, and 2008" },
+        { type: "heading", content: "1945, 1989, 2008: Three World-Reordering Moments" },
         {
           type: "paragraph",
           content:
-            "1945 was the hinge of the modern world: the nuclear threshold was crossed, American hegemony was established, the United Nations was founded, the Cold War began, and the decolonisation wave was set in motion. The post-war order — Bretton Woods institutions, NATO, the UN Security Council, nuclear deterrence — remains the framework within which international politics operates, modified but not replaced.",
+            "1945: nuclear threshold crossed, American hegemony established, Cold War begun, decolonisation set in motion. The post-war order — UN, NATO, Bretton Woods institutions — is modified but not replaced.",
         },
         {
           type: "paragraph",
           content:
-            "The fall of the Berlin Wall in 1989 and the Soviet dissolution in 1991 appeared to confirm liberal democracy and market capitalism as the terminus of political evolution. The 2008 financial crisis destroyed that confidence. The collapse of major financial institutions, the bailouts of banks while ordinary citizens lost homes and jobs, and the revelation that the financial system's complexity had outrun regulators' ability to understand it — all produced a loss of institutional trust that populist movements across left and right exploited through the following decade.",
+            "1989 appeared to confirm liberal democracy had won. The 2008 financial crisis destroyed that confidence. Banks bailed out, ordinary citizens lost homes and jobs, institutional trust collapsed — and populist movements across left and right exploited the wreckage.",
         },
       ],
       quiz: {
@@ -252,30 +252,30 @@ const course: Course = {
       title: "Legacy & Long-Term Impact",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Nation-State and the International Order" },
+        { type: "heading", content: "The Nation-State: Modernity's Primary Political Invention" },
         {
           type: "paragraph",
           content:
-            "The nation-state — the unit of political organisation in which a sovereign people with a shared identity governs a defined territory — is modernity's primary political invention. Before the French Revolution, most people lived in empires, kingdoms, or city-states organised around dynastic loyalty rather than national identity. The nation-state system formalised at Westphalia (1648) and extended through 19th-century nationalism is still the primary unit of international politics: states have sovereignty, states sign treaties, states are UN members.",
+            "Before the French Revolution, most people lived in empires or kingdoms organised around dynastic loyalty. The nation-state system — sovereign people, shared identity, defined territory — is still the primary unit of international politics.",
         },
         {
           type: "paragraph",
           content:
-            "The international institutions created after 1945 — the United Nations, the International Monetary Fund, the World Bank, the General Agreement on Tariffs and Trade (later the WTO) — were designed to prevent the specific failures that had produced the World Wars: economic nationalism, imperial competition, and the absence of a forum for conflict resolution. They have been imperfect instruments, but the world since 1945 has not seen a major war between great powers — a fact with no precedent in the previous two centuries.",
+            "The international institutions built after 1945 — UN, IMF, World Bank, WTO — were designed to prevent the specific failures that produced the world wars: economic nationalism, imperial competition, no forum for conflict resolution. Imperfect instruments. But no major war between great powers since 1945 — historically unprecedented.",
         },
-        { type: "heading", content: "The Carbon Economy" },
+        { type: "heading", content: "Climate Change Is Industrialisation's Accumulated Invoice" },
         {
           type: "paragraph",
           content:
-            "The Industrial Revolution's defining legacy is the carbon economy: the burning of fossil fuels as the primary energy source for human civilisation. The atmospheric carbon concentration that was 280 parts per million before industrialisation reached 420 parts per million in 2023 and is rising. Climate change is the Industrial Revolution's accumulated invoice — a consequence so delayed that it falls on generations who did not make the decisions. The path dependency is severe: the entire infrastructure of modern civilisation — power grids, transport, heating, food systems — was built on fossil fuels, and transitioning away requires changes of comparable scale to industrialisation itself.",
+            "Atmospheric carbon was 280 parts per million before industrialisation. It hit 420 ppm in 2023 and is rising. The people making decisions in 1860 couldn't have known. The people suffering the consequences in 2060 won't have made them. That temporal displacement is the central moral problem.",
         },
-        { type: "heading", content: "Globalisation and Its Discontents" },
+        { type: "heading", content: "Globalisation Lifted Hundreds of Millions — and Left Others Behind" },
         {
           type: "paragraph",
           content:
-            "Globalisation — the increasing integration of economies, cultures, and information across national borders — accelerated dramatically after 1989. Global trade as a share of world GDP roughly doubled between 1990 and 2008. Hundreds of millions of people were lifted out of poverty, primarily in China and South Asia. But the gains were distributed unequally: the middle classes of wealthy countries found their wages stagnant as manufacturing moved to lower-wage economies, and the sense of insecurity this produced drove the populist politics of the 2010s. Globalisation's fragility was exposed by the COVID pandemic and the supply chain disruptions it caused.",
+            "Trade as a share of world GDP doubled between 1990 and 2008. Hundreds of millions lifted out of poverty in China and South Asia. But wealthy countries' middle classes saw stagnant wages as manufacturing moved elsewhere. That insecurity drove the populist politics of the 2010s.",
         },
       ],
       quiz: {
@@ -312,31 +312,31 @@ const course: Course = {
       title: "Why This Matters Today",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "How We Got Here" },
+        { type: "heading", content: "Modern History Is the Explanation for Right Now" },
         {
           type: "paragraph",
           content:
-            "Modern history is the explanation for the world's present configuration. Why are borders where they are? Because colonial powers drew them, or because post-WWI peace conferences rearranged Europe on national lines, or because 19th-century nationalist movements achieved states. Why are some countries wealthy and others poor? Because of path dependency — the institutions, infrastructure, and human capital built up over generations — combined with the history of colonial extraction, resource endowments, and the specific decisions made at critical junctures.",
+            "Why are borders where they are? Colonial powers drew them, or post-WWI peace conferences rearranged them. Why are some countries wealthy and others poor? Path dependency — institutions, infrastructure, the history of extraction, the specific decisions made at critical junctures.",
         },
-        { type: "heading", content: "Why Conflicts Keep Recurring" },
+        { type: "heading", content: "Today's Conflicts Have Deep Roots" },
         {
           type: "paragraph",
           content:
-            "The conflicts that dominate news today are mostly not new. The Israel-Palestine conflict has roots in the late Ottoman period, the Balfour Declaration of 1917, the Holocaust's creation of existential urgency for Zionism, and the 1948 war. The India-Pakistan conflict over Kashmir is rooted in the 1947 partition — itself a rushed solution to the British inability to resolve competing claims. The tensions between China and Taiwan derive from the Chinese Civil War of 1927–49. Understanding current conflicts without their historical depth produces policy responses that address symptoms rather than causes.",
+            "Israel-Palestine traces to the late Ottoman period, the 1917 Balfour Declaration, the Holocaust, and the 1948 war. India-Pakistan traces to the 1947 partition. China-Taiwan traces to the Chinese Civil War of 1927–49. Address symptoms without historical depth and you'll keep failing.",
         },
-        { type: "heading", content: "How Systems Change" },
+        { type: "heading", content: "History Shows How Systems Actually Change" },
         {
           type: "paragraph",
           content:
-            "Modern history is a long study in how systems change — and what makes change possible. The French Revolution showed that political order could be transformed quickly under pressure. The Industrial Revolution showed that economic transformation reshapes political structures slowly but fundamentally. Gandhi and King showed that non-violent movements could move formal legal structures that seemed immovable. Gorbachev showed that attempts to reform unreformable systems can dissolve them entirely. The 2008 financial crisis and COVID showed that complex systems can fail rapidly when the assumptions underlying them are wrong.",
+            "The French Revolution showed political order can transform fast under pressure. Gandhi and King showed non-violent movements can shift immovable legal structures. Gorbachev showed that attempts to reform unreformable systems can dissolve them. 2008 showed complex systems can fail rapidly when their foundational assumptions are wrong.",
         },
-        { type: "heading", content: "What Makes Change Possible" },
+        { type: "heading", content: "Change Needs Structure Plus Agency" },
         {
           type: "paragraph",
           content:
-            "The historian's question — why did change happen here and not there, then and not before? — is also the activist's, the entrepreneur's, and the policymaker's question. The historical record suggests that change typically requires a combination of structural conditions (the existing system is under stress, a crisis has revealed its failures, alternatives are available) and human agency (people who recognise the moment and act on it). Neither structural conditions alone nor individual will alone is sufficient. History is neither inevitable nor arbitrary.",
+            "The historical record is consistent: change requires structural conditions (an existing system under stress, credible alternatives available) and human agency (people who recognise the moment and act). Neither alone is sufficient. History is neither inevitable nor arbitrary.",
         },
       ],
       reflection: {
