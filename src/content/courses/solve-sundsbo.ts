@@ -17,18 +17,18 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Sølve Sundsbø (b. 1970, Ålesund, Norway)" },
+        { type: "heading", content: "From Norwegian Graphic Design to Fashion's Frontier" },
         {
           type: "paragraph",
           content:
-            "Sølve Sundsbø was born in 1970 in Ålesund, Norway, and studied graphic design before discovering photography. He moved to London in the early 1990s and began assisting photographers — most significantly Nick Knight, whose SHOWstudio ethos of constant experimentation and technological curiosity shaped Sundsbø's entire approach to the medium.",
+            "Born in Ålesund, Norway in 1970, Sundsbø studied graphic design before photography found him. He moved to London, started assisting — and landed with Nick Knight.",
         },
         {
           type: "paragraph",
           content:
-            "Sundsbø's early editorial work for magazines including Dazed & Confused and AnOther established him as one of the most technically innovative photographers of his generation. His images consistently push the boundaries of what photography can look like — not through post-production manipulation but through physical and technical experimentation during the shoot itself.",
+            "Knight's SHOWstudio ethos — experiment constantly, treat technology as creative material — became Sundsbø's operating system. He's been pushing what a fashion image can look like ever since.",
         },
         {
           type: "heading",
@@ -37,11 +37,11 @@ const course: Course = {
         {
           type: "list",
           items: [
-            "Early 1990s: Moves to London; assists Nick Knight",
-            "Late 1990s: Begins editorial career for Dazed and AnOther",
+            "Early 1990s: Arrives in London; assists Nick Knight",
+            "Late 1990s: Editorial work begins for Dazed and AnOther",
             "2000s: Regular contributor to French Vogue, W Magazine, and major fashion houses",
-            "2009: Appointed to shoot Pirelli Calendar — the youngest photographer in the calendar's history at that time",
-            "Ongoing: One of the most technically experimental fashion photographers working today",
+            "2009: Shoots the Pirelli Calendar — youngest photographer in the project's history at that time",
+            "Ongoing: Fashion photography's most technically restless practitioner",
           ],
         },
         {
@@ -67,31 +67,31 @@ const course: Course = {
       title: "Visual Style Analysis",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Technical Ambition as Aesthetic" },
+        { type: "heading", content: "What Has Never Been Done Before?" },
         {
           type: "paragraph",
           content:
-            "Sundsbø's visual style is defined by technical ambition — each image seems to be asking 'what has never been done before?' His work is characterised by extraordinary visual complexity: bodies multiplied and fragmented, movement frozen in ways that reveal the physics of motion, light behaving as if it followed different laws.",
+            "That's the question Sundsbø asks every project. Bodies multiplied, motion revealed, light behaving impossibly — his images always feel like they shouldn't exist.",
         },
-        { type: "heading", content: "Physical Experimentation" },
+        { type: "heading", content: "In-Camera, Not Post-Production" },
         {
           type: "paragraph",
           content:
-            "Where many technically ambitious photographers rely on post-production to create complexity, Sundsbø prefers physical experimentation. He uses mirrors, multiple exposures, unusual lighting setups, and camera movements during long exposures to create effects that are in-camera rather than post-produced. The images are often as complex to light and shoot as to post-process.",
+            "While others reach for Photoshop, Sundsbø reaches for mirrors, multiple exposures, and unusual light setups. The complexity is built on set, not on screen.",
         },
-        { type: "heading", content: "The Sculptural Body" },
+        { type: "heading", content: "The Body as Geometry" },
         {
           type: "paragraph",
           content:
-            "Like his mentor Knight, Sundsbø treats the body as a sculptural subject — interested in its forms, its movement, and its visual possibilities as a formal object. His images often present the body in ways that reveal its geometry rather than its social identity: fragments, silhouettes, repeated motifs.",
+            "Like Knight, he treats the body as a sculptural object — interested in its forms and visual possibilities, not just its social identity. Fragments, silhouettes, repeated motifs.",
         },
-        { type: "heading", content: "Colour as Architecture" },
+        { type: "heading", content: "Colour That Builds Space" },
         {
           type: "paragraph",
           content:
-            "Sundsbø's colour work is highly architectural — colours are used to create spatial depth, to separate planes, and to construct images that feel three-dimensional. His colour choices are rarely naturalistic; they are designed to serve the formal structure of the image.",
+            "Sundsbø's colour choices create depth and separate planes — they're architectural, not decorative. His images feel three-dimensional because colour does structural work.",
         },
         {
           type: "quote",
@@ -116,31 +116,31 @@ const course: Course = {
       title: "Signature Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Pirelli Calendar (2009)" },
         {
           type: "paragraph",
           content:
-            "Sundsbø was the youngest photographer in the Pirelli Calendar's history at the time of his appointment. His calendar was technically extraordinary — using multiple exposures, unusual lighting, and physical effects to create images that felt simultaneously classical and futuristic. It demonstrated that technical ambition could serve classical beauty rather than overpower it.",
+            "The youngest photographer in Pirelli's history at the time. His calendar was technically extraordinary — simultaneously classical and futuristic. Technical ambition served beauty rather than overpowering it.",
         },
-        { type: "heading", content: "Work for Alexander McQueen" },
+        { type: "heading", content: "Alexander McQueen Campaigns" },
         {
           type: "paragraph",
           content:
-            "Sundsbø's campaigns for Alexander McQueen are among the most technically ambitious in fashion photography. Working with McQueen's conceptual garments, he created images that matched the clothes' ambition — using technology as McQueen used pattern and material, to exceed the limits of what should be possible.",
+            "Working with McQueen's conceptual garments, Sundsbø matched the clothes' own ambition image for image. His technology met McQueen's pattern-cutting at the same radical extreme.",
         },
-        { type: "heading", content: "Editorial for W Magazine" },
+        { type: "heading", content: "W Magazine Editorials" },
         {
           type: "paragraph",
           content:
-            "Sundsbø's editorial work for W Magazine consistently demonstrates his ability to create visual spectacle within commercial constraints. W's large format and openness to visual experimentation made it a natural home for his work.",
+            "W's large format and appetite for experimentation made it his natural home. These spreads consistently demonstrate visual spectacle within commercial limits.",
         },
-        { type: "heading", content: "Beauty and Abstraction" },
+        { type: "heading", content: "Where Fashion Meets Abstraction" },
         {
           type: "paragraph",
           content:
-            "Some of Sundsbø's most interesting work sits at the boundary of fashion and abstraction — images where the subject is barely identifiable as a person, where the body has become a field of light and form. These images demonstrate that his technical ambition serves a genuine interest in the limits of representation.",
+            "Some of his most interesting work is barely recognisable as photography — the body becomes a field of light and form. These images show his technical ambition serves a genuine question: how far can representation go?",
         },
       ],
       quiz: {
@@ -160,31 +160,31 @@ const course: Course = {
       title: "Techniques & Approach",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Research Phase" },
+        { type: "heading", content: "Research Before You Touch the Camera" },
         {
           type: "paragraph",
           content:
-            "Before each major project, Sundsbø undertakes an extensive research phase — exploring not just visual references but scientific and technical research into the effects he wants to create. He studies optics, physics, and the specific properties of materials in order to understand what is technically achievable and how to achieve it.",
+            "Before each project, Sundsbø digs into optics, physics, and materials science. He wants to know exactly what's achievable before he tries to achieve it.",
         },
-        { type: "heading", content: "Testing and Experimentation" },
+        { type: "heading", content: "Test Until There Are No Surprises" },
         {
           type: "paragraph",
           content:
-            "Sundsbø conducts extensive testing before his shoots — trying different combinations of technique to understand their effects before committing to a final approach. This investment in testing means that by the time the shoot begins, he has eliminated the surprises and can focus on execution.",
+            "He spends serious time testing before the actual shoot — trying technique combinations until he understands their effects cold. By shoot day, the experiments are done.",
         },
-        { type: "heading", content: "Collaboration With Post-Production" },
+        { type: "heading", content: "Post-Production as Co-Creation" },
         {
           type: "paragraph",
           content:
-            "Though he prefers in-camera effects, Sundsbø works closely with post-production artists — treating the digital darkroom as a continuation of the shoot rather than a separate process. This collaboration is creative, not corrective: post-production artists are asked to contribute to the image, not simply to clean it up.",
+            "Sundsbø treats post-production artists as collaborators, not fixers. They're asked to contribute creative ideas — the digital darkroom is an extension of the shoot, not a cleanup operation.",
         },
-        { type: "heading", content: "The Technical Brief" },
+        { type: "heading", content: "The Brief Is a Working Document" },
         {
           type: "paragraph",
           content:
-            "Sundsbø provides detailed technical briefs — not just visual references but precise descriptions of the effects he wants to achieve and his theories about how to achieve them. These briefs are working documents, not presentations; they evolve through the research and testing phase.",
+            "His technical briefs aren't presentations — they're living documents that evolve through research and testing, full of theories about how to achieve specific effects.",
         },
       ],
       quiz: {
@@ -204,31 +204,31 @@ const course: Course = {
       title: "Influence & Legacy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Technical Innovation as Creative Language" },
+        { type: "heading", content: "Technical Innovation IS a Creative Language" },
         {
           type: "paragraph",
           content:
-            "Sundsbø's most significant contribution is demonstrating that technical innovation can be a genuine creative language — not a gimmick, but a way of seeing and expressing ideas that no other approach can achieve. He has expanded the vocabulary of fashion photography in ways that will be drawn on for decades.",
+            "Sundsbø proved that technical ambition isn't a gimmick — it's a genuine way of seeing. He's expanded what fashion photography can say, and that vocabulary will be borrowed for decades.",
         },
         { type: "heading", content: "The SHOWstudio Generation" },
         {
           type: "paragraph",
           content:
-            "Sundsbø is part of a generation of photographers who came through the SHOWstudio environment and share its ethos: constant experimentation, interdisciplinary practice, technology as tool. This generation's influence on contemporary fashion photography is significant and growing.",
+            "He's part of a cohort shaped by Knight's lab: experiment constantly, cross disciplines, treat technology as creative material. Their influence on contemporary fashion photography is still growing.",
         },
-        { type: "heading", content: "Graphic Design Background" },
+        { type: "heading", content: "Graphic Design Made Him Better" },
         {
           type: "paragraph",
           content:
-            "Sundsbø's graphic design background gives his work a formal sophistication that purely photographic training rarely produces. His understanding of composition, typography, and visual communication theory is traceable in the structural rigour of his images.",
+            "His design background gives his work a structural rigour that pure photography training rarely produces. You can see the composition theory in every frame.",
         },
-        { type: "heading", content: "The Next Generation" },
+        { type: "heading", content: "Built for Whatever Comes Next" },
         {
           type: "paragraph",
           content:
-            "As AI and computational photography transform what is technically possible, Sundsbø's approach — treating every new technology as a potential creative tool — positions him well to work with whatever comes next. His practice is a methodology rather than a fixed aesthetic.",
+            "As AI reshapes what's technically possible, Sundsbø's methodology — treat every new tool as a creative opportunity — means he's already positioned for it. His practice is a mindset, not a fixed technique.",
         },
       ],
       quiz: {
@@ -248,43 +248,43 @@ const course: Course = {
       title: "What You Can Learn From Sundsbø",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From His Practice" },
+        { type: "heading", content: "Curiosity as Creative Method" },
         {
           type: "paragraph",
           content:
-            "Sundsbø teaches curiosity, research, and the creative possibilities of technical ambition.",
+            "Sundsbø teaches that research, testing, and relentless curiosity are not pre-work — they are the work. Here's how to apply that to your own practice.",
         },
         { type: "heading", content: "1. Research Before You Shoot" },
         {
           type: "paragraph",
           content:
-            "Before your next technically ambitious project, research the physics of what you're trying to achieve. What does long exposure actually do to moving light? How does a mirror create a specific kind of reflection? Understanding the principles makes the experimentation more efficient.",
+            "What does long exposure actually do to moving light? How does a mirror create a specific reflection? Understanding the physics makes your experimentation faster and smarter.",
         },
         { type: "heading", content: "2. Test Extensively" },
         {
           type: "paragraph",
           content:
-            "Invest in a testing session before important shoots. Spend a day experimenting with the effects, lighting setups, or techniques you want to use. The testing session costs time but saves the shoot — by the time the actual session begins, you've eliminated the surprises.",
+            "Book a testing day before important shoots. Try the effects and techniques you plan to use. Eliminate the surprises before the real session begins.",
         },
-        { type: "heading", content: "3. Try In-Camera Effects" },
+        { type: "heading", content: "3. Try In-Camera Effects First" },
         {
           type: "paragraph",
           content:
-            "Before reaching for Photoshop, try to create the effect you want in camera: multiple exposures, long exposures, mirrors, gels, physical movement. In-camera effects have a quality that digital effects rarely match, and the process of achieving them teaches you something that applying a filter never does.",
+            "Before opening Photoshop, try creating the effect in camera — multiple exposures, mirrors, gels, physical movement. In-camera effects have a physicality that filters don't.",
         },
         { type: "heading", content: "4. Learn a Related Discipline" },
         {
           type: "paragraph",
           content:
-            "Sundsbø's graphic design background gives his photography a formal dimension that pure photography training lacks. Study an adjacent discipline — film, graphic design, fine art, architecture. The cross-disciplinary knowledge will distinguish your work.",
+            "Sundsbø's graphic design background sets his work apart. Study film, design, fine art, or architecture. Cross-disciplinary knowledge is a competitive advantage.",
         },
         { type: "heading", content: "5. Embrace Every New Tool" },
         {
           type: "paragraph",
           content:
-            "Rather than resisting new technologies, approach each one as Sundsbø does: with curiosity about what it makes possible. What can AI photography do that camera photography cannot? What does computational imaging enable that was previously impossible? Ask these questions before forming opinions.",
+            "Don't form opinions about new technology before you've asked what it makes possible. AI, computational imaging, whatever comes next — curiosity first, judgment later.",
         },
       ],
       reflection: {

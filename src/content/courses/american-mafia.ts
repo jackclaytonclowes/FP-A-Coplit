@@ -16,30 +16,30 @@ const course: Course = {
       title: "Origins & Structure",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Immigration and the Black Hand" },
+        { type: "heading", content: "The Black Hand Came First" },
         {
           type: "paragraph",
           content:
-            "Between the 1880s and 1920s, millions of Italians and Sicilians emigrated to the United States, settling in concentrated urban communities in New York, Chicago, and other cities. Among them came men with connections to Sicilian cosche and Neapolitan Camorra networks. The Black Hand — a form of extortion targeting Italian immigrant businesses through threatening letters — was the early predecessor of organised criminal activity in these communities.",
+            "Millions of Italians and Sicilians arrived in American cities between the 1880s and 1920s, and some brought criminal networks with them. The Black Hand — extortion by threatening letter — was the crude predecessor of what came next.",
         },
         {
           type: "paragraph",
           content:
-            "The conditions that had sustained mafia structures in Sicily were partially reproduced in American immigrant communities: ethnic exclusion from legitimate economic opportunity, distrust of police (who were often hostile to Italian immigrants), and the practical need for unofficial dispute resolution within communities that could not rely on the state.",
+            "The conditions were perfect: ethnic exclusion from legitimate work, hostile police, and communities that couldn't trust the state to settle disputes. Sound familiar? It was Sicily all over again.",
         },
-        { type: "heading", content: "Prohibition: The Economic Foundation" },
+        { type: "heading", content: "Prohibition Made Them Rich" },
         {
           type: "paragraph",
           content:
-            "The 18th Amendment — Prohibition, 1920 to 1933 — was the event that created the modern American Mafia. By criminalising alcohol, the US government handed criminal entrepreneurs control of an industry with enormous, inelastic demand. The bootlegging empires that resulted were not small operations: Al Capone's Chicago Outfit employed hundreds of people and generated revenues estimated in the hundreds of millions of 1920s dollars. The Five Families of New York — Bonanno, Colombo, Gambino, Genovese, and Lucchese — consolidated around this wealth.",
+            "The 18th Amendment criminalised alcohol and handed criminal entrepreneurs the biggest windfall in history. Al Capone's operation generated hundreds of millions in 1920s dollars. The Five Families consolidated around that wealth.",
         },
-        { type: "heading", content: "The Castellammarese War and the Commission" },
+        { type: "heading", content: "Luciano Ends the War, Builds the Board" },
         {
           type: "paragraph",
           content:
-            "In 1930-31, a violent war between two Sicilian-origin factions — the Masseria and Castellammarese clans — threatened to destroy the bootlegging economy through instability. Lucky Luciano ended it by arranging the murders of both faction leaders and establishing the Commission: a governing body of the major crime families that would resolve conflicts through negotiation rather than war. The Commission was a corporate innovation — a board of directors for an industry.",
+            "The 1930-31 Castellammarese War nearly destroyed everything. Luciano killed both faction leaders and established the Commission — a conflict-resolution body that ran the mob like a corporation with a board of directors.",
         },
       ],
       quiz: {
@@ -75,31 +75,31 @@ const course: Course = {
       title: "Key Figures",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Al Capone: The Cultural Icon" },
+        { type: "heading", content: "Capone: Celebrity Criminal" },
         {
           type: "paragraph",
           content:
-            "Alphonse Capone is the most famous organised crime figure in American history — a celebrity criminal who gave press interviews and attended baseball games. As boss of the Chicago Outfit through the late 1920s, he controlled gambling, bootlegging, and prostitution across the city. His Valentine's Day Massacre (1929) — the murder of seven rival gang members — made him a national figure. He was ultimately imprisoned not for any of his crimes but for tax evasion, convicted in 1931.",
+            "Al Capone gave press interviews, attended Cubs games, and ran a bootlegging empire worth hundreds of millions. The feds couldn't nail him for any of it — so they got him for tax evasion.",
         },
-        { type: "heading", content: "Lucky Luciano and Meyer Lansky" },
+        { type: "heading", content: "Luciano and Lansky: The Brains Trust" },
         {
           type: "paragraph",
           content:
-            "Lucky Luciano's structural innovations — the Commission, the National Crime Syndicate, the separation of violent enforcement from business management — transformed the mob from a feudal into a corporate model. His partnership with Meyer Lansky, a Jewish financier who became known as the Mob's Accountant, was foundational. Lansky's genius was for the movement and laundering of money: he pioneered the offshore banking structures that criminal organisations worldwide still use.",
+            "Luciano built the corporate mob structure; Meyer Lansky figured out how to hide the money. Lansky pioneered offshore banking for criminal organisations — a trick the financial world still uses.",
         },
-        { type: "heading", content: "Frank Costello: The Prime Minister" },
+        { type: "heading", content: "Costello: The Mob's Diplomat" },
         {
           type: "paragraph",
           content:
-            "Frank Costello — known as the 'Prime Minister of the Underworld' — was the most politically connected boss of his era, with relationships extending into Tammany Hall and beyond. He preferred diplomacy to violence and spent his career building the mob's political infrastructure. His testimony before the Kefauver Committee in 1951 — broadcast live on television, showing only his hands because he refused to be filmed — introduced American audiences to the reality of organised crime.",
+            "Frank Costello preferred deals to bullets. His 1951 Kefauver Committee testimony — shown on live TV, hands only, no face — introduced America to the real face of organised crime.",
         },
-        { type: "heading", content: "Carlo Gambino and John Gotti" },
+        { type: "heading", content: "Gambino to Gotti: The Final Act" },
         {
           type: "paragraph",
           content:
-            "Carlo Gambino manoeuvred through decades of internal politics to become the dominant New York boss by the 1970s — the model, it is believed, for Mario Puzo's fictional Don Corleone. His successor, eventually, was John Gotti — the 'Dapper Don,' known for his expensive suits and public flamboyance. Gotti was the last of the old-style bosses: charismatic, visible, and ultimately brought down when his underboss Sammy 'The Bull' Gravano turned government witness and testified against him in 1992.",
+            "Carlo Gambino manoeuvred quietly to the top; John Gotti arrived loudly in expensive suits. Gotti's underboss Sammy 'The Bull' Gravano turned witness in 1992 and brought the whole thing down.",
         },
       ],
       quiz: {
@@ -135,31 +135,31 @@ const course: Course = {
       title: "Methods & Operations",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Commission as Conflict Resolution" },
+        { type: "heading", content: "The Commission: Crime Gets a Board Meeting" },
         {
           type: "paragraph",
           content:
-            "The Commission — established by Luciano in 1931 — was a standing body of the major crime family bosses that met periodically to resolve territorial disputes, approve significant criminal actions, and adjudicate internal conflicts. The 'sit-down' — a formal meeting between parties in dispute, mediated by a neutral boss — was the standard method for resolving conflicts without violence. The Commission represented the Mafia's aspiration to be a business, not merely a gang.",
+            "Luciano's Commission resolved disputes without bloodshed — the 'sit-down' as formal mediation between rival bosses. It was the mob's aspiration to be a business, not just a gang.",
         },
-        { type: "heading", content: "Labour Racketeering" },
+        { type: "heading", content: "Unions: The Mob's Legitimate Bank" },
         {
           type: "paragraph",
           content:
-            "The American Mafia's most durable and legitimate-appearing source of income was labour racketeering — the infiltration and control of trade unions. By controlling the Teamsters (transport), longshoremen (ports), and construction unions, the mob could extort entire industries: either through the direct theft of pension funds, or through the sale of 'labour peace' to employers who paid to avoid strikes. The Teamsters pension fund, administered for years with mob involvement, was the mob's most important bank.",
+            "Control the Teamsters, control the ports, control construction — and you can extort entire industries. The Teamsters pension fund was the mob's most important financial institution.",
         },
-        { type: "heading", content: "Las Vegas: The Legitimate Front" },
+        { type: "heading", content: "Las Vegas: The World's Best Skimming Operation" },
         {
           type: "paragraph",
           content:
-            "Las Vegas in the 1950s and 1960s was the mob's most visible legitimate enterprise — casino hotels financed with Teamsters pension fund money, staffed with mob-connected managers, and systematically skimmed. The 'skim' was cash taken from casino revenues before it was counted and recorded, allowing it to disappear without appearing in any tax records. Las Vegas generated hundreds of millions in untaxed income for crime families across the country.",
+            "Casino hotels financed with Teamsters money, cash skimmed before it hit the books, untaxed income for families across the country. Las Vegas was the mob's most visible legitimate-looking enterprise.",
         },
-        { type: "heading", content: "Narcotics: The Reluctant Transition" },
+        { type: "heading", content: "Drugs: The Reluctant Pivot" },
         {
           type: "paragraph",
           content:
-            "The traditional mob leadership was initially reluctant to enter narcotics trafficking — not for moral reasons but because it attracted the most severe law enforcement attention and created the most pressure on members to cooperate when arrested. Luciano's successor generation eventually abandoned this position: by the 1970s, heroin and cocaine represented the largest revenue stream for the American Mafia, as they did for criminal organisations worldwide.",
+            "Old-school bosses avoided narcotics — too much heat, too much pressure to cooperate when arrested. The next generation ignored that wisdom. By the 1970s, heroin and cocaine were the biggest revenue stream.",
         },
       ],
       quiz: {
@@ -195,31 +195,31 @@ const course: Course = {
       title: "Cultural Representation",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Godfather: A Romance" },
+        { type: "heading", content: "The Godfather: Crime as Tragedy" },
         {
           type: "paragraph",
           content:
-            "Francis Ford Coppola's The Godfather (1972) is one of the most successful films ever made and the defining cultural document of the American Mafia. Based on Mario Puzo's novel, it presents organised crime through the lens of family tragedy — the Corleones as immigrant success story turned corrupt by American ambition. Its central argument is elegiac: something noble and honourable is being destroyed by a more brutal modern world. This is, of course, a romance. The actual American Mafia was a criminal enterprise that destroyed neighbourhoods, corrupted institutions, and murdered rivals.",
+            "Coppola's masterpiece presents the Corleones as immigrant tragedy — noble values corrupted by American ambition. It's operatic, beautiful, and a romance. The actual mob destroyed neighbourhoods and murdered rivals.",
         },
-        { type: "heading", content: "Goodfellas: The More Honest Account" },
+        { type: "heading", content: "Goodfellas: The Honest Version" },
         {
           type: "paragraph",
           content:
-            "Martin Scorsese's Goodfellas (1990) is generally considered the more accurate cultural account. Based on Nicholas Pileggi's Wiseguy — the story of Henry Hill, a Lucchese associate who became a government informant — it presents mob life as seductive and then annihilating. The film's great achievement is showing why the life was attractive: the money, the status, the freedom from civilian constraints. And then showing exactly how it destroys everyone it touches.",
+            "Scorsese shows you why the life was genuinely seductive — the money, the status, the freedom — and then shows exactly how it annihilates everyone who chooses it. That's the more accurate story.",
         },
         { type: "heading", content: "Casino and The Irishman" },
         {
           type: "paragraph",
           content:
-            "Scorsese's Casino (1995) tells the Las Vegas story — the mob's most ambitious legitimate enterprise and its eventual loss to corporate casino operators. The Irishman (2019), his final mob film, is elegiac in a different key from The Godfather: it is about the end, about old men in nursing homes, about what this life actually costs. Robert De Niro's Frank Sheeran — who claims to have killed Jimmy Hoffa — is the mob in twilight.",
+            "Casino tells the Las Vegas story — ambition, greed, and the mob eventually losing the casino to corporations. The Irishman is the valediction: old men in nursing homes, the twilight of an era.",
         },
-        { type: "heading", content: "The Sopranos: The Mafia in Decline" },
+        { type: "heading", content: "The Sopranos: Power Turned Pathetic" },
         {
           type: "paragraph",
           content:
-            "David Chase's The Sopranos (1999-2007) is perhaps the most sophisticated cultural examination of the American Mafia — Tony Soprano as a man born into a dying institution, struggling with depression, anxiety, and the fundamental incoherence of a life built on violence and loyalty in equal measure. The show's great insight is that the mob in the late 20th century is not powerful but pathetic — still dangerous, but also irrelevant, overtaken by the very American culture it had tried to emulate.",
+            "Tony Soprano is dangerous but also irrelevant — a man born into a dying institution, seeing a therapist for panic attacks. Chase's great insight: by the late 20th century, the mob wasn't powerful. It was just left behind.",
         },
       ],
       quiz: {
@@ -255,31 +255,31 @@ const course: Course = {
       title: "Legacy & Modern Impact",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The RICO Act: The Legal Revolution" },
+        { type: "heading", content: "RICO: Finally, a Law That Works" },
         {
           type: "paragraph",
           content:
-            "The Racketeer Influenced and Corrupt Organizations Act (RICO), passed in 1970, was the legal instrument that finally made it possible to prosecute the Mafia as an organisation rather than pursuing individual members for individual crimes. Under RICO, participating in the pattern of activity of a criminal enterprise was itself a crime — meaning that bosses who ordered crimes without personally committing them could be prosecuted for those crimes. RICO transformed organised crime prosecution.",
+            "The 1970 RICO Act made it a crime just to participate in a criminal enterprise's pattern of activity. For the first time, prosecutors could go after the boss who ordered crimes — not just the soldier who committed them.",
         },
-        { type: "heading", content: "The Commission Trial: 1985-86" },
+        { type: "heading", content: "The Commission Trial: All of Them at Once" },
         {
           type: "paragraph",
           content:
-            "US Attorney Rudy Giuliani's prosecution of the Commission trial (1985-86) was the culmination of the FBI's assault on the American Mafia. Using RICO, FBI surveillance recordings, and informant testimony, Giuliani prosecuted 11 mob bosses simultaneously — including the heads of four of the Five Families. All were convicted. The sentences were so long that the bosses who received them died in prison. The Commission, as a functioning body, effectively ceased to exist.",
+            "In 1985-86, Rudy Giuliani prosecuted 11 mob bosses simultaneously using RICO and FBI surveillance recordings. All were convicted. Sentences so long they died in prison. The Commission effectively ceased to exist.",
         },
-        { type: "heading", content: "The FBI's Shift Under Reagan" },
+        { type: "heading", content: "Reagan's FBI Gets Serious" },
         {
           type: "paragraph",
           content:
-            "The decisive FBI commitment to dismantling organised crime came under the Reagan administration in the early 1980s. The number of agents assigned to organised crime investigations was dramatically increased; RICO prosecutions were systematically pursued; and electronic surveillance — including the bugging of mob social clubs — generated the evidence base that made mass prosecution possible. The FBI's transformation from a bureaucracy skeptical of organised crime's existence (under Hoover) to one that prioritised its dismantling was the necessary institutional precondition for the mob's defeat.",
+            "Under Reagan, the FBI dramatically scaled up organised crime investigations — more agents, more RICO prosecutions, bugs in every social club. Hoover had denied the mob existed; Reagan's FBI dismantled it.",
         },
         { type: "heading", content: "What Replaced the Mob" },
         {
           type: "paragraph",
           content:
-            "The vacuum left by the American Mafia's decline was filled not by a successor organisation but by more fragmented criminal networks: street gangs, motorcycle clubs, and ethnically diverse criminal enterprises without the Mafia's corporate structure. In some respects this was a regression: the Commission had suppressed the most destabilising forms of criminal violence by enforcing norms. Its absence left criminal markets more chaotic, not less dangerous.",
+            "Street gangs, motorcycle clubs, fragmented ethnic criminal networks — the mob's collapse left markets more chaotic, not safer. The Commission had suppressed the most destabilising violence by enforcing norms. Without it, the rules disappeared.",
         },
       ],
       quiz: {
@@ -315,31 +315,31 @@ const course: Course = {
       title: "What This Reveals About Society",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Prohibition Created the Modern Mafia" },
+        { type: "heading", content: "Prohibition Built the Mob" },
         {
           type: "paragraph",
           content:
-            "The most important lesson of the American Mafia's history is that government policy created it. Prohibition — a well-intentioned attempt to reduce alcohol consumption — handed criminal entrepreneurs a market worth billions, the capital to build vertically integrated criminal organisations, and the political corruption infrastructure to protect them. By the time Prohibition ended in 1933, the organisations it had funded were strong enough to survive its repeal by diversifying into gambling, labour racketeering, and eventually narcotics.",
+            "The most important lesson: government policy created the American Mafia. Prohibition handed criminal entrepreneurs billions in capital, political corruption infrastructure, and decades of compounding advantage.",
         },
-        { type: "heading", content: "The Policy Question" },
+        { type: "heading", content: "The Drug War Repeated the Mistake" },
         {
           type: "paragraph",
           content:
-            "This raises the direct policy question that the American Mafia's history makes unavoidable: which current policies are creating the criminal economies of tomorrow? The drug war — since the 1970s the dominant US criminal justice policy — has funded drug trafficking organisations on a scale that dwarfs Prohibition-era bootlegging. The question is not whether criminal markets will be supplied; they will. The question is whether they are supplied by regulated legal businesses paying taxes or by criminal organisations generating violence.",
+            "The drug war since the 1970s has funded trafficking organisations on a scale that dwarfs Prohibition-era bootlegging. Criminal markets will be supplied — the only question is whether by legal businesses or by violent criminal organisations.",
         },
-        { type: "heading", content: "The Corporation as Criminal Model" },
+        { type: "heading", content: "The Mob Copied Corporate America" },
         {
           type: "paragraph",
           content:
-            "The American Mafia's organisational evolution — from ethnic gang to Commission to National Crime Syndicate — mirrors the development of American corporate capitalism. The mob adopted the board of directors, the franchise model, the separation of ownership from management, and the principle of limited liability (members who got caught were on their own). The Mafia is, among other things, a study in how organisational models migrate between legitimate and illegitimate spheres.",
+            "The mob adopted the board of directors, the franchise model, and the separation of ownership from management. Organised crime and American capitalism evolved the same organisational forms at the same time.",
         },
-        { type: "heading", content: "The Immigrant Experience" },
+        { type: "heading", content: "Exclusion Explains Recruitment" },
         {
           type: "paragraph",
           content:
-            "The American Mafia also tells a story about the immigrant experience and the limits of legitimate opportunity. The Mafia recruited from communities that were excluded from legitimate routes to wealth and status — not because of cultural pathology but because of structural discrimination. The question is not why some Italian-Americans joined criminal organisations; it is why the proportion who did was always small, and what the majority found as alternatives. The Mafia is one answer to structural exclusion; it was never the only one.",
+            "The Mafia recruited from communities shut out of legitimate opportunity — not from cultural pathology, but from structural discrimination. The real question is what the majority who didn't join the mob did instead.",
         },
       ],
       reflection: {

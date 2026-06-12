@@ -16,18 +16,18 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Michael Mann (b. 1943)" },
         {
           type: "paragraph",
           content:
-            "Michael Mann was born in 1943 in Chicago — a city whose geography, social landscape, and masculine mythology run through his entire body of work. He studied film at the London Film School in the late 1960s, where he absorbed the British documentary tradition and the social realism of the British New Wave. This documentary instinct — the drive to ground fiction in the specificity of how things actually work — would become the defining characteristic of his approach.",
+            "Mann grew up in Chicago and studied at the London Film School, where he absorbed the British documentary tradition. That instinct — ground fiction in how things actually work — never left him.",
         },
         {
           type: "paragraph",
           content:
-            "Mann's television work in the 1970s and early 80s — culminating in his creation of Miami Vice — developed his signature visual style before he applied it to features. Miami Vice's pastel colours, no-socks aesthetic, and synthesiser score were cultural phenomena, but Mann's deeper innovation was the show's willingness to take criminals seriously as professionals, and to treat the procedural detail of crime and law enforcement as dramatically central rather than decorative.",
+            "Miami Vice didn't just launch his style. It changed what TV could look like — and what criminals could be. Mann took professionals seriously before anyone else did.",
         },
         {
           type: "heading",
@@ -74,31 +74,31 @@ const course: Course = {
       title: "Influences & Cinematic Education",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Jean-Pierre Melville and Professional Crime" },
+        { type: "heading", content: "Melville: Criminals as Professionals" },
         {
           type: "paragraph",
           content:
-            "The French director Jean-Pierre Melville's crime films — Le Samourai (1967), Le Cercle Rouge (1970), Un Flic (1972) — are the single most important influence on Mann's cinema. Melville's criminals are cool, disciplined professionals operating under a personal code; they exist in a world of moral clarity defined by professional commitment rather than conventional ethics. This is the world Mann inhabits in Thief, Heat, and Collateral.",
+            "Le Samourai, Le Cercle Rouge — Melville's criminals have codes. Discipline, not morality. Mann took this and ran: Heat, Thief, Collateral all live in Melville's moral universe.",
         },
-        { type: "heading", content: "The French New Wave's Documentary Impulse" },
+        { type: "heading", content: "The French New Wave: Real Streets, Real Light" },
         {
           type: "paragraph",
           content:
-            "Godard and Truffaut's use of real locations, available light, and documentary visual techniques in genre films showed Mann that authenticity and genre were compatible — that a crime film could be shot on the actual streets where crime occurs, with the actual quality of light those streets have, rather than on a studio backlot. Mann took this lesson further than either Godard or Truffaut: his location research is legendary in its depth.",
+            "Godard and Truffaut proved authenticity and genre were compatible. Mann went further than either of them — his location research is legendary.",
         },
         { type: "heading", content: "Chicago Writers and Masculine Isolation" },
         {
           type: "paragraph",
           content:
-            "Mann's Chicago origins connect him to a tradition of American writing about masculine isolation and professional dedication — Hemingway's code heroes, Saul Bellow's urban loners, the city as a landscape of solitude and ambition. His characters share this tradition: they are men for whom professional excellence has become the whole of identity, at the cost of everything else.",
+            "Hemingway, Saul Bellow — men for whom professional excellence has become the whole of identity. Mann's characters are their descendants: solitary, disciplined, and paying for it.",
         },
-        { type: "heading", content: "Documentary Cinematography and Available Light" },
+        { type: "heading", content: "Available Light and the Drive Toward Real" },
         {
           type: "paragraph",
           content:
-            "Mann's early television work trained him in the use of available light and real locations rather than constructed studio environments. His preference for authentic locations — the real streets of Los Angeles, the real offices of a tobacco company — and his evolution from stylised neon (Thief) through to Sony HDV digital realism (Collateral) reflects a career-long drive toward a specific kind of photographic truthfulness.",
+            "From Thief's neon stylisation to Collateral's Sony HDV grain, Mann spent his career moving toward one thing: the specific texture of the real world at night.",
         },
       ],
       quiz: {
@@ -118,31 +118,31 @@ const course: Course = {
       title: "Visual Style & Techniques",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Evolution From Neon to Digital Realism" },
+        { type: "heading", content: "From Neon to Digital: A Career-Long Journey" },
         {
           type: "paragraph",
           content:
-            "Mann's career describes a consistent trajectory from stylised artifice toward tactile authenticity. Thief (1981) is photographed by Donald Thorin in rich, neon-saturated colours against which the characters appear as figures in a painting. Heat (1995), shot by Dante Spinotti, begins this shift toward photographic naturalism — Los Angeles rendered as it actually looks at different hours. Collateral (2004), shot partly on Sony HDV, is the logical endpoint: digital video's grain and immediacy, the city as texture rather than backdrop.",
+            "Thief is lush and painterly. Heat is photographic and natural. Collateral is grainy HDV immediacy. Mann spent his career moving away from artifice and toward texture.",
         },
-        { type: "heading", content: "Extreme Close-Ups of Hands at Work" },
+        { type: "heading", content: "Hands at Work" },
         {
           type: "paragraph",
           content:
-            "Mann's films consistently return to the close-up of hands performing skilled actions: Frank in Thief cutting a safe, the various craftsmen and professionals in Heat executing their disciplines, Vincent in Collateral drawing and holstering his weapon with practised efficiency. These close-ups are not decorative — they establish character through competence and communicate that Mann has researched how these things are actually done.",
+            "Mann's close-ups of hands — cutting safes, drawing weapons, handling tools — aren't decorative. They show you a professional. They prove he researched how it's actually done.",
         },
-        { type: "heading", content: "Nocturnal Los Angeles as Spiritual Landscape" },
+        { type: "heading", content: "Nocturnal LA as Spiritual Landscape" },
         {
           type: "paragraph",
           content:
-            "Mann's Los Angeles — particularly in Heat, Collateral, and Miami Vice (2006) — is a nocturnal city of extraordinary visual beauty: freeway light trails, glass towers reflecting the city back at itself, the ocean at night, the specific quality of Los Angeles air at 2am. The city is not a backdrop but a character with its own emotional weather, and Mann photographs it with the attentiveness of a landscape photographer.",
+            "Freeway light trails, glass towers, ocean at 2am. Mann's Los Angeles isn't a backdrop — it's a character with its own emotional weather. He photographs it like a landscape photographer.",
         },
-        { type: "heading", content: "The Gunfight as Ritual With Specific Physics" },
+        { type: "heading", content: "Gunfights With Real Physics" },
         {
           type: "paragraph",
           content:
-            "Mann consulted with technical advisers and SWAT team members to choreograph gunfights with documentary accuracy: how professionals actually move, take cover, reload, and fire under extreme stress. The result — most famously in Heat's bank robbery sequence — is action that creates tension through procedural authenticity rather than stylised choreography. You believe these people know exactly what they are doing.",
+            "Heat's bank robbery sequence is choreographed with SWAT accuracy. You believe these people know exactly what they're doing. Procedural authenticity creates more tension than spectacle ever could.",
         },
       ],
       quiz: {
@@ -162,31 +162,31 @@ const course: Course = {
       title: "Essential Films",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Thief (1981)" },
         {
           type: "paragraph",
           content:
-            "Mann's debut feature establishes every element of his mature work: the professional criminal with a personal code, the meticulous depiction of expertise (the safe-cracking sequences were supervised by real thieves), the nocturnal Chicago locations, the synthesiser score, and the question of whether a life of total professional commitment can be compatible with personal connection. James Caan's Frank is the ur-Mann protagonist.",
+            "Every Mann element in one film: the professional criminal with a code, the meticulous expertise, the nocturnal Chicago locations, the synthesiser score. James Caan's Frank is the original Mann protagonist.",
         },
         { type: "heading", content: "Heat (1995)" },
         {
           type: "paragraph",
           content:
-            "Heat is the definitive American crime film and Mann's masterpiece. Al Pacino's detective Vincent and Robert De Niro's thief McCauley are mirror images — equally committed, equally isolated, equally defined by their work — who spend the film moving toward each other across the city. The coffee shop scene, in which they sit across a table and speak honestly to each other for the only time, is one of the great scenes in American cinema.",
+            "The definitive American crime film. Pacino and De Niro as mirror images — equally committed, equally alone. The coffee shop scene is one of the great scenes in cinema. Two men who know exactly what they are.",
         },
         { type: "heading", content: "The Insider (1999)" },
         {
           type: "paragraph",
           content:
-            "Mann's most underrated film: Russell Crowe as Jeffrey Wigand, the tobacco industry whistleblower, and Al Pacino as Lowell Bergman, the 60 Minutes producer who protects him. A film about corporate power, journalistic integrity, and personal courage that moves with the same procedural intensity as Mann's crime films. The thriller is the legal and institutional machinery that grinds against a man trying to tell the truth.",
+            "Mann's most underrated film. A tobacco whistleblower, a journalist, institutional machinery grinding against a man trying to tell the truth. The thriller is bureaucracy. It moves like Heat.",
         },
         { type: "heading", content: "Collateral (2004) and Miami Vice (2006)" },
         {
           type: "paragraph",
           content:
-            "Collateral is Tom Cruise as a contract killer, Jamie Foxx as the cab driver who drives him through the night. Shot partially on Sony HDV — then an unconventional choice for a major studio film — its digital texture gave Los Angeles at night a tactile immediacy no film stock had achieved. Miami Vice (2006) extends this digital realism to Mann's own earlier creation, stripping the pastel glamour of the TV series and replacing it with the grey-blue grain of digital video.",
+            "Tom Cruise as a contract killer, Jamie Foxx as his unwilling driver. Shot partly on Sony HDV — the city at night has never felt more real. Miami Vice strips the pastel glamour and replaces it with grey-blue digital grain.",
         },
       ],
       quiz: {
@@ -206,31 +206,31 @@ const course: Course = {
       title: "Themes & Obsessions",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Professionalism as Existential Code" },
+        { type: "heading", content: "Professionalism as Identity" },
         {
           type: "paragraph",
           content:
-            "Mann's deepest subject is the man for whom professional excellence has become the whole of identity. Frank in Thief, McCauley in Heat, Wigand in The Insider, Vincent in Collateral: all are defined entirely by their professional commitments. This is both admirable — the discipline, the mastery, the dedication — and catastrophic: it leaves no room for the personal connections that make a life liveable. Mann presents this not as a flaw to be corrected but as a condition to be understood.",
+            "Frank, McCauley, Wigand, Vincent — all are their work, entirely. That dedication is both admirable and catastrophic. Mann doesn't judge it. He just shows you what it costs.",
         },
-        { type: "heading", content: "The Mirror Image: Cop and Criminal" },
+        { type: "heading", content: "Cop and Criminal: The Same Person" },
         {
           type: "paragraph",
           content:
-            "Heat's central conceit — the detective and the thief as mirror images, each the other's double — is Mann's most explicit statement of a theme that runs through all his work. The law and crime are not moral opposites in Mann's cinema but professional alternatives: both require the same qualities of discipline, intelligence, and commitment. The moral distinction is secondary to the professional identity.",
+            "Heat's central idea: law and crime aren't moral opposites, they're professional alternatives. Both require discipline, intelligence, and commitment. The moral distinction is secondary.",
         },
-        { type: "heading", content: "Urban Loneliness and Neon, Glass, and Mortality" },
+        { type: "heading", content: "Alone in a Beautiful City" },
         {
           type: "paragraph",
           content:
-            "Mann's Los Angeles is one of cinema's great urban landscapes: a city of extraordinary physical beauty — the freeways at night, the glass towers, the ocean — in which human beings are profoundly alone. His characters move through this beauty in isolation; they cannot connect, because connection would compromise the professional detachment their work requires. The city's beauty and the characters' loneliness are inseparable.",
+            "Mann's LA is extraordinary and lonely. His characters move through its beauty in isolation — they can't connect, because connection would compromise the detachment the work requires.",
         },
-        { type: "heading", content: "Masculinity as Discipline and Sacrifice" },
+        { type: "heading", content: "What It Costs to Be This Kind of Man" },
         {
           type: "paragraph",
           content:
-            "Mann's films constitute one of the most sustained explorations of masculinity in American cinema: what it costs to be a certain kind of man, what it destroys, what it makes possible. His heroes are not glamourised but genuinely admired for specific qualities — mastery, courage, commitment — while the films are clear-eyed about what those qualities cost in terms of human connection and ordinary life.",
+            "Mastery, courage, commitment — Mann genuinely admires these qualities. His films are also clear-eyed about what they destroy: human connection, ordinary life, everything else.",
         },
       ],
       quiz: {
@@ -250,37 +250,37 @@ const course: Course = {
       title: "What You Can Learn",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Mann's Lessons for Filmmakers" },
+        { type: "heading", content: "What Mann Teaches" },
         {
           type: "paragraph",
           content:
-            "Mann teaches that procedural authenticity — showing how things actually work — is one of cinema's most powerful tools for creating tension and investment. He also teaches that the environment can be a character, that digital's grain and immediacy have aesthetic possibilities that film's polish cannot replicate, and that style can be a form of moral seriousness.",
+            "Procedural authenticity is one of cinema's most powerful tools. Show how things actually work and audiences will trust you — and follow you anywhere.",
         },
         { type: "heading", content: "1. Research as Respect" },
         {
           type: "paragraph",
           content:
-            "Mann's research is legendary: he employs real professionals to advise on procedure, visits the actual locations he will film, and requires his actors to train in the specific skills their characters possess. This research is not window dressing — it communicates respect for the subject and creates the authenticity that generates audience trust. Notice how procedural accuracy changes your investment in a scene.",
+            "Mann hires real professionals, visits real locations, and requires his actors to train in the skills their characters possess. Authenticity isn't window dressing — it generates trust.",
         },
         { type: "heading", content: "2. The Environment as Character" },
         {
           type: "paragraph",
           content:
-            "Mann's Los Angeles is not a backdrop — it is a condition that shapes the characters who live in it. Study how he uses the city's geography, architecture, and light as psychological information. The glass towers, the freeways, the ocean: each location tells you something about the characters who inhabit it. How do the environments in your own work communicate character?",
+            "Mann's LA shapes the people who live in it. Glass towers, freeways, the ocean — each location tells you something about your character. Are your environments participants or backdrops?",
         },
         { type: "heading", content: "3. Tension Through Procedure, Not Spectacle" },
         {
           type: "paragraph",
           content:
-            "Heat's bank robbery and gunfight sequences are tense not because of stylised action choreography but because the procedure is shown accurately. Professional people doing their jobs under extreme pressure, making competent decisions: this is more frightening than spectacular violence. The procedural detail — how they move, take cover, communicate — is the source of tension.",
+            "Professional people making competent decisions under extreme pressure — that's more frightening than flashy violence. Heat's gunfight is terrifying because it's accurate.",
         },
         { type: "heading", content: "4. The Close-Up as Characterisation" },
         {
           type: "paragraph",
           content:
-            "Mann's extreme close-ups of hands at work — safe-cutting, weapon-handling, the small rituals of professional life — characterise without dialogue. The way a person handles their tools tells you who they are. In your own work, look for the gestures and actions that reveal character through competence.",
+            "How a person handles their tools tells you who they are — without a single line of dialogue. Look for the gestures and actions in your own work that reveal character through competence.",
         },
       ],
       reflection: {

@@ -16,18 +16,18 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "David Fincher (Born 1962, Denver)" },
         {
           type: "paragraph",
           content:
-            "David Fincher was born in 1962 in Denver, Colorado, and grew up in Marin County, California, where George Lucas lived nearby. He began making films with an 8mm camera as a child and by his mid-teens had a clear conviction that cinema was what he was for. He never went to film school. Instead he apprenticed himself to the industrial process of image-making: he went to work at Industrial Light & Magic, then built a career as a director of commercials and music videos.",
+            "Fincher never went to film school. He went to Industrial Light & Magic instead — then spent years directing commercials and music videos for Madonna, Aerosmith, and Michael Jackson. That was his education.",
         },
         {
           type: "paragraph",
           content:
-            "The music video and commercial work was not a detour from filmmaking — it was a graduate education in visual precision. Directing for Madonna, Aerosmith, the Rolling Stones, and Michael Jackson, Fincher developed an approach to the moving image that prioritised technical control above all else. Every frame was considered. Every cut was purposeful. When he moved to features, he brought that rigour with him.",
+            "Every frame considered. Every cut purposeful. When he moved to features, he brought all of it with him.",
         },
         {
           type: "heading",
@@ -67,31 +67,31 @@ const course: Course = {
       title: "Influences & Cinematic Education",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Stanley Kubrick: Obsessive Control and Cold Precision" },
+        { type: "heading", content: "Kubrick: Cold Is Not Empty" },
         {
           type: "paragraph",
           content:
-            "Kubrick is the most evident formal influence on Fincher's cinema — specifically Kubrick's conviction that technical perfection and emotional distance are not opposites but complements. Like Kubrick, Fincher shoots enormous numbers of takes not because he is dissatisfied with performance but because he is searching for a version of reality slightly more real than what occurs naturally. The coldness in both directors' work is not emptiness — it is a refusal to sentimentalise.",
+            "Kubrick convinced Fincher that technical perfection and emotional distance aren't opposites — they're complements. The coldness isn't misanthropy. It's a refusal to sentimentalise.",
         },
-        { type: "heading", content: "Alan Pakula and the Paranoid Thriller" },
+        { type: "heading", content: "Alan Pakula and Institutional Rot" },
         {
           type: "paragraph",
           content:
-            "Alan Pakula's paranoid thrillers of the 1970s — Klute, The Parallax View, All the President's Men — established a template for films in which institutional systems are corrupt, individuals are powerless against them, and the truth, when it is found, does not set anyone free. Fincher absorbed this worldview entirely. His films are fundamentally about the failure of institutions to contain or reveal evil.",
+            "Klute, All the President's Men — Pakula built a template: corrupt systems, powerless individuals, truth that doesn't set anyone free. Fincher absorbed every word of it.",
         },
-        { type: "heading", content: "William Friedkin and Gritty Urban Realism" },
+        { type: "heading", content: "Friedkin and the City as Threat" },
         {
           type: "paragraph",
           content:
-            "Friedkin's ability to shoot cities as genuinely threatening environments — where the camera itself seems to be in danger — influenced Fincher's treatment of urban space. The Los Angeles and San Francisco of Fincher's films are not atmospheric backdrops but active menacing presences. The city is complicit in what happens there.",
+            "Friedkin shot cities like they were dangerous. In Fincher's films, Los Angeles and San Francisco aren't backdrops — they're complicit in what happens there.",
         },
         { type: "heading", content: "The Music Video Legacy" },
         {
           type: "paragraph",
           content:
-            "Fincher was one of the directors who proved that music video was a serious formal discipline. The compression of visual storytelling required by the form — every image must work, there is no room for anything superfluous — directly shaped his approach to feature filmmaking. He edits thought, not just action.",
+            "Every image must work. No room for the superfluous. Fincher edits thought, not just action — and that came from making four-minute films that had to nail every frame.",
         },
       ],
       quiz: {
@@ -111,31 +111,31 @@ const course: Course = {
       title: "Visual Style & Techniques",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Desaturated Palette" },
+        { type: "heading", content: "A World Drained of Warmth" },
         {
           type: "paragraph",
           content:
-            "Fincher's films exist in a world drained of colour. His signature palette — a greenish or yellowish grey, with detail preserved in shadows rather than highlights — creates an environment where beauty has been sapped from the world and only function remains. Working with cinematographers Darius Khondji, Jeff Cronenweth, and Eigil Bryld, he developed colour as a moral statement: this world is not appealing because it should not be.",
+            "Fincher's palette is a greenish, yellowish grey. Beauty has been sapped from the world — because it should be. Colour is a moral statement, not a mood board.",
         },
         { type: "heading", content: "Shadow With Detail" },
         {
           type: "paragraph",
           content:
-            "Fincher shoots at very low contrast — shadows are never truly black, highlights are never truly white. The result is that information is preserved throughout the image: you can see into the darkness. This technical choice is also a philosophical one. In Fincher's world, evil is not hidden in darkness — it operates in plain sight. The shadows are legible because the corruption is visible.",
+            "His shadows are never truly black. You can see into the dark — because evil in his films doesn't hide. It operates in plain sight. The corruption is visible to anyone willing to look.",
         },
         { type: "heading", content: "The Inhuman Camera Move" },
         {
           type: "paragraph",
           content:
-            "Fincher's camera moves are precisely motivated and executed with a smoothness that exceeds human capability — achieved through motion control and digital intermediate work. The camera in a Fincher film does not behave like a human observer; it behaves like a system observing. This is thematically consistent: his films are about systems, institutions, and processes, and the camera reflects that point of view.",
+            "His camera moves are too smooth for a human to execute. It doesn't behave like an observer — it behaves like a system. Because his films are about systems.",
         },
         { type: "heading", content: "Trent Reznor and the Sound of Dread" },
         {
           type: "paragraph",
           content:
-            "From The Social Network onward, Fincher has worked with Trent Reznor and Atticus Ross on his scores. Their electronic textures — cold, procedural, occasionally beautiful — create an audio equivalent of his visual palette. Music in a Fincher film does not tell you how to feel; it creates the environment in which feeling becomes possible.",
+            "Cold, procedural, occasionally beautiful. Reznor and Ross don't tell you how to feel — they create the environment in which feeling becomes possible.",
         },
         {
           type: "quote",
@@ -160,31 +160,31 @@ const course: Course = {
       title: "Essential Films",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Se7en (1995)" },
         {
           type: "paragraph",
           content:
-            "The film that established Fincher's voice. Two detectives in a nameless city of permanent rain pursue a killer using the seven deadly sins as a framework. The city is never identified, the rain never stops, and the resolution — in which the killer achieves his goal despite the detectives' best efforts — is one of the most uncompromising endings in mainstream American cinema. Andrew Kevin Walker's screenplay gave Fincher the material he needed; Fincher's insistence on the ending made it the film it is.",
+            "A nameless city, permanent rain, a killer who wins. Fincher fought for that ending against every studio instinct — and it's what makes the film unforgettable.",
         },
         { type: "heading", content: "Fight Club (1999)" },
         {
           type: "paragraph",
           content:
-            "A nameless narrator, sleepless and alienated, meets the charismatic Tyler Durden and together they build an underground fighting network that evolves into something far more dangerous. Commercially divisive on release — many audiences and critics were disturbed by its apparent endorsement of violence and nihilism — it has since been understood as a diagnosis of masculine alienation under consumer capitalism, not a prescription. Formally dazzling, narratively unreliable.",
+            "Not an endorsement — a diagnosis. Masculine alienation under consumer capitalism, rendered with formal dazzle and a narrator you cannot trust.",
         },
         { type: "heading", content: "Zodiac (2007)" },
         {
           type: "paragraph",
           content:
-            "Fincher's masterpiece and possibly his most personal film. An investigation into the Zodiac killings in late 1960s and 1970s San Francisco, built around the obsessive pursuit of an answer that never comes. The film is about what obsession costs — how a man can lose everything in pursuit of a truth that ultimately cannot be proven. Procedural in structure, devastating in implication. The Zodiac is never caught because he cannot be caught: the system cannot contain this kind of evil.",
+            "His most personal film: a man who loses everything pursuing a truth that can never be proven. Fincher making a film about Fincher. Procedural in structure, devastating in implication.",
         },
         { type: "heading", content: "The Social Network (2010) and Gone Girl (2014)" },
         {
           type: "paragraph",
           content:
-            "The Social Network is Fincher's most formally perfect film — Aaron Sorkin's screenplay delivered at a pace and density that no other director could have handled. It is also, beneath the surface, a film about the theft of friendship and the hollowness of achievement. Gone Girl is his most controlled examination of narrative manipulation: a film about how stories are constructed, how media amplifies fiction, and how two people can each be lying while both, in some sense, are telling the truth.",
+            "The Social Network: a film about the theft of friendship, shot at a pace no one else could handle. Gone Girl: a film about how stories are weaponised, where both people are lying and both are telling the truth.",
         },
       ],
       quiz: {
@@ -204,31 +204,31 @@ const course: Course = {
       title: "Themes & Obsessions",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Obsession as Both Virtue and Disease" },
+        { type: "heading", content: "Obsession: Virtue and Disease" },
         {
           type: "paragraph",
           content:
-            "Fincher's protagonists are almost always obsessives — people in whom the drive to know, to complete, to solve has become consuming. In some films this is portrayed as heroic (Zodiac's Robert Graysmith pursuing the truth), in others as self-destructive (Fight Club's narrator inventing a more vital version of himself), in others as both simultaneously. Fincher clearly identifies with obsession: his own working method — hundreds of takes, constant refinement — is the same quality in a different key.",
+            "His protagonists can't stop. The drive to know, complete, solve — it's heroic in Zodiac, self-destructive in Fight Club, and both at once in everything else. Fincher lives it too.",
         },
-        { type: "heading", content: "The Systematic Mind Confronting Chaos" },
+        { type: "heading", content: "Order vs. Chaos" },
         {
           type: "paragraph",
           content:
-            "His films repeatedly stage the encounter between a rational, systematic intelligence and a form of chaos or evil that exceeds systematisation. The detectives in Se7en, the investigators in Zodiac, the lawyer in The Social Network — all are people trying to apply procedural logic to phenomena that resist it. The system does not ultimately win. This is not nihilism but realism.",
+            "Rational minds facing irrational evil — and losing. Se7en, Zodiac, The Social Network: the system doesn't win. That's not nihilism. That's realism.",
         },
-        { type: "heading", content: "Masculinity and Its Discontents" },
+        { type: "heading", content: "Men and What They Can't Achieve" },
         {
           type: "paragraph",
           content:
-            "Fight Club is the most explicit treatment, but all of Fincher's films are portraits of men failing to become what they intended: the narrator without a self, the detectives without resolution, the billionaire without friends, the husband without innocence. Fincher's men are defined by what they cannot achieve, what they lose in the pursuit, what the system extracts from them in exchange for admission.",
+            "Fincher's men are defined by their failures — the narrator without a self, the detective without resolution, the billionaire without friends. The system takes everything and gives receipts.",
         },
-        { type: "heading", content: "Media and Narrative Manipulation" },
+        { type: "heading", content: "Narrative as Weapon" },
         {
           type: "paragraph",
           content:
-            "Gone Girl and The Social Network are both, among other things, films about how stories are constructed and weaponised. In Gone Girl, narrative is the actual murder weapon. In The Social Network, the story of Facebook's founding has been so thoroughly mediated by competing accounts that the truth is unreachable. Fincher understands that we live inside narratives that have been engineered, and that cinema is itself such a narrative.",
+            "In Gone Girl, story is the murder weapon. In The Social Network, the truth is buried under competing accounts. Fincher knows: we live inside engineered narratives. So does cinema.",
         },
       ],
       quiz: {
@@ -248,37 +248,37 @@ const course: Course = {
       title: "What You Can Learn",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Lessons From Fincher's Cinema" },
+        { type: "heading", content: "What Fincher Teaches" },
         {
           type: "paragraph",
           content:
-            "Fincher teaches that technical precision is not an obstacle to emotion — it is the precondition for the kind of emotion that outlasts the cinema experience.",
+            "Technical precision isn't an obstacle to emotion. Done right, it's the precondition for the kind of emotion that outlasts the cinema experience.",
         },
         { type: "heading", content: "1. Colour Is a Moral Statement" },
         {
           type: "paragraph",
           content:
-            "Fincher's desaturated palette is not aesthetic preference — it is a statement about the world his films inhabit. Think about what the colour temperature and saturation of your images says about the world you are depicting. A world drained of warmth makes a claim about that world. Use colour deliberately, as an argument.",
+            "Fincher's desaturated world makes a claim about that world. What does your colour temperature say about where your story lives? Use it deliberately — as an argument.",
         },
         { type: "heading", content: "2. Technical Perfection in Service of Story" },
         {
           type: "paragraph",
           content:
-            "Fincher's obsessive control of every technical element — camera placement, lighting ratio, colour grade, sound design — is never for its own sake. Every choice serves the story's emotional and thematic argument. The question to ask of any technical decision is not 'does this look interesting?' but 'does this serve what the film is trying to say?'",
+            "Every choice serves the story's argument. Don't ask 'does this look interesting?' Ask 'does this serve what the film is trying to say?' Those are different questions.",
         },
-        { type: "heading", content: "3. Make Procedural Detail Cinematically Riveting" },
+        { type: "heading", content: "3. Make Procedural Detail Riveting" },
         {
           type: "paragraph",
           content:
-            "Zodiac and The Social Network demonstrate that the accumulation of procedural detail — testimony, deposition, document, forensic report — can be as gripping as any action sequence if the stakes are clear and the editing is precise. Do not assume that slow accumulation of information is inherently undramatic. The drama is in what the information means.",
+            "Zodiac and The Social Network prove that accumulated testimony and forensic detail can be as gripping as action — if the stakes are clear and the editing is sharp.",
         },
         { type: "heading", content: "4. Endings Must Cost Something" },
         {
           type: "paragraph",
           content:
-            "Fincher fought for the ending of Se7en against every studio instinct. He fought for the ending of Gone Girl. His instinct was always that the resolution should feel like a consequence, not a release. What does your story actually cost its characters? If the ending resolves too cleanly, you have probably lied about something.",
+            "Fincher fought for Se7en's ending. He fought for Gone Girl's. Resolution should feel like consequence, not relief. If it wraps up too cleanly, you've probably lied about something.",
         },
       ],
       reflection: {

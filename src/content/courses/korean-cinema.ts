@@ -16,30 +16,30 @@ const course: Course = {
       title: "The Korean New Wave: Origins",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Political and Cultural Context" },
+        { type: "heading", content: "Freedom Arrived, Then the Economy Collapsed" },
         {
           type: "paragraph",
           content:
-            "Korean cinema's New Wave did not emerge from nowhere. South Korea's rapid industrialisation from the 1960s onward had produced an economic miracle alongside political authoritarianism. The democratic transition of 1987 — following mass popular protests — was the foundational political event of a generation of filmmakers. They came of age at the moment South Korea became free.",
+            "South Korea democratised in 1987 — ending authoritarian censorship overnight. A generation of filmmakers came of age exactly when they were finally allowed to say anything.",
         },
         {
           type: "paragraph",
           content:
-            "The end of strict film censorship after democratisation gave filmmakers freedom to address subjects — political violence, state corruption, social inequality — that had been forbidden. Simultaneously, government investment in cinema as a cultural export, and the emergence of the chaebol-backed multiplex chains, created an industrial infrastructure for serious commercial cinema that had not previously existed.",
+            "Then the 1997 IMF crisis hit. The economic miracle cracked, inequality became undeniable, and class anxiety became the generation's defining subject. Korean cinema got both freedom and something urgent to say.",
         },
-        { type: "heading", content: "The IMF Crisis as Generational Crucible" },
+        { type: "heading", content: "Censorship Gone, Genre Arrived" },
         {
           type: "paragraph",
           content:
-            "The IMF financial crisis of 1997–98 — in which South Korea required an International Monetary Fund bailout and underwent severe economic restructuring — was a second formative event. The crisis collapsed the myth of the economic miracle and revealed the fragility of the prosperity that rapid industrialisation had produced. Economic anxiety, class consciousness, and the costs of growth became the generation's dominant subjects.",
+            "Post-censorship, filmmakers could address political violence, corruption, and inequality for the first time. Chaebol-backed multiplex chains created an industrial infrastructure for serious commercial cinema. The conditions were perfect.",
         },
-        { type: "heading", content: "The New Wave Emerges" },
+        { type: "heading", content: "A Generation Explodes Onto Screen" },
         {
           type: "paragraph",
           content:
-            "From this context emerged a generation of filmmakers who combined political freedom with economic anxiety: Bong Joon-ho, Park Chan-wook, Kim Jee-woon, Lee Chang-dong. These filmmakers had access to genre — the thriller, the horror film, the melodrama — as a vehicle for social critique, and the creative freedom to use it without restriction. The result was a national cinema unlike any other.",
+            "Bong Joon-ho, Park Chan-wook, Kim Jee-woon, Lee Chang-dong — all arrived simultaneously. They had genre as a vehicle and creative freedom as fuel. The result was unlike any national cinema before or since.",
         },
       ],
       quiz: {
@@ -75,37 +75,37 @@ const course: Course = {
       title: "The Directors",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Bong Joon-ho: Class Critique and Genre Subversion" },
+        { type: "heading", content: "Bong Joon-ho: Genre Is a Trojan Horse" },
         {
           type: "paragraph",
           content:
-            "Bong Joon-ho is the most internationally recognised Korean filmmaker — his Parasite (2019) became the first non-English-language film to win the Academy Award for Best Picture. His work — Memories of Murder, The Host, Mother, Snowpiercer, Okja — uses genre conventions as Trojan horses for social critique, particularly of class inequality. He works at the intersection of thriller, horror, and dark comedy with extraordinary formal control.",
+            "Memories of Murder, The Host, Parasite — each uses thriller or monster-movie conventions to smuggle in class critique. He's the most internationally recognised Korean filmmaker, and the first non-English film to win Best Picture.",
         },
-        { type: "heading", content: "Park Chan-wook: Revenge, Formal Beauty, and Moral Ambiguity" },
+        { type: "heading", content: "Park Chan-wook: Beautiful and Morally Disturbing" },
         {
           type: "paragraph",
           content:
-            "Park Chan-wook's Vengeance Trilogy — Sympathy for Mr. Vengeance (2002), Oldboy (2003), Lady Vengeance (2005) — established him as Korean cinema's most formally distinctive voice. His films are studies in the logic and futility of revenge, executed with a visual beauty that makes their violence aesthetically seductive and morally disturbing simultaneously. The Handmaiden (2016) and Decision to Leave (2022) extended his range.",
+            "The Vengeance Trilogy is a study in revenge's logic and futility — shot with visual beauty that makes the violence seductive and troubling at once. The Handmaiden and Decision to Leave extended his range further.",
         },
-        { type: "heading", content: "Kim Jee-woon: Horror and Genre Mastery" },
+        { type: "heading", content: "Kim Jee-woon: Horror Made Precise" },
         {
           type: "paragraph",
           content:
-            "Kim Jee-woon's A Tale of Two Sisters (2003) is among the finest horror films of its decade: formally precise, psychologically complex, and devastating in its emotional impact. I Saw the Devil (2010) pushed revenge cinema to its extreme limit. His range across genre — horror, action, western — reflects Korean cinema's characteristic freedom from genre boundaries.",
+            "A Tale of Two Sisters is among the finest horror films of its decade — psychologically complex, formally exact. I Saw the Devil pushed revenge cinema to its absolute limit.",
         },
-        { type: "heading", content: "Lee Chang-dong: Humanism and the Weight of History" },
+        { type: "heading", content: "Lee Chang-dong: Quiet, Dense, Devastating" },
         {
           type: "paragraph",
           content:
-            "Lee Chang-dong's films — Oasis (2002), Secret Sunshine (2007), Poetry (2010), Burning (2018) — are the most literary of the New Wave generation: dense, quiet, attentive to the lives of people society ignores. Burning, based on a Haruki Murakami story, is a psychological thriller about class resentment and disappearance told with such restraint that its horror arrives almost imperceptibly.",
+            "Poetry, Burning, Secret Sunshine — literary cinema that attends to lives society ignores. Burning delivers its horror almost imperceptibly. His restraint hits harder than most filmmakers' explosions.",
         },
-        { type: "heading", content: "Na Hong-jin and Hong Sang-soo" },
+        { type: "heading", content: "Na Hong-jin and Hong Sang-soo: The Extremes" },
         {
           type: "paragraph",
           content:
-            "Na Hong-jin's The Wailing (2016) is Korean horror at its most extreme and cosmically terrifying: a film about evil that offers no rational explanation. Hong Sang-soo works in an entirely different register — intimate, talky, Rohmer-esque films about love, drink, and the passage of time that are as far from the thriller tradition as Korean cinema reaches.",
+            "Na Hong-jin's The Wailing offers cosmic horror with no rational explanation — overwhelming and irreducible. Hong Sang-soo works the opposite register: intimate, talky, Rohmer-esque. Korean cinema holds both.",
         },
       ],
       quiz: {
@@ -141,31 +141,31 @@ const course: Course = {
       title: "Genre Mastery: How Korea Reinvented the Thriller",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Freedom from Genre Boundaries" },
+        { type: "heading", content: "Korean Cinema Ignores Genre Boundaries" },
         {
           type: "paragraph",
           content:
-            "Korean cinema's most distinctive formal characteristic is its freedom from genre conventions. Hollywood genre films are typically committed to a single register: the thriller is thrilling; the comedy is funny; the horror film is scary. Korean films mix tones without conventional apology — Memories of Murder is simultaneously a procedural thriller, a dark comedy, and a tragedy; Parasite begins as comedy and ends as horror.",
+            "Hollywood commits to a single register. Korean films mix tones without apology — Memories of Murder is a procedural, a dark comedy, and a tragedy simultaneously. This isn't confusion; it's a tradition.",
         },
-        { type: "heading", content: "The Pansori Tradition" },
+        { type: "heading", content: "Pansori: Comedy and Tragedy Were Always the Same Thing" },
         {
           type: "paragraph",
           content:
-            "This tonal freedom has a cultural context: pansori, the traditional Korean performance art of storytelling through song, mixes comedy and tragedy as a matter of principle. Grief and laughter are not opposed in the pansori tradition but complementary — the comedy making the tragedy more bearable, the tragedy giving the comedy its depth. Korean cinema inherits this sensibility.",
+            "Traditional Korean pansori storytelling mixes comedy and grief as a principle — each deepens the other. Korean cinema inherits this. The laughter in a Bong film makes the horror land harder.",
         },
-        { type: "heading", content: "Memories of Murder vs. the CSI Procedural" },
+        { type: "heading", content: "Memories of Murder Refuses to Resolve" },
         {
           type: "paragraph",
           content:
-            "American crime procedurals (CSI, Law and Order) promise resolution: the crime will be solved, the criminal identified, the social order restored. Memories of Murder (2003) is a serial killer investigation that deliberately refuses this promise. Based on South Korea's first serial murder case, it ends without resolution — the killer was never found. The film is about the incompetence of the investigation and the brutality of a society that cannot protect its own.",
+            "American procedurals promise a solution. Memories of Murder is based on an unsolved case — and it refuses the genre's basic promise. No killer caught. No order restored. Just incompetence and loss.",
         },
-        { type: "heading", content: "Oldboy vs. the Conventional Revenge Film" },
+        { type: "heading", content: "Oldboy Argues Against Its Own Genre" },
         {
           type: "paragraph",
           content:
-            "The conventional revenge film rewards its protagonist's violence with catharsis and justice. Oldboy's revenge structure is designed to make the pursuit of revenge actively produce catastrophe: the revenge is achieved, but achieving it destroys the protagonist utterly. Park Chan-wook's trilogy is an extended argument against the logic of revenge cinema — using the genre to refute the pleasures it offers.",
+            "Conventional revenge films reward the protagonist's violence with catharsis. Oldboy's revenge logic is designed to produce catastrophe. Park Chan-wook built a trilogy to refute the pleasures of revenge cinema.",
         },
       ],
       quiz: {
@@ -201,13 +201,13 @@ const course: Course = {
       title: "Essential Films",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Canon" },
+        { type: "heading", content: "Two Decades, Dozens of Masterworks" },
         {
           type: "paragraph",
           content:
-            "Korean cinema produced an extraordinary concentration of essential films in the two decades following democratisation. The following are not merely the best known but the films that most reward close attention and represent the range and ambition of the national cinema.",
+            "Korean cinema produced an extraordinary concentration of essential films post-democratisation. These aren't just the best-known — they're the ones that most reward close attention.",
         },
         {
           type: "list",
@@ -266,31 +266,31 @@ const course: Course = {
       title: "Korean Society as Subject",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Korean War's Continuing Shadow" },
+        { type: "heading", content: "Korea Is Divided, Militarised, and Economically Explosive" },
         {
           type: "paragraph",
           content:
-            "The Korean War (1950–53) did not end in a peace treaty but in an armistice: the peninsula remains formally divided, with mandatory military service for South Korean men and the DMZ as a physical wound across the country. This unresolved history — the families separated across the border, the official silence about wartime atrocities — generates a particular quality of historical grief that runs through Korean cinema.",
+            "The Korean War never officially ended — just an armistice. The DMZ cuts the peninsula in two. Mandatory military service shapes every man's life. Korean cinema processes all of this — loudly.",
         },
-        { type: "heading", content: "Confucian Hierarchy vs. Modern Individualism" },
+        { type: "heading", content: "Confucian Hierarchy Meets Modern Individualism" },
         {
           type: "paragraph",
           content:
-            "Korean society maintains strong Confucian hierarchies — the obligations of children to parents, students to teachers, employees to employers — that generate constant tension with the individualism promoted by capitalist modernity. This tension between inherited obligation and individual desire appears throughout the cinema: in Park Chan-wook's family dynamics, in Lee Chang-dong's characters trapped by social position.",
+            "Obligations to parents, employers, and teachers run deep — and clash constantly with capitalist individualism. That tension drives Park Chan-wook's family dynamics and traps Lee Chang-dong's characters.",
         },
-        { type: "heading", content: "The Chaebol Economy and Class Inequality" },
+        { type: "heading", content: "The Chaebol Economy Makes Class Visible" },
         {
           type: "paragraph",
           content:
-            "South Korea's economy is dominated by chaebol — family-controlled conglomerates like Samsung, Hyundai, and LG — that concentrate enormous wealth at the top of the social hierarchy. Parasite's sub-basement family and its penthouse employers are not metaphors: they describe a real economic structure. Korean cinema returns obsessively to the physical and psychological reality of class division.",
+            "Samsung, Hyundai, LG — a handful of family conglomerates dominate the economy and concentrate wealth at the top. Parasite's sub-basement family and penthouse employers aren't metaphors. They're real.",
         },
-        { type: "heading", content: "Gender Inequality and Its Representation" },
+        { type: "heading", content: "Gender Inequality Gets Its Cinema" },
         {
           type: "paragraph",
           content:
-            "Korean cinema has historically reflected and critiqued the severe gender inequality of Korean society. The Handmaiden and A Tale of Two Sisters both centre women's experience of confinement, exploitation, and resistance. Lady Vengeance (2005) is explicitly about the gendered experience of imprisonment and justice. Recent Korean films — particularly by women directors — address gender inequality with increasing directness.",
+            "The Handmaiden, A Tale of Two Sisters, Lady Vengeance — all centre women's confinement and resistance. Recent Korean films by women directors address gender inequality with increasing directness.",
         },
       ],
       quiz: {
@@ -326,43 +326,43 @@ const course: Course = {
       title: "Where to Start",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Gateway Films by Taste" },
+        { type: "heading", content: "Pick Your Entry Point by What You Already Love" },
         {
           type: "paragraph",
           content:
-            "Korean cinema's range is wide enough that the right entry point depends on what you already love. Starting with the film that matches your existing interests gives you the best chance of falling in love with the cinema before you tackle its more demanding works.",
+            "Korean cinema's range is wide. Start with the film that matches your existing taste — give yourself the best chance of falling in love before tackling the demanding work.",
         },
-        { type: "heading", content: "For Genre Newcomers: Parasite (2019)" },
+        { type: "heading", content: "For Everyone: Parasite (2019)" },
         {
           type: "paragraph",
           content:
-            "Parasite is the ideal entry point for audiences new to Korean cinema: it is globally accessible, has the broadest tonal range (comedy, thriller, tragedy), and its social critique is immediately comprehensible. It also contains a structural turn that resets the entire film — a useful demonstration of how Korean cinema handles genre expectations.",
+            "Parasite is the ideal first film — globally accessible, tonally vast (comedy, thriller, tragedy), and structurally surprising. It shows you what Korean cinema does that Hollywood won't.",
         },
         { type: "heading", content: "For Thriller Lovers: Memories of Murder (2003)" },
         {
           type: "paragraph",
           content:
-            "Memories of Murder is the ideal entry for audiences who already love crime procedurals and want to understand what Korean cinema does differently. The film will systematically dismantle the procedural conventions you know while remaining entirely gripping. Its ending is unlike anything in the American genre.",
+            "If you love crime procedurals, Memories of Murder will systematically dismantle what you know while remaining completely gripping. Its ending is unlike anything in the American genre.",
         },
-        { type: "heading", content: "For Art Cinema Audiences: Burning (2018) or Poetry (2010)" },
+        { type: "heading", content: "For Art Cinema Fans: Burning or Poetry" },
         {
           type: "paragraph",
           content:
-            "Burning is the ideal entry for audiences who love slow-burn literary cinema — Antonioni, Murakami, films of sustained ambiguity. Poetry, Lee Chang-dong's masterwork, is for audiences who love humanist cinema of the finest European tradition. Both films reward patience with something close to irreversible.",
+            "Burning rewards lovers of slow, literary ambiguity. Poetry is humanist cinema at the level of the European masters. Both films reward patience with something close to irreversible.",
         },
         { type: "heading", content: "For Horror Audiences: The Wailing (2016)" },
         {
           type: "paragraph",
           content:
-            "The Wailing is Korean horror at its most cosmically extreme — a film about the arrival of evil in a small village that offers no rational explanation and no reassuring resolution. It is not the easiest entry point but is among the most overwhelming cinematic experiences of the past decade.",
+            "Cosmic evil, no rational explanation, no reassuring resolution. Not the easiest entry point — but among the most overwhelming cinematic experiences of the past decade.",
         },
-        { type: "heading", content: "Building Toward the Demanding Films" },
+        { type: "heading", content: "Build Toward the Demanding Films" },
         {
           type: "paragraph",
           content:
-            "After your gateway film: Oldboy, A Tale of Two Sisters, and The Handmaiden reward viewing in any order. After those, Mother, Burning, and Poetry. The Wailing last — it is best approached with a full understanding of how Korean cinema manipulates tone, because its tonal shifts are extreme.",
+            "After your gateway: Oldboy, A Tale of Two Sisters, The Handmaiden in any order. Then Mother, Burning, Poetry. The Wailing last — its tonal extremity makes more sense with context.",
         },
       ],
       reflection: {

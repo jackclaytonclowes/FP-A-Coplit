@@ -16,36 +16,36 @@ const course: Course = {
       title: "The Shot: Cinema's Basic Unit",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "What Is a Shot?" },
         {
           type: "paragraph",
           content:
-            "A shot is a single uninterrupted recording: everything the camera captures between the moment it begins and the moment it stops. Film is constructed from sequences of shots edited together. Understanding individual shots — what they are, what they do, why a filmmaker chooses one over another — is the foundation of visual literacy.",
+            "A shot is everything the camera captures between start and stop. Film is just shots, cut together — understand one shot and you understand the language.",
         },
-        { type: "heading", content: "Shot Sizes and Their Functions" },
+        { type: "heading", content: "Shot Sizes Do Emotional Work" },
         {
           type: "paragraph",
           content:
-            "The close-up places us in emotional intimacy with a subject — we cannot maintain distance from a face filling the frame. The medium shot shows a character in relation to their immediate space, balancing person and environment. The wide shot gives us scale and context: the character becomes a figure in a world larger than themselves. The extreme close-up — a detail, an eye, a hand — creates either dread or significance depending on context.",
+            "Close-up means intimacy. Wide shot means insignificance. The extreme close-up — an eye, a hand — creates dread or significance depending on context.",
         },
         {
           type: "paragraph",
           content:
-            "The point-of-view shot shows us what a character sees, making their perspective our own. It is the most intimate shot in cinema: for its duration, we inhabit another consciousness. Directors use POV to create identification, to implicate the audience in a character's desire or fear, or — in Hitchcock — to make us complicit in something we might prefer to watch from outside.",
+            "The point-of-view shot puts you inside a character's head. Hitchcock used it to make audiences complicit — in Rear Window, you watch what Jefferies watches, and you can't stop.",
         },
-        { type: "heading", content: "Framing: What the Camera Includes and Excludes" },
+        { type: "heading", content: "Framing Is a Meaning Machine" },
         {
           type: "paragraph",
           content:
-            "Framing is the decision about what to include within the rectangle of the image and what to leave outside it. The rule of thirds places subjects off-centre for dynamic tension. Negative space — the empty part of a frame — can express loneliness, threat, or imbalance. Headroom — the space above a subject's head — communicates confidence or oppression. Every framing decision is a meaning-making choice.",
+            "Every framing choice — where the subject sits, how much empty space surrounds them — is a meaning-making decision. Negative space can express loneliness. Tight headroom expresses oppression.",
         },
-        { type: "heading", content: "Depth of Field" },
+        { type: "heading", content: "Depth of Field: Who Controls Your Eyes?" },
         {
           type: "paragraph",
           content:
-            "Depth of field describes how much of the image — foreground, middle ground, background — is in sharp focus simultaneously. Shallow depth of field (common in portrait photography) separates the subject from background, directing attention and creating intimacy or isolation. Deep focus (as in Orson Welles' Citizen Kane) keeps everything sharp, allowing the audience to choose where to look — and the filmmaker to construct meaning through simultaneous action in multiple planes.",
+            "Shallow focus isolates your subject. Deep focus — as in Citizen Kane — keeps everything sharp, letting the audience choose where to look. One locks your attention; the other trusts you.",
         },
       ],
       quiz: {
@@ -81,37 +81,37 @@ const course: Course = {
       title: "Editing and Time",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "What Editing Does" },
+        { type: "heading", content: "Editing Controls Time Itself" },
         {
           type: "paragraph",
           content:
-            "Editing is cinema's most distinctive power: the ability to control time. Film can compress days into minutes, expand a second into minutes, move between locations simultaneously, or juxtapose images that have no spatial or temporal connection. The cut — the moment of transition from one shot to the next — is where meaning is made.",
+            "Film can compress days into seconds or stretch one second into minutes. The cut — the moment one shot becomes another — is where meaning is made.",
         },
-        { type: "heading", content: "Continuity Editing: The Invisible Cut" },
+        { type: "heading", content: "Continuity Editing: The Art of Invisibility" },
         {
           type: "paragraph",
           content:
-            "Continuity editing is the dominant convention of commercial cinema: cuts are made to be invisible, to maintain the illusion of continuous space and time. Matching action (cutting on a movement as it continues across shots), the 180-degree rule (keeping the camera on one side of an axis to preserve spatial orientation), and eyeline matching (cutting from a character looking to what they see) are the tools of this system.",
+            "Hollywood's dominant style hides the cut. Matching action, the 180-degree rule, eyeline matching — all designed to make you forget you're watching edited footage.",
         },
-        { type: "heading", content: "The Jump Cut and Disorientation" },
+        { type: "heading", content: "The Jump Cut: Disorientation as Statement" },
         {
           type: "paragraph",
           content:
-            "The jump cut removes a section from the middle of a continuous shot, creating a sudden lurch in time. Jean-Luc Godard's use of jump cuts in Breathless (1960) was initially perceived as an error; it was in fact a deliberate violation of continuity, announcing that the film's logic was different from Hollywood's — and that disorientation was a valid emotional state to produce in an audience.",
+            "Godard's jump cuts in Breathless (1960) looked like errors. They were declarations — disorientation is a valid emotional state to produce.",
         },
-        { type: "heading", content: "The Match Cut and the Kuleshov Effect" },
+        { type: "heading", content: "Kuleshov and the Match Cut" },
         {
           type: "paragraph",
           content:
-            "The match cut connects two images through visual rhyme: Kubrick's cut from the prehistoric bone to the space station in 2001: A Space Odyssey compresses four million years in one frame. The Kuleshov effect — demonstrated by Soviet filmmaker Lev Kuleshov in the 1920s — shows that the same shot of a face reads differently depending on what precedes it: the identical neutral expression appears to show hunger, grief, or desire depending on context. Meaning is made in the editing, not the individual shot.",
+            "Kubrick cut from a prehistoric bone to a space station — four million years in one frame. Kuleshov proved the same face reads as hunger, grief, or joy depending on what precedes it. Meaning lives in the edit, not the image.",
         },
-        { type: "heading", content: "Montage and Cross-Cutting" },
+        { type: "heading", content: "Montage: Collision as Idea" },
         {
           type: "paragraph",
           content:
-            "Eisenstein's intellectual montage assembled shots not for narrative continuity but for dialectical meaning: the collision of two images producing a third concept not present in either. Cross-cutting intercuts between simultaneous events in different locations, creating tension through the implicit question of which action will conclude first.",
+            "Eisenstein didn't edit for flow — he edited for collision. Two images crash together to produce a third concept. Cross-cutting asks: which action will end first?",
         },
       ],
       quiz: {
@@ -147,37 +147,37 @@ const course: Course = {
       title: "Sound, Silence and Score",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Diegetic and Non-Diegetic Sound" },
+        { type: "heading", content: "Diegetic vs. Non-Diegetic: Two Worlds of Sound" },
         {
           type: "paragraph",
           content:
-            "Diegetic sound exists within the world of the film: the characters can hear it. A car door slamming, a conversation, a song playing on a radio in the scene — all diegetic. Non-diegetic sound exists outside the film's world: only the audience hears it. The orchestral score that swells as the hero runs, the narrator's voice — non-diegetic. This distinction matters because it defines what is real within the film and what is the filmmaker speaking directly to the audience.",
+            "Diegetic sound lives inside the film — characters can hear it. Non-diegetic sound is for your ears only: the score, the narrator. The distinction defines what's real and what's the filmmaker talking directly to you.",
         },
-        { type: "heading", content: "Silence as a Weapon" },
+        { type: "heading", content: "Silence Is a Weapon" },
         {
           type: "paragraph",
           content:
-            "No Country for Old Men (2007) is one of the most notable recent films for its near-absence of score. The Coen Brothers withhold the non-diegetic safety signal that most films provide — the music that tells you how to feel — and force the audience into a state of unmediated anxiety. Silence means nothing is mediating your experience; you are alone with what is happening.",
+            "No Country for Old Men strips out the score entirely. Without music telling you how to feel, you're alone with what's happening — and that's far more frightening than any cue.",
         },
-        { type: "heading", content: "The Function of Score" },
+        { type: "heading", content: "Score: Amplifier or Manipulator?" },
         {
           type: "paragraph",
           content:
-            "Film score operates on a spectrum from manipulation to emotional amplification. At its worst, score tells audiences what to feel when the image has not earned it. At its best — Bernard Herrmann's strings in Psycho, Jonny Greenwood's score in There Will Be Blood — it amplifies and extends what the image has already achieved, adding an emotional dimension that neither image nor music could produce alone.",
+            "At its worst, score tells you what to feel when the image hasn't earned it. At its best — Herrmann's strings in Psycho, Greenwood's noise in There Will Be Blood — it adds a dimension neither image nor music could produce alone.",
         },
-        { type: "heading", content: "Sound Design as World-Building" },
+        { type: "heading", content: "Sound Design Builds Worlds" },
         {
           type: "paragraph",
           content:
-            "Sound design constructs the acoustic environment of the film's world: the specific quality of an industrial space, the texture of silence in a desert, the ambient noise of a city at 3am. This is not sound effects — it is the creation of an acoustic reality that the audience inhabits. Lynch's collaborator Alan Splet, Apocalypse Now's sound designer Walter Murch, and the Safdie Brothers' Daniel Lopatin all use sound design as a primary tool of meaning-making.",
+            "Sound design isn't effects — it's acoustic reality. Lynch's Alan Splet, Murch on Apocalypse Now, Lopatin on Uncut Gems all use sound as a primary tool of meaning. The texture of a space tells you how to inhabit it.",
         },
-        { type: "heading", content: "Music Against Image" },
+        { type: "heading", content: "Music Against Image Creates a Third Thing" },
         {
           type: "paragraph",
           content:
-            "The most powerful uses of film music are often counterintuitive: music that contradicts the image rather than reinforcing it. Apocalypse Now opens with The Doors' 'The End' over images of napalm destroying a jungle. A Clockwork Orange uses 'Singin' in the Rain' as Alex beats a man. The contrast between image and music creates a third meaning — irony, horror, or dislocation — that neither element produces alone.",
+            "Apocalypse Now opens with 'The End' over napalm. A Clockwork Orange uses 'Singin' in the Rain' during a beating. When music contradicts image, the collision creates irony, horror, or dislocation that neither element produces alone.",
         },
       ],
       quiz: {
@@ -213,37 +213,37 @@ const course: Course = {
       title: "Narrative Structure and Genre",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Three-Act Structure and Its Function" },
+        { type: "heading", content: "Three Acts: Not a Formula, a Description" },
         {
           type: "paragraph",
           content:
-            "The dominant narrative structure in commercial cinema divides story into three acts: setup (establishing character, world, and desire), confrontation (the protagonist pursues their goal against escalating obstacles), and resolution (the desire is achieved or surrendered, with consequences). This structure is not a formula but a description of how stories work: something is wanted, something stands in the way, something happens.",
+            "Setup, confrontation, resolution — it's not Hollywood law, it's how desire works. Something is wanted. Something blocks it. Something happens.",
         },
-        { type: "heading", content: "In Medias Res and Non-Linear Narrative" },
+        { type: "heading", content: "Non-Linear Narrative Plays With Your Assumptions" },
         {
           type: "paragraph",
           content:
-            "In medias res begins the story in the middle of the action and fills in context as the narrative proceeds. Non-linear narrative — used in Pulp Fiction, Memento, Rashomon — abandons chronological order to create meaning through juxtaposition, perspective, or the gradual revelation of information. The choice of where to begin a story is itself a meaning-making decision.",
+            "Pulp Fiction, Memento, Rashomon — all start mid-story or scramble time. Where you begin tells you what the film thinks is important.",
         },
-        { type: "heading", content: "The Unreliable Narrator" },
+        { type: "heading", content: "Unreliable Narrators Make You Work" },
         {
           type: "paragraph",
           content:
-            "When the narrator of a story cannot be trusted — because they are lying, mistaken, or whose perspective is limited — the audience must actively question what they are being told. The unreliable narrator invites a second-order reading: what is actually happening, behind what we are shown? This produces a particular kind of engaged, suspicious attention.",
+            "When the storyteller can't be trusted, you have to read between the lines. The unreliable narrator turns passive watching into active suspicion.",
         },
-        { type: "heading", content: "Genre Conventions as Audience Contract" },
+        { type: "heading", content: "Genre Is a Contract" },
         {
           type: "paragraph",
           content:
-            "Genre is a contract between filmmaker and audience: a horror film promises certain experiences; a romantic comedy promises a particular emotional journey and resolution. This contract gives audiences permission to feel — they know what kind of experience they have signed up for. But genre conventions can also be subverted: the filmmaker fulfils some expectations and violates others, producing surprise and, at best, discovery.",
+            "Horror promises dread. Rom-com promises reunion. The contract gives you permission to feel. Breaking the contract — when the filmmaker earns it — produces discovery.",
         },
-        { type: "heading", content: "Genre: Setting Expectations to Break Them" },
+        { type: "heading", content: "Genre: Tools, Not Cages" },
         {
           type: "paragraph",
           content:
-            "Thriller, horror, drama, comedy — each genre establishes expectations that a skilled filmmaker can exploit. Get Out (2017) uses horror conventions to deliver a social critique; No Country for Old Men is a thriller without conventional resolution; Parasite begins as a comedy and ends as tragedy. Genre is not a limit but a set of available tools.",
+            "Get Out uses horror to deliver social critique. No Country for Old Men is a thriller without a resolution. Parasite starts as comedy and ends as tragedy. Genre is a set of tools — not a limit.",
         },
       ],
       quiz: {
@@ -279,37 +279,37 @@ const course: Course = {
       title: "Cinematography and Light",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Aspect Ratio" },
+        { type: "heading", content: "Aspect Ratio Shapes How You Feel" },
         {
           type: "paragraph",
           content:
-            "Aspect ratio is the relationship between the width and height of the image. The Academy ratio (1.33:1) was the standard of the studio era — nearly square, intimate, containing. Widescreen formats (2.39:1 anamorphic, 1.85:1 flat) create a panoramic image suited to landscape, spectacle, and the formal compositions of directors like Welles and Kubrick. Some contemporary filmmakers — Eggers, Lanthimos — choose unusual ratios for specific psychological purposes.",
+            "The Academy ratio is nearly square — intimate, containing. Widescreen stretches the world into landscape. Eggers and Lanthimos pick unusual ratios on purpose, for specific psychological effects.",
         },
-        { type: "heading", content: "Colour Temperature as Emotional Code" },
+        { type: "heading", content: "Warm vs. Cool: Cinema's Emotional Shorthand" },
         {
           type: "paragraph",
           content:
-            "Film images have a colour temperature — a bias toward warm orange-yellow or cool blue-white — that operates as an emotional code. Warm light signals intimacy, comfort, memory, and the past. Cool light signals alienation, modernity, threat, and the clinical. Roger Deakins' work on No Country for Old Men uses cool, bleached light to make the Southwest feel inhospitable; his work on Blade Runner 2049 uses both warm and cool to separate the film's emotional registers.",
+            "Warm amber light signals safety and memory. Cool blue-white signals threat and alienation. Roger Deakins uses this consciously — you feel it before you name it.",
         },
-        { type: "heading", content: "Key, Fill, and Back Light" },
+        { type: "heading", content: "Three-Point Lighting: The Standard and Its Departures" },
         {
           type: "paragraph",
           content:
-            "The standard three-point lighting setup uses a key light (the primary source, establishing the dominant shadow), a fill light (softening shadows from the opposite side), and a back light (separating the subject from the background with a rim of light). Departures from this standard — using only key light for harsh shadow, removing fill entirely for stark chiaroscuro, using practical sources only — all carry meaning.",
+            "Key, fill, back — the standard setup. Remove the fill and you get stark chiaroscuro. Use only practicals and you get raw presence. Every departure from the standard is a choice.",
         },
-        { type: "heading", content: "Natural Light and Its Qualities" },
+        { type: "heading", content: "Natural Light Has a Quality Money Can't Buy" },
         {
           type: "paragraph",
           content:
-            "Natural light — available light from sun, sky, and practical sources — has qualities that artificial light struggles to replicate: the way late-afternoon sun rakes across a face, the flat grey of overcast sky, the flicker of candlelight. Directors who shoot primarily in natural light — Terrence Malick, Agnès Varda, Eggers — seek a quality of presence that studio lighting cannot produce.",
+            "Late-afternoon sun raking across a face. Flat grey overcast. Candlelight flicker. Malick, Varda, Eggers chase something artificial light can't replicate.",
         },
-        { type: "heading", content: "The Cinematographer-Director Relationship" },
+        { type: "heading", content: "The Cinematographer Is an Author" },
         {
           type: "paragraph",
           content:
-            "The cinematographer translates the director's vision into photographic reality. Great director-cinematographer collaborations are creative partnerships: Roger Deakins with Denis Villeneuve (Blade Runner 2049, Dune), Gordon Willis with Coppola and Woody Allen (the darkness of The Godfather, the Manhattan black-and-white), Vittorio Storaro with Bertolucci. The cinematographer is not a technician but an author of the visual experience.",
+            "Deakins and Villeneuve. Gordon Willis and Coppola. Storaro and Bertolucci. The director imagines; the cinematographer makes it real. These are creative partnerships, not service relationships.",
         },
       ],
       quiz: {
@@ -345,43 +345,43 @@ const course: Course = {
       title: "How to Watch Films Actively",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 12,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Most People Watch Films Wrong" },
         {
           type: "paragraph",
           content:
-            "Most people watch films as passengers: they sit in the experience and allow it to happen to them. Active watching is different — it is a practice of simultaneous experiencing and analysing, of staying present to what you are feeling while also noticing the formal choices that produce those feelings.",
+            "Passive watching lets the film happen to you. Active watching means feeling and analysing simultaneously — noticing the choices that produce your reactions.",
         },
-        { type: "heading", content: "Take Notes While Watching" },
+        { type: "heading", content: "Keep a Notebook" },
         {
           type: "paragraph",
           content:
-            "Keep a notebook. Note when something surprises you, disturbs you, or moves you — and also note what the film was doing at that moment. What shot was on screen? Was there music? Had anything just changed? The note you make immediately after an emotional response is more valuable than any analysis written later.",
+            "When something moves or disturbs you, write down what the film was doing at that exact moment. That note is more valuable than any analysis written later.",
         },
-        { type: "heading", content: "Use Pause and Rewind" },
+        { type: "heading", content: "Pause and Rewind Are Your Friends" },
         {
           type: "paragraph",
           content:
-            "Films reward multiple viewings and close inspection. Pause a frame and examine it as a photograph: what is in the frame, where is the light coming from, what is out of focus? Rewind a scene and watch it again, this time looking only at the background. Scenes are layered: the foreground action is the first layer; the visual world constructed around it is several more.",
+            "Freeze a frame and read it like a photograph. Rewind a scene and watch only the background. Films are layered — the foreground is just the top layer.",
         },
-        { type: "heading", content: "Watch Without Sound" },
+        { type: "heading", content: "Watch Five Minutes Without Sound" },
         {
           type: "paragraph",
           content:
-            "Turn off the sound for five minutes of any film and watch the image alone. You will suddenly notice what the image is doing without musical assistance — what the composition, lighting, and movement alone communicate. Then turn the sound back on and notice how the acoustic environment changes your experience of the same images.",
+            "Kill the audio and watch the image alone. Then put it back. Notice what the score was adding — and what it was overriding.",
         },
-        { type: "heading", content: "Notice What You Do Not Notice" },
+        { type: "heading", content: "Notice What You Don't Notice" },
         {
           type: "paragraph",
           content:
-            "Films are designed to direct your attention — to make you look where the filmmaker wants. The most interesting craft is often in what you do not consciously notice: the slight camera movement that edges you toward anxiety, the way the colour of a character's clothing changes across a film, the background character who appears in multiple scenes. Active watching includes noticing the edges and borders of attention.",
+            "Films direct your attention on purpose. The best craft hides at the edges — the subtle camera drift, the recurring background figure, the colour shift across a film. Active watching lives in the margins.",
         },
-        { type: "heading", content: "Discuss Analytically, Not Critically" },
+        { type: "heading", content: "Ask How Before Whether" },
         {
           type: "paragraph",
           content:
-            "When you discuss a film with others, start with questions of how before questions of whether: how did the film create that effect? How did it make you feel that? The critical question — did you like it? — comes too quickly and forecloses the more interesting analytical questions. You learn more from a film you can explain than from one you merely liked.",
+            "Skip 'did you like it?' and go straight to 'how did it make you feel that?' You learn more from a film you can explain than one you merely enjoyed.",
         },
       ],
       reflection: {

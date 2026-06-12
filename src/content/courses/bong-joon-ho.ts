@@ -16,18 +16,18 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Bong Joon-ho (Born 1969, Daegu, South Korea)" },
         {
           type: "paragraph",
           content:
-            "Bong Joon-ho was born in 1969 in Daegu, South Korea, into a family with a strong artistic lineage — his maternal grandfather was the celebrated novelist and screenwriter Park Tae-won. He grew up consuming film voraciously, and enrolled to study sociology at Yonsei University in Seoul, an education that would permanently shape how he thought about cinema and class.",
+            "Bong studied sociology at Yonsei University before film training — and it shows. His cinema is sociology expressed through genre. Class isn't a theme; it's the engine.",
         },
         {
           type: "paragraph",
           content:
-            "After Yonsei he trained at the Korean Academy of Film Arts, entering the industry at the moment the Korean New Wave was transforming what Korean cinema could be. His early career included the short film Incoherence (1994) and then his feature debut Barking Dogs Never Bite (2000), a dark comedy about an apartment complex that established his characteristic mixture of tones.",
+            "He entered the industry during the Korean New Wave, trained at the Korean Academy of Film Arts, and arrived with his tonal range already fully loaded: funny, devastating, often at the same time.",
         },
         {
           type: "heading",
@@ -67,31 +67,31 @@ const course: Course = {
       title: "Influences & Cinematic Education",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Alfred Hitchcock" },
+        { type: "heading", content: "Hitchcock's Toolkit, Redirected" },
         {
           type: "paragraph",
           content:
-            "Hitchcock is Bong's most frequently cited influence, and the debt is structural. From Hitchcock he learned how to use genre mechanics — suspense, misdirection, the delayed revelation — to manipulate audience emotion. But where Hitchcock's moral universe is often conservative, Bong redirects those same mechanics toward social critique.",
+            "From Hitchcock, Bong took suspense, misdirection, the delayed revelation. But where Hitchcock explores bourgeois guilt, Bong exposes class immobility and institutional failure.",
         },
         { type: "heading", content: "The Korean New Wave" },
         {
           type: "paragraph",
           content:
-            "Coming of age during the Korean New Wave meant Bong absorbed a generation of directors — Kim Jee-woon, Park Chan-wook, Lee Chang-dong — who were demonstrating that Korean cinema could operate at the highest international level while remaining rooted in Korean specificity. The New Wave gave Bong permission to be locally exact and globally resonant simultaneously.",
+            "Park Chan-wook, Kim Jee-woon, Lee Chang-dong — they proved Korean cinema could be locally exact and globally resonant at the same time. Bong had permission from the start.",
         },
         { type: "heading", content: "Asian Social Realism" },
         {
           type: "paragraph",
           content:
-            "The Taiwanese New Wave directors Edward Yang and Hou Hsiao-hsien showed Bong how to use domestic and social spaces as documents of historical and economic forces. Yang's Yi Yi and Hou's films about Taiwan's modernisation proved that cinema could carry the full weight of sociological observation without losing its humanity.",
+            "Edward Yang and Hou Hsiao-hsien showed that domestic and social spaces could carry the full weight of economic history. Bong absorbed this and added genre mechanics.",
         },
         { type: "heading", content: "Hong Sang-soo and Tonal Range" },
         {
           type: "paragraph",
           content:
-            "Hong Sang-soo's dry, recursive comedies about intellectual and romantic failure taught Bong something about tone — specifically how to hold comedy and despair in the same frame without one cancelling the other. Bong's tonal range, the ability to make you laugh and then devastate you immediately, is one of his defining qualities.",
+            "Hong's dry comedies of intellectual failure taught Bong how to hold comedy and despair in the same frame. You laugh, then you feel guilty for laughing. That's the move.",
         },
         {
           type: "quote",
@@ -116,31 +116,31 @@ const course: Course = {
       title: "Visual Style & Techniques",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Genre Mixing as Structural Method" },
+        { type: "heading", content: "Genre Mixing as Method" },
         {
           type: "paragraph",
           content:
-            "Bong's films do not occupy single genres — they migrate between them within a single film, and often within a single scene. The Host begins as a monster movie, becomes a family drama, pivots into political satire, and ends in tragedy. These shifts are not accidental or inconsistent; they are how Bong refuses to let genre conventions insulate the audience from the film's real subject.",
+            "The Host is a monster movie, then a family drama, then political satire, then tragedy — all in one film. The shifts aren't inconsistencies. They're how Bong stops genre from protecting you.",
         },
-        { type: "heading", content: "Precise Storyboarding" },
+        { type: "heading", content: "He Draws Every Shot First" },
         {
           type: "paragraph",
           content:
-            "Bong is one of cinema's most exacting storyboard artists. He draws every shot before production begins, and his boards are remarkably close to what appears on screen. This pre-visualisation is not about control for its own sake — it means that on set, creative energy goes into performance and nuance rather than figuring out the camera. The preparation is in service of spontaneity.",
+            "Bong storyboards obsessively — and his boards look like the finished film. That preparation isn't about control; it frees the set for performance and nuance instead of figuring out the camera.",
         },
-        { type: "heading", content: "Vertical Spatial Symbolism" },
+        { type: "heading", content: "Up Is Rich, Down Is Precarious" },
         {
           type: "paragraph",
           content:
-            "Across his films, Bong uses vertical geography as a literal map of class hierarchy. In Parasite the Parks live in a glass house at the top of a hill while the Kims live in a semi-basement below street level. Going up in a Bong film means moving toward wealth and power; going down means precarity and concealment. The architecture is ideology made spatial.",
+            "Parasite's geography is literal ideology: hilltop house, semi-basement apartment. Going down in a Bong film means entrapment. The architecture argues his politics without a word of dialogue.",
         },
-        { type: "heading", content: "Tonal Shifts Without Breaking the World" },
+        { type: "heading", content: "Tone Shifts Without World Breaks" },
         {
           type: "paragraph",
           content:
-            "Perhaps Bong's most difficult technical achievement is moving between radically different tones — comedy to horror, farce to grief — without ever making the audience feel that the world has changed. The rules of the fictional world remain consistent; only the emotional register shifts. This requires extraordinary precision in writing, performance, editing, and score.",
+            "Comedy to horror to tragedy — Bong shifts emotional registers without breaking the rules of his fictional world. It requires extraordinary precision in writing, performance, editing, and score.",
         },
       ],
       quiz: {
@@ -160,31 +160,31 @@ const course: Course = {
       title: "Essential Films",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Memories of Murder (2003)" },
         {
           type: "paragraph",
           content:
-            "Based on South Korea's first documented serial murder case, Memories of Murder is one of the finest crime films ever made. Two detectives — one instinctive and brutal, one systematic and obsessive — investigate murders in a provincial town in the 1980s. The film is simultaneously a thriller, a study in institutional incompetence, a portrait of a society under authoritarian rule, and a meditation on the limits of human knowledge. The final shot is devastating.",
+            "Based on South Korea's first documented serial murder case. Two detectives, one instinctive and brutal, one systematic and obsessive — and no answer at the end. The final shot is devastating.",
         },
         { type: "heading", content: "The Host (2006)" },
         {
           type: "paragraph",
           content:
-            "A monster emerges from the Han River and takes a young girl. Her dysfunctional family pursues it. The Host uses the monster-movie frame to deliver a precise critique of American military presence in South Korea, governmental incompetence, media hysteria, and the resilience of the family unit against institutions that fail them utterly. It was the highest-grossing Korean film ever at the time of release.",
+            "A monster from the Han River takes a girl. Her dysfunctional family goes after it. The monster is literally spawned from American military chemicals — and the government makes everything worse.",
         },
         { type: "heading", content: "Snowpiercer (2013)" },
         {
           type: "paragraph",
           content:
-            "Bong's first English-language film takes place entirely aboard a train carrying humanity's survivors after a climate catastrophe. The train's class compartments — from the front-of-train elite to the tail-section poor — are among cinema's most explicit spatial metaphors for capitalism. Bong uses the train's linear geography to literalise class mobility as a movement through space.",
+            "Post-apocalypse on a train. Front carriages: the elite. Tail section: the poor. Class mobility is literally movement through space. Bong doesn't do subtle, and he doesn't need to.",
         },
         { type: "heading", content: "Parasite (2019)" },
         {
           type: "paragraph",
           content:
-            "Bong's masterpiece. The Kim family, unemployed and living in a semi-basement, insinuate themselves one by one into the household of the wealthy Park family. What begins as a comedy of social climbing becomes a thriller, then a horror film, then a tragedy. Parasite is the fullest expression of every technique and theme Bong had developed across his career — the spatial symbolism, the genre migration, the tonal precision, the sociological clarity.",
+            "Comedy to thriller to horror to tragedy — and every transition is earned. The fullest expression of everything Bong built: spatial symbolism, genre migration, tonal precision, sociological clarity.",
         },
       ],
       quiz: {
@@ -204,31 +204,31 @@ const course: Course = {
       title: "Themes & Obsessions",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Class Hierarchy and Social Immobility" },
+        { type: "heading", content: "Class Is Embodied, Not Just Economic" },
         {
           type: "paragraph",
           content:
-            "Every Bong film is, at its core, about the violence of class. This is not merely an abstract political concern — Bong shows class operating through space, through smell, through who can look whom in the eye. In Parasite the Parks notice that the Kims smell like the subway. The detail is precise: class is embodied, not merely economic.",
+            "In Parasite, the Parks notice the Kims smell like the subway. Class operates through space, through smell, through who can look whom in the eye. Bong shows you the texture of it.",
         },
-        { type: "heading", content: "The Brutality Beneath Bourgeois Comfort" },
+        { type: "heading", content: "Comfort Is Built on Something Concealed" },
         {
           type: "paragraph",
           content:
-            "Bourgeois comfort in Bong's films always rests on something concealed. In Parasite there is literally a man living beneath the basement. In Snowpiercer the front-of-train paradise is maintained by the exploitation of the tail section. Bong repeatedly shows that the comfort of the privileged is not separate from the suffering of others — it is built on it.",
+            "In Parasite there's literally a man living under the basement. In Snowpiercer the elite paradise runs on the exploitation of the tail. The privilege and the suffering are the same system.",
         },
-        { type: "heading", content: "Family as Both Love and Horror" },
+        { type: "heading", content: "Family Love Under Economic Pressure" },
         {
           type: "paragraph",
           content:
-            "Bong's families are genuinely loving — this is what separates him from nihilism. The Kims in Parasite, the family in The Host, the mother in Mother — these people love each other. But Bong shows how family love, under conditions of economic precarity and social pressure, can be expressed as violence, deception, and catastrophic risk. Love does not solve the material conditions.",
+            "Bong's families genuinely love each other — that's what separates him from nihilism. But love under precarity gets expressed as deception, violence, and catastrophic risk. It doesn't solve the material conditions.",
         },
-        { type: "heading", content: "Genre as Social Critique Delivery System" },
+        { type: "heading", content: "Genre as Trojan Horse" },
         {
           type: "paragraph",
           content:
-            "Genre, for Bong, is not decoration — it is a mechanism for delivering social critique past the audience's defences. People sit down to watch a monster movie and find themselves watching a critique of American foreign policy. They sit down to watch a heist comedy and find themselves watching a film about the impossibility of class mobility. Genre is the vehicle; critique is the payload.",
+            "You sit down for a monster movie and find yourself watching a critique of American foreign policy. Genre is the vehicle. Critique is the payload. The audience's guard is already down.",
         },
       ],
       quiz: {
@@ -248,37 +248,37 @@ const course: Course = {
       title: "What You Can Learn",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From His Practice" },
+        { type: "heading", content: "What Bong Teaches" },
         {
           type: "paragraph",
           content:
-            "Bong teaches that genre is a tool, not a constraint — and that the physical spaces in a story can do the ideological work that dialogue would otherwise have to carry.",
+            "Genre is a tool, not a constraint. And the physical spaces in a story can do the ideological work that dialogue would otherwise have to carry.",
         },
         { type: "heading", content: "1. Use Genre to Deliver Your Real Subject" },
         {
           type: "paragraph",
           content:
-            "Identify the genre conventions your story uses, then ask what social or psychological truth you could smuggle through that genre frame. The monster movie can carry political critique. The romantic comedy can carry economic analysis. The thriller can carry an argument about institutional failure. Pick one real-world subject and find the genre that gets it closest to an audience.",
+            "Pick a genre that gets your real subject closest to an audience. The monster movie can carry political critique. The heist comedy can carry an argument about class. What's yours?",
         },
         { type: "heading", content: "2. Make Space Do Ideological Work" },
         {
           type: "paragraph",
           content:
-            "Look at a scene you are writing or a sequence you are designing. Is there a spatial relationship — upstairs/downstairs, inside/outside, centre/periphery — that could embody the power dynamic you are depicting? Physical geography that encodes abstract ideas frees you from having to state those ideas in dialogue.",
+            "Is there a spatial relationship in your story — up/down, inside/outside — that could embody the power dynamic you're depicting? If so, you don't need to state it in dialogue.",
         },
         { type: "heading", content: "3. Hold Multiple Tones Without Choosing" },
         {
           type: "paragraph",
           content:
-            "Bong refuses to choose between funny and devastating, between genre entertainment and social critique. Practice holding two emotional registers simultaneously by writing a scene that is genuinely comic and genuinely sad. Do not let either register undercut the other. The audience should laugh and feel guilty for laughing.",
+            "Write a scene that's genuinely comic and genuinely sad at the same time. Don't let either undercut the other. The audience should laugh and feel guilty for laughing.",
         },
         { type: "heading", content: "4. Storyboard Before You Shoot" },
         {
           type: "paragraph",
           content:
-            "Bong's precise pre-visualisation is not about limiting spontaneity — it is about moving the creative decisions to the stage where you have the most time and freedom to make them. If you know exactly what you are building before you build it, the building becomes execution of vision rather than search for vision under pressure.",
+            "Bong's pre-visualisation moves creative decisions to the stage where you have the most time and freedom. Know what you're building before you build it. Then the building is execution, not discovery under pressure.",
         },
       ],
       reflection: {

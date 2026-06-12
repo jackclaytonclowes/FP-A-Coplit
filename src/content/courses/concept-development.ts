@@ -16,30 +16,30 @@ const course: Course = {
       title: "What Makes a Strong Concept",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Theme vs. Concept" },
+        { type: "heading", content: "Theme vs. Concept: Know the Difference" },
         {
           type: "paragraph",
           content:
-            "The most common confusion in creative work is between a theme and a concept. A theme is a subject: 'sadness,' 'power,' 'nature.' A concept is a specific proposition: 'what grief looks like from the inside in the first week,' 'the loneliness of people who have everything,' 'the beauty of natural systems in states of decay.' The difference is specificity. A theme can be illustrated in thousands of ways. A concept has one right answer — or at least, a much smaller set of right answers.",
+            "A theme is a subject: 'sadness,' 'power,' 'nature.' A concept is a specific proposition: 'the loneliness of people who have everything.' The difference is specificity — and specificity is everything.",
         },
         {
           type: "paragraph",
           content:
-            "Specificity is the most reliable mark of a strong concept. If you can summarise the concept in a short, specific sentence and someone immediately understands what the work will feel like, the concept is doing its job. If the summary could describe many different works, the concept needs more development.",
+            "A theme can be illustrated a thousand ways. A concept has a much smaller set of right answers. If you can summarise it in one sharp sentence and someone immediately knows what the work will feel like — that's a concept.",
         },
-        { type: "heading", content: "The Concept Answers 'What Are We Saying?'" },
+        { type: "heading", content: "'What Are We Saying?' Comes First" },
         {
           type: "paragraph",
           content:
-            "A strong concept answers the question 'what are we saying?' before it answers 'how does it look?' This sequence is critical. Most weak creative work begins with aesthetic decisions — 'I want it to look dark and cinematic' — without a prior decision about what the darkness and the cinematography are in service of. The aesthetics become the concept by default, and aesthetic decisions made without a conceptual framework are just decoration.",
+            "Strong concepts answer 'what are we saying?' before 'how does it look?' Start with aesthetics and you end up with decoration — vibes without a point.",
         },
-        { type: "heading", content: "Great Campaign Concepts" },
+        { type: "heading", content: "Concepts That Worked" },
         {
           type: "paragraph",
           content:
-            "Nike's 'Just Do It' (1988) is not a product description. It is a philosophy: the internal struggle that precedes every athletic act, and the decision to proceed anyway. It works for a marathon runner and for someone getting off the sofa to take a walk, because it describes a universal human experience of inertia and resolution. Apple's '1984' commercial (Ridley Scott, 1984) is not a feature list. It is a position: we are not IBM, we are the ones who will break the corporate monopoly on information. Both concepts answer 'what are we saying?' with something that exceeds any product description.",
+            "Nike's 'Just Do It' isn't a product description — it's a philosophy about inertia and the decision to move anyway. Apple's '1984' isn't a feature list — it's a position: we're the ones who break the monopoly. Both answer 'what are we saying?' with something that outlasts any product.",
         },
       ],
       quiz: {
@@ -75,30 +75,30 @@ const course: Course = {
       title: "Research and Reference",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Primary vs. Secondary Research" },
+        { type: "heading", content: "Primary vs. Secondary: Both Matter" },
         {
           type: "paragraph",
           content:
-            "Primary research means going to the source: visiting a place, speaking to people with direct experience, handling the object, watching the event. Secondary research means reading about the source: books, articles, interviews, documentaries. Both are necessary, but they produce different kinds of knowledge. Primary research gives you sensory and emotional data — what does this place smell like, what is the quality of light, how do people in this situation hold their bodies? Secondary research gives you context, history, and structure.",
+            "Primary research gives you sensory data — what does this place smell like, how do people hold their bodies? Secondary research gives you context and structure. You need both. But they do different things.",
         },
         {
           type: "paragraph",
           content:
-            "In creative work, the most useful research for concept development is often primary research conducted in unexpected places: looking at industrial processes when developing a fashion concept, looking at medical imagery when developing a beauty concept, looking at architectural spaces when developing a music project. The unexpected field produces unexpected connections.",
+            "The most useful primary research often comes from unexpected fields: industrial processes for a fashion concept, medical imagery for a beauty brief. The unexpected source produces the unexpected connection.",
         },
-        { type: "heading", content: "Visual Reference: Building and Using" },
+        { type: "heading", content: "Go Outside Your Field" },
         {
           type: "paragraph",
           content:
-            "Visual reference — films, photography books, architecture, textiles, natural phenomena, historical images, painting — is the essential raw material of concept development in visual fields. The mistake most often made is using reference from the same field as the project: fashion reference for a fashion concept, music video reference for a music video. This produces work that recycles the visual language of its own field. The more interesting reference comes from outside: Japanese painting for a Western fashion shoot, industrial architecture for an intimate portrait project.",
+            "Fashion references for a fashion concept recycle fashion's existing visual language. Japanese painting for a Western fashion shoot, industrial architecture for an intimate portrait — these bring visual logic from a different system entirely.",
         },
-        { type: "heading", content: "The Risk of Reference Replacing Thinking" },
+        { type: "heading", content: "When Reference Replaces Thinking" },
         {
           type: "paragraph",
           content:
-            "Reference becomes a problem when it replaces thinking rather than stimulating it. The sign that this is happening: you can describe the project entirely in terms of its references ('it's like this film meets this photograph') rather than in terms of what it is saying. Reference should refine and sharpen a concept that already exists, not generate the concept by accumulation. If you cannot state the concept before showing the references, the research has not done its job.",
+            "Bad sign: you can describe the project entirely in terms of its references ('it's like this film meets this photo'). If you can't state the concept before showing references, the research hasn't done its job.",
         },
       ],
       quiz: {
@@ -134,30 +134,30 @@ const course: Course = {
       title: "From Concept to Direction",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Concept as Generator" },
+        { type: "heading", content: "A Strong Concept Generates Decisions" },
         {
           type: "paragraph",
           content:
-            "A strong concept generates decisions. When you have a clear concept, the question 'what should this look like?' has a smaller, more defined set of answers. The concept functions as a generator — a machine that, when you feed a visual or directorial question into it, produces the right answer or a small set of right answers. Weak concepts do not generate decisions; they leave every decision equally open.",
+            "A clear concept is a machine: feed it a visual question, it produces the right answer. Weak concepts leave every decision equally open — which means nothing gets decided, which means everything looks arbitrary.",
         },
         {
           type: "paragraph",
           content:
-            "Consider the concept 'isolation.' This concept could generate: empty spaces (the person in a large space, surrounded by nothing). Single figures (no other people in frame). Muted colour (colour that has retreated, that carries no energy). Silence in the sound design (space around sounds, long reverbs, very little). Extreme close-ups that remove context (so close to the subject that the world disappears). Each of these is a directorial decision that flows from the same concept — and each would produce a recognisably coherent body of work.",
+            "Take 'isolation.' It generates: empty spaces, single figures, muted colour, silence in the sound design, extreme close-ups that remove context. Each directorial decision flows from the same source — and they're recognisably coherent.",
         },
-        { type: "heading", content: "Translating Emotional to Physical" },
+        { type: "heading", content: "Emotional to Physical: The Core Translation" },
         {
           type: "paragraph",
           content:
-            "The core skill in concept-to-direction translation is converting emotional or psychological qualities into physical parameters. 'The concept requires tension' becomes 'small space between subjects, harder light, shorter focal length.' 'The concept requires warmth' becomes 'practicals rather than daylight, shallow depth of field, warm colour grade, subjects allowed to be physically close.' The emotional logic of the concept must be traceable in every physical decision made on set.",
+            "'Tension' becomes small space, harder light, shorter focal length. 'Warmth' becomes practicals, shallow depth of field, subjects physically close. The emotional logic must be traceable in every physical decision made on set.",
         },
-        { type: "heading", content: "Consistency as Evidence of Concept" },
+        { type: "heading", content: "The Concept's Value Is Its Constraints" },
         {
           type: "paragraph",
           content:
-            "The test of whether a concept is doing its work is consistency: can every decision made on a project be traced back to the concept, and does the concept rule out as many decisions as it rules in? If you can make any visual choice without contradiction — any light quality, any casting, any wardrobe — then you do not have a concept, you have a theme. The concept's value is precisely in its constraints.",
+            "If you can make any visual choice without contradicting the concept, you don't have a concept — you have a theme. A concept rules choices out as much as it rules them in. That's what makes consistent creative direction possible.",
         },
       ],
       quiz: {
@@ -193,30 +193,30 @@ const course: Course = {
       title: "Iteration and Refinement",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The First Idea" },
+        { type: "heading", content: "First Ideas Are Starting Points" },
         {
           type: "paragraph",
           content:
-            "The first idea is rarely the best idea. This is not a counsel of despair — the first idea is essential, because it gives you something to improve. The creative process is not one of waiting for the right idea to arrive fully formed. It is one of generating a first idea, identifying its weaknesses, and improving it through iteration. The first idea defines the problem space; subsequent ideas solve it.",
+            "The first idea is rarely the best idea — but it's essential, because it gives you something to improve. The creative process is generating a first idea, finding its weaknesses, and iterating. The first idea defines the problem space.",
         },
         {
           type: "paragraph",
           content:
-            "The question to ask of any initial concept is: what is the weakest part? What assumption is this concept making that may not be right? What has been left out because it was uncomfortable or inconvenient? Where is the concept most dependent on reference rather than original thinking? These questions generate the next iteration.",
+            "Ask of any initial concept: what's the weakest part? What assumption might be wrong? Where is this most dependent on reference rather than original thinking? Those questions generate the next iteration.",
         },
         { type: "heading", content: "Kill Your Darlings" },
         {
           type: "paragraph",
           content:
-            "The most valuable editing skill in concept development is the willingness to remove what you are most attached to. The concept element you are most proud of — the clever reference, the visual flourish, the unexpected connection — is also the element most likely to be serving your own satisfaction rather than the project's needs. If you find yourself unwilling to change a specific element of a concept, ask: is this element serving the concept, or has it become the concept? If the answer is the latter, the element needs to go.",
+            "The element you're most proud of — the clever reference, the visual flourish — is the one most likely to be serving your satisfaction, not the project's needs. If you can't bring yourself to cut it, ask: is it load-bearing or decorative? Usually it's decorative.",
         },
-        { type: "heading", content: "Giving and Receiving Creative Notes" },
+        { type: "heading", content: "Notes That Actually Help" },
         {
           type: "paragraph",
           content:
-            "Creative notes — feedback on work in development — are most useful when they are specific and directional. 'This isn't working' is not a note. 'The concept's energy feels diffuse — can we find one image that is the concept rather than ten images that are around it?' is a note. When receiving notes, the discipline is to separate the note from the solution: the collaborator is identifying a problem, not necessarily prescribing the fix. Your job is to fix it in a way that serves the concept.",
+            "'This isn't working' is not a note. 'The energy feels diffuse — can we find one image that is the concept rather than ten images around it?' is a note. When receiving notes, separate the problem from the solution. Find your own fix.",
         },
       ],
       quiz: {
@@ -252,31 +252,31 @@ const course: Course = {
       title: "Presenting Creative Concepts",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Moodboard as Communication Tool" },
+        { type: "heading", content: "The Moodboard: Make Them See What You See" },
         {
           type: "paragraph",
           content:
-            "When presenting a creative concept, the moodboard is the primary communication tool for visual direction. Its job is to make someone else see what you see — to communicate the feeling and visual logic of the concept before a single image has been made. A moodboard that simply collects beautiful images is not a communication tool. A moodboard that makes someone immediately understand what the work will feel like has done its job.",
+            "The moodboard's job is to transfer your creative vision to someone else before a single image has been made. A board that collects beautiful images isn't a communication tool. A board that makes someone immediately feel the project — that is.",
         },
-        { type: "heading", content: "The Deck as Narrative" },
+        { type: "heading", content: "The Deck Is a Narrative, Not a Catalogue" },
         {
           type: "paragraph",
           content:
-            "A presentation deck for a creative concept is a narrative document, not a catalogue. It should begin with the problem or opportunity, move through the concept's logic, arrive at the visual direction, and end with a clear statement of what will be made and why. Each slide should earn its place in the sequence. The deck is not a portfolio of everything you thought of — it is a curated argument for a specific approach.",
+            "A concept deck should start with the problem, move through the logic, arrive at the visual direction, and end with a clear statement of what gets made and why. Each slide earns its place. It's a curated argument, not a portfolio.",
         },
-        { type: "heading", content: "Presenting Before Fully Formed" },
+        { type: "heading", content: "Present Before It's Finished" },
         {
           type: "paragraph",
           content:
-            "One of the most valuable skills in creative work is the ability to present a concept before it is fully formed — to communicate the direction without having all the answers. This requires confidence in the concept's logic: you may not know exactly what every image will look like, but you know what every image is trying to do. Present the concept's intelligence, not its completion. A concept that cannot be discussed before it is finished will never get made.",
+            "Present the concept's intelligence, not its completion. You don't need every answer — you need to know what every decision is trying to do. A concept that can't be discussed before it's finished will never get made.",
         },
-        { type: "heading", content: "Client vs. Collaborator" },
+        { type: "heading", content: "Client vs. Collaborator: Different Games" },
         {
           type: "paragraph",
           content:
-            "The difference between pitching to a client and presenting to a collaborator is a difference in purpose. Pitching to a client is persuasion: you are making an argument for an approach, and the client's role is to approve or redirect. Presenting to a collaborator is a different activity: sharing a thinking-in-progress and inviting the collaborator's intelligence to develop it. Both require clarity, but the client presentation is closed (here is what we are proposing) while the collaborator presentation is open (here is where we are, and where do you think we should go?).",
+            "Pitching to a client is persuasion — a closed argument for an approach. Presenting to a collaborator is sharing thinking-in-progress and inviting their intelligence in. Confuse the two and you'll either alienate a collaborator or underwhelm a client.",
         },
       ],
       quiz: {
@@ -312,31 +312,31 @@ const course: Course = {
       title: "Develop a Concept From Scratch",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Starting Point: One Word" },
+        { type: "heading", content: "Start With One Word" },
         {
           type: "paragraph",
           content:
-            "Concept development can begin from many places — a brief, a reference, a conversation, a material. But the most useful starting point for developing conceptual muscle is a single word: a feeling, a state of being, a quality. Not a subject (a person, a place, an event) but a quality (longing, resistance, amplitude, stillness). The single word is the test of whether you can develop a concept from genuine thinking rather than from accumulating references.",
+            "Not a subject — a quality. Not 'a person' but 'longing.' Not 'a city' but 'resistance.' The single word is the test: can you develop a concept from genuine thinking rather than accumulated references?",
         },
-        { type: "heading", content: "Finding References That Don't Illustrate" },
+        { type: "heading", content: "Find References That Don't Illustrate" },
         {
           type: "paragraph",
           content:
-            "The key discipline in this exercise is finding visual references that connect to the word without obviously illustrating it. If your word is 'stillness,' a photograph of a lake is an illustration, not a reference. A photograph of a person in a crowd who is not moving is a reference — it captures something about the quality of stillness in relation to its opposite. An architectural image of a room with a single window is a reference. The search for non-obvious references forces the concept to become more specific: you have to articulate what, precisely, about your word you are trying to get at.",
+            "If your word is 'stillness,' a lake is an illustration. A person not moving in a crowd is a reference. A room with a single window is a reference. Non-obvious references force the concept to become more specific.",
         },
-        { type: "heading", content: "The Sentence That Explains the Connection" },
+        { type: "heading", content: "Write the Sentence of Connection" },
         {
           type: "paragraph",
           content:
-            "For each reference image, the exercise requires a single sentence explaining not what the image shows, but what it contributes to your understanding of the concept. This is where the thinking happens. Writing 'this image shows a dark room' is a description. Writing 'this image shows the quality of attention that stillness requires — the way a very still thing demands that you become still to perceive it' is a concept statement. The sentence test reveals whether you are thinking or just collecting.",
+            "'This image shows a dark room' is a description. 'This image shows the quality of attention that stillness demands — the way a still thing makes you still to perceive it' is a concept statement. That's where the thinking happens.",
         },
-        { type: "heading", content: "Beginning a Concept" },
+        { type: "heading", content: "What You Have Now Is the Beginning" },
         {
           type: "paragraph",
           content:
-            "What you have after this exercise — a word, five unexpected references, five sentences explaining the connections — is the beginning of a concept. Not the concept itself, but the raw material from which a concept can be developed: the specific quality you are interested in, the visual territory you are drawn toward, and the first articulation of why. This is how all concept development begins: not with a finished idea, but with a direction of attention.",
+            "A word, five unexpected references, five sentences explaining the connections — that's the raw material of a concept. Not the concept itself, but the direction of attention from which one can grow.",
         },
       ],
       reflection: {

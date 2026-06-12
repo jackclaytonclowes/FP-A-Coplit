@@ -16,31 +16,31 @@ const course: Course = {
       title: "Origins & Structure",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Intelligence as Ancient as War" },
+        { type: "heading", content: "Sun Tzu Knew: Intelligence Wins Wars" },
         {
           type: "paragraph",
           content:
-            "Sun Tzu devoted the final chapter of The Art of War to intelligence and espionage, arguing that knowledge of the enemy is the foundation of military success. Intelligence gathering is as old as human conflict. What changed in the 20th century was the institutionalisation of intelligence — the creation of permanent bureaucratic organisations dedicated to the collection, analysis, and use of secret information as an instrument of state policy.",
+            "Sun Tzu devoted the final chapter of The Art of War to espionage. Intelligence is as old as conflict. What changed in the 20th century was institutionalisation — permanent bureaucracies dedicated to secret information as a tool of state power.",
         },
-        { type: "heading", content: "Modern Agencies and WWII as Defining Event" },
+        { type: "heading", content: "WWII Built the Modern Agencies" },
         {
           type: "paragraph",
           content:
-            "The modern intelligence agencies emerged from the crucible of the Second World War. Britain's MI6 (formally the Secret Intelligence Service, established 1909) and MI5 (domestic counterintelligence) found their modern form during the war. The American OSS — Office of Strategic Services — was created in 1942 and became the CIA's direct predecessor in 1947. The Soviet NKVD, which had managed both secret police functions and foreign intelligence, was reorganised as the KGB in 1954. These organisations defined the Cold War intelligence competition.",
+            "MI6 (1909), MI5, the OSS (1942, later CIA), the KGB (1954) — all found their modern form in World War II's crucible. These agencies defined the Cold War competition that followed.",
         },
-        { type: "heading", content: "The Cambridge Five: The Defining Betrayal" },
+        { type: "heading", content: "The Cambridge Five: Elite Betrayal" },
         {
           type: "paragraph",
           content:
-            "The Cambridge Five — Kim Philby, Guy Burgess, Donald Maclean, Anthony Blunt, and John Cairncross — were British establishment figures recruited as Soviet agents while at Cambridge University in the 1930s. They rose to senior positions in British intelligence and diplomacy, passing secrets to Moscow for decades. Philby became head of MI6's anti-Soviet operations — the officer whose job was to protect Britain from the KGB was the KGB's most valuable asset. The case defined Cold War intelligence and revealed the particular vulnerability of elite institutions to ideological penetration.",
+            "Five Cambridge graduates — Philby, Burgess, Maclean, Blunt, Cairncross — were recruited as Soviet agents in the 1930s and spent decades at the top of British intelligence. Philby ran MI6's anti-Soviet operations while working for the KGB. The hunter was the quarry.",
         },
-        { type: "heading", content: "Mossad: Holocaust Survivors as First Officers" },
+        { type: "heading", content: "Mossad: Founded by Survivors" },
         {
           type: "paragraph",
           content:
-            "Israel's Mossad (Institute for Intelligence and Special Operations) was established in 1949 with Israeli statehood. Its founding generation included Holocaust survivors and European Jews who had spent years operating underground in Nazi-occupied Europe — people with direct experience of the consequences of failed intelligence and the operational skills of clandestine survival. The organisation's early focus on tracking Nazi war criminals and countering Arab state intelligence operations reflected these origins. The 1960 capture of Adolf Eichmann in Argentina remains among the most operationally celebrated intelligence operations of the Cold War era.",
+            "Israel's Mossad (1949) was built by Holocaust survivors and underground operatives who knew exactly what failed intelligence cost. Their 1960 capture of Adolf Eichmann in Argentina remains one of the most celebrated intelligence operations in history.",
         },
       ],
       quiz: {
@@ -76,31 +76,31 @@ const course: Course = {
       title: "Key Figures",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Kim Philby: The Ultimate Spy" },
+        { type: "heading", content: "Philby: The Ultimate Double Agent" },
         {
           type: "paragraph",
           content:
-            "Harold 'Kim' Philby (1912-1988) is the figure around whom the Cold War intelligence world revolves. Recruited as a Soviet agent at Cambridge in 1934, he rose through MI6 to become one of its most senior officers, widely expected to become its Director-General. He was also, from his first day, working for the KGB. He defected to Moscow in 1963 after a fellow officer's testimony made his position untenable. He spent the rest of his life in the Soviet Union, apparently more uncomfortable there than anywhere — a man without a country who had betrayed two of them.",
+            "Kim Philby was recruited as a Soviet agent at Cambridge in 1934 and rose to near the top of MI6 — expected to become its Director-General. He defected to Moscow in 1963, and spent the rest of his life there, apparently miserable. A man who had betrayed two countries and belonged to neither.",
         },
-        { type: "heading", content: "Oleg Gordievsky: The KGB Spy for MI6" },
+        { type: "heading", content: "Gordievsky: The KGB Spy for MI6" },
         {
           type: "paragraph",
           content:
-            "Oleg Gordievsky was a KGB officer who began working for MI6 in 1974, while continuing his KGB career. For eleven years he provided British intelligence with a continuous stream of intelligence about KGB operations, personnel, and Soviet political thinking — one of the most productive intelligence relationships in Cold War history. When he was betrayed by a CIA mole in 1985, MI6 extracted him from Moscow in Operation PIMLICO: hidden in a car boot, driven across the Finnish border by British officers, recovered. He lives in England today under a pseudonym, under threat of assassination.",
+            "Oleg Gordievsky worked for MI6 for 11 years while climbing the KGB. When a CIA mole betrayed him in 1985, MI6 smuggled him out of Moscow in a car boot across the Finnish border. He lives in England today, under a pseudonym, under threat.",
         },
-        { type: "heading", content: "Aldrich Ames: The CIA's Worst Traitor" },
+        { type: "heading", content: "Ames: The CIA's Worst Nightmare" },
         {
           type: "paragraph",
           content:
-            "Aldrich Ames was a CIA counterintelligence officer who sold the identities of Soviet intelligence assets to the KGB beginning in 1985. The damage was catastrophic: at least ten Soviet assets working for the CIA were executed as a result of his betrayal, along with unknown others. The tragedy of Ames — beyond the deaths — is how simple his motivation was: he needed money, he sold what he had, he spent years hiding in plain sight in the CIA while driving an expensive car on a government salary. He was arrested in 1994 and is serving life imprisonment.",
+            "Aldrich Ames sold Soviet assets to the KGB from 1985. At least ten CIA sources were executed. His motivation? He needed money. He drove an expensive car on a government salary for nine years before anyone checked.",
         },
-        { type: "heading", content: "James Angleton and Eli Cohen" },
+        { type: "heading", content: "Angleton and Cohen: Two Kinds of Intelligence" },
         {
           type: "paragraph",
           content:
-            "James Jesus Angleton was the CIA's counterintelligence chief from 1954 to 1975 — a figure so consumed by the logic of penetration and deception that he eventually suspected almost everyone in the CIA of being a Soviet agent. His paranoia paralysed the CIA's Soviet operations for years, demonstrating that the logic of counterintelligence, pursued without limit, becomes destructive. Eli Cohen was Mossad's greatest field agent — an Egyptian-born Jew who infiltrated Syrian high command in Damascus in the early 1960s, rising to become an adviser to the Syrian Defence Minister before being uncovered and publicly executed in 1965.",
+            "James Angleton's counterintelligence paranoia paralysed the CIA's Soviet operations for years — proving that suspicion taken to its logical limit becomes self-destructive. Eli Cohen went the other way: so deep undercover in Syrian high command that he became an adviser to the Defence Minister, before being publicly executed in Damascus in 1965.",
         },
       ],
       quiz: {
@@ -136,31 +136,31 @@ const course: Course = {
       title: "Methods & Operations",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "HUMINT: Human Intelligence" },
+        { type: "heading", content: "MICE: Four Reasons People Betray Their Country" },
         {
           type: "paragraph",
           content:
-            "Human intelligence — recruiting and running agents who have access to secret information — is the oldest and most fundamental form of intelligence collection. An agent is typically a foreign national, ideally already inside the target organisation, who is persuaded to pass information to an intelligence service. Recruitment typically exploits one of four vulnerabilities: ideology (the agent believes in your cause), money (financial inducement or desperation), compromise (blackmail), or ego (flattery and status). The acronym MICE — Money, Ideology, Compromise, Ego — organises the recruiter's toolkit.",
+            "Money, Ideology, Compromise, Ego — the four vulnerabilities intelligence officers exploit to recruit agents. Most successful recruitments use more than one. Knowing which combination applies determines the approach.",
         },
-        { type: "heading", content: "SIGINT: The Revolution of Bletchley Park" },
+        { type: "heading", content: "Bletchley Park Changed Everything" },
         {
           type: "paragraph",
           content:
-            "Signals intelligence — the interception and analysis of enemy communications — was transformed by Bletchley Park, where British codebreakers (including Alan Turing) broke the German Enigma cipher during World War II. The intelligence product — codenamed ULTRA — is credited with shortening the war by years. Bletchley Park established the principle that signals intelligence, exploited systematically, could provide advantages no HUMINT operation could match in scale or consistency. The organisations it spawned — GCHQ in Britain, the NSA in America — became the largest intelligence agencies in the world.",
+            "Alan Turing's team broke Enigma, and ULTRA intelligence is credited with shortening the war by years. Bletchley proved that signals intelligence at scale could deliver what no human network could match. It spawned GCHQ and the NSA.",
         },
-        { type: "heading", content: "Tradecraft: The Tools of the Clandestine World" },
+        { type: "heading", content: "Tradecraft: The Timeless Toolkit" },
         {
           type: "paragraph",
           content:
-            "The operational vocabulary of espionage includes practices that have changed little since the Cold War. The dead drop — a physical location where messages or materials can be left and collected without the parties meeting — remains a basic security technique. The brush pass — a brief physical exchange between two people who appear to pass without interaction — is its more direct equivalent. A 'legend' is a fabricated identity given full documentary support. A 'defector in place' is a foreign intelligence officer who continues to work for their own country while secretly working for the other side — the most valuable category of asset.",
+            "Dead drops. Brush passes. Legends. Defectors in place. The vocabulary of espionage has barely changed since the Cold War — because the fundamental problem hasn't. How do you pass secrets without being seen?",
         },
-        { type: "heading", content: "The Honey Trap and Its Limits" },
+        { type: "heading", content: "Honey Traps: More Myth Than Method" },
         {
           type: "paragraph",
           content:
-            "The 'honey trap' — the use of romantic or sexual relationships to compromise targets — features prominently in the mythology of espionage. KGB 'swallows' (female operatives) and 'ravens' (male) were genuine components of Cold War tradecraft, used to compromise diplomats, journalists, and officials. The technique's actual effectiveness was more limited than its cultural prominence suggests: most honey trap operations produced short-term intelligence at the cost of eventually burning the asset when the target realised what had happened.",
+            "The KGB used 'swallows' and 'ravens' to compromise targets — and it worked sometimes. But the technique burned its own assets once the target realised what had happened. Its cultural prominence far exceeds its actual effectiveness.",
         },
       ],
       quiz: {
@@ -196,30 +196,30 @@ const course: Course = {
       title: "Cultural Representation",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "John le Carré: The Definitive Account" },
+        { type: "heading", content: "Le Carré: The Real Account" },
         {
           type: "paragraph",
           content:
-            "John le Carré — the pen name of David Cornwell, who worked for both MI5 and MI6 before becoming a novelist — is the writer who defined how the intelligence world is understood in fiction. His central achievement is the presentation of espionage as moral ambiguity and institutional betrayal rather than heroic adventure. The Spy Who Came in from the Cold (1963), his breakthrough novel, ends with the revelation that an intelligence operation the protagonist believed he was running was actually being run against him. He was the instrument of a policy he would never have chosen.",
+            "David Cornwell worked for MI5 and MI6 before becoming John le Carré. His central insight: espionage is moral ambiguity and institutional betrayal, not heroic adventure. The Spy Who Came in from the Cold ends with the protagonist realising he was the instrument of a policy he would never have chosen.",
         },
         {
           type: "paragraph",
           content:
-            "Tinker Tailor Soldier Spy (1974) — based recognisably on the Cambridge Five and Philby in particular — presents MI6 as an organisation that has been penetrated at the top, where loyalty is impossible to establish, and where the institutions of the British establishment can no longer be trusted. It is one of the great post-imperial novels disguised as a thriller.",
+            "Tinker Tailor Soldier Spy — recognisably based on the Cambridge Five — presents MI6 as penetrated at the top, where loyalty is impossible to establish. It's one of the great post-imperial novels wearing a thriller disguise.",
         },
-        { type: "heading", content: "James Bond: The Fantasy Version" },
+        { type: "heading", content: "Bond: The Fantasy" },
         {
           type: "paragraph",
           content:
-            "Ian Fleming's James Bond — an officer of 'the Secret Service' (clearly MI6) with a licence to kill — is the fantasy counterpart to le Carré's reality. Bond operates in a world of moral clarity, physical heroism, and institutional loyalty. He is rewarded rather than betrayed. He wins. Fleming was himself an intelligence officer with wartime Naval Intelligence, and Bond is a wish-fulfillment portrait of what that world could have been rather than what it was. The cultural dominance of the Bond films has arguably done more to shape public perception of intelligence than any documentary account.",
+            "Fleming worked in Naval Intelligence and knew what it was actually like — so Bond is wish-fulfilment. Clear enemies, moral certainty, institutional loyalty rewarded. Bond wins. The cultural dominance of the films has arguably shaped public perception of intelligence more than any documentary.",
         },
         { type: "heading", content: "The Americans and Bridge of Spies" },
         {
           type: "paragraph",
           content:
-            "The Americans (FX, 2013-2018) — about two KGB illegals living as an American suburban couple in 1980s Washington — is the most sophisticated recent television examination of espionage. Its central subject is identity: what happens to people who have lived cover lives so long that the question of which identity is 'real' becomes unanswerable? Steven Spielberg's Bridge of Spies (2015), based on the real exchange of Rudolf Abel for U-2 pilot Gary Powers, examines the ethics of treating enemy spies as human beings entitled to legal representation — an argument whose Cold War context makes it particularly resonant.",
+            "The Americans — two KGB illegals as a suburban American couple — asks what happens when you've lived your cover so long you can't locate your real self. Bridge of Spies examines the ethics of treating enemy spies as humans entitled to legal representation. Both beat Bond for depth.",
         },
       ],
       quiz: {
@@ -255,31 +255,31 @@ const course: Course = {
       title: "Legacy & Modern Impact",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Five Eyes: The World's Most Comprehensive Intelligence Partnership" },
+        { type: "heading", content: "Five Eyes: The World's Biggest Intelligence Club" },
         {
           type: "paragraph",
           content:
-            "The UKUSA Agreement — signed in 1946, declassified in 2010 — created the intelligence-sharing arrangement between the United States, United Kingdom, Canada, Australia, and New Zealand known as Five Eyes. The arrangement divides signals intelligence collection responsibilities geographically and shares the product among all five. It represents the most extensive intelligence partnership in history, pooling the resources of five states into an integrated collection and analysis network. Non-Five Eyes allies receive intelligence on a need-to-know basis; full sharing is reserved for the core partnership.",
+            "The UKUSA Agreement (1946, declassified 2010) pools signals intelligence across the US, UK, Canada, Australia, and New Zealand. Five states, one integrated network, geographic responsibilities divided between them. Non-members get intelligence on a need-to-know basis.",
         },
-        { type: "heading", content: "Snowden: The Scale of Mass Surveillance" },
+        { type: "heading", content: "Snowden Revealed Mass Surveillance" },
         {
           type: "paragraph",
           content:
-            "Edward Snowden's 2013 revelations — based on classified NSA and GCHQ documents he had copied as a contractor — disclosed the scale of signals intelligence collection on civilian populations that had developed since 9/11. Programmes like PRISM (collecting data from major US internet companies) and XKeyscore (an analytical tool indexing vast quantities of collected data) revealed that the Five Eyes agencies had been bulk-collecting communications data on a scale that had no Cold War equivalent. The revelations triggered a global debate about the relationship between intelligence collection, surveillance, and civil liberties that has not been resolved.",
+            "Edward Snowden's 2013 disclosures showed that Five Eyes agencies had been bulk-collecting civilian communications data on a scale with no Cold War equivalent. PRISM. XKeyscore. The debate about surveillance and civil liberties that followed has not been resolved.",
         },
-        { type: "heading", content: "The Intelligence Failures: 9/11 and Iraq" },
+        { type: "heading", content: "The Two Great Failures: 9/11 and Iraq" },
         {
           type: "paragraph",
           content:
-            "The two greatest intelligence failures of the post-Cold War era both concern the same problem: the corruption of analytical processes by political pressure. The failure to anticipate 9/11 involved institutional barriers between agencies that prevented information sharing. The failure on Iraq's WMD — where intelligence assessments were shaped to support a policy conclusion already reached — was different in character: here the analysis was not blocked but bent. The Iraq case is the canonical example of 'intelligence to please' — the production of assessments that reflect what policymakers want to hear.",
+            "9/11 was an institutional failure — information existed but couldn't cross agency silos. Iraq WMD was worse: analysis bent to match a policy conclusion already reached. One is about process; the other is about integrity. Iraq did more lasting damage.",
         },
-        { type: "heading", content: "Cyber Intelligence: The New Frontier" },
+        { type: "heading", content: "Stuxnet: When Code Becomes a Weapon" },
         {
           type: "paragraph",
           content:
-            "GCHQ, the NSA, and Israel's Unit 8200 have emerged as the dominant cyber intelligence organisations of the 21st century. The Stuxnet worm — a joint US-Israeli cyberweapon that physically damaged Iranian uranium enrichment centrifuges — was the first publicly acknowledged use of a cyberweapon to produce physical effects. It demonstrated that signals intelligence capabilities had become offensive weapons, capable of effects previously achievable only through physical sabotage or military action. The implications for international law, state sovereignty, and escalation dynamics are still being worked through.",
+            "The US-Israeli Stuxnet worm physically damaged Iranian centrifuges — the first cyberweapon to produce real-world physical effects. GCHQ, NSA, and Israel's Unit 8200 now hold offensive cyber capabilities that blur the line between intelligence and warfare.",
         },
       ],
       quiz: {
@@ -315,31 +315,31 @@ const course: Course = {
       title: "What This Reveals About Society",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Intelligence as Institutionalised Epistemology" },
+        { type: "heading", content: "Intelligence Is Applied Epistemology" },
         {
           type: "paragraph",
           content:
-            "Intelligence agencies are, at their most fundamental level, organisations devoted to a problem in epistemology: how do you know what is true in a world of systematic deception? An intelligence officer's problem is not merely to collect information but to assess it — to determine whether a source is reliable, whether a document is authentic, whether an apparent defector is genuine or dispatched. The question 'how do I know this is real?' is the intelligence analyst's permanent condition.",
+            "At their core, intelligence agencies face one question: how do you know what's true in a world of systematic deception? Every source may be lying. Every document may be forged. Every apparent success may be a provocation.",
         },
-        { type: "heading", content: "The Double Uncertainty" },
+        { type: "heading", content: "Double Uncertainty: The Analyst's Condition" },
         {
           type: "paragraph",
           content:
-            "What makes intelligence work epistemologically distinctive is the double uncertainty it involves. Not only may the information be false — the source may be lying, the document forged, the intelligence a provocation. But the analyst who knows this must also consider whether their own analytical conclusion is itself the result of a successful deception operation. Angleton's paranoia is the logical terminus of this reasoning: if deception is possible at every level, certainty is never available. The intelligence world institutionalises doubt.",
+            "Not only may the information be false — the analyst must also wonder if their own conclusion is the result of a successful deception. Angleton's paranoia is the logical terminus of this reasoning: follow it far enough and certainty disappears entirely.",
         },
-        { type: "heading", content: "Le Carré vs Bond as Epistemological Positions" },
+        { type: "heading", content: "Le Carré vs Bond: Two Epistemologies" },
         {
           type: "paragraph",
           content:
-            "This is why le Carré's fiction is the more accurate account and Bond's the more comforting fantasy. Bond operates with certainty: the enemy is identified, the objective is clear, success is achievable. Le Carré's characters — Smiley above all — operate in permanent uncertainty: the institution may be penetrated, the operation may be a deception, the colleague may be the enemy. Bond is a fantasy about knowability; le Carré is a fiction about the condition of not knowing.",
+            "Bond operates with certainty — the enemy is clear, success is possible, the institution is trustworthy. Le Carré's Smiley operates in permanent uncertainty, where the institution may be the enemy and the colleague may be the mole. One is a fantasy about knowability; the other is fiction about not knowing.",
         },
-        { type: "heading", content: "Truth, Power, and the Uses of Intelligence" },
+        { type: "heading", content: "Truth Doesn't Survive Power Well" },
         {
           type: "paragraph",
           content:
-            "The Iraq WMD failure reveals the final problem: intelligence is not only about knowing but about what happens to knowledge when it enters political systems. Analysis that contradicts what the powerful want to believe tends to be discarded or reshaped. The intelligence function — truth-telling to power — is structurally in tension with power's preference for confirmation. Every intelligence failure in history has involved, at some level, this tension: the question of whether the analysts can maintain their analytical independence against the demands of their political masters.",
+            "The Iraq WMD failure reveals the final problem: analysis that contradicts what the powerful want tends to get reshaped. Intelligence is supposed to tell truth to power. Power prefers confirmation. Every intelligence failure involves this tension somewhere.",
         },
       ],
       reflection: {

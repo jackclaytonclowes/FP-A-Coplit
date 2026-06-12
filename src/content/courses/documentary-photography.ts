@@ -16,36 +16,36 @@ const course: Course = {
       title: "Origins & History",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Documentary Tradition" },
+        { type: "heading", content: "The Tradition That Said: Just Show It" },
         {
           type: "paragraph",
           content:
-            "Documentary photography as a named practice emerged in the 1930s, but its roots go back to photography's origins. From the moment photographers could carry equipment into the field — the American Civil War, the slums of New York, the factories of industrial Britain — there was a tradition of making photographs whose primary purpose was to show what existed, not to construct something beautiful.",
+            "Documentary photography didn't start with a manifesto — it started with photographers carrying cameras into places polite society looked away from. Civil War battlefields. New York slums. British factories.",
         },
         {
           type: "paragraph",
           content:
-            "The term 'documentary' acquired its specific meaning in the context of film first — John Grierson's 1926 description of Flaherty's Moana as having 'documentary value' is the origin — and was adopted by photographers to describe sustained, intentional, socially engaged photographic work that went beyond single news images.",
+            "The word 'documentary' came from film first — John Grierson used it in 1926. Photographers borrowed it to describe something specific: sustained, intentional work that went beyond a single news image.",
         },
-        { type: "heading", content: "The FSA Project" },
+        { type: "heading", content: "The FSA: Photography With a Mission" },
         {
           type: "paragraph",
           content:
-            "The Farm Security Administration photography project (1935–1944), directed by Roy Stryker, is the foundational institutional expression of American documentary photography. Stryker employed photographers including Dorothea Lange, Walker Evans, Gordon Parks, Russell Lee, and Ben Shahn to document rural poverty and the effects of the Depression. The project produced over 175,000 images and established the documentary project — sustained, organised, purposeful — as photography's most serious form.",
+            "Roy Stryker's Farm Security Administration project (1935–1944) sent Lange, Evans, Parks, and others across Depression-era America with one job: document poverty. 175,000 images later, the documentary project was photography's most serious form.",
         },
         { type: "heading", content: "Life Magazine and the Picture Essay" },
         {
           type: "paragraph",
           content:
-            "Life magazine, founded in 1936, created the mass audience for documentary photography by distributing photographic essays to millions of readers. The picture essay — a sequence of photographs with text that told a story over multiple pages — became the defining form of mid-20th century documentary photography. Photographers including W. Eugene Smith, Alfred Eisenstaedt, and Gordon Parks developed the essay as an artistic and journalistic form within its pages.",
+            "Life magazine (founded 1936) brought documentary photography to millions. The picture essay — photographs plus text telling a story across multiple pages — became the defining format. W. Eugene Smith basically perfected it.",
         },
-        { type: "heading", content: "Magnum Photos" },
+        { type: "heading", content: "Magnum: Photographers Take Control" },
         {
           type: "paragraph",
           content:
-            "Magnum Photos, founded in 1947 by Henri Cartier-Bresson, Robert Capa, George Rodger, and David 'Chim' Seymour, represented a revolution in the status of documentary photographers. As a cooperative owned by its photographer-members, Magnum gave photographers control over their negatives and their assignments — for the first time, documentary photographers could pursue their own projects rather than working entirely to editorial briefs.",
+            "Cartier-Bresson, Capa, Rodger, and Seymour founded Magnum in 1947. A photographer-owned cooperative meant members kept their negatives and pursued their own projects. Revolutionary then. Still unusual now.",
         },
         {
           type: "quote",
@@ -70,37 +70,37 @@ const course: Course = {
       title: "Key Practitioners",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Henri Cartier-Bresson (1908–2004)" },
         {
           type: "paragraph",
           content:
-            "Cartier-Bresson is documentary photography's central theoretical figure as well as one of its greatest practitioners. His concept of the 'decisive moment' — the instant at which form and content converge in a perfect photographic image — defined the aspirations of a generation of photographers. He worked with a small Leica, moving invisibly through public spaces, making photographs of extraordinary formal precision and human richness. His book Images à la sauvette (The Decisive Moment, 1952) remains the most influential photography book ever published.",
+            "The decisive moment: form and content converging in a single perfect instant. Cartier-Bresson chased it through public spaces with a Leica and an invisible presence. His 1952 book is still the most influential photography book ever published.",
         },
         { type: "heading", content: "Robert Frank (1924–2019)" },
         {
           type: "paragraph",
           content:
-            "Frank's The Americans (1958) is the decisive rupture in the documentary tradition — the moment when the form turned inward, becoming subjective and personal rather than objective and evidential. Frank drove across America in 1955–56 making photographs that were dark, off-angle, blurred, emotionally weighted, and implicitly critical of American society. The book was rejected by American publishers and first published in France. Its influence on subsequent documentary photography — and on street photography — cannot be overstated.",
+            "The Americans (1958) broke everything. Dark, blurred, off-angle, emotionally raw — Frank drove across America and made photographs that said: this place is not what it thinks it is. American publishers rejected it. France published it first.",
         },
         { type: "heading", content: "W. Eugene Smith (1918–1978)" },
         {
           type: "paragraph",
           content:
-            "Smith is the defining figure of the picture essay tradition. His essays for Life magazine — Country Doctor (1948), Nurse Midwife (1951), A Man of Mercy (Albert Schweitzer, 1954) — established the form: a sustained, immersive engagement with a single subject over time, told through a sequence of photographs and text. His final major project, Minamata (1975), documented mercury poisoning in a Japanese fishing community with unflinching directness and produced one of documentary photography's most iconic single images.",
+            "Smith invented the picture essay as art form. Three weeks with a rural Colorado doctor. Months in a Japanese fishing village poisoned by mercury. Immersive, relentless, and emotionally devastating.",
         },
         { type: "heading", content: "Diane Arbus (1923–1971)" },
         {
           type: "paragraph",
           content:
-            "Arbus occupied a unique position in documentary photography: her subjects were people on the social margins — nudists, twins, dwarfs, transvestites, carnival performers — whom she photographed with a directness that was simultaneously empathetic and confrontational. Her square-format, flash-lit, frontally composed portraits implicate the viewer in the act of looking, refusing both the distance of reportage and the sentimentality of social documentary. Her posthumous monograph (1972) was a sensation.",
+            "Arbus photographed people on society's margins — nudists, twins, carnival performers — with a flash-lit directness that was empathetic and confrontational at the same time. Her posthumous monograph was a sensation.",
         },
         { type: "heading", content: "Mary Ellen Mark (1940–2015)" },
         {
           type: "paragraph",
           content:
-            "Mark embodied the documentary tradition's commitment to long-term engagement. Her projects — on homeless youth in Seattle (Streetwise), heroin addiction in India, psychiatric patients — involved months and years of sustained presence with communities. She believed that meaningful documentary photography required genuine relationship with subjects, not observation at a distance. Her work is distinguished by the depth of access she achieved through extended engagement.",
+            "Mark believed documentary photography required real relationship — not observation at a distance. She spent months and years with her subjects. That's the only way to earn the images she made.",
         },
         {
           type: "quote",
@@ -125,31 +125,31 @@ const course: Course = {
       title: "Visual Characteristics",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Decisive Moment" },
+        { type: "heading", content: "The Decisive Moment: Form Meets Content" },
         {
           type: "paragraph",
           content:
-            "Cartier-Bresson's concept defines a visual ideal: the photograph made at the precise instant when the geometry of the frame and the significance of the event converge. The decisive moment is not simply the peak of action — it is the moment when the visual elements of the image are in their most resonant relationship. Documentary photographers trained in this tradition look for formal completion within the found world rather than constructing it.",
+            "Cartier-Bresson's idea: the precise instant when the geometry of the frame and the significance of the event click together perfectly. Not the peak of action — the moment of visual completion.",
         },
-        { type: "heading", content: "Series Over Singles" },
+        { type: "heading", content: "Series Beat Singles Every Time" },
         {
           type: "paragraph",
           content:
-            "Documentary photography's most powerful unit is not the single photograph but the series — the sequence of images that together create a narrative or argument that no individual image could sustain. W. Eugene Smith's picture essays work by accumulation: each image adds something, and the sequence creates a totality. This orientation toward the project and the series, rather than the decisive single image, is one of documentary photography's defining characteristics.",
+            "One great photograph is a photograph. Twenty great photographs that belong together are a documentary project. Smith's picture essays worked by accumulation — each image adds something the others can't carry alone.",
         },
-        { type: "heading", content: "Long-Term Engagement" },
+        { type: "heading", content: "Time Is the Real Tool" },
         {
           type: "paragraph",
           content:
-            "Serious documentary photography requires time. The photographs that come from a single afternoon's visit to a community are fundamentally different from photographs made after months of presence. Long-term engagement produces access that cannot be forced or shortened: people stop performing for the camera, reveal things they would not reveal to a stranger, allow photographs that would otherwise be refused.",
+            "One afternoon of photographs looks like one afternoon. Months of presence looks like a life. People stop performing. They reveal things. They let you in. You can't rush that.",
         },
-        { type: "heading", content: "Narrative Coherence" },
+        { type: "heading", content: "A Project Has a Shape" },
         {
           type: "paragraph",
           content:
-            "A documentary project is not simply a collection of photographs from the same location. It has a beginning, development, and culmination — it creates a coherent world that the viewer can enter and understand. This narrative coherence requires editorial judgement: knowing which images to include, which to omit, what sequence produces the most complete and honest account of the subject.",
+            "A documentary project isn't just a pile of photographs from the same place. It has a beginning, a development, and a culmination — a world the viewer can enter. That requires editorial intelligence, not just shooting skill.",
         },
         {
           type: "quote",
@@ -174,31 +174,31 @@ const course: Course = {
       title: "Defining Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "The Americans — Robert Frank (1958)" },
         {
           type: "paragraph",
           content:
-            "Frank's 83-photograph journey through mid-1950s America remains the most influential photography book ever made. The images — of jukeboxes, diners, parades, funerals, and the American flag recurring as ironic motif — are made with a restless, personal, subjective energy that broke every convention of the documentary tradition. The book was initially rejected by American publishers, first published by Delpire in Paris, and later became the photographer's bible for two generations of documentary and street photographers.",
+            "83 photographs. Jukeboxes, diners, parades, funerals, the American flag as recurring ironic punchline. Rejected by American publishers. Now it's the photographer's bible.",
         },
         { type: "heading", content: "Country Doctor — W. Eugene Smith (1948)" },
         {
           type: "paragraph",
           content:
-            "Smith spent three weeks with Dr. Ernest Ceriani, a rural Colorado physician who was the only doctor for a community of 2,000 people. The resulting picture essay — published in Life magazine across 22 pages — is the model of the form: intimate, sustained, narrative, human. The essay shows Ceriani working with exhausted dedication across a range of situations, and its structure — the arc of days and cases — gives it the quality of a short story. It changed what picture essays could do.",
+            "Three weeks with Dr. Ernest Ceriani — sole doctor for 2,000 people in rural Colorado. Twenty-two pages in Life magazine. The picture essay as short story, and still the best example of the form.",
         },
         { type: "heading", content: "Diane Arbus Monograph (1972)" },
         {
           type: "paragraph",
           content:
-            "Arbus's posthumous monograph, published the year after her death, was an immediate sensation: it sold out within days of publication and went through multiple printings. The book collected the work for which she is known — the square-format, flash-lit, frontal portraits of people on social margins — and forced a confrontation with documentary photography's relationship to the gaze, to the margin, and to the ethics of representation. It remains one of the most discussed photography books ever published.",
+            "Published a year after her death. Sold out immediately. Square-format, flash-lit portraits of people on social margins that made you confront your own act of looking. Still debated today.",
         },
         { type: "heading", content: "Streetwise — Mary Ellen Mark (1988)" },
         {
           type: "paragraph",
           content:
-            "Mark's book about homeless teenagers in Seattle — which began as a magazine assignment and became a years-long project — is the definitive example of documentary photography's long-term engagement methodology. The teenagers she documented, particularly Tiny and Rat, became fully realised presences through the depth of access that only sustained relationship could produce. The project later became a documentary film. It is both a deeply humanist work and a troubling examination of what documentary photography costs its subjects.",
+            "A magazine assignment that became a years-long project about homeless teenagers in Seattle. The depth of access — especially with Tiny and Rat — only came from sustained relationship. That's the whole lesson.",
         },
       ],
       quiz: {
@@ -218,31 +218,31 @@ const course: Course = {
       title: "Modern Influence",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Long-Form Documentary Project" },
+        { type: "heading", content: "The Long-Form Project Is Still Alive" },
         {
           type: "paragraph",
           content:
-            "Contemporary photographers like Alec Soth, Jim Goldberg, Taryn Simon, and Susan Meiselas continue the documentary tradition's commitment to the sustained project. Their work appears in books and gallery exhibitions rather than primarily in magazines — a fundamental shift in how documentary photography reaches audiences — but its methodological commitment to long-term engagement and narrative coherence connects directly to Smith and Mark.",
+            "Alec Soth, Jim Goldberg, Taryn Simon — they're still doing it. Books and gallery shows instead of Life magazine, but the same commitment: go deep, stay long, tell the story right.",
         },
-        { type: "heading", content: "Digital Distribution and Instagram" },
+        { type: "heading", content: "Instagram: Distribution Win, Format Problem" },
         {
           type: "paragraph",
           content:
-            "Instagram and online publishing have democratised documentary photography's distribution while simultaneously fragmenting it. Work that would previously have required a magazine publisher or gallery can now reach global audiences directly. But the platform's emphasis on single images and engagement metrics works against the serial, project-based form that documentary photography's most serious practitioners consider its essential unit.",
+            "Instagram let photographers bypass every gatekeeper. That's huge. But it rewards single images and engagement metrics — the opposite of what documentary photography actually needs.",
         },
-        { type: "heading", content: "The Ethics Debate" },
+        { type: "heading", content: "Ethics Got More Complicated" },
         {
           type: "paragraph",
           content:
-            "Contemporary documentary photography has inherited all of the ethical tensions the tradition accumulated over a century, and added new ones. The questions of consent, representation, power, and the photographer's relationship to their subjects have become central to how documentary work is taught, reviewed, and received. Photographers like Zanele Muholi and Pieter Hugo have produced work that explicitly engages with these questions rather than treating them as peripheral.",
+            "Consent, representation, power — these were always documentary's tensions. Now add global digital distribution and heightened awareness of who controls whose image. Photographers like Zanele Muholi make the ethics the work itself.",
         },
-        { type: "heading", content: "Documentary and Fiction" },
+        { type: "heading", content: "When Documentary Meets Fiction" },
         {
           type: "paragraph",
           content:
-            "A significant strand of contemporary photography consciously blurs the line between documentary and fiction — photographers like Gregory Crewdson, Jeff Wall, and Anna Gaskell construct elaborate staged scenes that mimic documentary aesthetics. The tension between these constructed quasi-documentary images and straightforward documentary photography has produced one of the most productive debates in contemporary photography.",
+            "Gregory Crewdson, Jeff Wall, Anna Gaskell construct elaborate staged scenes that look documentary. The resulting tension — constructed image pretending to be found — is one of contemporary photography's most productive arguments.",
         },
       ],
       quiz: {
@@ -262,43 +262,43 @@ const course: Course = {
       title: "What You Can Learn",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From Documentary Photography" },
+        { type: "heading", content: "Documentary's Real Lessons" },
         {
           type: "paragraph",
           content:
-            "Documentary photography's lessons are as much methodological as visual — they concern how to work, how to develop relationships with subjects, and how to think about the ethics of representation, as much as they concern specific technical or compositional approaches.",
+            "Documentary photography teaches you how to work, not just how to shoot. Methodology, relationships, ethics — all of it matters as much as aperture.",
         },
-        { type: "heading", content: "1. Commit to a Subject Over Time" },
+        { type: "heading", content: "1. Return to the Same Subject" },
         {
           type: "paragraph",
           content:
-            "The single most important lesson of the documentary tradition is the value of sustained engagement. Identify a subject — a community, a place, a person's life — and return to it over weeks or months. Notice how your photographs change as your access and understanding deepen. The images you make on your tenth visit will be fundamentally different from those you make on the first.",
+            "Go back. Keep going back. Your tenth visit produces photographs your first visit never could. Access opens slowly — and only if you show up consistently.",
         },
-        { type: "heading", content: "2. Think in Sequences" },
+        { type: "heading", content: "2. Think in Sequences, Not Singles" },
         {
           type: "paragraph",
           content:
-            "Train yourself to think about how photographs relate to each other rather than existing in isolation. After any shooting session, sequence your images and ask: what does this sequence say that no individual photograph can say? What is missing — what photographs would complete this story? The sequence is the fundamental unit of serious documentary work.",
+            "After every shoot, sequence your images. Ask: what does this sequence say that no individual photograph can? What's missing? The sequence is the unit. Everything else is a test frame.",
         },
-        { type: "heading", content: "3. Study the Picture Essay Form" },
+        { type: "heading", content: "3. Study the Masters as Editors" },
         {
           type: "paragraph",
           content:
-            "Read Smith's Country Doctor, Frank's The Americans, and Mark's Streetwise as editorial constructions — pay attention to sequence, to the relationship between images, to how the project enters its subject and where it ends. The editorial intelligence that constructs a documentary project is a skill distinct from photographic skill, and it can be learned.",
+            "Read Country Doctor, The Americans, and Streetwise as editorial constructions. Watch the sequence. See the rhythm. The editorial intelligence that builds a documentary project is a skill you can learn.",
         },
         { type: "heading", content: "4. Ask the Ethical Questions First" },
         {
           type: "paragraph",
           content:
-            "Before you begin any documentary project, ask: what is my relationship to this subject? What does being photographed cost the people in these images? Who benefits from this work existing? These questions are not obstacles to the work; they are part of what makes documentary photography a serious practice rather than a extractive one.",
+            "What is my relationship to this subject? What does being photographed cost them? These aren't obstacles — they're what make documentary photography serious rather than extractive.",
         },
-        { type: "heading", content: "5. The Camera as a Tool for Seeing" },
+        { type: "heading", content: "5. The Camera Teaches You to See" },
         {
           type: "paragraph",
           content:
-            "Dorothea Lange said that the camera teaches you to see without a camera. Use documentary practice as a discipline of sustained attention — showing up to the same place repeatedly, looking carefully at what changes and what stays the same. The photographs are the product; the attention is the practice.",
+            "Lange said the camera teaches you to see without a camera. Show up to the same place repeatedly. Watch what changes. Watch what doesn't. The photographs are the product; the attention is the practice.",
         },
       ],
       reflection: {
