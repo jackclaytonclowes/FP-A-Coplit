@@ -17,18 +17,18 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Paolo Roversi (b. 1947, Ravenna, Italy)" },
+        { type: "heading", content: "From Byzantine Mosaics to Paris Studios" },
         {
           type: "paragraph",
           content:
-            "Paolo Roversi was born in 1947 in Ravenna, Italy — a city saturated in Byzantine mosaics and ancient light. He taught himself photography as a young man, initially working as a photojournalist and portrait photographer in Ravenna before moving to Paris in 1973. The move was decisive: Paris gave him access to fashion and to the artistic milieu that would shape his mature work.",
+            "Paolo Roversi grew up in Ravenna — a city literally covered in ancient golden mosaics. That early visual education in timeless, luminous beauty never left him.",
         },
         {
           type: "paragraph",
           content:
-            "He began assisting photographer Laurence Sackman and learned studio photography from him. But the turning point came when he encountered the 20x24 Polaroid camera — a massive, room-sized instrument that produced large-format Polaroid prints of extraordinary quality. He became one of its few devoted practitioners, and it became his signature.",
+            "He moved to Paris in 1973 and found his true instrument: the massive 20x24 Polaroid camera. One frame at a time, no negatives, each print totally unique. It was made for him.",
         },
         {
           type: "heading",
@@ -68,31 +68,31 @@ const course: Course = {
       title: "Visual Style Analysis",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Painterly Photograph" },
+        { type: "heading", content: "Photograph or Painting? Yes." },
         {
           type: "paragraph",
           content:
-            "Roversi's images are often described as painterly — and the description is accurate. His work draws on the tradition of European painting, particularly the Symbolists and Pre-Raphaelites, in its use of soft focus, dreamlike atmosphere, and subjects who seem to exist outside ordinary time. He is interested in timelessness rather than trend.",
+            "Roversi's images look like Symbolist paintings — soft, dreamlike, outside ordinary time. He's not trying to document reality; he's trying to touch memory.",
         },
-        { type: "heading", content: "Soft Focus and Long Exposure" },
+        { type: "heading", content: "Blur as a Choice" },
         {
           type: "paragraph",
           content:
-            "Roversi works with deliberately soft focus, using lenses set to minimum sharpness and long exposures that allow movement to blur. The resulting images have an ethereal quality — subjects seem not quite solid, not quite present in the physical world. They exist at the boundary between photograph and painting.",
+            "He shoots deliberately soft, with long exposures that let subjects blur slightly. They exist at the boundary between solid and ghost. That's the point.",
         },
-        { type: "heading", content: "The Large-Format Polaroid" },
+        { type: "heading", content: "The Polaroid That Changes Everything" },
         {
           type: "paragraph",
           content:
-            "The large-format Polaroid camera Roversi uses produces prints of extraordinary tonal range and surface quality. The Polaroid process itself contributes to the aesthetic: colours are slightly shifted, edges are soft, and the image has a warmth and depth that digital photography rarely matches. Each frame is unique — there is no negative, only the print.",
+            "His large-format Polaroid shifts colours slightly, softens edges, adds warmth that digital can't replicate. And there's no negative — each print is the only one.",
         },
-        { type: "heading", content: "Colour and Light" },
+        { type: "heading", content: "Light From Within" },
         {
           type: "paragraph",
           content:
-            "Roversi's colour palette is muted and warm — blues and silvers, cream and gold. He uses light that seems to emanate from within subjects rather than falling on them from outside. His lighting is often a single soft source, heavily diffused, creating images that feel lit by candlelight even when they are studio photographs.",
+            "Roversi lights his subjects as if the glow comes from inside them. One soft, heavily diffused source — and suddenly everything feels like candlelight.",
         },
         {
           type: "quote",
@@ -117,31 +117,31 @@ const course: Course = {
       title: "Signature Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Work for Comme des Garçons" },
+        { type: "heading", content: "Comme des Garçons: Strange Meets Beautiful" },
         {
           type: "paragraph",
           content:
-            "Roversi's ongoing collaboration with Rei Kawakubo and Comme des Garçons has produced images of extraordinary beauty. Kawakubo's deconstructed, conceptual garments and Roversi's ethereal photography are an unexpected but perfect match — the clothes' refusal to be conventionally beautiful finds its complement in images that are too beautiful to be merely fashionable.",
+            "Rei Kawakubo's deconstructed clothes refuse conventional beauty. Roversi's images are so beautiful they transcend fashion. Together they create something neither world could alone.",
         },
-        { type: "heading", content: "Work for Romeo Gigli" },
+        { type: "heading", content: "Romeo Gigli: Poetry Over Trend" },
         {
           type: "paragraph",
           content:
-            "In the 1990s, Roversi's collaboration with designer Romeo Gigli produced some of the most celebrated fashion images of the decade. Gigli's romantic, historicist aesthetic and Roversi's painterly photography created images that seemed to come from a parallel fashion history — one more interested in poetry than trend.",
+            "Their 1990s collaboration looked like fashion from a parallel history — one that cared more about poetry than seasons. Among the most celebrated images of the decade.",
         },
-        { type: "heading", content: "Studio (2007)" },
+        { type: "heading", content: "Studio (2007): The Quiet Truth" },
         {
           type: "paragraph",
           content:
-            "A major monograph documenting Roversi's studio practice over three decades. The book reveals the intimacy of his working method — his Paris studio is a small, quiet place, nothing like the productions that other fashion photographers require. The images show how extraordinary work can be made in modest circumstances.",
+            "His monograph reveals a small, quiet studio — nothing like fashion's usual productions. Extraordinary work made in modest circumstances. The book proves it.",
         },
-        { type: "heading", content: "Pirelli Calendar (2020)" },
+        { type: "heading", content: "Pirelli 2020: Looking for Juliet" },
         {
           type: "paragraph",
           content:
-            "Roversi's Pirelli Calendar — themed 'Looking for Juliet' — cast women from different cultural backgrounds in Shakespeare's Verona. Shot in his characteristic Polaroid soft focus, it was one of the most artistically ambitious calendars in the project's history and introduced his work to a new generation.",
+            "Women from across cultures cast in Shakespeare's Verona, shot in his signature Polaroid soft focus. One of the most artistically ambitious Pirelli Calendars ever made.",
         },
       ],
       quiz: {
@@ -161,31 +161,31 @@ const course: Course = {
       title: "Techniques & Approach",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "The Studio as Sanctuary" },
         {
           type: "paragraph",
           content:
-            "Roversi's Paris studio is small and quiet, deliberately removed from the apparatus of major fashion production. He works with minimal teams — often just himself, his subject, and perhaps a stylist. This creates the conditions for genuine intimacy: subjects are not performing for a crew, they are present with one person who is paying them deep attention.",
+            "His Paris studio is small, quiet, and stripped of fashion's usual apparatus. One person, one camera, real attention. That's the whole setup.",
         },
-        { type: "heading", content: "Long Sessions" },
+        { type: "heading", content: "Shoot Less, See More" },
         {
           type: "paragraph",
           content:
-            "Roversi is known for long, unhurried sessions. He shoots relatively few frames — each large-format Polaroid is expensive and irreplaceable — so he waits. The waiting is productive: subjects relax, expressions shift from the performed to the authentic, and the quality of attention in the room changes.",
+            "Each large-format Polaroid is expensive and irreplaceable, so Roversi waits. The sessions are long. Subjects relax, expressions shift, authenticity surfaces.",
         },
-        { type: "heading", content: "Music as Environment" },
+        { type: "heading", content: "Music Sets the Room" },
         {
           type: "paragraph",
           content:
-            "Roversi plays music throughout his sessions — classical, ambient, whatever creates the atmosphere he is working toward. He uses music to establish an emotional environment that prepares subjects before the camera is even raised. The session is as much about creating the right conditions as about technical execution.",
+            "He plays music throughout — classical, ambient, whatever fits the atmosphere he's building. The emotional environment is set before the camera is even raised.",
         },
-        { type: "heading", content: "The Unique Print" },
+        { type: "heading", content: "One Print, No Copies" },
         {
           type: "paragraph",
           content:
-            "Because Roversi shoots on large-format Polaroid, there is no negative — each Polaroid is the only copy. This gives his prints a unique value and physicality. The photograph exists as a singular object, not a reproducible image. This relationship with physical uniqueness shapes how he approaches each frame.",
+            "No negative means no reprints. Each Polaroid is the only one. More like a painting than a photograph — and he treats each frame accordingly.",
         },
       ],
       quiz: {
@@ -205,31 +205,31 @@ const course: Course = {
       title: "Influence & Legacy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Poetry in Fashion Photography" },
+        { type: "heading", content: "Fashion Photography That Aims at Poetry" },
         {
           type: "paragraph",
           content:
-            "Roversi's most significant contribution is demonstrating that fashion photography can aspire to the condition of poetry — can be about timelessness rather than trend, about beauty rather than desire, about mystery rather than aspiration. In an industry defined by its relationship to the immediate moment, this is a radical position.",
+            "Roversi proved fashion photography can be about timelessness, mystery, and beauty — not just trend. In an industry obsessed with the new, that's genuinely radical.",
         },
-        { type: "heading", content: "The Analogue Holdout" },
+        { type: "heading", content: "Analogue in the Digital Age" },
         {
           type: "paragraph",
           content:
-            "Roversi's continued commitment to the large-format Polaroid in the digital age has made him an important counter-voice in contemporary photography. He demonstrates that the qualities of analogue photography — uniqueness, slowness, materiality — are not simply nostalgic but are active artistic choices with ongoing value.",
+            "He never switched to digital. His Polaroid practice shows that slowness, materiality, and uniqueness are active artistic choices — not nostalgia.",
         },
-        { type: "heading", content: "Influence on Contemporary Fashion Photography" },
+        { type: "heading", content: "The Soft Focus Revival" },
         {
           type: "paragraph",
           content:
-            "The contemporary fashion photography interest in soft focus, film grain, and analogue processes owes something to Roversi's persistent example. He proved, throughout the digital revolution, that these qualities were not outdated but were simply a different tool for a different kind of truth.",
+            "Contemporary fashion's love of film grain and soft focus owes something to Roversi's decades-long example. He kept the flame alive through the digital revolution.",
         },
-        { type: "heading", content: "Fashion as Fine Art" },
+        { type: "heading", content: "Art Gallery or Fashion Magazine?" },
         {
           type: "paragraph",
           content:
-            "Roversi's work exists comfortably in art galleries as well as fashion magazines — it is genuinely ambiguous about which world it belongs to. This ambiguity is not a weakness but a strength: it demonstrates that the boundary between fashion photography and fine art photography is more porous than either side admits.",
+            "His work lives comfortably in both. That ambiguity isn't a problem — it proves the boundary between fashion photography and fine art is far more porous than either side admits.",
         },
       ],
       quiz: {
@@ -249,43 +249,43 @@ const course: Course = {
       title: "What You Can Learn From Roversi",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From His Practice" },
+        { type: "heading", content: "Five Lessons Worth Stealing" },
         {
           type: "paragraph",
           content:
-            "Roversi teaches slowness, mystery, and the value of working against your medium's most obvious tendencies.",
+            "Roversi teaches slowness, mystery, and the value of working against your medium's most obvious instincts.",
         },
         { type: "heading", content: "1. Slow Down" },
         {
           type: "paragraph",
           content:
-            "Limit yourself to ten frames in your next portrait session. Choose each frame deliberately, as if each one costs something irreplaceable. Notice how the session changes — how you look differently when you can't rely on shooting a hundred frames and finding the one.",
+            "Limit yourself to ten frames in your next portrait session. Choose each deliberately, as if it's irreplaceable. Notice how your looking changes.",
         },
         { type: "heading", content: "2. Create an Environment Before You Shoot" },
         {
           type: "paragraph",
           content:
-            "Use music, lighting, and conversation to establish an atmosphere before you raise the camera. The photograph is an expression of the room's emotional state at the moment it is made. Control that state before you try to capture it.",
+            "Use music, light, and conversation to set the atmosphere before you raise the camera. The photograph captures the room's emotional state — control that first.",
         },
         { type: "heading", content: "3. Embrace Soft Focus" },
         {
           type: "paragraph",
           content:
-            "Try shooting at your lens's minimum sharpness setting. Allow faces to be slightly soft, edges to blur. Notice what this does to the feeling of the image — whether it creates mystery or merely looks like a mistake. The distinction is about intent.",
+            "Try shooting at minimum sharpness. Let faces blur slightly. Ask whether it creates mystery or looks like a mistake. The difference is intent.",
         },
         { type: "heading", content: "4. Look at Painting" },
         {
           type: "paragraph",
           content:
-            "Roversi's references are more often painters than photographers. Spend time with the Pre-Raphaelites, the Symbolists, Vermeer, and Caravaggio. Identify what qualities of light, composition, and emotional register you want to bring into your photography.",
+            "Roversi references painters more than photographers. Spend time with the Pre-Raphaelites, the Symbolists, Vermeer. Identify the light, mood, and emotional register you want to steal.",
         },
         { type: "heading", content: "5. Pursue Timelessness" },
         {
           type: "paragraph",
           content:
-            "Ask of each image you make: will this still be interesting in twenty years? If the answer depends on the subject being fashionable or the moment being current, reconsider. What would you need to change to make the image timeless rather than topical?",
+            "Ask of each image: will this still be interesting in twenty years? If the answer depends on being fashionable right now, reconsider what would make it last.",
         },
       ],
       reflection: {

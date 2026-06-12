@@ -17,18 +17,18 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Helmut Newton (1920–2004, Berlin)" },
+        { type: "heading", content: "Berlin Kid, World Photographer" },
         {
           type: "paragraph",
           content:
-            "Helmut Newton was born Helmut Neustädter in Berlin in 1920, the son of a button manufacturer. He was apprenticed to the photographer Yva (Else Simon) in 1936, but his Jewish heritage forced him to flee Germany when Hitler came to power. He escaped to Singapore, then Australia, where he served in the Australian Army and later became a citizen.",
+            "Helmut Newton was born Helmut Neustädter in Berlin in 1920 — son of a button manufacturer, apprentice to a photographer, Jewish refugee. He fled Hitler in 1938, bounced through Singapore, and ended up in Australia.",
         },
         {
           type: "paragraph",
           content:
-            "He moved to Paris in 1957 and began shooting for French Vogue — the publication that would define his career. Over the following decades his images of powerful, sexualised women in luxury settings became among the most published and argued-about images in fashion photography's history.",
+            "He landed in Paris in 1957 and started shooting for French Vogue. That was it — the career that would make him one of fashion's most argued-about names.",
         },
         {
           type: "heading",
@@ -69,31 +69,31 @@ const course: Course = {
       title: "Visual Style Analysis",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Power and Provocation" },
+        { type: "heading", content: "Beautiful, Wrong, Charged" },
         {
           type: "paragraph",
           content:
-            "Newton's visual style is built around a specific tension: between luxury and transgression, between fashion's demand for beauty and his own interest in power and discomfort. His images are never simply beautiful — they are always slightly wrong, charged with an energy that makes them difficult to look away from.",
+            "Newton's images are never simply pretty — they're always slightly off, buzzing with tension between luxury and transgression. You can't look away, and that's entirely on purpose.",
         },
-        { type: "heading", content: "Chiaroscuro and Black and White" },
+        { type: "heading", content: "Shadows Do the Heavy Lifting" },
         {
           type: "paragraph",
           content:
-            "Newton worked extensively in black and white, using a chiaroscuro technique borrowed from Renaissance painting: a single directional light source creating dramatic shadows on one side of the subject. This creates images with a cinematic, film-noir quality — glamorous, menacing, always evening.",
+            "He borrowed chiaroscuro from Renaissance painters: one hard light source, dramatic shadows, and a film-noir mood. It always looks like evening, even at noon.",
         },
-        { type: "heading", content: "The Luxury Setting" },
+        { type: "heading", content: "Luxury That Unnerves" },
         {
           type: "paragraph",
           content:
-            "Newton's images are almost always set in luxury environments: hotel rooms, swimming pools, casinos, yachts, grand apartments. These settings are not aspirational — they are slightly sinister. The luxury serves as a backdrop against which power relationships can play out without the distraction of need.",
+            "Hotel rooms, casinos, private pools — Newton's settings are rich and slightly sinister. The glamour isn't aspirational; it's a stage for power games.",
         },
-        { type: "heading", content: "The Powerful Woman" },
+        { type: "heading", content: "Women Who Own the Frame" },
         {
           type: "paragraph",
           content:
-            "Newton's women are not passive. They are frequently nude or near-nude in positions of obvious power — standing dominantly, looking directly at the viewer, surrounded by diminished men. Whether this constitutes feminism or its opposite has been debated for fifty years without resolution. Newton believed he was celebrating female power. His critics disagreed.",
+            "His women stand dominantly, hold eye contact, and surround diminished men. Whether that's feminist or not has been debated for fifty years — and still isn't settled.",
         },
         {
           type: "quote",
@@ -118,31 +118,31 @@ const course: Course = {
       title: "Signature Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Big Nudes (1980)" },
+        { type: "heading", content: "Big Nudes: No Looking Away" },
         {
           type: "paragraph",
           content:
-            "Newton's most discussed series: four women photographed in pairs — dressed, then nude — against a white background. The nudes are not passive or vulnerable; they are confrontational, standing with arms at their sides, meeting the viewer's gaze. Printed at enormous scale, the images refuse to let viewers position themselves as voyeurs.",
+            "Four women, photographed dressed then nude, staring straight at you. Printed enormous. You can't be a voyeur here — they're more powerful than you are.",
         },
-        { type: "heading", content: "Sumo (1999)" },
+        { type: "heading", content: "Sumo: The Book That Needed a Stand" },
         {
           type: "paragraph",
           content:
-            "A massive book of Newton's most significant work, published in a limited edition with a matching stand. At 35.4 x 27.6 inches and over 30kg, it is one of the largest and most expensive photography books ever made. The book itself became a work of art and a cultural provocation.",
+            "His 1999 monograph was over 30kg and came with its own furniture. It wasn't just a book — it was a provocation you could injure yourself lifting.",
         },
         { type: "heading", content: "They're Coming (1981)" },
         {
           type: "paragraph",
           content:
-            "Four women striding toward the camera in Monte Carlo — two in evening wear, two nude — with the confidence of people who own the street. The image captures Newton's central fascination: women in possession of their own power, in luxury environments, with nowhere to hide and no desire to.",
+            "Four women striding at you in Monte Carlo — two in evening wear, two nude — like they own the street. They do.",
         },
-        { type: "heading", content: "Self-Portrait with Wife and Models (1981)" },
+        { type: "heading", content: "Self-Portrait With Wife and Models" },
         {
           type: "paragraph",
           content:
-            "Newton frequently inserted himself into his images. This self-portrait — Newton in a wheelchair, his wife June standing behind him, two nude models in the foreground — is a typically Newton move: the artist making visible his own role in the construction of the image.",
+            "Newton in a wheelchair, his wife behind him, two nude models in front. He made his own role in the image totally visible — no pretending the camera isn't there.",
         },
       ],
       quiz: {
@@ -162,31 +162,31 @@ const course: Course = {
       title: "Techniques & Approach",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Location Over Studio" },
+        { type: "heading", content: "Real Places, Real Weight" },
         {
           type: "paragraph",
           content:
-            "Newton was fundamentally a location photographer. He believed real environments — hotel rooms, streets, swimming pools — created a sense of reality that the studio could not. He would scout locations extensively, understanding their light and atmosphere before bringing subjects in.",
+            "Newton shot on location because real environments carry meaning that studios can't fake. A hotel room in Monte Carlo says something. A white backdrop says nothing.",
         },
-        { type: "heading", content: "Available Light Plus Single Source" },
+        { type: "heading", content: "One Extra Light, That's It" },
         {
           type: "paragraph",
           content:
-            "Newton typically worked with a single additional light source alongside whatever natural or ambient light was present. This created his characteristic chiaroscuro without the flat perfection of full studio lighting. The result is images that feel located in time and place rather than in a nowhere of controlled illumination.",
+            "He'd add a single light source to whatever was already there — just enough to create his signature chiaroscuro without killing the room's atmosphere.",
         },
-        { type: "heading", content: "The Provocation as Direction" },
+        { type: "heading", content: "Direct Like You Own the Place" },
         {
           type: "paragraph",
           content:
-            "Newton was known for provocative direction — asking models to stand in ways that were uncomfortable, to look at him as if they owned him, to ignore the camera completely. He wanted a specific kind of presence from his subjects: not the performed ease of professional modelling but a genuine authority.",
+            "Newton told models to look at him like they owned him. He wanted genuine authority, not performed ease. The difference shows in every frame.",
         },
-        { type: "heading", content: "The Leica" },
+        { type: "heading", content: "Small Camera, Big Impact" },
         {
           type: "paragraph",
           content:
-            "Newton shot much of his location work with a Leica 35mm rangefinder — a small, quiet camera that allowed him to work without the intimidating presence of large professional equipment. He valued speed and portability over technical perfection.",
+            "He used a Leica 35mm — quiet, small, no intimidation factor. Speed and portability beat technical perfection every time.",
         },
       ],
       quiz: {
@@ -206,31 +206,31 @@ const course: Course = {
       title: "Influence & Legacy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Most Debated Fashion Photographer" },
+        { type: "heading", content: "Fashion's Most Argued Photographer" },
         {
           type: "paragraph",
           content:
-            "Newton's legacy is inseparable from the arguments his work provokes. Is he a feminist who celebrated female power, or a male gaze made manifest? Is his work transgressive or simply provocative? These debates are unresolved and are unlikely to be resolved — they are part of what makes his work impossible to ignore.",
+            "Newton's legacy is the argument — feminist icon or male gaze personified? Fifty years in, nobody's won. That unresolved tension is exactly why you can't ignore him.",
         },
-        { type: "heading", content: "Influence on Fashion Photography" },
+        { type: "heading", content: "He Rewired the Whole Industry" },
         {
           type: "paragraph",
           content:
-            "Newton's influence on fashion photography is enormous — particularly on the concept of fashion as sexual and power-laden rather than simply beautiful or aspirational. Photographers from Steven Meisel to Tom Ford (as creative director) to Mario Testino work in traditions he established.",
+            "Fashion as sexual, power-laden, and charged? That's Newton's invention. Meisel, Tom Ford, Testino — they all work in traditions he built.",
         },
-        { type: "heading", content: "The Helmut Newton Foundation" },
+        { type: "heading", content: "His Foundation Keeps the Fire Alive" },
         {
           type: "paragraph",
           content:
-            "The Helmut Newton Foundation, opened in Berlin in 2003 and still operated by his estate, is one of the most visited photography museums in Germany. It ensures his work remains in public view and continues to generate the debates he would have wanted.",
+            "The Helmut Newton Foundation in Berlin is one of Germany's most visited photography museums. He'd have liked that it keeps the debate running.",
         },
-        { type: "heading", content: "Against the Sanitised" },
+        { type: "heading", content: "The Anti-Smooth Corrective" },
         {
           type: "paragraph",
           content:
-            "Newton's lasting value may be as a corrective to the sanitised perfection of contemporary fashion imagery. His images acknowledge desire, power, and the body — subjects that digital perfection tends to erase. In an era of smoothed skin and impossible bodies, his rough-edged reality is worth revisiting.",
+            "In a world of airbrushed perfection, Newton's rough-edged reality hits differently. His images acknowledge desire, power, and actual bodies — things digital polish tends to erase.",
         },
       ],
       quiz: {
@@ -250,43 +250,43 @@ const course: Course = {
       title: "What You Can Learn From Newton",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From His Practice" },
+        { type: "heading", content: "Five Lessons Worth Stealing" },
         {
           type: "paragraph",
           content:
-            "Newton teaches that photography must have a point of view — a position on its subject — and that the most interesting images are rarely comfortable.",
+            "Newton's work proves that photography needs a point of view. The most interesting images are rarely comfortable ones.",
         },
         { type: "heading", content: "1. Use Directional Light" },
         {
           type: "paragraph",
           content:
-            "Try chiaroscuro: a single light source placed at 45 degrees to your subject, with the other side falling into shadow. Notice how this creates volume, drama, and a sense of time (it always feels like evening). Compare this to images made with flat, frontal lighting.",
+            "Try chiaroscuro: one light at 45 degrees, the other side in shadow. It always feels like evening. Compare it to flat frontal light and see which image has a pulse.",
         },
         { type: "heading", content: "2. Photograph Power, Not Beauty" },
         {
           type: "paragraph",
           content:
-            "Before a portrait session, ask: how can this person be photographed at their most powerful rather than their most beautiful? These are different questions. Beauty flattens; power reveals character.",
+            "Ask: how does this person look at their most powerful? That's a different question from most beautiful — and a more interesting one.",
         },
         { type: "heading", content: "3. Understand Your Own Position" },
         {
           type: "paragraph",
           content:
-            "Newton's work forces the question: whose gaze is this photograph? Every photograph reflects a point of view. Being conscious of your own position — what you see, what you emphasise, what you omit — is the beginning of photographic ethics.",
+            "Every photograph reflects whose gaze is behind the lens. Being conscious of your own position is where photographic ethics actually begins.",
         },
-        { type: "heading", content: "4. Choose Your Location as Carefully as Your Subject" },
+        { type: "heading", content: "4. Choose Your Location Like It Matters" },
         {
           type: "paragraph",
           content:
-            "Location in Newton's work is never neutral. Scout environments that carry meaning — that say something about power, status, desire, or identity. The environment participates in the image.",
+            "Location in Newton's work is never neutral — it participates in the image. Scout places that carry meaning: power, status, desire. The backdrop is half the story.",
         },
         { type: "heading", content: "5. Don't Avoid Discomfort" },
         {
           type: "paragraph",
           content:
-            "The most interesting photographs are rarely comfortable. If every image you make is easy to look at, you are probably avoiding the more interesting images available to you. Push toward what is slightly wrong, slightly too much, slightly unresolved.",
+            "If every image you make is easy to look at, you're probably playing it safe. Push toward what's slightly wrong, slightly too much. That's where it gets interesting.",
         },
       ],
       reflection: {

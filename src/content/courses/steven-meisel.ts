@@ -17,18 +17,18 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Steven Meisel (b. 1954, New York)" },
+        { type: "heading", content: "The Most Powerful Man in Fashion (Who Never Talks)" },
         {
           type: "paragraph",
           content:
-            "Steven Meisel was born in 1954 in New York City and showed an early obsession with fashion, beauty, and the images in magazines. He studied illustration at the Parsons School of Design, where he was known for his photographic memory for images and his ability to recall — with total accuracy — any cover or editorial that had impressed him.",
+            "Steven Meisel grew up in New York, obsessed with magazine images. He could recall any cover — exactly — from memory. That encyclopaedic eye became his superpower.",
         },
         {
           type: "paragraph",
           content:
-            "He began assisting photographers after graduating and quickly developed his own distinctive approach. By the mid-1980s he was shooting regularly for Italian Vogue — a relationship with editor Franca Sozzani that would last until her death in 2016 and produce some of the most culturally significant fashion photography ever made.",
+            "By the mid-1980s he was shooting for Italian Vogue with editor Franca Sozzani. Their partnership lasted until her death in 2016 and produced fashion photography's greatest body of cultural commentary.",
         },
         {
           type: "heading",
@@ -68,31 +68,31 @@ const course: Course = {
       title: "Visual Style Analysis",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Chameleon Aesthetic" },
+        { type: "heading", content: "Every Style. All at Once." },
         {
           type: "paragraph",
           content:
-            "Meisel's most remarkable visual characteristic is that he doesn't have a single visual style — he has all of them. He has absorbed and can reproduce the aesthetic of virtually every major fashion photographer who preceded him, and can create entirely new aesthetics to meet the specific demands of a brief. This chameleon quality is not a weakness; it is his greatest strength.",
+            "Meisel doesn't have a signature style — he has all of them. He can reproduce any aesthetic in photography's history and invent new ones on demand. That range is his signature.",
         },
-        { type: "heading", content: "Transformation and Reinvention" },
+        { type: "heading", content: "Transformation Is the Point" },
         {
           type: "paragraph",
           content:
-            "Meisel is famous for transforming his models. He has turned women into different ethnicities, different decades, different social classes — using make-up, styling, and art direction to create images that are about archetypes rather than individuals. His images are often less about specific people than about what those people represent.",
+            "He turns models into archetypes — different eras, social classes, entire worlds. His images are less about individuals than about what those individuals represent.",
         },
-        { type: "heading", content: "Narrative Editorials" },
+        { type: "heading", content: "Editorials That Tell Stories" },
         {
           type: "paragraph",
           content:
-            "Meisel creates long, narrative editorial sequences — sometimes running to fifty or a hundred pages in a single magazine issue. These sequences tell stories: about American culture, about beauty standards, about politics, about desire. They function more like short films than traditional fashion editorials.",
+            "Meisel creates fifty- or hundred-page editorial sequences that function like short films. Stories about American culture, beauty, politics, desire — published in fashion magazines.",
         },
-        { type: "heading", content: "Cultural Criticism Through Fashion" },
+        { type: "heading", content: "Fashion as Cultural Criticism" },
         {
           type: "paragraph",
           content:
-            "Perhaps uniquely among major fashion photographers, Meisel regularly uses fashion as a vehicle for cultural criticism. His editorials have addressed pornography culture, plastic surgery, oil spills, police violence, and war. These images appeared in mainstream fashion magazines and generated significant public debate.",
+            "Oil spills, plastic surgery, police violence, war — Meisel has addressed all of it through fashion photography, in mainstream magazines, generating real public debate.",
         },
         {
           type: "quote",
@@ -117,31 +117,31 @@ const course: Course = {
       title: "Signature Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Madonna 'Sex' Book (1992)" },
+        { type: "heading", content: "Madonna 'Sex' (1992): A Million Copies, Week One" },
         {
           type: "paragraph",
           content:
-            "Meisel photographed Madonna's 'Sex' book — the most commercially successful photography book of 1992 and among the most controversial. Shot in black and white, the images depicted nudity, sadomasochism, and interracial relationships in a mainstream publication. It was both a cultural provocation and a commercial phenomenon, selling a million copies in its first week.",
+            "Black and white. Nudity, sadomasochism, interracial relationships — in a mainstream book. It sold a million copies in its first week and broke what fashion photography was allowed to show.",
         },
-        { type: "heading", content: "State of Emergency (2006)" },
+        { type: "heading", content: "State of Emergency (2006): Fashion Gets Political" },
         {
           type: "paragraph",
           content:
-            "A 96-page editorial in Italian Vogue responding to America's catastrophic mismanagement of Hurricane Katrina. Models in the ruins of a fashionable life — underwater, in floodwater, being rescued by emergency services. A fashion editorial that became genuine political commentary, published in the world's most influential fashion magazine.",
+            "96 pages in Italian Vogue responding to Katrina — models in floodwater, being rescued, in ruins. A fashion editorial that became genuine political commentary. Only Meisel could do this.",
         },
-        { type: "heading", content: "Makeover Madness (2005)" },
+        { type: "heading", content: "Makeover Madness (2005): Inside the Machine" },
         {
           type: "paragraph",
           content:
-            "An extended editorial for Italian Vogue depicting models undergoing plastic surgery — before, during, and after. Explicit, uncomfortable, and deeply strange, it was a sustained critique of beauty culture from within the industry that perpetuates it. Only Meisel could have made it.",
+            "Models undergoing plastic surgery — before, during, after — in explicit, uncomfortable detail. A critique of beauty culture from within the industry that perpetuates it.",
         },
-        { type: "heading", content: "Water & Oil (2010)" },
+        { type: "heading", content: "Water & Oil (2010): Anger, Made Beautiful" },
         {
           type: "paragraph",
           content:
-            "Models drenched in oil, on a beach, in the aftermath of the BP Deepwater Horizon disaster. High fashion covered in crude. The images were angry, beautiful, and impossible to ignore — a statement about environmental catastrophe made through the medium most associated with environmental excess.",
+            "High fashion drenched in crude oil after the BP disaster. Angry, beautiful, impossible to ignore — environmental catastrophe through fashion's visual language.",
         },
       ],
       quiz: {
@@ -161,31 +161,31 @@ const course: Course = {
       title: "Techniques & Approach",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Extensive Pre-Production" },
+        { type: "heading", content: "Total Control, Total Vision" },
         {
           type: "paragraph",
           content:
-            "Meisel's shoots are among the most extensively produced in fashion photography. He works with complete control over every element — hair, make-up, styling, set, lighting. This control is not about ego but about vision: every element of the image is in service of a specific idea, and nothing is left to chance.",
+            "Meisel controls every element — hair, make-up, styling, set, light. Nothing is left to chance. Everything serves a specific idea. That's not ego; it's commitment.",
         },
-        { type: "heading", content: "The Art Direction Brief" },
+        { type: "heading", content: "The Brief Is Art" },
         {
           type: "paragraph",
           content:
-            "Meisel provides highly detailed art direction briefs before each project. His visual references — drawn from art history, cinema, politics, and popular culture — are extensive and specific. The brief is itself a creative document, not simply a guide for the production team.",
+            "His pre-shoot art direction documents are extensive — art history, cinema, politics, pop culture, all specific and detailed. The brief itself is a creative act.",
         },
-        { type: "heading", content: "The Transformation Session" },
+        { type: "heading", content: "Become Someone Else First" },
         {
           type: "paragraph",
           content:
-            "Many Meisel sessions begin with transformation: his subjects are made-up, styled, and often made unrecognisable before he begins shooting. This is partly aesthetic — he is interested in archetypes rather than individuals — but also psychological: subjects become someone else in the room, which gives them freedom to perform in ways they might not if they were simply themselves.",
+            "Sessions often start with full transformation — make-up, styling, unrecognisable. Subjects become someone else in the room, which frees them to perform in entirely new ways.",
         },
-        { type: "heading", content: "The Controlled Environment" },
+        { type: "heading", content: "The Studio Is the World" },
         {
           type: "paragraph",
           content:
-            "Unlike photographers who prefer location work, Meisel works almost entirely in a controlled studio environment. This gives him the ability to create any world he imagines — any time period, any social setting, any cultural context — and control it with precision.",
+            "Meisel works almost entirely in the studio — because the studio can be any world he imagines. Any decade, any subculture, any social setting, built from scratch.",
         },
       ],
       quiz: {
@@ -205,31 +205,31 @@ const course: Course = {
       title: "Influence & Legacy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Most Powerful Fashion Photographer" },
+        { type: "heading", content: "Fashion Photography's Most Powerful Person" },
         {
           type: "paragraph",
           content:
-            "Meisel's industry power is unparalleled. His decision to shoot a model is, in many cases, sufficient to launch a career. His editorials define the direction of fashion photography for subsequent seasons. His decisions about what to photograph — and what to refuse — shape what fashion culture considers beautiful, relevant, and real.",
+            "Meisel's decision to shoot you can launch a career. His editorials define the direction of fashion photography for subsequent seasons. His refusals matter as much as his acceptances.",
         },
-        { type: "heading", content: "The Supermodel Era" },
+        { type: "heading", content: "He Created the Supermodels" },
         {
           type: "paragraph",
           content:
-            "Meisel 'discovered' Linda Evangelista, Kate Moss, Amber Valletta, Stella Tennant, Guinevere van Seenus, and many others. His eye for a face — and his ability to create images that reveal a face's potential — made him the most important talent spotter in the history of the medium.",
+            "Linda Evangelista, Kate Moss, Amber Valletta, Stella Tennant — Meisel spotted and made them all. His eye for a face is the most important talent-spotting ability in fashion history.",
         },
-        { type: "heading", content: "Fashion as Commentary" },
+        { type: "heading", content: "He Proved Fashion Can Have a Conscience" },
         {
           type: "paragraph",
           content:
-            "Meisel and Sozzani's decision to use Italian Vogue as a platform for cultural and political commentary established that fashion photography could engage seriously with the world. Subsequent photographers and editors who attempt this work in a tradition Meisel and Sozzani created.",
+            "Meisel and Sozzani established that a fashion magazine could engage seriously with the world. Every photographer who's tried it since works in the tradition they built.",
         },
-        { type: "heading", content: "Privacy as Power" },
+        { type: "heading", content: "Silent. Mythological." },
         {
           type: "paragraph",
           content:
-            "Meisel has never given an interview. He communicates through his images alone. This silence has given him a mythological status — he is fashion photography's greatest living mystery, known only through work that speaks louder than any words could.",
+            "He has never given an interview. He communicates only through images. That silence has made him fashion photography's greatest living mystery — and its most powerful figure.",
         },
       ],
       quiz: {
@@ -249,43 +249,43 @@ const course: Course = {
       title: "What You Can Learn From Meisel",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From His Practice" },
+        { type: "heading", content: "Five Lessons Worth Stealing" },
         {
           type: "paragraph",
           content:
-            "Meisel teaches the power of control, range, and the willingness to use your platform for something beyond its obvious purpose.",
+            "Meisel teaches the power of range, control, and using your platform for something bigger than its obvious purpose.",
         },
         { type: "heading", content: "1. Develop Range" },
         {
           type: "paragraph",
           content:
-            "Most photographers develop a signature style and become known for it. Meisel developed the ability to work in any style. Experiment deliberately with visual registers completely outside your comfort zone. The exercise of pastiche teaches you what each aesthetic is actually doing.",
+            "Deliberately work in styles outside your comfort zone. The exercise of pastiche teaches you what each aesthetic is actually doing — and expands what you can do.",
         },
         { type: "heading", content: "2. Master Your References" },
         {
           type: "paragraph",
           content:
-            "Meisel has an encyclopaedic knowledge of art history, cinema, and photography. Build your own visual archive systematically. Study not just the images you love but the ones that shaped the images you love. Understanding the genealogy of aesthetics makes you a better photographer.",
+            "Build your visual archive systematically — not just images you love, but the images that shaped the images you love. Genealogy of aesthetics makes you a sharper photographer.",
         },
         { type: "heading", content: "3. Control Every Element" },
         {
           type: "paragraph",
           content:
-            "Choose a shoot where you control everything: location, clothes, hair, lighting, timing. When you control everything, you are responsible for everything — every failure is yours and every success is too. Total control is total accountability.",
+            "Choose one shoot where you control everything: location, clothes, hair, light, timing. Total control means total accountability — every failure is yours, and so is every success.",
         },
         { type: "heading", content: "4. Use Your Platform" },
         {
           type: "paragraph",
           content:
-            "Whatever platform you have — however small — can be used for something beyond its obvious commercial purpose. What do you care about beyond photography? What could your images say about that? The intersection of your platform and your values is where the most interesting work is.",
+            "Whatever platform you have — however small — can say something beyond the obvious brief. What do you care about? The intersection of your platform and your values is where interesting work lives.",
         },
         { type: "heading", content: "5. Let the Work Speak" },
         {
           type: "paragraph",
           content:
-            "Meisel never explains his images. He trusts them to say what he means. This requires complete conviction in your work. When is an image finished — finished enough that no amount of explanation will improve how it is understood? Practise letting images be what they are.",
+            "Meisel never explains his images. He trusts them completely. When is an image finished enough that explanation would only weaken it? Practise that kind of conviction.",
         },
       ],
       reflection: {

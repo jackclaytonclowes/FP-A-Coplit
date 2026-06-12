@@ -17,18 +17,18 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Juergen Teller (b. 1964, Erlangen, Germany)" },
+        { type: "heading", content: "Bavaria to London, Rules Optional" },
         {
           type: "paragraph",
           content:
-            "Juergen Teller was born in 1964 in Erlangen, Bavaria. His father was a musician who died by suicide when Teller was nineteen — an event that shaped his relationship with vulnerability and honesty in ways that pervade his work. He studied at the Bayerische Staatslehranstalt für Photographie in Munich before moving to London in 1986.",
+            "Juergen Teller grew up in Erlangen, Bavaria, moved to London in 1986, and immediately started doing everything fashion photography said you shouldn't do.",
         },
         {
           type: "paragraph",
           content:
-            "In London he began shooting for music publications — Smash Hits, then more influential titles — before entering fashion through i-D magazine. His approach was immediately polarising: raw, unflattering, using direct flash in a way that most fashion photographers considered amateurish. Fashion editors either loved it or dismissed it. The ones who loved it gave him enormous creative latitude.",
+            "He shot for music press, landed at i-D, and divided the industry: editors either loved his raw direct flash or dismissed it as amateur. The ones who loved it gave him everything.",
         },
         {
           type: "heading",
@@ -68,31 +68,31 @@ const course: Course = {
       title: "Visual Style Analysis",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Anti-Aesthetic Aesthetic" },
+        { type: "heading", content: "Wrong on Purpose" },
         {
           type: "paragraph",
           content:
-            "Teller's visual style is built around a systematic rejection of conventional fashion photography values. Where fashion photography prizes polish, he offers rawness. Where it celebrates beauty, he photographs the ugly-beautiful. Where it poses, he catches. The effect is photographs that feel like stolen moments from real life — which is exactly the point.",
+            "Teller systematically rejects every fashion photography convention — polish, beauty, controlled poses. The result feels like a stolen moment from someone's actual life.",
         },
-        { type: "heading", content: "Direct Flash" },
+        { type: "heading", content: "Flash: Fashion's Forbidden Tool" },
         {
           type: "paragraph",
           content:
-            "Like Nan Goldin before him, Teller uses direct on-camera flash — the technique considered worst practice by most fashion photographers. The flash creates hard shadows, flattens skin, bleaches highlights, and creates red-eye. Teller uses all of these 'flaws' as tools: they create a quality of urgency and presence that no amount of professional lighting can replicate.",
+            "Direct on-camera flash is the thing every photography teacher tells you to avoid. Teller built a career on it — hard shadows, bleached highlights, red-eye and all.",
         },
-        { type: "heading", content: "Overexposure" },
+        { type: "heading", content: "Burn It Out" },
         {
           type: "paragraph",
           content:
-            "Teller frequently overexposes his images — letting highlights blow out completely, obliterating detail. This creates images that feel burned into reality rather than carefully recorded from it. The washed-out quality resists the luxurious perfection expected of fashion advertising.",
+            "He regularly blows out the highlights completely. The washed-out result resists luxury perfection — it looks found, not made.",
         },
-        { type: "heading", content: "Self-Insertion" },
+        { type: "heading", content: "The Photographer in the Frame" },
         {
           type: "paragraph",
           content:
-            "Teller regularly inserts himself into his images — photographing himself with subjects, appearing in campaign images alongside models. This collapses the usual distance between photographer and subject, making his role in the construction of the image visible. It is both confessional and a critique of fashion photography's pretence to objectivity.",
+            "Teller puts himself in his own images — campaigns, editorials, everything. He makes the photographer's role visible and collapses any pretence that the camera is objective.",
         },
         {
           type: "quote",
@@ -117,31 +117,31 @@ const course: Course = {
       title: "Signature Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Marc Jacobs Campaigns (2000–present)" },
+        { type: "heading", content: "Marc Jacobs: The Never-Ending Campaign" },
         {
           type: "paragraph",
           content:
-            "Teller's ongoing collaboration with Marc Jacobs is the most significant long-term creative partnership in fashion photography. The campaigns feature Jacobs himself, celebrities, artists, and Teller's own family — photographed with the same raw directness he brings to everything. They have generated genuine cultural discussion and changed what luxury advertising can look like.",
+            "Teller's decades-long Marc Jacobs collaboration features the designer himself, celebrities, artists, and Teller's own family — all photographed with unfiltered directness. It changed what luxury ads are allowed to look like.",
         },
-        { type: "heading", content: "Vivienne Westwood Campaigns" },
+        { type: "heading", content: "Vivienne Westwood: Anti-Aspirational Icons" },
         {
           type: "paragraph",
           content:
-            "Teller photographed Vivienne Westwood's campaigns for years, often featuring the designer herself — aged, fierce, entirely unglamorous — alongside younger models. The campaigns were deliberately anti-aspirational, celebrating personality and attitude over beauty. They remain among the most distinctive fashion campaigns of their era.",
+            "He photographed Westwood herself — fierce, aged, entirely unglamorous — alongside younger models. The campaigns celebrated personality over beauty. Nobody else would have dared.",
         },
-        { type: "heading", content: "Céline (2010–17)" },
+        { type: "heading", content: "Céline: Raw Meets Restrained" },
         {
           type: "paragraph",
           content:
-            "During Phoebe Philo's celebrated tenure at Céline, Teller shot many of the brand's campaigns. The combination of Philo's restrained, intellectual aesthetic and Teller's raw photography produced images of extraordinary power — proof that anti-fashion photography could serve the most sophisticated luxury fashion.",
+            "Teller's Céline work under Phoebe Philo was a perfect collision: her intellectual minimalism, his raw photography. Proof that anti-fashion can serve the most sophisticated luxury brands.",
         },
-        { type: "heading", content: "Go-Sees (1999)" },
+        { type: "heading", content: "Go-Sees: The Industry Exposed" },
         {
           type: "paragraph",
           content:
-            "A book of photographs taken during model 'go-sees' — the industry audition process where models present themselves to photographers and agencies. Teller photographed the models in his studio, often in un-flattering situations, with unflinching honesty. The book is both a portrait of the industry and an ethical statement about what photography owes its subjects.",
+            "He photographed models during their industry auditions — unflinchingly honest. The book is both a portrait of fashion's machinery and an ethical statement about what photography owes its subjects.",
         },
       ],
       quiz: {
@@ -161,31 +161,31 @@ const course: Course = {
       title: "Techniques & Approach",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Cheap Camera Philosophy" },
+        { type: "heading", content: "Cheap Camera, Clear Eyes" },
         {
           type: "paragraph",
           content:
-            "Teller has shot much of his work on relatively modest equipment — compact cameras, disposable cameras, basic flash units. This is a deliberate philosophy: the image is not about the equipment. A cheap camera in the hands of someone who sees clearly produces better photographs than an expensive camera in the hands of someone who cannot.",
+            "Teller shoots on modest equipment — compact cameras, basic flash. It's a philosophy: if you see clearly, any camera works. Gear is not the point.",
         },
-        { type: "heading", content: "Minimal Production" },
+        { type: "heading", content: "Strip the Set" },
         {
           type: "paragraph",
           content:
-            "Where other photographers work with large production teams, Teller typically works alone or with minimal assistance. No hair, no make-up, no styling beyond what the subject brings. This is not economy — it is an artistic position. The production apparatus of fashion photography is itself a form of artifice he wants to strip away.",
+            "No hair, no make-up, no styling beyond what the subject brought. The fashion industry's production apparatus is itself a form of artifice — Teller strips it away.",
         },
-        { type: "heading", content: "Confessional Self-Portraiture" },
+        { type: "heading", content: "Be in the Picture" },
         {
           type: "paragraph",
           content:
-            "Teller's self-portraiture — appearing in his own campaigns, photographing himself with subjects — makes visible the role of the photographer in constructing images. This is both honest and technically challenging: being in the frame requires the camera to operate without him behind it.",
+            "Putting himself in the frame is honest and technically awkward — he can't be behind the camera if he's in front of it. He figures it out every time.",
         },
-        { type: "heading", content: "Extended Relationships" },
+        { type: "heading", content: "Trust Built Over Years" },
         {
           type: "paragraph",
           content:
-            "Teller's best work comes from long-term relationships — with designers, editors, and subjects he has photographed repeatedly over years. The repeated access creates trust; the trust creates honesty. Many of his most intimate images were impossible without relationships that had been built over a decade or more.",
+            "Teller's most intimate images come from relationships built over a decade or more. You can't rush the kind of access that produces his best work.",
         },
       ],
       quiz: {
@@ -205,31 +205,31 @@ const course: Course = {
       title: "Influence & Legacy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Redefining What Fashion Photography Is Allowed to Look Like" },
+        { type: "heading", content: "He Proved Ugly Can Sell Luxury" },
         {
           type: "paragraph",
           content:
-            "Teller's most significant achievement is proving that anti-aesthetic photography can serve the most sophisticated ends of fashion culture. His work with Marc Jacobs, Céline, and Vivienne Westwood demonstrated that rawness and honesty were not obstacles to commercial effectiveness but were, in fact, powerful selling tools.",
+            "Rawness and honesty as selling tools — that's Teller's proof of concept. Marc Jacobs, Céline, Westwood all trusted him. The work sold.",
         },
         { type: "heading", content: "The Ugly-Beautiful Tradition" },
         {
           type: "paragraph",
           content:
-            "Teller, alongside contemporaries like Corinne Day and David Sims, established the 'ugly-beautiful' tradition in 1990s British fashion photography — a counter-movement to the aspirational perfection of mainstream fashion. This tradition has profoundly influenced contemporary photography, advertising, and social media aesthetics.",
+            "Alongside Corinne Day and David Sims, Teller built the 1990s British counter-movement to aspirational perfection. You can trace its DNA straight to contemporary photography.",
         },
-        { type: "heading", content: "Influence on Social Media Photography" },
+        { type: "heading", content: "He Invented Your Instagram Aesthetic" },
         {
           type: "paragraph",
           content:
-            "The aesthetic of contemporary social media photography — unposed, direct flash, candid, slightly unflattering — owes a significant debt to Teller (and to Goldin). The 'authentic' aesthetic that dominates Instagram was pioneered in fashion photography before it became a cultural norm.",
+            "Unposed, direct flash, slightly unflattering, candid — the 'authentic' aesthetic that dominates social media? Teller (and Goldin) did it first, in fashion, decades ago.",
         },
-        { type: "heading", content: "Lasting Collaboration With Luxury" },
+        { type: "heading", content: "Honesty as Luxury" },
         {
           type: "paragraph",
           content:
-            "Teller's decades-long collaborations with luxury brands demonstrate that his anti-aesthetic is not incompatible with commercial luxury — it is, paradoxically, one of its most powerful expressions. The willingness to be honest is itself a form of luxury in an industry built on artifice.",
+            "In an industry built on artifice, being genuinely raw is its own form of luxury. That's the paradox Teller proved — and it's still working.",
         },
       ],
       quiz: {
@@ -249,43 +249,43 @@ const course: Course = {
       title: "What You Can Learn From Teller",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From His Practice" },
+        { type: "heading", content: "Five Lessons Worth Stealing" },
         {
           type: "paragraph",
           content:
-            "Teller's work teaches that the most powerful photography often comes from removing things — production, equipment, styling — rather than adding them.",
+            "Teller's work proves the most powerful photography often comes from removing things, not adding them.",
         },
         { type: "heading", content: "1. Try Direct Flash" },
         {
           type: "paragraph",
           content:
-            "Spend a day shooting exclusively with a direct on-camera flash. Notice what it does: the hard shadows, the flat skin, the red-eye, the bleached highlights. Then notice the quality of presence it creates — the feeling that the image is a document rather than a production.",
+            "Spend a day shooting only with on-camera flash. Notice the hard shadows, the bleached skin, the urgency. Then decide if that's a mistake or a tool.",
         },
         { type: "heading", content: "2. Value the 'Wrong' Image" },
         {
           type: "paragraph",
           content:
-            "At the end of your next shoot, look at the images you would normally discard — the blurred ones, the overexposed ones, the ones where someone's eyes are shut. Look at them seriously, for five minutes. Sometimes the 'wrong' image is actually the most honest.",
+            "At your next shoot, look seriously at the rejects — blurred, overexposed, eyes closed. Sometimes the 'wrong' image is the honest one.",
         },
         { type: "heading", content: "3. Make Yourself Visible" },
         {
           type: "paragraph",
           content:
-            "Insert yourself into some of your photographs. This is uncomfortable, which is why it's interesting. It makes visible your role in constructing the image and collapses the photographer's conventional invisibility. What changes when the photographer is in the frame?",
+            "Put yourself in some of your photographs. It's uncomfortable — which is exactly why it's worth doing. What changes when the photographer is in the frame?",
         },
         { type: "heading", content: "4. Build Long-Term Relationships" },
         {
           type: "paragraph",
           content:
-            "Commit to photographing the same person — a friend, a family member — over months or years. Return to the same subject repeatedly. Notice how the photographs change as trust deepens. The most intimate images come from relationships that have had time to mature.",
+            "Commit to photographing the same person over months or years. The most intimate images need time to become possible.",
         },
         { type: "heading", content: "5. Strip Away the Apparatus" },
         {
           type: "paragraph",
           content:
-            "For your next portrait, remove one element from your usual setup: the background, the lights, the styling. Each time you remove something, ask what the image gains. The minimum necessary to tell the truth is often less than you think.",
+            "For your next portrait, remove one element from your usual setup. Ask what the image gains. The minimum you need to tell the truth is often less than you think.",
         },
       ],
       reflection: {
