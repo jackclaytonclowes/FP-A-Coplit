@@ -50,12 +50,15 @@ export interface Course {
 export type CourseCategory =
   | "photography-foundations"
   | "great-photographers"
-  | "fashion"
   | "style-movements"
-  | "art-history"
   | "film"
+  | "directors"
+  | "history"
+  | "crime"
+  | "fashion"
   | "creative-direction"
   | "marketing"
+  | "art-history"
   | "glossary"
 
 export interface Photographer {

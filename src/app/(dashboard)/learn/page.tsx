@@ -4,34 +4,55 @@ import Link from "next/link"
 import { useCIQStore } from "@/hooks/useCIQStore"
 import { ALL_COURSES } from "@/content/courses"
 
+const CATEGORY_ORDER = [
+  "photography-foundations",
+  "great-photographers",
+  "style-movements",
+  "film",
+  "directors",
+  "history",
+  "crime",
+  "fashion",
+  "creative-direction",
+  "marketing",
+  "art-history",
+  "glossary",
+]
+
 const CATEGORY_LABELS: Record<string, string> = {
   "photography-foundations": "Photography",
   "great-photographers":     "Photographers",
-  "fashion":                 "Fashion",
   "style-movements":         "Style & Aesthetics",
-  "art-history":             "Art History",
-  "film":                    "Film",
+  "film":                    "Film & Cinema",
+  "directors":               "Director Studies",
+  "history":                 "History & Geopolitics",
+  "crime":                   "Crime, Power & Society",
+  "fashion":                 "Fashion & Design",
   "creative-direction":      "Creative Direction",
-  "marketing":               "Marketing",
+  "marketing":               "Marketing & Branding",
+  "art-history":             "Art History",
   "glossary":                "Glossary",
 }
 
 const CATEGORY_EMOJI: Record<string, string> = {
   "photography-foundations": "📷",
   "great-photographers":     "🎨",
-  "fashion":                 "👗",
   "style-movements":         "🌙",
-  "art-history":             "🏛️",
   "film":                    "🎬",
+  "directors":               "🎥",
+  "history":                 "🌍",
+  "crime":                   "🏛️",
+  "fashion":                 "👗",
   "creative-direction":      "💡",
   "marketing":               "📊",
+  "art-history":             "🖼️",
   "glossary":                "📖",
 }
 
 export default function LearnPage() {
   const { completedLessons, courseProgress } = useCIQStore()
 
-  const grouped = ALL_COURSES.reduce(
+  const groupedRaw = ALL_COURSES.reduce(
     (acc, course) => {
       if (!acc[course.category]) acc[course.category] = []
       acc[course.category].push(course)
@@ -40,16 +61,20 @@ export default function LearnPage() {
     {} as Record<string, typeof ALL_COURSES>
   )
 
+  const grouped = CATEGORY_ORDER
+    .filter((cat) => groupedRaw[cat])
+    .map((cat) => [cat, groupedRaw[cat]] as [string, typeof ALL_COURSES])
+
   return (
     <div style={{ maxWidth: 640, margin: "0 auto", padding: "24px 16px", display: "flex", flexDirection: "column", gap: 32 }}>
       <div>
         <h1 style={{ font: "var(--text-h1)", color: "var(--fg-1)", marginBottom: 6 }}>Learn</h1>
         <p style={{ font: "var(--text-body)", color: "var(--fg-3)" }}>
-          Structured paths, great photographers, and visual culture.
+          Photography, film, history, crime, fashion, and creative culture.
         </p>
       </div>
 
-      {Object.entries(grouped).map(([category, courses]) => (
+      {grouped.map(([category, courses]) => (
         <section key={category}>
           <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 12 }}>
             <span style={{ fontSize: 16 }}>{CATEGORY_EMOJI[category] ?? "📚"}</span>
