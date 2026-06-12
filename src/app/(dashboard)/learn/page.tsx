@@ -65,6 +65,20 @@ export default function LearnPage() {
     .filter((cat) => groupedRaw[cat])
     .map((cat) => [cat, groupedRaw[cat]] as [string, typeof ALL_COURSES])
 
+  const inProgress = ALL_COURSES
+    .filter((c) => {
+      const done = (completedLessons[c.id] || []).length
+      return done > 0 && (courseProgress[c.id] ?? 0) < 1
+    })
+    .sort((a, b) =>
+      (completedLessons[b.id] || []).length - (completedLessons[a.id] || []).length
+    )
+
+  const nothingStarted = ALL_COURSES.every((c) => !(completedLessons[c.id] || []).length)
+  const suggestedStart = nothingStarted
+    ? ALL_COURSES.find((c) => c.category === "photography-foundations")
+    : null
+
   return (
     <div style={{ maxWidth: 640, margin: "0 auto", padding: "24px 16px", display: "flex", flexDirection: "column", gap: 32 }}>
       <div>
@@ -73,6 +87,86 @@ export default function LearnPage() {
           Photography, film, history, crime, fashion, and creative culture.
         </p>
       </div>
+
+      {/* ── Continue Learning ── */}
+      {inProgress.length > 0 && (
+        <section>
+          <p style={{ font: "var(--text-label)", color: "var(--fg-3)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 12 }}>
+            Continue Learning
+          </p>
+          <div style={{
+            display: "flex", gap: 12, overflowX: "auto", paddingBottom: 4,
+          }} className="no-scrollbar">
+            {inProgress.map((course) => {
+              const done = (completedLessons[course.id] || []).length
+              const total = course.lessons.length
+              const progress = courseProgress[course.id] ?? 0
+              const nextLessonId = course.lessons[done]?.id ?? course.lessons[0].id
+              return (
+                <Link key={course.id} href={`/learn/${course.id}/${nextLessonId}`} style={{ textDecoration: "none", flexShrink: 0, width: inProgress.length === 1 ? "100%" : 260 }}>
+                  <div style={{
+                    background: `linear-gradient(135deg, ${course.accentColor}18 0%, var(--surface) 60%)`,
+                    border: `1px solid ${course.accentColor}44`,
+                    borderLeft: `4px solid ${course.accentColor}`,
+                    borderRadius: "var(--radius-lg)",
+                    padding: "14px 16px",
+                    height: "100%",
+                  }}>
+                    <p style={{ font: "var(--text-caption)", color: "var(--fg-3)", marginBottom: 3, textTransform: "uppercase", letterSpacing: "0.05em" }}>
+                      {CATEGORY_LABELS[course.category] ?? course.category}
+                    </p>
+                    <p style={{ font: "var(--text-body-strong)", color: "var(--fg-1)", marginBottom: 10, lineHeight: 1.3 }}>
+                      {course.title}
+                    </p>
+                    <div style={{ height: 5, background: "var(--surface-3)", borderRadius: "var(--radius-pill)", overflow: "hidden", marginBottom: 8 }}>
+                      <div style={{
+                        height: "100%", width: `${progress * 100}%`,
+                        background: course.accentColor,
+                        borderRadius: "var(--radius-pill)",
+                      }} />
+                    </div>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                      <span style={{ font: "var(--text-caption)", color: "var(--fg-3)", fontFamily: "var(--font-mono)" }}>
+                        {done}/{total} lessons
+                      </span>
+                      <span style={{ font: "var(--text-label)", color: course.accentColor }}>
+                        Continue →
+                      </span>
+                    </div>
+                  </div>
+                </Link>
+              )
+            })}
+          </div>
+        </section>
+      )}
+
+      {/* ── Start Here (new users) ── */}
+      {suggestedStart && (
+        <Link href={`/learn/${suggestedStart.id}`} style={{ textDecoration: "none" }}>
+          <div style={{
+            background: `linear-gradient(135deg, ${suggestedStart.accentColor}18 0%, var(--surface) 60%)`,
+            border: `1px solid ${suggestedStart.accentColor}44`,
+            borderLeft: `4px solid ${suggestedStart.accentColor}`,
+            borderRadius: "var(--radius-lg)",
+            padding: "18px 20px",
+            display: "flex", alignItems: "center", justifyContent: "space-between",
+          }}>
+            <div>
+              <p style={{ font: "var(--text-label)", color: "var(--fg-3)", marginBottom: 3, textTransform: "uppercase", letterSpacing: "0.05em" }}>
+                Start Here
+              </p>
+              <p style={{ font: "var(--text-body-strong)", color: "var(--fg-1)" }}>
+                {suggestedStart.title}
+              </p>
+              <p style={{ font: "var(--text-caption)", color: "var(--fg-3)", marginTop: 2 }}>
+                {suggestedStart.lessons.length} lessons · the foundations
+              </p>
+            </div>
+            <span style={{ font: "var(--text-h2)", color: suggestedStart.accentColor, flexShrink: 0 }}>→</span>
+          </div>
+        </Link>
+      )}
 
       {grouped.map(([category, courses]) => (
         <section key={category}>
@@ -132,7 +226,7 @@ export default function LearnPage() {
                           {course.description}
                         </p>
                         <div style={{ display: "flex", alignItems: "center", gap: 8, marginTop: 8 }}>
-                          <div style={{ flex: 1, height: 3, background: "var(--surface-3)", borderRadius: "var(--radius-pill)", overflow: "hidden" }}>
+                          <div style={{ flex: 1, height: 5, background: "var(--surface-3)", borderRadius: "var(--radius-pill)", overflow: "hidden" }}>
                             <div style={{
                               height: "100%",
                               width: `${progress * 100}%`,
