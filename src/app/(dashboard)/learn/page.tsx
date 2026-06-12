@@ -3,36 +3,34 @@
 import Link from "next/link"
 import { useCIQStore } from "@/hooks/useCIQStore"
 import { ALL_COURSES } from "@/content/courses"
-import { cn } from "@/lib/utils"
 
 const CATEGORY_LABELS: Record<string, string> = {
   "photography-foundations": "Photography",
-  "great-photographers": "Photographers",
-  "fashion": "Fashion",
-  "style-movements": "Style & Aesthetics",
-  "art-history": "Art History",
-  "film": "Film",
-  "creative-direction": "Creative Direction",
-  "marketing": "Marketing",
-  "glossary": "Glossary",
+  "great-photographers":     "Photographers",
+  "fashion":                 "Fashion",
+  "style-movements":         "Style & Aesthetics",
+  "art-history":             "Art History",
+  "film":                    "Film",
+  "creative-direction":      "Creative Direction",
+  "marketing":               "Marketing",
+  "glossary":                "Glossary",
 }
 
 const CATEGORY_EMOJI: Record<string, string> = {
   "photography-foundations": "📷",
-  "great-photographers": "🎨",
-  "fashion": "👗",
-  "style-movements": "🌙",
-  "art-history": "🏛️",
-  "film": "🎬",
-  "creative-direction": "💡",
-  "marketing": "📊",
-  "glossary": "📖",
+  "great-photographers":     "🎨",
+  "fashion":                 "👗",
+  "style-movements":         "🌙",
+  "art-history":             "🏛️",
+  "film":                    "🎬",
+  "creative-direction":      "💡",
+  "marketing":               "📊",
+  "glossary":                "📖",
 }
 
 export default function LearnPage() {
   const { completedLessons, courseProgress } = useCIQStore()
 
-  // Group courses by category
   const grouped = ALL_COURSES.reduce(
     (acc, course) => {
       if (!acc[course.category]) acc[course.category] = []
@@ -43,22 +41,24 @@ export default function LearnPage() {
   )
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-6 space-y-8">
+    <div style={{ maxWidth: 640, margin: "0 auto", padding: "24px 16px", display: "flex", flexDirection: "column", gap: 32 }}>
       <div>
-        <h1 className="text-2xl font-bold text-white">Learn</h1>
-        <p className="text-sm text-zinc-400 mt-1">Your creative education — structured paths, great photographers, and visual culture.</p>
+        <h1 style={{ font: "var(--text-h1)", color: "var(--fg-1)", marginBottom: 6 }}>Learn</h1>
+        <p style={{ font: "var(--text-body)", color: "var(--fg-3)" }}>
+          Structured paths, great photographers, and visual culture.
+        </p>
       </div>
 
       {Object.entries(grouped).map(([category, courses]) => (
         <section key={category}>
-          <div className="flex items-center gap-2 mb-3">
-            <span className="text-lg">{CATEGORY_EMOJI[category] ?? "📚"}</span>
-            <h2 className="text-sm font-semibold text-zinc-300 uppercase tracking-widest">
+          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 12 }}>
+            <span style={{ fontSize: 16 }}>{CATEGORY_EMOJI[category] ?? "📚"}</span>
+            <p style={{ font: "var(--text-label)", color: "var(--fg-3)", textTransform: "uppercase", letterSpacing: "0.08em" }}>
               {CATEGORY_LABELS[category] ?? category}
-            </h2>
+            </p>
           </div>
 
-          <div className="space-y-3">
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
             {courses.map((course) => {
               const done = (completedLessons[course.id] || []).length
               const total = course.lessons.length
@@ -67,43 +67,56 @@ export default function LearnPage() {
               const completed = progress >= 1
 
               return (
-                <Link key={course.id} href={`/learn/${course.id}`}>
-                  <div
-                    className={cn(
-                      "rounded-2xl p-4 border transition-all",
-                      completed
-                        ? "border-emerald-800/50 bg-emerald-950/30"
-                        : "border-zinc-800/50 bg-zinc-900/40 hover:border-zinc-700"
-                    )}
-                  >
-                    <div className="flex items-start gap-3">
-                      <div
-                        className="w-11 h-11 rounded-xl flex items-center justify-center text-xl shrink-0"
-                        style={{ background: `${course.accentColor}25` }}
-                      >
-                        {completed ? "✅" : CATEGORY_EMOJI[course.category] ?? "📚"}
+                <Link key={course.id} href={`/learn/${course.id}`} style={{ textDecoration: "none" }}>
+                  <div style={{
+                    background: completed
+                      ? "linear-gradient(135deg, var(--favourable-soft) 0%, var(--surface) 70%)"
+                      : `linear-gradient(135deg, ${course.accentColor}12 0%, var(--surface) 70%)`,
+                    border: `1px solid ${completed ? "var(--favourable-border)" : "var(--border)"}`,
+                    borderRadius: "var(--radius-lg)",
+                    padding: 16,
+                    transition: "border-color 0.15s",
+                  }}>
+                    <div style={{ display: "flex", gap: 12, alignItems: "flex-start" }}>
+                      <div style={{
+                        width: 44, height: 44,
+                        borderRadius: "var(--radius-md)",
+                        background: completed ? "var(--favourable-soft)" : `${course.accentColor}22`,
+                        display: "flex", alignItems: "center", justifyContent: "center",
+                        fontSize: 20, flexShrink: 0,
+                      }}>
+                        {completed ? "✅" : (CATEGORY_EMOJI[course.category] ?? "📚")}
                       </div>
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-2">
-                          <h3 className="font-semibold text-white text-sm">{course.title}</h3>
+                      <div style={{ flex: 1, minWidth: 0 }}>
+                        <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 2 }}>
+                          <p style={{ font: "var(--text-body-strong)", color: "var(--fg-1)", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                            {course.title}
+                          </p>
                           {completed && (
-                            <span className="text-[10px] bg-emerald-900/50 text-emerald-400 px-1.5 py-0.5 rounded-full">
-                              Done
-                            </span>
+                            <span style={{
+                              font: "var(--text-label)", fontSize: 10,
+                              background: "var(--favourable-soft)",
+                              color: "var(--favourable-text)",
+                              border: "1px solid var(--favourable-border)",
+                              borderRadius: "var(--radius-pill)",
+                              padding: "2px 7px", flexShrink: 0,
+                            }}>Done</span>
                           )}
                         </div>
-                        <p className="text-xs text-zinc-500 mt-0.5 line-clamp-1">{course.description}</p>
-                        <div className="flex items-center gap-2 mt-2">
-                          <div className="flex-1 h-1 bg-zinc-800 rounded-full overflow-hidden">
-                            <div
-                              className="h-full rounded-full transition-all"
-                              style={{
-                                width: `${progress * 100}%`,
-                                background: completed ? "#34d399" : course.accentColor,
-                              }}
-                            />
+                        <p style={{ font: "var(--text-caption)", color: "var(--fg-3)", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                          {course.description}
+                        </p>
+                        <div style={{ display: "flex", alignItems: "center", gap: 8, marginTop: 8 }}>
+                          <div style={{ flex: 1, height: 3, background: "var(--surface-3)", borderRadius: "var(--radius-pill)", overflow: "hidden" }}>
+                            <div style={{
+                              height: "100%",
+                              width: `${progress * 100}%`,
+                              background: completed ? "var(--favourable)" : course.accentColor,
+                              borderRadius: "var(--radius-pill)",
+                              transition: "width 0.5s ease-out",
+                            }} />
                           </div>
-                          <span className="text-[10px] text-zinc-500 shrink-0">
+                          <span style={{ font: "var(--text-caption)", fontFamily: "var(--font-mono)", color: "var(--fg-3)", flexShrink: 0 }}>
                             {started ? `${done}/${total}` : `${total} lessons`}
                           </span>
                         </div>

@@ -4,12 +4,11 @@ import { useCIQStore } from "@/hooks/useCIQStore"
 import { XPBar } from "@/components/engine/XPBar"
 import { ACHIEVEMENTS } from "@/lib/engine/achievements"
 import { ALL_COURSES } from "@/content/courses"
-import { cn } from "@/lib/utils"
 
 export default function ProfilePage() {
   const {
-    xp, level, levelTitle, progressPercent, xpToNext,
-    streak, streakLastDate, completedLessons, courseProgress,
+    xp, level, levelTitle, xpToNext,
+    streak, completedLessons, courseProgress,
     unlockedAchievements, moodboardItems, journalEntries, glossaryMastered,
   } = useCIQStore()
 
@@ -18,27 +17,30 @@ export default function ProfilePage() {
   const coursesStarted = Object.keys(completedLessons).length
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-6 space-y-6">
-      <h1 className="text-2xl font-bold text-white">Profile</h1>
+    <div style={{ maxWidth: 640, margin: "0 auto", padding: "24px 16px", display: "flex", flexDirection: "column", gap: 24 }}>
+      <h1 style={{ font: "var(--text-h1)", color: "var(--fg-1)" }}>Profile</h1>
 
       {/* Level card */}
-      <div className="bg-zinc-900/60 rounded-2xl p-5 border border-zinc-800/50">
-        <div className="flex items-start justify-between mb-4">
+      <div style={{
+        background: "var(--surface)", border: "1px solid var(--border)",
+        borderRadius: "var(--radius-lg)", padding: 20,
+      }}>
+        <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", marginBottom: 16 }}>
           <div>
-            <p className="text-xs text-zinc-500 uppercase tracking-widest">Level {level}</p>
-            <p className="text-2xl font-bold text-white">{levelTitle}</p>
-            <p className="text-sm text-amber-400 font-semibold mt-0.5">{xp.toLocaleString()} XP</p>
+            <p style={{ font: "var(--text-label)", color: "var(--fg-3)", textTransform: "uppercase", letterSpacing: "0.06em" }}>Level {level}</p>
+            <p style={{ font: "var(--text-h1)", color: "var(--fg-1)", marginTop: 2 }}>{levelTitle}</p>
+            <p style={{ font: "var(--text-body-strong)", color: "var(--gold-text)", marginTop: 2 }}>{xp.toLocaleString()} XP</p>
           </div>
-          <div className="text-4xl opacity-80">
+          <div style={{ fontSize: 36, opacity: 0.8 }}>
             {level <= 2 ? "👁️" : level <= 4 ? "📷" : level <= 6 ? "🎨" : level <= 8 ? "💡" : "🏆"}
           </div>
         </div>
         <XPBar showLevel={false} />
-        <p className="text-xs text-zinc-500 mt-1.5">{xpToNext.toLocaleString()} XP to Level {level + 1}</p>
+        <p style={{ font: "var(--text-caption)", color: "var(--fg-3)", marginTop: 6 }}>{xpToNext.toLocaleString()} XP to Level {level + 1}</p>
       </div>
 
       {/* Stats grid */}
-      <div className="grid grid-cols-2 gap-3">
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
         {[
           { label: "Current streak", value: `${streak} 🔥`, sub: "days" },
           { label: "Lessons completed", value: totalLessonsCompleted, sub: "lessons" },
@@ -47,49 +49,59 @@ export default function ProfilePage() {
           { label: "Moodboard saved", value: moodboardItems.length, sub: "references" },
           { label: "Journal entries", value: journalEntries.length, sub: "reflections" },
         ].map(({ label, value, sub }) => (
-          <div key={label} className="bg-zinc-900/40 rounded-xl p-3 border border-zinc-800/50">
-            <p className="text-xl font-bold text-white">{value}</p>
-            <p className="text-[10px] text-zinc-500 mt-0.5 leading-tight">{label}</p>
-            <p className="text-[10px] text-zinc-600">{sub}</p>
+          <div key={label} style={{
+            background: "var(--surface)", border: "1px solid var(--border)",
+            borderRadius: "var(--radius-md)", padding: 12,
+          }}>
+            <p style={{ font: "var(--text-h2)", fontFamily: "var(--font-mono)", color: "var(--fg-1)" }}>{value}</p>
+            <p style={{ fontSize: 10, fontFamily: "var(--font-sans)", color: "var(--fg-3)", marginTop: 2, lineHeight: 1.3 }}>{label}</p>
+            <p style={{ fontSize: 10, fontFamily: "var(--font-sans)", color: "var(--fg-muted)" }}>{sub}</p>
           </div>
         ))}
       </div>
 
       {/* Achievements */}
       <div>
-        <div className="flex items-center justify-between mb-3">
-          <h2 className="text-sm font-semibold text-zinc-400 uppercase tracking-widest">Achievements</h2>
-          <span className="text-xs text-zinc-500">{unlockedAchievements.length}/{ACHIEVEMENTS.length}</span>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 }}>
+          <p style={{ font: "var(--text-label)", color: "var(--fg-3)", textTransform: "uppercase", letterSpacing: "0.08em" }}>Achievements</p>
+          <span style={{ font: "var(--text-caption)", color: "var(--fg-3)" }}>{unlockedAchievements.length}/{ACHIEVEMENTS.length}</span>
         </div>
-        <div className="grid grid-cols-2 gap-2">
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }}>
           {ACHIEVEMENTS.map((ach) => {
             const unlocked = unlockedAchievements.includes(ach.slug)
             return (
               <div
                 key={ach.slug}
-                className={cn(
-                  "rounded-xl p-3 border flex items-start gap-2.5 transition-colors",
-                  unlocked
-                    ? "border-amber-700/40 bg-amber-950/20"
-                    : "border-zinc-800/30 bg-zinc-900/20 opacity-50"
-                )}
+                style={{
+                  borderRadius: "var(--radius-md)", padding: 12,
+                  border: `1px solid ${unlocked ? "var(--gold-border)" : "var(--border)"}`,
+                  background: unlocked ? "var(--gold-soft)" : "var(--surface)",
+                  display: "flex", alignItems: "flex-start", gap: 10,
+                  opacity: unlocked ? 1 : 0.5,
+                  transition: "opacity 0.15s",
+                }}
               >
-                <span className={cn("text-xl shrink-0", !unlocked && "grayscale")}>{ach.icon}</span>
-                <div className="min-w-0">
-                  <p className={cn(
-                    "text-xs font-semibold leading-tight",
-                    unlocked ? "text-white" : "text-zinc-500"
-                  )}>
+                <span style={{ fontSize: 20, flexShrink: 0, filter: unlocked ? "none" : "grayscale(1)" }}>{ach.icon}</span>
+                <div style={{ minWidth: 0 }}>
+                  <p style={{
+                    font: "var(--text-label)", fontWeight: 600,
+                    color: unlocked ? "var(--fg-1)" : "var(--fg-3)",
+                    lineHeight: 1.25,
+                  }}>
                     {ach.name}
                   </p>
-                  <p className="text-[10px] text-zinc-600 mt-0.5 leading-tight line-clamp-2">
+                  <p style={{
+                    fontSize: 10, fontFamily: "var(--font-sans)", color: "var(--fg-muted)",
+                    marginTop: 2, lineHeight: 1.3,
+                    display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden",
+                  }}>
                     {ach.description}
                   </p>
                   {unlocked && ach.xpReward > 0 && (
-                    <p className="text-[10px] text-amber-400 mt-0.5">+{ach.xpReward} XP</p>
+                    <p style={{ fontSize: 10, fontFamily: "var(--font-sans)", color: "var(--gold-text)", marginTop: 2 }}>+{ach.xpReward} XP</p>
                   )}
                   {!unlocked && (
-                    <p className="text-[10px] text-zinc-700 mt-0.5">{ach.rarity}</p>
+                    <p style={{ fontSize: 10, fontFamily: "var(--font-sans)", color: "var(--fg-muted)", marginTop: 2 }}>{ach.rarity}</p>
                   )}
                 </div>
               </div>
@@ -100,37 +112,40 @@ export default function ProfilePage() {
 
       {/* Course progress */}
       <div>
-        <h2 className="text-sm font-semibold text-zinc-400 uppercase tracking-widest mb-3">Course Progress</h2>
-        <div className="space-y-2">
+        <p style={{ font: "var(--text-label)", color: "var(--fg-3)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 12 }}>Course Progress</p>
+        <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
           {ALL_COURSES.map((course) => {
             const done = (completedLessons[course.id] || []).length
             const progress = courseProgress[course.id] ?? 0
             if (!coursesStarted && done === 0) return null
             return (
-              <div key={course.id} className="flex items-center gap-3 py-2">
-                <div
-                  className="w-7 h-7 rounded-lg flex items-center justify-center text-xs shrink-0"
-                  style={{ background: `${course.accentColor}25` }}
-                >
+              <div key={course.id} style={{ display: "flex", alignItems: "center", gap: 12, padding: "8px 0" }}>
+                <div style={{
+                  width: 28, height: 28, borderRadius: "var(--radius-sm)",
+                  background: `${course.accentColor}25`,
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                  fontSize: 12, flexShrink: 0,
+                }}>
                   📷
                 </div>
-                <div className="flex-1 min-w-0">
-                  <p className="text-xs text-zinc-300 truncate">{course.title}</p>
-                  <div className="flex items-center gap-2 mt-1">
-                    <div className="flex-1 h-1 bg-zinc-800 rounded-full overflow-hidden">
-                      <div
-                        className="h-full rounded-full transition-all"
-                        style={{ width: `${progress * 100}%`, background: course.accentColor }}
-                      />
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <p style={{ font: "var(--text-caption)", color: "var(--fg-2)", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{course.title}</p>
+                  <div style={{ display: "flex", alignItems: "center", gap: 8, marginTop: 4 }}>
+                    <div style={{ flex: 1, height: 3, background: "var(--surface-3)", borderRadius: "var(--radius-pill)", overflow: "hidden" }}>
+                      <div style={{
+                        height: "100%", borderRadius: "var(--radius-pill)",
+                        background: course.accentColor, transition: "width 0.5s ease-out",
+                        width: `${progress * 100}%`,
+                      }} />
                     </div>
-                    <span className="text-[10px] text-zinc-600 shrink-0">{done}/{course.lessons.length}</span>
+                    <span style={{ fontSize: 10, fontFamily: "var(--font-mono)", color: "var(--fg-3)", flexShrink: 0 }}>{done}/{course.lessons.length}</span>
                   </div>
                 </div>
               </div>
             )
           })}
           {coursesStarted === 0 && (
-            <p className="text-sm text-zinc-600 text-center py-4">No courses started yet.</p>
+            <p style={{ font: "var(--text-body)", color: "var(--fg-muted)", textAlign: "center", padding: "16px 0" }}>No courses started yet.</p>
           )}
         </div>
       </div>

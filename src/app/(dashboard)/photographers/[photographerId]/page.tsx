@@ -7,11 +7,7 @@ import { getPhotographer, PHOTOGRAPHERS } from "@/content/photographers"
 import { getCourse } from "@/content/courses"
 import { useCIQStore } from "@/hooks/useCIQStore"
 
-export default function PhotographerPage({
-  params,
-}: {
-  params: Promise<{ photographerId: string }>
-}) {
+export default function PhotographerPage({ params }: { params: Promise<{ photographerId: string }> }) {
   const { photographerId } = use(params)
   const photographer = getPhotographer(photographerId)
   if (!photographer) notFound()
@@ -19,70 +15,86 @@ export default function PhotographerPage({
   const course = getCourse(photographer.courseId)
   const { completedLessons } = useCIQStore()
   const done = completedLessons[photographer.courseId] || []
+  const allDone = course ? done.length === course.lessons.length : false
 
   const related = (photographer.discoveryChain || [])
     .map((id) => PHOTOGRAPHERS.find((p) => p.id === id))
     .filter(Boolean)
 
+  const accent = photographer.accentColor
+
   return (
-    <div className="max-w-2xl mx-auto px-4 py-6 space-y-6">
-      <Link href="/photographers" className="text-xs text-zinc-500 hover:text-zinc-300">
+    <div style={{ maxWidth: 640, margin: "0 auto", padding: "24px 16px", display: "flex", flexDirection: "column", gap: 20 }}>
+      <Link href="/photographers" style={{ font: "var(--text-caption)", color: "var(--fg-3)", textDecoration: "none" }}>
         ← Photographers
       </Link>
 
       {/* Hero */}
-      <div
-        className="rounded-2xl p-6 border border-zinc-800/50"
-        style={{ background: `linear-gradient(135deg, ${photographer.accentColor}25 0%, #18181b 60%)` }}
-      >
-        <div
-          className="w-16 h-16 rounded-2xl mb-4 flex items-center justify-center text-3xl"
-          style={{ background: `${photographer.accentColor}30` }}
-        >
-          📷
-        </div>
-        <h1 className="text-2xl font-bold text-white">{photographer.name}</h1>
-        <p className="text-sm text-zinc-400 mt-0.5">
+      <div style={{
+        background: `linear-gradient(135deg, ${accent}22 0%, var(--surface) 65%)`,
+        border: "1px solid var(--border)",
+        borderRadius: "var(--radius-xl)",
+        padding: 24,
+      }}>
+        <div style={{
+          width: 64, height: 64, borderRadius: "var(--radius-lg)",
+          background: `${accent}30`,
+          display: "flex", alignItems: "center", justifyContent: "center",
+          fontSize: 30, marginBottom: 16,
+        }}>📷</div>
+        <h1 style={{ font: "var(--text-h1)", color: "var(--fg-1)", marginBottom: 4 }}>{photographer.name}</h1>
+        <p style={{ font: "var(--text-caption)", color: "var(--fg-3)", marginBottom: 16 }}>
           {photographer.nationality}{photographer.born ? ` · b. ${photographer.born}` : ""}
         </p>
-        <p className="text-sm text-zinc-300 mt-4 leading-relaxed">{photographer.bio}</p>
-        <div className="flex flex-wrap gap-1.5 mt-4">
+        <p style={{ font: "var(--text-body)", color: "var(--fg-2)", lineHeight: 1.65, marginBottom: 16 }}>
+          {photographer.bio}
+        </p>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
           {photographer.tags.map((tag) => (
-            <span key={tag} className="text-xs bg-zinc-800/80 text-zinc-400 px-2 py-0.5 rounded-full">
-              {tag}
-            </span>
+            <span key={tag} style={{
+              font: "var(--text-label)", color: "var(--fg-3)",
+              background: "var(--surface-2)", border: "1px solid var(--border)",
+              borderRadius: "var(--radius-pill)", padding: "3px 10px",
+            }}>{tag}</span>
           ))}
         </div>
       </div>
 
       {/* Style */}
-      <div className="bg-zinc-900/40 rounded-2xl p-4 border border-zinc-800/50">
-        <h2 className="text-xs font-semibold text-zinc-500 uppercase tracking-widest mb-2">Style</h2>
-        <p className="text-sm text-zinc-300 leading-relaxed">{photographer.styleDescription}</p>
+      <div style={{ background: "var(--surface)", border: "1px solid var(--border)", borderRadius: "var(--radius-lg)", padding: 16 }}>
+        <p style={{ font: "var(--text-label)", color: "var(--fg-3)", textTransform: "uppercase", letterSpacing: "0.06em", marginBottom: 8 }}>Style</p>
+        <p style={{ font: "var(--text-body)", color: "var(--fg-2)", lineHeight: 1.6 }}>{photographer.styleDescription}</p>
       </div>
 
       {/* Course CTA */}
       {course && (
         <div>
-          <h2 className="text-xs font-semibold text-zinc-500 uppercase tracking-widest mb-3">Learning Path</h2>
-          <Link href={`/learn/${course.id}`}>
-            <div
-              className="rounded-2xl p-4 border border-zinc-700/50 hover:border-zinc-600 transition-colors"
-              style={{ background: `linear-gradient(135deg, ${photographer.accentColor}15 0%, #18181b 70%)` }}
-            >
-              <p className="font-semibold text-white">{course.title}</p>
-              <p className="text-xs text-zinc-400 mt-1">{course.lessons.length} lessons · {done.length} completed</p>
-              <div className="mt-3 h-1 bg-zinc-800 rounded-full overflow-hidden">
-                <div
-                  className="h-full rounded-full transition-all"
-                  style={{
-                    width: `${course.lessons.length > 0 ? (done.length / course.lessons.length) * 100 : 0}%`,
-                    background: photographer.accentColor,
-                  }}
-                />
+          <p style={{ font: "var(--text-label)", color: "var(--fg-3)", textTransform: "uppercase", letterSpacing: "0.06em", marginBottom: 10 }}>
+            Learning Path
+          </p>
+          <Link href={`/learn/${course.id}`} style={{ textDecoration: "none" }}>
+            <div style={{
+              background: `linear-gradient(135deg, ${accent}15 0%, var(--surface) 70%)`,
+              border: "1px solid var(--border)",
+              borderRadius: "var(--radius-lg)",
+              padding: 16,
+              transition: "border-color 0.15s",
+            }}>
+              <p style={{ font: "var(--text-body-strong)", color: "var(--fg-1)", marginBottom: 4 }}>{course.title}</p>
+              <p style={{ font: "var(--text-caption)", color: "var(--fg-3)", marginBottom: 12 }}>
+                {course.lessons.length} lessons · {done.length} completed
+              </p>
+              <div style={{ height: 3, background: "var(--surface-3)", borderRadius: "var(--radius-pill)", overflow: "hidden", marginBottom: 12 }}>
+                <div style={{
+                  height: "100%",
+                  width: `${course.lessons.length > 0 ? (done.length / course.lessons.length) * 100 : 0}%`,
+                  background: allDone ? "var(--favourable)" : accent,
+                  borderRadius: "var(--radius-pill)",
+                  transition: "width 0.5s ease-out",
+                }} />
               </div>
-              <p className="text-xs text-amber-400 mt-3">
-                {done.length === 0 ? "Start learning →" : done.length === course.lessons.length ? "✅ Complete" : "Continue →"}
+              <p style={{ font: "var(--text-label)", color: allDone ? "var(--favourable-text)" : "var(--gold-text)" }}>
+                {done.length === 0 ? "Start learning →" : allDone ? "✅ Complete" : "Continue →"}
               </p>
             </div>
           </Link>
@@ -92,19 +104,23 @@ export default function PhotographerPage({
       {/* Discovery chain */}
       {related.length > 0 && (
         <div>
-          <h2 className="text-xs font-semibold text-zinc-500 uppercase tracking-widest mb-3">
+          <p style={{ font: "var(--text-label)", color: "var(--fg-3)", textTransform: "uppercase", letterSpacing: "0.06em", marginBottom: 10 }}>
             If you like {photographer.name.split(" ")[0]}, explore…
-          </h2>
-          <div className="flex gap-3 overflow-x-auto no-scrollbar pb-1">
+          </p>
+          <div style={{ display: "flex", gap: 12, overflowX: "auto", paddingBottom: 4 }} className="no-scrollbar">
             {related.map((r) => r && (
-              <Link key={r.id} href={`/photographers/${r.id}`} className="shrink-0">
-                <div
-                  className="w-28 rounded-xl p-3 border border-zinc-800/50 hover:border-zinc-700 transition-colors"
-                  style={{ background: `${r.accentColor}15` }}
-                >
-                  <div className="text-xl mb-2">📷</div>
-                  <p className="text-xs font-medium text-zinc-200 leading-tight">{r.name}</p>
-                  <p className="text-[10px] text-zinc-500 mt-0.5">{r.nationality}</p>
+              <Link key={r.id} href={`/photographers/${r.id}`} style={{ flexShrink: 0, textDecoration: "none" }}>
+                <div style={{
+                  width: 110,
+                  background: `${r.accentColor}15`,
+                  border: "1px solid var(--border)",
+                  borderRadius: "var(--radius-lg)",
+                  padding: 12,
+                  transition: "border-color 0.15s",
+                }}>
+                  <div style={{ fontSize: 20, marginBottom: 8 }}>📷</div>
+                  <p style={{ font: "var(--text-label)", color: "var(--fg-1)", lineHeight: 1.25 }}>{r.name}</p>
+                  <p style={{ font: "var(--text-caption)", color: "var(--fg-3)", marginTop: 2 }}>{r.nationality}</p>
                 </div>
               </Link>
             ))}

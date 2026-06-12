@@ -28,19 +28,27 @@ export default function JournalPage() {
   }
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-6 space-y-6">
+    <div style={{ maxWidth: 640, margin: "0 auto", padding: "24px 16px", display: "flex", flexDirection: "column", gap: 24 }}>
       <div>
-        <h1 className="text-2xl font-bold text-white">Journal</h1>
-        <p className="text-sm text-zinc-400 mt-1">Record thoughts, reflections, and creative inspiration.</p>
+        <h1 style={{ font: "var(--text-h1)", color: "var(--fg-1)" }}>Journal</h1>
+        <p style={{ font: "var(--text-body)", color: "var(--fg-3)", marginTop: 4 }}>Record thoughts, reflections, and creative inspiration.</p>
       </div>
 
       {/* New entry */}
-      <div className="bg-zinc-900/60 rounded-2xl p-4 border border-zinc-800/50 space-y-3">
-        <div className="flex items-start justify-between gap-2">
-          <p className="text-sm text-zinc-300 italic leading-relaxed flex-1">"{prompt}"</p>
+      <div style={{
+        background: "var(--surface)", border: "1px solid var(--border)",
+        borderRadius: "var(--radius-lg)", padding: 16,
+        display: "flex", flexDirection: "column", gap: 12,
+      }}>
+        <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 8 }}>
+          <p style={{ font: "var(--text-body)", color: "var(--fg-2)", fontStyle: "italic", lineHeight: 1.6, flex: 1 }}>"{prompt}"</p>
           <button
             onClick={() => setPrompt(JOURNAL_PROMPTS[Math.floor(Math.random() * JOURNAL_PROMPTS.length)])}
-            className="text-xs text-zinc-600 hover:text-zinc-400 shrink-0 mt-1"
+            style={{
+              font: "var(--text-caption)", color: "var(--fg-muted)",
+              background: "transparent", border: "none", cursor: "pointer",
+              flexShrink: 0, marginTop: 2,
+            }}
             title="New prompt"
           >
             ↻
@@ -51,12 +59,25 @@ export default function JournalPage() {
           onChange={(e) => setNewText(e.target.value)}
           placeholder="Write here…"
           rows={4}
-          className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-3 py-2.5 text-sm text-white placeholder-zinc-600 resize-none focus:outline-none focus:border-zinc-500 transition-colors"
+          style={{
+            background: "var(--surface-2)", border: "1px solid var(--border)",
+            borderRadius: "var(--radius-md)", padding: "10px 12px",
+            font: "var(--text-body)", color: "var(--fg-1)",
+            resize: "none", outline: "none", width: "100%", boxSizing: "border-box",
+            transition: "border-color 0.15s",
+          }}
         />
         <button
           onClick={handleSave}
           disabled={!newText.trim()}
-          className="w-full py-2.5 rounded-xl bg-amber-400 text-black font-semibold text-sm hover:bg-amber-300 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+          style={{
+            width: "100%", padding: "10px 0",
+            background: "var(--gold)", color: "#000",
+            font: "var(--text-body-strong)", borderRadius: "var(--radius-md)",
+            border: "none", cursor: newText.trim() ? "pointer" : "default",
+            opacity: newText.trim() ? 1 : 0.4,
+            transition: "opacity 0.15s",
+          }}
         >
           Save Entry (+20 XP)
         </button>
@@ -65,17 +86,20 @@ export default function JournalPage() {
       {/* Past entries */}
       {journalEntries.length > 0 && (
         <div>
-          <h2 className="text-sm font-semibold text-zinc-400 uppercase tracking-widest mb-3">
+          <p style={{ font: "var(--text-label)", color: "var(--fg-3)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 12 }}>
             {journalEntries.length} {journalEntries.length === 1 ? "entry" : "entries"}
-          </h2>
-          <div className="space-y-3">
+          </p>
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
             {journalEntries.map((entry) => (
-              <div key={entry.id} className="bg-zinc-900/40 rounded-xl p-4 border border-zinc-800/50">
+              <div key={entry.id} style={{
+                background: "var(--surface)", border: "1px solid var(--border)",
+                borderRadius: "var(--radius-md)", padding: 16,
+              }}>
                 {entry.prompt && (
-                  <p className="text-[10px] text-zinc-600 italic mb-1.5">"{entry.prompt}"</p>
+                  <p style={{ fontSize: 10, fontFamily: "var(--font-sans)", color: "var(--fg-muted)", fontStyle: "italic", marginBottom: 6 }}>"{entry.prompt}"</p>
                 )}
-                <p className="text-sm text-zinc-300 leading-relaxed whitespace-pre-wrap">{entry.content}</p>
-                <p className="text-[10px] text-zinc-600 mt-2">
+                <p style={{ font: "var(--text-body)", color: "var(--fg-2)", lineHeight: 1.65, whiteSpace: "pre-wrap" }}>{entry.content}</p>
+                <p style={{ font: "var(--text-caption)", color: "var(--fg-muted)", marginTop: 8 }}>
                   {new Date(entry.createdAt).toLocaleDateString("en-GB", {
                     day: "numeric", month: "long", year: "numeric",
                   })}
@@ -87,10 +111,10 @@ export default function JournalPage() {
       )}
 
       {journalEntries.length === 0 && (
-        <div className="text-center py-12 text-zinc-600">
-          <p className="text-3xl mb-3">✍️</p>
-          <p className="text-sm">No entries yet.</p>
-          <p className="text-xs mt-1">Write your first reflection above.</p>
+        <div style={{ textAlign: "center", padding: "48px 0", color: "var(--fg-muted)" }}>
+          <p style={{ fontSize: 32, marginBottom: 10 }}>✍️</p>
+          <p style={{ font: "var(--text-body)", color: "var(--fg-3)" }}>No entries yet.</p>
+          <p style={{ font: "var(--text-caption)", color: "var(--fg-muted)", marginTop: 4 }}>Write your first reflection above.</p>
         </div>
       )}
     </div>

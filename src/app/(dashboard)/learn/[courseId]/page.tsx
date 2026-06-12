@@ -5,7 +5,6 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { getCourse } from "@/content/courses"
 import { useCIQStore } from "@/hooks/useCIQStore"
-import { cn } from "@/lib/utils"
 
 export default function CourseDetailPage({ params }: { params: Promise<{ courseId: string }> }) {
   const { courseId } = use(params)
@@ -14,100 +13,139 @@ export default function CourseDetailPage({ params }: { params: Promise<{ courseI
 
   const { completedLessons } = useCIQStore()
   const done = completedLessons[courseId] || []
-
   const nextLesson = course.lessons.find((l) => !done.includes(l.id))
+  const progress = course.lessons.length > 0 ? done.length / course.lessons.length : 0
+  const allDone = done.length === course.lessons.length && course.lessons.length > 0
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-6">
-      {/* Back */}
-      <Link href="/learn" className="text-xs text-zinc-500 hover:text-zinc-300 flex items-center gap-1 mb-4">
+    <div style={{ maxWidth: 640, margin: "0 auto", padding: "24px 16px" }}>
+      <Link href="/learn" style={{ font: "var(--text-caption)", color: "var(--fg-3)", textDecoration: "none", display: "inline-block", marginBottom: 16 }}>
         ← Back to Learn
       </Link>
 
-      {/* Header */}
-      <div
-        className="rounded-2xl p-6 mb-6 border border-zinc-800/50"
-        style={{ background: `linear-gradient(135deg, ${course.accentColor}20 0%, #18181b 70%)` }}
-      >
-        <p className="text-xs text-zinc-500 uppercase tracking-widest mb-2">
+      {/* Header card */}
+      <div style={{
+        background: `linear-gradient(135deg, ${course.accentColor}20 0%, var(--surface) 70%)`,
+        border: "1px solid var(--border)",
+        borderRadius: "var(--radius-xl)",
+        padding: 24,
+        marginBottom: 24,
+      }}>
+        <p style={{ font: "var(--text-label)", color: "var(--fg-3)", textTransform: "capitalize", letterSpacing: "0.06em", marginBottom: 6 }}>
           {course.category.replace(/-/g, " ")}
         </p>
-        <h1 className="text-2xl font-bold text-white mb-2">{course.title}</h1>
-        <p className="text-sm text-zinc-400 leading-relaxed">{course.description}</p>
+        <h1 style={{ font: "var(--text-h1)", color: "var(--fg-1)", marginBottom: 10 }}>{course.title}</h1>
+        <p style={{ font: "var(--text-body)", color: "var(--fg-2)", lineHeight: 1.6, marginBottom: 16 }}>
+          {course.description}
+        </p>
 
-        <div className="flex items-center gap-4 mt-4">
-          <span className="text-xs text-zinc-500">{course.lessons.length} lessons</span>
-          <span className="text-xs text-zinc-500">{course.estimatedHours}h estimated</span>
-          <span className="text-xs text-zinc-500">{done.length} completed</span>
+        <div style={{ display: "flex", gap: 16, marginBottom: 16 }}>
+          {[
+            { v: `${course.lessons.length} lessons` },
+            { v: `${course.estimatedHours}h` },
+            { v: `${done.length} done` },
+          ].map(({ v }) => (
+            <span key={v} style={{ font: "var(--text-caption)", fontFamily: "var(--font-mono)", color: "var(--fg-3)" }}>{v}</span>
+          ))}
         </div>
 
-        {/* Course progress bar */}
-        <div className="mt-3 h-1.5 bg-zinc-800 rounded-full overflow-hidden">
-          <div
-            className="h-full rounded-full transition-all"
-            style={{
-              width: `${course.lessons.length > 0 ? (done.length / course.lessons.length) * 100 : 0}%`,
-              background: course.accentColor,
-            }}
-          />
+        {/* Progress bar */}
+        <div style={{ height: 4, background: "var(--surface-3)", borderRadius: "var(--radius-pill)", overflow: "hidden", marginBottom: 16 }}>
+          <div style={{
+            height: "100%",
+            width: `${progress * 100}%`,
+            background: allDone ? "var(--favourable)" : course.accentColor,
+            borderRadius: "var(--radius-pill)",
+            transition: "width 0.5s ease-out",
+          }} />
         </div>
 
         {nextLesson && (
-          <Link
-            href={`/learn/${courseId}/${nextLesson.id}`}
-            className="mt-4 block w-full text-center py-3 rounded-xl font-semibold text-sm transition-all hover:opacity-90"
-            style={{ background: course.accentColor, color: "#000" }}
-          >
+          <Link href={`/learn/${courseId}/${nextLesson.id}`} style={{
+            display: "block",
+            textAlign: "center",
+            font: "var(--text-body-strong)",
+            color: "#000",
+            background: course.accentColor,
+            borderRadius: "var(--radius-md)",
+            padding: "12px 0",
+            textDecoration: "none",
+            transition: "opacity 0.15s",
+          }}>
             {done.length === 0 ? "Start Course" : "Continue"} →
           </Link>
         )}
-        {!nextLesson && done.length > 0 && (
-          <div className="mt-4 text-center py-3 rounded-xl text-sm font-semibold bg-emerald-900/40 text-emerald-400 border border-emerald-800/50">
+        {allDone && (
+          <div style={{
+            textAlign: "center",
+            font: "var(--text-body-strong)",
+            color: "var(--favourable-text)",
+            background: "var(--favourable-soft)",
+            border: "1px solid var(--favourable-border)",
+            borderRadius: "var(--radius-md)",
+            padding: "12px 0",
+          }}>
             ✅ Course Complete
           </div>
         )}
       </div>
 
       {/* Lesson list */}
-      <h2 className="text-sm font-semibold text-zinc-400 uppercase tracking-widest mb-3">Lessons</h2>
-      <div className="space-y-2">
+      <p style={{ font: "var(--text-label)", color: "var(--fg-3)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 12 }}>
+        Lessons
+      </p>
+      <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
         {course.lessons.map((lesson, i) => {
           const isComplete = done.includes(lesson.id)
           const isNext = lesson.id === nextLesson?.id
           const isLocked = !isComplete && !isNext && i > 0 && !done.includes(course.lessons[i - 1]?.id ?? "")
 
+          let bg = "var(--surface)"
+          let borderColor = "var(--border)"
+          if (isComplete) { bg = "var(--favourable-soft)"; borderColor = "var(--favourable-border)" }
+          if (isNext) { bg = "var(--gold-soft)"; borderColor = "var(--gold-border)" }
+
           return (
             <Link
               key={lesson.id}
               href={isLocked ? "#" : `/learn/${courseId}/${lesson.id}`}
-              className={cn(
-                "flex items-center gap-3 p-3 rounded-xl border transition-colors",
-                isComplete && "border-emerald-800/30 bg-emerald-950/20",
-                isNext && "border-amber-500/40 bg-amber-950/20",
-                !isComplete && !isNext && !isLocked && "border-zinc-800/50 bg-zinc-900/30 hover:border-zinc-700",
-                isLocked && "border-zinc-800/30 bg-zinc-900/20 opacity-50 cursor-not-allowed"
-              )}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: 12,
+                padding: 12,
+                background: bg,
+                border: `1px solid ${borderColor}`,
+                borderRadius: "var(--radius-md)",
+                textDecoration: "none",
+                opacity: isLocked ? 0.45 : 1,
+                pointerEvents: isLocked ? "none" : "auto",
+                transition: "border-color 0.15s",
+              }}
             >
-              {/* Status icon */}
-              <div
-                className={cn(
-                  "w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold shrink-0",
-                  isComplete && "bg-emerald-500/20 text-emerald-400",
-                  isNext && "bg-amber-500/20 text-amber-400",
-                  !isComplete && !isNext && "bg-zinc-800 text-zinc-500"
-                )}
-              >
+              {/* Number/status pill */}
+              <div style={{
+                width: 32, height: 32,
+                borderRadius: "50%",
+                display: "flex", alignItems: "center", justifyContent: "center",
+                flexShrink: 0,
+                font: "var(--text-label)", fontFamily: "var(--font-mono)",
+                background: isComplete ? "var(--favourable-soft)" : isNext ? "var(--gold-soft)" : "var(--surface-2)",
+                color: isComplete ? "var(--favourable-text)" : isNext ? "var(--gold-text)" : "var(--fg-3)",
+                border: `1px solid ${isComplete ? "var(--favourable-border)" : isNext ? "var(--gold-border)" : "var(--border)"}`,
+              }}>
                 {isComplete ? "✓" : isLocked ? "🔒" : i + 1}
               </div>
 
-              <div className="flex-1 min-w-0">
-                <p className={cn(
-                  "text-sm font-medium truncate",
-                  isComplete ? "text-zinc-300" : isNext ? "text-white" : "text-zinc-400"
-                )}>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <p style={{
+                  font: "var(--text-body-strong)",
+                  color: isComplete ? "var(--fg-2)" : isNext ? "var(--fg-1)" : "var(--fg-2)",
+                  overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
+                }}>
                   {lesson.title}
                 </p>
-                <p className="text-[10px] text-zinc-600 mt-0.5">
+                <p style={{ font: "var(--text-caption)", color: "var(--fg-3)", marginTop: 2 }}>
                   {lesson.estimatedMinutes} min · +{lesson.xpReward} XP
                   {lesson.quiz ? " · Quiz" : ""}
                   {lesson.reflection ? " · Reflection" : ""}
@@ -115,7 +153,7 @@ export default function CourseDetailPage({ params }: { params: Promise<{ courseI
               </div>
 
               {isNext && (
-                <span className="text-xs text-amber-400 shrink-0">Start →</span>
+                <span style={{ font: "var(--text-label)", color: "var(--gold-text)", flexShrink: 0 }}>Start →</span>
               )}
             </Link>
           )

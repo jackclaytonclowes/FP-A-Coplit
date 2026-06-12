@@ -3,10 +3,16 @@
 import { useState } from "react"
 import { useCIQStore } from "@/hooks/useCIQStore"
 import { ciqStore } from "@/stores/cultureIQStore"
-import { cn } from "@/lib/utils"
 import type { MoodboardItem } from "@/stores/cultureIQStore"
 
 const ITEM_TYPES = ["photographer", "campaign", "film", "artist", "fashion", "design", "other"] as const
+
+const INPUT_STYLE: React.CSSProperties = {
+  width: "100%", background: "var(--surface-2)",
+  border: "1px solid var(--border)", borderRadius: "var(--radius-md)",
+  padding: "8px 12px", font: "var(--text-body)", color: "var(--fg-1)",
+  outline: "none", boxSizing: "border-box",
+}
 
 export default function MoodboardPage() {
   const { moodboardItems } = useCIQStore()
@@ -46,15 +52,20 @@ export default function MoodboardPage() {
   }
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-6 space-y-6">
-      <div className="flex items-center justify-between">
+    <div style={{ maxWidth: 640, margin: "0 auto", padding: "24px 16px", display: "flex", flexDirection: "column", gap: 24 }}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
         <div>
-          <h1 className="text-2xl font-bold text-white">Moodboard</h1>
-          <p className="text-sm text-zinc-400 mt-1">Save references, build collections, track inspiration.</p>
+          <h1 style={{ font: "var(--text-h1)", color: "var(--fg-1)" }}>Moodboard</h1>
+          <p style={{ font: "var(--text-body)", color: "var(--fg-3)", marginTop: 4 }}>Save references, build collections, track inspiration.</p>
         </div>
         <button
           onClick={() => setShowAdd(!showAdd)}
-          className="bg-amber-400 text-black font-semibold text-sm px-4 py-2 rounded-xl hover:bg-amber-300 transition-colors"
+          style={{
+            background: "var(--gold)", color: "#000",
+            font: "var(--text-body-strong)", padding: "8px 16px",
+            borderRadius: "var(--radius-md)", border: "none", cursor: "pointer",
+            transition: "opacity 0.15s",
+          }}
         >
           + Add
         </button>
@@ -62,18 +73,22 @@ export default function MoodboardPage() {
 
       {/* Add form */}
       {showAdd && (
-        <div className="bg-zinc-900 rounded-2xl p-4 border border-zinc-700 space-y-3">
-          <h3 className="font-semibold text-white text-sm">New Reference</h3>
+        <div style={{
+          background: "var(--surface)", border: "1px solid var(--border-strong)",
+          borderRadius: "var(--radius-lg)", padding: 16,
+          display: "flex", flexDirection: "column", gap: 10,
+        }}>
+          <p style={{ font: "var(--text-body-strong)", color: "var(--fg-1)" }}>New Reference</p>
           <input
             placeholder="Title (e.g. Wolfgang Tillmans, Celine SS23)"
             value={newItem.title}
             onChange={(e) => setNewItem({ ...newItem, title: e.target.value })}
-            className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-3 py-2 text-sm text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-500"
+            style={INPUT_STYLE}
           />
           <select
             value={newItem.type}
             onChange={(e) => setNewItem({ ...newItem, type: e.target.value as MoodboardItem["type"] })}
-            className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-3 py-2 text-sm text-white focus:outline-none focus:border-zinc-500"
+            style={INPUT_STYLE}
           >
             {ITEM_TYPES.map((t) => (
               <option key={t} value={t}>{t.charAt(0).toUpperCase() + t.slice(1)}</option>
@@ -83,31 +98,40 @@ export default function MoodboardPage() {
             placeholder="Collection (e.g. Night Aesthetics)"
             value={newItem.collection}
             onChange={(e) => setNewItem({ ...newItem, collection: e.target.value })}
-            className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-3 py-2 text-sm text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-500"
+            style={INPUT_STYLE}
           />
           <input
             placeholder="Tags (comma separated)"
             value={newItem.tags}
             onChange={(e) => setNewItem({ ...newItem, tags: e.target.value })}
-            className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-3 py-2 text-sm text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-500"
+            style={INPUT_STYLE}
           />
           <textarea
             placeholder="Notes…"
             value={newItem.notes}
             onChange={(e) => setNewItem({ ...newItem, notes: e.target.value })}
             rows={2}
-            className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-3 py-2 text-sm text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-500 resize-none"
+            style={{ ...INPUT_STYLE, resize: "none" }}
           />
-          <div className="flex gap-2">
+          <div style={{ display: "flex", gap: 8 }}>
             <button
               onClick={handleAdd}
-              className="flex-1 bg-amber-400 text-black font-semibold text-sm py-2 rounded-xl hover:bg-amber-300 transition-colors"
+              style={{
+                flex: 1, background: "var(--gold)", color: "#000",
+                font: "var(--text-body-strong)", padding: "8px 0",
+                borderRadius: "var(--radius-md)", border: "none", cursor: "pointer",
+              }}
             >
               Save
             </button>
             <button
               onClick={() => setShowAdd(false)}
-              className="flex-1 border border-zinc-700 text-zinc-400 text-sm py-2 rounded-xl hover:border-zinc-500 transition-colors"
+              style={{
+                flex: 1, background: "transparent",
+                border: "1px solid var(--border)", color: "var(--fg-3)",
+                font: "var(--text-body)", padding: "8px 0",
+                borderRadius: "var(--radius-md)", cursor: "pointer",
+              }}
             >
               Cancel
             </button>
@@ -117,15 +141,17 @@ export default function MoodboardPage() {
 
       {/* Collection filter */}
       {collections.length > 0 && (
-        <div className="flex gap-2 overflow-x-auto no-scrollbar pb-1">
+        <div style={{ display: "flex", gap: 8, overflowX: "auto", paddingBottom: 4 }} className="no-scrollbar">
           <button
             onClick={() => setActiveCollection(null)}
-            className={cn(
-              "shrink-0 text-xs px-3 py-1.5 rounded-full border transition-colors",
-              !activeCollection
-                ? "bg-amber-400 text-black border-amber-400 font-semibold"
-                : "border-zinc-700 text-zinc-400 hover:border-zinc-500"
-            )}
+            style={{
+              flexShrink: 0, font: "var(--text-label)", padding: "4px 12px",
+              borderRadius: "var(--radius-pill)", border: "1px solid var(--border)",
+              background: !activeCollection ? "var(--gold)" : "transparent",
+              color: !activeCollection ? "#000" : "var(--fg-3)",
+              cursor: "pointer", fontWeight: !activeCollection ? 600 : 400,
+              transition: "all 0.15s",
+            }}
           >
             All ({moodboardItems.length})
           </button>
@@ -133,12 +159,14 @@ export default function MoodboardPage() {
             <button
               key={col}
               onClick={() => setActiveCollection(col === activeCollection ? null : col)}
-              className={cn(
-                "shrink-0 text-xs px-3 py-1.5 rounded-full border transition-colors",
-                activeCollection === col
-                  ? "bg-amber-400 text-black border-amber-400 font-semibold"
-                  : "border-zinc-700 text-zinc-400 hover:border-zinc-500"
-              )}
+              style={{
+                flexShrink: 0, font: "var(--text-label)", padding: "4px 12px",
+                borderRadius: "var(--radius-pill)", border: "1px solid var(--border)",
+                background: activeCollection === col ? "var(--gold)" : "transparent",
+                color: activeCollection === col ? "#000" : "var(--fg-3)",
+                cursor: "pointer", fontWeight: activeCollection === col ? 600 : 400,
+                transition: "all 0.15s",
+              }}
             >
               {col} ({moodboardItems.filter((i) => i.collection === col).length})
             </button>
@@ -148,38 +176,55 @@ export default function MoodboardPage() {
 
       {/* Items grid */}
       {filtered.length === 0 ? (
-        <div className="text-center py-16 text-zinc-600">
-          <p className="text-3xl mb-3">📌</p>
-          <p className="text-sm">Nothing saved yet.</p>
-          <p className="text-xs mt-1">Hit + Add to save your first reference.</p>
+        <div style={{ textAlign: "center", padding: "64px 0", color: "var(--fg-muted)" }}>
+          <p style={{ fontSize: 32, marginBottom: 10 }}>📌</p>
+          <p style={{ font: "var(--text-body)", color: "var(--fg-3)" }}>Nothing saved yet.</p>
+          <p style={{ font: "var(--text-caption)", color: "var(--fg-muted)", marginTop: 4 }}>Hit + Add to save your first reference.</p>
         </div>
       ) : (
-        <div className="grid grid-cols-2 gap-3">
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
           {filtered.map((item) => (
             <div
               key={item.id}
-              className="bg-zinc-900/60 rounded-2xl p-3 border border-zinc-800/50 relative group"
+              style={{
+                background: "var(--surface)", border: "1px solid var(--border)",
+                borderRadius: "var(--radius-lg)", padding: 12, position: "relative",
+              }}
             >
               <button
                 onClick={() => handleDelete(item.id)}
-                className="absolute top-2 right-2 w-6 h-6 bg-zinc-800 rounded-full text-zinc-500 text-xs opacity-0 group-hover:opacity-100 transition-opacity hover:bg-red-900/50 hover:text-red-400"
+                style={{
+                  position: "absolute", top: 8, right: 8,
+                  width: 24, height: 24, background: "var(--surface-2)",
+                  border: "none", borderRadius: "50%",
+                  color: "var(--fg-3)", fontSize: 14, cursor: "pointer",
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                }}
               >
                 ×
               </button>
-              <span className="text-[10px] bg-zinc-800 text-zinc-500 px-1.5 py-0.5 rounded-full">
+              <span style={{
+                fontSize: 10, fontFamily: "var(--font-sans)", fontWeight: 600,
+                background: "var(--surface-2)", color: "var(--fg-3)",
+                padding: "2px 8px", borderRadius: "var(--radius-pill)",
+              }}>
                 {item.type}
               </span>
-              <h3 className="text-sm font-medium text-white mt-2 leading-tight">{item.title}</h3>
+              <p style={{ font: "var(--text-body-strong)", color: "var(--fg-1)", marginTop: 8, lineHeight: 1.25 }}>{item.title}</p>
               {item.collection && (
-                <p className="text-[10px] text-amber-400/70 mt-1">{item.collection}</p>
+                <p style={{ fontSize: 10, fontFamily: "var(--font-sans)", color: "var(--gold-text)", marginTop: 4 }}>{item.collection}</p>
               )}
               {item.notes && (
-                <p className="text-[10px] text-zinc-500 mt-1 leading-relaxed line-clamp-2">{item.notes}</p>
+                <p style={{ fontSize: 10, fontFamily: "var(--font-sans)", color: "var(--fg-3)", marginTop: 4, lineHeight: 1.5, display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" }}>{item.notes}</p>
               )}
               {item.tags.length > 0 && (
-                <div className="flex flex-wrap gap-1 mt-2">
+                <div style={{ display: "flex", flexWrap: "wrap", gap: 4, marginTop: 8 }}>
                   {item.tags.slice(0, 3).map((tag) => (
-                    <span key={tag} className="text-[9px] bg-zinc-800/80 text-zinc-600 px-1.5 py-0.5 rounded-full">
+                    <span key={tag} style={{
+                      fontSize: 9, fontFamily: "var(--font-sans)", fontWeight: 600,
+                      background: "var(--surface-2)", color: "var(--fg-muted)",
+                      padding: "1px 6px", borderRadius: "var(--radius-pill)",
+                    }}>
                       {tag}
                     </span>
                   ))}

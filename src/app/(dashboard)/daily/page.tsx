@@ -65,68 +65,97 @@ export default function DailyPage() {
   }
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-6 space-y-4">
+    <div style={{ maxWidth: 640, margin: "0 auto", padding: "24px 16px", display: "flex", flexDirection: "column", gap: 16 }}>
       <div>
-        <h1 className="text-2xl font-bold text-white">Daily Inspiration</h1>
-        <p className="text-sm text-zinc-400 mt-1">A new photographer, concept, or reference every day.</p>
+        <h1 style={{ font: "var(--text-h1)", color: "var(--fg-1)" }}>Daily Inspiration</h1>
+        <p style={{ font: "var(--text-body)", color: "var(--fg-3)", marginTop: 4 }}>A new photographer, concept, or reference every day.</p>
       </div>
 
-      <div className="space-y-4">
+      <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
         {DAILY_CARDS.map((card, i) => {
           const seen = dailyInspirationSeen.includes(card.date)
           const isToday = i === 0
           return (
             <div
               key={card.date}
-              className={`rounded-2xl p-5 border transition-colors ${
-                isToday
-                  ? "border-amber-700/50 bg-gradient-to-br from-amber-950/30 to-zinc-950"
-                  : "border-zinc-800/50 bg-zinc-900/30"
-              }`}
+              style={{
+                borderRadius: "var(--radius-lg)", padding: 20,
+                border: `1px solid ${isToday ? "var(--gold-border)" : "var(--border)"}`,
+                background: isToday
+                  ? `linear-gradient(135deg, rgba(232,197,71,0.08) 0%, var(--surface) 80%)`
+                  : "var(--surface)",
+                transition: "border-color 0.15s",
+              }}
             >
-              <div className="flex items-start justify-between mb-1">
-                <div className="flex items-center gap-2">
-                  <span className="text-[10px] bg-zinc-800 text-zinc-500 px-2 py-0.5 rounded-full uppercase tracking-widest">
+              <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", marginBottom: 4 }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                  <span style={{
+                    fontSize: 10, fontFamily: "var(--font-sans)", fontWeight: 600,
+                    background: "var(--surface-2)", color: "var(--fg-3)",
+                    padding: "2px 8px", borderRadius: "var(--radius-pill)",
+                    textTransform: "uppercase", letterSpacing: "0.08em",
+                  }}>
                     {card.type}
                   </span>
                   {isToday && (
-                    <span className="text-[10px] bg-amber-900/50 text-amber-400 px-2 py-0.5 rounded-full font-semibold">
+                    <span style={{
+                      fontSize: 10, fontFamily: "var(--font-sans)", fontWeight: 600,
+                      background: "var(--gold-soft)", color: "var(--gold-text)",
+                      padding: "2px 8px", borderRadius: "var(--radius-pill)",
+                    }}>
                       Today
                     </span>
                   )}
                 </div>
-                <span className="text-xl opacity-50">{card.emoji}</span>
+                <span style={{ fontSize: 20, opacity: 0.5 }}>{card.emoji}</span>
               </div>
 
-              <h2 className="text-lg font-bold text-white mt-2">{card.title}</h2>
-              <p className="text-xs text-zinc-500 mb-3">{card.subtitle}</p>
-              <p className="text-sm text-zinc-300 leading-relaxed mb-4">{card.description}</p>
+              <h2 style={{ font: "var(--text-h2)", color: "var(--fg-1)", marginTop: 8 }}>{card.title}</h2>
+              <p style={{ font: "var(--text-caption)", color: "var(--fg-3)", marginBottom: 10 }}>{card.subtitle}</p>
+              <p style={{ font: "var(--text-body)", color: "var(--fg-2)", lineHeight: 1.65, marginBottom: 16 }}>{card.description}</p>
 
-              <div className="flex flex-wrap gap-1.5 mb-4">
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginBottom: 16 }}>
                 {card.tags.map((tag) => (
-                  <span key={tag} className="text-xs bg-zinc-800 text-zinc-400 px-2 py-0.5 rounded-full">
+                  <span key={tag} style={{
+                    fontSize: 10, fontFamily: "var(--font-sans)", fontWeight: 600,
+                    background: "var(--surface-2)", color: "var(--fg-3)",
+                    padding: "2px 8px", borderRadius: "var(--radius-pill)",
+                    border: "1px solid var(--border)",
+                  }}>
                     {tag}
                   </span>
                 ))}
               </div>
 
-              <div className="flex gap-2">
+              <div style={{ display: "flex", gap: 8 }}>
                 <Link
                   href={card.lessonLink}
-                  className="flex-1 text-center text-sm font-semibold bg-white/10 hover:bg-white/15 text-white rounded-xl py-2 transition-colors"
+                  style={{
+                    flex: 1, textAlign: "center",
+                    font: "var(--text-body-strong)", color: "var(--fg-1)",
+                    background: "var(--surface-2)", border: "1px solid var(--border)",
+                    borderRadius: "var(--radius-md)", padding: "8px 0",
+                    textDecoration: "none", transition: "border-color 0.15s",
+                  }}
                 >
                   Learn more →
                 </Link>
                 {!seen && (
                   <button
                     onClick={() => handleSeen(card.date)}
-                    className="text-sm px-3 py-2 rounded-xl border border-zinc-700 text-zinc-400 hover:border-zinc-500 transition-colors"
+                    style={{
+                      font: "var(--text-body)", color: "var(--fg-3)",
+                      background: "transparent",
+                      border: "1px solid var(--border)",
+                      borderRadius: "var(--radius-md)", padding: "8px 12px",
+                      cursor: "pointer", transition: "border-color 0.15s",
+                    }}
                   >
                     +5 XP
                   </button>
                 )}
                 {seen && (
-                  <span className="text-sm px-3 py-2 text-amber-400/60">✓</span>
+                  <span style={{ font: "var(--text-body)", color: "var(--gold-text)", padding: "8px 12px", opacity: 0.6 }}>✓</span>
                 )}
               </div>
             </div>
