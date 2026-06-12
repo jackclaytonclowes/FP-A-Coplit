@@ -16,30 +16,30 @@ const course: Course = {
       title: "Origins & Structure",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Conditions That Produce Political Violence" },
+        { type: "heading", content: "Political Violence Doesn't Come From Nowhere" },
         {
           type: "paragraph",
           content:
-            "Political violence does not emerge from nowhere. Its preconditions are consistent across historical cases: a legitimate grievance that has persisted across generations without political resolution; the absence or closure of democratic channels through which that grievance might be addressed; an ideological framework that legitimises violence as both necessary and morally justified; and a social network — often generational, often familial — that transmits commitment and provides mutual reinforcement.",
+            "The preconditions are consistent: a legitimate grievance unresolved for generations, no democratic channel to address it, an ideology that justifies force, and a social network that reinforces commitment. Absent any one of these, political violence rarely takes hold.",
         },
         {
           type: "paragraph",
           content:
-            "The analytic distinction between terrorism and guerrilla warfare matters: terrorism targets civilians to produce political effects (fear, overreaction, polarisation); guerrilla warfare targets military and state infrastructure. In practice, most organisations have combined both, and the labels have often been applied politically rather than analytically.",
+            "Terrorism targets civilians to produce fear and polarisation; guerrilla warfare targets military and state infrastructure. In practice, most organisations combined both — and the labels were often applied politically, not analytically.",
         },
-        { type: "heading", content: "The IRA: Partition as Foundational Injustice" },
+        { type: "heading", content: "The IRA: Fifty Years of Discrimination First" },
         {
           type: "paragraph",
           content:
-            "The Irish Republican Army's campaign of the late 20th century — the Troubles, 1968-1998 — was rooted in the 1921 partition of Ireland, which left a Catholic nationalist minority under Protestant unionist government in Northern Ireland. Fifty years of systematic discrimination in employment, housing, and political representation preceded the Troubles. The civil rights movement of the late 1960s — modelled explicitly on American civil rights — met state violence, and out of that encounter the Provisional IRA emerged as an armed response.",
+            "Northern Ireland's Catholic nationalist minority lived under Protestant unionist rule from 1921 to the late 1960s — with systematic discrimination in jobs, housing, and politics. A civil rights movement modelled on America's met state violence, and the Provisional IRA emerged from that encounter.",
         },
-        { type: "heading", content: "ETA, Red Brigades, and Baader-Meinhof" },
+        { type: "heading", content: "ETA, Red Brigades, Baader-Meinhof: Three Origins" },
         {
           type: "paragraph",
           content:
-            "ETA (Euskadi Ta Askatasuna — Basque Homeland and Liberty) emerged from Franco's suppression of Basque language, culture, and identity during the Spanish dictatorship. The Red Brigades arose in Italy in the 1970s from the 'Years of Lead' — a period of political violence from both far-left and far-right in which the democratic process seemed to many radicals irreparably corrupt. The Baader-Meinhof Group (RAF — Red Army Faction) emerged in West Germany from the conviction that the Federal Republic was a continuation of fascism — that the Nazi generation had not been purged but had merely changed clothes.",
+            "ETA arose from Franco's suppression of Basque identity. The Red Brigades grew from Italy's 'Years of Lead' — a decade when democratic politics seemed irreparably corrupt. The RAF believed West Germany was just fascism in a new suit.",
         },
       ],
       quiz: {
@@ -75,31 +75,31 @@ const course: Course = {
       title: "Key Figures",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Michael Collins: The Founder of Modern Guerrilla Warfare" },
+        { type: "heading", content: "Collins: Guerrilla Genius at 31" },
         {
           type: "paragraph",
           content:
-            "Michael Collins (1890-1922) was the military and intelligence genius of the Irish War of Independence (1919-1921). His innovation was the application of guerrilla tactics to urban intelligence warfare: using a network of informers to identify British intelligence officers, then assassinating them systematically. His Bloody Sunday (November 1920) — the assassination of 14 British intelligence agents in a single morning — demonstrated that a colonial power's intelligence apparatus could be destroyed by organised insurgent intelligence. Collins was 31 years old.",
+            "Michael Collins invented the model for modern urban insurgency — using informer networks to identify and systematically assassinate British intelligence officers. His Bloody Sunday (1920) wiped out 14 agents in a single morning. He was 31.",
         },
-        { type: "heading", content: "Bobby Sands: Death as Political Act" },
+        { type: "heading", content: "Bobby Sands: Death as Politics" },
         {
           type: "paragraph",
           content:
-            "Bobby Sands (1954-1981) was an IRA prisoner who led the 1981 hunger strike in the Maze Prison, demanding recognition of IRA prisoners as political rather than criminal prisoners. He was elected to the British Parliament while on hunger strike, receiving 30,000 votes. He died after 66 days on 5 May 1981, followed by nine other hunger strikers. His death and the deaths of his companions produced a political transformation: the strategy of combining armed campaign with electoral politics — 'the Armalite and the ballot box' — emerged directly from the political mobilisation his death enabled.",
+            "Bobby Sands was elected to the British Parliament while on hunger strike in the Maze Prison. He died after 66 days. Nine others followed. His death didn't win political status for prisoners — but it revealed that electoral politics could amplify the armed campaign.",
         },
-        { type: "heading", content: "Ulrike Meinhof: The Intellectual's Trajectory" },
+        { type: "heading", content: "Ulrike Meinhof: The Journalist Who Chose Bombs" },
         {
           type: "paragraph",
           content:
-            "Ulrike Meinhof (1934-1976) was a prominent West German journalist — a columnist for the left-wing magazine Konkret — who became co-founder of the Red Army Faction. Her trajectory from respectable intellectual to imprisoned terrorist is one of the most analysed cases in the study of political violence: how does a person who began with words move to bombs? Her writings from prison — increasingly disconnected from her earlier lucid journalism — document the psychological transformation that extreme circumstances and group dynamics produce.",
+            "Meinhof moved from respected left-wing columnist to RAF co-founder — one of the most studied trajectories in the literature of political violence. Her prison writings document how extreme circumstances and group dynamics transform a person's thinking.",
         },
-        { type: "heading", content: "Aldo Moro: The Ultimate Victim" },
+        { type: "heading", content: "Aldo Moro: The Worst Possible Target" },
         {
           type: "paragraph",
           content:
-            "Aldo Moro was five times Italian Prime Minister and the architect of the 'Historic Compromise' — a proposed governing alliance between the Christian Democratic and Communist parties that would have been an extraordinary political achievement. On 16 March 1978, he was kidnapped by the Red Brigades on the morning he was due to present this coalition to parliament. He was held for 55 days, during which his captors issued communiqués and the Italian state refused negotiation. He was murdered on 9 May 1978. The Red Brigades' greatest political spectacle was also the beginning of their end: the murder turned Italian public opinion decisively against them.",
+            "The Red Brigades kidnapped Italy's five-time Prime Minister on the morning he was due to present a historic coalition to parliament. After 55 days and no negotiation, they murdered him. The spectacle turned Italian public opinion permanently against them.",
         },
       ],
       quiz: {
@@ -135,31 +135,31 @@ const course: Course = {
       title: "Methods & Operations",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Ideological Frameworks That Justify Violence" },
+        { type: "heading", content: "Three Frameworks That Justify Violence" },
         {
           type: "paragraph",
           content:
-            "Every organisation that engages in political violence develops ideological frameworks that justify it to its own members. Three main frameworks recur across the cases in this course. Revolutionary theory holds that violence will awaken the masses — that the spectacle of violent resistance will radicalise the passive and reveal the true nature of an oppressive system. National liberation theory holds that peoples under colonial domination have an inherent right to armed resistance. Anti-fascist theory holds that when democratic institutions are themselves corrupt or continuations of fascism, democratic means are insufficient and violent resistance is the only honest response.",
+            "Revolutionary theory: violence awakens the masses and reveals state oppression. National liberation theory: colonised peoples have an inherent right to armed resistance. Anti-fascist theory: when democracy is a lie, democratic means are insufficient. All three appear repeatedly across the cases in this course.",
         },
-        { type: "heading", content: "Group Dynamics and the Maintenance of Commitment" },
+        { type: "heading", content: "The Group Keeps You In" },
         {
           type: "paragraph",
           content:
-            "Research on political violence consistently identifies the group itself — not ideology — as the primary mechanism maintaining commitment to violence. Once inside an organisation, members become dependent on the group for identity, social bonds, and practical survival. Leaving requires not just abandoning a cause but abandoning the community that has become one's entire social world. Ideology provides the moral vocabulary; the group provides the motivation to continue. This is why groups that have clearly failed to achieve their stated goals — like the Red Brigades by the late 1970s — continue to exist.",
+            "Research consistently finds that ideology recruits people but the group retains them. Leaving an organisation means abandoning your entire social world, not just a cause. This explains why groups like the Red Brigades continued long after their strategy had clearly failed.",
         },
-        { type: "heading", content: "The Strategy of Tension" },
+        { type: "heading", content: "The Strategy of Tension Always Backfired" },
         {
           type: "paragraph",
           content:
-            "The 'strategy of tension' — deliberately escalating violence to force a polarised reaction — was a theory pursued by multiple groups. The Red Brigades believed that spectacular violence would force the Italian state to reveal its repressive nature, radicalising the population. The RAF believed the German state's response to their actions would expose its fascist continuity. In almost every case, the theory was wrong: state overreaction, where it occurred, alienated rather than radicalised the populations the groups claimed to represent.",
+            "The Red Brigades and RAF both believed spectacular violence would force states to reveal their repressive nature and radicalise ordinary people. In almost every case, the opposite happened: state overreaction generated sympathy for victims, not recruits.",
         },
-        { type: "heading", content: "The IRA's Cell Structure and Intelligence War" },
+        { type: "heading", content: "The IRA's Intelligence War" },
         {
           type: "paragraph",
           content:
-            "The Provisional IRA evolved sophisticated operational security over three decades of conflict. The shift from the traditional battalion structure to small, compartmentalised cells — each cell knowing only its own members and immediate contacts — was a response to British intelligence penetration. The intelligence war between British security services and the IRA was as central to the Troubles as the violence itself: informers, double agents, and electronic surveillance all shaped the conflict's trajectory. The IRA's long survival against a far more powerful state was a testament to this operational discipline.",
+            "The Provisional IRA evolved from battalion structures to small compartmentalised cells precisely because British intelligence kept infiltrating them. Three decades of survival against a far more powerful state is a testament to that operational discipline.",
         },
       ],
       quiz: {
@@ -195,36 +195,36 @@ const course: Course = {
       title: "Cultural Representation",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Battle of Algiers: The Definitive Film" },
+        { type: "heading", content: "The Battle of Algiers: Both Sides, No Villains" },
         {
           type: "paragraph",
           content:
-            "Gillo Pontecorvo's The Battle of Algiers (1966) is the most analytically important film about political violence ever made. A fictionalised account of the Algerian FLN's campaign against French colonial rule in Algiers, it presents both sides — the insurgents and the French military — with equal analytic clarity, refusing to simplify either into heroes or villains. It shows how the French military, under Colonel Mathieu, systematically dismantled the FLN network through torture and intelligence — and how this tactical success was a strategic failure that contributed to France's eventual withdrawal.",
+            "Pontecorvo's 1966 film presents the FLN insurgency and French military counterinsurgency with equal analytical clarity — neither side simplified into heroes or villains. It shows how tactical success (dismantling the FLN network through torture) can be a strategic failure that accelerates withdrawal.",
         },
         {
           type: "paragraph",
           content:
-            "The film's dual audience is historically documented: it was used as a training film by the US Army before the Iraq War, and as a tactical manual by multiple insurgent groups. This duality — the same film teaching counterinsurgency and insurgency simultaneously — captures the film's analytical neutrality perfectly.",
+            "The US Army used it as a training film before Iraq. Multiple insurgent groups used it as a tactical manual. The same film, teaching both sides simultaneously — that's how analytically neutral it is.",
         },
-        { type: "heading", content: "Michael Collins and The Troubles in Film" },
+        { type: "heading", content: "Collins, Harry's Game, and the Troubles" },
         {
           type: "paragraph",
           content:
-            "Neil Jordan's Michael Collins (1996), starring Liam Neeson, is the most significant cinematic treatment of Irish political violence — a biopic that presents Collins as a reluctant warrior who understood that the treaty he signed was inadequate and would lead to civil war. The film's sympathy for Collins sits alongside genuine engagement with the violence he directed. Harry's Game (ITV, 1982) remains the most praised television treatment of the Troubles — a thriller about an undercover British soldier in Belfast that refuses simple moral frameworks.",
+            "Neil Jordan's Michael Collins presents a reluctant warrior who knew the treaty he signed would lead to civil war. Harry's Game (ITV, 1982) — an undercover British soldier in Belfast — remains the most praised TV treatment of the Troubles, refusing simple moral frameworks.",
         },
-        { type: "heading", content: "The Baader Meinhof Complex and Literature" },
+        { type: "heading", content: "The Baader Meinhof Complex and Heaney" },
         {
           type: "paragraph",
           content:
-            "Uli Edel's The Baader Meinhof Complex (2008), based on Stefan Aust's definitive book on the RAF, is an unusually comprehensive account of a political violence organisation from recruitment to destruction. It is notable for taking seriously the question of why intelligent, educated people chose political violence without endorsing their choice. Seamus Heaney's poetry represents the finest literary engagement with the Irish Troubles — his Field Work collection and North in particular navigating the moral complexity of violence in a community he was part of without resolution.",
+            "Uli Edel's film takes seriously the question of why intelligent people chose political violence without endorsing the choice. Seamus Heaney's poetry — Field Work and North especially — navigates the moral complexity of violence in a community he was part of, without resolution.",
         },
-        { type: "heading", content: "Eoin McNamee and the Literature of Violence" },
+        { type: "heading", content: "McNamee: When Violence Is Just a Licence" },
         {
           type: "paragraph",
           content:
-            "Eoin McNamee's Resurrection Man (1994) — based on the Shankill Butchers, a loyalist gang that murdered Catholics at random in 1970s Belfast — is among the most disturbing literary accounts of political violence in British literature. McNamee is interested in the psychology of perpetrators: not in the ideology but in the personality types attracted to violence for its own sake, for whom the political cause is a licence rather than a motivation. It is a corrective to ideological accounts of political violence that can obscure the role of individual pathology.",
+            "Eoin McNamee's Resurrection Man — based on the Shankill Butchers — asks what happens when the political cause is just a cover for personalities attracted to violence for its own sake. It's a corrective to every ideological account that ignores individual pathology.",
         },
       ],
       quiz: {
@@ -260,31 +260,31 @@ const course: Course = {
       title: "Legacy & Modern Impact",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The IRA: Partial Success" },
+        { type: "heading", content: "The IRA: Partial Win" },
         {
           type: "paragraph",
           content:
-            "The IRA is the most analytically interesting case of political violence in the 20th century because it is the clearest example of partial success. The Good Friday Agreement (1998) did not deliver a united Ireland — the IRA's stated objective — but it did deliver political power-sharing, the recognition of Irish identity in Northern Ireland, cross-border institutions, and the end of systematic discrimination. Sinn Féin is today the largest party in Northern Ireland by vote share. The IRA achieved constitutional change if not its ultimate goal.",
+            "The Good Friday Agreement (1998) didn't deliver a united Ireland — but it delivered power-sharing, recognition of Irish identity, cross-border institutions, and the end of systematic discrimination. Sinn Féin is now the largest party in Northern Ireland by vote share.",
         },
         { type: "heading", content: "ETA: Total Failure" },
         {
           type: "paragraph",
           content:
-            "ETA dissolved in 2018 after 59 years of armed activity and more than 800 deaths. It achieved nothing. Basque culture, language, and regional autonomy — the causes ETA claimed to fight for — were secured through democratic means after Franco's death in 1975, not through violence. ETA's campaign continued for decades after the political conditions that had originally generated it had been resolved. It became a self-sustaining organisation that had outlived its cause and was unable to stop.",
+            "ETA dissolved in 2018 after 59 years and 800+ deaths. It achieved nothing. Basque autonomy and cultural recognition were delivered through democracy after Franco — not through ETA's violence. It spent four decades fighting for a cause that had already been won.",
         },
-        { type: "heading", content: "The Red Brigades and RAF: Counter-Productive Violence" },
+        { type: "heading", content: "Red Brigades and RAF: Counter-Productive" },
         {
           type: "paragraph",
           content:
-            "Both the Red Brigades and the RAF destroyed the causes they claimed to represent. The Red Brigades' violence — culminating in the murder of Aldo Moro — turned Italian public opinion against the far-left and made the political alliances Moro was building impossible. The RAF's campaign reinforced the German state and marginalised the left-wing movements it claimed to advance. Both cases demonstrate that political violence conducted against populations who do not support it, in pursuit of goals those populations do not share, typically strengthens what it claims to oppose.",
+            "Both organisations destroyed the causes they claimed to represent. The Red Brigades' murder of Aldo Moro made the political alliances Moro was building impossible. The RAF reinforced the German state. Violence conducted against populations who don't support it typically strengthens what it opposes.",
         },
-        { type: "heading", content: "The Lesson on Political Violence and Its Effectiveness" },
+        { type: "heading", content: "The Pattern on Effectiveness" },
         {
           type: "paragraph",
           content:
-            "The comparative record on terrorism's effectiveness suggests a pattern: violence rarely achieves the stated goals of the groups that use it; it frequently damages the movements that use it more than the states it targets; it tends to be most effective when combined with political mobilisation (as the IRA demonstrated); and it tends to persist well beyond the point at which its original political conditions have been resolved. The organisations that are hardest to stop are those that have become self-sustaining communities of identity regardless of whether their cause retains relevance.",
+            "Violence rarely achieves stated goals. It frequently damages the movements that use it more than the states it targets. It's most effective when combined with political mobilisation — and it tends to outlast its original political conditions by decades.",
         },
       ],
       quiz: {
@@ -320,31 +320,31 @@ const course: Course = {
       title: "What This Reveals About Society",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Political Violence as the Limit of Political Imagination" },
+        { type: "heading", content: "Political Violence Is a Failure of Imagination" },
         {
           type: "paragraph",
           content:
-            "Political violence is what happens when people — or a specific subset of people — believe they have no other options. This belief may be accurate (where channels for political change are genuinely closed) or it may be a misperception (where channels exist but are not recognised or trusted). In either case, the analytical task is to understand the conditions that produce this belief, not merely to condemn its consequences.",
+            "Political violence is what happens when people believe they have no other options. That belief may be accurate or a misperception — but either way, the analytical task is understanding the conditions that produced it, not just condemning the outcome.",
         },
-        { type: "heading", content: "The Question of Alternatives" },
+        { type: "heading", content: "Always Ask: What Was the Alternative?" },
         {
           type: "paragraph",
           content:
-            "The most important question about any political violence is always: what was the alternative? For Catholics in Northern Ireland in 1968-1972, after peaceful civil rights marches were met with state violence and Bloody Sunday, what was the non-violent alternative? The question is not rhetorical. Understanding it requires understanding why the alternatives that might seem obvious in retrospect were not available or credible to those who chose violence. Often the answer involves state failure, betrayal, or the closure of political channels.",
+            "For Catholics in Northern Ireland after Bloody Sunday, what was the non-violent alternative? The question isn't rhetorical. Understanding why the alternatives weren't available or credible requires understanding state failure, betrayal, and the closure of political channels.",
         },
-        { type: "heading", content: "The Follow-Up: What Made the Alternative Unavailable?" },
+        { type: "heading", content: "States Create the Conditions Too" },
         {
           type: "paragraph",
           content:
-            "The follow-up question is equally important: what made the alternative unavailable? In almost every case, the conditions that produced political violence include deliberate state choices — to repress civil rights movements, to ignore or deny legitimate grievances, to respond to protest with disproportionate force. The British army's actions on Bloody Sunday — killing 14 civil rights marchers — produced more IRA recruits than any propaganda operation could have. The state is rarely simply the victim of political violence; it is often a participant in creating the conditions for it.",
-      },
-        { type: "heading", content: "Condemning and Understanding" },
+            "Bloody Sunday generated more IRA recruits than any propaganda operation. States are rarely simply the victims of political violence — they are often participants in creating the conditions for it. This is uncomfortable but analytically essential.",
+        },
+        { type: "heading", content: "Condemn and Understand — Both Are Required" },
         {
           type: "paragraph",
           content:
-            "The study of political violence requires holding two things simultaneously: that the acts themselves — the bombing of civilian spaces, the murder of individuals, the use of terror as a political instrument — are wrong; and that understanding why they happened requires engaging seriously with the conditions that produced them. These are not contradictory positions. Condemnation without understanding produces no insight and no capacity to prevent future violence. Understanding without condemnation loses the moral clarity that the victims of violence deserve. The two are both necessary.",
+            "The bombing of civilian spaces is wrong. Understanding why it happened requires engaging seriously with the conditions that produced it. These aren't contradictory positions. Condemnation without understanding changes nothing. Understanding without condemnation betrays the victims.",
         },
       ],
       reflection: {
