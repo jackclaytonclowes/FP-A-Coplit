@@ -187,8 +187,8 @@ const course: Course = {
           type: "paragraph",
           content:
             "Collateral is Tom Cruise as a contract killer, Jamie Foxx as the cab driver who drives him through the night. Shot partially on Sony HDV — then an unconventional choice for a major studio film — its digital texture gave Los Angeles at night a tactile immediacy no film stock had achieved. Miami Vice (2006) extends this digital realism to Mann's own earlier creation, stripping the pastel glamour of the TV series and replacing it with the grey-blue grain of digital video.",
-      },
-      },
+        },
+      ],
       quiz: {
         question: "What makes the coffee shop scene in Heat (1995) cinematically significant?",
         options: [

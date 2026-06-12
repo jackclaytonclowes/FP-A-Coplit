@@ -100,7 +100,8 @@ const course: Course = {
           type: "paragraph",
           content:
             "Aldo Moro was five times Italian Prime Minister and the architect of the 'Historic Compromise' — a proposed governing alliance between the Christian Democratic and Communist parties that would have been an extraordinary political achievement. On 16 March 1978, he was kidnapped by the Red Brigades on the morning he was due to present this coalition to parliament. He was held for 55 days, during which his captors issued communiqués and the Italian state refused negotiation. He was murdered on 9 May 1978. The Red Brigades' greatest political spectacle was also the beginning of their end: the murder turned Italian public opinion decisively against them.",
-      },
+        },
+      ],
       quiz: {
         question: "Why was Bobby Sands' hunger strike and death politically transformative for Irish republicanism?",
         options: [
