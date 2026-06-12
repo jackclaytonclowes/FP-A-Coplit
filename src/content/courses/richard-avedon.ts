@@ -17,22 +17,22 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Richard Avedon (1923–2004, New York)" },
+        { type: "heading", content: "Born Into Fashion, Obsessed With Faces" },
         {
           type: "paragraph",
           content:
-            "Richard Avedon was born in 1923 in New York City, the son of Russian-Jewish immigrants who ran a clothing store on Fifth Avenue. He grew up surrounded by fashion and by images — his father's store sold clothes, and Avedon as a boy studied the Vogue photographs displayed in the window. He knew from early on what he wanted to do.",
+            "Avedon grew up in New York staring at Vogue photos in his father's Fifth Avenue clothing store. He knew exactly what he wanted to do.",
         },
         {
           type: "paragraph",
           content:
-            "He served in the Merchant Marine during World War II as a photographer, identifying men for their ID photographs. After the war he studied with Alexey Brodovitch, the legendary art director of Harper's Bazaar, who would become his most important influence. Brodovitch taught Avedon that photography was movement, not stillness.",
+            "After serving as a WWII military photographer, he studied under Harper's Bazaar art director Alexey Brodovitch — the man who taught him that photography is movement, not stillness.",
         },
         {
           type: "heading",
-          content: "Key Career Milestones",
+          content: "A Career That Never Slowed Down",
         },
         {
           type: "list",
@@ -68,31 +68,31 @@ const course: Course = {
       title: "Visual Style Analysis",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The White Background" },
+        { type: "heading", content: "No Backdrop. No Excuses." },
         {
           type: "paragraph",
           content:
-            "Avedon's most immediately recognisable technique is the stark white background — a seamless white paper or cyclorama that removes all context and places the subject in a kind of non-space. This was not purely aesthetic. The white background is an assertion: this person, and only this person, is what matters. Everything else is noise.",
+            "No backdrop. No props. No excuses. Avedon's white background strips everything away and forces you to look at the face.",
         },
-        { type: "heading", content: "Movement in Fashion" },
+        { type: "heading", content: "Fashion That Actually Moves" },
         {
           type: "paragraph",
           content:
-            "His mentor Brodovitch told him that fashion photography should capture the energy of movement, not a static pose. Avedon spent years developing techniques for photographing movement — models jumping, turning, running. The resulting images have an electricity that transforms fashion from still life into living performance.",
+            "Brodovitch told him fashion should have energy. Avedon listened — models jumping, running, turning. His images crackle with life.",
         },
-        { type: "heading", content: "Psychological Portraiture" },
+        { type: "heading", content: "He Wanted the Mask to Slip" },
         {
           type: "paragraph",
           content:
-            "In his portrait work Avedon pursued psychological truth at the expense of flattery. He is famous for provoking strong emotional reactions in his subjects before pressing the shutter — telling them something shocking, making them wait, disrupting their composure. The resulting images show people caught between masks.",
+            "Avedon would say something shocking mid-session, make subjects wait, flip the mood. He wanted the person behind the persona — not the polished front.",
         },
-        { type: "heading", content: "Scale" },
+        { type: "heading", content: "Go Big or Go Home" },
         {
           type: "paragraph",
           content:
-            "Avedon printed large — very large. His portraits, printed at life-size or larger, have a confrontational quality. You cannot look away from an Avedon portrait the size of a person. The scale is not vanity; it is a claim that this face deserves to be seen at full size.",
+            "Avedon printed portraits at life size. You can't look away from a face that fills a wall. That's the whole point.",
         },
         {
           type: "quote",
@@ -117,31 +117,31 @@ const course: Course = {
       title: "Signature Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Dovima with Elephants (1955)" },
+        { type: "heading", content: "Dovima With Elephants — Fashion's Greatest Photo" },
         {
           type: "paragraph",
           content:
-            "Perhaps the most celebrated fashion photograph ever made. Model Dovima in a black Dior dress, flanked by circus elephants, Cirque d'Hiver, Paris. The tension between elegance and power, between the model's stillness and the elephants' mass, creates an image of extraordinary beauty and strangeness. It was made for Harper's Bazaar and is now in permanent collections worldwide.",
+            "A model in black Dior, flanked by circus elephants in Paris. The tension between elegance and raw power makes this the most celebrated fashion photograph ever made.",
         },
-        { type: "heading", content: "In the American West (1985)" },
+        { type: "heading", content: "In the American West — Same Camera, Different America" },
         {
           type: "paragraph",
           content:
-            "A five-year project photographing working people across the American West — miners, drifters, slaughterhouse workers, mental patients. Shot against a white seamless backdrop in the field, the portraits are intensely democratic: everyone receives the same treatment as a Vogue cover. The project revealed that Avedon's technique was not about glamour but about human dignity.",
+            "Five years, 17,000 miles, white backdrop in the field. Miners, drifters, slaughterhouse workers — all treated like Vogue cover stars. Dignity for everyone.",
         },
-        { type: "heading", content: "The Family (1976)" },
+        { type: "heading", content: "The Family — Power, Stripped Bare" },
         {
           type: "paragraph",
           content:
-            "For the U.S. Bicentennial, Rolling Stone commissioned Avedon to photograph 69 people who held political, corporate, and cultural power in America. Shot in an identical manner — white background, frontal gaze — the images strip authority figures of their trappings, revealing them as simply people with unusual jobs.",
+            "Sixty-nine of America's most powerful people. Same white background, same direct gaze. Suddenly they just look like people with unusual jobs.",
         },
-        { type: "heading", content: "Portraits of Andy Warhol's Factory" },
+        { type: "heading", content: "Warhol's Factory — The Definitive Record" },
         {
           type: "paragraph",
           content:
-            "Avedon's ongoing documentation of Andy Warhol and the Factory world produced images that are now the primary visual record of that milieu. His 1969 portrait of the Factory — all figures in a single massive composite — is one of the defining images of the late 20th century.",
+            "Avedon documented Andy Warhol's world so thoroughly his images are now the primary visual record of that entire era.",
         },
       ],
       quiz: {
@@ -161,31 +161,31 @@ const course: Course = {
       title: "Techniques & Approach",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Large Format Camera" },
+        { type: "heading", content: "Slow Camera, Tense Room" },
         {
           type: "paragraph",
           content:
-            "Avedon shot most of his portrait work on an 8x10 large format camera — a slow, deliberate instrument that requires precise focusing and careful preparation. The resulting negatives contain extraordinary detail, allowing prints to be made at life size without loss of quality. The camera's slowness also served the session psychologically: the extended preparation gives subjects time to settle, and time to become anxious.",
+            "An 8x10 large format camera is slow and deliberate — it gives subjects time to settle, and time to get anxious. Avedon used both.",
         },
-        { type: "heading", content: "Provoking Emotional Response" },
+        { type: "heading", content: "He'd Say Anything to Get the Shot" },
         {
           type: "paragraph",
           content:
-            "Avedon was famously willing to manipulate his subjects' emotional states to get the image he wanted. He might tell them something false, keep them waiting beyond the point of comfort, or suddenly change the atmosphere of the room. He wanted the mask to slip — to photograph the person behind the persona.",
+            "False news. Long waits. Sudden mood changes. Avedon was willing to manipulate the room to crack the persona and find the person underneath.",
         },
-        { type: "heading", content: "The Print as Artwork" },
+        { type: "heading", content: "The Print Is Where It Happens" },
         {
           type: "paragraph",
           content:
-            "Avedon was deeply involved in the printing of his own work. He developed close relationships with master printers and spent enormous time in the darkroom perfecting the translation from negative to print. He considered the print to be where the photograph was really made.",
+            "Avedon spent as much time in the darkroom as behind the camera. He believed the photograph wasn't finished until the print was perfect.",
         },
-        { type: "heading", content: "The Slow Build" },
+        { type: "heading", content: "Warm Up, Then Strike" },
         {
           type: "paragraph",
           content:
-            "Avedon's portrait sessions typically began with casual conversation and built slowly toward the images he intended. He would shoot extensively before the 'real' session began — using early frames to relax subjects and warm up his own eye. By the time he made the images he actually used, both he and the subject were fully present.",
+            "Sessions started slow — casual chat, early frames to relax everyone. By the time Avedon made the images he actually used, both he and the subject were completely present.",
         },
       ],
       quiz: {
@@ -205,31 +205,31 @@ const course: Course = {
       title: "Influence & Legacy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Most Influential American Photographer" },
+        { type: "heading", content: "He Defined How America Saw Itself" },
         {
           type: "paragraph",
           content:
-            "Avedon's influence on American photography is immeasurable. He defined how American celebrities, politicians, artists, and workers were depicted for sixty years. His techniques — the white background, the large format, the psychological confrontation — have been adopted and adapted by photographers worldwide.",
+            "For sixty years, Avedon shaped how Americans depicted their celebrities, politicians, artists, and workers. His fingerprints are on everything.",
         },
-        { type: "heading", content: "Fashion Photography" },
+        { type: "heading", content: "Fashion Photography Grew Up" },
         {
           type: "paragraph",
           content:
-            "Avedon's fashion work transformed the medium from product display to narrative art. His sense of movement, energy, and story brought fashion photography into the mainstream of visual culture. Every fashion photographer who works with narrative or energy rather than static display owes him a debt.",
+            "Before Avedon, fashion photography showed products. After Avedon, it told stories. Every photographer who shoots narrative fashion owes him a debt.",
         },
-        { type: "heading", content: "Documentary Portraiture" },
+        { type: "heading", content: "Anyone Can Be the Subject" },
         {
           type: "paragraph",
           content:
-            "'In the American West' demonstrated that fine-art portraiture techniques could be applied democratically — to any subject, regardless of their social status. This opened a tradition of documentary portraiture that continues today in photographers like Alec Soth and Rineke Dijkstra.",
+            "'In the American West' proved fine-art portraiture works for any subject. Alec Soth, Rineke Dijkstra — they're all working in a tradition Avedon opened up.",
         },
-        { type: "heading", content: "The Photograph as Confrontation" },
+        { type: "heading", content: "A Portrait Is a Fight" },
         {
           type: "paragraph",
           content:
-            "Avedon established the idea that a portrait is a confrontation — between photographer and subject, between image and viewer. He believed photographs should make demands on their viewers, should be uncomfortable to look at, should ask questions rather than provide easy answers.",
+            "Avedon made portraits uncomfortable on purpose. They should ask questions, not provide easy answers. That confrontational energy is his most lasting gift to photography.",
         },
       ],
       quiz: {
@@ -249,43 +249,43 @@ const course: Course = {
       title: "What You Can Learn From Avedon",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From His Practice" },
+        { type: "heading", content: "Five Things to Steal From Avedon" },
         {
           type: "paragraph",
           content:
-            "Avedon teaches that portraiture is a confrontation, and that the photographer's job is to create the conditions for truth — not to document comfort.",
+            "Avedon's lesson: portraiture is a confrontation. Your job is to create conditions for truth, not comfort.",
         },
         { type: "heading", content: "1. Simplify Ruthlessly" },
         {
           type: "paragraph",
           content:
-            "The white background is a lesson in simplification. Remove everything from your portrait that is not your subject. What is the minimum information a portrait needs? Start from there and add only what is absolutely necessary.",
+            "Strip your portrait down to the minimum. What's the least this image needs? Start there.",
         },
         { type: "heading", content: "2. Move Your Subjects" },
         {
           type: "paragraph",
           content:
-            "Avedon photographed movement — models jumping, turning, running. Try a session where you ask your subjects to move continuously: walk toward the camera, turn away, gesture. The images from the movement will often be more alive than those from posed stillness.",
+            "Ask your subjects to walk, turn, gesture — keep them moving. The in-between frames are often the best ones.",
         },
         { type: "heading", content: "3. The Session Is Psychological" },
         {
           type: "paragraph",
           content:
-            "Think about the emotional arc of a portrait session. What happens at the beginning, when the subject is still performing? What happens after twenty minutes, when they relax? What happens when something unexpected occurs? The best frames often come at unexpected moments.",
+            "Think about the emotional arc. What happens after twenty minutes when the performance fades? Shoot then.",
         },
         { type: "heading", content: "4. Your Subject Is Everyone" },
         {
           type: "paragraph",
           content:
-            "'In the American West' is Avedon's greatest lesson: no one is beneath the attention of serious photography. The slaughterhouse worker deserves the same attentive gaze as the movie star. Photography's greatest democratic power is making any subject worthy of sustained attention.",
+            "No one is beneath the attention of serious photography. The slaughterhouse worker deserves the same gaze as the movie star.",
         },
         { type: "heading", content: "5. Print as Carefully as You Shoot" },
         {
           type: "paragraph",
           content:
-            "Avedon considered the print to be where the photograph was finally made. Whether you print physically or edit digitally, treat the output stage with the same seriousness as the shooting stage. The image is not finished when the shutter closes.",
+            "The image isn't finished when the shutter closes. Treat editing and printing with the same seriousness as the shoot.",
         },
       ],
       reflection: {

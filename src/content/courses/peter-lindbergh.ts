@@ -17,22 +17,22 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Peter Lindbergh (1944–2019, Lissa, Germany)" },
+        { type: "heading", content: "Painter, Window Dresser, Most In-Demand Photographer in the World" },
         {
           type: "paragraph",
           content:
-            "Peter Lindbergh was born in 1944 in Lissa (now Leszno, Poland) and grew up in Duisburg, Germany. He first trained as a window dresser and later as a painter — studying at the Kunstakademie Krefeld — before turning to photography in his late twenties. This background in painting gave him an unusually composed eye for light, shadow, and emotional register.",
+            "Lindbergh studied painting before he ever touched a camera. That background gave him an unusual eye for light, shadow, and emotional register that purely photographic training rarely delivers.",
         },
         {
           type: "paragraph",
           content:
-            "In 1978 he moved to Paris and began shooting for French Vogue. Within years he had become the most sought-after fashion photographer in the world — the man Anna Wintour called first. But Lindbergh's relationship with fashion was always ambivalent. He found its demand for artificial perfection troubling and spent his career pushing against it.",
+            "He moved to Paris in 1978 and started shooting French Vogue. Within years he was the first photographer Anna Wintour called. He spent his career being ambivalent about that fame.",
         },
         {
           type: "heading",
-          content: "Key Career Milestones",
+          content: "The Key Moments",
         },
         {
           type: "list",
@@ -68,31 +68,31 @@ const course: Course = {
       title: "Visual Style Analysis",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Against Artifice" },
+        { type: "heading", content: "The Most In-Demand Fashion Photographer Who Hated Fashion Photography" },
         {
           type: "paragraph",
           content:
-            "Lindbergh's visual style was built on a paradox: he was the most in-demand fashion photographer in the world, yet his entire project was an argument against fashion photography's conventions. No retouching. Minimal make-up. Natural light. Women as themselves.",
+            "Lindbergh's whole project was an argument against the industry that paid him. No retouching. Minimal make-up. Natural light. Women as themselves.",
         },
-        { type: "heading", content: "Black and White" },
+        { type: "heading", content: "Black and White Cuts Straight to the Emotion" },
         {
           type: "paragraph",
           content:
-            "Lindbergh worked predominantly in black and white throughout his career. He believed colour could distract from emotion — that the absence of colour forces the eye to focus on expression, gesture, and light. His black and white was never simply monochrome; it was deeply modulated, with rich shadow and delicate highlight.",
+            "Colour distracts. Remove it and the eye goes straight to expression, gesture, and light. Lindbergh's monochrome was never flat — it was deeply modulated, rich in shadow.",
         },
-        { type: "heading", content: "Industrial Settings" },
+        { type: "heading", content: "Fashion in Front of a Steel Factory" },
         {
           type: "paragraph",
           content:
-            "Many of Lindbergh's most celebrated images were made in industrial or unglamorous settings — warehouses, wastelands, beaches at dawn. He liked the tension between high fashion and raw environment. A model in haute couture standing in front of a steel factory is not an ironic image for Lindbergh; it is an honest one.",
+            "Warehouses, wastelands, beaches at dawn — Lindbergh loved the tension between haute couture and raw, unglamorous environments. For him, that tension was honesty.",
         },
-        { type: "heading", content: "The Unretouched Face" },
+        { type: "heading", content: "Lines and Pores Are Not Problems" },
         {
           type: "paragraph",
           content:
-            "Lindbergh insisted on showing his subjects without extensive retouching. Lines, pores, and age were not to be erased. This was not just an aesthetic choice but an ethical one — he believed fashion's demand for airbrushed perfection was harmful and dishonest. His late portraits of older women are among the most moving photographs in contemporary fashion.",
+            "Lindbergh refused to erase what made his subjects human. Age, texture, asymmetry — left alone. His late portraits of older women are some of the most moving photographs in contemporary fashion.",
         },
         {
           type: "quote",
@@ -117,31 +117,31 @@ const course: Course = {
       title: "Signature Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Malibu Supermodels (1990)" },
+        { type: "heading", content: "The Malibu Supermodels — The Shot That Started an Era" },
         {
           type: "paragraph",
           content:
-            "Shot for British Vogue on a Malibu beach at dawn for Anna Wintour's first issue as editor. Cindy Crawford, Naomi Campbell, Linda Evangelista, Tatjana Patitz, and Christy Turlington — jeans and white shirts, hair blowing, laughing. The image launched the supermodel era and was later referenced in George Michael's 'Freedom '90' video.",
+            "Cindy, Naomi, Linda, Tatjana, and Christy. Jeans and white shirts. Hair blowing at dawn. The image launched the supermodel era and inspired the 'Freedom '90' video.",
         },
-        { type: "heading", content: "Stories of the Sahara (2007)" },
+        { type: "heading", content: "Stories of the Sahara — Small People, Vast World" },
         {
           type: "paragraph",
           content:
-            "A cinematic project shot in the Tunisian desert. Women in couture against vast, empty landscapes — an almost melancholy confrontation between luxury and scale. The series demonstrated Lindbergh's ability to work in environments that seemed to dwarf his subjects without diminishing them.",
+            "Women in couture against the Tunisian desert. An almost melancholy confrontation between luxury and scale. Clothes dwarfed by the landscape — and not diminished by it.",
         },
-        { type: "heading", content: "Untold Stories (2010)" },
+        { type: "heading", content: "Untold Stories — Portraits That Reveal, Not Sell" },
         {
           type: "paragraph",
           content:
-            "A book and exhibition documenting his subjects without the context of fashion — portraits that reveal rather than sell. Shot against plain backgrounds, the images have a psychological intensity more common to studio portraiture than fashion photography.",
+            "Plain backgrounds, no fashion context — just faces. The psychological intensity belongs to portraiture, not fashion photography.",
         },
-        { type: "heading", content: "Pirelli Calendar (2017)" },
+        { type: "heading", content: "Pirelli Calendar 2017 — A Manifesto in Print" },
         {
           type: "paragraph",
           content:
-            "Lindbergh's Pirelli Calendar — perhaps the most discussed in the calendar's history — featured women including Nicole Kidman, Julianne Moore, and Patti Smith, photographed naturally, without extensive styling or retouching. It was a deliberate manifesto against the calendar's traditional emphasis on sexualised nudity.",
+            "Nicole Kidman, Julianne Moore, Patti Smith. Natural, unstyled, unretouched. A deliberate argument against everything the Pirelli Calendar had traditionally stood for.",
         },
       ],
       quiz: {
@@ -161,31 +161,31 @@ const course: Course = {
       title: "Techniques & Approach",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Natural Light as Principle" },
+        { type: "heading", content: "Natural Light Is an Ethical Choice" },
         {
           type: "paragraph",
           content:
-            "Lindbergh's commitment to natural light was both aesthetic and ethical. He believed that natural light respects its subject — it illuminates rather than transforms. He was known for shooting at dawn or dusk, in overcast conditions, or in the soft, directional light of open shade. This required patience and planning but produced images with a quality of honesty that studio light rarely achieves.",
+            "Lindbergh believed natural light respects its subject — it illuminates rather than transforms. He shot at dawn, at dusk, in open shade. Patience and planning over control.",
         },
-        { type: "heading", content: "The Cinematic Reference" },
+        { type: "heading", content: "He Referenced Bergman, Not Photographers" },
         {
           type: "paragraph",
           content:
-            "Lindbergh's primary references were not photographers but filmmakers — Ingmar Bergman, Wim Wenders, John Cassavetes. He was interested in the emotional truth of cinema, in faces caught between expressions, in the drama of a moment just before or just after the obvious one. His fashion images often read as stills from films that don't exist.",
+            "Bergman, Wenders, Cassavetes — filmmakers, not photographers. Lindbergh was after emotional truth: the face caught between expressions, the moment just before the obvious one.",
         },
-        { type: "heading", content: "Collaboration as Method" },
+        { type: "heading", content: "Small Teams, Real Trust" },
         {
           type: "paragraph",
           content:
-            "Lindbergh's shoots were conversations, not productions. He worked with small teams and built genuine relationships with his subjects. Many of the world's most famous models — Crawford, Campbell, Evangelista — have cited him as the photographer with whom they felt most themselves. This trust shows in the images.",
+            "Lindbergh's shoots were conversations. Crawford, Campbell, Evangelista all said he was the photographer with whom they felt most themselves. That trust is visible in every image.",
         },
-        { type: "heading", content: "Resisting Fashion's Timeline" },
+        { type: "heading", content: "He Made Images That Were Meant to Last" },
         {
           type: "paragraph",
           content:
-            "Fashion photography typically serves the season — images must be current, on-trend, disposable. Lindbergh resisted this by making images he hoped would last. He was uninterested in trend. His approach to fashion was archaeological: what is essential, permanent, true about the way these clothes relate to these people?",
+            "Fashion serves the season. Lindbergh resisted that entirely. He wasn't interested in trend. He asked: what's essential, permanent, and true about these people in these clothes?",
         },
       ],
       quiz: {
@@ -205,31 +205,31 @@ const course: Course = {
       title: "Influence & Legacy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Changing Fashion Photography's Standards" },
+        { type: "heading", content: "Commercial Success Doesn't Require Erasing Humanity" },
         {
           type: "paragraph",
           content:
-            "Lindbergh's most significant legacy is the argument — made through decades of work — that fashion photography does not require the erasure of humanity. He demonstrated that images could be commercially successful and emotionally honest simultaneously. In an era of extreme retouching and digital manipulation, this argument is more relevant than ever.",
+            "Lindbergh's most significant argument — made through decades of work — is that fashion images can be commercially successful and emotionally honest at the same time.",
         },
-        { type: "heading", content: "The Supermodel Era" },
+        { type: "heading", content: "He Created the Supermodel Era and Was Ambivalent About It" },
         {
           type: "paragraph",
           content:
-            "Ironically for a photographer who opposed fashion's obsession with celebrity, Lindbergh's work helped create the supermodel era. His images of Crawford, Campbell, Evangelista, and others gave models individual identities and faces — they became people rather than mannequins. This was both his greatest commercial impact and something he viewed with ambivalence.",
+            "His images gave Crawford, Campbell, and Evangelista individual identities — faces, not mannequins. He helped create a celebrity culture he found deeply uncomfortable.",
         },
-        { type: "heading", content: "Documentary Fashion" },
+        { type: "heading", content: "Documentary Fashion — A Whole New Aesthetic" },
         {
           type: "paragraph",
           content:
-            "The aesthetic of 'documentary fashion' — candid, unposed, shot on location with available light — owes much to Lindbergh. Photographers from Corinne Day to Harley Weir to Theo Wenner work in traditions he helped establish. His insistence that fashion photography could tell emotional truths opened the door for an entire generation.",
+            "Candid, unposed, location-shot with available light — Corinne Day, Harley Weir, Theo Wenner all work in traditions Lindbergh helped establish.",
         },
-        { type: "heading", content: "Against Digital Perfection" },
+        { type: "heading", content: "Against Digital Perfection — Still Relevant" },
         {
           type: "paragraph",
           content:
-            "In his final years Lindbergh became an increasingly prominent voice against the culture of digital retouching. His position — that showing the reality of a person's face is a form of respect — resonates more powerfully now than it did when he began saying it in the 1980s.",
+            "Lindbergh argued against airbrushing in the 1980s. In the age of Facetune and AI retouching, his position sounds more urgent than ever.",
         },
       ],
       quiz: {
@@ -249,43 +249,43 @@ const course: Course = {
       title: "What You Can Learn From Lindbergh",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From His Practice" },
+        { type: "heading", content: "Five Things to Steal From Lindbergh" },
         {
           type: "paragraph",
           content:
-            "Lindbergh's work teaches a philosophy of photography that runs counter to most of the industry's values. That is exactly why it is worth studying.",
+            "Lindbergh's philosophy runs counter to most of the industry's values. That's exactly why it's worth studying.",
         },
-        { type: "heading", content: "1. Prioritise Natural Light" },
+        { type: "heading", content: "1. Commit to Natural Light" },
         {
           type: "paragraph",
           content:
-            "Commit to shooting in natural light for a month. Notice what different qualities of natural light do to your subjects — dawn, overcast, golden hour, shade. Natural light respects its subject in a way that artificial light rarely does.",
+            "Shoot only in natural light for a month. Dawn, overcast, golden hour, open shade — learn what each does to a face. The 'wrong' light is often the most interesting.",
         },
-        { type: "heading", content: "2. Resist Retouching" },
+        { type: "heading", content: "2. Resist the Healing Brush" },
         {
           type: "paragraph",
           content:
-            "Before reaching for the healing brush or smoothing filter, ask whether the 'flaw' you are about to remove is actually information. Lines, texture, and asymmetry tell us who people are. Decide consciously what you are removing and why.",
+            "Before you remove a 'flaw,' ask if it's actually information. Lines, texture, asymmetry tell you who someone is. Decide consciously what you erase and why.",
         },
-        { type: "heading", content: "3. Study Cinema, Not Just Photography" },
+        { type: "heading", content: "3. Watch More Films" },
         {
           type: "paragraph",
           content:
-            "Lindbergh's approach to emotion came from filmmakers. Expand your visual references beyond photography. What can you learn about light from Bergman? About framing from Wenders? About character from Cassavetes?",
+            "Lindbergh learned emotion from Bergman and Wenders, not other photographers. What can cinema teach you about light, framing, and the face between expressions?",
         },
-        { type: "heading", content: "4. Build Genuine Relationships With Subjects" },
+        { type: "heading", content: "4. Build Real Relationships First" },
         {
           type: "paragraph",
           content:
-            "The best portraits come from trust. Before you shoot, talk. Learn about your subject. Give them time to relax. The moment when someone forgets there is a camera present is often the most valuable moment.",
+            "Talk before you shoot. Learn about your subject. The moment someone forgets there's a camera is often the most valuable moment in the whole session.",
         },
         { type: "heading", content: "5. Photograph Against the Trend" },
         {
           type: "paragraph",
           content:
-            "Lindbergh was always slightly behind or ahead of fashion's current moment. He was interested in what lasts. Look at the images that were considered 'old-fashioned' or 'too simple' in their day and often find the ones that age best.",
+            "Lindbergh was always slightly behind or ahead of fashion's current moment — on purpose. The images that age best are often the ones that looked 'too simple' when they were made.",
         },
       ],
       reflection: {

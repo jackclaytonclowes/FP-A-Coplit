@@ -17,22 +17,22 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Nick Knight (b. 1958, London)" },
+        { type: "heading", content: "Started With Skinheads, Ended Up Everywhere" },
         {
           type: "paragraph",
           content:
-            "Nick Knight was born in 1958 in London. He studied photography at Bournemouth and Poole College of Art, graduating in 1982 with a degree and with his first major project already made: a documentation of 100 skinheads in Bournemouth that became a book. The project showed his early interest in communities existing outside mainstream culture.",
+            "Knight graduated in 1982 with a book about 100 skinheads in Bournemouth. It announced his interest in communities outside the mainstream — and it's never left him.",
         },
         {
           type: "paragraph",
           content:
-            "By the mid-1980s Knight was shooting regularly for i-D magazine. His work attracted the attention of Yohji Yamamoto, who commissioned him for his 1986 catalogue — a collaboration that would prove seminal, establishing a template for intellectually rigorous fashion photography where garment and concept were inseparable.",
+            "By the mid-80s he was shooting i-D, then Yohji Yamamoto came calling. That 1986 catalogue changed fashion photography permanently.",
         },
         {
           type: "heading",
-          content: "Key Career Milestones",
+          content: "Never the Same Photographer Twice",
         },
         {
           type: "list",
@@ -68,31 +68,31 @@ const course: Course = {
       title: "Visual Style Analysis",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Concept as Image" },
+        { type: "heading", content: "Every Image Has an Idea Behind It" },
         {
           type: "paragraph",
           content:
-            "Nick Knight's visual style is defined by one consistent principle: the image must embody an idea. Unlike photographers who develop a recognisable aesthetic, Knight's work looks radically different from decade to decade. What is consistent is conceptual ambition — the sense that every image has been thought about deeply before it is made.",
+            "Knight's work looks radically different decade to decade. What's consistent is conceptual ambition — every image has been deeply thought through before it's made.",
         },
-        { type: "heading", content: "Colour as Concept" },
+        { type: "heading", content: "Colour Is a Weapon" },
         {
           type: "paragraph",
           content:
-            "Knight uses colour with unusual deliberateness. His colour work is never naturalistic — colours are heightened, shifted, and made strange. A face might be entirely cyan. A background might be a single field of vivid red. Colour in Knight's images is not a record of reality but a tool for creating emotional and conceptual states.",
+            "A face might be entirely cyan. A background might be one field of vivid red. Knight's colour isn't a record of reality — it's a tool for producing emotional states.",
         },
-        { type: "heading", content: "Digital Manipulation" },
+        { type: "heading", content: "Post-Production Is Part of the Image" },
         {
           type: "paragraph",
           content:
-            "Knight was among the first fashion photographers to embrace digital manipulation fully — not as retouching but as an expressive medium. He works extensively with post-production, sometimes creating images that bear little resemblance to what was in front of the camera. He sees no fundamental difference between photography and painting in the digital age.",
+            "Knight was among the first to treat digital manipulation as an expressive medium, not just retouching. He sees no fundamental difference between photography and painting.",
         },
-        { type: "heading", content: "Collaborations With Designers" },
+        { type: "heading", content: "The Best Collaborators Think Like Him" },
         {
           type: "paragraph",
           content:
-            "Knight's deepest collaborations have been with designers who share his conceptual ambition: Yohji Yamamoto, Alexander McQueen, John Galliano, Rei Kawakubo. These collaborations produced work where fashion and photography were genuinely inseparable — neither served the other; both served the idea.",
+            "Yamamoto, McQueen, Galliano, Kawakubo — Knight's deepest collaborations are with designers who share his conceptual hunger. Fashion and photography serving the same idea.",
         },
         {
           type: "quote",
@@ -117,31 +117,31 @@ const course: Course = {
       title: "Signature Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Yohji Yamamoto A/W 1986 Catalogue" },
+        { type: "heading", content: "Yohji Yamamoto A/W 1986 — Fashion Gets Serious" },
         {
           type: "paragraph",
           content:
-            "Considered one of the most influential fashion photography catalogues ever made. Knight photographed Yamamoto's deconstructed, anti-fashion garments with the same intellectual rigour the designer brought to their creation. The images were stark, graphic, and entirely unlike anything else in fashion at the time.",
+            "Stark, graphic, unlike anything else in fashion at the time. Knight matched Yamamoto's intellectual rigour shot for shot. One of the most influential catalogues ever made.",
         },
-        { type: "heading", content: "Alexander McQueen: No. 13 (1999)" },
+        { type: "heading", content: "McQueen: No. 13 — Two Robots, One White Tutu" },
         {
           type: "paragraph",
           content:
-            "Knight documented McQueen's seminal show No. 13, which ended with model Shalom Harlow being spray-painted by two industrial robots while wearing a white tutu. The images Knight made of this moment are among the most celebrated in fashion history — a perfect collision of performance, technology, and beauty.",
+            "Model Shalom Harlow being spray-painted by industrial robots at the show's finale. Knight documented it. Fashion, performance, and technology colliding at full speed.",
         },
-        { type: "heading", content: "Roses (2007)" },
+        { type: "heading", content: "Roses (2007) — Scanner as Camera" },
         {
           type: "paragraph",
           content:
-            "A photographic still life series in which Knight scanned flowers at extremely high resolution on a flatbed scanner, then digitally manipulated the results. The images hover between photography and painting, between the clinical and the transcendent. Published as a book with an introduction by Damon Albarn.",
+            "Flowers scanned at ultra-high resolution, then manipulated. The results hover between photography and painting, between the clinical and the transcendent.",
         },
-        { type: "heading", content: "SHOWstudio" },
+        { type: "heading", content: "SHOWstudio — The Internet Before Fashion Knew It Needed One" },
         {
           type: "paragraph",
           content:
-            "Founded in 2000, SHOWstudio was the world's first fashion film website — live streaming fashion shows, making behind-the-scenes film, and experimenting with fashion as a moving image. It was a complete reinvention of how fashion images are made, distributed, and consumed.",
+            "Founded in 2000, the world's first fashion film website. Live streaming, behind-the-scenes film, fashion as moving image. He saw the future early.",
         },
       ],
       quiz: {
@@ -161,31 +161,31 @@ const course: Course = {
       title: "Techniques & Approach",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Brief as Starting Point" },
+        { type: "heading", content: "Idea First, Camera Second" },
         {
           type: "paragraph",
           content:
-            "Knight always begins with the idea, not the camera. He writes briefs — sometimes elaborate conceptual documents — before any shooting takes place. This means his work always has a purposeful quality, a sense of direction, even when the final image is arrived at through experiment.",
+            "Knight writes briefs — sometimes elaborate conceptual documents — before any shooting starts. The camera is just the tool to execute the thinking.",
         },
-        { type: "heading", content: "Technology as Collaborator" },
+        { type: "heading", content: "New Tech Is a Creative Partner" },
         {
           type: "paragraph",
           content:
-            "Knight actively seeks out new technologies — flatbed scanners, motion capture, digital painting, AI — not as gimmicks but as genuine collaborators. He asks: what can this tool do that a camera cannot? What new image does this technology make possible? This keeps his work perpetually at the edge of what is possible.",
+            "Flatbed scanners, motion capture, AI — Knight asks: what can this do that a camera can't? He keeps working at the edge of what's technically possible.",
         },
-        { type: "heading", content: "Fashion Film" },
+        { type: "heading", content: "Fashion Film Wasn't an Afterthought" },
         {
           type: "paragraph",
           content:
-            "Through SHOWstudio, Knight became a pioneer of fashion film — short films in which fashion is not documented but activated through movement, music, and narrative. He saw early that fashion's future was moving image, and spent decades developing a grammar for the form.",
+            "Through SHOWstudio, Knight pioneered fashion film decades before brands made it standard. He understood fashion needed time as well as space.",
         },
-        { type: "heading", content: "Collaborating With Artists" },
+        { type: "heading", content: "No Boundaries Between Art Worlds" },
         {
           type: "paragraph",
           content:
-            "Knight frequently works with artists outside fashion — musicians, fine artists, technologists. He sees no boundary between fashion photography and art photography. His most ambitious work exists in the space between these worlds.",
+            "Knight works with musicians, fine artists, technologists. He sees no border between fashion photography and art photography. His best work lives in between.",
         },
       ],
       quiz: {
@@ -205,31 +205,31 @@ const course: Course = {
       title: "Influence & Legacy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Fashion Photography's Most Restless Mind" },
+        { type: "heading", content: "Impossible to Categorise. Impossible to Replace." },
         {
           type: "paragraph",
           content:
-            "Nick Knight's legacy is inseparable from his perpetual dissatisfaction with the status quo. Where most photographers find their visual language and refine it over decades, Knight continually abandons and rebuilds his. This has made him genuinely difficult to categorise — and genuinely irreplaceable.",
+            "Most photographers find a visual language and refine it. Knight finds one, exploits it, and abandons it. That restlessness is his whole point.",
         },
-        { type: "heading", content: "Digital Fashion Photography" },
+        { type: "heading", content: "He Made Manipulation Legitimate" },
         {
           type: "paragraph",
           content:
-            "Knight proved that digital manipulation was not a debasement of photography but a legitimate extension of it. He gave permission to a generation of photographers to use post-production as expressively as they used a camera. Every heavily manipulated fashion image owes something to his willingness to break the documentary compact.",
+            "Knight proved that heavy digital post-production isn't a cheat — it's a medium. Every heavily manipulated fashion image owes something to him.",
         },
-        { type: "heading", content: "Fashion Film" },
+        { type: "heading", content: "He Invented Fashion Film" },
         {
           type: "paragraph",
           content:
-            "The now-ubiquitous fashion film — a staple of every major brand's content strategy — was anticipated and largely invented by Knight through SHOWstudio. He saw that fashion needed time as well as space, and that the grammar of film offered tools photography never could.",
+            "The ubiquitous fashion film — every brand's content strategy staple — was anticipated and largely invented by Knight through SHOWstudio. Fashion needs time as well as space.",
         },
-        { type: "heading", content: "Mentorship" },
+        { type: "heading", content: "He Brings Others With Him" },
         {
           type: "paragraph",
           content:
-            "Through SHOWstudio, Knight has given platforms to hundreds of emerging photographers, stylists, and filmmakers. He is known for his generosity with emerging talent and his belief that fashion's future depends on experimental thinking at every level.",
+            "Through SHOWstudio, Knight has platformed hundreds of emerging photographers and filmmakers. He believes fashion's future depends on experimental thinking at every level.",
         },
       ],
       quiz: {
@@ -249,43 +249,43 @@ const course: Course = {
       title: "What You Can Learn From Knight",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From His Practice" },
+        { type: "heading", content: "Five Things to Steal From Knight" },
         {
           type: "paragraph",
           content:
-            "Knight's work challenges photographers to think more expansively about what an image is and what technology is for.",
+            "Knight's work challenges you to think more expansively about what an image is and what technology is actually for.",
         },
         { type: "heading", content: "1. Begin With the Idea, Not the Camera" },
         {
           type: "paragraph",
           content:
-            "Before you shoot, write down what the image is meant to communicate. What feeling, idea, or argument should it make? Images with clear conceptual intention — even when the concept is simple — tend to be stronger than images made instinctively without preparation.",
+            "Before you shoot, write down what the image is meant to communicate. Even a simple concept makes the image stronger.",
         },
-        { type: "heading", content: "2. See Technology as a Creative Tool" },
+        { type: "heading", content: "2. Every Tool Is a Creative Medium" },
         {
           type: "paragraph",
           content:
-            "Every tool available to you — from a phone camera to AI generation to flatbed scanning — is a legitimate creative medium. Ask not 'is this proper photography?' but 'what does this tool make possible that other tools do not?'",
+            "Phone camera, flatbed scanner, AI generation — ask not 'is this proper photography?' but 'what does this make possible that nothing else does?'",
         },
-        { type: "heading", content: "3. Embrace Reinvention" },
+        { type: "heading", content: "3. Reinvent Yourself on Purpose" },
         {
           type: "paragraph",
           content:
-            "Knight has never allowed himself to repeat himself. He finds a visual language, exploits it, and moves on. Consider deliberately making work that looks nothing like your previous work. What do you learn when you destabilise your own aesthetic?",
+            "Knight never lets himself repeat himself. Try making work that looks nothing like your previous work. What do you learn when you destabilise your own aesthetic?",
         },
-        { type: "heading", content: "4. Collaborate Across Disciplines" },
+        { type: "heading", content: "4. Collaborate Outside Your World" },
         {
           type: "paragraph",
           content:
-            "Knight's best work happens in collaboration — with designers, musicians, artists, technologists. Seek collaborators outside photography. What can a graphic designer, a filmmaker, a coder bring to your photographic practice?",
+            "Knight's best work is collaborative. What can a graphic designer, filmmaker, or coder bring to your photography that another photographer can't?",
         },
-        { type: "heading", content: "5. Consider Time as Well as Space" },
+        { type: "heading", content: "5. Add Time to the Story" },
         {
           type: "paragraph",
           content:
-            "Knight's move into fashion film recognised that a still image can only tell part of a story. Consider what your images would look like as moving images, as sequences, as films. How does time change what you're trying to say?",
+            "Knight moved into fashion film because still images can only tell part of a story. What would your images look like as moving sequences? How does time change what you're saying?",
         },
       ],
       reflection: {

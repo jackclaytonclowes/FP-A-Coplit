@@ -17,25 +17,25 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         {
           type: "heading",
-          content: "Wolfgang Tillmans (b. 1968, Remscheid, Germany)",
+          content: "Rave Kid Turned Turner Prize Winner",
         },
         {
           type: "paragraph",
           content:
-            "Wolfgang Tillmans was born in 1968 in Remscheid, West Germany. He grew up during the Cold War, with East Germany and its wall a daily psychological presence. This sense of borders — between public and private, between politics and personal life — would become central to his work.",
+            "Tillmans grew up in West Germany with the Berlin Wall as psychological wallpaper. He picked up a camera at 16 and started photographing rave culture — from the inside.",
         },
         {
           type: "paragraph",
           content:
-            "He began photographing at 16, initially documenting the emerging rave and club culture around him. By his early 20s he had moved to London and begun contributing to i-D magazine — images of a new youth culture that felt different from anything that had come before: intimate, non-hierarchical, uncurated.",
+            "By his early 20s he was in London, shooting for i-D magazine. His images felt different: intimate, non-hierarchical, honest. Fashion that didn't feel like fashion.",
         },
         {
           type: "heading",
-          content: "Key Career Milestones",
+          content: "The Milestones",
         },
         {
           type: "list",
@@ -50,12 +50,12 @@ const course: Course = {
         },
         {
           type: "heading",
-          content: "Influences",
+          content: "Who He Was Looking At",
         },
         {
           type: "paragraph",
           content:
-            "Tillmans has cited Nan Goldin as a formative influence — her diary-form approach to photographing community and intimacy. He has also acknowledged the influence of conceptual art, particularly how artists like Joseph Beuys used the gallery space itself as a medium.",
+            "Tillmans was shaped by Nan Goldin's diary-form intimacy and by conceptual artists like Joseph Beuys, who treated the gallery itself as a medium.",
         },
       ],
       quiz: {
@@ -75,52 +75,52 @@ const course: Course = {
       title: "Visual Style Analysis",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         {
           type: "heading",
-          content: "A Style Built on Anti-Style",
+          content: "His Style Is: No Style",
         },
         {
           type: "paragraph",
           content:
-            "Tillmans' visual style is famously difficult to define — and that difficulty is the point. He resists the idea of a signature look. His images range from abstract light studies to intimate portraits, from still lifes of kitchen tables to political demonstrations. Yet they are unmistakably his.",
+            "Tillmans resists a signature look — on purpose. Portraits, abstracts, still lifes, political images. Yet you always know it's him.",
         },
         {
           type: "heading",
-          content: "Composition",
+          content: "Space Is Part of the Image",
         },
         {
           type: "paragraph",
           content:
-            "Tillmans frequently uses negative space with generosity — subjects often occupy a small portion of the frame, surrounded by open space that becomes charged with meaning. He avoids obvious 'rules' while demonstrating an instinctive understanding of them.",
+            "Subjects often sit in a corner of the frame, surrounded by open space that hums with meaning. He ignores compositional rules while somehow obeying all of them.",
         },
         {
           type: "heading",
-          content: "Colour Treatment",
+          content: "Colour as Truth",
         },
         {
           type: "paragraph",
           content:
-            "His colour work is notable for its honesty. He does not aggressively correct colour casts — the warm yellow of tungsten light, the cold blue of fluorescent tubes, the flat grey of overcast days are all allowed to remain. This gives his images a documentary quality even when the subject is ostensibly fashion.",
+            "Tungsten warmth, fluorescent blue, flat grey overcast — Tillmans leaves the colour cast alone. The 'wrong' light is often the honest light.",
         },
         {
           type: "heading",
-          content: "The Gallery Installation",
+          content: "The Wall Is the Work",
         },
         {
           type: "paragraph",
           content:
-            "One of Tillmans' greatest innovations is his approach to hanging exhibitions. Rather than a linear sequence of framed works at eye height, he creates complex, multi-height installations that cover entire walls — photographs pinned directly or in frames, images of radically different sizes placed in unexpected proximity. The exhibition itself becomes the work.",
+            "Forget linear hang at eye height. Tillmans covers entire walls — mixed sizes, pinned and framed, wildly different scales. The installation is the artwork.",
         },
         {
           type: "heading",
-          content: "Darkroom Abstracts",
+          content: "Photos Without a Camera",
         },
         {
           type: "paragraph",
           content:
-            "In parallel with his documentary and fashion work, Tillmans has produced a body of abstract images made in the darkroom without a camera — light-exposed paper, chemical reactions, folded prints. These 'Freischwimmer' (freestyle) images push against photography's presumed relationship with representation.",
+            "His 'Freischwimmer' abstracts are made by exposing photographic paper to light in the darkroom — no camera involved. Photography doesn't need to represent anything.",
         },
         {
           type: "quote",
@@ -151,61 +151,61 @@ const course: Course = {
       title: "Signature Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         {
           type: "heading",
-          content: "Key Works & Series",
+          content: "Three Decades, No Repeats",
         },
         {
           type: "paragraph",
           content:
-            "Tillmans has produced an enormous and diverse body of work over three decades. Rather than discrete campaigns, he works continuously — his studio is his archive, constantly reorganised and recontextualised.",
+            "Tillmans works continuously — his studio is a living archive, always being reorganised and recontextualised. No discrete campaigns, just constant seeing.",
         },
         {
           type: "heading",
-          content: "Burg (1992)",
+          content: "Burg (1992) — Fashion From the Inside",
         },
         {
           type: "paragraph",
           content:
-            "His early club and rave photography — images of young people in ecstatic states, taken from within the scene. These were published in i-D and The Face and represented a new kind of fashion photography: not aspirational but participatory.",
+            "Club kids, ravers, ecstatic faces. Shot from within the scene for i-D and The Face. Not aspirational — participatory.",
         },
         {
           type: "heading",
-          content: "Freischwimmer (2003–05)",
+          content: "Freischwimmer (2003–05) — No Camera Required",
         },
         {
           type: "paragraph",
           content:
-            "Abstract darkroom works made without a camera. Light played on large sheets of photographic paper in the darkroom creates forms of extraordinary beauty. These images challenged what photography was allowed to be.",
+            "Light on large sheets of photo paper in a darkroom. The results are staggeringly beautiful — and completely camera-free.",
         },
         {
           type: "heading",
-          content: "Lutz & Alex (1992)",
+          content: "Lutz & Alex (1992) — Just Two People",
         },
         {
           type: "paragraph",
           content:
-            "A series documenting his close friend Lutz and his girlfriend Alex. These intimate images of a couple's daily life are shot with matter-of-fact directness — the subjects exist as themselves, not as models.",
+            "A series about his friend and girlfriend, shot with matter-of-fact directness. They're subjects, not models.",
         },
         {
           type: "heading",
-          content: "Truth Study Center (2005–ongoing)",
+          content: "Truth Study Center (2005–ongoing) — Politics on a Table",
         },
         {
           type: "paragraph",
           content:
-            "A series of table photographs showing newspaper clippings, objects, and ephemera arranged around specific themes — often political or social. These works engage directly with information and truth at a time when both were increasingly contested.",
+            "Newspaper clippings and objects arranged around contested themes. Art that grapples directly with facts and who controls them.",
         },
         {
           type: "heading",
-          content: "Neue Welt (2012)",
+          content: "Neue Welt (2012) — The World Without Sentimentality",
         },
         {
           type: "paragraph",
           content:
-            "A book of photographs taken around the world — airports, hotel rooms, clouds from plane windows — that attempts to picture the contemporary world honestly, without the sentimentality of travel photography or the aggression of photojournalism.",
+            "Airports, hotel rooms, clouds from plane windows. A honest picture of the contemporary world — no nostalgia, no aggression.",
         },
       ],
       quiz: {
@@ -225,52 +225,52 @@ const course: Course = {
       title: "Compositional Techniques",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         {
           type: "heading",
-          content: "How Tillmans Sees",
+          content: "Fast Eye, Trained Instincts",
         },
         {
           type: "paragraph",
           content:
-            "Understanding Tillmans' technical approach reveals why his images feel the way they do. He works quickly, often with available light, and prizes spontaneity over control. But spontaneity is not randomness — it is trained responsiveness.",
+            "Tillmans works quickly with available light. Spontaneity isn't chaos — it's a trained eye responding faster than thought.",
         },
         {
           type: "heading",
-          content: "Available Light",
+          content: "Use the Light That's There",
         },
         {
           type: "paragraph",
           content:
-            "Tillmans almost never uses flash or artificial lighting in his personal work. He embraces whatever light exists — the flat grey of an overcast afternoon, the warmth of a bedside lamp, the blue-hour glow through a window. This commitment to available light is also a commitment to documentary truth: the image records what was there.",
+            "No flash. No reflectors. Just whatever light exists — bedside lamp, grey afternoon, blue-hour window. That's the truth of the moment.",
         },
         {
           type: "heading",
-          content: "The Unposed Pose",
+          content: "Don't Ask, Don't Direct",
         },
         {
           type: "paragraph",
           content:
-            "His subjects are rarely asked to perform. They may be aware of the camera — often are — but they are not directed in the conventional sense. Tillmans photographs people in conversation, at rest, in the middle of movement. The result is images that feel stolen from life rather than staged for it.",
+            "His subjects aren't posed — they're living. Aware of the camera, sure, but not performing for it. The images feel stolen from real life.",
         },
         {
           type: "heading",
-          content: "Seriality",
+          content: "Think in Series",
         },
         {
           type: "paragraph",
           content:
-            "Tillmans rarely thinks in single images. He shoots extensively and thinks in series — how images will be shown together, what proximity and contrast between images creates. A single image removed from its installation context may lose much of its meaning.",
+            "Tillmans rarely makes one-off images. He shoots in volume and thinks about how images work together. One image alone can miss the point.",
         },
         {
           type: "heading",
-          content: "The Still Life",
+          content: "Objects Matter Too",
         },
         {
           type: "paragraph",
           content:
-            "His still lifes — a bowl of fruit, a pile of clothes, a window with condensation — use the same approach as his portraits: available light, minimum intervention, maximum attention. The objects are allowed to be themselves.",
+            "His still lifes — fruit, clothes, condensation on glass — get the same treatment as portraits. Available light, minimum fuss, maximum attention.",
         },
       ],
       quiz: {
@@ -290,52 +290,52 @@ const course: Course = {
       title: "Influence & Legacy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         {
           type: "heading",
-          content: "Tillmans' Cultural Impact",
+          content: "He Changed Three Things at Once",
         },
         {
           type: "paragraph",
           content:
-            "Few photographers have had as broad a cultural impact as Tillmans over the past three decades. He changed fashion photography, fine art photography, and the way exhibitions are made — all simultaneously.",
+            "Fashion photography, fine art photography, exhibition-making — Tillmans reshaped all three simultaneously. Few photographers can claim one.",
         },
         {
           type: "heading",
-          content: "Fashion Photography",
+          content: "Fashion Without Glamour",
         },
         {
           type: "paragraph",
           content:
-            "His work for i-D and The Face in the early 90s created a new vocabulary for fashion photography — one that was documentary, participatory, and anti-glamour. This directly influenced a generation of photographers including Harley Weir, Juergen Teller, and Alasdair McLellan.",
+            "His i-D and The Face work rewrote fashion photography as documentary and anti-glamour. Harley Weir, Juergen Teller, Alasdair McLellan all came after.",
         },
         {
           type: "heading",
-          content: "Fine Art Photography",
+          content: "Photography Belongs in a Museum",
         },
         {
           type: "paragraph",
           content:
-            "By winning the Turner Prize and exhibiting in major museums, Tillmans helped establish photography as an unambiguously serious fine art medium at a time when this was still contested. His abstract darkroom works demonstrated that photography could be as conceptually rigorous as painting.",
+            "Winning the Turner Prize settled an old argument. Photography is fine art, full stop. His darkroom abstracts proved it could be as conceptually rigorous as painting.",
         },
         {
           type: "heading",
-          content: "Political Engagement",
+          content: "Art Has to Show Up",
         },
         {
           type: "paragraph",
           content:
-            "Tillmans has used his public platform extensively for political causes — most notably campaigning against Brexit with large-scale poster campaigns. He believes artists have a responsibility to engage publicly with political questions.",
+            "Tillmans campaigned hard against Brexit with poster campaigns and public statements. He believes artists have a responsibility to engage with politics directly.",
         },
         {
           type: "heading",
-          content: "Legacy",
+          content: "The Tillmans Effect",
         },
         {
           type: "paragraph",
           content:
-            "The Tillmans influence is everywhere in contemporary photography — in the aesthetic of intimacy, the embrace of the everyday, the rejection of the perfectly composed, the interest in community and belonging. His visual language has become so pervasive it is now simply how a generation of photographers sees.",
+            "Intimacy, the everyday, the imperfect, the communal — his visual language is now so pervasive it's just how a generation of photographers sees.",
         },
       ],
       quiz: {
@@ -355,16 +355,16 @@ const course: Course = {
       title: "What You Can Learn From Tillmans",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         {
           type: "heading",
-          content: "Practical Lessons From His Practice",
+          content: "Five Things to Steal From Tillmans",
         },
         {
           type: "paragraph",
           content:
-            "Studying Tillmans is not about copying his style — it is about understanding the principles beneath the surface, which can be applied to any photographic practice.",
+            "Don't copy his style — understand what's underneath it. These principles work for any kind of photography.",
         },
         {
           type: "heading",
@@ -373,16 +373,16 @@ const course: Course = {
         {
           type: "paragraph",
           content:
-            "Tillmans photographs his own life — his friends, his communities, his travels, his studio. The most powerful photographs are often the most proximate. You do not need to travel to find subjects worth photographing.",
+            "Tillmans photographs his own life — his friends, his travels, his studio. You don't need to go anywhere. Start where you are.",
         },
         {
           type: "heading",
-          content: "2. Resist the Hierarchy of Subjects",
+          content: "2. Nothing Is Too Ordinary",
         },
         {
           type: "paragraph",
           content:
-            "For Tillmans, a bowl of fruit is as worthy of sustained attention as a supermodel. The banality of the everyday is not a problem to overcome — it is the subject. Remove your assumptions about what is 'photogenic'.",
+            "A bowl of fruit deserves the same attention as a supermodel. Drop your assumptions about what's worth photographing.",
         },
         {
           type: "heading",
@@ -391,7 +391,7 @@ const course: Course = {
         {
           type: "paragraph",
           content:
-            "A single image tells one story. A wall of related images tells a completely different and richer story. Begin to think about how your images relate to one another. Which images are in conversation? Which create productive tension when placed together?",
+            "One image tells one story. A wall of images tells a richer one. Which of your photos are in conversation? Put them together and find out.",
         },
         {
           type: "heading",
@@ -400,7 +400,7 @@ const course: Course = {
         {
           type: "paragraph",
           content:
-            "Before reaching for flash or extra lighting, spend time understanding what the available light is doing. Often the most interesting light is the 'wrong' light — too warm, too blue, too flat — that carries authentic information about the moment.",
+            "Before you reach for a flash, sit with the available light. The 'wrong' light — too warm, too blue, too flat — often carries the most information.",
         },
         {
           type: "heading",
@@ -409,7 +409,7 @@ const course: Course = {
         {
           type: "paragraph",
           content:
-            "Every image is an act of selection — what you choose to photograph, and what you choose not to, are political acts. Tillmans makes this explicit. Think about what your photography includes and excludes, and what those choices mean.",
+            "What you choose to photograph — and what you ignore — are political decisions. Own them.",
         },
       ],
       reflection: {
