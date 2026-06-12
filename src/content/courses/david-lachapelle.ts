@@ -17,18 +17,18 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "David LaChapelle (b. 1963, Fairfield, Connecticut)" },
+        { type: "heading", content: "Warhol's Protégé, America's Prophet" },
         {
           type: "paragraph",
           content:
-            "David LaChapelle was born in 1963 in Fairfield, Connecticut and moved to New York as a teenager, finding his way into the Factory scene and Andy Warhol's orbit. It was Warhol himself who gave LaChapelle his first photography assignment — for Interview magazine — recognising in the young man a sensibility that matched the Factory's own maximalism and celebration of American popular culture.",
+            "Born in Connecticut in 1963, LaChapelle made it to New York as a teenager and found Andy Warhol. Warhol gave him his first photography job at Interview magazine — and handed him a creative DNA he's never shaken.",
         },
         {
           type: "paragraph",
           content:
-            "His career through the 1990s and 2000s was characterised by extraordinary commercial success — campaigns for Versace, Diesel, and dozens of other major brands; portraits of every significant celebrity of the era; music videos for Britney Spears, Eminem, and Christina Aguilera. And then, in 2006, he withdrew entirely from commercial photography, retreating to a farm in Maui.",
+            "He spent the 1990s and 2000s at the top — Versace, Diesel, Britney, Eminem, every celebrity of the era. Then in 2006 he walked away entirely and moved to a farm in Maui.",
         },
         {
           type: "heading",
@@ -37,11 +37,11 @@ const course: Course = {
         {
           type: "list",
           items: [
-            "1984: Andy Warhol gives him his first assignment at Interview magazine",
-            "1990s: Staff photographer for Details and contributing photographer for Rolling Stone",
-            "1995: Begins regular work with Versace, Diesel, and major fashion houses",
-            "2004: 'Hotel LaChapelle' — the most commercially successful photography book of its year",
-            "2006: Withdraws from commercial photography; moves to farm in Maui",
+            "1984: Andy Warhol hands him his first assignment at Interview magazine",
+            "1990s: Staff photographer at Details; contributor to Rolling Stone",
+            "1995: Major campaigns for Versace, Diesel, and other fashion houses begin",
+            "2004: 'Hotel LaChapelle' — best-selling photography book of the year",
+            "2006: Withdraws from commercial photography; retreats to Maui",
             "2007: Returns with 'Earth Laughs in Flowers' — large-scale religious allegories",
           ],
         },
@@ -68,31 +68,31 @@ const course: Course = {
       title: "Visual Style Analysis",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Hyper-Saturation" },
+        { type: "heading", content: "More Colour Than Nature Allows" },
         {
           type: "paragraph",
           content:
-            "LaChapelle's most immediately recognisable technical signature is extreme colour saturation — colours pushed beyond what is possible in nature to a state that is simultaneously artificial and more real than real. This hyper-saturation is both a technical choice and a philosophical one: the world of popular culture and desire is more vivid than ordinary reality.",
+            "LaChapelle pushes saturation past what's physically possible — because desire and celebrity culture are more vivid than ordinary reality. The colour isn't exaggerated; it's honest.",
         },
-        { type: "heading", content: "Religious Iconography" },
+        { type: "heading", content: "Saints, Relics, and Celebrities" },
         {
           type: "paragraph",
           content:
-            "LaChapelle uses religious imagery extensively — and with genuine conviction rather than irony. Celebrities as saints, fashion shoots as the Last Supper, brand products as relics. He grew up Catholic and finds in Christian iconography a visual language capable of bearing the weight of his ideas about American culture, desire, and excess.",
+            "He uses religious imagery with genuine conviction, not irony. Growing up Catholic gave him a visual vocabulary capable of carrying the weight of his ideas about American worship — of brands, bodies, and fame.",
         },
-        { type: "heading", content: "Maximalism" },
+        { type: "heading", content: "Maximum Everything" },
         {
           type: "paragraph",
           content:
-            "LaChapelle is the great maximalist of fashion photography. Where other photographers remove, he adds. His sets are elaborate beyond function; his costumes are excessive beyond practicality; his narratives are crowded with meaning, reference, and visual incident. This maximalism is not lack of control — it is a sustained argument about American cultural excess.",
+            "Where other photographers remove, he adds. Sets built beyond function, costumes beyond practicality, images crowded with meaning. His maximalism is a sustained argument about American excess.",
         },
-        { type: "heading", content: "Surrealist Influence" },
+        { type: "heading", content: "American Surrealism" },
         {
           type: "paragraph",
           content:
-            "LaChapelle's images operate in a Surrealist register — objects behave unexpectedly, scales are wrong, impossible things happen in recognisable spaces. Unlike European Surrealism, however, his surrealism is specifically American: it is the surrealism of consumerism, celebrity, and the fever-dream of the American Dream itself.",
+            "His images operate in a Surrealist register — wrong scales, impossible events, recognisable spaces made strange. But it's specifically American surrealism: the fever-dream of consumerism and the celebrity-industrial complex.",
         },
         {
           type: "quote",
@@ -117,31 +117,31 @@ const course: Course = {
       title: "Signature Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Hotel LaChapelle (2004)" },
         {
           type: "paragraph",
           content:
-            "LaChapelle's defining monograph — hyper-saturated, maximalist, celebrity-filled images organised as if they were rooms in an impossible hotel. Each image is a complete world. The book was the best-selling photography book of 2004 and brought his work to the widest possible audience.",
+            "His defining monograph — hyper-saturated, maximalist, celebrity-packed, organised like rooms in an impossible hotel. Best-selling photography book of 2004. Each image is a complete world.",
         },
         { type: "heading", content: "Earth Laughs in Flowers (2011)" },
         {
           type: "paragraph",
           content:
-            "Made after his withdrawal from commercial photography, this series of large-scale images draws on the history of Western painting — particularly the Northern Renaissance — to comment on environmental destruction, materialism, and spiritual emptiness. The most ambitious and complex work of his post-commercial period.",
+            "Made after his commercial withdrawal, this large-scale series draws on Northern Renaissance painting to comment on environmental destruction and spiritual emptiness. His most ambitious post-commercial work.",
         },
         { type: "heading", content: "Deluge (2007)" },
         {
           type: "paragraph",
           content:
-            "A monumental photograph referencing Michelangelo's Sistine Chapel — figures drowning in a flooded world surrounded by consumer products. Made in the aftermath of Hurricane Katrina, it is his most explicitly political image and one of the most cited large-scale photographs of the 2000s.",
+            "Michelangelo's Sistine Chapel meets Hurricane Katrina: figures drowning in a consumer-product flood. His most explicitly political image and one of the most cited large-scale photographs of the 2000s.",
         },
-        { type: "heading", content: "Music Video Work" },
+        { type: "heading", content: "Music Videos as Extended Photography" },
         {
           type: "paragraph",
           content:
-            "LaChapelle directed music videos for Britney Spears, Eminem, Christina Aguilera, and others — extending his photographic aesthetic into the time-based medium. His videos are extensions of his stills work: the same maximalism, the same hyper-saturation, the same surrealist imagery in motion.",
+            "Britney, Eminem, Christina Aguilera — his music videos are his stills work in motion. Same maximalism, same hyper-saturation, same surrealist logic. One visual language, two mediums.",
         },
       ],
       quiz: {
@@ -161,31 +161,31 @@ const course: Course = {
       title: "Techniques & Approach",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Production Machine" },
+        { type: "heading", content: "Build the World, Don't Suggest It" },
         {
           type: "paragraph",
           content:
-            "LaChapelle's shoots are among the most elaborately produced in fashion photography. He works with large teams of set builders, prop makers, costume designers, and special effects technicians. The sets are frequently constructed entirely from scratch — a flooded room requires an actual flooded room, built in a studio.",
+            "LaChapelle builds actual flooded rooms for flooded-room images. His sets are constructed from scratch by full teams of builders, prop makers, and effects technicians. There is no approximation.",
         },
-        { type: "heading", content: "Painting as Reference" },
+        { type: "heading", content: "Art History Is His Visual Bible" },
         {
           type: "paragraph",
           content:
-            "LaChapelle prepares extensive visual references from Western painting history before each shoot. He is deeply conversant with art history, particularly the Northern Renaissance and the Baroque, and uses these references not as pastiche but as genuine starting points for thinking about light, composition, and meaning.",
+            "He prepares deep visual research from Western painting — especially the Northern Renaissance and Baroque — before every shoot. Not as pastiche; as genuine creative starting material.",
         },
-        { type: "heading", content: "Lighting the Impossible" },
+        { type: "heading", content: "Light That Shouldn't Be Possible" },
         {
           type: "paragraph",
           content:
-            "LaChapelle's lighting is simultaneously naturalistic and impossible — lit as if by a sun that exists at a perfect angle, with shadows that go exactly where they need to go. This requires extensive pre-planning and multiple light sources that create the illusion of a single perfect light.",
+            "His lighting looks natural but is completely engineered — multiple sources creating the illusion of one perfect sun, shadows landing exactly where they need to go.",
         },
-        { type: "heading", content: "The Withdrawal and Return" },
+        { type: "heading", content: "The Retreat That Made Him Better" },
         {
           type: "paragraph",
           content:
-            "LaChapelle's 2006 withdrawal from commercial photography — motivated by exhaustion, spiritual hunger, and dissatisfaction with celebrity culture — and his subsequent return with more ambitious, more serious work is one of the most interesting biographical arcs in contemporary photography. The retreat proved artistically productive.",
+            "His 2006 withdrawal — driven by exhaustion, spiritual hunger, and disillusionment — produced his most serious work. Sometimes stopping is the most productive move.",
         },
       ],
       quiz: {
@@ -205,31 +205,31 @@ const course: Course = {
       title: "Influence & Legacy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Pop Art and Photography" },
+        { type: "heading", content: "Warhol's Heir" },
         {
           type: "paragraph",
           content:
-            "LaChapelle represents the most direct continuation of Andy Warhol's Pop Art project in contemporary photography. He treats popular culture — celebrities, brands, consumer products — as the legitimate subject of serious art, with the same visual intensity that Warhol brought to Campbell's soup cans.",
+            "LaChapelle is the most direct continuation of Pop Art in contemporary photography. He treats celebrities and consumer products as legitimate art subjects with the same intensity Warhol brought to soup cans.",
         },
-        { type: "heading", content: "American Culture as Subject" },
+        { type: "heading", content: "The Greatest Critic of American Culture" },
         {
           type: "paragraph",
           content:
-            "LaChapelle has created the most sustained photographic commentary on American culture — its excesses, its religious undercurrents, its relationship to celebrity and desire — of any photographer working today. His images are simultaneously of their time and archaeological documents of a specific American moment.",
+            "No photographer has produced a more sustained commentary on American excess, celebrity worship, and consumer religion. His images are both of their time and archaeological documents of a specific American moment.",
         },
-        { type: "heading", content: "Maximalism as Counterpoint" },
+        { type: "heading", content: "More Is Valid Too" },
         {
           type: "paragraph",
           content:
-            "In an era when 'less is more' has become the dominant aesthetic in fashion and advertising, LaChapelle's maximalism is a genuine counterpoint — a reminder that more is also a valid position, and that excess can be as meaningful as restraint. His work gives permission to photographers who want to say something large and crowded.",
+            "In an era of minimalism, LaChapelle's maximalism is a genuine counterpoint. His work gives permission to photographers who have something large and crowded to say.",
         },
-        { type: "heading", content: "The Sacred in the Secular" },
+        { type: "heading", content: "What We Actually Worship" },
         {
           type: "paragraph",
           content:
-            "LaChapelle's use of religious iconography in commercial and celebrity contexts is among the most interesting theological statements in contemporary art. By treating celebrities as saints and consumer products as relics, he is not simply being provocative — he is arguing that these things have become the actual objects of religious devotion in contemporary America.",
+            "His use of religious iconography in celebrity contexts isn't provocative — it's observational. He argues that celebrities and brands have become the actual objects of religious devotion in contemporary America. It's hard to argue with him.",
         },
       ],
       quiz: {
@@ -249,43 +249,43 @@ const course: Course = {
       title: "What You Can Learn From LaChapelle",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From His Practice" },
+        { type: "heading", content: "Commit Fully or Don't Bother" },
         {
           type: "paragraph",
           content:
-            "LaChapelle teaches the power of commitment to an idea — the willingness to build the entire world an image needs, whatever that requires.",
+            "LaChapelle teaches one thing above all: if you have an idea, build the world it needs. Half-measures produce half-images.",
         },
         { type: "heading", content: "1. Commit Fully to the Concept" },
         {
           type: "paragraph",
           content:
-            "LaChapelle builds actual flooded rooms for flooded rooms. He doesn't suggest or approximate — he builds the reality the concept requires. How fully are you committing to the concepts behind your images? What would you need to build, buy, or construct to realise them completely?",
+            "He builds actual flooded rooms. Don't approximate — realise. What would you need to build, source, or construct to make your concept completely real?",
         },
         { type: "heading", content: "2. Study Art History" },
         {
           type: "paragraph",
           content:
-            "LaChapelle's deepest references are from the Northern Renaissance and the Baroque. Before your next ambitious shoot, spend an hour with art history images. Identify one compositional or lighting principle from a painting you admire and try to apply it literally to a photograph.",
+            "Before your next ambitious shoot, spend an hour with Northern Renaissance or Baroque paintings. Find one compositional principle and apply it literally to a photograph.",
         },
         { type: "heading", content: "3. Make Images With Arguments" },
         {
           type: "paragraph",
           content:
-            "LaChapelle's images are arguments — about American culture, about desire, about what we worship. What argument do you want your photography to make? Not a vague theme but a specific argument, with a position. Images with arguments are stronger than images with subjects.",
+            "LaChapelle's images have positions — about desire, worship, excess. What argument do you want your photography to make? Not a theme. A specific position.",
         },
         { type: "heading", content: "4. Permit Yourself Excess" },
         {
           type: "paragraph",
           content:
-            "Contemporary visual culture prizes restraint and minimalism. Deliberately make an image that uses too much — too much colour, too much content, too many elements. Notice what excess communicates that restraint cannot. Then decide which serves your purpose.",
+            "Deliberately make an image with too much colour, too many elements, too much happening. Notice what excess communicates that restraint never could.",
         },
         { type: "heading", content: "5. Know When to Withdraw" },
         {
           type: "paragraph",
           content:
-            "LaChapelle's withdrawal from commercial work — and the artistic growth it produced — is a model for any creative practice. Exhaustion and dissatisfaction are information. What would happen if you stopped doing what you're doing for six months and made only the images you actually want to make?",
+            "LaChapelle's retreat made him a better artist. Exhaustion and dissatisfaction are data. What would six months of making only images you actually want to make do to your practice?",
         },
       ],
       reflection: {

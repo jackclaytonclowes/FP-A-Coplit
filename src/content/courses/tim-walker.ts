@@ -17,22 +17,22 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Tim Walker (b. 1970, Guildford, England)" },
+        { type: "heading", content: "From Avedon's Studio to British Vogue at 25" },
         {
           type: "paragraph",
           content:
-            "Tim Walker grew up in Guildford, Surrey, and studied photography at Exeter College of Art and Design. After graduating in 1994 he spent a year as an assistant at Richard Avedon's studio in New York — an experience he has described as formative in understanding the scale of ambition available to a photographer.",
+            "Walker studied in Exeter, then spent a year as Avedon's assistant in New York — watching what serious photographic ambition actually looks like.",
         },
         {
           type: "paragraph",
           content:
-            "He returned to the UK and began shooting for British Vogue in 1995, aged 25 — a relationship that would last three decades. His images were immediately unlike anything else the magazine published: theatrical, literary, in love with the strange. By the early 2000s he was one of the most celebrated photographers in the world.",
+            "He returned to the UK and started shooting for British Vogue at 25. His images were immediately unlike anything else — theatrical, literary, strange. The world noticed.",
         },
         {
           type: "heading",
-          content: "Key Career Milestones",
+          content: "A Career Built on Impossible Images",
         },
         {
           type: "list",
@@ -68,31 +68,31 @@ const course: Course = {
       title: "Visual Style Analysis",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Fashion Photography as Fiction" },
+        { type: "heading", content: "This Isn't Reality. It's Better." },
         {
           type: "paragraph",
           content:
-            "Tim Walker makes images that are self-consciously fictional. Where many fashion photographers present an aspirational version of real life, Walker presents something entirely different: a parallel world governed by different physical and logical laws, in which everything is beautiful and nothing is impossible.",
+            "Walker doesn't show an aspirational version of real life — he builds a parallel world where the physical laws are different and everything is beautiful.",
         },
-        { type: "heading", content: "The Surrealist Inheritance" },
+        { type: "heading", content: "Dalí, Magritte, and Lewis Carroll Walk Into a Shoot" },
         {
           type: "paragraph",
           content:
-            "Walker's work draws deeply on the European Surrealist tradition — Magritte, Dalí, Carroll — and on the British tradition of literary fantasy. Giants and dwarves, impossible scale, objects behaving unexpectedly: Walker's visual vocabulary comes from literature and dreamwork as much as from photography's history.",
+            "Surrealism, British literary fantasy, dreamwork — Walker's visual vocabulary comes from literature and art history as much as from photography.",
         },
-        { type: "heading", content: "Elaborate Sets" },
+        { type: "heading", content: "The Set Is Half the Image" },
         {
           type: "paragraph",
           content:
-            "Walker is famous for constructing elaborate sets for his shoots — sets that are often destroyed immediately after. Giant papier-mâché animals, rooms filled with flowers, entire architectures built for a single image. This is fashion photography as theatre, and the set is as important as the clothes or the model.",
+            "Giant papier-mâché animals. Rooms full of flowers. Entire architectures built for one shot, then destroyed. This is fashion photography as theatre.",
         },
-        { type: "heading", content: "Colour and Light" },
+        { type: "heading", content: "Golden Light That Doesn't Exist in Nature" },
         {
           type: "paragraph",
           content:
-            "Walker's colour palette is lush and saturated without being garish. He tends towards warm, golden tones that make everything glow from within. His lighting is careful and theatrical — often simulating natural light even when the set is entirely artificial. Everything in a Walker image seems lit by a light that doesn't exist in nature but should.",
+            "Walker's warm, saturated palette makes everything glow from within. His lighting is careful and theatrical — simulating a natural light that nature never quite manages.",
         },
         {
           type: "quote",
@@ -117,31 +117,31 @@ const course: Course = {
       title: "Signature Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "British Vogue, 2001–present" },
+        { type: "heading", content: "British Vogue — Thirty Years of December Magic" },
         {
           type: "paragraph",
           content:
-            "Walker's thirty-year relationship with British Vogue has produced some of the most celebrated fashion editorial images ever published. His December issues in particular have become annual events — elaborate fairy-tale narratives shot in English country houses, on Devon beaches, in Scottish castles.",
+            "English country houses, Devon beaches, Scottish castles — Walker's December issues have become annual events. Fairy-tale narratives that readers wait for all year.",
         },
-        { type: "heading", content: "Alexander McQueen: Savage Beauty (2011)" },
+        { type: "heading", content: "McQueen: Savage Beauty — Honouring the Archive" },
         {
           type: "paragraph",
           content:
-            "Walker was appointed to create images for the Metropolitan Museum's landmark McQueen retrospective. Working closely with the late designer's archive, he created new images that honoured the work while interpreting it through his own lens.",
+            "The Met commissioned Walker to create new images for the landmark McQueen retrospective. He honoured the work while making it entirely his own.",
         },
-        { type: "heading", content: "Story Teller — Victoria and Albert Museum (2019)" },
+        { type: "heading", content: "Story Teller at the V&A — Fashion Photography in a Museum" },
         {
           type: "paragraph",
           content:
-            "A major retrospective at the V&A in London. The exhibition recreated several of Walker's most elaborate sets at scale — a vindication of his belief that fashion photography belongs in a museum. One of the most visited shows in the V&A's recent history.",
+            "His 2019 V&A retrospective recreated his most elaborate sets at full scale. One of the museum's most visited shows. Fashion photography earned its museum wall.",
         },
-        { type: "heading", content: "Capsule Collections for Fashion Houses" },
+        { type: "heading", content: "Campaign Work — The Best Advertising Forgets It's Advertising" },
         {
           type: "paragraph",
           content:
-            "Walker's campaign work for houses including Louis Vuitton, Valentino, and Comme des Garçons demonstrated that his approach — theatrical, literary, anti-commercial in feel — could serve commercial purposes. The best commercial art makes you forget it is advertising.",
+            "Louis Vuitton, Valentino, Comme des Garçons — Walker proved theatrical and literary could serve commercial purposes. When it works, you forget you're looking at an ad.",
         },
       ],
       quiz: {
@@ -161,31 +161,31 @@ const course: Course = {
       title: "Techniques & Approach",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Pre-Production as Art" },
+        { type: "heading", content: "The Moodboard Is Already a Work of Art" },
         {
           type: "paragraph",
           content:
-            "Walker's images are planned in extraordinary detail before any shooting takes place. He works with a consistent team of set builders, prop makers, and costume designers. The moodboard for a Walker shoot is itself a work of art — dozens of literary references, art historical touchstones, fabric swatches, architectural drawings.",
+            "Dozens of literary references, art historical touchstones, fabric swatches, architectural drawings — before anyone touches a camera, Walker knows exactly what world he's building.",
         },
-        { type: "heading", content: "Large Format Film" },
+        { type: "heading", content: "Large Format Film — Slow by Design" },
         {
           type: "paragraph",
           content:
-            "Walker shoots on large format film — often 8x10 — rather than digital. This is both an aesthetic choice (the tonal range and resolution of large format is unmatched) and a philosophical one: large format slows everything down, demands precision, makes the act of taking a photograph deliberate rather than reflexive.",
+            "8x10 film demands precision and deliberateness. Every frame costs something. That constraint produces images that are thought through rather than reflexively taken.",
         },
-        { type: "heading", content: "Working With Non-Models" },
+        { type: "heading", content: "Real People Make It Human" },
         {
           type: "paragraph",
           content:
-            "Walker frequently casts non-professional models alongside professional ones — children, elderly people, people with unusual physical characteristics. This gives his images a human quality that purely professional casts rarely have: you cannot tell who is the 'real' model, which is exactly the point.",
+            "Walker casts children, elderly people, and non-professionals alongside models. You can't tell who the 'real' model is — which is exactly the point.",
         },
-        { type: "heading", content: "On-Location Shooting" },
+        { type: "heading", content: "Every Location Is a Stage" },
         {
           type: "paragraph",
           content:
-            "Despite his reputation for elaborate constructed sets, Walker also shoots extensively on location — English countryside, Scottish Highlands, the Devon coast. He uses real environments with the same theatrical sensibility he brings to sets: every location is a stage.",
+            "Even when shooting on location — Scottish Highlands, Devon coast — Walker brings the same theatrical sensibility. Real places, treated like sets.",
         },
       ],
       quiz: {
@@ -205,31 +205,31 @@ const course: Course = {
       title: "Influence & Legacy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Narrative Fashion Photography" },
+        { type: "heading", content: "Fashion Photography Can Tell Stories" },
         {
           type: "paragraph",
           content:
-            "Walker's most significant contribution has been to demonstrate that fashion photography can tell stories — complex, literary, emotionally resonant stories — without sacrificing its commercial function. Every photographer who constructs a narrative scenario for a fashion shoot works in a tradition he helped create.",
+            "Walker proved that complex, literary, emotionally resonant narratives work in fashion photography — without killing its commercial function. Every narrative editorial owes him a nod.",
         },
-        { type: "heading", content: "The Set as Artwork" },
+        { type: "heading", content: "The Set Became Art" },
         {
           type: "paragraph",
           content:
-            "Walker elevated the fashion set from backdrop to artwork. His sets are sometimes more photographically interesting than the clothes they display. This raised the status of set design within fashion and created a new kind of collaboration between photographers and makers.",
+            "Walker's sets are sometimes more interesting than the clothes they display. He elevated set design from backdrop to co-author.",
         },
-        { type: "heading", content: "Literary Fashion" },
+        { type: "heading", content: "Fashion Got a Literary Sensibility" },
         {
           type: "paragraph",
           content:
-            "Walker gave fashion photography a literary sensibility — an interest in character, narrative, atmosphere, and meaning. His images don't just show clothes; they tell stories. This has been enormously influential on subsequent editorial photography, particularly in the UK.",
+            "Character, atmosphere, narrative, meaning — Walker gave fashion photography a reason to read. His influence on UK editorial photography is enormous.",
         },
-        { type: "heading", content: "Celebrating British Eccentricity" },
+        { type: "heading", content: "British Weirdness as a Superpower" },
         {
           type: "paragraph",
           content:
-            "Walker's work is deeply, specifically British in its sensibility — its love of the countryside, its celebration of eccentricity, its use of literary and historical reference. He made a virtue of a specifically national character that fashion's international market often demands be suppressed.",
+            "Walker's work is deeply, specifically British — countryside, eccentricity, literary and historical reference. He made national character into a photographic strength, not a limitation.",
         },
       ],
       quiz: {
@@ -249,43 +249,43 @@ const course: Course = {
       title: "What You Can Learn From Walker",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From His Practice" },
+        { type: "heading", content: "Five Things to Steal From Walker" },
         {
           type: "paragraph",
           content:
-            "Walker's work teaches that photography is a narrative art, and that the story begins long before the camera is raised.",
+            "Walker's lesson: photography is a narrative art. The story starts long before you raise the camera.",
         },
-        { type: "heading", content: "1. Build Your Visual World Before You Shoot" },
+        { type: "heading", content: "1. Build Your World Before You Shoot" },
         {
           type: "paragraph",
           content:
-            "Create moodboards before every significant shoot. Gather references from literature, art history, cinema, architecture. Know what world your image inhabits before you begin making it.",
+            "Make moodboards before every significant shoot. Gather references from literature, art, cinema. Know what world you're entering before you step in.",
         },
         { type: "heading", content: "2. Think in Stories, Not Single Images" },
         {
           type: "paragraph",
           content:
-            "Before shooting, ask: what is happening in this image? What happened just before? What happens next? Characters in a Walker image have histories and futures, even if none of this is visible. This thinking gives images depth.",
+            "What happened just before this image? What happens next? Characters in a Walker image have histories and futures. That thinking gives images depth.",
         },
         { type: "heading", content: "3. Slow Down Your Process" },
         {
           type: "paragraph",
           content:
-            "Whether or not you shoot on film, try slowing down. Limit yourself to a fixed number of exposures. Compose carefully before you shoot. The discipline of large format thinking — precision, deliberateness — is available to anyone with any camera.",
+            "Limit yourself to a fixed number of exposures. Compose carefully before you shoot. Large format discipline is available to anyone with any camera.",
         },
-        { type: "heading", content: "4. Celebrate Your Environment" },
+        { type: "heading", content: "4. Your Environment Is a Resource" },
         {
           type: "paragraph",
           content:
-            "Walker made his British environment a subject, not a limitation. What is specific about where you live — its light, its architecture, its culture, its seasons — that could become a photographic resource rather than an obstacle?",
+            "Walker made his British surroundings a subject, not a limitation. What's specific about where you live — its light, its seasons, its culture — that you could use?",
         },
         { type: "heading", content: "5. Read More" },
         {
           type: "paragraph",
           content:
-            "Walker's images come from literature as much as from photography. Read the books your favourite photographers read. Lewis Carroll, Angela Carter, A.S. Byatt — Walker's visual imagination is inseparable from his literary imagination. Expand yours.",
+            "Walker's visual imagination comes from Lewis Carroll, Angela Carter, A.S. Byatt as much as from photography. Expand your literary references and your images will follow.",
         },
       ],
       reflection: {

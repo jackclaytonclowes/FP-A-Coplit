@@ -16,27 +16,27 @@ const course: Course = {
       title: "Origins & History",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Brassaï and Paris de Nuit (1932)" },
+        { type: "heading", content: "The Book That Invented Night Photography" },
         {
           type: "paragraph",
           content:
-            "Gyula Halász — who adopted the name Brassaï after his birthplace of Brassó in Transylvania — arrived in Paris in 1924 and spent years documenting its nightlife before publishing Paris de Nuit in 1932. The book is the founding text of nocturnal photography: the first sustained, technically accomplished artistic engagement with the city after dark. It sold 40,000 copies in its first week and established night photography as a legitimate artistic practice.",
+            "Brassaï arrived in Paris in 1924 and spent years working its night streets before publishing Paris de Nuit in 1932. It sold 40,000 copies in its first week. Night photography as a legitimate art form: started here.",
         },
         {
           type: "paragraph",
           content:
-            "Brassaï made his night photographs using large-format cameras on tripods, with exposures of several minutes on orthochromatic film that rendered colours as unexpected tonal values. The technical difficulties were considerable: focus had to be estimated, exposure calculated without a light meter, and the subjects — prostitutes, lovers, criminals, café society — had to be persuaded to remain still or photographed without their awareness.",
+            "Large-format cameras on tripods. Multi-minute exposures on orthochromatic film. Focus estimated, exposure guessed without a light meter. The technical difficulties were enormous — and Brassaï solved them all.",
         },
         {
           type: "heading",
-          content: "The City at Night as Subject",
+          content: "A World the Daylit City Concealed",
         },
         {
           type: "paragraph",
           content:
-            "Before Brassaï, the city at night was largely absent from photography. Artificial light was weak and variable; the technical challenges of long exposure were formidable; and the social spaces of the night — brothels, street corners, all-night cafés — were not the spaces of respectable artistic attention. Brassaï changed all of this, establishing Paris's nocturnal social life as a subject worthy of serious photographic attention.",
+            "Before Brassaï, the nocturnal city barely existed in photography. Weak artificial light, formidable technical challenges, and the social spaces of night — brothels, street corners, all-night cafés — weren't considered worthy of serious artistic attention. He changed all of that.",
         },
         {
           type: "list",
@@ -72,37 +72,37 @@ const course: Course = {
       title: "Key Practitioners",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Brassaï (1899–1984)" },
         {
           type: "paragraph",
           content:
-            "Brassaï's Paris night photographs — street scenes, cafés, brothels, lovers on park benches, homeless figures under bridges — documented a social world that the daylit city concealed. His images have both documentary specificity and a poetic quality produced by the long exposure's smoothing of time: figures blur slightly, light trails appear, water becomes silk. He is the unavoidable origin point of the entire nocturnal photography tradition.",
+            "Street scenes, cafés, brothels, lovers on park benches, homeless figures under bridges. Brassaï documented a nocturnal social world the daylit city concealed — with both documentary specificity and the poetic blur of long exposure.",
         },
         { type: "heading", content: "Alexey Titarenko (b. 1962)" },
         {
           type: "paragraph",
           content:
-            "Titarenko's Crowd series, made in St. Petersburg in the early 1990s during the economic collapse following the Soviet Union's fall, shows crowds in public spaces as ghostly streams of blurred humanity. Long exposures transform moving figures into something between smoke and shadow. The series uses the camera's transformation of time to make a political and emotional statement about collective suffering.",
+            "Titarenko's Crowd series in post-Soviet St. Petersburg uses long exposures to dissolve people into ghostly streams. Individual suffering becomes collective and elemental. Technical fact becomes political statement.",
         },
         { type: "heading", content: "Todd Hido (b. 1968)" },
         {
           type: "paragraph",
           content:
-            "Hido's series of suburban houses photographed at night — glowing from within, isolated by darkness, their interiors invisible but implied — are among the most influential photographs of the past three decades. The images suggest narrative (who lives here? what is happening inside?) while withholding it. The suburban house at night becomes a site of mystery, loneliness, and private life.",
+            "Hido photographs suburban houses at night — glowing from within, isolated by darkness. The images suggest everything and show nothing. The suburban house becomes a site of mystery, loneliness, and private life.",
         },
         { type: "heading", content: "Gregory Crewdson (b. 1962)" },
         {
           type: "paragraph",
           content:
-            "Crewdson's elaborately staged nocturnal suburban tableaux — made using film-industry equipment, large crews, and multiple light sources — are among the most technically ambitious photographs ever made. His images of American suburban life are cinematic in scale and production, depicting moments of psychological crisis, loneliness, and inexplicable event. The night is his primary territory.",
+            "Hollywood-scale production: lighting rigs, cranes, closed streets, large crews, weeks of preparation per image. The most technically ambitious still photographs ever made. Cinematic nocturnal suburban tableaux of psychological crisis.",
         },
         { type: "heading", content: "Bill Henson (b. 1955)" },
         {
           type: "paragraph",
           content:
-            "Australian photographer Bill Henson photographs adolescents in nocturnal landscapes and urban environments, creating images of extraordinary tonal beauty and psychological complexity. His work uses darkness not as concealment but as a condition that reveals — the face emerging from shadow, the figure at the threshold between light and dark.",
+            "Henson uses darkness not as concealment but as a condition that reveals — the face emerging from shadow, the figure at the threshold between light and dark. Tonal beauty and psychological complexity in equal measure.",
         },
       ],
       quiz: {
@@ -122,31 +122,31 @@ const course: Course = {
       title: "Visual Characteristics",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Light Trails and the Transformation of Time" },
+        { type: "heading", content: "Light Trails: The Camera Sees Duration" },
         {
           type: "paragraph",
           content:
-            "The most immediately recognisable visual characteristic of nocturnal long-exposure photography is the light trail: moving vehicles become rivers of light, their headlights and taillights tracing paths that exist only in the camera's extended experience of time. Star trails — long exposures of the night sky — show the earth's rotation as arcs of light. The camera sees duration where the eye sees only the present moment.",
+            "Moving vehicles become rivers of light. Stars trace arcs across the sky as the earth rotates. The camera sees duration where the eye sees only the present moment — and makes it visible.",
         },
-        { type: "heading", content: "Colour Temperature and Artificial Light" },
+        { type: "heading", content: "Every Light Source Has Its Own Colour" },
         {
           type: "paragraph",
           content:
-            "Different artificial light sources have very different colour temperatures: sodium vapour street lights produce the characteristic orange-amber of urban night; mercury vapour lights are cold blue-green; neon signs throw saturated colour pools; domestic tungsten light glows warm yellow from house windows. These colour variations — invisible in daylight, dominant at night — are a primary aesthetic resource for nocturnal photographers.",
+            "Sodium vapour: orange-amber. Mercury vapour: cold blue-green. Neon signs: saturated colour pools. Domestic tungsten: warm yellow. These colour temperature differences are a primary aesthetic resource — invisible in daylight, dominant at night.",
         },
-        { type: "heading", content: "Mystery, Isolation, and Absence" },
+        { type: "heading", content: "Night Is a Space of Narrative Implication" },
         {
           type: "paragraph",
           content:
-            "Night photography has an inherent quality of mystery and isolation. The darkness that surrounds lit spaces becomes charged with implied presence or absence. Empty night streets carry the suggestion of activity just past or about to come. This quality — night as a space of narrative implication — is what draws photographers like Hido and Crewdson to nocturnal subjects.",
+            "Empty night streets carry the suggestion of activity just past or about to come. Lit windows imply private lives. Darkness surrounds lit spaces and charges them with implied presence. Hido and Crewdson built entire careers on this quality.",
         },
-        { type: "heading", content: "The Camera Sees Differently From the Eye" },
+        { type: "heading", content: "The Camera Sees Something You Never Will" },
         {
           type: "paragraph",
           content:
-            "The human eye adapts to darkness through pupil dilation and rod cell activation, but its experience of night is always in real time. The camera with an open shutter accumulates light over seconds or minutes, revealing a night scene with a brightness and detail that no human eye ever sees. Nocturnal photography is always, in this sense, a vision of something that has never been directly seen.",
+            "Your eye adapts to darkness in real time. The camera accumulates light over seconds or minutes, revealing brightness and detail that exists only across duration — not in any single moment. Nocturnal photography always shows a vision no eye has ever seen.",
         },
       ],
       quiz: {
@@ -166,31 +166,31 @@ const course: Course = {
       title: "Defining Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Brassaï: Paris de Nuit (1932)" },
         {
           type: "paragraph",
           content:
-            "The founding work of nocturnal photography: 64 images of Paris at night, introduced by Paul Morand, documenting the city's nocturnal social world with technical precision and poetic atmosphere. Its street scenes — the reflections in wet cobblestones, the isolated figures under gas lamps, the cafés glowing in the dark — established the visual vocabulary of the night city that subsequent photography has worked within ever since.",
+            "64 images. Cobblestones reflecting gaslight. Isolated figures. Cafés glowing in the dark. The visual vocabulary of the night city that all subsequent nocturnal photography has worked within.",
         },
         { type: "heading", content: "Gregory Crewdson: Beneath the Roses (2003–08)" },
         {
           type: "paragraph",
           content:
-            "Crewdson's most ambitious series: large-format colour photographs of suburban American life in states of psychological crisis or inexplicable event. Made with Hollywood-scale production values — lighting rigs, cranes, closed streets, large crews — the images achieve a nocturnal atmosphere of extraordinary intensity. Each image is simultaneously a complete world and an unsolvable mystery.",
+            "New England towns closed down for weeks. Lighting trucks, cranes, actors, Hollywood production design. Each image is simultaneously a complete world and an unsolvable mystery. Nocturnal atmosphere at maximum intensity.",
         },
         { type: "heading", content: "Todd Hido: House Hunting (1996–2000)" },
         {
           type: "paragraph",
           content:
-            "Hido's series of suburban houses photographed at night — warm light leaking from windows across snow and darkness — has been enormously influential on subsequent photography and visual culture. The images are deceptively simple: a house, at night, from the street. But the warmth of the interior light against the cold exterior creates an emotional charge of longing, exclusion, and domestic mystery.",
+            "A house. At night. From the street. Warm light leaking through windows across snow and darkness. Enormously influential on subsequent photography and visual culture. Deceptively simple. Emotionally devastating.",
         },
         { type: "heading", content: "Alexey Titarenko: City of Shadows (1992–94)" },
         {
           type: "paragraph",
           content:
-            "Titarenko's complete St. Petersburg project — of which the Crowd series is the most famous component — documents a city in social collapse with images that transform documentary observation into something closer to elegy. The long-exposure dissolution of human figures is both a technical fact and a metaphor for social disintegration.",
+            "The complete St. Petersburg project during social collapse — documentary observation transformed into elegy. Long-exposure dissolution of human figures as both technical fact and metaphor for disintegration.",
         },
       ],
       quiz: {
@@ -210,31 +210,31 @@ const course: Course = {
       title: "Modern Influence",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Rise of Astrophotography" },
+        { type: "heading", content: "Astrophotography Goes Mainstream" },
         {
           type: "paragraph",
           content:
-            "Astrophotography — the photography of night skies, star trails, the Milky Way — has moved from a specialist technical pursuit to a mass cultural phenomenon. Camera technology improvements (high ISO performance, fast lenses) and travel to dark-sky locations have made the night sky available to amateur photographers. The astrophotography aesthetic — Milky Way arching over a landscape — has become one of the defining visual tropes of contemporary photography.",
+            "Better sensors, faster lenses, dark-sky travel: the Milky Way arching over a landscape became one of the defining visual tropes of contemporary photography. Night sky photography moved from specialist pursuit to mass cultural phenomenon.",
         },
-        { type: "heading", content: "Computational Night Photography" },
+        { type: "heading", content: "Your Phone Can Now Shoot at Night" },
         {
           type: "paragraph",
           content:
-            "Smartphone computational photography has transformed the accessibility of night photography. iPhone Night Mode and Google Night Sight use multiple short exposures computationally stacked and merged to produce bright, detailed night images from a handheld device. This computational approach produces different results from traditional long exposure — sharper figures, less light trail — and represents a new aesthetic of night photography.",
+            "iPhone Night Mode and Google Night Sight stack multiple short exposures computationally. The result: bright, detailed handheld night images. Fewer light trails, sharper figures — a distinct new aesthetic of night photography.",
         },
-        { type: "heading", content: "AI Noise Reduction" },
+        { type: "heading", content: "AI Noise Reduction Changed the Game" },
         {
           type: "paragraph",
           content:
-            "AI-powered noise reduction tools — Lightroom's Denoise, Topaz DeNoise — can remove noise from high-ISO images with a quality that was previously impossible. This allows photography at light levels that were previously unusable, opening new approaches to available-darkness photography. The aesthetic consequences are still being worked out: AI-denoised images have a characteristic quality of smooth unreality.",
+            "Lightroom's Denoise, Topaz DeNoise — AI tools that remove noise at light levels previously unusable. New creative territory opens. The aesthetic consequence: AI-denoised images have a characteristic smooth unreality of their own.",
         },
-        { type: "heading", content: "The Nocturnal Instagram Aesthetic" },
+        { type: "heading", content: "The Instagram Night Aesthetic" },
         {
           type: "paragraph",
           content:
-            "Social media has generated a specific nocturnal aesthetic: highly saturated artificial light, strong contrast between lit and dark areas, urban settings with neon reflections in wet streets. This aesthetic — descended from Brassaï via Crewdson via visual effects cinematography — has become one of Instagram's dominant visual registers.",
+            "Saturated artificial light, strong contrast between lit and dark, neon reflections in wet streets. Descended from Brassaï via Crewdson via visual effects cinematography — one of Instagram's dominant visual registers.",
         },
       ],
       quiz: {
@@ -254,37 +254,37 @@ const course: Course = {
       title: "What You Can Learn",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Practical Education of Night Photography" },
+        { type: "heading", content: "Night Photography Makes Camera Mechanics Visible" },
         {
           type: "paragraph",
           content:
-            "Night photography is one of the most educational photographic practices: it makes the camera's mechanics visible, forces attention to light quality, and reveals how differently the camera sees from the eye. The discomforts of working in the dark are also the conditions of attention.",
+            "Night photography forces attention to light quality, reveals how differently the camera sees from the eye, and makes every exposure a deliberate decision. The discomforts of working in the dark are the conditions of attention.",
         },
-        { type: "heading", content: "1. The Tripod as Tool of Attention" },
+        { type: "heading", content: "1. The Tripod Slows You Down (In a Good Way)" },
         {
           type: "paragraph",
           content:
-            "Working with a tripod in the dark slows photography down. Each image requires deliberate placement, careful composition, and a considered exposure decision. This enforced deliberateness is a different mode of working from handheld photography, and it produces different images — considered, still, often more formally composed.",
+            "Each image requires deliberate placement, careful composition, a considered exposure decision. That enforced deliberateness produces different — more considered, more formally composed — images than handheld work.",
         },
-        { type: "heading", content: "2. Colour Temperature as Palette" },
+        { type: "heading", content: "2. Read the Colour of Light" },
         {
           type: "paragraph",
           content:
-            "Walk through an urban environment at night noticing only the colour of light sources: the orange of sodium street lamps, the blue-white of LED replacements, the warm yellow of domestic windows, the saturated colour of neon signs. Each colour temperature tells you something about the technology and the social space it serves.",
+            "Walk through an urban environment at night noticing only the colour temperature of light sources: sodium orange, LED blue-white, domestic tungsten yellow, neon saturated colour. Each tells you something about the technology and the social space it serves.",
         },
-        { type: "heading", content: "3. What Does the Camera Reveal?" },
+        { type: "heading", content: "3. Compare What You See With What the Camera Sees" },
         {
           type: "paragraph",
           content:
-            "After making a long-exposure photograph, compare what you see in the frame with what you experienced standing at the camera during the exposure. The camera has accumulated light you didn't notice, created trails from movement you saw as momentary, and rendered colours with a saturation your eye normalised. What has it revealed that you couldn't see?",
+            "After making a long-exposure photograph, compare the frame with what you experienced during the exposure. The camera accumulated light you didn't notice, made trails from movement you saw as momentary. What has it revealed that you couldn't see?",
         },
-        { type: "heading", content: "4. Find Your Nocturnal Subject" },
+        { type: "heading", content: "4. Find Your Specific Nocturnal Subject" },
         {
           type: "paragraph",
           content:
-            "Brassaï photographed Parisian night society. Hido photographs suburban houses from the street. Crewdson stages psychological crisis. Each photographer has a nocturnal subject that generates their visual approach. What is the nocturnal subject in your environment that you can photograph with sustained attention? Not night photography in general — a specific subject.",
+            "Brassaï had Paris night society. Hido has suburban houses from the street. Crewdson stages psychological crisis. Not night photography in general — a specific subject. What is yours?",
         },
       ],
       reflection: {

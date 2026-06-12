@@ -17,18 +17,18 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Herb Ritts (1952–2002, Los Angeles)" },
+        { type: "heading", content: "A Breakdown That Started Everything" },
         {
           type: "paragraph",
           content:
-            "Herb Ritts was born in 1952 in Los Angeles, the son of a successful furniture manufacturer. He grew up in Bel Air, surrounded by the film industry and its aesthetics — a formative environment for a photographer who would spend his career photographing the bodies and faces of Hollywood and the fashion world.",
+            "Born in 1952, raised in Bel Air surrounded by Hollywood glamour — Ritts absorbed the aesthetics of the film world before he ever picked up a camera.",
         },
         {
           type: "paragraph",
           content:
-            "He took his first significant photographs by accident: in 1978 his car broke down outside Twentynine Palms, California, and he photographed his friend Richard Gere against the desert landscape. The images were published and immediately attracted attention. This accidental beginning shaped his entire career — his best work always has the quality of something found rather than made.",
+            "In 1978, his car broke down outside Twentynine Palms. He photographed his friend Richard Gere against the desert. The images were published. A career was born — from an accident.",
         },
         {
           type: "heading",
@@ -37,12 +37,12 @@ const course: Course = {
         {
           type: "list",
           items: [
-            "1978: Accidental first major shoot — Richard Gere in the California desert",
+            "1978: Car breakdown, Twentynine Palms — first major shoot with Richard Gere",
             "1982: First major fashion assignments for Vogue and Interview",
-            "1986: Begins work for Madonna — shoots 'True Blue' and subsequent album covers",
-            "1990: Directs music videos including Chris Isaak's 'Wicked Game'",
-            "1992: 'Africa' book — his most celebrated photographic project",
-            "2002: Dies of AIDS-related pneumonia in Los Angeles, aged 50",
+            "1986: Begins shooting Madonna — 'True Blue' and beyond",
+            "1990: Directs Chris Isaak's 'Wicked Game' video",
+            "1992: 'Africa' — his most celebrated and debated project",
+            "2002: Dies of AIDS-related pneumonia, aged 50",
           ],
         },
         {
@@ -68,31 +68,31 @@ const course: Course = {
       title: "Visual Style Analysis",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "California Light and Sculptural Bodies" },
+        { type: "heading", content: "Sun + Body = Sculpture" },
         {
           type: "paragraph",
           content:
-            "Ritts's visual signature is the combination of California's strong, directional sunlight and the sculptural presentation of the human body. His black-and-white images treat the body as an object of formal beauty — like classical sculpture — using the sun's angle to create volumes, shadows, and textures that studio lighting rarely achieves.",
+            "California's strong, directional sunlight was Ritts's studio. He used it to carve bodies into form — creating volumes, shadows, and textures that no studio light replicates.",
         },
-        { type: "heading", content: "Black and White as Choice" },
+        { type: "heading", content: "Black and White Was a Statement" },
         {
           type: "paragraph",
           content:
-            "Ritts worked predominantly in black and white — a deliberate choice in an era when colour was the commercial standard. He believed black and white created a timelessness that colour never could; it removed the image from its specific cultural moment and placed it in a longer visual history. His black and white references classical sculpture and the golden age of Hollywood photography.",
+            "In an era dominated by colour, Ritts chose black and white deliberately. It made his images timeless — anchored in the history of the human body, not in the fashion of the moment.",
         },
-        { type: "heading", content: "The Desert and the Coast" },
+        { type: "heading", content: "Desert, Beach, Rock — Not Luxury" },
         {
           type: "paragraph",
           content:
-            "Ritts's most characteristic setting is the California landscape — desert, beach, dry rock — which gives his images a quality of elemental simplicity. The landscape strips away context and places the human body against a permanent, geological time. This is the opposite of fashion photography's usual relationship with luxury settings.",
+            "Forget Parisian hotels. Ritts placed bodies against elemental California landscapes. The geology dwarfs fashion and places the human form in permanent, geological time.",
         },
-        { type: "heading", content: "Elegance and Physicality" },
+        { type: "heading", content: "Beautiful AND Real" },
         {
           type: "paragraph",
           content:
-            "Ritts's images are simultaneously elegant and physical. His subjects are always beautiful but they are also always present — their bodies have weight, their skin has texture, their physicality is palpable. This is the opposite of the airbrushed perfection that was simultaneously dominating fashion photography.",
+            "His subjects are gorgeous but they have weight, texture, and physical presence. No airbrushed perfection — just bodies that exist in the world.",
         },
         {
           type: "quote",
@@ -117,31 +117,31 @@ const course: Course = {
       title: "Signature Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Richard Gere, Twentynine Palms (1978)" },
         {
           type: "paragraph",
           content:
-            "The accidental beginning: Ritts's first significant images, made during a car breakdown in the California desert. Gere against rock and sky — the combination of a perfect physical subject and the honest California light created images that were immediately recognisable as something new.",
+            "The accidental start: a broken-down car, a perfect subject, and the honest California light. These images announced something new the moment they appeared.",
         },
         { type: "heading", content: "Africa (1992)" },
         {
           type: "paragraph",
           content:
-            "Ritts's most celebrated project: a book of photographs made in the Kenyan desert, depicting people and animals in landscape settings. The images apply his Californian approach — natural light, sculptural bodies, elemental landscapes — to subjects outside the fashion world. It is both his most beautiful and most complex work, generating ongoing discussion about the ethics of Western photographers in Africa.",
+            "His most celebrated and most debated project — Kenyan desert, natural light, bodies in landscape. Extraordinary beauty, and an ongoing ethical conversation about Western photographers in Africa.",
         },
-        { type: "heading", content: "Madonna Albums and Tours" },
+        { type: "heading", content: "Madonna: Portraits for Posterity" },
         {
           type: "paragraph",
           content:
-            "Ritts shot multiple Madonna albums and tour campaigns, creating iconic images that defined her visual identity in the late 1980s and early 1990s. His Madonna images have the timeless quality of his landscape work — they feel less like promotional photographs and more like portraits for posterity.",
+            "Multiple albums, multiple tours. His Madonna images feel less like promotional material and more like documents for history — timeless where they could have been disposable.",
         },
         { type: "heading", content: "Wicked Game (1991)" },
         {
           type: "paragraph",
           content:
-            "Ritts directed the music video for Chris Isaak's 'Wicked Game' — arguably the most beautiful music video ever made. Shot in black and white on a California beach, it applies his photographic aesthetic to moving image. The video demonstrated that his visual language was as powerful in film as in photography.",
+            "Possibly the most beautiful music video ever made. Black and white, California beach, his photographic aesthetic in motion. Proof that his visual language worked in any medium.",
         },
       ],
       quiz: {
@@ -161,31 +161,31 @@ const course: Course = {
       title: "Techniques & Approach",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Natural Light as Foundation" },
+        { type: "heading", content: "Know Your Light Like Your Name" },
         {
           type: "paragraph",
           content:
-            "Ritts built his entire practice on natural light — specifically the strong, directional light of California. He understood this light intimately: its quality at different times of day, in different seasons, in different landscapes. This knowledge allowed him to choose exactly the right moment and angle to create the sculptural effects he wanted.",
+            "Ritts knew California light in his bones — its quality hour by hour, season by season. That intimacy let him choose exactly the right moment every time.",
         },
-        { type: "heading", content: "The Body as Subject" },
+        { type: "heading", content: "The Body Is the Subject" },
         {
           type: "paragraph",
           content:
-            "Ritts was one of the great photographers of the human body — interested in it as a formal subject with intrinsic beauty, not simply as a vehicle for clothes or celebrity. His approach to the body combined the formal rigour of classical sculpture with the honesty of documentary photography: bodies are real, weighted, textured.",
+            "Not clothes. Not celebrity. The body itself — its form, weight, and texture — was what fascinated him. He photographed it with the rigour of classical sculpture and the honesty of documentary.",
         },
-        { type: "heading", content: "Location Scouting as Practice" },
+        { type: "heading", content: "Location Is a Collaborator" },
         {
           type: "paragraph",
           content:
-            "Ritts was a meticulous location scout. He knew California's landscapes intimately and could identify exactly the right rock formation, beach section, or desert plain for the image he had in mind. The landscape was not a backdrop but a collaborator — it created the image as much as the subject did.",
+            "Ritts scouted California relentlessly. The rock, the beach, the desert plain weren't backgrounds — they made the image as much as the subject did.",
         },
-        { type: "heading", content: "Simplicity" },
+        { type: "heading", content: "Strip It Back" },
         {
           type: "paragraph",
           content:
-            "Ritts consistently worked with the minimum of elements: a person, a landscape, natural light. He resisted the production apparatus of mainstream fashion photography, preferring the simplicity that allowed the physical truth of his subjects to speak without distraction.",
+            "Person. Landscape. Light. That's it. Ritts resisted production apparatus because simplicity let the physical truth of his subjects speak without distraction.",
         },
       ],
       quiz: {
@@ -205,31 +205,31 @@ const course: Course = {
       title: "Influence & Legacy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Defining an Era" },
+        { type: "heading", content: "He Defined an Era" },
         {
           type: "paragraph",
           content:
-            "Ritts's images defined the visual language of a specific era — roughly 1982 to 2002 — in American celebrity and fashion photography. His black-and-white, sun-drenched, physically honest images are the aesthetic counterpart of the music and culture of that period. They are how we know what that world looked like.",
+            "From 1982 to 2002, Ritts's black-and-white sun-drenched images were the visual language of American celebrity culture. That's just what that world looked like.",
         },
-        { type: "heading", content: "Timeless Versus Trend" },
+        { type: "heading", content: "Timeless Beats Trendy Every Time" },
         {
           type: "paragraph",
           content:
-            "Ritts's work has aged differently from most fashion photography of his era: it still looks contemporary because it was never completely in trend. His commitment to timelessness through black and white and natural light has given his images a longevity that contemporary-looking work rarely achieves.",
+            "Most fashion photography from his era looks dated. His doesn't — because he was never chasing the trend. Natural light and classical black and white don't expire.",
         },
-        { type: "heading", content: "Music Video Direction" },
+        { type: "heading", content: "Music Videos as Photography" },
         {
           type: "paragraph",
           content:
-            "Through videos for Madonna, Chris Isaak, Janet Jackson, and others, Ritts extended his photographic aesthetic into film and demonstrated its power in the time-based medium. His videos remain among the most visually distinctive of their era.",
+            "Madonna, Chris Isaak, Janet Jackson — he brought his photographic eye to moving image and it worked. His videos remain the most visually distinct of their era.",
         },
-        { type: "heading", content: "AIDS Activism" },
+        { type: "heading", content: "Art, Activism, Identity" },
         {
           type: "paragraph",
           content:
-            "Ritts was openly gay and used his platform extensively for AIDS activism and HIV/AIDS awareness campaigns. He died of AIDS-related pneumonia in 2002 at 50. His life demonstrates the intersection of art, politics, and personal experience that defines the most important creative careers.",
+            "Ritts was openly gay and used his platform for AIDS activism throughout his career. He died of AIDS-related pneumonia in 2002. His life is a case study in using art for something larger than art.",
         },
       ],
       quiz: {
@@ -249,43 +249,43 @@ const course: Course = {
       title: "What You Can Learn From Ritts",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From His Practice" },
+        { type: "heading", content: "Simplicity Is a Skill" },
         {
           type: "paragraph",
           content:
-            "Ritts teaches the power of simplicity, natural light, and the pursuit of timelessness over trend.",
+            "Ritts teaches the power of natural light, elemental landscapes, and the courage to strip everything back. Less kit, more intention.",
         },
         { type: "heading", content: "1. Know Your Light" },
         {
           type: "paragraph",
           content:
-            "Ritts knew California light with extraordinary intimacy. Spend time studying the light in your own environment — its quality at different times and in different conditions. What does the light in your city do at 7am in November? At 2pm in July? Understanding your specific light is the foundation of using it.",
+            "Study the light in your own environment obsessively. What does it do at 7am in November? At 2pm in July? Your local light is your greatest tool.",
         },
         { type: "heading", content: "2. Find the Landscape" },
         {
           type: "paragraph",
           content:
-            "Photograph people in landscape settings. Notice what the scale and permanence of landscape does to the human figure — how it creates relationships, suggests scale, adds elemental significance. The landscape is not a backdrop; it is a second subject.",
+            "Photograph people in landscape settings. The scale, the permanence — it transforms both the person and you. The landscape is a second subject, not a backdrop.",
         },
         { type: "heading", content: "3. Pursue Timelessness" },
         {
           type: "paragraph",
           content:
-            "Ask of each image: what in this photograph will date it to a specific year or decade? What could you change to make it feel timeless? Sometimes the answer is 'nothing' — some images simply belong to their moment. But often, simplicity and a removal of fashion-specific elements creates durability.",
+            "Ask what in your image will date it to this year. Then ask what you'd need to remove to make it feel timeless. Often the answer is: less.",
         },
         { type: "heading", content: "4. Photograph the Body With Respect" },
         {
           type: "paragraph",
           content:
-            "Ritts photographed the body as a formal subject of beauty — not as object or spectacle. The difference is in the relationship between photographer and subject: one creates collaboration, the other creates exploitation. How you engage with your subjects' bodies shapes the images you make.",
+            "Ritts treated bodies as subjects of formal beauty, not spectacle. Collaboration creates dignity; imposition creates exploitation. The difference shows in the final image.",
         },
         { type: "heading", content: "5. Use Your Platform" },
         {
           type: "paragraph",
           content:
-            "Ritts used his considerable platform for AIDS activism throughout his career. Whatever cause matters to you, consider how your photographic practice can serve it. Art and activism are not incompatible — sometimes the most powerful advocacy is also the most beautiful.",
+            "Ritts used his fame for AIDS activism. Whatever cause matters to you, your photographic practice can serve it. Art and activism aren't opposites.",
         },
       ],
       reflection: {

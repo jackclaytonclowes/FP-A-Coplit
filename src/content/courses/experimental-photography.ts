@@ -16,27 +16,27 @@ const course: Course = {
       title: "Origins & History",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Photography as Visual Research" },
+        { type: "heading", content: "Photography Without a Camera? Yes." },
         {
           type: "paragraph",
           content:
-            "Experimental photography begins with the recognition that the camera is not photography's only tool — that photosensitive materials, light, time, and chemistry are the real medium, and that images can be made by any combination of these that produces a result. This recognition arrived almost as soon as photography itself: William Henry Fox Talbot's photogenic drawings (1834) placed leaves and lace on sensitised paper to make images without a camera.",
+            "Experimental photography begins with a simple recognition: the camera is not the medium. Light and photosensitive material are. Fox Talbot proved it in 1834 by placing leaves and lace on sensitised paper — images without a camera, before cameras were even common.",
         },
         {
           type: "paragraph",
           content:
-            "The systematic artistic practice of experimental photography developed in the 1920s through the Bauhaus school and its associated figures. László Moholy-Nagy articulated a theory of photography as light-writing — Lichtgestaltung — in which the camera was only one possible tool for manipulating light on a surface. Christian Schad's schadographs (1918) and Man Ray's rayographs (1921) were cameraless photographs made independently, both arrived at by placing objects on sensitised paper.",
+            "By the 1920s, Christian Schad's schadographs and Man Ray's rayographs arrived independently at the same conclusion: place objects on paper, expose to light, make an image. The camera is optional.",
         },
         {
           type: "heading",
-          content: "The Bauhaus Tradition",
+          content: "The Bauhaus as Research Lab",
         },
         {
           type: "paragraph",
           content:
-            "The Bauhaus school treated photography not as a documentation device but as a visual research tool: a way of investigating the properties of light, material, and visual perception. Moholy-Nagy's courses at the Bauhaus established a tradition of experimental photographic practice that influenced subsequent generations worldwide. The Bauhaus approach was systematic and analytical: what does this material do? What does this process reveal? What is photography, essentially?",
+            "Moholy-Nagy treated photography at the Bauhaus not as documentation but as visual research. What does this material do? What does this process reveal? What is photography, essentially? Questions, not conventions.",
         },
         {
           type: "list",
@@ -72,31 +72,31 @@ const course: Course = {
       title: "Key Practitioners",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Man Ray (1890–1976)" },
         {
           type: "paragraph",
           content:
-            "Man Ray's experimental contributions span rayographs — objects placed on sensitised paper to create cameraless silhouette images — and solarisation, which he developed with Lee Miller by accidentally over-exposing prints during development. His photographic experiments were inseparable from his broader artistic practice: each technique was a tool for accessing the irrational and the unconscious, consistent with his surrealist commitments.",
+            "Rayographs — objects on sensitised paper — and solarisation discovered by accident with Lee Miller. Man Ray's experimental techniques were inseparable from his surrealist commitments: each was a tool for accessing the irrational.",
         },
         { type: "heading", content: "László Moholy-Nagy (1895–1946)" },
         {
           type: "paragraph",
           content:
-            "Moholy-Nagy's photograms — complex compositions of transparent and opaque objects placed on sensitised paper — went far beyond Man Ray's simpler rayographs in compositional ambition. His Light-Space Modulator, a kinetic sculpture photographed over time using a moving light source, extended the photogram concept into temporal and sculptural dimensions. He also wrote the most important theoretical texts of the experimental photography tradition.",
+            "Moholy-Nagy's photograms went far beyond Man Ray's in compositional ambition. His Light-Space Modulator — a kinetic sculpture photographed over time with a moving light source — extended the photogram concept into sculptural and temporal dimensions.",
         },
         { type: "heading", content: "Floris Neusüss (b. 1937) and Marco Breuer (b. 1955)" },
         {
           type: "paragraph",
           content:
-            "Neusüss revived and extended the photogram tradition in the postwar period, making large-scale life-size photograms of bodies and objects — works of considerable physical scale and presence. Marco Breuer's practice is radically material: he scratches, burns, abrades, and chemically attacks film and paper directly, creating images in which the photographic material's physical surface is the subject. No camera, no darkroom enlarger — only light and violence applied to the material itself.",
+            "Neusüss made large-scale life-size body photograms. Breuer went further: he scratches, burns, and abrades film and paper directly. No camera, no darkroom enlarger — only light and physical force applied to the material itself.",
         },
         { type: "heading", content: "Idris Khan (b. 1978) and Barbara Kasten (b. 1936)" },
         {
           type: "paragraph",
           content:
-            "Idris Khan's layered multiple-exposure photographs — in which every page of a Beethoven score or every image from a Bernd and Hilla Becher typology is overlaid into a single image — use digital layering to create dense, almost-abstract composites. Barbara Kasten's geometric light constructions — Plexiglas, mirrors, coloured gels photographed in the studio — use photography to document arrangements of light that exist only as photographs.",
+            "Khan layers every image from a Becher typology into one dense composite — all water towers at once, simultaneously present and invisible. Kasten builds geometric light constructions in the studio that exist only as photographs.",
         },
       ],
       quiz: {
@@ -116,31 +116,31 @@ const course: Course = {
       title: "Visual Characteristics",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Cameraless Images: Photograms and Chemigrams" },
+        { type: "heading", content: "Photograms: Both Documentary and Abstract" },
         {
           type: "paragraph",
           content:
-            "Photograms — images made by placing objects on light-sensitive paper and exposing to light — produce silhouettes and semi-transparent forms that are simultaneously documentary (the shadow of an actual object) and abstract (the relationship between light and opacity, not the object's appearance). Chemigrams use chemistry rather than light: chemicals applied directly to paper produce patterns through the chemistry's own spatial logic.",
+            "Place an object on light-sensitive paper, expose to light, get a photogram. It's a trace of a real object (documentary) that shows only light and opacity, not appearance (abstract). Both things simultaneously.",
         },
-        { type: "heading", content: "Multiple Exposure and Layering" },
+        { type: "heading", content: "Multiple Exposure: Density and Accumulation" },
         {
           type: "paragraph",
           content:
-            "Multiple exposure — exposing the same frame of film or sheet of paper to two or more images — creates layered, interpenetrating forms in which individual subjects lose their distinctness and a new composite subject emerges. In analogue photography, multiple exposure was achieved in the camera or darkroom; in digital photography, through layer compositing. The aesthetic is of density and accumulation.",
+            "Expose the same frame or sheet twice or more. Individual subjects lose distinctness. A new composite subject emerges. Analogue does it in camera or darkroom; digital does it in layers. The aesthetic: dense, interpenetrating, accumulated.",
         },
-        { type: "heading", content: "Solarisation and Tonal Reversal" },
+        { type: "heading", content: "Solarisation: The Accident Made Technique" },
         {
           type: "paragraph",
           content:
-            "Solarisation — achieved by briefly exposing a developing print or negative to light — reverses tonal values at the edges of forms, creating halos of opposite tone. The result is an image that is simultaneously normal and inverted, with a quality of x-ray vision or aura that makes the visible strange.",
+            "Expose a developing print to light briefly and tonal values reverse at the edges of forms — halos of opposite tone appear. The image is simultaneously normal and inverted, with a quality of x-ray vision or aura.",
         },
-        { type: "heading", content: "The Process as Visible Subject" },
+        { type: "heading", content: "The Process Is the Subject" },
         {
           type: "paragraph",
           content:
-            "The unifying characteristic of experimental photography is that the process itself is the subject: the image is inseparable from how it was made. Unlike conventional photography, which aims for the process to be invisible (the image should look as if reality were simply recorded), experimental photography makes the process legible. You can see the chemistry, the physical manipulation, the effects of light on material.",
+            "What unifies experimental photography: the process itself is visible in the image. Unlike conventional photography — where the process is meant to disappear — experimental photography makes chemistry, physical manipulation, and light-on-material legible.",
         },
       ],
       quiz: {
@@ -160,37 +160,37 @@ const course: Course = {
       title: "Defining Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Man Ray: Dust Breeding (1920)" },
         {
           type: "paragraph",
           content:
-            "Co-credited with Marcel Duchamp, this photograph of dust accumulated over months on Duchamp's Large Glass appears to be an aerial landscape but reveals itself as a close-up of domestic debris. It collapses scale, plays on the documentary authority of photography, and demonstrates how framing and context transform any subject into any other subject. It is both an experimental photograph and a conceptual artwork.",
+            "Months of dust on Duchamp's Large Glass, photographed from directly above. It looks like an aerial landscape. It's domestic debris. Scale collapses. Framing transforms everything into something else.",
         },
         { type: "heading", content: "Moholy-Nagy: Photograms (1922–43)" },
         {
           type: "paragraph",
           content:
-            "Moholy-Nagy's photograms — made throughout his career from his Bauhaus period through his years at the Institute of Design in Chicago — are among the most formally accomplished cameraless photographs ever made. The compositions of overlapping transparent and opaque forms, the range of tonal gradation from deep black through multiple greys to white, and the spatial intelligence of the arrangements give the photograms an authority as visual art beyond their historical significance.",
+            "Overlapping transparent and opaque forms, full tonal range from deep black to pure white, spatial intelligence across the entire composition. Among the most formally accomplished cameraless photographs ever made.",
         },
         { type: "heading", content: "Idris Khan: Every... Bernd and Hilla Becher (2004)" },
         {
           type: "paragraph",
           content:
-            "Khan's early series layering every photograph from the Bechers' typology books — water towers, blast furnaces, coal bunkers — into single images creates dense architectural ghosts that contain all the individual instances without showing any of them distinctly. The images are both about photography (what happens when all the photographs are combined?) and about architecture (what is the essential form of a water tower?).",
+            "Every photograph from the Bechers' water tower typology layered into one image: dense architectural ghosts containing all instances without showing any distinctly. About photography and about architecture simultaneously.",
         },
         { type: "heading", content: "Barbara Kasten: Constructs (1979–86)" },
         {
           type: "paragraph",
           content:
-            "Kasten's studio constructions — geometric arrangements of Plexiglas, mirrors, and coloured gels, photographed with large-format film — exist only as photographs. The constructions were built specifically to be photographed and then dismantled. The photographs are their only record, but they are also their only form: the arrangement of light and material has no existence except as an image.",
+            "Geometric arrangements of Plexiglas, mirrors, and coloured gels — built specifically to be photographed, then dismantled. The photograph isn't a record of the construction. It's the only form in which the construction exists.",
         },
         { type: "heading", content: "Man Ray: Le Violon d'Ingres (1924)" },
         {
           type: "paragraph",
           content:
-            "Man Ray's most famous image connects experimental and surrealist photography: the painted f-holes on the female nude are a darkroom addition — a physical alteration of a documentary photograph to produce a new, composite meaning. The image demonstrates how even a conventional camera photograph can be made experimental through subsequent physical intervention.",
+            "F-holes painted on a nude back — a darkroom addition to a documentary photograph, creating a new composite meaning. Even a conventional camera photograph can be made experimental through subsequent physical intervention.",
         },
       ],
       quiz: {
@@ -210,31 +210,31 @@ const course: Course = {
       title: "Modern Influence",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Alternative Processes Revival" },
+        { type: "heading", content: "Alternative Processes Are Back" },
         {
           type: "paragraph",
           content:
-            "Alternative photographic processes — wet plate collodion, cyanotype, platinum-palladium printing, gum bichromate, salt printing — have experienced a significant revival since the 2000s. Photographers seek the material specificity and the visible chemistry of these processes as a reaction against digital photography's immateriality. The wet plate practitioner works with silver nitrate, potassium iodide, and cadmium compounds; the cyanotype maker with iron salts; each process makes the chemistry of photography physically present.",
+            "Wet plate collodion, cyanotype, platinum-palladium, gum bichromate — all experiencing significant revival since the 2000s. Photographers seek visible chemistry and material specificity as a reaction against digital photography's immateriality.",
         },
         { type: "heading", content: "Glitch Art and Data Bending" },
         {
           type: "paragraph",
           content:
-            "Digital experimental photography includes glitch art — the deliberate corruption of image files to produce unexpected visual results — and data bending, the opening of image files in text editors or audio applications and editing the raw data. These practices extend the experimental tradition into digital materials: treating the file as physical material to be manipulated, discovering the aesthetics of the machine's errors.",
+            "Deliberately corrupt an image file. Open it in a text editor and change the data. Open it in an audio application. The experimental tradition extends into digital materials — treating the file as physical material to manipulate.",
         },
-        { type: "heading", content: "The Return to Materiality" },
+        { type: "heading", content: "Material Has Value When Nothing Is Material" },
         {
           type: "paragraph",
           content:
-            "The most significant cultural force driving experimental photography's revival is a reaction against digital photography's dematerialisation. When any image can be made and infinitely duplicated without physical substrate, the photograph that has a unique physical body — a wet plate, a unique photogram, a physically manipulated print — acquires a value that is partly aesthetic and partly existential. The material photograph cannot be copied without loss.",
+            "When any image can be made and infinitely duplicated without a physical substrate, a photograph with a unique physical body — a wet plate, a one-off photogram — acquires value that's partly aesthetic and partly existential. The material photograph cannot be perfectly copied.",
         },
-        { type: "heading", content: "Generative AI as Experimental Tool" },
+        { type: "heading", content: "AI as the Latest Experimental Tool" },
         {
           type: "paragraph",
           content:
-            "AI image generation continues the experimental tradition in digital form: it produces images through processes that are not fully controlled or understood, generating unexpected results from parametric input. Artists using AI experimentally — providing unusual prompts, feeding the output back as input, working with the system's failures rather than its successes — are working in the same spirit as Moholy-Nagy placing objects on sensitised paper: exploring what the process does, rather than what you expected.",
+            "Unusual prompts, feeding output back as input, working with the system's failures. Artists using AI experimentally are working in the same spirit as Moholy-Nagy placing objects on sensitised paper: exploring what the process does, not what you expected.",
         },
       ],
       quiz: {
@@ -254,37 +254,37 @@ const course: Course = {
       title: "What You Can Learn",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Education of Experimental Practice" },
+        { type: "heading", content: "Ask What the Process Does, Not What You Want" },
         {
           type: "paragraph",
           content:
-            "Experimental photography teaches the photographer to treat the medium as material rather than as a transparent window on the world. This is a fundamental reorientation: instead of asking 'what am I photographing?', you ask 'what is this process doing? What does this material want to do?' The camera disappears and the chemistry appears.",
+            "Experimental photography reorients you completely. Instead of 'what am I photographing?', you ask 'what is this process doing? What does this material want to do?' The camera disappears. The chemistry appears.",
         },
         { type: "heading", content: "1. Make a Photogram" },
         {
           type: "paragraph",
           content:
-            "The simplest experimental photographic exercise: place objects on light-sensitive paper in the darkroom and expose to light. No camera, no lens — only objects and their relationship to light. Notice how the photogram of an object differs from a photograph of the same object: what does the shadow reveal that the reflected image conceals?",
+            "The simplest exercise: place objects on light-sensitive paper in the darkroom and expose to light. No camera. No lens. Just objects and their relationship to light. Notice how the photogram of an object differs from a photograph of the same object.",
         },
         { type: "heading", content: "2. Break the Camera's Intention" },
         {
           type: "paragraph",
           content:
-            "Choose one thing you are not supposed to do with your camera: open it in light (with film), shoot through a damaged lens, put vaseline on the front element, use extremely wrong exposure. Notice what the process produces when you override its design. Some of the most important experimental techniques were discovered this way.",
+            "Do one thing you're not supposed to do: open the camera in light (with film), shoot through a damaged lens, put vaseline on the front element, use wrong exposure by many stops. Examine what the process produces when you override its design.",
         },
         { type: "heading", content: "3. Work With the Accident" },
         {
           type: "paragraph",
           content:
-            "When something goes wrong — a development error, a light leak, a processing mistake — instead of discarding the result, examine it carefully. What did the accident produce? Man Ray discovered solarisation by accident. Lee Miller made it a technique. The accident is not a failure; it is data about what the process can do.",
+            "When something goes wrong — a development error, a light leak, a processing mistake — don't discard it. Examine it. Man Ray discovered solarisation by accident. Lee Miller made it a technique. The accident is data about what the process can do.",
         },
-        { type: "heading", content: "4. The Trace Is Not the Photograph" },
+        { type: "heading", content: "4. Trace vs Photograph" },
         {
           type: "paragraph",
           content:
-            "Moholy-Nagy's insight: a photogram is the trace of an object, not its photograph. A photograph shows how an object reflects light; a photogram shows how an object blocks or modifies light. These are different kinds of information. Think about what kind of image you are making: representation, or trace?",
+            "Moholy-Nagy's key insight: a photogram is the trace of an object, not its photograph. A photograph shows how an object reflects light. A photogram shows how an object blocks light. These are different kinds of information. Which are you making?",
         },
       ],
       reflection: {

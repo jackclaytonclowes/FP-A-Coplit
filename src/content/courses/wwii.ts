@@ -16,34 +16,34 @@ const course: Course = {
       title: "Origins & Context",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The World That Made the War" },
+        { type: "heading", content: "WWI Created the Conditions for WWII" },
         {
           type: "paragraph",
           content:
-            "The origins of World War II lie in the settlement that ended World War I. The Treaty of Versailles (1919) imposed the war guilt clause on Germany, demanding it accept sole responsibility for the conflict. With that guilt came crushing reparations, the loss of territory including Alsace-Lorraine to France and the Polish Corridor dividing East Prussia from the rest of Germany, and strict limits on its military. The humiliation was felt by Germans across the political spectrum.",
+            "The Treaty of Versailles forced Germany to accept sole guilt for WWI, pay crippling reparations, and surrender territory. Germans across the political spectrum felt humiliated — and Hitler weaponised that humiliation.",
         },
         {
           type: "paragraph",
           content:
-            "The Weimar Republic, Germany's first democratic government, was born amid defeat and never shed the stigma. It survived a series of political crises, hyperinflation in 1923 that destroyed savings overnight, and never earned the deep loyalty of the German establishment. When the Great Depression arrived after 1929 — collapsing trade, sending unemployment to over 30% — the Republic had little credibility left with which to defend itself.",
+            "The Weimar Republic — Germany's first democracy — never earned deep loyalty. When the Great Depression sent unemployment past 30%, the Republic had no credibility left to defend itself.",
         },
-        { type: "heading", content: "The Rise of Fascism" },
+        { type: "heading", content: "Hitler Rose Through Democracy, Then Destroyed It" },
         {
           type: "paragraph",
           content:
-            "Adolf Hitler came to power not through a coup but through democratic means — the Nazi Party won seats in elections, and Hitler was appointed Chancellor by President Hindenburg in January 1933, who believed he could be controlled. Within months, the Reichstag fire and the Enabling Act had turned the chancellorship into a dictatorship. Nazi ideology combined extreme nationalism, racial hierarchy with Aryan supremacy at its apex, antisemitism as its organizing principle, and expansionist ambition framed as recovering German greatness.",
-        },
-        {
-          type: "paragraph",
-          content:
-            "Benito Mussolini had pioneered a template in Italy, coming to power in 1922 and demonstrating that fascism could seize a modern state. Imperial Japan's military expansion into Manchuria (1931) and China (1937) added a Pacific dimension to a growing pattern of aggressive revisionist powers. In Spain, the Civil War (1936-39) served as a rehearsal — German and Italian forces tested weapons and tactics, the world watched, and appeasement became the dominant Western response.",
+            "The Nazis won seats in elections. Hindenburg appointed Hitler Chancellor in 1933, believing he could be controlled. Within months, the Reichstag fire and the Enabling Act had turned the chancellorship into a dictatorship.",
         },
         {
           type: "paragraph",
           content:
-            "The Munich Agreement of September 1938, in which Britain and France allowed Hitler to annex Czechoslovakia's Sudetenland in exchange for promises of no further demands, is the defining symbol of appeasement's failure. Less than six months later, Germany occupied the rest of Czechoslovakia. By the time Britain and France resolved to resist, Hitler had concluded they would not fight.",
+            "Mussolini had pioneered the template in Italy in 1922. Japan invaded Manchuria in 1931. Spain's Civil War became a rehearsal — Germany tested weapons, the world watched, and appeasement became the default Western response.",
+        },
+        {
+          type: "paragraph",
+          content:
+            "The Munich Agreement of 1938 let Hitler annex Czechoslovakia's Sudetenland in exchange for promises. Six months later he took the rest of Czechoslovakia. By then he had concluded Britain and France would not fight.",
         },
       ],
       quiz: {
@@ -80,46 +80,36 @@ const course: Course = {
       title: "Key Events",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The War Begins: 1939–1941" },
+        { type: "heading", content: "1939–1941: Europe Falls, Then the World Joins" },
         {
           type: "paragraph",
           content:
-            "On September 1, 1939, Germany invaded Poland. Two days later, Britain and France declared war. The Polish campaign was over within weeks, and after a period of relative quiet on the Western Front — the 'Phoney War' — Germany struck west in May 1940. France, expected to hold firm behind the Maginot Line, collapsed in six weeks. The Fall of France in June 1940 was a shock that reordered the entire European strategic situation.",
+            "Germany invaded Poland on 1 September 1939. France — expected to hold — collapsed in six weeks. The Battle of Britain stopped Hitler's advance west. He turned east.",
         },
         {
           type: "paragraph",
           content:
-            "The Battle of Britain (summer 1940) was Hitler's attempt to destroy the RAF and establish air superiority for an invasion. The RAF held. It was the first defeat of the war for Germany and demonstrated that Britain would not be conquered quickly. Churchill's refusal to negotiate proved decisive — Hitler turned east.",
+            "Operation Barbarossa (June 1941) was the largest military operation in history — three million troops, 2,900-kilometre front. The Soviet Union didn't collapse as Hitler predicted. By winter, the Wehrmacht was fighting a war it wasn't equipped for.",
         },
-        { type: "heading", content: "The War Becomes Global: 1941" },
+        { type: "heading", content: "Pearl Harbor Changed Everything" },
         {
           type: "paragraph",
           content:
-            "Operation Barbarossa, launched on June 22, 1941, was the largest military operation in history — over three million German troops crossing into the Soviet Union on a front nearly 2,900 kilometres wide. Initial German advances were spectacular, with hundreds of thousands of Soviet troops encircled and captured. But the Soviet Union did not collapse as Hitler had predicted, and the Wehrmacht found itself fighting a war it was not equipped for by winter.",
+            "Japan attacked Pearl Harbor on 7 December 1941, killing 2,400 Americans. Hitler then declared war on the United States — a decision that sealed the Axis's fate and turned a regional conflict into a world war.",
         },
+        { type: "heading", content: "Stalingrad Broke the Myth of German Invincibility" },
         {
           type: "paragraph",
           content:
-            "On December 7, 1941, Japanese carrier aircraft attacked the US Pacific Fleet at Pearl Harbor, killing over 2,400 Americans. The following day, the United States declared war on Japan. Hitler then declared war on the United States — a decision that transformed a European and Pacific conflict into a true world war and ultimately sealed the Axis's fate.",
+            "800,000 Axis soldiers killed, wounded, or captured at Stalingrad (1942–43). The German Sixth Army surrendered. The Eastern Front's strategic initiative shifted permanently to the Soviet Union.",
         },
-        { type: "heading", content: "Turning the Tide: 1942–1944" },
+        { type: "heading", content: "D-Day to Hiroshima: The End Game" },
         {
           type: "paragraph",
           content:
-            "The Battle of Stalingrad (August 1942 – February 1943) was among the bloodiest battles in history. German forces drove deep into the Soviet city, fighting street by street. A Soviet counteroffensive encircled the German Sixth Army. When Field Marshal Paulus surrendered in February 1943, 800,000 Axis soldiers had been killed, wounded, or captured. The Wehrmacht's aura of invincibility was destroyed.",
-        },
-        { type: "heading", content: "Liberation and Destruction: 1944–1945" },
-        {
-          type: "paragraph",
-          content:
-            "D-Day, June 6, 1944, saw the largest amphibious operation in history — over 156,000 Allied troops landed on the Normandy beaches. Paris was liberated in August. Germany launched a final offensive at the Battle of the Bulge (December 1944) that briefly alarmed Allied commanders but ultimately consumed Germany's last strategic reserve. Berlin fell in May 1945.",
-        },
-        {
-          type: "paragraph",
-          content:
-            "In the Pacific, American forces had been island-hopping toward Japan. On August 6, 1945, the United States dropped an atomic bomb on Hiroshima; on August 9, a second bomb destroyed Nagasaki. Japan surrendered on August 15. The nuclear age had begun.",
+            "156,000 Allied troops landed at Normandy on 6 June 1944. Berlin fell in May 1945. On 6 August 1945, one bomb destroyed Hiroshima. Japan surrendered. The nuclear age had begun.",
         },
       ],
       quiz: {
@@ -156,30 +146,30 @@ const course: Course = {
       title: "Major Figures",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Leaders Who Shaped the War" },
+        { type: "heading", content: "Hitler: Brilliant Tactician, Catastrophic Strategist" },
         {
           type: "paragraph",
           content:
-            "Adolf Hitler was both the war's architect and, ultimately, its author of defeat. His early tactical instincts were sometimes brilliant — the audacity of the Fall of France campaign came largely from his support for the Manstein Plan when his generals were cautious — but his strategic decisions became increasingly erratic and catastrophic. His insistence on fighting for every inch of ground, his refusal to allow strategic retreats, and the decision to invade the Soviet Union while still at war with Britain were the errors that lost the war.",
+            "His early instincts were sometimes sharp — the Fall of France campaign was genuinely audacious. But invading the Soviet Union while still at war with Britain, and refusing strategic retreats, lost the war.",
         },
         {
           type: "paragraph",
           content:
-            "Winston Churchill became Prime Minister in May 1940, at the moment of maximum British peril. His speeches — 'I have nothing to offer but blood, toil, tears and sweat' — communicated not false comfort but unflinching resolve. His refusal to negotiate with Hitler in May 1940, when there were voices in the War Cabinet for a settlement, may have been the most consequential decision of the war.",
+            "Churchill became Prime Minister in May 1940 at Britain's lowest moment. His refusal to negotiate with Hitler — when voices in his own War Cabinet were urging it — may have been the most consequential decision of the entire war.",
         },
-        { type: "heading", content: "Roosevelt and Stalin" },
+        { type: "heading", content: "Roosevelt and Stalin: The Alliance That Won" },
         {
           type: "paragraph",
           content:
-            "Franklin Roosevelt's decision to supply Britain through the Lend-Lease programme before the US was formally at war, and his Atlantic Charter with Churchill declaring a vision for the post-war world, shaped the alliance's character. Roosevelt died in April 1945, weeks before Germany's surrender, leaving Truman to face the atomic decision. Joseph Stalin's Soviet Union bore the greatest human cost of the war — approximately 27 million dead, roughly half of all Allied deaths — and Stalin's strategic direction, despite catastrophic early failures, ultimately produced the military machine that destroyed the Wehrmacht.",
+            "Roosevelt supplied Britain before the US entered the war and shaped the alliance's character. Stalin's Soviet Union bore the greatest human cost — approximately 27 million dead — and ultimately destroyed the Wehrmacht.",
         },
-        { type: "heading", content: "The Military Commanders" },
+        { type: "heading", content: "The Commanders" },
         {
           type: "paragraph",
           content:
-            "Dwight Eisenhower commanded Operation Overlord, the Normandy invasion, and managed the complex politics of an alliance among strong personalities. Erwin Rommel — the Desert Fox — was Germany's most famous general, celebrated in both Axis and Allied press for his conduct in North Africa. His relationship with Nazism was more ambiguous than his reputation: he was implicated in the July 1944 plot to assassinate Hitler and was forced to take poison. Bernard Montgomery led British forces with a caution that sometimes frustrated Allied commanders but usually kept casualties down. Charles de Gaulle, commander of the Free French in exile, used political will to ensure France emerged from liberation as a major power rather than a defeated collaborator.",
+            "Eisenhower managed the politics of Overlord. Rommel was celebrated by both sides — then implicated in the 1944 assassination plot and forced to take poison. De Gaulle used sheer political will to ensure France emerged as a major power rather than a defeated collaborator.",
         },
       ],
       quiz: {
@@ -216,29 +206,29 @@ const course: Course = {
       title: "Turning Points",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Moments That Decided the War" },
+        { type: "heading", content: "Stalingrad: 800,000 Casualties, One Turning Point" },
         {
           type: "paragraph",
           content:
-            "The Battle of Stalingrad (November 1942 – February 1943) was the largest land battle in the European war and its most consequential turning point. The Soviet Operation Uranus encircled the German Sixth Army; Hitler's refusal to allow a breakout doomed 300,000 men to death or captivity. From this moment, German forces in the East were in strategic retreat for the remainder of the war.",
+            "The Soviet Operation Uranus encircled the German Sixth Army. Hitler refused a breakout. 300,000 men died or were captured. Germany never held strategic initiative in the East again.",
         },
         {
           type: "paragraph",
           content:
-            "The Battle of Midway (June 1942) was its Pacific equivalent. US codebreakers had determined the Japanese were attacking Midway atoll, and American carriers lay in ambush. In a few hours, Japan lost four fleet carriers — irreplaceable vessels that had attacked Pearl Harbor. Japanese naval dominance in the Pacific ended and was never recovered. The island-hopping campaign that would eventually reach Japan's doorstep became possible.",
+            "Midway (June 1942) was the Pacific equivalent. US codebreakers ambushed the Japanese fleet. Four irreplaceable carriers sunk in hours. Japan's naval dominance ended and was never recovered.",
         },
-        { type: "heading", content: "D-Day and the Atomic Bomb" },
+        { type: "heading", content: "D-Day: The Second Front Stalin Had Been Demanding Since 1941" },
         {
           type: "paragraph",
           content:
-            "D-Day, June 6, 1944, was the second front that the Soviet Union had been demanding since 1941. With Allied forces breaking out from Normandy and the Red Army advancing from the east, German defeat became a matter of time rather than possibility. The operation's success vindicated years of Allied preparation and planning, and Churchill's insistence on strategic patience rather than premature landings.",
+            "With 156,000 troops landing at Normandy and the Red Army advancing from the east, German defeat became a matter of when, not if. Years of Allied preparation vindicated in one day.",
         },
         {
           type: "paragraph",
           content:
-            "The atomic bombing of Hiroshima on August 6, 1945, was not just the weapon that ended the war in the Pacific — it was a threshold in human history. A single aircraft, a single bomb, a city destroyed. The decision to use it remains disputed: was the invasion of Japan it was meant to prevent so costly it justified the deaths of over 100,000 civilians? What is not disputed is its strategic consequence: the nuclear age began, and warfare between great powers has never been the same since.",
+            "Hiroshima was not just the end of the Pacific war — it was a threshold in human history. One aircraft. One bomb. A city destroyed. Nuclear deterrence still rests on what happened that day.",
         },
       ],
       quiz: {
@@ -275,30 +265,31 @@ const course: Course = {
       title: "Legacy & Long-Term Impact",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Holocaust" },
+        { type: "heading", content: "The Holocaust: Bureaucratic, Deliberate, Documented" },
         {
           type: "paragraph",
           content:
-            "The Holocaust was the systematic murder of six million Jewish people — two-thirds of European Jewry — by the Nazi state and its collaborators. Including Roma, disabled people, Soviet prisoners of war, political prisoners, and others, the total number of victims reaches 11 million. The Holocaust was not an improvised atrocity but a bureaucratic project: coordinated across government ministries, facilitated by railways and corporations, carried out by ordinary people. Its documentation in the Nuremberg Trials established a new principle in international law: that crimes against humanity exist independently of national law, and that following orders is not a defence.",
+            "Six million Jewish people murdered — two-thirds of European Jewry. The Holocaust was not improvised. It was coordinated across ministries, run by railways and corporations, carried out by ordinary people following orders.",
         },
-        { type: "heading", content: "The New World Order" },
+        { type: "heading", content: "Nuremberg Established a New Legal Principle" },
         {
           type: "paragraph",
           content:
-            "The United Nations was founded in San Francisco in 1945 with the explicit aim of preventing another world war. The Marshall Plan committed $13 billion in American aid to rebuild Western Europe — an act of strategic generosity unprecedented in history, explicitly designed to prevent the economic desperation that had enabled fascism. NATO, founded in 1949, formalised the American commitment to European defence.",
+            "Crimes against humanity now exist above national law. Following orders is not a defence. These principles — genuinely new in 1945 — are the foundation of international humanitarian law today.",
         },
+        { type: "heading", content: "The Post-War Order Was Built on WWII's Lessons" },
         {
           type: "paragraph",
           content:
-            "The Iron Curtain that Churchill described in his 1946 Fulton speech divided Europe along the lines where Soviet and Western armies had met in 1945. Eastern Europe's liberation from Nazi occupation became occupation by Soviet-backed communist governments. The Cold War that defined the next forty years began not in 1947 but the day the guns fell silent in Europe.",
+            "The UN, the Marshall Plan, NATO — all designed to prevent the specific failures that produced the war: economic desperation, national humiliation, institutional collapse. The EU is WWII's most ambitious peace project.",
         },
-        { type: "heading", content: "Decolonisation" },
+        { type: "heading", content: "Decolonisation: The Moral Authority Evaporated" },
         {
           type: "paragraph",
           content:
-            "The war accelerated the end of European empires. Britain, France, and the Netherlands emerged from the war exhausted and indebted. The moral authority that imperial powers had invoked — bringing civilisation to less developed peoples — had been destroyed by the behaviour of the most 'civilised' nation in Europe. Independence movements across Asia and Africa found their moment. India gained independence in 1947; the majority of African states within twenty years.",
+            "How could colonial powers claim to be civilising the world after the Holocaust? They couldn't. India gained independence in 1947. Most of Africa followed within twenty years.",
         },
       ],
       quiz: {
@@ -335,31 +326,31 @@ const course: Course = {
       title: "Why This Matters Today",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The War We Still Live Inside" },
+        { type: "heading", content: "We Still Live Inside the World WWII Made" },
         {
           type: "paragraph",
           content:
-            "The world order that emerged from World War II remains, with modifications, the world order of today. The United Nations Security Council still reflects the victors of 1945. Nuclear deterrence still rests on the logic of Hiroshima — that the threat of mutual destruction is more stable than the pursuit of victory. NATO, founded to prevent another European war, is still the primary security institution of the Western world.",
+            "The UN Security Council reflects 1945's victors. Nuclear deterrence still rests on Hiroshima's logic. NATO still anchors Western security. The post-war order is modified but not replaced.",
         },
-        { type: "heading", content: "The European Union as WWII Peace Project" },
+        { type: "heading", content: "The EU Is a Peace Project Built on WWII's Ruins" },
         {
           type: "paragraph",
           content:
-            "The European Union was explicitly conceived as a structure to make another European war impossible by making European economies and fates inseparable. Jean Monnet, one of its founding architects, saw economic integration not as an end but as a means — the progressive entanglement of national interests until war became irrational. The EU is, in this reading, the most successful peace project in history: the continent that produced two world wars has not had a major war between its members since 1945.",
+            "Jean Monnet designed European integration to make another war irrational by entangling national economies inseparably. The continent that produced two world wars has had no major war between members since 1945.",
         },
-        { type: "heading", content: "Holocaust Memory and the Warning It Carries" },
+        { type: "heading", content: "The Holocaust Warning Is Not About the Past" },
         {
           type: "paragraph",
           content:
-            "Holocaust memory is not merely historical — it is the central warning about what modern states are capable of when they define groups of people as subhuman. The Holocaust was not carried out by monsters but by bureaucrats, engineers, railway administrators, and soldiers who told themselves they were following orders. The lesson that institutional evil requires ordinary participation — and is enabled by ordinary silence — is not a lesson about another time.",
+            "The Holocaust was carried out by bureaucrats, engineers, and soldiers who told themselves they were following orders. The lesson — that institutional evil requires ordinary participation and ordinary silence — is not a lesson about another time.",
         },
-        { type: "heading", content: "How Democracies Fail" },
+        { type: "heading", content: "Democracies Can Fail — Here's How" },
         {
           type: "paragraph",
           content:
-            "The Nazi seizure of power is studied not because it was unique but because of how recognisable its steps are: the emergency powers, the identification of enemies, the normalisation of exceptional measures, the gradual erosion of institutional independence, the self-censorship of those who knew better. Historians of authoritarianism note the same sequence in different settings in different eras.",
+            "Emergency powers. Enemies identified. Exceptional measures normalised. Institutional independence eroded. Self-censorship from those who know better. Historians of authoritarianism note the same sequence across eras.",
         },
       ],
       reflection: {

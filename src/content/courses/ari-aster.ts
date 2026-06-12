@@ -16,23 +16,23 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Ari Aster (born 1986)" },
         {
           type: "paragraph",
           content:
-            "Ari Aster was born in 1986 and studied film at the AFI Conservatory in Los Angeles, where he developed an early reputation for formally precise, emotionally extreme work. His short films — particularly The Strange Thing About the Johnsons and Munchausen — demonstrated a willingness to engage with deeply uncomfortable subject matter that most filmmakers avoid.",
+            "Aster trained at the AFI Conservatory in LA, where he built a reputation for formally precise, emotionally extreme short films — including The Strange Thing About the Johnsons, which caused controversy at festivals and announced his willingness to go further than most.",
         },
         {
           type: "paragraph",
           content:
-            "His feature debut Hereditary (2018), starring Toni Collette in one of the decade's great performances, announced him immediately as a major talent. Critics and audiences recognised it as something more than a horror film — a devastating excavation of grief, inherited trauma, and family dysfunction that used horror conventions to go further than drama alone could.",
+            "Hereditary (2018) wasn't just a horror film — it was a devastating excavation of grief using horror as the vehicle. Critics noticed immediately. Then came Midsommar, Beau Is Afraid, and no signs of slowing down.",
         },
         {
           type: "paragraph",
           content:
-            "Midsommar (2019) broke radically from the genre's visual codes by setting a folk-horror narrative almost entirely in broad Swedish daylight. Beau Is Afraid (2023), a three-hour surrealist odyssey starring Joaquin Phoenix, confirmed Aster as a filmmaker willing to follow his visions wherever they lead, regardless of commercial convention.",
+            "Midsommar set folk horror in perpetual Swedish daylight — a formal inversion that changed what the genre could look like. Beau Is Afraid went further still: three hours of surrealist maternal anxiety with Joaquin Phoenix.",
         },
         {
           type: "heading",
@@ -88,37 +88,37 @@ const course: Course = {
       title: "Influences & Cinematic Education",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Roman Polanski: Psychological Horror and Paranoid Space" },
+        { type: "heading", content: "Polanski: The Home as Psychological Trap" },
         {
           type: "paragraph",
           content:
-            "Polanski's apartment trilogy — Repulsion, Rosemary's Baby, The Tenant — taught Aster that horror can be entirely psychological and entirely domestic. The apartment becomes a projection of mental state; the ordinary space turns slowly wrong. Aster uses domestic spaces in precisely this way: the family home in Hereditary is as much a psychological trap as a physical one.",
+            "Repulsion, Rosemary's Baby, The Tenant — Polanski taught Aster that horror can be entirely domestic. The ordinary space turns slowly wrong. The family home in Hereditary works exactly this way.",
         },
-        { type: "heading", content: "Ingmar Bergman: Family Dysfunction and Existential Dread" },
+        { type: "heading", content: "Bergman: Family Is Where the Wounds Are" },
         {
           type: "paragraph",
           content:
-            "Bergman's Scenes from a Marriage, Cries and Whispers, and Fanny and Alexander gave Aster a model for exploring family dynamics with unflinching honesty. Bergman understood that the family is the primary arena of human suffering — that the wounds inflicted in childhood reverberate across a life. Aster pursues this insight through genre.",
+            "Scenes from a Marriage, Cries and Whispers — Bergman understood the family as the primary arena of human suffering. Aster pursues this insight through genre instead of chamber drama.",
         },
-        { type: "heading", content: "Stanley Kubrick: Formal Precision and Dread Through Control" },
+        { type: "heading", content: "Kubrick: Dread Through Symmetry" },
         {
           type: "paragraph",
           content:
-            "Kubrick showed that dread could be produced through formal perfection — that the most frightening spaces are often the most symmetrical and controlled. The Shining's corridors create unease precisely because they are too precise. Aster's carefully composed frames work on the same principle.",
+            "The Shining's corridors create unease because they're too perfect. Aster's carefully composed, symmetrical frames work on the same principle: control itself becomes threatening.",
         },
         { type: "heading", content: "The Wicker Man and Folk Horror" },
         {
           type: "paragraph",
           content:
-            "The British folk horror tradition — The Wicker Man, Witchfinder General, Blood on Satan's Claw — demonstrated that horror rooted in community ritual and seasonal folklore could be more disturbing than supernatural threat. Midsommar is a direct engagement with this tradition, transposed to Scandinavia and flooded with light.",
+            "Community ritual and seasonal folklore can be more disturbing than any monster. Midsommar is a direct engagement with this tradition — transposed to Scandinavia and flooded with light.",
         },
-        { type: "heading", content: "John Cassavetes: Raw Performance and Domestic Horror" },
+        { type: "heading", content: "Cassavetes: Domestic Scenes Without Relief" },
         {
           type: "paragraph",
           content:
-            "Cassavetes taught Aster that domestic scenes could be unbearable without any supernatural element — that a family dinner, a marriage argument, a moment of parental frustration could be as harrowing as anything in conventional horror. Aster uses this to establish dread before the genre elements arrive.",
+            "Cassavetes proved that a family dinner could be as harrowing as any horror scene. Aster uses this to establish dread before a single genre element has appeared.",
         },
       ],
       quiz: {
@@ -154,37 +154,37 @@ const course: Course = {
       title: "Visual Style & Techniques",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Symmetrical Composition as Unease" },
+        { type: "heading", content: "Symmetry That Unsettles" },
         {
           type: "paragraph",
           content:
-            "Aster's compositions are often strikingly symmetrical — figures centred in frame, rooms perfectly balanced, architectural space rendered with geometric precision. This formal perfection creates unease rather than beauty. We sense, without being able to say why, that something is wrong with a world this controlled.",
+            "Aster's frames are often strikingly symmetrical — and that's what makes them wrong. A world this controlled implies something watching it. Something that arranged it.",
         },
         { type: "heading", content: "The Overhead Dollhouse Shot" },
         {
           type: "paragraph",
           content:
-            "One of Aster's most distinctive recurring techniques is a high overhead shot that reveals a domestic space as if from God's perspective — or from the perspective of someone watching and controlling the action from above. These shots appear at key moments in Hereditary, recalling the miniature dollhouses that Annie Graham builds and suggesting that the family's suffering is itself a kind of arranged performance.",
+            "High overhead shots reveal domestic space as if observed from above — from God's perspective, or from whatever is controlling the action. In Hereditary, they echo Annie's miniature-making.",
         },
-        { type: "heading", content: "The Slow Creeping Camera in Ordinary Space" },
+        { type: "heading", content: "The Slow Creeping Camera" },
         {
           type: "paragraph",
           content:
-            "Aster uses slow, deliberate camera movement through ordinary domestic spaces — a camera pushing gently down a hallway, drifting toward a corner, moving through a room toward a closed door. This movement treats the familiar as unknown territory, suggesting that something may be found in the ordinary space that cannot be unseen.",
+            "A gentle push down a hallway toward a closed door. The camera treats the familiar as unknown territory. Something may be found there that cannot be unseen.",
         },
-        { type: "heading", content: "Natural Practical Lighting" },
+        { type: "heading", content: "No Horror Lighting — Just Natural Light" },
         {
           type: "paragraph",
           content:
-            "Aster refuses the stylised lighting of conventional horror — the blue moonlight, the gothic shadow. His cinematographers light with practical sources: lamps, fires, the Swedish midnight sun. This naturalism makes the horror more disturbing because there is no visual signal that we are in a horror film. Reality simply develops, without warning, into nightmare.",
+            "No blue moonlight. No gothic shadow. Just lamps, fires, and the Swedish midnight sun. Reality develops, without warning, into nightmare. That's more disturbing than any atmosphere.",
         },
-        { type: "heading", content: "Sound Design: Silence as Dread" },
+        { type: "heading", content: "Silence as the Main Instrument of Dread" },
         {
           type: "paragraph",
           content:
-            "Aster's sound design uses silence as a primary instrument of dread. The absence of score at key moments — the sudden dropping of ambient sound before something terrible — creates a vacuum that the viewer's anxiety fills. His collaborator Colin Stetson's score for Hereditary uses breath and reed instruments to create sounds that feel biological and involuntary.",
+            "Aster drops ambient sound before something terrible happens — creating a vacuum your anxiety fills. Colin Stetson's score for Hereditary uses breath and reeds to sound biological, involuntary.",
         },
       ],
       quiz: {
@@ -220,25 +220,25 @@ const course: Course = {
       title: "Essential Films",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Hereditary (2018)" },
         {
           type: "paragraph",
           content:
-            "Grief as the engine of horror. The film begins at a funeral — the death of Annie Graham's mother — and every subsequent event grows out of the family's inability to process loss. Toni Collette's performance is one of the defining achievements of contemporary horror: a study in a mother's grief becoming indistinguishable from madness. The horror is earned by the drama that precedes it.",
+            "Grief as horror engine. Every event grows from a family's inability to process loss. Toni Collette's performance is one of the decade's great achievements — a mother's grief becoming indistinguishable from madness.",
         },
         { type: "heading", content: "Midsommar (2019)" },
         {
           type: "paragraph",
           content:
-            "Folk horror in pure sunlight. Where conventional horror uses darkness as its visual language, Midsommar is set during a Swedish midsummer festival where the sun never sets. The film uses the horror genre as a framework for a relationship breakdown — Dani's grief and her toxic relationship with Christian playing out against increasingly disturbing folk ritual. The extended director's cut adds thirty minutes and deepens the character work.",
+            "Folk horror in pure sunlight. The darkness isn't in the shadows — it's in what's openly visible and cheerfully performed. A relationship breakdown played out against increasingly disturbing ritual.",
         },
         { type: "heading", content: "Beau Is Afraid (2023)" },
         {
           type: "paragraph",
           content:
-            "A three-hour surrealist odyssey in which Beau, played by Joaquin Phoenix, attempts to travel to his mother's house and encounters a series of escalating nightmares that may or may not be real. The film is Aster's most personal and most extreme work — a dark comedy about maternal anxiety, guilt, and the impossibility of separating from a suffocating parent.",
+            "Three hours, Joaquin Phoenix, a series of escalating nightmares on the way to his mother's house. Aster's most personal and most extreme work — a dark comedy about maternal anxiety and the impossibility of separation.",
         },
         {
           type: "quote",
@@ -280,37 +280,37 @@ const course: Course = {
       title: "Themes & Obsessions",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Grief as the Motor of Horror" },
+        { type: "heading", content: "Grief Opens the Door" },
         {
           type: "paragraph",
           content:
-            "Hereditary opens at a funeral. Midsommar opens with a family tragedy. Grief is not merely a subject for Aster — it is the mechanism by which the horror is generated. Characters in crisis, stripped of their ordinary defences by loss, become vulnerable to the extraordinary. Horror arrives when the psychological wounds are already open.",
+            "Hereditary opens at a funeral. Midsommar opens with family tragedy. Grief isn't just a subject — it's the mechanism. Characters stripped of their defences by loss become vulnerable to the extraordinary.",
         },
-        { type: "heading", content: "The Family as the First and Most Permanent Wound" },
+        { type: "heading", content: "Family Is the First and Deepest Wound" },
         {
           type: "paragraph",
           content:
-            "Aster's films treat the family as the site of the deepest and most lasting damage. The wounds parents inflict on children — through neglect, cruelty, expectation, or simply the weight of their own unresolved grief — become the template for everything that follows. Horror is the form these wounds take when they can no longer be contained.",
+            "Parents wound children. Children inherit the wound. Horror is the form those wounds take when they can no longer be contained. Aster treats the family as the origin of everything frightening.",
         },
         { type: "heading", content: "Inherited Trauma" },
         {
           type: "paragraph",
           content:
-            "A recurring concern in Aster's work is what passes from parents to children: the patterns of behaviour, the psychological vulnerabilities, the literal or metaphorical curses that move across generations. In Hereditary this is rendered literally — a supernatural inheritance — but the metaphorical dimension is equally present.",
+            "Patterns of behaviour pass from parents to children — literally in Hereditary (a supernatural inheritance), metaphorically everywhere else. You don't escape your lineage. It finds you.",
         },
-        { type: "heading", content: "Community, Belonging, and Their Danger" },
+        { type: "heading", content: "Belonging and Its Price" },
         {
           type: "paragraph",
           content:
-            "Midsommar shows a character whose existing relationships have failed finding temporary belonging within a community — and the horror of what that community demands in return. Aster explores the human need for belonging and the danger of finding it in a community that has its own agenda for you.",
+            "Midsommar's Dani finds temporary belonging in a community whose existing relationships have failed her. Aster shows what that community demands in return. Belonging always has conditions.",
         },
         { type: "heading", content: "Horror as Emotional Truth" },
         {
           type: "paragraph",
           content:
-            "Aster regards the horror genre as a vehicle for emotional truth — a Trojan horse that can deliver insights about grief, family, and psychological damage that might be intolerable in a straightforwardly realistic form. The genre provides a container for feelings that are otherwise too large.",
+            "Genre is a container for feelings too large to deliver straight. The horror form gives audiences permission to feel extreme emotions — and Aster loads it with grief, trauma, and damage that drama rarely touches.",
         },
       ],
       quiz: {
@@ -346,31 +346,31 @@ const course: Course = {
       title: "What You Can Learn",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Dread Without Horror" },
         {
           type: "paragraph",
           content:
-            "Watch the first thirty minutes of Hereditary. In that time, Aster shows you almost nothing that could be called a horror element: no monster, no supernatural event, no shock. What you see is a family grieving — uncomfortably, imperfectly, in ways that feel too familiar. And yet the dread is present from the first frame.",
+            "The first thirty minutes of Hereditary contain almost no horror elements — no monster, no shock, no supernatural event. Just a family grieving badly. And yet the dread is there from the first frame.",
         },
-        { type: "heading", content: "The Lesson: Horror Is Emotional Preparation" },
+        { type: "heading", content: "Horror Is Emotional Preparation" },
         {
           type: "paragraph",
           content:
-            "Aster understands that horror — or any extreme emotional response — must be earned by the work that precedes it. The first act of Hereditary is about a family that cannot talk to each other, cannot grieve together, cannot connect. By the time the horror arrives, we have been made helpless by our understanding of these people. The genre delivers what the drama has earned.",
+            "Aster earns his genre moments with the drama that precedes them. By the time the horror arrives, you're helpless — because you understand these people. The genre delivers what the drama earned.",
         },
-        { type: "heading", content: "The Practical Exercise" },
+        { type: "heading", content: "Build the Foundation First" },
         {
           type: "paragraph",
           content:
-            "In your own work, identify the emotional situation you want your audience to feel. Now ask: what would need to be true about these characters, before the plot event, for that emotion to land with full force? Build that foundation first. The 'event' — whatever genre you're working in — is only as powerful as the emotional preparation that precedes it.",
+            "Ask: what would need to be true about these characters, before the plot event, for that emotion to land with full force? Build that foundation. The event is only as powerful as the preparation before it.",
         },
         { type: "heading", content: "Genre as a Trojan Horse" },
         {
           type: "paragraph",
           content:
-            "Aster's other major lesson is that genre conventions can carry difficult truths into mainstream audiences who might otherwise resist them. The horror genre gives audiences permission to feel extreme emotions — it promises that experience. Aster uses that permission to deliver grief, family horror, and psychological damage that straight drama rarely achieves.",
+            "Horror gives audiences permission to feel extreme emotions. Aster uses that permission to deliver grief, family damage, and psychological horror that straight drama rarely achieves. Pick your genre. Load it.",
         },
       ],
       reflection: {

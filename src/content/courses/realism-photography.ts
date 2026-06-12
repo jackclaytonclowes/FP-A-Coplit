@@ -16,26 +16,26 @@ const course: Course = {
       title: "Origins & History",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Photography as Document of Reality" },
+        { type: "heading", content: "The Camera That Refused to Lie" },
         {
           type: "paragraph",
           content:
-            "From the moment the daguerreotype was announced in 1839, photography was understood as something fundamentally different from painting: not an interpretation of the world, but the world's own impression upon a surface. This was the original promise and the original burden of the medium. Before the word 'realism' was applied to photographic practice, the medium itself embodied it.",
+            "Point. Shoot. Don't lie. When the daguerreotype landed in 1839, photography was immediately understood as something radically different from painting — not an interpretation, but the world's own impression on a surface.",
         },
         {
           type: "paragraph",
           content:
-            "The early impulse to use photography as evidence rather than art shaped the medium's trajectory. By the 1860s and 1870s, photographers were documenting the American Civil War, Parisian streets, and working-class urban life with an intention that was explicitly documentary — to record what existed, not to beautify it.",
+            "By the 1860s, photographers were charging into Civil War battlefields and slum alleyways with one goal: show what's actually there. Evidence, not beauty.",
         },
-        { type: "heading", content: "The Social Documentary Impulse" },
+        { type: "heading", content: "Photography Meets Social Justice" },
         {
           type: "paragraph",
           content:
-            "The convergence of photography with social reform movements in the late 19th century gave realism its moral foundation. Jacob Riis's documentation of New York tenements in the 1880s established the model: the photograph as evidence in an argument for justice. Photography's apparent objectivity made it a uniquely persuasive tool for social documentation.",
+            "Jacob Riis photographed New York tenements in the 1880s and basically invented reform photography. The camera's apparent objectivity made it the most persuasive argument in any social justice toolkit.",
         },
-        { type: "heading", content: "Timeline of the Realist Tradition" },
+        { type: "heading", content: "Realism's Greatest Hits: A Timeline" },
         {
           type: "list",
           items: [
@@ -71,37 +71,37 @@ const course: Course = {
       title: "Key Practitioners",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Eugene Atget (1857–1927)" },
         {
           type: "paragraph",
           content:
-            "Atget spent three decades making a systematic photographic inventory of Paris — its streets, courtyards, shop fronts, parks, and working people — before the city was transformed by modernisation. He worked with large-format equipment and long exposures, producing images of extraordinary stillness and detail. He considered himself a craftsman supplying documents to artists, not an artist himself. The Surrealists recognised his images' dreamlike quality; subsequent generations recognised him as one of photography's greatest realists.",
+            "Atget spent thirty years making a photographic inventory of Paris before modernisation swallowed it whole. He called himself a craftsman supplying documents — the Surrealists called him a genius.",
         },
         { type: "heading", content: "Lewis Hine (1874–1940)" },
         {
           type: "paragraph",
           content:
-            "Hine trained as a sociologist and used photography as a sociological instrument. His documentation of child labour in American mills, mines, and factories in the 1900s and 1910s was explicitly reform photography — made to provide evidence for legislative change. He later documented the construction of the Empire State Building, turning his lens upward to show the dignity of dangerous labour. His work established the model of photography in service of social justice.",
+            "Trained as a sociologist, Hine used the camera as a weapon. His photographs of child labourers in mills and mines weren't art — they were evidence that changed laws.",
         },
         { type: "heading", content: "Dorothea Lange (1895–1965)" },
         {
           type: "paragraph",
           content:
-            "Lange began as a portrait photographer and became the central figure of Depression-era social documentary through her work for the Farm Security Administration. Her photograph 'Migrant Mother' (1936) is among the most reproduced photographs ever made. She worked with extraordinary empathy — entering into genuine relationship with her subjects — while maintaining documentary honesty. Her work demonstrated that realism was not incompatible with profound human feeling.",
+            "Lange started as a portrait photographer and became the face of Depression-era documentary. Migrant Mother (1936) is one of the most reproduced photographs ever made. Empathy and honesty — not opposites.",
         },
         { type: "heading", content: "Walker Evans (1903–1975)" },
         {
           type: "paragraph",
           content:
-            "Evans brought a formalist rigour to documentary photography that distinguished his approach from the empathetic engagement of Lange or Hine. His photographs of Alabama sharecroppers, made with James Agee for Let Us Now Praise Famous Men, document poverty with frontal directness and formal precision. Evans refused sentimentality; his photographs are the evidence of careful looking rather than emotional response. His influence on subsequent documentary photographers — and on American art photography generally — is enormous.",
+            "Evans brought cold formal precision where Lange brought warmth. His Alabama sharecropper portraits are unflinching — no sentiment, no flattery, just ruthless looking.",
         },
         { type: "heading", content: "August Sander (1876–1964)" },
         {
           type: "paragraph",
           content:
-            "Sander's life project, People of the Twentieth Century, was a systematic photographic typology of German society — workers, farmers, craftsmen, artists, politicians, the unemployed — organised by social category. He photographed his subjects frontally, in their working environments, without flattery or dramatisation. The project was suppressed by the Nazis, who found its democratic levelling of social types politically threatening. It remains one of photography's most ambitious and achieved realist projects.",
+            "Sander set out to photograph all of German society, sorted by type. Farmers, artists, the unemployed — all treated identically. The Nazis found the democratic idea so threatening they destroyed his printing plates.",
         },
         {
           type: "quote",
@@ -126,31 +126,31 @@ const course: Course = {
       title: "Visual Characteristics",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Unflattering Truth" },
+        { type: "heading", content: "No Flattery Allowed" },
         {
           type: "paragraph",
           content:
-            "Realist photography's defining refusal is the refusal to flatter. Where portraiture traditionally involves the negotiation of a flattering image — the subject presenting their best self, the photographer collaborating in that presentation — realist photography resists this. The subject is shown as they are, not as they would like to appear. This refusal is both ethical and aesthetic: the truth of a face or a room includes what is worn, tired, poor, and imperfect.",
+            "Realist photography's defining move is the refusal to flatter. Tired, worn, imperfect — the subject is shown as-is, not as they'd like to appear.",
         },
-        { type: "heading", content: "Ordinary Subjects" },
+        { type: "heading", content: "The Ordinary Is the Subject" },
         {
           type: "paragraph",
           content:
-            "Realism's subject matter is the ordinary world — working people, everyday spaces, unremarkable objects and moments. The tradition is implicitly democratic: it insists that the life of a factory worker or a Depression-era farmhand is as worthy of serious photographic attention as the life of a politician or artist. The ordinary is not background material; it is the subject.",
+            "Factories, roadside camps, shop fronts. Realism is implicitly democratic — a farmhand's life deserves the same serious photographic attention as a president's.",
         },
-        { type: "heading", content: "Available Light and Natural Conditions" },
+        { type: "heading", content: "Use the Light That's Already There" },
         {
           type: "paragraph",
           content:
-            "Realist photography generally works with the light that exists rather than creating the light it needs. Available light — window light, ambient outdoor light, existing interior illumination — grounds the image in the actual conditions of the photographed space. This is partly practical and partly philosophical: the light belongs to the scene and the scene belongs to the world being documented.",
+            "Realist photography works with available light — window glow, street ambience, whatever's there. Bringing in your own light starts changing the scene, which starts making it fiction.",
         },
-        { type: "heading", content: "No Staging" },
+        { type: "heading", content: "Don't Arrange Anything" },
         {
           type: "paragraph",
           content:
-            "The realist tradition's clearest prohibition is against staging — arranging subjects, moving objects, constructing scenes for the camera. Documentary photographers have debated the edges of this prohibition endlessly: asking someone to look up, returning to a location at a particular time, waiting for a scene to complete itself. But the core principle — that what the camera records was there without the camera — distinguishes realism from other photographic traditions.",
+            "No moving props, no positioning subjects. What the camera records was there before the camera arrived. That's the line between documentary and everything else.",
         },
         {
           type: "quote",
@@ -175,31 +175,31 @@ const course: Course = {
       title: "Defining Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Migrant Mother — Dorothea Lange (1936)" },
         {
           type: "paragraph",
           content:
-            "Made at a pea-pickers' camp in Nipomo, California, during the Depression, Lange's photograph of Florence Owens Thompson and her children is among the most widely reproduced photographs ever made. Lange made six frames; the final image, in which Thompson looks away from the camera while two children bury their faces in her shoulders, became the definitive image of Depression-era suffering. It demonstrates realism's capacity to contain enormous human complexity within a single frame.",
+            "Six frames at a pea-pickers' camp in Nipomo, California. The last one — Florence Owens Thompson looking away, two children burying their faces in her shoulders — became the definitive image of the Depression.",
         },
         { type: "heading", content: "Let Us Now Praise Famous Men — Walker Evans & James Agee (1941)" },
         {
           type: "paragraph",
           content:
-            "Evans and Agee spent eight weeks living with three Alabama sharecropper families in 1936, producing a book that combined Evans's photographs — frontal, formally rigorous, unsentimentalised — with Agee's extraordinary prose. Evans's photographs of the Gudger, Woods, and Ricketts families, their homes and possessions, remain the definitive statement of realist documentary photography's formal aspirations. The book was a commercial failure on publication and is now considered a masterpiece.",
+            "Eight weeks living with Alabama sharecroppers. Evans's frontal, unsentimental photographs paired with Agee's extraordinary prose. A commercial failure on release. Now: a masterpiece.",
         },
         { type: "heading", content: "People of the Twentieth Century — August Sander (1929–)" },
         {
           type: "paragraph",
           content:
-            "Sander's systematic project documented German society as a series of social types — Farmers, Skilled Tradesmen, The Woman, Classes and Professions, The City, The Last People. His frontal portraits, made in natural light with a large-format camera, treat each subject with equal formal attention regardless of social standing. The project's democratic vision made it politically dangerous under the Nazi regime, which destroyed the printing plates.",
+            "Every social type in German society, photographed with the same frontal dignity. Farmers next to politicians next to the unemployed. The Nazis destroyed the printing plates in 1936 — they understood what equal treatment meant.",
         },
         { type: "heading", content: "New York Street Photography — Berenice Abbott, 1930s" },
         {
           type: "paragraph",
           content:
-            "Abbott's Changing New York project documented the city during a period of rapid transformation — the old city giving way to skyscrapers, elevated railways being demolished, immigrant neighbourhoods changing. Working for the Federal Art Project, she photographed both the vanishing and the emerging city with the systematic documentary intention she had absorbed from Atget. Her work established the template for urban documentary photography.",
+            "Abbott documented a city transforming at speed — old neighbourhoods vanishing, skyscrapers rising. She learned documentary rigour from Atget, then applied it to New York.",
         },
       ],
       quiz: {
@@ -219,31 +219,31 @@ const course: Course = {
       title: "Modern Influence",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Alec Soth and the American Interior" },
+        { type: "heading", content: "Alec Soth: The Great American Interior" },
         {
           type: "paragraph",
           content:
-            "Soth's large-format documentary projects — Sleeping by the Mississippi, Broken Manual, Songbook — are direct descendants of the Evans and Lange tradition. He travels through American spaces that mainstream culture ignores — the rural midwest, the margins of small towns, the lives of people without social media presence — and photographs them with the formal attention and democratic humanism of the realist tradition. His work demonstrates that the tradition is not merely historical.",
+            "Soth travels the rural midwest — towns without social media presence, lives mainstream culture ignores — with a large-format camera and Evans's democratic eye. The realist tradition is alive.",
         },
-        { type: "heading", content: "Rineke Dijkstra and the Portrait Tradition" },
+        { type: "heading", content: "Rineke Dijkstra: Updating Sander" },
         {
           type: "paragraph",
           content:
-            "Dijkstra's frontal portraits of adolescents on beaches, new mothers, soldiers, and bullfighters develop Sander's portrait methodology into a contemporary practice. Her subjects are photographed directly, without flattery, in moments of physical and psychological transition. The formal precision of her approach — large format, natural light, frontal composition — connects explicitly to the realist portrait tradition.",
+            "Frontal portraits, natural light, large format. Dijkstra photographs adolescents on beaches and new mothers with the same methodological honesty Sander brought to German society. Same ethics, new subjects.",
         },
-        { type: "heading", content: "Contemporary Social Documentary" },
+        { type: "heading", content: "Documentary Isn't Dead" },
         {
           type: "paragraph",
           content:
-            "Contemporary social documentary photography — work by photographers like Lynsey Addario, Paolo Pellegrin, and Pieter Hugo — continues the realist tradition's commitment to depicting difficult social realities without embellishment. The context has changed: digital distribution, Instagram, and the news cycle have transformed how documentary work reaches audiences, but the fundamental practice of sustained, honest engagement with social reality remains.",
+            "Lynsey Addario, Paolo Pellegrin, Pieter Hugo — contemporary photographers still doing exactly what Hine did. The context changed (Instagram, 24-hour news). The practice didn't.",
         },
-        { type: "heading", content: "The Ethics Debate" },
+        { type: "heading", content: "The Ethics Got Harder" },
         {
           type: "paragraph",
           content:
-            "Contemporary documentary photography has inherited the realist tradition's ethical tensions. The questions raised by Hine and Sander — who is the photographer in relation to the subject, what is owed to photographed people, whose interests does the documentary image serve — are more complex in an era of instant global distribution, social media, and heightened awareness of representation and power.",
+            "Who benefits from this image? What does being photographed cost the subject? These questions were always there — now global distribution and social media make them impossible to ignore.",
         },
       ],
       quiz: {
@@ -263,43 +263,43 @@ const course: Course = {
       title: "What You Can Learn",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From the Realist Tradition" },
+        { type: "heading", content: "What Realism Actually Teaches You" },
         {
           type: "paragraph",
           content:
-            "The realist tradition offers lessons not just in technique but in the ethics and philosophy of photographic practice — in what it means to document rather than construct, to show rather than interpret.",
+            "The realist tradition isn't just about technique — it's about ethics. What does it mean to show rather than construct? To document rather than flatter?",
         },
-        { type: "heading", content: "1. Resist Flattery" },
+        { type: "heading", content: "1. Catch Yourself Flattering" },
         {
           type: "paragraph",
           content:
-            "Notice when you are collaborating with a subject to produce a flattering image rather than an honest one. Flattery is not wrong — portraiture is negotiation — but knowing when you are doing it is essential. The realist tradition asks: what would this photograph look like if you refused flattery entirely?",
+            "Flattery isn't always wrong — portraiture involves negotiation. But know when you're doing it. Ask yourself: what would this look like if I refused to make anyone look good?",
         },
-        { type: "heading", content: "2. Photograph the Ordinary World" },
+        { type: "heading", content: "2. The Ordinary Is Enough" },
         {
           type: "paragraph",
           content:
-            "Hine photographed factories, Lange photographed a roadside camp, Atget photographed shop fronts. The realist tradition insists that the unremarkable world around you is worthy of serious photographic attention. What ordinary spaces and people in your environment have you been overlooking because they don't seem photogenic enough?",
+            "Hine shot factories. Atget shot shop fronts. Stop waiting for something photogenic enough. The world in front of you is the subject.",
         },
-        { type: "heading", content: "3. Work With Available Light" },
+        { type: "heading", content: "3. Work With Available Light Only" },
         {
           type: "paragraph",
           content:
-            "Spend a period working exclusively with whatever light exists in the spaces you photograph. Notice what that constraint forces you to pay attention to — the quality of light through a window, the direction of shadow in an interior. Available light is not a compromise; it is a choice with its own visual intelligence.",
+            "Try a week with only the light that's already there. Window glow, street lamps, fluorescent overheads. It's not a compromise — it's a choice with its own visual intelligence.",
         },
-        { type: "heading", content: "4. Build a Documentary Project" },
+        { type: "heading", content: "4. Build a Project, Not Just a Portfolio" },
         {
           type: "paragraph",
           content:
-            "The realist tradition works at the scale of the project, not the single image. Identify a subject — a community, a place, a social phenomenon — that you can return to over weeks or months. The sustained engagement that produces real documentary work cannot be accomplished in a single visit.",
+            "The realist tradition works at project scale. Pick one subject — a place, a community — and return to it for weeks. One visit doesn't make a documentary.",
         },
-        { type: "heading", content: "5. Ask the Ethical Questions" },
+        { type: "heading", content: "5. Ask the Uncomfortable Questions" },
         {
           type: "paragraph",
           content:
-            "Every documentary photograph involves relationships of power between photographer and subject. Ask yourself: what does this person get from being photographed? What do I get? What does the viewer get? Who benefits from this image existing? These questions don't have comfortable answers, but asking them is part of what makes documentary photography a serious practice.",
+            "What does this person get from being photographed? What do you get? What does the viewer get? There are no clean answers. Asking anyway is what separates serious documentary from extraction.",
         },
       ],
       reflection: {

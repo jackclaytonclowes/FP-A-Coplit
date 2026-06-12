@@ -16,43 +16,43 @@ const course: Course = {
       title: "Composition & Framing",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         {
           type: "heading",
-          content: "The Grammar of the Frame",
+          content: "The Frame Is a Decision",
         },
         {
           type: "paragraph",
           content:
-            "Composition is the language through which a photographer speaks. Before you press the shutter, every element within the frame is a decision: what to include, what to exclude, where to place your subject, and how the eye will travel through the image.",
+            "Before you press the shutter, every element in the frame is a choice — what's in, what's out, where your subject sits. Composition is the language you use to speak.",
         },
         {
           type: "heading",
-          content: "Rule of Thirds",
+          content: "Rule of Thirds: Start Here",
         },
         {
           type: "paragraph",
           content:
-            "Divide your frame into a 3×3 grid. Place your subject along the grid lines or at their intersections — the 'power points'. This creates visual tension and energy that a centred subject often lacks.",
+            "Divide your frame into a 3×3 grid. Place your subject on the lines or at their intersections — the 'power points'. Off-centre creates energy that centred almost never does.",
         },
         {
           type: "heading",
-          content: "Leading Lines",
+          content: "Leading Lines Pull the Eye",
         },
         {
           type: "paragraph",
           content:
-            "Roads, rivers, shadows, architecture — lines that draw the viewer's eye through the frame. The strongest leading lines direct attention toward the subject. They can be literal (a road) or implied (a gaze, a gesture).",
+            "Roads, rivers, shadows, architecture — use lines that drag the viewer's gaze toward your subject. They can be literal or implied (a gaze, a gesture).",
         },
         {
           type: "heading",
-          content: "Negative Space",
+          content: "Empty Space Isn't Wasted",
         },
         {
           type: "paragraph",
           content:
-            "The empty area around a subject is not wasted space — it is active. Wolfgang Tillmans understood this intuitively: negative space creates mood, isolation, scale. A small figure in a vast sky says something about loneliness that a tight crop cannot.",
+            "Negative space creates mood, isolation, and scale. A small figure in a vast sky says something about loneliness that a tight crop simply cannot.",
         },
         {
           type: "quote",
@@ -62,12 +62,12 @@ const course: Course = {
         },
         {
           type: "heading",
-          content: "Framing Within the Frame",
+          content: "Frame Within a Frame",
         },
         {
           type: "paragraph",
           content:
-            "Doorways, windows, arches, and natural openings act as secondary frames that isolate and elevate a subject. The inner frame draws the eye and adds depth and context.",
+            "Doorways, windows, and arches act as secondary frames — they isolate the subject, add depth, and give the image a sense of place.",
         },
       ],
       quiz: {
@@ -88,29 +88,29 @@ const course: Course = {
       title: "Understanding Light",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         {
           type: "heading",
-          content: "Light Is Everything",
+          content: "Light Is Your Medium, Not Just Your Tool",
         },
         {
           type: "paragraph",
           content:
-            "Photography literally means 'writing with light'. Every photograph is a record of how light fell at a specific moment. Understanding light — its quality, direction, colour, and intensity — is the single most important skill in photography.",
+            "Photography literally means 'writing with light'. Every image records how light fell at one specific moment — understanding it is the single most important skill you can build.",
         },
         {
           type: "heading",
-          content: "Hard vs Soft Light",
+          content: "Hard vs Soft: Know the Difference",
         },
         {
           type: "paragraph",
           content:
-            "Hard light comes from a small, distant source — the midday sun, a bare flashgun. It creates sharp, defined shadows and high contrast. Soft light comes from a large source relative to the subject — an overcast sky, a window, a softbox. It creates gentle, gradual shadows that are flattering for skin.",
+            "Hard light (midday sun, bare flash) creates sharp shadows and high contrast. Soft light (overcast sky, a window) creates gentle gradations that flatter skin and reveal form.",
         },
         {
           type: "heading",
-          content: "Direction of Light",
+          content: "Direction Changes Everything",
         },
         {
           type: "list",
@@ -124,21 +124,21 @@ const course: Course = {
         },
         {
           type: "heading",
-          content: "Golden Hour & Blue Hour",
+          content: "Golden Hour and Blue Hour Are Free Magic",
         },
         {
           type: "paragraph",
           content:
-            "The hour after sunrise and before sunset bathes scenes in warm, directional light with long shadows. The blue hour — the 20-minute window after sunset — gives city scenes their signature deep blue, luminous quality. Peter Lindbergh and Paolo Roversi both understood how to use the dying light of day to create something ineffable.",
+            "The hour after sunrise and before sunset delivers warm, directional light with long shadows. The blue hour — 20 minutes after sunset — turns city scenes luminous and deep. Lindbergh and Roversi both built careers on knowing exactly how to use dying light.",
         },
         {
           type: "heading",
-          content: "Chiaroscuro",
+          content: "Chiaroscuro: Drama from Darkness",
         },
         {
           type: "paragraph",
           content:
-            "Borrowed from Renaissance painting, chiaroscuro is the dramatic interplay of light and deep shadow. Helmut Newton used it frequently — subjects sculpted by light against near-black backgrounds, creating images of extraordinary power and contrast.",
+            "Borrowed from Renaissance painting, chiaroscuro is light sculpting a subject out of near-black shadow. Helmut Newton used it constantly — extraordinary power from contrast alone.",
         },
         {
           type: "quote",
@@ -163,29 +163,29 @@ const course: Course = {
       title: "Colour Theory for Photography",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         {
           type: "heading",
-          content: "Why Colour Matters",
+          content: "Colour Is Felt Before It's Seen",
         },
         {
           type: "paragraph",
           content:
-            "Colour is emotional. Before a viewer reads a single compositional element, they feel the colour temperature of an image. Warm images feel intimate, energetic, or nostalgic. Cool images feel distant, melancholic, or modern. Great photographers treat colour with the same intentionality as composition.",
+            "Before a viewer reads a single compositional element, they feel the colour temperature. Warm images feel intimate; cool images feel distant. Great photographers treat colour as intentionally as composition.",
         },
         {
           type: "heading",
-          content: "Colour Temperature",
+          content: "Colour Temperature: Measured in Kelvin",
         },
         {
           type: "paragraph",
           content:
-            "Light has temperature measured in Kelvin. Tungsten light (candles, old bulbs) sits around 2700K — warm, amber. Daylight is 5500K — neutral. Shade or overcast sky reaches 7000K — cool, blue. White balance settings allow you to either correct for these shifts or exploit them emotionally.",
+            "Tungsten light sits at around 2700K — warm, amber. Daylight is 5500K — neutral. Shade or overcast sky reaches 7000K — cool, blue. You can correct for these shifts or exploit them emotionally.",
         },
         {
           type: "heading",
-          content: "Colour Harmony",
+          content: "Colour Harmony in Practice",
         },
         {
           type: "list",
@@ -198,12 +198,12 @@ const course: Course = {
         },
         {
           type: "heading",
-          content: "Colour in Fashion Photography",
+          content: "Colour as the Subject Itself",
         },
         {
           type: "paragraph",
           content:
-            "Nick Knight is a master of colour as concept. His images often treat colour as the subject itself — a character rather than a backdrop. Tim Walker uses hyper-saturated, almost hallucinatory palettes to create fairy-tale worlds. Contrast this with Peter Lindbergh's near-monochrome aesthetic — often stripping colour almost entirely to force the viewer to focus on form and human truth.",
+            "Nick Knight treats colour as a character, not a backdrop. Tim Walker uses hallucinatory palettes to build fairy-tale worlds. Lindbergh does the opposite — strips colour almost entirely to force focus onto form and human truth.",
         },
         {
           type: "quote",
@@ -234,52 +234,52 @@ const course: Course = {
       title: "Lens Selection & Focal Length",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         {
           type: "heading",
-          content: "The Lens as a Point of View",
+          content: "Your Lens Is Your Point of View",
         },
         {
           type: "paragraph",
           content:
-            "Every focal length renders the world differently. This is not just a technical choice — it is a philosophical one. The focal length you choose determines the relationship between you, your subject, and the space between you.",
+            "Every focal length renders the world differently — not just technically, but philosophically. Your choice determines the relationship between you, your subject, and the space between you.",
         },
         {
           type: "heading",
-          content: "Wide Angle (14–35mm)",
+          content: "Wide Angle (14–35mm): Place People in Their World",
         },
         {
           type: "paragraph",
           content:
-            "Wide lenses exaggerate perspective — things close to the lens appear large, things further away shrink rapidly. They place the subject in their environment. Wolfgang Tillmans often shoots with wide lenses to embed people in their world rather than isolate them from it.",
+            "Wide lenses exaggerate perspective — close things loom large, distant things shrink fast. Tillmans uses them to embed people in their environment rather than isolate them from it.",
         },
         {
           type: "heading",
-          content: "Standard (40–60mm)",
+          content: "Standard (40–60mm): The Human Eye Equivalent",
         },
         {
           type: "paragraph",
           content:
-            "The 50mm lens is considered the 'human eye' equivalent. It renders perspective naturally, without distortion. Juergen Teller's intimate, apparently casual images often use standard focal lengths to produce images that feel honest and unmanipulated.",
+            "The 50mm renders perspective naturally. Juergen Teller's apparently casual, intimate images often rely on standard focal lengths — they feel honest because the lens isn't doing anything strange.",
         },
         {
           type: "heading",
-          content: "Telephoto (85–200mm+)",
+          content: "Telephoto (85–200mm+): Compression and Blur",
         },
         {
           type: "paragraph",
           content:
-            "Longer focal lengths compress distance — the background appears closer to the subject. They create beautiful background blur (bokeh) and allow photographers to work at a distance, capturing subjects unaware. The 85mm is revered as the portrait lens — it flatters facial proportions without distortion.",
+            "Longer focal lengths compress distance and produce beautiful background blur. The 85mm is revered as the portrait lens — it flatters facial proportions without distortion.",
         },
         {
           type: "heading",
-          content: "Depth of Field",
+          content: "Aperture Controls Depth of Field",
         },
         {
           type: "paragraph",
           content:
-            "Wide apertures (f/1.4, f/1.8) create shallow depth of field — only a thin plane is in focus, the rest dissolves into blur. Narrow apertures (f/8, f/11) bring everything into focus. Paolo Roversi shoots with near-wide-open apertures on large-format film, creating images of extraordinary softness and dreamlike focus.",
+            "Wide apertures (f/1.4) isolate a subject in soft blur. Narrow apertures (f/8) keep everything sharp. Paolo Roversi shoots near-wide-open on large-format film — the dreamlike softness is entirely intentional.",
         },
       ],
       quiz: {
@@ -299,43 +299,43 @@ const course: Course = {
       title: "Visual Storytelling",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         {
           type: "heading",
-          content: "Every Image Is a Story",
+          content: "Technique Without Story Is Empty",
         },
         {
           type: "paragraph",
           content:
-            "The most technically perfect photograph can still be empty if it has nothing to say. Conversely, a blurred, underexposed image can carry enormous emotional power if it captures something true. Technical mastery is in service of storytelling — never the other way around.",
+            "A technically perfect photograph can be completely hollow. A blurred, underexposed image can carry enormous power if it captures something true. Technical mastery serves storytelling — never the other way around.",
         },
         {
           type: "heading",
-          content: "The Decisive Moment",
+          content: "The Decisive Moment: See and Frame Simultaneously",
         },
         {
           type: "paragraph",
           content:
-            "Henri Cartier-Bresson described the decisive moment as the simultaneous recognition of the significance of an event and the precise organisation of forms to give it proper expression. You must see what is happening and know how to frame it — in the same instant.",
+            "Cartier-Bresson described it as simultaneous recognition of an event's significance and the perfect formal composition to express it. You see what's happening and you frame it — in the same instant.",
         },
         {
           type: "heading",
-          content: "Narrative Through Sequence",
+          content: "Sequences Tell a Different Story",
         },
         {
           type: "paragraph",
           content:
-            "A single image tells one story. A series tells another. Editorial photography is inherently sequential — images must work individually and together. When Nick Knight creates a story for SHOWstudio or Dazed, every frame is chosen to build a cumulative visual argument.",
+            "A single image tells one story. A series tells another. When Knight creates a story for SHOWstudio, every frame builds a cumulative argument — images must work alone and together.",
         },
         {
           type: "heading",
-          content: "Emotion vs. Information",
+          content: "Emotion vs. Information: Why Not Both?",
         },
         {
           type: "paragraph",
           content:
-            "Documentary photographers like Martin Parr prioritise information — what is happening, where, who is there. Fashion photographers often prioritise emotion — how does this image make you feel. The greatest images carry both. Peter Lindbergh's portraits of women are loaded with documentary truth and fashion elegance simultaneously.",
+            "Documentary photographers prioritise information; fashion photographers prioritise feeling. The greatest images carry both — Lindbergh's portraits are loaded with documentary truth and fashion elegance simultaneously.",
         },
         {
           type: "quote",
@@ -365,43 +365,43 @@ const course: Course = {
       title: "Portrait Photography",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         {
           type: "heading",
-          content: "The Portrait as Collaboration",
+          content: "A Portrait Is Made, Not Taken",
         },
         {
           type: "paragraph",
           content:
-            "A portrait is not taken — it is made. The best portrait photographers create a space in which their subjects can reveal themselves. This requires trust, patience, and an understanding that the camera is not a weapon but an invitation.",
+            "The best portrait photographers create a space where subjects can reveal themselves. That requires trust, patience, and treating the camera as an invitation — not a weapon.",
         },
         {
           type: "heading",
-          content: "Eyes & Connection",
+          content: "Eyes: The Whole Game",
         },
         {
           type: "paragraph",
           content:
-            "The eyes are the centre of gravity in any portrait. When eyes look directly into the lens, they engage the viewer in a direct relationship. When the gaze is averted, they create mystery and introspection. Annie Leibovitz knows exactly when to ask a subject to look away — and why.",
+            "Direct eye contact engages the viewer in a relationship. Averted gaze creates mystery. Leibovitz knows exactly when to ask someone to look away — and why. You should too.",
         },
         {
           type: "heading",
-          content: "Environmental vs Studio",
+          content: "Environmental vs Studio: Different Truths",
         },
         {
           type: "paragraph",
           content:
-            "Environmental portraits place subjects in their world — home, workspace, natural habitat. They reveal context. Studio portraits strip away context, forcing focus onto the person. Both traditions have produced great work: Richard Avedon's spare white backgrounds forced viewers to confront his subjects' humanity with no distraction.",
+            "Environmental portraits reveal context — who someone is in their world. Studio portraits strip everything away, forcing focus onto the person. Avedon's bare white backgrounds made subjects confront themselves with no distraction.",
         },
         {
           type: "heading",
-          content: "The Unguarded Moment",
+          content: "The Unguarded Moment Is the Real One",
         },
         {
           type: "paragraph",
           content:
-            "Wolfgang Tillmans built his practice around what happens before and after the posed moment — the unguarded glance, the body in repose, the face between expressions. These moments often contain more truth than the posed image.",
+            "Tillmans built his practice around what happens before and after the pose — the unguarded glance, the body at rest, the face between expressions. These moments often contain more truth than the posed image.",
         },
       ],
       quiz: {
@@ -421,43 +421,43 @@ const course: Course = {
       title: "Street Photography",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         {
           type: "heading",
-          content: "The Street as Studio",
+          content: "The Street Asks Everything of You",
         },
         {
           type: "paragraph",
           content:
-            "Street photography is the oldest and most democratic form of the medium. It requires nothing more than a camera and the willingness to be present in the world. Yet it demands everything: quick reflexes, an eye for the extraordinary within the ordinary, and the courage to photograph strangers.",
+            "A camera and the willingness to be present — that's all street photography requires. And also: quick reflexes, an eye for the extraordinary in the ordinary, and the nerve to photograph strangers.",
         },
         {
           type: "heading",
-          content: "The Tradition",
+          content: "A 150-Year Tradition",
         },
         {
           type: "paragraph",
           content:
-            "From Eugène Atget's turn-of-the-century Paris to Vivian Maier's self-portraits in Chicago to Martin Parr's colour-saturated documentation of British seaside resorts, street photography is a form of social history made image.",
+            "From Atget's turn-of-the-century Paris to Vivian Maier's Chicago self-portraits to Parr's colour-saturated British seaside — street photography is social history made image.",
         },
         {
           type: "heading",
-          content: "Approach & Ethics",
+          content: "How Close? That's an Ethical Question.",
         },
         {
           type: "paragraph",
           content:
-            "Close-range street photography (Bruce Gilden's flash work) is confrontational and aggressive. Long-lens observation (Henri Cartier-Bresson) is more invisible. Neither approach is wrong — they are different relationships to the world. But the ethics of consent and dignity are always present.",
+            "Bruce Gilden's flash-in-the-face approach is confrontational. Cartier-Bresson's long-lens observation is invisible. Neither is wrong — they're different relationships to the world. But consent and dignity are always present as questions.",
         },
         {
           type: "heading",
-          content: "Finding Your Eye",
+          content: "Your Eye Is What Makes It Yours",
         },
         {
           type: "paragraph",
           content:
-            "The best street photographers have a distinctive vision of what the world looks like — what they notice that others miss. Juergen Teller's work on the street is unmistakably his: raw, often unflattering, searching for psychological truth rather than beauty.",
+            "The best street photographers notice what others miss. Teller's street work is unmistakably his — raw, unflattering, searching for psychological truth over beauty. What do you notice that no one else does?",
         },
       ],
       quiz: {
@@ -477,43 +477,43 @@ const course: Course = {
       title: "Documentary Photography",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         {
           type: "heading",
-          content: "Photography as Witness",
+          content: "Photography as Proof That Something Happened",
         },
         {
           type: "paragraph",
           content:
-            "Documentary photography operates from a fundamental belief: the image can change minds, shift policy, and bear witness to events that words alone cannot adequately describe. It is photography in service of truth, however uncomfortable.",
+            "Documentary photography operates from one belief: images can change minds, shift policy, and bear witness to events that words can't fully describe. It's photography in service of truth.",
         },
         {
           type: "heading",
-          content: "The Diary Form",
+          content: "The Diary Form: Nan Goldin's Gift",
         },
         {
           type: "paragraph",
           content:
-            "Nan Goldin's 'The Ballad of Sexual Dependency' is perhaps the defining documentary project of its era — a photographic diary of her social world in New York in the 1970s and 80s. It is intimate, raw, and unflinching. There is no pretence of objectivity: she is inside the story, documenting her own life.",
+            "'The Ballad of Sexual Dependency' is the defining documentary project of its era — an intimate photographic diary of her social world in New York in the 1970s and 80s. She is inside the story. There is no pretence of objectivity.",
         },
         {
           type: "heading",
-          content: "Social Documentary",
+          content: "Photography With a Social Responsibility",
         },
         {
           type: "paragraph",
           content:
-            "Dorothea Lange, W. Eugene Smith, and Sebastião Salgado all worked in the tradition that believes photography has a social responsibility — to document injustice, poverty, labour, and the dignity of those who go unseen. This tradition is demanding and emotionally heavy, but has produced some of the most important images ever made.",
+            "Dorothea Lange, W. Eugene Smith, and Salgado all believed photography must document injustice, poverty, and the dignity of those who go unseen. Demanding work — but some of the most important images ever made came from it.",
         },
         {
           type: "heading",
-          content: "Documentary Fashion",
+          content: "Documentary Meets Fashion: Lindbergh's Crossover",
         },
         {
           type: "paragraph",
           content:
-            "Peter Lindbergh uniquely merged documentary truth with fashion imagery. His beach sessions with supermodels in the early 90s — shot in natural light with minimal makeup — looked more like documentary films than fashion shoots. This crossover transformed what fashion photography could look like.",
+            "Lindbergh's beach sessions with supermodels in the early 90s — natural light, minimal makeup, real wind — looked more like documentary films than fashion shoots. That crossover transformed what fashion photography could be.",
         },
         {
           type: "quote",
@@ -538,43 +538,43 @@ const course: Course = {
       title: "Fashion Photography",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         {
           type: "heading",
-          content: "Fashion Photography as Art",
+          content: "Commercial Pressure, Artistic Gold",
         },
         {
           type: "paragraph",
           content:
-            "Fashion photography sits at an intersection: it is commercial (it must sell clothes, a brand, an idea) and it is artistic (it must do so in a way that creates culture, meaning, desire). The greatest fashion photographers have used this tension productively — the commercial constraint becomes the creative frame.",
+            "Fashion photography must sell clothes and create culture simultaneously. The greatest fashion photographers use that tension as fuel — the commercial constraint becomes the creative frame.",
         },
         {
           type: "heading",
-          content: "The Studio vs Location",
+          content: "Studio vs Location: Total Control vs Real World",
         },
         {
           type: "paragraph",
           content:
-            "Studio fashion gives the photographer total control over light, environment, and background. Irving Penn's studio work — with seamless paper backgrounds and meticulous lighting — is definitive. Location fashion puts the clothes (and the photographer's eye) into conversation with the world.",
+            "Studio fashion gives you total control — Irving Penn's seamless paper backgrounds and meticulous lighting are the gold standard. Location fashion puts the clothes in conversation with actual life.",
         },
         {
           type: "heading",
-          content: "The Collaboration",
+          content: "A Fashion Shoot Is a Team Sport",
         },
         {
           type: "paragraph",
           content:
-            "A fashion shoot is never just photographer and subject. It involves: art director, stylist, hair and makeup, set designer, lighting team, casting director, and model. The photographer orchestrates all of these creative forces into a single image. Aidan Zamiri and Nick Knight both describe their working process as deeply collaborative — the image emerges from the room.",
+            "Art director, stylist, hair, makeup, set designer, lighting team, casting director, model — the photographer orchestrates all of it. Zamiri and Knight both describe their process as deeply collaborative: the image emerges from the room.",
         },
         {
           type: "heading",
-          content: "The Editorial Story",
+          content: "The Editorial Story Has an Arc",
         },
         {
           type: "paragraph",
           content:
-            "A fashion editorial is not a collection of individual images — it is a narrative arc. Each image must work in sequence: establishing shot, middle, climax, resolution. Tim Walker is the supreme storyteller in this form — every editorial is a complete world with its own internal logic.",
+            "A fashion editorial isn't a collection of individual images — it's a narrative. Establishing shot, middle, climax, resolution. Tim Walker is the supreme storyteller in this form; every editorial he makes is a complete world with its own internal logic.",
         },
         {
           type: "quote",
@@ -599,52 +599,52 @@ const course: Course = {
       title: "Photography History",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 12,
+      estimatedMinutes: 3,
       blocks: [
         {
           type: "heading",
-          content: "A Brief History of Photography",
+          content: "Invented Multiple Times, by Different People",
         },
         {
           type: "paragraph",
           content:
-            "Photography was invented not once but several times, by different people working independently. The daguerreotype, announced in Paris in 1839, is commonly taken as the public birth of the medium — though William Henry Fox Talbot's calotype process, which allowed multiple prints from a negative, ultimately proved more important.",
+            "The daguerreotype, announced in Paris in 1839, is photography's public birth. But Fox Talbot's calotype — which allowed multiple prints from a single negative — ultimately proved more important.",
         },
         {
           type: "heading",
-          content: "The Documentary Turn (1930s–50s)",
+          content: "Depression, War, and the Documentary Turn (1930s–50s)",
         },
         {
           type: "paragraph",
           content:
-            "The Great Depression and World War Two pushed photography into the service of social documentary. Dorothea Lange's 'Migrant Mother', Robert Capa's war images, and the work of the Farm Security Administration photographers created a tradition of engaged, ethical documentary photography that still defines the field.",
+            "The Great Depression and World War Two pushed photography into social documentary. Lange's 'Migrant Mother', Capa's war images, and the FSA photographers created an ethical documentary tradition that still defines the field.",
         },
         {
           type: "heading",
-          content: "The Golden Age of Magazine Photography (1950s–70s)",
+          content: "Magazines Ruled the World (1950s–70s)",
         },
         {
           type: "paragraph",
           content:
-            "Vogue, Harper's Bazaar, Life, Paris Match — magazines of this era were the primary medium for photographic culture. Irving Penn, Richard Avedon, and Helmut Newton built their careers within this system. The fashion photographer was simultaneously a cultural tastemaker and a commercial worker.",
+            "Vogue, Harper's Bazaar, Life, Paris Match — these were the primary vehicles for photographic culture. Penn, Avedon, and Newton built their careers inside this system. The fashion photographer was simultaneously a tastemaker and a commercial worker.",
         },
         {
           type: "heading",
-          content: "The Digital Revolution (1990s–present)",
+          content: "Digital Changed Everything (1990s–now)",
         },
         {
           type: "paragraph",
           content:
-            "Digital photography democratised the medium radically. Anyone with a smartphone is now a photographer. This has not diminished the medium — it has expanded what photography means and who can practice it. Nick Knight founded SHOWstudio in 2000 specifically to explore what photography could become in the digital age.",
+            "Digital photography democratised the medium completely. Anyone with a smartphone is now a photographer. Knight founded SHOWstudio in 2000 specifically to ask: what can photography become in the digital age?",
         },
         {
           type: "heading",
-          content: "Photography Today",
+          content: "Photography Today Has No Single Definition",
         },
         {
           type: "paragraph",
           content:
-            "Contemporary photography is no longer a single medium. It encompasses: photojournalism, documentary, fashion, portrait, fine art, conceptual photography, and the vast expanding field of image-making on social media. Wolfgang Tillmans occupies a unique position — straddling fine art galleries and popular culture, making photographs that resist easy categorisation.",
+            "Photojournalism, documentary, fashion, portrait, fine art, conceptual, social media — photography is all of these at once. Tillmans occupies a unique position: straddling galleries and popular culture, resisting every category.",
         },
         {
           type: "quote",

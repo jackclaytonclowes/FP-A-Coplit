@@ -16,31 +16,31 @@ const course: Course = {
       title: "Origins: Hitchcock and the Grammar of Paranoia",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Alfred Hitchcock: The Founder" },
+        { type: "heading", content: "Hitchcock Invented the Rulebook" },
         {
           type: "paragraph",
           content:
-            "Alfred Hitchcock invented the grammar of the psychological thriller. Working in British cinema in the 1930s and then in Hollywood from 1940 onward, he developed a set of techniques for producing suspense, paranoia, and psychological dread that every subsequent filmmaker in the genre inherits. The psychological thriller as a genre is largely a description of what Hitchcock did.",
+            "Hitchcock built the psychological thriller from scratch — working in Britain in the 1930s, then Hollywood from 1940. Every technique the genre uses, he developed first.",
         },
-        { type: "heading", content: "Suspense vs. Surprise" },
+        { type: "heading", content: "Suspense vs. Surprise: Know the Difference" },
         {
           type: "paragraph",
           content:
-            "Hitchcock's most important distinction was between suspense and surprise. Surprise: two characters talk at a table; a bomb explodes. Fifteen seconds of shock. Suspense: the audience sees the bomb under the table before the characters speak. The same conversation becomes fifteen minutes of unbearable tension. Hitchcock always gave the audience information that the characters lacked, then let them suffer knowing what was coming.",
+            "Surprise: bomb explodes. Fifteen seconds of shock. Suspense: you see the bomb under the table before the characters start talking. Same conversation — now fifteen minutes of unbearable tension.",
         },
-        { type: "heading", content: "The MacGuffin" },
+        { type: "heading", content: "The MacGuffin: It Doesn't Actually Matter" },
         {
           type: "paragraph",
           content:
-            "The MacGuffin is the object or goal that motivates the plot — the microfilm in North by Northwest, the money Marion Crane steals in Psycho — but which matters less than the suspense it generates. The MacGuffin is whatever makes characters move, without itself having any intrinsic significance. What matters is not what is being pursued but the psychological state produced by the pursuit.",
+            "The microfilm in North by Northwest. The money Marion steals in Psycho. The MacGuffin makes characters move — its content is irrelevant. The pursuit is everything.",
         },
-        { type: "heading", content: "The Subjective Camera and the Audience as Voyeur" },
+        { type: "heading", content: "The Camera Makes You Complicit" },
         {
           type: "paragraph",
           content:
-            "Hitchcock used the subjective camera — showing what characters see, from where they see it — to make audiences complicit in the film's psychology. In Rear Window, we watch what Jefferies watches; we cannot look away any more than he can. In Psycho, the camera inhabits Norman Bates' perspective just long enough to implicate us. Hitchcock understood that cinema makes voyeurs of its audiences and built this into his technique.",
+            "In Rear Window, we watch what Jefferies watches. We can't look away any more than he can. Hitchcock knew cinema makes voyeurs of its audience — and built that into every frame.",
         },
         {
           type: "list",
@@ -85,31 +85,31 @@ const course: Course = {
       title: "Key Directors",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Roman Polanski: Paranoia in Confined Space" },
+        { type: "heading", content: "Polanski: The Apartment Is the Mind" },
         {
           type: "paragraph",
           content:
-            "Polanski's apartment trilogy — Repulsion (1965), Rosemary's Baby (1968), The Tenant (1976) — established confined domestic space as the primary environment of psychological horror. In each film a character alone in an apartment loses their grip on reality: the apartment becomes a projection of their mental state. Polanski understood that the most claustrophobic space is one you cannot leave.",
+            "Repulsion, Rosemary's Baby, The Tenant — three films, one rule: the apartment becomes a projection of its occupant's deteriorating mind. The most claustrophobic space is one you cannot leave.",
         },
-        { type: "heading", content: "David Fincher: Procedural Obsession" },
+        { type: "heading", content: "Fincher: Darkness, Delivered Precisely" },
         {
           type: "paragraph",
           content:
-            "Fincher's thrillers — Se7en (1995), Fight Club (1999), Zodiac (2007), Gone Girl (2014) — are studies in obsession and procedural precision. Where Hitchcock produces anxiety through suspense, Fincher produces it through a quality of relentlessness: his films feel inevitable, their darkness carefully prepared and meticulously delivered. Zodiac in particular is a film about the obsession the thriller itself induces.",
+            "Se7en, Fight Club, Zodiac, Gone Girl — each is a study in obsession, built with relentless formal control. Zodiac is a film about the obsession the thriller itself induces.",
         },
-        { type: "heading", content: "Brian De Palma: Hitchcock's Heir" },
+        { type: "heading", content: "De Palma: Hitchcock's Heir, Turned Up Loud" },
         {
           type: "paragraph",
           content:
-            "De Palma's Dressed to Kill (1980), Blow Out (1981), and Body Double (1984) are explicit engagements with Hitchcock — using his techniques (the split-screen, the subjective camera, the MacGuffin) while pushing them toward more extreme visual and psychological territory. De Palma treats cinema as a system of voyeuristic pleasure and positions his audience to feel the moral complexity of that pleasure.",
+            "Dressed to Kill, Blow Out, Body Double — De Palma takes Hitchcock's tools and pushes them to extremes. He wants you to feel the moral complexity of voyeuristic pleasure.",
         },
-        { type: "heading", content: "Darren Aronofsky: Psychological Disintegration" },
+        { type: "heading", content: "Aronofsky: Dissolution From the Inside" },
         {
           type: "paragraph",
           content:
-            "Aronofsky's Pi (1998), Requiem for a Dream (2000), and Black Swan (2010) use the thriller's tools — dread, suspense, paranoia — to dramatise psychological disintegration from the inside. The audience inhabits the deteriorating mind of the protagonist and is given no stable external perspective from which to evaluate what is real. His films are experiences of dissolution as much as stories about it.",
+            "Pi, Requiem for a Dream, Black Swan — no stable external view, no safe distance. You inhabit the deteriorating mind. His films are experiences of breakdown, not just stories about it.",
         },
       ],
       quiz: {
@@ -145,37 +145,37 @@ const course: Course = {
       title: "Visual Language of Paranoia",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Dolly Zoom" },
+        { type: "heading", content: "The Dolly Zoom: The World Shifts, You Stay Still" },
         {
           type: "paragraph",
           content:
-            "The dolly zoom — moving the camera toward or away from a subject while simultaneously zooming in the opposite direction — creates a vertiginous effect in which the subject stays the same size but the background appears to move. Hitchcock invented it for the vertigo sequence in Vertigo (1958). It has since become shorthand for the specific psychological sensation of sudden dread or disorientation — the world shifting while you remain fixed.",
+            "Camera moves one way, lens zooms the other — the subject stays the same size while the background rushes. Hitchcock invented it for Vertigo. It's become the genre's shorthand for sudden dread.",
         },
-        { type: "heading", content: "Tight Close-Ups and Claustrophobia" },
+        { type: "heading", content: "Close-Ups That Trap, Not Comfort" },
         {
           type: "paragraph",
           content:
-            "The psychological thriller uses tight close-ups not to produce emotional intimacy but to produce claustrophobia — the sense that there is no escape from what is being experienced. Close-ups in Aronofsky's Black Swan trap the audience inside Nina's narrowing perception. Fincher's close-ups of evidence and procedure in Zodiac produce a forensic obsession that mirrors the film's subject.",
+            "In Black Swan, Aronofsky's close-ups lock you inside Nina's narrowing perception. Fincher uses them forensically. The close-up in a thriller produces claustrophobia, not intimacy.",
         },
-        { type: "heading", content: "Shadow, Expressionistic Light, and the Desaturated Palette" },
+        { type: "heading", content: "Shadows, Desaturation, and the Noir Inheritance" },
         {
           type: "paragraph",
           content:
-            "The thriller inherits its visual language from film noir and German expressionism: deep shadows, single-source key lighting that creates strong shadow, a generally desaturated colour palette that drains warmth from the world. Se7en's colour-drained, rain-soaked city is the visual expression of the film's moral universe. Black Swan's cold whites and blacks externalise Nina's psychological state.",
+            "The thriller borrows from German expressionism and noir: deep shadows, single-source lighting, washed-out colour. Se7en's rain-soaked palette is the film's moral universe made visible.",
         },
-        { type: "heading", content: "Mirrors, Windows, and the Watcher Watched" },
+        { type: "heading", content: "Mirrors and Windows: The Double Consciousness" },
         {
           type: "paragraph",
           content:
-            "Mirrors and windows appear constantly in the psychological thriller as visual metaphors for the double consciousness of the genre: the character watching and being watched, the self and the shadow self, the seen and the surveilled. Mirrors in Black Swan show Nina her darker self. The window in Rear Window is simultaneously the screen through which Jefferies watches and the screen through which the audience watches Jefferies.",
+            "Mirrors show the self and its shadow. Windows are screens within screens. In Rear Window, Jefferies's window is both his screen and ours — everyone is watching someone.",
         },
-        { type: "heading", content: "The Point-of-View Shot as Complicity" },
+        { type: "heading", content: "POV as Moral Implication" },
         {
           type: "paragraph",
           content:
-            "Where Hitchcock used the POV shot to create suspense, the psychological thriller extends it to create moral implication: we see what the character sees, and we are therefore implicated in what they do. In Psycho, the camera adopts Norman Bates' point of view at key moments — making the audience accomplices in the film's violence. This is the psychological thriller's darkest use of a basic tool.",
+            "In Psycho, the camera adopts Norman Bates's point of view at key moments. You see what he sees. That makes you an accomplice — and that's the thriller's darkest move.",
         },
       ],
       quiz: {
@@ -211,37 +211,37 @@ const course: Course = {
       title: "The Unreliable Narrator",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "What Makes a Narrator Unreliable?" },
+        { type: "heading", content: "When You Can't Trust What You See" },
         {
           type: "paragraph",
           content:
-            "An unreliable narrator is one whose account of events cannot be trusted — because they are lying, self-deceived, mentally unstable, or simply wrong about their own experience. In literature the narrator's unreliability must be inferred from contradictions in the text. In film the visual track itself becomes unreliable: we cannot trust what we see as well as what we are told.",
+            "In novels, unreliability is in the words. In film, the image itself becomes suspect. You can't trust what you're shown — and the thriller makes that terrifying.",
         },
-        { type: "heading", content: "Fight Club: The Narrator Whose Story Cannot Be Trusted" },
+        { type: "heading", content: "Fight Club: A Narrator Who Can't Be Trusted" },
         {
           type: "paragraph",
           content:
-            "Fight Club's narrator (Edward Norton) describes events that are structurally impossible — a second character who is in too many places, who does things the narrator cannot have witnessed. The film invites early re-reading: once the revelation is delivered, everything changes. Fincher seeds the unreliability throughout without making it obvious.",
+            "The narrator describes events that are structurally impossible. Fincher seeds the unreliability throughout without telegraphing it — rewatch it and everything changes.",
         },
-        { type: "heading", content: "Shutter Island: Environment as Mental Projection" },
+        { type: "heading", content: "Shutter Island: The Delusion Is the Film" },
         {
           type: "paragraph",
           content:
-            "Shutter Island places the audience inside the delusion of its protagonist: the asylum island is not what it appears, and the visual reality of the film is a projection of Teddy Daniels' constructed identity. The film makes the viewer experience the protagonist's delusion from the inside — so that the revelation dismantles not just the character's world but the audience's.",
+            "The audience inhabits Teddy Daniels's constructed identity from inside. The revelation doesn't just surprise you — it dismantles the reality you've been inhabiting.",
         },
-        { type: "heading", content: "The Sixth Sense: The Recontextualising Twist" },
+        { type: "heading", content: "The Sixth Sense: You Were Wrong About Everything" },
         {
           type: "paragraph",
           content:
-            "The Sixth Sense's reveal retroactively recontextualises everything the audience has seen. Every scene had a different meaning from the one we assigned it during first viewing. This is the most audience-participatory form of unreliable narration: the audience has been constructing a wrong reading of the film all along, and the revelation invites them to re-read the entire film they have just watched.",
+            "Every scene had a different meaning from the one you assigned it. The reveal invites you to re-read the whole film — and find you were constructing the wrong story all along.",
         },
-        { type: "heading", content: "American Psycho: The Radical Ambiguity" },
+        { type: "heading", content: "American Psycho: Permanently Suspended" },
         {
           type: "paragraph",
           content:
-            "American Psycho maintains a permanent ambiguity: is Patrick Bateman actually committing murders, or is the violence entirely fantasy? The film offers evidence for both readings and refuses to resolve them. This is unreliable narration at its most demanding: the viewer must remain permanently suspended between readings, unable to settle.",
+            "Is Bateman actually killing people, or is it all fantasy? The film refuses to decide. You must stay permanently suspended between both readings — that's the point.",
         },
       ],
       quiz: {
@@ -277,13 +277,13 @@ const course: Course = {
       title: "Essential Viewing Guide",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Canon: Where to Start" },
+        { type: "heading", content: "Start Here" },
         {
           type: "paragraph",
           content:
-            "The psychological thriller has a clear canon. For a newcomer, the following films represent the genre at its best and most essential, arranged roughly in order of accessibility. Each film both delivers the genre's pleasures and advances the genre's formal possibilities.",
+            "The psychological thriller has a clear canon. These films deliver the genre's pleasures and advance its possibilities — arranged roughly from accessible to demanding.",
         },
         {
           type: "list",
@@ -302,11 +302,11 @@ const course: Course = {
             "Gone Girl (2014) — the marriage as psychological warfare",
           ],
         },
-        { type: "heading", content: "Recommended Viewing Order" },
+        { type: "heading", content: "The Right Order" },
         {
           type: "paragraph",
           content:
-            "Start with Rear Window and Psycho to establish Hitchcock's grammar. Then Rosemary's Baby and Se7en for the post-Hitchcock tradition. Then Fight Club for the unreliable narrator. Then Zodiac — the most demanding and most rewarding — and finally Mulholland Drive, which requires the full genre context to be understood.",
+            "Start with Rear Window and Psycho. Then Rosemary's Baby and Se7en. Then Fight Club. Then Zodiac — demanding, essential. Mulholland Drive last: it rewards the full genre context.",
         },
       ],
       quiz: {
@@ -342,31 +342,31 @@ const course: Course = {
       title: "How to Watch a Psychological Thriller",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Thriller Asks You to Be Suspicious" },
+        { type: "heading", content: "The Thriller Wants You Suspicious" },
         {
           type: "paragraph",
           content:
-            "The psychological thriller is a genre that actively recruits audience suspicion. Unlike drama, which asks you to trust what you see, the thriller invites — even requires — you to question what you are being shown. When something is too clear, too convenient, or too reassuring, the thriller is probably hiding something.",
+            "Unlike drama, the thriller actively recruits your doubt. When something feels too clear or too reassuring, that's the film hiding something.",
         },
-        { type: "heading", content: "Watch for What the Film Is Hiding" },
+        { type: "heading", content: "Watch for What's Being Concealed" },
         {
           type: "paragraph",
           content:
-            "Great thrillers construct the audience's attention carefully: they make you look at what they want you to see while concealing what they do not want you to notice yet. On a second viewing, these concealment strategies become visible. Watch for what is off-screen, what is in the background, what a character does not say.",
+            "Great thrillers make you look where they want while hiding what they're not ready to show. On a second viewing, those concealment strategies become visible — and fascinating.",
         },
-        { type: "heading", content: "The Score Tells You to Be Afraid Before You Know Why" },
+        { type: "heading", content: "The Score Tells You to Fear Before You Know Why" },
         {
           type: "paragraph",
           content:
-            "Notice when the score rises before anything threatening has happened. This is the director's instruction to your nervous system: be afraid. The thriller uses music as a pre-cognitive alarm — you feel dread before your conscious mind has identified its cause. Watching the same scene without sound will show you exactly what the image alone communicates versus what the score is adding.",
+            "The music rises before the threat arrives. That's the director's instruction to your nervous system. Watch the same scene without sound — you'll see exactly what the image earns on its own.",
         },
-        { type: "heading", content: "Rewatch to See the Architecture" },
+        { type: "heading", content: "Second Viewings Are the Real Experience" },
         {
           type: "paragraph",
           content:
-            "The great psychological thrillers reward second viewings more than almost any other genre. On first viewing, you experience the narrative. On second viewing, you see the construction: how information was withheld, how misleading images were placed, how the audience's assumptions were deliberately cultivated and then dismantled. The second viewing is the more interesting one.",
+            "First viewing: the story. Second viewing: the architecture. You see how information was withheld, how assumptions were planted, how the whole thing was constructed to fool you once.",
         },
       ],
       reflection: {

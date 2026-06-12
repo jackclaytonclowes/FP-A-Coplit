@@ -16,24 +16,24 @@ const course: Course = {
       title: "What Is a Brand?",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "A Brand Is a Promise" },
         {
           type: "paragraph",
           content:
-            "A brand is a promise — the set of expectations a person holds when they encounter a name, a logo, or a product. When someone walks into a Chanel boutique, they bring a set of expectations about what they will find: a specific quality of product, a specific aesthetic, a specific kind of service. Those expectations are the brand. The products and the boutique are just the delivery mechanism.",
+            "A brand isn't the thing you make — it's what people expect when they hear your name. Walk into a Chanel boutique and you already know what you'll find. Those expectations are the brand. The products are just the delivery mechanism.",
         },
         {
           type: "paragraph",
           content:
-            "Brand strategist Marty Neumeier's most useful definition: 'A brand is not what you say it is. It's what they say it is.' This distinction matters enormously. A company can intend to be modern, innovative, and caring. If customers experience it as old-fashioned, conservative, and indifferent, those are the brand's actual attributes — regardless of the intention. Brand strategy is the work of closing the gap between what you intend to be and what customers experience you as being.",
+            "Marty Neumeier nailed it: 'A brand is not what you say it is. It's what they say it is.' You can intend to be modern and innovative. If customers experience you as old-fashioned and indifferent, that's the brand. Strategy is closing that gap.",
         },
-        { type: "heading", content: "Brand vs. Product" },
+        { type: "heading", content: "Brand vs. Product: Not the Same Thing" },
         {
           type: "paragraph",
           content:
-            "The product is the thing: the bag, the shoe, the garment, the perfume. The brand is the meaning attached to the thing: the associations, the feelings, the status signals, the quality expectations. Products can be copied; brands cannot. Any manufacturer can produce a quilted leather bag with a chain strap. Only Chanel can produce a Chanel bag — an object that carries meaning accumulated across a century.",
+            "Products can be copied. Brands can't. Anyone can make a quilted leather bag with a chain strap. Only Chanel can make a Chanel bag — an object carrying meaning accumulated across a century.",
         },
         { type: "heading", content: "Case Studies in Brand Meaning" },
         {
@@ -78,31 +78,31 @@ const course: Course = {
       title: "Brand Positioning",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Question a Brand Answers" },
+        { type: "heading", content: "'What Are You, and Who Are You For?'" },
         {
           type: "paragraph",
           content:
-            "Positioning is the question a brand answers in the consumer's mind: 'what are you, and who are you for?' A brand that cannot answer this question clearly is not positioned. Positioning defines three things: the category (what do you compete in?), the differentiation (what makes you different within that category?), and the target (who, specifically, is this for?). A brand that answers all three questions with specificity and consistency is well-positioned.",
+            "Positioning answers two questions in the consumer's mind: what are you, and who are you for? A brand that can't answer clearly isn't positioned. You need three things: category, differentiation, and target. All three, specific.",
         },
-        { type: "heading", content: "The Positioning Statement" },
+        { type: "heading", content: "The Positioning Statement (Don't Skip It)" },
         {
           type: "paragraph",
           content:
-            "A positioning statement has a conventional structure: 'For [target customer] who [needs or wants], [brand name] is the [category] that [differentiating benefit] because [reason to believe].' The structure is not important in itself — few brands use it verbatim — but the questions it asks are: who is the customer, what is the category, what is the benefit, and why should the customer believe the claim? Every brand strategy should be able to answer all four.",
+            "The structure: 'For [target customer] who [needs or wants], [brand] is the [category] that [benefit] because [reason to believe].' The template is just a checklist — but every brand strategy needs to answer all four questions it asks.",
         },
-        { type: "heading", content: "The Positioning Map" },
+        { type: "heading", content: "Map Your Competitive Space" },
         {
           type: "paragraph",
           content:
-            "A positioning map plots brands within a category on two axes that define the competitive space. Common axes in fashion: price vs. quality (though luxury brands complicate this by using price to signal quality); formal vs. casual; heritage vs. contemporary. The value of the map is not its accuracy — all simplifications are inaccurate — but its clarity: it makes visible where a brand sits relative to its competitors and where the unoccupied space is.",
+            "A positioning map plots brands on two axes — price vs. quality, heritage vs. contemporary — to show where you sit and where the gaps are. It oversimplifies. That's the point. Simplification reveals the space no one is occupying.",
         },
-        { type: "heading", content: "Blue Ocean vs. Red Ocean" },
+        { type: "heading", content: "Red Ocean vs. Blue Ocean" },
         {
           type: "paragraph",
           content:
-            "Red ocean strategy competes within an existing category: you position against known competitors within defined rules. Blue ocean strategy defines a new category: you create the rules. Hermès does not compete in 'bags' — it competes in 'heirloom objects with waiting lists.' This is blue ocean positioning: it redefines the category in terms that Hermès dominates. The most powerful positioning moves create new categories rather than winning existing ones.",
+            "Red ocean: compete in an existing category by existing rules. Blue ocean: define a new category where you make the rules. Hermès doesn't compete in 'bags' — it competes in 'heirloom objects with waiting lists.' That's blue ocean positioning.",
         },
       ],
       quiz: {
@@ -138,30 +138,30 @@ const course: Course = {
       title: "Brand Identity and Visual Language",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "The Identity System" },
         {
           type: "paragraph",
           content:
-            "Brand identity is the system of visual and verbal elements that express a brand's positioning consistently across every touchpoint. The core elements: logo (the primary graphic mark), typography (the typefaces that carry the brand's written voice), colour palette (the specific colours associated with the brand), photography style (how the brand depicts the world visually), and tone of voice (how the brand writes and speaks). Together, these elements create the recognisable experience of encountering the brand.",
+            "Brand identity is the system that expresses positioning consistently across every touchpoint: logo, typography, colour palette, photography style, tone of voice. Together they create the recognisable experience of encountering the brand.",
         },
         {
           type: "paragraph",
           content:
-            "Each element should be a decision made in service of the positioning, not an aesthetic preference. Hermès's typography is old-style, refined, unhurried — a choice that expresses the brand's relationship to time and craft. Apple's typography is clean, geometric, modern — a choice that expresses the brand's relationship to simplicity and technology. The typography is not just a visual preference; it is a positioning statement.",
+            "Every element should serve the positioning, not personal taste. Hermès's typography is old-style and unhurried — that's a statement about craft and time. Apple's is clean and geometric — that's a statement about simplicity and technology. Neither is arbitrary.",
         },
-        { type: "heading", content: "The Consistency Imperative" },
+        { type: "heading", content: "Consistency Builds Trust" },
         {
           type: "paragraph",
           content:
-            "Consistency is the mechanism by which brand equity is built. Every time a customer encounters the brand and the experience matches their expectation — the typography is the same, the imagery has the same quality, the service has the same character — the expectation is reinforced and deepened. Every inconsistency degrades the expectation. Brand equity is accumulated consistency: the depth of trust built through hundreds of consistent encounters over time.",
+            "Every time the brand delivers exactly what the customer expected — same typography, same imagery quality, same service character — the expectation deepens. Every inconsistency erodes it. Brand equity is accumulated consistency. Built slowly. Destroyed quickly.",
         },
-        { type: "heading", content: "Auditing an Existing Brand" },
+        { type: "heading", content: "Audit an Existing Brand" },
         {
           type: "paragraph",
           content:
-            "To audit an existing brand's visual language, gather all its touchpoints — website, packaging, advertising, retail environment, social media — and ask: do they feel like they come from the same brand? Is the photography style consistent? Is the typography the same? Is the colour palette stable? Where do inconsistencies appear, and what do they tell you about where the brand's strategy is unclear or unenforced? The audit reveals the gap between the intended identity system and the actual one.",
+            "Gather all touchpoints — website, packaging, ads, retail, social — and ask: do these feel like they come from the same brand? Where inconsistencies appear, look for the unclear or unenforced strategy underneath them.",
         },
       ],
       quiz: {
@@ -197,31 +197,31 @@ const course: Course = {
       title: "Brand Architecture",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "How Parent Brands Relate to Sub-Brands" },
+        { type: "heading", content: "Branded House vs. House of Brands" },
         {
           type: "paragraph",
           content:
-            "Brand architecture is the strategy that governs how a parent brand relates to the brands it owns or endorses. The two principal models are the branded house and the house of brands. In a branded house, all products are sold under the parent brand name: Apple iPhone, Apple Watch, Apple MacBook — the parent brand is the primary entity, and the product names are secondary. The brand extends its equity to every product, but every product affects the parent brand's equity.",
+            "In a branded house, everything carries the parent name: Apple iPhone, Apple Watch, Apple MacBook. The brand extends its equity to every product — but every product affects the parent's equity too. High upside, high exposure.",
         },
-        { type: "heading", content: "House of Brands: LVMH" },
+        { type: "heading", content: "LVMH: The House of Brands" },
         {
           type: "paragraph",
           content:
-            "LVMH — Moët Hennessy Louis Vuitton — is the world's largest luxury group and the defining example of the house of brands architecture. LVMH owns Louis Vuitton, Christian Dior, Givenchy, Celine, Loewe, Marc Jacobs, Kenzo, Fendi, Berluti, and dozens of others. Each brand maintains its own identity, its own creative director, its own customer, and its own price architecture. LVMH's name never appears on a product. The group extracts value from the portfolio without exposing any individual brand to the reputation of any other.",
+            "LVMH owns Louis Vuitton, Dior, Givenchy, Celine, Loewe, Fendi, and dozens more. Each brand has its own identity, its own creative director, its own customer. LVMH's name never appears on a product. One crisis at one brand doesn't ripple through the portfolio.",
         },
-        { type: "heading", content: "Branded House: An Alternative" },
+        { type: "heading", content: "Armani: Branded House Done Right" },
         {
           type: "paragraph",
           content:
-            "Procter & Gamble is the classic branded house example in consumer goods — though in a different form, as P&G's consumer-facing brands (Tide, Pampers, Gillette) are actually distinct brands managed within the P&G portfolio, making it also a house of brands at the consumer level. A cleaner branded house example is Armani, where every product — Giorgio Armani, Armani Exchange, Armani Collezioni, Armani Casa — carries the Armani name, creating a brand extension that reaches different price points under one equity umbrella.",
+            "Armani puts its name on everything — Giorgio Armani, Armani Exchange, Armani Casa — reaching different price points under one equity umbrella. The name does the work across the whole range.",
         },
         { type: "heading", content: "The Architecture Decision" },
         {
           type: "paragraph",
           content:
-            "The choice between architectures depends on strategic goals. The house of brands model protects individual brands from each other's problems but requires investment in building each brand separately. The branded house model allows equity to flow between products but risks dilution if lower-price or lower-quality products undermine the parent brand's premium positioning. Co-branding — two distinct brands collaborating — has a different logic: each brand lends its equity to a joint product, and both benefit from the association.",
+            "House of brands: brands are protected from each other, but each needs its own investment. Branded house: equity flows between products, but dilution risk is real if lower-quality products undermine the premium positioning. Choose based on strategic goals, not habit.",
         },
       ],
       quiz: {
@@ -257,31 +257,31 @@ const course: Course = {
       title: "Brand Equity and Management",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "What Brand Equity Means" },
+        { type: "heading", content: "Equity Is the Premium You Can Charge" },
         {
           type: "paragraph",
           content:
-            "Brand equity is the premium that consumers are willing to pay for a brand name over a generic equivalent. If you would pay £3,000 for a Chanel bag but only £300 for an equivalent unbranded bag, the difference — £2,700 — is a measure of Chanel's brand equity in your perception. Brand equity is the accumulated value of consistent delivery of the brand promise over time. It is built slowly and destroyed quickly.",
+            "Brand equity is the premium consumers pay for a name over a generic equivalent. The difference between £3,000 for a Chanel bag and £300 for an equivalent unbranded one — that's Chanel's equity. Accumulated over time. Destroyed quickly.",
         },
-        { type: "heading", content: "How Equity Is Built" },
+        { type: "heading", content: "Built by Ordinary Consistency" },
         {
           type: "paragraph",
           content:
-            "Brand equity is built through consistent delivery of the brand promise at every touchpoint, over time. Each positive encounter with the brand — a product that delivers as expected, a service interaction that matches the brand's character, a communication that feels true to the brand's identity — reinforces the expectation and deepens the trust. Equity is not built through any single spectacular action; it is built through hundreds of consistent ordinary ones.",
+            "Equity isn't built by one brilliant campaign. It's built by hundreds of consistent ordinary encounters — every product that delivers as expected, every service interaction that matches the brand's character, every communication that feels true.",
         },
-        { type: "heading", content: "How Equity Is Destroyed" },
+        { type: "heading", content: "Destroyed by Inconsistency" },
         {
           type: "paragraph",
           content:
-            "Brand equity is destroyed by inconsistency, controversy, and quality failure. When a premium brand produces a product that feels cheap, the entire promise is undermined — the customer's expectation is violated, and trust is eroded. When a luxury brand extends too broadly — placing its logo on products at price points that contradict its premium positioning — the resulting dilution can permanently damage equity. The history of fashion is full of licenses that destroyed brand equity in a decade.",
+            "A premium brand that produces a cheap-feeling product breaks the promise. A luxury brand that licenses too broadly dilutes the equity it spent decades building. Fashion history is full of licenses that destroyed brands in a decade.",
         },
-        { type: "heading", content: "Managing Equity During a Rebrand" },
+        { type: "heading", content: "Rebranding: High Risk, One Rule" },
         {
           type: "paragraph",
           content:
-            "Rebranding — changing a brand's identity system — is one of the highest-risk strategic actions, because it risks disrupting the consistent expectations that equity depends on. Successful rebrands maintain the core positioning promise while updating its visual expression: the brand says the same thing in a new visual language. Failed rebrands change what the brand says as well as how it says it, leaving existing customers confused and failing to attract new ones. The key question in any rebrand: what is being changed, and what is being preserved?",
+            "Rebranding is one of the highest-risk strategic moves. The one rule: say the same thing in a new visual language. Change how the brand says it — not what it says. Change both and you confuse existing customers without attracting new ones.",
         },
       ],
       quiz: {
@@ -317,13 +317,13 @@ const course: Course = {
       title: "Define Your Brand",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The One-Page Brand Brief" },
+        { type: "heading", content: "One Page. No More." },
         {
           type: "paragraph",
           content:
-            "The most practical exercise in brand strategy is writing a one-page brand brief for something you care about. The constraint of one page is intentional: if you cannot describe a brand's essential strategy in one page, the strategy is not clear enough. A brand brief that requires three pages of elaboration to explain its positioning has a positioning problem.",
+            "Write a one-page brand brief for something you care about. If you can't describe the strategy in one page, it isn't clear enough. A brief that needs three pages to explain its positioning has a positioning problem.",
         },
         { type: "heading", content: "The Brief's Five Questions" },
         {
@@ -336,17 +336,17 @@ const course: Course = {
             "What does it look, sound, and feel like? (The identity expression — the visual and verbal language)",
           ],
         },
-        { type: "heading", content: "Writing With Specificity" },
+        { type: "heading", content: "Specificity Is Everything" },
         {
           type: "paragraph",
           content:
-            "The discipline of the brand brief exercise is specificity. 'For discerning consumers who care about quality' is not a target — it is an aspiration. 'For women in their thirties who buy one significant piece per season rather than many trend-driven pieces, and who regard their clothes as an expression of considered identity rather than fashion membership' is a target. The more specific the brief, the more useful it becomes as a decision-making tool.",
+            "'For discerning consumers who care about quality' is not a target. 'For women in their thirties who buy one significant piece per season and regard their clothes as an expression of considered identity' is a target. Vague briefs produce vague brands.",
         },
-        { type: "heading", content: "The Brief as a Decision Tool" },
+        { type: "heading", content: "The Brief Should Answer Questions Before They're Asked" },
         {
           type: "paragraph",
           content:
-            "A well-written brand brief should be able to answer creative questions before they are asked. Should we use this model? Does she match the target? Should we produce a cheaper line? Does it fit the positioning? Should we open a flagship in this city? Does it fit the distribution strategy? If the brief answers these questions clearly, it is doing its job. If it doesn't, more work is needed on the positioning.",
+            "Should we use this model? Should we produce a cheaper line? Should we open a flagship here? A good brief answers all three without a meeting. If it can't, the positioning needs more work.",
         },
       ],
       reflection: {

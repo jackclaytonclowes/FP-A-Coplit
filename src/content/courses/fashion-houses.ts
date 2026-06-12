@@ -16,29 +16,29 @@ const course: Course = {
       title: "The French Houses: Chanel and Dior",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Chanel: Philosophy as Foundation" },
+        { type: "heading", content: "Chanel: Anti-Ornament as Philosophy" },
         {
           type: "paragraph",
           content:
-            "Chanel's founding philosophy was anti-ornament. Gabrielle Chanel borrowed masculine fabrics — jersey, tweed — and used them to make clothes that allowed women to move. The Chanel suit (braid-trimmed collarless jacket, straight skirt) proposed elegance as practicality. The 2.55 bag, launched in February 1955, gave women a hands-free bag on a chain — a design solution that was also a statement of independence. Chanel No. 5, built around synthetic aldehydes, was a modernity manifesto in fragrance.",
+            "Chanel borrowed jersey from men's sportswear and built an empire. The suit, the chain bag, the No. 5 — all built on one idea: elegance through subtraction. Practicality as a radical act.",
         },
         {
           type: "paragraph",
           content:
-            "Karl Lagerfeld's thirty-six-year tenure (1983–2019) was the longest continuous creative directorship in modern luxury fashion. His insight was that the Chanel codes were not constraints but a vocabulary: the quilted leather, the camellia, the braid, the two-tone shoe could be endlessly redeployed, quoted, subverted, and scaled without losing their essential meaning. He also understood that the Chanel show had to be an event — the Grand Palais transformed into a supermarket, a rocket launch, a Chanel-branded world.",
+            "Lagerfeld's 36-year run proved the codes were a vocabulary, not a cage. He made the Grand Palais into a supermarket, a rocket launch, a Chanel-branded world. The house became a spectacle — and the clothes still worked.",
         },
-        { type: "heading", content: "Dior: The Succession" },
+        { type: "heading", content: "Dior: Fashion's Most Complex Succession" },
         {
           type: "paragraph",
           content:
-            "Christian Dior's death in 1957 set in motion one of fashion's most complex successions. Yves Saint Laurent was appointed creative director aged twenty-one, dismissed two years later. Marc Bohan followed for three decades of steady, unspectacular quality. Gianfranco Ferré brought Italian technical rigor. John Galliano arrived in 1996 and produced fourteen years of the most spectacular — and ultimately self-destructive — creative direction in fashion history: theatrical references to historical costume, to circus, to Edwardian grandeur.",
+            "Dior died in 1957. YSL was 21 when he took over — and was fired two years later. Galliano ran the house for 14 spectacular, self-destructive years. Then Raf Simons stripped it back. Then Maria Grazia Chiuri made it explicitly feminist.",
         },
         {
           type: "paragraph",
           content:
-            "Raf Simons succeeded Galliano in 2012 with quiet minimalism: pared-back collections that referenced Dior's original architecture while stripping away historical pastiche. Maria Grazia Chiuri, the first woman to lead Dior, arrived in 2016 and introduced explicit feminist messaging — beginning with the 'We Should All Be Feminists' T-shirt — alongside embroidered references to female archetypes.",
+            "Every creative director at Dior answered the same question differently: what does this house actually stand for? The succession is fashion's richest argument about identity, heritage, and reinvention.",
         },
       ],
       quiz: {
@@ -74,30 +74,30 @@ const course: Course = {
       title: "YSL, Balenciaga and the Avant-Garde",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Yves Saint Laurent: Luxury Prêt-à-Porter" },
+        { type: "heading", content: "YSL: Couture Ideas, Ready-to-Wear Prices" },
         {
           type: "paragraph",
           content:
-            "Yves Saint Laurent founded his house in 1961 after his dismissal from Dior, and proceeded to invent, or perfect, a series of garments that became permanent wardrobe fixtures: the tuxedo for women (le smoking, 1966), the safari jacket, the mondrian dress (squares of primary colour in jersey, 1965), the peasant blouse, the trouser suit. YSL's genius was transforming couture concepts into ready-to-wear — his Rive Gauche boutiques (from 1966) brought designer fashion to a wider market without compromise. He made prêt-à-porter legitimate as luxury.",
+            "YSL invented le smoking, the safari jacket, the Mondrian dress, the trouser suit — then brought them all to Rive Gauche boutiques. He made designer fashion accessible without compromising. Prêt-à-porter became legitimate luxury.",
         },
         {
           type: "paragraph",
           content:
-            "Tom Ford's arrival at Gucci in 1994 was followed by his takeover of YSL in 1999. Ford's YSL was overtly sexual, commercial, and American in its confidence — a deliberate contrast to Saint Laurent's European restraint. The debate about whether Ford's approach honoured or contradicted the house's heritage continues.",
+            "Tom Ford's YSL was the opposite: overtly sexual, American in its confidence, a deliberate contrast to Saint Laurent's European restraint. The debate about whether Ford honoured or contradicted the house is still going.",
         },
         { type: "heading", content: "Cristóbal Balenciaga: The Master's Master" },
         {
           type: "paragraph",
           content:
-            "Cristóbal Balenciaga closed his house in 1968, declaring that 'couture is finished.' His contemporaries — Dior, Chanel, Givenchy — considered him the supreme technician: the only couturier who could cut, sew, and construct a garment entirely alone. His shapes were architectural: the sack dress (1957), the cocoon coat, the balloon skirt — forms that created new silhouettes without depending on the body beneath. He was indifferent to fashion's social rituals and rarely showed his own face.",
+            "Balenciaga closed his house in 1968, declaring couture finished. He could cut, sew, and construct a garment alone — something rare even among couturiers. His shapes were architectural: forms that needed no body beneath them.",
         },
-        { type: "heading", content: "Demna Gvasalia's Reinvention" },
+        { type: "heading", content: "Demna: Balenciaga as Cultural Commentary" },
         {
           type: "paragraph",
           content:
-            "When Demna Gvasalia (who had founded Vetements) took over as creative director of Balenciaga in 2015, the reinvention was conceptual rather than reverential. The chunky trainer as luxury object, the destroyed cardigan at four thousand dollars, the IKEA bag rendered in leather — Gvasalia's Balenciaga used the tools of fashion to comment on fashion, on capitalism, on the absurdity of luxury. His approach owed as much to Martin Margiela as to Cristóbal Balenciaga, but under the historic name, it reached a far larger audience.",
+            "Demna Gvasalia took over in 2015 and went conceptual. The chunky trainer as luxury. The destroyed cardigan at £4,000. The IKEA bag in leather. Fashion commenting on fashion, capitalism, and the absurdity of luxury.",
         },
       ],
       quiz: {
@@ -133,35 +133,35 @@ const course: Course = {
       title: "Italian Fashion: Prada and Gucci",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Prada: Fashion That Thinks" },
+        { type: "heading", content: "Prada: Fashion That Asks Questions" },
         {
           type: "paragraph",
           content:
-            "Miuccia Prada took over the Milanese leather goods company founded by her grandfather in 1978 and spent the following decades making it one of fashion's most consistently interesting houses. Her approach was intellectual: she described herself as interested in the ugly, the unflattering, the unconventional. The Prada nylon backpack (1984) took industrial materials and made them luxury objects. Her collaborations with architect Rem Koolhaas's firm OMA — for Prada's retail architecture and exhibition design — formalised the idea that fashion could operate as cultural inquiry rather than simple commerce.",
+            "Miuccia Prada took a Milanese leather goods company and turned it into fashion's most consistently interesting house. She was drawn to the ugly, the unflattering, the unconventional. The nylon backpack: industrial material, luxury object.",
         },
         {
           type: "paragraph",
           content:
-            "Miu Miu, Prada's second line, gave her a space for more personal, eccentric work — younger, more playful, less mediated. The two brands together demonstrate a strategic intelligence about brand architecture: the mother brand austere and rigorous, the sister brand loose and intimate.",
+            "Miu Miu gave her room to be eccentric. Two brands, one strategic brain: Prada austere and rigorous, Miu Miu loose and intimate. That's not an accident — it's brand architecture.",
         },
-        { type: "heading", content: "Gucci: Multiple Reinventions" },
+        { type: "heading", content: "Gucci: Tom Ford's Total Reinvention" },
         {
           type: "paragraph",
           content:
-            "Tom Ford rescued Gucci from near-bankruptcy in the mid-1990s with collections that were overtly sexual and powerfully commercial: velvet hipsters, satin shirts, a return of the GG logo as status object. His tenure redefined what a rescued luxury brand could look like — not heritage revival but total reinvention.",
+            "Ford rescued Gucci from near-bankruptcy in the 90s with overtly sexual, powerfully commercial collections. Velvet hipsters. Satin shirts. The GG logo as desire object. Not heritage revival — total reinvention.",
         },
-        { type: "heading", content: "Alessandro Michele's Maximalist Turn" },
+        { type: "heading", content: "Alessandro Michele: Maximalism as Philosophy" },
         {
           type: "paragraph",
           content:
-            "Alessandro Michele became Gucci's creative director in 2015 after Tom Ford's departure (and Frida Giannini's intervening tenure) and produced one of fashion's most dramatic reinventions: maximalism as philosophy. His Gucci layered embroidery over suiting, mixed historical costume with contemporary irony, embraced gender fluidity and camp aesthetics. The logo — which Tom Ford had made aspirational and sexual — became something different under Michele: a prop in a larger theatrical world of fantasy and nostalgia.",
+            "Michele arrived in 2015 and turned Gucci into a fever dream — embroidery, historical costume, camp, gender fluidity, layered nostalgia. The logo became a prop in a larger theatrical world. Then Sabato De Sarno stripped it back.",
         },
         {
           type: "paragraph",
           content:
-            "Alongside Prada and Gucci, Versace (Gianni's excess, continued by Donatella after his murder in 1997), Armani (the suit deconstructed and made soft), and Valentino (romantic femininity, the couture red) form an Italian fashion landscape of remarkable diversity within the luxury sector.",
+            "Alongside Prada and Gucci: Versace's excess, Armani's deconstructed softness, Valentino's couture red. Italian fashion is a landscape of remarkable diversity within one word: luxury.",
         },
       ],
       quiz: {
@@ -197,31 +197,31 @@ const course: Course = {
       title: "Hermès and the Luxury of Craft",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "From Saddlery to Supreme Luxury" },
+        { type: "heading", content: "From Saddles to Supreme Luxury" },
         {
           type: "paragraph",
           content:
-            "Hermès was founded in 1837 as a saddler — maker of harnesses and bridles for the horses of European nobility. The horse-and-carriage logo is not affectation: it is a direct line to the founding craft. As the automobile displaced the horse, Hermès transferred its leather-working expertise to bags, belts, and luggage. The founding value — the highest possible quality of material worked by the most skilled possible hands — migrated intact.",
+            "Hermès started making harnesses for horses in 1837. When the car replaced the horse, the craft transferred — same hands, same standards, different objects. The horse-and-carriage logo isn't nostalgia. It's a direct line.",
         },
-        { type: "heading", content: "The Birkin and the Kelly" },
+        { type: "heading", content: "The Birkin and the Kelly: Objects of Desire" },
         {
           type: "paragraph",
           content:
-            "The Kelly bag existed under various names from the 1930s before becoming the Kelly in 1956, when Grace Kelly used one to shield her pregnant stomach from photographers. The Birkin was designed in 1984 after a chance encounter between Jane Birkin and Hermès CEO Jean-Louis Dumas on a flight. Both bags are made by a single artisan from start to finish — the maroquinière spends 18 to 24 hours on each Birkin. The waiting list is, in part, a manufacturing reality and, in part, a deliberate strategy.",
+            "The Kelly bag became the Kelly in 1956 when Grace Kelly used one to shield her bump from photographers. The Birkin was designed in 1984 after Jane Birkin and the CEO met on a flight. Each bag is made by one artisan, start to finish, 18–24 hours.",
         },
-        { type: "heading", content: "Hermès Orange and the Brand Language" },
+        { type: "heading", content: "Orange: The Accidental Identity" },
         {
           type: "paragraph",
           content:
-            "'Hermès orange' began as a wartime contingency — the brand's signature cream boxes were unavailable, so orange (the only available colour) was used. It became so associated with the brand that it is now a legally protected identity element. The silk carré (square scarf), introduced in 1937, uses the same logic: a luxury material worked by craftspeople and printed with narratives of equestrian heritage and exotic geography.",
+            "Hermès orange started as a wartime workaround — cream boxes weren't available, so orange it was. It stuck so hard it's now legally protected. Contingency became heritage. That's a branding lesson right there.",
         },
-        { type: "heading", content: "Craft as the Ultimate Luxury Signal" },
+        { type: "heading", content: "Craft Is the Flex" },
         {
           type: "paragraph",
           content:
-            "In a fashion landscape where most luxury goods are produced industrially — however expensively — Hermès's commitment to genuine artisanal manufacture is its most powerful brand statement. The artisan's hours are verifiable; the quality of the leather and stitching are physically present in the object. Jean-Louis Dumas (who led the house from 1978 to 2006) and his nephew Axel Dumas (current CEO) have maintained this as a non-negotiable. Against the mass production of luxury, Hermès insists on the reality of craft.",
+            "Most luxury goods are produced industrially, however expensively. Hermès insists on genuine artisanal manufacture. You can verify the hours. You can feel the quality. In a world of mass luxury, that insistence is the most powerful brand statement possible.",
         },
       ],
       quiz: {
@@ -257,30 +257,30 @@ const course: Course = {
       title: "The Belgian School and Outsiders",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Antwerp Six" },
+        { type: "heading", content: "The Antwerp Six: Arrived Uninvited, Stayed Forever" },
         {
           type: "paragraph",
           content:
-            "In 1986, six graduates of the Royal Academy of Fine Arts in Antwerp hired a van, drove to London Fashion Week, and showed their collections without invitation. The 'Antwerp Six' — Dries Van Noten, Ann Demeulemeester, Walter Van Beirendonck, Marina Yee, Dirk Van Saene, and Dirk Bikkembergs — introduced a different approach to fashion: intellectual, dark, rigorous, rooted in fine arts education rather than couture tradition. They came from a city without a fashion industry, taught by a school that had no commercial agenda, and it showed in their work.",
+            "In 1986, six Antwerp Academy graduates hired a van, drove to London Fashion Week, and showed without an invitation. Dark. Rigorous. Rooted in fine arts, not couture tradition. Fashion didn't see them coming.",
         },
         {
           type: "paragraph",
           content:
-            "Dries Van Noten built one of fashion's most beloved independent houses on the principle of never selling: the house remains unacquired by any luxury group, dependent on its own commercial success. His mixing of pattern, print, and cultural reference — Indian textiles alongside Flemish painting, military uniform alongside fragile florals — produces a consistent visual identity from entirely eclectic sources.",
+            "Dries Van Noten built one of fashion's most loved independent houses and never sold it. His mix — Indian textiles, Flemish painting, military uniform, fragile florals — produces a consistent identity from entirely eclectic sources.",
         },
-        { type: "heading", content: "Martin Margiela" },
+        { type: "heading", content: "Margiela: Anonymous, Radical, Permanent" },
         {
           type: "paragraph",
           content:
-            "Martin Margiela, also from Antwerp (though not one of the Six), founded Maison Martin Margiela in 1988 after working for Jean Paul Gaultier. His approach was institutional critique from inside the institution: garments with exposed construction, clothes made from recycled materials or found objects, the white label sewn over the brand label as a refusal of branding. Margiela himself maintained total anonymity — never photographed, never interviewed — for the duration of his tenure. He left the house in 2009; OTB Group (Diesel's parent) subsequently acquired it.",
+            "Margiela founded his house in 1988, never showed his face, never gave an interview. He sewed white labels over brand labels and showed clothes made from found objects. Institutional critique from inside the institution.",
         },
-        { type: "heading", content: "Rei Kawakubo and Comme des Garçons" },
+        { type: "heading", content: "Kawakubo: Fashion's Most Radical Voice" },
         {
           type: "paragraph",
           content:
-            "Rei Kawakubo founded Comme des Garçons in Tokyo in 1969 and brought the brand to Paris in 1981 with a collection that ignored every convention of Western fashion. Critics called it 'Hiroshima chic.' The clothes were dark, asymmetric, apparently unfinished, oversized, indifferent to flattery. Over the following four decades, Kawakubo produced a body of work that is fashion's most consistently radical — each collection asking what clothing can be rather than what it should look like. The Met's 2017 retrospective 'Art of the In-Between' argued that her work exceeds fashion's usual categories.",
+            "Rei Kawakubo brought Comme des Garçons to Paris in 1981. Critics called it 'Hiroshima chic.' Dark, asymmetric, oversized, indifferent to flattery — four decades of work that keeps asking what clothing can be.",
         },
       ],
       quiz: {
@@ -316,19 +316,19 @@ const course: Course = {
       title: "Understanding Fashion Brand Identity",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "What Makes an Identity Coherent Across Decades?" },
+        { type: "heading", content: "What Makes an Identity Last?" },
         {
           type: "paragraph",
           content:
-            "The great fashion houses — Chanel, Dior, Hermès, Balenciaga, Prada — have maintained recognisable identities across decades and multiple creative directors. This coherence does not come from doing the same thing repeatedly. It comes from having a clear founding philosophy that can be reinterpreted without being betrayed: Chanel's anti-ornament, Hermès's commitment to craft, Prada's intellectual restlessness, Balenciaga's architectural relationship with the body.",
+            "The great houses — Chanel, Dior, Hermès, Prada — stay recognisable across decades and multiple creative directors. Not by doing the same thing. By having a founding philosophy that can be reinterpreted without being betrayed.",
         },
-        { type: "heading", content: "Heritage and Innovation: The Tension" },
+        { type: "heading", content: "Heritage vs. Irrelevance: The Eternal Tension" },
         {
           type: "paragraph",
           content:
-            "Every creative director appointed to a heritage house faces the same tension: honour the founding vision or betray it in the name of relevance. Raf Simons's Dior chose honour — minimal, architectural, deeply respectful of Dior's original lines. John Galliano's Dior chose maximalist theatrical invention that used Dior's archive as a costume box rather than a source of values. Both approaches produced brilliant work. Both were, in different ways, responses to the same founding document.",
+            "Every creative director at a heritage house faces the same choice: honour the founding vision or ditch it for relevance. Raf Simons's Dior chose honour. Galliano's Dior chose theatrical invention. Both produced brilliant work — from the same founding document.",
         },
         { type: "heading", content: "The Three Coordinates of Brand Identity" },
         {
@@ -339,11 +339,11 @@ const course: Course = {
             "The customer: who is this for, and what does it say about them — what identity does wearing this brand perform?",
           ],
         },
-        { type: "heading", content: "How Creative Directors Inherit and Reinvent" },
+        { type: "heading", content: "The Right Fit for the Right Moment" },
         {
           type: "paragraph",
           content:
-            "The most successful creative director appointments involve not just talent but fit: the right sensibility for the house's founding values at this particular moment. Demna Gvasalia's Balenciaga works because his interest in fashion as cultural commentary connects to Cristóbal Balenciaga's fundamental indifference to fashion's social rituals. Maria Grazia Chiuri's Dior works because her interest in the female gaze connects to Dior's founding engagement with the female body. The best appointments are arguments about what the house has always been about.",
+            "The best creative director appointments aren't just about talent — they're about fit. Demna's Balenciaga works because his interest in fashion as cultural commentary connects to Cristóbal's indifference to fashion's social rituals. The best appointments are arguments about what the house has always been.",
         },
       ],
       reflection: {

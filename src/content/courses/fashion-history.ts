@@ -16,29 +16,29 @@ const course: Course = {
       title: "The Birth of Fashion: Worth to Poiret",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Charles Frederick Worth and the First Couturier" },
+        { type: "heading", content: "Worth: The First Designer Ego" },
         {
           type: "paragraph",
           content:
-            "In 1858, Charles Frederick Worth opened his house on the rue de la Paix in Paris and changed the relationship between clothes and the person who made them. Worth was the first couturier to put his own name on a garment label — an assertion that the designer, not the client, was the creative authority. Before Worth, dressmakers executed their clients' wishes. After him, clients came to the designer for a vision.",
+            "In 1858, Charles Frederick Worth put his own name on a garment label — and fashion was never the same. Before him, dressmakers did what clients asked. After him, clients came to the designer for a vision.",
         },
         {
           type: "paragraph",
           content:
-            "Worth dressed Empress Eugénie and the queens of Europe. He invented the concept of the fashion season — presenting new designs twice a year to buyers and clients. He established the house structure: a couturier at the head, supported by skilled petites mains (little hands) who executed the work by hand. The model of fashion as an industry was born in his ateliers.",
+            "Worth dressed empresses, invented the fashion season, and built the atelier model that still defines couture. He didn't just make clothes — he created the idea of the designer as creative authority.",
         },
-        { type: "heading", content: "Paul Poiret and the Liberation of Fashion" },
+        { type: "heading", content: "Poiret: Free the Body, Shackle the Legs" },
         {
           type: "paragraph",
           content:
-            "Paul Poiret, working in the first decades of the twentieth century, did two defining things: he liberated women from the corset, and he brought theatricality to fashion. Poiret drew on orientalism — Japanese kimonos, Persian robes, the harem trouser — to create shapes that had never appeared in Western fashion. He staged extraordinary parties as fashion spectacles, blurring the line between clothes and performance.",
+            "Paul Poiret ditched the corset and borrowed shapes from Japan, Persia, and the harem. He turned fashion shows into theatrical spectacles — clothes as performance.",
         },
         {
           type: "paragraph",
           content:
-            "Haute couture today retains the definition established by this era: garments made entirely by hand, custom-fitted to a named client, produced by a house that meets the legal criteria of the Chambre Syndicale de la Haute Couture in Paris. The client, the craft, and the creative authority of the designer remain the three constants.",
+            "Haute couture still follows the rules this era established: handmade, custom-fitted, legally defined. The designer's authority, the client's body, the artisan's hands — that's the trinity.",
         },
         {
           type: "quote",
@@ -79,30 +79,30 @@ const course: Course = {
       title: "Chanel, Dior and the 20th Century",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Gabrielle Chanel: Modernity in Fabric" },
+        { type: "heading", content: "Chanel: Less Is More, Always" },
         {
           type: "paragraph",
           content:
-            "Chanel's revolution was one of subtraction. She borrowed jersey from sportswear — a fabric previously used for men's undergarments — and used it to make women's clothes that allowed the body to move. The Chanel suit (braid-trimmed, collarless jacket over a straight skirt) proposed elegance without armour. The little black dress, introduced in 1926, democratised sophistication. Chanel No. 5, launched in 1921, was the first perfume built around a synthetic aldehyde rather than a natural flower — modernity in a bottle.",
+            "Chanel stole jersey from men's sportswear and made women's clothes that actually let them move. The little black dress, the quilted bag, the No. 5 — she invented modern elegance by taking things away.",
         },
         {
           type: "paragraph",
           content:
-            "Chanel's most radical act was making costume jewellery — previously the mark of those who could not afford real gems — a deliberate choice, worn alongside real pearls to signal that adornment was aesthetic, not economic. She created a new kind of luxury based on restraint rather than excess.",
+            "Her most radical move? Wearing fake pearls next to real ones. She turned costume jewellery into a deliberate choice — and invented a whole new kind of luxury based on taste, not wealth.",
         },
-        { type: "heading", content: "Christian Dior: The New Look (1947)" },
+        { type: "heading", content: "Dior's New Look: Controversial, Enormous" },
         {
           type: "paragraph",
           content:
-            "When Christian Dior presented his first collection in February 1947, Carmel Snow of Harper's Bazaar exclaimed: 'It's quite a new look!' The name stuck. The New Look was ultra-feminine in reaction to wartime austerity — nipped waists, padded hips, full skirts falling to mid-calf, soft shoulders. It was attacked as an insult to women who had spent the war working in practical clothes. It was also enormously, immediately influential.",
+            "In 1947, Dior showed nipped waists, padded hips, and full skirts. Carmel Snow called it 'a new look' and the name stuck. Half the world was outraged. The other half copied it immediately.",
         },
-        { type: "heading", content: "Balenciaga and YSL" },
+        { type: "heading", content: "Balenciaga and YSL: The Masters" },
         {
           type: "paragraph",
           content:
-            "Cristóbal Balenciaga was considered by his peers — including Dior and Chanel — to be the supreme technician: 'the master.' He could cut, sew, and construct a garment entirely alone, a skill rare even among couturiers. Yves Saint Laurent, who had succeeded Dior and then founded his own house, introduced le smoking in 1966 — the tuxedo for women — and built the prêt-à-porter tradition in luxury fashion.",
+            "Balenciaga could cut, sew, and construct a garment alone — Dior called him 'the master of us all.' YSL brought le smoking to women in 1966 and made prêt-à-porter legitimate as luxury.",
         },
         {
           type: "quote",
@@ -143,30 +143,30 @@ const course: Course = {
       title: "The Youthquake: 1960s-1980s",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Mary Quant and the Mini-Skirt" },
+        { type: "heading", content: "London Swings. Hemlines Rise." },
         {
           type: "paragraph",
           content:
-            "In the early 1960s, a new centre of fashion gravity appeared: London. Mary Quant opened Bazaar on the King's Road in 1955 and spent the decade shortening hemlines until she arrived, around 1964, at the mini-skirt. She named it after her favourite car. The mini was not just a garment — it was a declaration of freedom, a break from the couture establishment, and the visual emblem of the Youthquake: Diana Vreeland's term for the cultural shift in which young people became the primary audience for fashion.",
+            "Mary Quant opened Bazaar in 1955 and spent a decade shortening hemlines until she hit the mini. She named it after her favourite car. The mini wasn't just a skirt — it was a declaration of freedom.",
         },
         {
           type: "paragraph",
           content:
-            "The boutique — small, owner-run, selling directly to young customers — replaced the department store as the defining retail form of the decade. Biba, Granny Takes a Trip, and Quant's own Bazaar created a new kind of shopping experience: theatrical, cheap, disposable, exciting.",
+            "The boutique replaced the department store. Small, cheap, theatrical, disposable — Biba and Bazaar invented a new way to shop and a new kind of customer: young, restless, and setting the agenda.",
         },
-        { type: "heading", content: "Punk and the 1970s-1980s" },
+        { type: "heading", content: "Punk: Anti-Fashion Becomes Fashion" },
         {
           type: "paragraph",
           content:
-            "Vivienne Westwood and Malcolm McLaren's shop on the King's Road — which changed its name repeatedly, finally becoming 'Seditionaries' — created the visual language of punk: ripped fabric, bondage trousers, safety pins, confrontational slogans. Punk was anti-fashion that became fashion, which is one of the defining patterns of the twentieth century.",
+            "Vivienne Westwood and Malcolm McLaren built the visual language of punk on the King's Road: ripped fabric, safety pins, bondage trousers, confrontational slogans. Anti-fashion absorbed by fashion — it's fashion's oldest trick.",
         },
-        { type: "heading", content: "Power Dressing and the Japanese Revolution" },
+        { type: "heading", content: "Power Shoulders and the Japanese Invasion" },
         {
           type: "paragraph",
           content:
-            "The 1980s brought power dressing: padded shoulders, strong silhouettes, the suit as corporate armour. Giorgio Armani deconstructed the man's suit and made it soft, unstructured, relaxed — and sold it to women as power on different terms. In 1981, Issey Miyake, Yohji Yamamoto, and Rei Kawakubo of Comme des Garçons arrived on the Paris runways with clothes that ignored every convention of Western fashion — dark, asymmetric, unfinished, oversized. The confrontation was deliberate and permanent.",
+            "The 80s brought padded shoulders and corporate armour. Then Miyake, Yamamoto, and Kawakubo arrived in Paris with dark, asymmetric, oversized clothes that ignored every Western convention. Fashion was never the same.",
         },
       ],
       quiz: {
@@ -186,31 +186,31 @@ const course: Course = {
       title: "Deconstruction to Globalism: 1990s-2000s",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Deconstruction: Martin Margiela" },
+        { type: "heading", content: "Margiela: Fashion Critiquing Itself" },
         {
           type: "paragraph",
           content:
-            "Martin Margiela's Maison Martin Margiela, founded in 1988, made fashion think about itself. Margiela showed garments with their construction exposed — lining on the outside, seams visible, shoulder padding shown for what it was. He turned ready-made items into garments and used the white label as a refusal of branding. His work was an institutional critique of fashion from inside the institution.",
+            "Margiela showed clothes inside-out. Linings on the outside, seams visible, shoulder padding exposed. The white label sewn over the brand label was a refusal of branding — institutional critique from inside the institution.",
         },
-        { type: "heading", content: "The Supermodel Era and Grunge" },
+        { type: "heading", content: "Supermodels, Grunge, and Two-Year Cycles" },
         {
           type: "paragraph",
           content:
-            "The early 1990s supermodel era — Naomi Campbell, Linda Evangelista, Christy Turlington, Claudia Schiffer — elevated models to celebrity status. Evangelista's line ('we don't wake up for less than $10,000 a day') defined the moment. Then grunge arrived from Seattle and fashion absorbed it within seasons: distressed denim, flannel shirts, combat boots moved from the underground to the runway to the high street in under two years.",
+            "Linda Evangelista didn't wake up for less than $10,000 a day. Then grunge arrived from Seattle and fashion absorbed it within seasons — distressed denim to runway to high street in under two years.",
         },
-        { type: "heading", content: "Tom Ford's Gucci and the Luxury Revival" },
+        { type: "heading", content: "Tom Ford Saved Gucci. Spectacularly." },
         {
           type: "paragraph",
           content:
-            "Tom Ford joined Gucci in 1990 and became creative director in 1994, inheriting a brand in disarray. His intervention — sleek, overtly sexual, powerfully commercial — rescued Gucci and reframed what luxury fashion could be. His 1995 collection, featuring velvet hipsters and satin shirts open to the waist, was called one of the most influential of the decade. He then took over YSL.",
+            "Ford joined a Gucci in disarray and turned it into the most sexually confident brand of the decade. Velvet hipsters, satin shirts, the GG logo as status object. Then he did the same thing at YSL.",
         },
-        { type: "heading", content: "Streetwear as Luxury" },
+        { type: "heading", content: "Streetwear Goes Luxury" },
         {
           type: "paragraph",
           content:
-            "The late 1990s and 2000s saw streetwear — rooted in skate culture, hip-hop, and New York downtown — begin its ascent into luxury. Supreme, founded on Lafayette Street in 1994, operated on scarcity: limited drops that sold out in minutes. The trainer (sneaker) became a luxury object. Raf Simons began his career bringing intelligence and restraint from Belgian fashion. Fast fashion — Zara, H&M — simultaneously democratised trends by producing them at speed and low cost, compressing the cycle between runway and mass market.",
+            "Supreme launched in 1994 on Lafayette Street and made scarcity a product. The trainer became a luxury object. Fast fashion compressed the trend cycle. Two opposite forces reshaped the market simultaneously.",
         },
       ],
       quiz: {
@@ -246,31 +246,31 @@ const course: Course = {
       title: "Fashion Houses: The Major Names",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Chanel Under Lagerfeld" },
+        { type: "heading", content: "Lagerfeld at Chanel: 36 Years of Reinvention" },
         {
           type: "paragraph",
           content:
-            "Karl Lagerfeld took over as creative director of Chanel in 1983 and held the role until his death in 2019 — thirty-six years of continuous reinvention of one of fashion's most codified identities. He understood that the Chanel codes (the quilted bag, the braid, the camellia, the two-tone shoe) could be endlessly redeployed and reinterpreted without being betrayed. He also understood spectacle: Chanel shows became events, staged in the Grand Palais at extraordinary cost.",
+            "Karl Lagerfeld took the Chanel codes — the quilted bag, the braid, the camellia — and treated them as a vocabulary, not a constraint. He redeployed them season after season without betraying them. Then he built the spectacle to match.",
         },
-        { type: "heading", content: "Dior: A House of Creative Directors" },
+        { type: "heading", content: "Dior: A House That Keeps Changing" },
         {
           type: "paragraph",
           content:
-            "After Dior's death in 1957, YSL briefly succeeded him before being dismissed. The house passed through Marc Bohan, Gianfranco Ferré, and then John Galliano — whose tenure (1996–2011) was the most spectacular and ultimately self-destructive in fashion history. Raf Simons succeeded him in 2012 with minimal, intellectual collections that divided opinion. Maria Grazia Chiuri became the first woman to lead Dior in 2016 and introduced explicit feminist messaging: the 'We Should All Be Feminists' T-shirt.",
+            "YSL. Bohan. Ferré. Galliano — spectacular, then self-destructive. Raf Simons — minimal and divisive. Maria Grazia Chiuri — the first woman to lead Dior, and she brought feminism with her.",
         },
-        { type: "heading", content: "Gucci, Balenciaga and Prada" },
+        { type: "heading", content: "Gucci, Balenciaga, Prada: Three Directions" },
         {
           type: "paragraph",
           content:
-            "Gucci under Alessandro Michele (2015–2022) became fashion's maximalist fantasy: layering, embroidery, historical reference, gender fluidity, camp. Balenciaga under Demna Gvasalia (from 2015) went the opposite direction — irony, ugliness as luxury, the destroyed cardigan, the IKEA bag as $2,000 object, fashion as cultural commentary. Miuccia Prada at Prada produced work that was consistently intellectual — fashion that thought, rather than fashion that simply seduced.",
+            "Michele's Gucci went maximalist — camp, layered, gender-fluid. Demna's Balenciaga went ironic — the destroyed cardigan at £4,000, the IKEA bag as luxury object. Miuccia's Prada just kept thinking.",
         },
-        { type: "heading", content: "Hermès: Craftsmanship as Luxury" },
+        { type: "heading", content: "Hermès: Craft as the Ultimate Flex" },
         {
           type: "paragraph",
           content:
-            "Hermès began as a saddlery in 1837 and has never fully left that origin. The leather goods — the Birkin, the Kelly, the Constance — are made by individual artisans who spend years learning the craft. A Birkin bag takes between 18 and 24 hours to make. The horse-and-carriage logo is not nostalgia: it is a statement that the values of the founding craft persist. In a fashion landscape of fast production and mass luxury, Hermès's insistence on genuine artisanal manufacture is its most powerful brand statement.",
+            "A Birkin takes 18–24 hours to make, by one artisan, start to finish. In a world of mass luxury, Hermès insists on the reality of craft. That insistence is its most powerful brand statement.",
         },
       ],
       quiz: {
@@ -306,25 +306,25 @@ const course: Course = {
       title: "How to Read Fashion",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Fashion as Communication" },
+        { type: "heading", content: "Clothes Are Never Neutral" },
         {
           type: "paragraph",
           content:
-            "Clothes are not neutral. Every garment encodes information: class, aspiration, tribe, politics, era. The New Look's full skirt and nipped waist communicated femininity as a reaction against wartime utility. Punk's safety pins communicated refusal. The trainer-as-luxury-object communicates the new prestige hierarchy in which streetwear supersedes suiting. Learning to read fashion means learning to decode these messages.",
+            "Every garment encodes something: class, tribe, era, aspiration. The New Look said femininity. The safety pin said refusal. The luxury trainer says the new prestige hierarchy. Learn to decode the message.",
         },
-        { type: "heading", content: "The Garment as Historical Object" },
+        { type: "heading", content: "Old Clothes Are Historical Documents" },
         {
           type: "paragraph",
           content:
-            "Any garment more than a decade old is a historical document. The shoulder padding of an 1980s power suit tells you about women's position in the corporate world. The unstructured linen jacket of the same decade tells you about a reaction against that position. The length of a skirt, the structure of a shoulder, the weight of a fabric — all of these are historical data.",
+            "An 80s power suit tells you about women in the corporate world. The unstructured linen jacket tells you about the reaction against that. Skirt length, shoulder structure, fabric weight — all historical data.",
         },
-        { type: "heading", content: "The Silhouette" },
+        { type: "heading", content: "The Silhouette Tells All" },
         {
           type: "paragraph",
           content:
-            "The silhouette — the outline of the body as defined by clothes — is the most defining single statement of any decade. Fashion historians can date a garment to within a few years by silhouette alone. The hourglass of the 1950s, the geometric shift of the 1960s, the fluid layers of the 1970s, the padded square of the 1980s, the minimal slip of the 1990s — each silhouette expresses a whole cultural moment.",
+            "Fashion historians can date a garment to within a few years by silhouette alone. The hourglass 50s, the geometric 60s, the padded 80s, the minimal 90s — each outline encodes a whole cultural moment.",
         },
         { type: "heading", content: "What to Look For" },
         {

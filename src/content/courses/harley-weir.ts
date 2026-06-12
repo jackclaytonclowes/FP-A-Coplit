@@ -17,18 +17,18 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Harley Weir (b. 1988, London)" },
+        { type: "heading", content: "Fine Artist Who Picked Up a Camera" },
         {
           type: "paragraph",
           content:
-            "Harley Weir was born in 1988 in London and grew up in a household where art and creativity were central. She studied at Central Saint Martins, originally on a fine art course, before moving into photography. Her background in fine art rather than photography is traceable in her work's conceptual ambition and its willingness to make images that resist easy interpretation.",
+            "Harley Weir studied fine art at Central Saint Martins — not photography. That background shows: her work has conceptual ambition and resists easy interpretation.",
         },
         {
           type: "paragraph",
           content:
-            "She began assisting photographers after graduating and quickly developed her own practice, contributing to Dazed & Confused, AnOther Magazine, and later to international editions of Vogue. Her work attracted the attention of major fashion houses — Givenchy, Valentino, Celine — who commissioned campaigns that demonstrated her approach was not only artistically but commercially compelling.",
+            "She moved from editorial work at Dazed and AnOther into major campaigns for Givenchy, Valentino, and Céline. Her intimate aesthetic survived the commercial world intact.",
         },
         {
           type: "heading",
@@ -68,31 +68,31 @@ const course: Course = {
       title: "Visual Style Analysis",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Intimacy as Subject" },
+        { type: "heading", content: "This Close" },
         {
           type: "paragraph",
           content:
-            "Weir's work is defined by an extreme closeness to its subjects — physical and psychological. Her images feel as if they have been made by someone present in the moment rather than directing it. This intimacy is not accidental; it is a product of the trust she builds with subjects and the patience she brings to sessions.",
+            "Weir gets physically and psychologically close to her subjects. Her images feel like you're present in the moment — not directed from outside it.",
         },
-        { type: "heading", content: "The Body as Landscape" },
+        { type: "heading", content: "Skin, Hair, the Space Between People" },
         {
           type: "paragraph",
           content:
-            "Weir frequently photographs the body in close detail — skin, hair, hands, the space between two people — treating the body as a landscape to be explored rather than a figure to be depicted. These close-range details create a sense of physical presence that full-length fashion photography rarely achieves.",
+            "She photographs the body as landscape — extreme details, close range. These fragments create physical presence that full-length fashion shoots rarely achieve.",
         },
-        { type: "heading", content: "Colour" },
+        { type: "heading", content: "Warmth That Feels Like Memory" },
         {
           type: "paragraph",
           content:
-            "Weir's colour work has a distinctive warmth and slight desaturation — colours that feel like memories, slightly faded, slightly too real. She uses colour to create emotional temperature rather than visual spectacle. The palette often feels warm even in cool environments.",
+            "Her colour palette is warm and slightly desaturated — colours that feel faded in the best way. Emotional temperature over visual spectacle, every time.",
         },
-        { type: "heading", content: "Sensuality and Agency" },
+        { type: "heading", content: "Sensual With Agency" },
         {
           type: "paragraph",
           content:
-            "Weir's images are frequently sensual, but they give subjects evident agency. The difference between Weir's sensual images and the objectifying tradition is that her subjects are clearly present in the frame as participants, not as objects. They are looking, choosing, existing — not being arranged for a viewer.",
+            "Her images are often sensual, but subjects are clearly there as participants — looking, choosing, existing. They're not being arranged for a viewer's consumption.",
         },
         {
           type: "quote",
@@ -117,31 +117,31 @@ const course: Course = {
       title: "Signature Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Dazed & Confused and AnOther Editorials" },
+        { type: "heading", content: "Dazed and AnOther: Where the Aesthetic Was Born" },
         {
           type: "paragraph",
           content:
-            "Weir's editorial work for Dazed and AnOther in her early career established her aesthetic and demonstrated its relevance to contemporary fashion culture. These images — intimate, slightly raw, formally sophisticated — created a template for a generation of fashion photographers working in Britain in the 2010s.",
+            "Her early editorial work set the template for a generation of British fashion photographers. Intimate, slightly raw, formally sophisticated — and impossible to ignore.",
         },
-        { type: "heading", content: "Givenchy Campaigns" },
+        { type: "heading", content: "Givenchy: Intimacy Goes Luxury" },
         {
           type: "paragraph",
           content:
-            "Her breakthrough into major commercial fashion came with campaigns for Givenchy. The challenge was translating her intimate aesthetic to luxury advertising — and she succeeded by retaining the quality of closeness and presence even within the more controlled commercial context. The campaigns felt like Weir images, not brand productions.",
+            "The challenge was keeping her close, personal aesthetic alive within luxury advertising. She succeeded: the Givenchy campaigns felt like Weir images, not brand productions.",
         },
-        { type: "heading", content: "Work with Activist Causes" },
+        { type: "heading", content: "Activist Work: Beyond Fashion" },
         {
           type: "paragraph",
           content:
-            "Weir has used her platform to create images for activist causes — environmental, feminist, and political campaigns have all benefited from her participation. This demonstrates her belief that photography's power to create emotional presence can be directed beyond fashion.",
+            "Weir has made images for environmental, feminist, and political campaigns. Photography's power to create emotional presence works beyond fashion — she uses it deliberately.",
         },
-        { type: "heading", content: "Personal Projects" },
+        { type: "heading", content: "Personal Projects: Where the Real Work Lives" },
         {
           type: "paragraph",
           content:
-            "Outside her commercial work, Weir makes personal photographs — of friends, of her own life, of environments she finds compelling. These personal images inform her commercial work and demonstrate the continuity between her private and professional practice.",
+            "Her personal photographs — friends, her own life, places she finds compelling — feed directly into her commercial practice. The private and professional are continuous.",
         },
       ],
       quiz: {
@@ -161,31 +161,31 @@ const course: Course = {
       title: "Techniques & Approach",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Small Teams, High Trust" },
+        { type: "heading", content: "Small Room, Real Intimacy" },
         {
           type: "paragraph",
           content:
-            "Weir works with deliberately small teams — minimal crew, no more people in the room than necessary. This creates the conditions for subjects to forget they are in a fashion shoot. The intimacy of the room creates the intimacy of the image.",
+            "Weir works with minimal crews — only who's necessary. Fewer people means subjects stop performing for a room and start being present with one person.",
         },
-        { type: "heading", content: "Extended Time" },
+        { type: "heading", content: "Take the Time" },
         {
           type: "paragraph",
           content:
-            "Weir takes time with her subjects — building conversation, establishing genuine connection, allowing the session to breathe before she begins shooting. The images that emerge from this patient approach have a quality that rushed shoots cannot replicate.",
+            "She builds conversation before she shoots. The session breathes. Images that need real connection can't be rushed into existence.",
         },
-        { type: "heading", content: "Close Physical Proximity" },
+        { type: "heading", content: "Get Closer" },
         {
           type: "paragraph",
           content:
-            "Many of Weir's images are made at very close range — she approaches subjects physically, reducing the social distance that the camera usually maintains. This requires subjects' trust and creates images with a palpable sense of proximity.",
+            "Many of her images are made at very close physical range. That proximity requires trust — and creates images with a palpable sense of being there.",
         },
-        { type: "heading", content: "Film and Digital" },
+        { type: "heading", content: "Film and Digital: Both Are Tools" },
         {
           type: "paragraph",
           content:
-            "Weir works across film and digital formats, choosing based on the quality of image each produces for a specific purpose. Film gives her images grain and warmth; digital gives speed and the ability to review. She uses both as tools, not fetishes.",
+            "She uses both formats based on what each produces for a specific purpose. Film for grain and warmth. Digital for speed and review. No fetishising, just choosing.",
         },
       ],
       quiz: {
@@ -205,31 +205,31 @@ const course: Course = {
       title: "Influence & Legacy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Contemporary British Fashion Photography" },
+        { type: "heading", content: "Defining a Generation's Aesthetic" },
         {
           type: "paragraph",
           content:
-            "Weir is one of the central figures of contemporary British fashion photography — a generation that has moved away from the maximalism of previous decades toward something more intimate, more personal, and more formally sophisticated. Her work defines a contemporary aesthetic that has been widely influential.",
+            "Weir is central to contemporary British fashion photography's shift away from maximalism toward something more intimate, personal, and formally complex.",
         },
-        { type: "heading", content: "The Female Gaze in Fashion" },
+        { type: "heading", content: "The Female Gaze, in Practice" },
         {
           type: "paragraph",
           content:
-            "Weir's work is frequently discussed in the context of the 'female gaze' — photography of women made by women, with different assumptions about agency, desire, and visibility. Whether or not this framing is adequate, her images do look different from most male fashion photographers' work, and that difference is meaningful.",
+            "Her images of women look different from most male fashion photographers' work. Different assumptions about agency, desire, and visibility — and that difference is meaningful.",
         },
-        { type: "heading", content: "Intimacy as Commercial Value" },
+        { type: "heading", content: "Intimacy Sells" },
         {
           type: "paragraph",
           content:
-            "Weir has demonstrated — as Teller did before her — that intimacy and rawness are commercially valuable qualities, not obstacles to commercial effectiveness. Her major brand campaigns show that consumers respond to authenticity with more emotional engagement than to polish.",
+            "Like Teller before her, Weir proved rawness and closeness are commercially valuable — not obstacles. Major brands discovered that authenticity earns more emotional engagement than polish.",
         },
-        { type: "heading", content: "Emerging as Influence" },
+        { type: "heading", content: "Still Forming" },
         {
           type: "paragraph",
           content:
-            "As one of the leading photographers of her generation, Weir's influence on younger photographers is still forming. But the aesthetic she has developed — intimate, warm, close, present — is already visible in the work of younger photographers across fashion and editorial photography worldwide.",
+            "She's still mid-career, and her influence on younger photographers is still spreading. The warm, close, intimate aesthetic she built is already visible worldwide.",
         },
       ],
       quiz: {
@@ -249,43 +249,43 @@ const course: Course = {
       title: "What You Can Learn From Weir",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From Her Practice" },
+        { type: "heading", content: "Five Lessons Worth Stealing" },
         {
           type: "paragraph",
           content:
-            "Weir's practice teaches the value of proximity — physical and psychological — and the difference between photographing someone and photographing with someone.",
+            "Weir's practice is about proximity — physical and psychological — and the difference between photographing someone and photographing with someone.",
         },
         { type: "heading", content: "1. Reduce the Room" },
         {
           type: "paragraph",
           content:
-            "For your next portrait session, reduce the number of people present to the minimum necessary. Notice how the atmosphere in the room changes. Subjects behave differently when they are not performing for a crowd. Intimacy is a condition you create as much as an image you capture.",
+            "Next session, cut the crew to the minimum. Notice how the atmosphere shifts when subjects stop performing for a crowd.",
         },
         { type: "heading", content: "2. Photograph the Detail" },
         {
           type: "paragraph",
           content:
-            "Spend a session photographing only details — hands, skin, hair, the space between people. Don't photograph faces. Notice what these images communicate that full portraits cannot. The body as landscape is an entire subject that most photographers leave undiscovered.",
+            "Spend a session shooting only hands, skin, hair, the space between people. No faces. Notice what those images say that full portraits can't.",
         },
         { type: "heading", content: "3. Build Relationships Before You Shoot" },
         {
           type: "paragraph",
           content:
-            "Meet your subject before the shoot date. Have a conversation — not about the images you want to make, but about them. Who are they? What matters to them? This knowledge shapes the session even when it never becomes explicit in the images.",
+            "Meet your subject before the shoot — not to discuss the images, but to know them. That knowledge shapes the session even when it never shows up explicitly.",
         },
         { type: "heading", content: "4. Ask Whose Desire Is Visible" },
         {
           type: "paragraph",
           content:
-            "When photographing sensual or intimate subject matter, ask: whose desire is this image expressing? Is the subject the object of someone's gaze, or are they present as a full person with their own interiority? The answer shapes the ethics and the aesthetics of the image.",
+            "In intimate or sensual images, ask: is this person the object of a gaze, or a full person with their own interiority? The answer shapes both ethics and aesthetics.",
         },
         { type: "heading", content: "5. Let Your Personal Work Inform Your Commercial Work" },
         {
           type: "paragraph",
           content:
-            "Weir makes personal photographs that are continuous with her commercial practice. The best commercial photographers maintain a personal practice that feeds the commissioned work. What are you making when no one has asked you to make anything?",
+            "Weir's personal images feed her commissioned work. What are you making when no one has asked you to? That's where your real aesthetic lives.",
         },
       ],
       reflection: {

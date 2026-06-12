@@ -17,18 +17,18 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Annie Leibovitz (b. 1949, Waterbury, Connecticut)" },
+        { type: "heading", content: "Staff Photographer at 21. Yes, Really." },
         {
           type: "paragraph",
           content:
-            "Annie Leibovitz was born in 1949 in Waterbury, Connecticut, the third of six children in an Air Force family that moved frequently. She studied painting at the San Francisco Art Institute, then switched to photography after taking night classes. She joined Rolling Stone as a staff photographer at 21.",
+            "Born in Connecticut in 1949, raised in an Air Force family that never stayed put — Leibovitz was studying painting in San Francisco when a night photography class changed everything. She joined Rolling Stone at 21.",
         },
         {
           type: "paragraph",
           content:
-            "Her twenty-year partnership with writer Susan Sontag, who died in 2004, was one of the defining relationships of her life and influenced her thinking about photography at the deepest level. Sontag's critical intelligence gave Leibovitz a framework for thinking about what photographs mean — not just what they show.",
+            "Her twenty-year partnership with writer Susan Sontag — who died in 2004 — changed how she thought about photographs at the deepest level. Not just what they show, but what they mean.",
         },
         {
           type: "heading",
@@ -37,12 +37,12 @@ const course: Course = {
         {
           type: "list",
           items: [
-            "1970: Joins Rolling Stone magazine as a staff photographer aged 21",
-            "1975: Embarks on the Rolling Stones' Tour of the Americas as the official photographer",
-            "1980: Final photograph of John Lennon — shot hours before his murder",
-            "1983: Moves to Vanity Fair as contributing photographer",
+            "1970: Joins Rolling Stone at 21",
+            "1975: Official photographer on the Rolling Stones' Tour of the Americas",
+            "1980: Final photograph of John Lennon — taken hours before his murder",
+            "1983: Moves to Vanity Fair",
             "2006: Major retrospective at the Brooklyn Museum",
-            "2016: Exhibits 'Women: New Portraits' at the World Economic Forum, Davos",
+            "2016: 'Women: New Portraits' shown at the World Economic Forum, Davos",
           ],
         },
         {
@@ -68,31 +68,31 @@ const course: Course = {
       title: "Visual Style Analysis",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Theatrical Intimacy" },
+        { type: "heading", content: "Theatrical and Intimate — at the Same Time" },
         {
           type: "paragraph",
           content:
-            "Leibovitz's visual style combines two things that might seem contradictory: theatrical production values and genuine personal intimacy with her subjects. Her images are clearly made — lit, directed, conceived — and yet they reveal something true about the people in them. This combination is her signature achievement.",
+            "Leibovitz's images are clearly made — lit, directed, conceived — and yet they reveal something true. That combination of high production and genuine intimacy is her signature achievement.",
         },
-        { type: "heading", content: "Narrative Concept" },
+        { type: "heading", content: "Every Portrait Has an Argument" },
         {
           type: "paragraph",
           content:
-            "Almost every Leibovitz portrait is built around a concept — an idea that the image communicates beyond simply depicting its subject. Whoopi Goldberg bathed in milk. Demi Moore nude and pregnant on the cover of Vanity Fair. Yoko Ono curled around John Lennon. These are not just portraits; they are arguments.",
+            "Whoopi Goldberg in a milk bath. Demi Moore nude and pregnant. Yoko Ono curled around Lennon. These aren't portraits — they're positions. She builds arguments, not just images.",
         },
-        { type: "heading", content: "Studio and Location" },
+        { type: "heading", content: "Studio and Location, Equally Controlled" },
         {
           type: "paragraph",
           content:
-            "Leibovitz works fluidly between studio and location. Her studio work is meticulous — carefully lit, perfectly composed. Her location work is more spontaneous but no less controlled. She is known for arriving at locations early and transforming them through lighting, props, and staging.",
+            "She works fluidly between studio precision and location spontaneity — but arrives early everywhere, transforming whatever space she finds through lighting, props, and staging.",
         },
-        { type: "heading", content: "The Celebrity Portrait" },
+        { type: "heading", content: "She Reinvented Celebrity Photography" },
         {
           type: "paragraph",
           content:
-            "Leibovitz did not invent the celebrity portrait, but she elevated it. Before her, celebrity photography was primarily promotional — images in service of the star's public image. Leibovitz negotiated access in exchange for a different kind of image: one that served the truth rather than the brand.",
+            "Before Leibovitz, celebrity photos served publicists. She negotiated a different deal: access in exchange for honesty. She showed celebrities as complex, sometimes vulnerable humans — which was almost unknown.",
         },
       ],
       quiz: {
@@ -112,31 +112,31 @@ const course: Course = {
       title: "Signature Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "John Lennon and Yoko Ono (1980)" },
         {
           type: "paragraph",
           content:
-            "Leibovitz's final photograph of John Lennon — naked, curled foetal-position around Yoko Ono, taken hours before his murder. Originally intended for the cover of Rolling Stone, it became one of the most discussed photographs of the 20th century. The image's intimacy — Lennon's vulnerability, Ono's stillness — captures something irreplaceable.",
+            "Naked, curled foetal-position around Yoko Ono — taken hours before his murder. It became one of the most discussed photographs of the 20th century. The intimacy is irreplaceable.",
         },
         { type: "heading", content: "Demi Moore — Vanity Fair (1991)" },
         {
           type: "paragraph",
           content:
-            "Leibovitz's photograph of a naked, pregnant Demi Moore on the cover of Vanity Fair caused a cultural earthquake. It was the first time nudity in pregnancy had been presented as beautiful and powerful rather than hidden or shameful. Widely censored and praised simultaneously, it remains one of the most discussed magazine covers ever made.",
+            "Naked and heavily pregnant on the cover of Vanity Fair — the first time nude pregnancy had been presented as beautiful and powerful in mainstream media. Widely censored. Widely praised. Never forgotten.",
         },
         { type: "heading", content: "Whoopi Goldberg in a Milk Bath (1984)" },
         {
           type: "paragraph",
           content:
-            "One of Leibovitz's most celebrated images: Goldberg submerged in a bathtub of milk. Playful, provocative, and deeply affectionate. It exemplifies how Leibovitz works — finding an image with her subject, not imposing one on them.",
+            "Playful, provocative, deeply affectionate. Leibovitz found this image with Goldberg — it wasn't imposed. That's the difference between her portraits and everyone else's.",
         },
         { type: "heading", content: "Women: New Portraits (2016)" },
         {
           type: "paragraph",
           content:
-            "A project photographing women across all sectors of public life — activists, scientists, athletes, politicians, artists — presented without hierarchy. The project is Leibovitz's most explicitly feminist statement, and demonstrates that her practice has always been about more than celebrity.",
+            "Activists, scientists, athletes, politicians, artists — all documented without hierarchy. Her most explicitly feminist work, and proof her practice was always about more than celebrity.",
         },
       ],
       quiz: {
@@ -156,31 +156,31 @@ const course: Course = {
       title: "Techniques & Approach",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Building Relationships as Method" },
+        { type: "heading", content: "Relationship Is the Technique" },
         {
           type: "paragraph",
           content:
-            "Leibovitz's technical foundation is relationship. She has described spending hours, sometimes days, with subjects before shooting — learning their manner, their humour, what they are proud of and what they are afraid of. The image is discovered in this relationship, not imposed upon it.",
+            "She spends hours — sometimes days — with subjects before shooting. Learning their manner, their humour, their fears. The image is discovered in that relationship, not imposed on it.",
         },
-        { type: "heading", content: "Lighting Architecture" },
+        { type: "heading", content: "Light That Reveals Character" },
         {
           type: "paragraph",
           content:
-            "Leibovitz is a sophisticated lighting architect. She uses large soft boxes, multiple sources, and carefully placed fill to create light that feels natural but is entirely controlled. Her lighting always serves the subject — it reveals character rather than flattening it.",
+            "Large soft boxes, multiple sources, precisely placed fill — her lighting looks natural but is fully controlled. It always serves the subject; it never flattens them.",
         },
-        { type: "heading", content: "The Conceptual Brief" },
+        { type: "heading", content: "The Concept Is Negotiated" },
         {
           type: "paragraph",
           content:
-            "Every major Leibovitz shoot has a concept agreed with the subject. She rarely shoots without a clear idea of what the image is trying to say. This involves negotiation — celebrities are often resistant to ideas that require vulnerability — and requires enormous interpersonal skill alongside technical mastery.",
+            "Every major shoot has a concept agreed with the subject. Getting celebrities to accept vulnerability requires enormous interpersonal skill — that skill is as important as any camera technique.",
         },
-        { type: "heading", content: "Scale and Production" },
+        { type: "heading", content: "Big Teams, Invisible Results" },
         {
           type: "paragraph",
           content:
-            "Leibovitz works with large production teams for her major shoots. Wardrobe, hair, make-up, lighting, props — each element is considered and controlled. The result can look spontaneous, but is almost never so. This is high-craft image-making that presents itself as documentation.",
+            "Wardrobe, hair, makeup, lighting, props — all controlled, all considered. The result often looks spontaneous. That's the craft: high-production image-making that presents itself as documentary.",
         },
       ],
       quiz: {
@@ -200,31 +200,31 @@ const course: Course = {
       title: "Influence & Legacy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Redefining Celebrity Photography" },
+        { type: "heading", content: "She Changed What Celebrity Photography Is" },
         {
           type: "paragraph",
           content:
-            "Before Leibovitz, celebrity photography was primarily promotional. Stars were depicted as their publicists wished. Leibovitz negotiated a different contract: access in exchange for honesty. Her images show celebrities as complex, sometimes vulnerable human beings. This is now the aspiration of celebrity portraiture; before her, it was almost unknown.",
+            "Before her, stars were shown as publicists wished. Leibovitz traded access for honesty and got celebrities to show up as complex humans. That is now the aspiration of the entire industry.",
         },
-        { type: "heading", content: "Feminist Portraiture" },
+        { type: "heading", content: "Feminist Portraiture That Actually Works" },
         {
           type: "paragraph",
           content:
-            "Leibovitz's most explicitly feminist images — the pregnant Demi Moore, the Women series — created new visual language for depicting women's experience. She did not sentimentalise or exploit; she bore witness. This made her work a touchstone for subsequent photographers interested in women's lives.",
+            "The pregnant Demi Moore. The Women series. She didn't sentimentalise or exploit — she bore witness. Her images became touchstones for every photographer interested in women's lives.",
         },
-        { type: "heading", content: "Rock Photography" },
+        { type: "heading", content: "The Visual Archive of Rock" },
         {
           type: "paragraph",
           content:
-            "Her Rolling Stone years created the visual archive of American rock music from 1970 to 1990. The images of The Rolling Stones, Bruce Springsteen, Patti Smith, and dozens of others constitute a collective cultural memory of that era. They are how we know what that music looked like.",
+            "Her Rolling Stone years are the visual record of American rock music from 1970 to 1990. The Stones, Springsteen, Patti Smith — this is how we know what that music looked like.",
         },
-        { type: "heading", content: "The Magazine Portrait" },
+        { type: "heading", content: "She Invented the Modern Magazine Portrait" },
         {
           type: "paragraph",
           content:
-            "The contemporary magazine portrait — big concept, high production, famous subject — was largely invented by Leibovitz in collaboration with Vanity Fair in the 1980s and 90s. Every glossy magazine cover from that era forward owes something to her template.",
+            "Big concept, high production, famous subject — Leibovitz and Vanity Fair built this template in the 1980s and 90s. Every glossy cover since owes her something.",
         },
       ],
       quiz: {
@@ -244,43 +244,43 @@ const course: Course = {
       title: "What You Can Learn From Leibovitz",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From Her Practice" },
+        { type: "heading", content: "Portraiture Is a Relationship, Not a Session" },
         {
           type: "paragraph",
           content:
-            "Leibovitz teaches that portraiture is fundamentally relational — and that concept and production are tools in service of that relationship, not substitutes for it.",
+            "Leibovitz teaches that concept and production serve the relationship with the subject — not the other way around. Here's how to apply that.",
         },
         { type: "heading", content: "1. Know Your Subject Before You Shoot" },
         {
           type: "paragraph",
           content:
-            "Before your next portrait session, learn about your subject. What are they proud of? What do they find difficult? What image of themselves would surprise them? This research shapes the session before you open the camera bag.",
+            "Research the person before you open the camera bag. What are they proud of? What surprises them about themselves? That knowledge shapes everything.",
         },
         { type: "heading", content: "2. Find the Concept With Your Subject, Not Before" },
         {
           type: "paragraph",
           content:
-            "Leibovitz's best ideas come from conversation — the image is found with the subject, not imposed on them. Arrive with possibilities, not a predetermined plan. Listen to what emerges.",
+            "Arrive with possibilities, not a fixed plan. Leibovitz's best ideas come from conversation. Listen to what emerges in the room.",
         },
         { type: "heading", content: "3. Every Element Is a Communication" },
         {
           type: "paragraph",
           content:
-            "In a Leibovitz image, the clothes, the props, the setting, and the lighting all communicate. Begin to think about your portraits holistically — not just the face, but everything around it. What does the environment say about the person?",
+            "Clothes, props, setting, lighting — they all say something. Think about your portraits holistically. What does everything around the face say about the person?",
         },
         { type: "heading", content: "4. Scale Your Ambition" },
         {
           type: "paragraph",
           content:
-            "Leibovitz's images are often technically complex and require significant resources. But the principle — that portraits deserve conceptual ambition — applies at any scale. What is the most ambitious image you could make with the resources you have?",
+            "Leibovitz works with big teams and big budgets. But conceptual ambition doesn't require either. What's the most ambitious image you can make with what you have?",
         },
         { type: "heading", content: "5. Read Susan Sontag" },
         {
           type: "paragraph",
           content:
-            "Leibovitz credits her twenty-year partnership with Susan Sontag as fundamentally changing how she thinks about photography. 'On Photography' and 'Regarding the Pain of Others' will change how you think too. The best photographers are also the most intellectually curious.",
+            "Leibovitz credits Sontag with fundamentally changing how she thinks about photography. 'On Photography' will do the same for you. The best photographers are the most intellectually curious.",
         },
       ],
       reflection: {

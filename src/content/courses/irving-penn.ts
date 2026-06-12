@@ -17,18 +17,18 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Irving Penn (1917–2009, Plainfield, New Jersey)" },
+        { type: "heading", content: "The Painter Who Became a Legend" },
         {
           type: "paragraph",
           content:
-            "Irving Penn was born in 1917 in Plainfield, New Jersey, and studied design under Alexey Brodovitch at the Philadelphia Museum School of Industrial Art — the same teacher who would later influence Richard Avedon. He initially wanted to be a painter, but finding success in that field elusive, turned to photography in 1943.",
+            "Irving Penn wanted to be a painter. When that didn't pan out, he picked up a camera in 1943 — and accidentally became one of photography's greatest artists.",
         },
         {
           type: "paragraph",
           content:
-            "He joined Vogue in 1943, where he would remain — with extraordinary fidelity — for the rest of his working life. His relationship with Vogue art director Alexander Liberman was one of the defining creative partnerships in magazine history. Together they produced some of the most refined fashion and portrait images ever published.",
+            "He joined Vogue that same year and stayed for the rest of his life. Six decades, one magazine, one of history's great creative partnerships.",
         },
         {
           type: "heading",
@@ -69,31 +69,31 @@ const course: Course = {
       title: "Visual Style Analysis",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Formal Restraint" },
+        { type: "heading", content: "Less Is More, Always More" },
         {
           type: "paragraph",
           content:
-            "Penn's visual style is defined by restraint. Where other photographers add — more drama, more light, more concept — Penn removes. His images are clean, considered, and formally rigorous. He works with the minimum information necessary to achieve his purpose, and no more.",
+            "Penn's instinct was to remove, not add. Less light, less background, less clutter. The minimum information needed — and nothing else.",
         },
-        { type: "heading", content: "The Corner" },
+        { type: "heading", content: "Stuck in a Corner (On Purpose)" },
         {
           type: "paragraph",
           content:
-            "One of Penn's most distinctive techniques is photographing subjects in a corner — two walls meeting at a right angle, creating a confined space that forces the subject's body to respond to the environment. The resulting images have a peculiar intimacy and tension; subjects cannot simply pose freely but must negotiate the physical constraint.",
+            "Penn put his subjects in a literal corner — two walls meeting at a right angle. You can't just pose; you have to negotiate the space. The tension that creates? That's the image.",
         },
-        { type: "heading", content: "Platinum-Palladium Printing" },
+        { type: "heading", content: "Printing That Outlives Us All" },
         {
           type: "paragraph",
           content:
-            "Penn became devoted to platinum-palladium printing — a 19th century process that produces prints of extraordinary tonal range, permanence, and surface quality, but requires enormous technical skill and expense. His platinum prints have a warmth and depth that silver-gelatin prints cannot match.",
+            "Penn used platinum-palladium printing — a 19th-century process so permanent his prints will outlast most buildings. The tones are warmer and deeper than anything silver-gelatin can offer.",
         },
-        { type: "heading", content: "Still Life Precision" },
+        { type: "heading", content: "Beauty in a Cigarette Butt" },
         {
           type: "paragraph",
           content:
-            "Penn's still life photography — particularly his series on everyday objects and food — demonstrates his formal training as a designer. He understood how objects could be arranged to create perfect visual tension, and how light could be used to reveal the essential character of things. Even a discarded cigarette butt became, in his hands, a form of extraordinary sculptural beauty.",
+            "Penn photographed discarded cigarettes with the same care he gave Vogue covers. His designer's eye turned any object into a formal masterpiece.",
         },
         {
           type: "quote",
@@ -118,31 +118,31 @@ const course: Course = {
       title: "Signature Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Small Trades (1950–51)" },
+        { type: "heading", content: "Small Trades: The Dignity Project" },
         {
           type: "paragraph",
           content:
-            "Penn photographed tradespeople — plumbers, window cleaners, bakers, street cleaners — in their work clothes and with their tools. Shot against a neutral background with the corner technique, the images treat each subject with the same formal respect as a Vogue cover star. A sustained argument for the dignity of labour.",
+            "Penn photographed plumbers, bakers, window cleaners — in their work clothes, with their tools, against a neutral background. Same formal respect as a Vogue cover star. That was the point.",
         },
-        { type: "heading", content: "Worlds in a Small Room (1974)" },
+        { type: "heading", content: "Worlds in a Small Room" },
         {
           type: "paragraph",
           content:
-            "Penn travelled the world — Papua New Guinea, Dahomey, Morocco, Nepal — bringing a portable studio tent that he erected wherever he went. Inside, he photographed local people in the same controlled natural light conditions he used in New York. The democratising principle of Small Trades extended globally.",
+            "Penn packed a portable studio tent and took it to Papua New Guinea, Morocco, Nepal. Same controlled light everywhere. Every person on earth deserves the same careful attention.",
         },
         { type: "heading", content: "Cigarettes (1972–2004)" },
         {
           type: "paragraph",
           content:
-            "An ongoing series of close-up photographs of discarded cigarette butts — intimate, unflinching, formally perfect. Penn was not moralising about smoking; he was photographing objects with the attention they are rarely given. The series demonstrates that formal rigour can transform any subject.",
+            "Discarded cigarette butts, shot like sculpture. He wasn't moralising — he was paying attention to things everyone else ignored. The result is formally perfect.",
         },
-        { type: "heading", content: "Fashion Photography for Vogue" },
+        { type: "heading", content: "Six Decades of Vogue" },
         {
           type: "paragraph",
           content:
-            "Penn shot for Vogue for over sixty years — an unmatched relationship in magazine history. His fashion images are distinguished by their formal clarity: clean backgrounds, precise lighting, attention to the architecture of garments. He photographed clothes as sculptural objects, not simply as things to be worn.",
+            "Penn shot for Vogue for over sixty years — an unmatched run. His fashion images treat garments as architecture: precise light, clean backgrounds, clothes as sculptural objects.",
         },
       ],
       quiz: {
@@ -162,31 +162,31 @@ const course: Course = {
       title: "Techniques & Approach",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Natural Light as Control" },
+        { type: "heading", content: "Natural Light, Totally Controlled" },
         {
           type: "paragraph",
           content:
-            "Penn preferred to work in natural light whenever possible — but natural light rigorously controlled. He worked in north-facing studios in New York that received consistent, directionless natural light throughout the day. This gave him predictability while retaining the quality of daylight.",
+            "Penn used natural light — but only from north-facing studios, consistent all day, no surprises. He wanted daylight's quality with a studio's predictability.",
         },
-        { type: "heading", content: "Preparatory Drawings" },
+        { type: "heading", content: "Draw It Before You Shoot It" },
         {
           type: "paragraph",
           content:
-            "Penn made detailed preparatory drawings before many of his shoots — sketching compositions, lighting arrangements, and the relationship between subject and background. This design-thinking approach, derived from his training with Brodovitch, meant that by the time the camera was raised, most decisions had already been made.",
+            "Penn sketched compositions before sessions — lighting, subject, background geometry all mapped in advance. By the time he picked up the camera, the image was half-made.",
         },
-        { type: "heading", content: "Patience and Stillness" },
+        { type: "heading", content: "Wait. Then Wait More." },
         {
           type: "paragraph",
           content:
-            "Penn's portrait sessions were known for their stillness and patience. He was not interested in speed or spontaneity. He would wait — sometimes for hours — for a subject to arrive at the precise quality of presence he was looking for. The resulting images have a quality of duration: you sense that both photographer and subject have invested significant time.",
+            "His sessions were long and quiet. He'd wait hours for the exact quality of presence he wanted. You can feel that duration in the images — time invested, and it shows.",
         },
-        { type: "heading", content: "Post-Production as Craft" },
+        { type: "heading", content: "The Darkroom as Studio" },
         {
           type: "paragraph",
           content:
-            "Penn's devotion to platinum-palladium printing was an extension of his commitment to craft. He learned the process himself, produced his own prints, and considered the darkroom as important as the camera. He made prints slowly, in limited numbers, treating each as a unique object.",
+            "Penn made his own platinum prints, slowly, in limited numbers. The darkroom wasn't an afterthought — it was half the work.",
         },
       ],
       quiz: {
@@ -206,31 +206,31 @@ const course: Course = {
       title: "Influence & Legacy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Master of Formal Photography" },
+        { type: "heading", content: "Quiet Power, Lasting Impact" },
         {
           type: "paragraph",
           content:
-            "Penn is the master of formal photography — photography governed by design thinking, by the relationships between forms, by the discipline of restraint. His influence is perhaps less visible than Avedon's or Newton's because it is more quiet: he teaches through precision and patience rather than energy and provocation.",
+            "Penn's influence is subtler than Avedon's or Newton's — no drama, no controversy. Just precision and patience, teaching through example.",
         },
-        { type: "heading", content: "Still Life Photography" },
+        { type: "heading", content: "He Made Still Life Fine Art" },
         {
           type: "paragraph",
           content:
-            "Penn elevated still life photography from a commercial exercise to a fine art. His series on food, cigarettes, and everyday objects demonstrated that the most mundane things contain worlds of formal beauty if seen with sufficient attention. This gave subsequent photographers permission to make art from anything.",
+            "Penn proved a cigarette butt or a pile of food could be as worthy as a model. He gave every photographer permission to make art from anything.",
         },
-        { type: "heading", content: "The Dignity of Any Subject" },
+        { type: "heading", content: "Every Subject Deserves Your Best" },
         {
           type: "paragraph",
           content:
-            "Penn's Small Trades and Worlds in a Small Room projects established a principle that continues to influence documentary and portrait photographers: every subject — regardless of social status, geography, or cultural prominence — deserves the same careful attention. This is photography as democratic art.",
+            "A New York plumber and a Papua New Guinea tribesman got the same careful attention from Penn. That's photography as democratic art — and it still matters.",
         },
-        { type: "heading", content: "Craft and Permanence" },
+        { type: "heading", content: "Prints That Last Millennia" },
         {
           type: "paragraph",
           content:
-            "Penn's devotion to platinum-palladium printing — a process of extraordinary permanence, with prints lasting thousands of years — was a statement about photography's relationship with time. In an era of disposable images, his commitment to permanence is a form of resistance.",
+            "Penn's platinum-palladium prints will last thousands of years. In the age of disposable images, that commitment to permanence is genuinely radical.",
         },
       ],
       quiz: {
@@ -250,43 +250,43 @@ const course: Course = {
       title: "What You Can Learn From Penn",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From His Practice" },
+        { type: "heading", content: "Five Lessons Worth Stealing" },
         {
           type: "paragraph",
           content:
-            "Penn teaches discipline, restraint, and the radical possibility of treating any subject with maximum formal attention.",
+            "Penn teaches discipline, restraint, and the radical idea that anything — anything — deserves maximum formal attention.",
         },
         { type: "heading", content: "1. Remove, Don't Add" },
         {
           type: "paragraph",
           content:
-            "Before your next shoot, ask what you can remove rather than what you can add. Fewer props, less background, simpler light. Penn's images achieve their power through what they exclude. Learn to edit before you press the shutter.",
+            "Before your next shoot, ask what you can cut — not what you can add. Fewer props, less background, simpler light. Penn's images achieve power through what they leave out.",
         },
         { type: "heading", content: "2. Control Your Environment" },
         {
           type: "paragraph",
           content:
-            "Penn worked in north-facing studios to get consistent natural light. Find the light in your environment that is most reliable, most consistent, most amenable to control. Then return to it repeatedly until you understand it completely.",
+            "Find the light in your space that's most consistent and return to it until you know it completely. Mastery comes from repetition with the same conditions.",
         },
         { type: "heading", content: "3. Photograph the Ordinary as if It Were Art" },
         {
           type: "paragraph",
           content:
-            "Penn photographed cigarette butts with the same attention he gave to fashion models. Find five objects in your immediate environment that you regard as unworthy of photography. Photograph each one as if it were the most important object you have ever photographed.",
+            "Find five objects you'd never bother photographing. Shoot each one like it's the most important thing you've ever seen. Penn did this with cigarette butts.",
         },
         { type: "heading", content: "4. Plan Before You Shoot" },
         {
           type: "paragraph",
           content:
-            "Try Penn's method: sketch your desired composition before you open the camera bag. What is the relationship between subject and background? Where is the light coming from? What is the geometric structure of the image? Planning reveals assumptions and prevents visual accidents.",
+            "Sketch your composition before you open the camera bag. Where's the light? What's the geometry? Planning reveals your assumptions and stops happy accidents masquerading as decisions.",
         },
         { type: "heading", content: "5. Care About the Print" },
         {
           type: "paragraph",
           content:
-            "Penn spent as much time in the darkroom as behind the camera. Whether you print physically or process digitally, treat the output as carefully as the capture. The image is not complete when the shutter closes.",
+            "Penn spent as much time in the darkroom as behind the camera. Whether you print or process digitally, treat the output as carefully as the capture — the image isn't done when the shutter closes.",
         },
       ],
       reflection: {

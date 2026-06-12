@@ -16,18 +16,18 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Roman Polanski (Born 1933, Kraków)" },
         {
           type: "paragraph",
           content:
-            "Roman Polanski was born in Paris in 1933 to Polish-Jewish parents who returned to Kraków when he was three. When the Nazis invaded Poland and created the Kraków ghetto, Polanski survived as a child by slipping through a hole in the ghetto wall and living among Polish families in the countryside. His mother was taken to Auschwitz, where she died. His father survived Mauthausen. Polanski spent the war years alone, a Jewish child passing as a gentile in occupied Poland.",
+            "Polanski survived the Kraków ghetto as a child — slipping through a hole in the wall while his mother was taken to Auschwitz. He spent the war alone, passing as a gentile in occupied Poland.",
         },
         {
           type: "paragraph",
           content:
-            "These childhood experiences — persecution, confinement, the unreliability of safe spaces, the constant threat of discovery — became the emotional DNA of his cinema. After the war he studied at the prestigious Łódź Film School, where the Polish New Wave was being born. His early short films demonstrated an already fully formed sense of psychological unease and spatial claustrophobia.",
+            "That childhood — confinement, persecution, nowhere safe — became the DNA of his cinema. He trained at the Łódź Film School and arrived fully formed: claustrophobic, paranoid, brilliant.",
         },
         {
           type: "heading",
@@ -67,31 +67,31 @@ const course: Course = {
       title: "Influences & Cinematic Education",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The French New Wave and European Modernism" },
+        { type: "heading", content: "The French New Wave Cracks the Rules" },
         {
           type: "paragraph",
           content:
-            "Polanski came of age as a filmmaker at the moment of the French New Wave — that explosion of personal, formally adventurous cinema associated with Godard, Truffaut, and Chabrol. The Nouvelle Vague's willingness to break classical Hollywood conventions of narrative continuity, its embrace of psychological realism, and its fascination with alienated urban protagonists all fed directly into Polanski's sensibility.",
+            "Godard, Truffaut, Chabrol — they broke Hollywood's rules and made it look easy. Polanski absorbed their alienated urban protagonists and their willingness to leave the audience uncomfortable.",
         },
         { type: "heading", content: "Kafka and Beckett" },
         {
           type: "paragraph",
           content:
-            "Two literary presences haunt Polanski's work more than any filmmaker: Franz Kafka and Samuel Beckett. From Kafka he takes the nightmare logic of bureaucratic persecution and the impossibility of appealing against an unseen authority. From Beckett he takes the reduction of human experience to its starkest elements — two people in a room, time passing, endurance as the only existential response.",
+            "Kafka gave him nightmare bureaucracy — guilt assumed, authority unreachable. Beckett gave him radical reduction: two people, a room, time passing. Both haunt every Polanski film.",
         },
-        { type: "heading", content: "Orson Welles and Expressionism" },
+        { type: "heading", content: "Orson Welles: Rooms That Think" },
         {
           type: "paragraph",
           content:
-            "Orson Welles' expressionistic visual language — the extreme wide angles that distort space, the deep shadows that give architecture a threatening life, the ceilings that trap characters — gave Polanski a technical vocabulary for rendering psychological states as spatial environments. Welles showed that a room could be an expression of a mind.",
+            "Welles proved a room could express a mind. His extreme wide angles and deep shadows gave Polanski a technical language for turning architecture into psychology.",
         },
         { type: "heading", content: "Ingmar Bergman" },
         {
           type: "paragraph",
           content:
-            "Bergman's ability to render interior psychological states through the faces of actors and the geometry of intimate spaces was equally formative. Polanski shares Bergman's conviction that cinema's proper subject is the inside of a human mind — and that the camera should be an instrument of psychological investigation rather than mere narrative delivery.",
+            "Bergman showed that a face in a small room could hold the whole of human suffering. Polanski agreed: cinema's real subject is the inside of a mind.",
         },
       ],
       quiz: {
@@ -111,31 +111,31 @@ const course: Course = {
       title: "Visual Style & Techniques",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Claustrophobia Through the Wide Angle" },
+        { type: "heading", content: "Wide Lens, Tiny Room — Maximum Dread" },
         {
           type: "paragraph",
           content:
-            "Polanski's most distinctive technical signature is the use of wide-angle lenses in confined interiors — a combination that seems contradictory but produces a deeply unsettling effect. Wide angles in small spaces distort the geometry of rooms, making walls seem to lean inward, corridors to elongate, and ceilings to press down. The space feels simultaneously large and inescapable.",
+            "Wide-angle lenses in small spaces shouldn't work — but they do. Walls lean inward, ceilings press down, and the room feels both vast and inescapable at the same time.",
         },
-        { type: "heading", content: "The Camera as Instrument of Paranoia" },
+        { type: "heading", content: "A Camera That's Afraid" },
         {
           type: "paragraph",
           content:
-            "Polanski uses camera movement not to clarify but to destabilise. His hand-held sequences introduce a faint, involuntary tremor into the image — suggesting that what we are watching is being observed by something anxious, something that itself is afraid. The camera becomes a consciousness, and that consciousness is frightened.",
+            "Polanski's handheld shots carry a faint, involuntary tremor. The camera itself seems scared — because it is. It's a consciousness, and that consciousness is watching something terrible.",
         },
-        { type: "heading", content: "Confined Interiors as Psychological Prisons" },
+        { type: "heading", content: "The Apartment That Turns on You" },
         {
           type: "paragraph",
           content:
-            "All three films of the Apartment Trilogy use the apartment itself as the primary dramatic setting — and in each case the apartment gradually transforms from refuge to prison. This is achieved through cinematography (tightening angles, reducing light), sound design (ambient noise becoming threatening), and production design (subtle alterations to the apartment's configuration between scenes).",
+            "In each Apartment Trilogy film, the home becomes a trap. Angles tighten, light shrinks, the walls rearrange. The space mirrors the mind falling apart.",
         },
-        { type: "heading", content: "Expressionistic Shadow and the Unreliable Image" },
+        { type: "heading", content: "Shadow That Lies to You" },
         {
           type: "paragraph",
           content:
-            "Polanski uses shadow expressionistically — not to create atmosphere in the conventional Gothic sense, but to indicate that what we see cannot be trusted. Faces half-lit suggest divided selves. Doorways blocked by shadow imply threats not yet visible. The image itself becomes unreliable, reflecting the perceptual world of protagonists who may be delusional.",
+            "Half-lit faces suggest divided selves. Blocked doorways hide threats not yet visible. The image itself can't be trusted — and neither can the person watching it.",
         },
         {
           type: "quote",
@@ -160,37 +160,37 @@ const course: Course = {
       title: "Essential Films",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "The Apartment Trilogy" },
         {
           type: "paragraph",
           content:
-            "Three films united not by narrative connection but by shared obsessions: a single protagonist in an urban apartment, escalating psychological disintegration, confined space as metaphor for a collapsing mind.",
+            "Three films, one obsession: a single person in an urban apartment, slowly losing their mind. The apartment is refuge and prison — and it doesn't stay neutral for long.",
         },
         { type: "heading", content: "Repulsion (1965)" },
         {
           type: "paragraph",
           content:
-            "A young Belgian woman (Catherine Deneuve) left alone in a London flat while her sister holidays in Italy. As the days pass, her phobia of male sexuality causes a complete psychotic break. The apartment becomes her hallucination: walls crack, hands emerge from the plaster, the space shifts. Shot in black and white with extraordinary formal control, it remains one of cinema's most disturbing portraits of a disintegrating mind.",
+            "Carol is left alone in a London flat. The walls crack. Hands reach through the plaster. Catherine Deneuve gives one of cinema's great portraits of a disintegrating mind.",
         },
         { type: "heading", content: "Rosemary's Baby (1968)" },
         {
           type: "paragraph",
           content:
-            "A young woman in a New York apartment building suspects her neighbours — and eventually her husband — of conspiring with Satanic forces. The genius of the film is that Rosemary's paranoia may be entirely justified: the horror is real. This ambiguity — is she delusional or persecuted? — makes the film an almost perfect Polanski text, merging his personal history of real persecution with his formal interest in unreliable perception.",
+            "Rosemary suspects her neighbours — and husband — are conspiring with Satanic forces. The genius: she's right. Polanski's biography makes paranoia feel like documentary.",
         },
         { type: "heading", content: "The Tenant (1976)" },
         {
           type: "paragraph",
           content:
-            "Polanski himself plays a timid Polish man in a Paris apartment who becomes convinced his neighbours are engineering his descent into the identity of the apartment's previous female tenant, who committed suicide. The most autobiographically charged of the trilogy — a Polish exile in Paris gradually losing his sense of self. Deeply strange and deeply personal.",
+            "Polanski plays a Polish exile in Paris convinced his neighbours are engineering his transformation into a dead woman. Strange, personal, and deeply unsettling.",
         },
         { type: "heading", content: "Chinatown (1974)" },
         {
           type: "paragraph",
           content:
-            "Polanski's undisputed masterpiece of neo-noir. Robert Towne's screenplay — perhaps the finest American screenplay ever written — and Polanski's insistence on the downbeat, nihilistic ending against studio pressure produced a film that understands corruption as a systemic condition rather than an individual aberration. The ending remains one of cinema's most devastating.",
+            "The masterpiece. Corruption as systemic fact, not individual flaw. Polanski fought for the nihilistic ending — and won. One of cinema's most devastating final scenes.",
         },
       ],
       quiz: {
@@ -210,31 +210,31 @@ const course: Course = {
       title: "Themes & Obsessions",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Paranoia and Its Biographical Roots" },
+        { type: "heading", content: "Paranoia as Rational Response" },
         {
           type: "paragraph",
           content:
-            "Paranoia in Polanski's films is never simply a psychological symptom — it is a rational response to actual historical experience. A filmmaker who survived the Holocaust as a child, who watched his parents taken away, who lived by concealing his identity, understands that institutional persecution is not delusional. His protagonists are not imagining their enemies.",
+            "Polanski's paranoia isn't a symptom — it's a conclusion. A filmmaker who survived the Holocaust as a child knows that persecution is real. His protagonists aren't imagining it.",
         },
-        { type: "heading", content: "Confined Space as Psychological Metaphor" },
+        { type: "heading", content: "The Apartment as Trap" },
         {
           type: "paragraph",
           content:
-            "The apartment — the ghetto — the enclosed space from which there is no exit. Polanski returns obsessively to the confined interior as the primary dramatic arena. In each case the space that should be refuge becomes trap. The apartment is both the safest and most dangerous place: the world outside is threatening, but the space inside mirrors the protagonist's collapsing mental state.",
+            "The space that should protect you is the one that destroys you. Polanski returns to this again and again — because he lived it. The ghetto. The wall. The hole in the fence.",
         },
-        { type: "heading", content: "The Unreliable Narrator" },
+        { type: "heading", content: "You Can't Trust What You See" },
         {
           type: "paragraph",
           content:
-            "We experience Polanski's films entirely through the perceptions of protagonists whose grip on reality is uncertain. The formal consequence is that the film itself cannot be trusted: what we see may be hallucination, paranoid projection, or accurate perception. This uncertainty is not a narrative trick but a philosophical statement about the reliability of individual experience.",
+            "His films are unreliable by design. What you're watching might be hallucination, paranoid projection, or reality. That uncertainty is the philosophical point, not a narrative trick.",
         },
-        { type: "heading", content: "Displacement and Identity" },
+        { type: "heading", content: "The Displaced Person" },
         {
           type: "paragraph",
           content:
-            "Many of Polanski's protagonists are displaced persons — people who do not belong where they find themselves, whose identity is unstable, who are perceived as foreign or threatening by their environments. This is most explicit in The Tenant, where the Polish protagonist gradually loses himself to the identity of a dead woman, but it runs through all his work as a displaced Polish-Jewish director working in multiple national cinemas.",
+            "His protagonists don't belong where they are. Identity slips. Environments turn hostile. It runs through everything he made — because it ran through everything he lived.",
         },
       ],
       quiz: {
@@ -254,37 +254,37 @@ const course: Course = {
       title: "What You Can Learn",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Lessons From Polanski's Cinema" },
+        { type: "heading", content: "What Polanski Teaches" },
         {
           type: "paragraph",
           content:
-            "Polanski teaches that space is psychology — that the architecture of a scene can externalise the interior state of a character more powerfully than dialogue or performance alone.",
+            "Space is psychology. The architecture of a scene can reveal a character's inner state more powerfully than any line of dialogue.",
         },
         { type: "heading", content: "1. Use Confined Space to Create Tension" },
         {
           type: "paragraph",
           content:
-            "The apartment trilogy demonstrates that you do not need elaborate locations or action sequences to generate extreme dramatic tension. A single room, used with formal intelligence, can become the most threatening space in cinema. Think about how your locations can become psychological environments rather than neutral backgrounds.",
+            "You don't need action sequences or exotic locations. One room, used with intelligence, can be the most threatening space in cinema. Make your locations psychological environments.",
         },
         { type: "heading", content: "2. Let Space Externalise Mental States" },
         {
           type: "paragraph",
           content:
-            "Polanski never explains his characters' inner lives through dialogue if he can express them through mise-en-scène. The walls of Repulsion crack as Carol's mind cracks. The apartment in The Tenant shifts as its occupant's identity shifts. Ask yourself: how can the physical environment of a scene show the viewer what is happening inside a character's mind?",
+            "The walls of Repulsion crack as Carol's mind cracks. Ask yourself: how can the physical environment show the viewer what's happening inside your character?",
         },
         { type: "heading", content: "3. Embrace the Unresolved Ending" },
         {
           type: "paragraph",
           content:
-            "Polanski fought against studios and distributors for endings that did not resolve — that left the audience in a state of disturbed uncertainty. Chinatown ends in catastrophe. Rosemary's Baby ends with the horror acknowledged but no escape. The Tenant ends in repetition and oblivion. Resist the pressure to resolve. Some situations do not resolve, and forcing resolution is a lie.",
+            "Polanski fought for endings that don't resolve. Chinatown ends in catastrophe. Resist the pressure to tie things up — some situations don't resolve, and forcing them to is a lie.",
         },
         { type: "heading", content: "4. Biography Is Material" },
         {
           type: "paragraph",
           content:
-            "The most powerful element in Polanski's work is that his obsessions are not chosen — they are given, by the history he survived. Your own experiences of confinement, persecution, displacement, or unreliable perception are not liabilities to be concealed. They are the raw material of your most singular work.",
+            "Your experiences of confinement, displacement, or unreliable perception aren't liabilities. They're the raw material of your most singular work. Use them.",
         },
       ],
       reflection: {

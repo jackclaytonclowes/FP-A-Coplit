@@ -16,27 +16,27 @@ const course: Course = {
       title: "Origins & History",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Surrealist Manifesto and Photography" },
+        { type: "heading", content: "The Camera as Mechanical Unconscious" },
         {
           type: "paragraph",
           content:
-            "André Breton's Surrealist Manifesto of 1924 declared the movement's commitment to unlocking the unconscious mind — to bypassing rational control in favour of dream logic, chance, and the irrational. Photography, the surrealists quickly recognised, was uniquely suited to this project. Unlike painting, it operated automatically: the camera recorded whatever was in front of it without conscious intervention, making it a kind of mechanical unconscious.",
+            "Breton's 1924 Surrealist Manifesto wanted images from the unconscious — bypassing rational control entirely. The camera was perfect: it records without thinking. A mechanical unconscious.",
         },
         {
           type: "paragraph",
           content:
-            "The connection to Dada was immediate and personal. Man Ray had arrived in Paris from New York in 1921, already experimenting with cameraless photographs he called rayographs. He found in the surrealist circle — Breton, Paul Éluard, Louis Aragon — a theoretical framework for what he was already doing intuitively. Surrealism needed photography; photography needed surrealism.",
+            "Man Ray arrived in Paris in 1921 already making cameraless photographs he called rayographs. He found in the surrealist circle the theoretical framework for what he was doing intuitively. Surrealism needed photography. Photography needed surrealism.",
         },
         {
           type: "heading",
-          content: "Automatism and Chance",
+          content: "The Happy Accident Becomes Method",
         },
         {
           type: "paragraph",
           content:
-            "Surrealist automatism — producing images or text without conscious control — found its photographic expression in multiple techniques: cameraless images made by placing objects directly on photosensitive paper, solarisation achieved through accidental exposure, double exposures and montage that combined images into illogical wholes. The 'mistake' became a method.",
+            "Automatism — producing images without conscious control — found its photographic form in cameraless images, solarisation, double exposures, and montage. The 'mistake' wasn't a failure; it was a technique.",
         },
         {
           type: "list",
@@ -72,31 +72,31 @@ const course: Course = {
       title: "Key Practitioners",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Man Ray (1890–1976)" },
         {
           type: "paragraph",
           content:
-            "Man Ray was the central figure of surrealist photography and its most inventive technician. His rayographs — objects placed directly on photosensitive paper and exposed to light — created ghostly silhouettes that were simultaneously documentary (the object's shadow) and abstract. His solarisation technique, which he developed with Lee Miller, created halos of reversed tone around forms. Together these techniques became the visual vocabulary of surrealist photography.",
+            "Rayographs. Solarisation. Objects on sensitised paper exposed to light. Man Ray's techniques became the visual vocabulary of surrealist photography — ghostly, reversed, simultaneously real and abstract.",
         },
         { type: "heading", content: "Lee Miller (1907–1977)" },
         {
           type: "paragraph",
           content:
-            "Lee Miller began as Man Ray's muse and lover before becoming his equal and eventually surpassing him as a photographer. The discovery of solarisation — achieved when Miller accidentally switched on the darkroom light during an exposure — became their shared technique, though Miller made it her own. Her own portraits and self-portraits have a surrealist strangeness and psychological depth that Man Ray's work often lacks. She later became a celebrated war correspondent.",
+            "Started as Man Ray's muse. Ended up surpassing him. She accidentally switched on the darkroom light mid-exposure and discovered solarisation. Her portraits have a psychological depth his often lack.",
         },
         { type: "heading", content: "Dora Maar (1907–1997)" },
         {
           type: "paragraph",
           content:
-            "Known primarily as Picasso's lover and subject, Dora Maar was herself an accomplished surrealist photographer and photomontage artist whose work had political dimensions — combining documentary photography with surrealist manipulation to create images of social commentary. Her series 29 rue d'Astorg documented a disabled girl on the streets of Barcelona with surrealist intensity.",
+            "Known primarily as Picasso's lover — but Maar was a serious surrealist photographer in her own right. Her photomontages had political teeth, combining documentary and manipulation to create social commentary.",
         },
         { type: "heading", content: "Hans Bellmer (1902–1975) and Claude Cahun (1894–1954)" },
         {
           type: "paragraph",
           content:
-            "Bellmer's photographs of La Poupée — an articulated doll he constructed and photographed in disturbingly erotic configurations — represent the darkest expression of surrealist body fragmentation. Claude Cahun's theatrical self-portraits, in which the artist assumed multiple disguised and androgynous identities, explored gender, identity, and performance in ways that anticipate contemporary photography by half a century.",
+            "Bellmer's doll photographs — distorted, fragmented, deeply disturbing — are surrealism's darkest corner. Cahun's androgynous self-portraits explored gender and identity decades before the conversation existed.",
         },
         {
           type: "quote",
@@ -121,31 +121,31 @@ const course: Course = {
       title: "Visual Characteristics",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Dream Logic and Non-Sequitur Juxtaposition" },
+        { type: "heading", content: "Dream Logic: Put Unrelated Things Together" },
         {
           type: "paragraph",
           content:
-            "The central visual logic of surrealist photography is the non-sequitur: elements placed together that have no rational relationship, creating an associative or emotional connection in place of a logical one. This is borrowed directly from dream experience, where the bizarre adjacency of unrelated things produces a charged, uncanny atmosphere.",
+            "The central surrealist move is the non-sequitur: elements with no rational relationship placed together. The result is associative, emotional, charged — just like dreams.",
         },
-        { type: "heading", content: "The Uncanny: Familiar Made Strange" },
+        { type: "heading", content: "Make the Familiar Weird" },
         {
           type: "paragraph",
           content:
-            "Freud's concept of the unheimlich — the uncanny, or the familiar made strange — is the emotional territory surrealist photography occupies. The most disturbing surrealist images take ordinary things (a body, a violin, a doll) and make them strange through unexpected context, scale, or treatment. The strangeness is heightened precisely because the original is familiar.",
+            "Freud called it the unheimlich — the uncanny. The most disturbing surrealist images take ordinary things and make them strange through unexpected context or treatment. The strangeness works because the familiar was real first.",
         },
-        { type: "heading", content: "Body Distortion and Fragmentation" },
+        { type: "heading", content: "The Body as Landscape, Object, Dream" },
         {
           type: "paragraph",
           content:
-            "Surrealist photography repeatedly returns to the body as site of distortion: doubled, fragmented, juxtaposed with objects, rendered inhuman by solarisation. Bellmer's doll photographs are the extreme expression, but the motif runs through Man Ray's torso studies and Lee Miller's solarised portraits. The body is never simply the body — it becomes a landscape, an object, a dream.",
+            "Surrealist photography returns obsessively to body distortion: doubled, fragmented, solarised into something inhuman. The body is never just a body — it becomes material for transformation.",
         },
         { type: "heading", content: "Scale Disruption and Double Exposure" },
         {
           type: "paragraph",
           content:
-            "Unexpected scale relationships — a giant object beside a tiny figure, or vice versa — create the spatial illogic of dreams. Double exposure, which layers two images onto a single frame, operates as a visual metaphor for the layering of dream and reality, present and memory. Both techniques were central to the surrealist photographic vocabulary.",
+            "A giant object next to a tiny figure. Two images layered on one frame. Scale disruption creates spatial illogic; double exposure layers dream onto reality. Both were core surrealist tools.",
         },
       ],
       quiz: {
@@ -165,37 +165,37 @@ const course: Course = {
       title: "Defining Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Man Ray: Le Violon d'Ingres (1924)" },
         {
           type: "paragraph",
           content:
-            "The most famous image in surrealist photography: Kiki de Montparnasse photographed from behind, her nude back transformed by the addition of two painted f-holes into a violin. The pun on Ingres — who was both a classical painter of the nude and an amateur violinist — is characteristically surrealist: intellectual, erotic, and absurd simultaneously. The image transforms the body into an object and an object into an artwork.",
+            "Kiki de Montparnasse's nude back, two f-holes painted on — a woman turned into a violin. The pun on Ingres (painter of nudes, amateur violinist) is intellectual, erotic, and absurd all at once.",
         },
         { type: "heading", content: "Man Ray: Dust Breeding (1920)" },
         {
           type: "paragraph",
           content:
-            "A top-down photograph of dust accumulated on Marcel Duchamp's Large Glass over a period of months. What appears to be an aerial landscape photograph is revealed to be mundane domestic debris. The image collapses scale, plays on perspective, and demonstrates how photography's framing transforms anything into something else. Duchamp and Man Ray co-credited it, indicating its status as a collaborative conceptual object.",
+            "Top-down photograph of dust on Duchamp's Large Glass — months of accumulation. It looks like an aerial landscape. It's domestic debris. Scale collapses. Framing transforms everything.",
         },
         { type: "heading", content: "Lee Miller: Solarised Portraits" },
         {
           type: "paragraph",
           content:
-            "Miller's solarised portraits — of herself, of friends, of Picasso — have a quality of psychological revelation that her straightforward portraits lack. The reversal of tonal values at the edges of forms creates the sense of an aura, or a shadow made of light, that suggests an inner life made visible. The technique transforms documentation into something closer to vision.",
+            "Miller's solarised portraits — reversed tones at the edges of forms, creating light-halos — suggest an inner life made visible. Documentation transformed into something closer to vision.",
         },
         { type: "heading", content: "Hans Bellmer: La Poupée (1934–38)" },
         {
           type: "paragraph",
           content:
-            "Bellmer's photographs of an articulated doll he constructed — photographed in distorted, fragmented configurations, often outdoors — are among the most disturbing images in photographic history. They use surrealism's body-distortion vocabulary to its most extreme conclusion. The doll series was hugely influential on subsequent artists engaging with questions of representation, the body, and desire.",
+            "An articulated doll, distorted and fragmented, photographed outdoors. Among the most disturbing images in photographic history. Surrealism's body-distortion vocabulary taken to its absolute limit.",
         },
         { type: "heading", content: "Claude Cahun: Theatrical Self-Portraits (1920s–40s)" },
         {
           type: "paragraph",
           content:
-            "Cahun's self-portraits — made with her partner Marcel Moore — show the artist in multiple disguised identities: androgynous, costumed, masked, multiplied. They preceded by decades the conceptual self-portraiture of Cindy Sherman and the identity explorations of later artists. They are also extraordinary photographs: technically accomplished, compositionally inventive, and psychologically complex.",
+            "Multiple disguised identities, androgynous and masked, documented in extraordinary self-portraits made with partner Marcel Moore. They anticipated Cindy Sherman by decades.",
         },
       ],
       quiz: {
@@ -215,31 +215,31 @@ const course: Course = {
       title: "Modern Influence",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Tim Walker's Surrealist Fashion" },
+        { type: "heading", content: "Tim Walker: Surrealism With a Budget" },
         {
           type: "paragraph",
           content:
-            "Tim Walker's fashion photographs — elaborate sets built specifically for single images, with impossible scale relationships, fairy-tale colour, and dream logic — are direct descendants of surrealist photography. Walker works with the same non-sequitur juxtaposition, the same transformation of the body through unexpected context, and the same commitment to photography as a space where normal physical laws need not apply.",
+            "Tim Walker builds impossible scale relationships and fairy-tale environments for single fashion photographs. Non-sequitur juxtaposition, dream logic, bodies transformed by unexpected context — Man Ray's toolkit, massive production values.",
         },
-        { type: "heading", content: "Erik Johansson and Digital Compositing" },
+        { type: "heading", content: "Erik Johansson: Digital Impossibility" },
         {
           type: "paragraph",
           content:
-            "Swedish photographer Erik Johansson creates seamlessly composited images that make physically impossible scenes look photographically real. His work — roads that unfold like rugs, buildings that grow from fields — updates the surrealist tradition of visual impossibility for the digital era, using Photoshop compositing where Man Ray used darkroom manipulation.",
+            "Roads that unfold like rugs. Buildings growing from fields. Johansson creates physically impossible scenes that look photographically real — the surrealist tradition of visual impossibility, now executed in Photoshop.",
         },
-        { type: "heading", content: "AI Image Generation" },
+        { type: "heading", content: "AI Is Basically Automatic Surrealism" },
         {
           type: "paragraph",
           content:
-            "AI image generation — Midjourney, DALL-E, Stable Diffusion — may be the most purely surrealist photographic tool yet invented. Its outputs are genuinely automatic (the artist describes rather than controls), combine elements without logical constraint, and produce images with the distinctive visual texture of dreams: almost-real, almost-correct, slightly wrong in ways that create unease. Breton would have recognised it immediately.",
+            "Midjourney, DALL-E, Stable Diffusion — genuinely automatic, logically unconstrained, almost-real-but-slightly-wrong. Breton would have recognised it immediately. The machine's unconscious, finally.",
         },
-        { type: "heading", content: "Advertising Surrealism" },
+        { type: "heading", content: "Advertising Ate Surrealism" },
         {
           type: "paragraph",
           content:
-            "The advertising industry absorbed surrealism almost immediately — the movement's visual vocabulary of desire, transformation, and non-sequitur was perfectly suited to selling things. Contemporary advertising continues to use surrealist visual logic: scale disruption, unexpected juxtaposition, body transformation. The subversive has been thoroughly domesticated.",
+            "The ad industry absorbed surrealism's visual vocabulary almost immediately — scale disruption, unexpected juxtaposition, body transformation. All now standard tools for selling things. The subversive got domesticated.",
         },
       ],
       quiz: {
@@ -259,37 +259,37 @@ const course: Course = {
       title: "What You Can Learn",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Lessons From the Surrealist Tradition" },
+        { type: "heading", content: "What Surrealism Actually Teaches" },
         {
           type: "paragraph",
           content:
-            "Surrealist photography teaches the power of the irrational — of making images that operate on associative and emotional logic rather than documentary logic. The lesson is not to document the world as it is but to reveal how it feels, or how it appears in the space between waking and sleep.",
+            "Surrealism teaches the power of irrational logic — images that operate on associative and emotional truth rather than documentary truth. Don't document how the world is. Reveal how it feels.",
         },
         { type: "heading", content: "1. Break One Physical Law" },
         {
           type: "paragraph",
           content:
-            "The simplest surrealist photographic exercise: make a photograph that violates one physical law. Scale is the easiest (use perspective to make a small object appear enormous). Gravity is more challenging (careful staging, wires, a decisive moment of a thrown object). Material properties (making something look liquid that is solid, or vice versa) require the most invention.",
+            "Scale is the easiest: use perspective to make a small object look enormous. Gravity is harder: wires, careful staging, a decisive moment of a thrown object. Pick one law and violate it.",
         },
         { type: "heading", content: "2. Use Accident as Method" },
         {
           type: "paragraph",
           content:
-            "Lee Miller discovered solarisation by accident. Man Ray made rayographs by placing objects randomly on paper. Make a set of photographs using a process you cannot fully control — multiple exposures without planning, objects placed on a scanner at random — and examine what the process produces. What does the accident reveal that intention would have suppressed?",
+            "Make photographs using a process you can't fully control — multiple exposures without planning, objects on a scanner at random. Examine what the accident produces. What did intention suppress?",
         },
         { type: "heading", content: "3. Transform the Familiar" },
         {
           type: "paragraph",
           content:
-            "Photograph a familiar object — your hand, a household item, a face you know well — in a way that makes it strange. Change the scale, the context, the lighting, or the perspective radically enough that the familiar becomes uncanny. This is the unheimlich in practice.",
+            "Take something you know intimately — your hand, a kitchen object, a face — and make it strange. Change scale, context, lighting, or perspective until the familiar becomes uncanny. That's the unheimlich in practice.",
         },
         { type: "heading", content: "4. Work Without CGI" },
         {
           type: "paragraph",
           content:
-            "The contemporary temptation is to composite in post-production. But the surrealists — who had no such tools — found physical and optical solutions: building sets, using darkroom chemistry, staging impossible scenes with care. The constraint of making impossibility in-camera produces a different quality of image from compositing, with a physical reality that digital manipulation cannot replicate.",
+            "Compositing is the easy answer. But the surrealists solved impossibility in-camera — building sets, using darkroom chemistry, careful staging. The physical constraint produces a different quality of image. Try it.",
         },
       ],
       reflection: {

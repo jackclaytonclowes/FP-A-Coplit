@@ -16,31 +16,31 @@ const course: Course = {
       title: "Origins & Structure",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Why Organised Crime Emerges Where It Does" },
+        { type: "heading", content: "Crime Doesn't Emerge Randomly" },
         {
           type: "paragraph",
           content:
-            "Organised crime does not emerge randomly. It appears where specific conditions converge: state weakness or corruption, rapid economic transition that outpaces legal frameworks, social disruption that severs traditional community bonds, and the presence of populations excluded from legitimate economic opportunity. These conditions are not unique to any culture — they are structural, and criminal organisations are structural responses.",
+            "Organised crime appears where specific conditions converge: weak or corrupt states, rapid economic transition, social disruption, and populations locked out of legitimate opportunity. These aren't cultural quirks — they're structural conditions with structural responses.",
         },
-        { type: "heading", content: "The Yakuza: Post-War Japan" },
+        { type: "heading", content: "The Yakuza Had Business Cards" },
         {
           type: "paragraph",
           content:
-            "Japan's Yakuza emerged from the chaos of post-World War II social disruption. Two traditional source groups — tekiya (market peddlers) and bakuto (gamblers) — provided the organisational nuclei. Crucially, the Yakuza drew heavily from Japan's marginalised minorities: Korean-Japanese and Burakumin (a hereditary outcast class), populations excluded from mainstream Japanese employment. In the post-war years the Yakuza operated semi-openly, providing order in markets and construction that the shattered Japanese state could not. Until the 1990s crackdowns, many Yakuza offices had signs outside and members carried business cards.",
+            "Post-war Japan's Yakuza operated semi-openly — office signs, business cards, even disaster relief. They recruited from Japan's marginalised minorities and filled the order vacuum the shattered state left behind. Until the 1990s crackdowns, this was almost normal.",
         },
-        { type: "heading", content: "The Triads: Chinese Secret Societies" },
+        { type: "heading", content: "Triads Started as a Political Project" },
         {
           type: "paragraph",
           content:
-            "The Triads began not as criminal organisations but as political ones — secret societies formed in 17th and 18th-century China with the stated aim of restoring the Ming dynasty against Qing rule. The oath-based secrecy, elaborate initiation rituals, and cell structures that characterise the Triads today derive from these political origins. As the political project failed, the organisations turned toward crime. Hong Kong became their operational base under British rule, providing a political space outside mainland Chinese jurisdiction, and diaspora networks carried Triad structures to Chinese communities worldwide.",
+            "17th-century China's secret societies aimed to restore the Ming dynasty — not run drugs. When the political project failed, the oath-based structures turned criminal. Hong Kong gave them a base outside mainland jurisdiction; diaspora networks did the rest.",
         },
-        { type: "heading", content: "Russian Organised Crime: The Soviet Collapse" },
+        { type: "heading", content: "Russia: When the State Dissolved Overnight" },
         {
           type: "paragraph",
           content:
-            "The Soviet Union's collapse in 1991 produced perhaps the most extreme example of organised crime emerging from state failure. The state that had controlled the entire economy dissolved in months. State assets — factories, resources, real estate — were privatised in a chaotic process that insiders could manipulate. The 'siloviki' — former KGB and military intelligence officers — and criminal networks formed in Soviet prisons converged on this opportunity simultaneously. What emerged was a fusion of state, organised crime, and oligarchic capital that in Russia became essentially inseparable.",
+            "The Soviet collapse in 1991 handed criminal networks an entire economy to carve up. Ex-KGB officers and prison gang leaders converged on the same opportunity simultaneously. What emerged wasn't organised crime inside a state — it was organised crime as the state.",
         },
       ],
       quiz: {
@@ -76,31 +76,31 @@ const course: Course = {
       title: "Key Figures",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Kazuo Taoka: The Yakuza's Godfather" },
+        { type: "heading", content: "Taoka Built the Yakuza Nation" },
         {
           type: "paragraph",
           content:
-            "Kazuo Taoka, who led the Yamaguchi-gumi — Japan's largest Yakuza organisation — from 1946 until his death in 1981, is the closest figure to a unifying patriarch in Yakuza history. He transformed a regional gang into a national organisation with hundreds of affiliate groups and tens of thousands of members. His leadership style combined extreme violence in his younger years with sophisticated political management as he aged. The Yamaguchi-gumi remains Japan's largest criminal organisation, though its membership has declined significantly since its 1980s peak.",
+            "Kazuo Taoka turned a regional gang into Japan's largest criminal organisation — the Yamaguchi-gumi — with tens of thousands of members and hundreds of affiliates. He combined extreme early violence with sophisticated political management in his later years.",
         },
-        { type: "heading", content: "The Vor v Zakone: Russian Thieves in Law" },
+        { type: "heading", content: "The Vor v Zakone: Thieves by Code" },
         {
           type: "paragraph",
           content:
-            "The 'vor v zakone' — thieves in law — were the traditional leadership caste of Russian criminal culture, originating in Soviet-era prisons. Adherence to the 'thieves' code' required complete separation from the state: no cooperation with authorities, no legitimate employment, no military service. Post-Soviet Russia scrambled this code as criminal leaders entered business and politics. The vor became, in the Putin era, figures whose relationship with state intelligence was often ambiguous.",
+            "Russia's 'thieves in law' lived by a code that forbade any cooperation with the state — no jobs, no military service, no talking to police. Post-Soviet Russia scrambled everything; by the Putin era, many vor had become indistinguishable from state intelligence assets.",
         },
-        { type: "heading", content: "Semion Mogilevich: Where Crime Meets Intelligence" },
+        { type: "heading", content: "Mogilevich: Crime Meets Espionage" },
         {
           type: "paragraph",
           content:
-            "Semion Mogilevich — placed on the FBI's Ten Most Wanted list in 2009 — is the figure who most clearly embodies the convergence of Russian organised crime and state intelligence. An economist by training, he built criminal enterprises spanning arms trafficking, nuclear material smuggling, and financial fraud across multiple continents, while apparently operating with protection that suggested intelligence connections. He was briefly arrested in Moscow in 2008 but released within months. He remains at large.",
+            "Semion Mogilevich made the FBI's Ten Most Wanted list for arms trafficking, nuclear smuggling, and financial fraud across multiple continents. Briefly arrested in Moscow in 2008, released within months. He remains at large.",
         },
-        { type: "heading", content: "The 'Ndrangheta and Secondigliano Alliance" },
+        { type: "heading", content: "The 'Ndrangheta: Blood Ties, Global Reach" },
         {
           type: "paragraph",
           content:
-            "The 'Ndrangheta — the Calabrian criminal organisation — is organised around blood family clans ('ndrine) rather than the more abstract territorial units of Cosa Nostra. This structure makes it uniquely resistant to infiltration: informers risk not just their own lives but those of their entire family networks. The Secondigliano Alliance — a coalition of powerful Camorra clans in Naples — managed the violence of the Campanian underworld in the 1990s through a brutal efficiency that Roberto Saviano documented in Gomorrah.",
+            "The 'Ndrangheta runs on blood-family clans — you can't betray the organisation without betraying your own relatives. That structural resistance to informers explains everything about its rise while Cosa Nostra fell.",
         },
       ],
       quiz: {
@@ -136,31 +136,31 @@ const course: Course = {
       title: "Methods & Operations",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Yakuza: Quasi-Legal Business Structures" },
+        { type: "heading", content: "Yakuza: Crime with a Corporate Veneer" },
         {
           type: "paragraph",
           content:
-            "The Yakuza's operational model historically involved substantial participation in legitimate business — construction, real estate, entertainment, financial services — alongside criminal income. Their public disaster-relief operations after major earthquakes were simultaneously genuine community service and sophisticated public relations. The post-1992 legal environment forced greater secrecy and created the 'front company' structure that now characterises Yakuza business operations.",
+            "The Yakuza's historical model blended legitimate business — construction, real estate, entertainment — with criminal income. Their post-earthquake disaster relief was genuine community service and brilliant PR. The 1992 law forced everything underground.",
         },
-        { type: "heading", content: "Triad Secrecy and Diaspora Networks" },
+        { type: "heading", content: "Triads: Secrecy as the Product" },
         {
           type: "paragraph",
           content:
-            "Triad operations are characterised by elaborate oath-based secrecy inherited from their political origins, and by the use of diaspora networks in Chinese communities worldwide. Unlike the Yakuza's openness or the 'Ndrangheta's family structure, the Triads use ritual and information compartmentalisation as their primary organisational security. Their presence in Chinese communities in Europe, North America, and Southeast Asia gives them a global distribution network for narcotics, counterfeit goods, and human trafficking.",
+            "Elaborate oath rituals and information compartmentalisation are the Triads' security model. Their diaspora presence in Chinese communities worldwide gives them a global distribution network for drugs, counterfeits, and people.",
         },
-        { type: "heading", content: "Russia: Criminal-State Fusion" },
+        { type: "heading", content: "Russia: Crime Is the State" },
         {
           type: "paragraph",
           content:
-            "The defining feature of Russian organised crime in the Putin era is not its separateness from the state but its integration with it. Criminal networks and intelligence services share personnel, share interests, and serve mutual purposes. State-connected criminal organisations can operate with impunity inside Russia while pursuing the state's foreign policy interests abroad — through assassination, cyber operations, and financial manipulation. The line between organised crime and state intelligence in Russia became, by the 2010s, largely notional.",
+            "In Putin-era Russia, the line between intelligence services and criminal networks isn't blurred — it's gone. Criminal organisations pursue state foreign policy; the state provides criminal impunity. They serve each other.",
         },
-        { type: "heading", content: "The Camorra and Toxic Waste" },
+        { type: "heading", content: "The Camorra's Toxic Legacy" },
         {
           type: "paragraph",
           content:
-            "The Camorra's control of Naples' waste management system — documented by Saviano in Gomorrah — is among the most damaging legacies of any criminal organisation's activity. By controlling municipal waste contracts, Camorra clans became the disposal route of choice for illegal toxic and industrial waste from across northern Italy and beyond. The 'Triangle of Death' — an area of Campania with dramatically elevated cancer rates — is the environmental consequence. The waste is still there.",
+            "The Camorra controlled Naples' waste contracts and made southern Italy the dumping ground for industrial toxic waste from across the country. The 'Triangle of Death' — with its dramatically elevated cancer rates — is still there. The waste isn't going anywhere.",
         },
       ],
       quiz: {
@@ -196,31 +196,31 @@ const course: Course = {
       title: "Cultural Representation",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Yakuza Film Tradition" },
+        { type: "heading", content: "Yakuza Cinema: Anti-Romantic and Chaotic" },
         {
           type: "paragraph",
           content:
-            "The Yakuza has produced one of cinema's most distinctive genre traditions. Kinji Fukasaku's Battles Without Honour and Humanity (1973) — based on a serialised memoir about the post-war Yakuza world — is considered the definitive account, deliberately anti-romantic and chaotic. Takeshi Kitano's films (Sonatine, Hana-Bi, Brother) present the Yakuza as both violent and melancholic, his boss figures looking inward at the futility of the life. These films shaped global cinema; Quentin Tarantino's debt to them is explicit.",
+            "Fukasaku's Battles Without Honour and Humanity (1973) is the definitive Yakuza film — deliberately unglamorous and chaotic. Takeshi Kitano's films add melancholy: his bosses stare into the futility of it all. Tarantino took notes.",
         },
-        { type: "heading", content: "Triad Cinema: Hong Kong's Heroic Bloodshed" },
+        { type: "heading", content: "Hong Kong: Brotherhood and Betrayal in Slow Motion" },
         {
           type: "paragraph",
           content:
-            "Hong Kong's Triad-adjacent cinema produced some of the most influential action films of the 1980s and 1990s. John Woo's A Better Tomorrow (1986) and The Killer (1989) established the 'heroic bloodshed' genre — Triad members as tragic codes of honour, spectacular violence aestheticised through slow motion, brotherhood and betrayal as central themes. Andrew Lau and Alan Mak's Infernal Affairs (2002) — remade by Scorsese as The Departed — is the definitive Triad infiltration narrative.",
+            "John Woo's heroic bloodshed films turned Triad loyalty and violence into operatic aesthetic spectacle. Infernal Affairs (2002) — remade by Scorsese as The Departed — is the definitive double-infiltration story.",
         },
-        { type: "heading", content: "Russian Organised Crime: Eastern Promises" },
+        { type: "heading", content: "Eastern Promises: The Vor Up Close" },
         {
           type: "paragraph",
           content:
-            "David Cronenberg's Eastern Promises (2007), with Viggo Mortensen as a vor v zakone in London, is the most searching cinematic examination of the Russian criminal world in Western film. Its central achievement is portraying the vor not as a straightforwardly evil figure but as someone embedded in a cultural and criminal code with its own internal logic. The film's understanding of Russian criminal culture — the tattoos as biographical record, the initiation rituals, the hierarchy — is unusually accurate.",
+            "Cronenberg's Eastern Promises presents the Russian vor not as cartoon villain but as a man embedded in a criminal code with its own internal logic. The tattoos, the rituals, the hierarchy — unusually accurate.",
         },
         { type: "heading", content: "Gomorrah: No Honour, No Glamour" },
         {
           type: "paragraph",
           content:
-            "Roberto Saviano's Gomorrah, in both book (2006) and film form (Matteo Garrone, 2008), and subsequently as a long-running television series, represents the most rigorously un-romanticised account of criminal organisation in contemporary culture. The Camorra of Saviano's account is not powerful but degraded — young men dying for nothing, the organisation consuming its own, no honour, no dignity, just squalor and waste. The book's accuracy was such that Saviano has lived under police protection since its publication.",
+            "Saviano's Gomorrah — book, film, TV series — is the most rigorously un-romanticised account of criminal life in contemporary culture. Young men dying for nothing, the organisation eating its own. Saviano still lives under police protection.",
         },
       ],
       quiz: {
@@ -256,31 +256,31 @@ const course: Course = {
       title: "Legacy & Modern Impact",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The 'Ndrangheta as the World's Most Powerful Criminal Organisation" },
+        { type: "heading", content: "The 'Ndrangheta Won" },
         {
           type: "paragraph",
           content:
-            "By most analytical assessments, the 'Ndrangheta is today the most powerful criminal organisation in the world — not the Sicilian Mafia, not the Yakuza, not the Russian mob. It controls an estimated 3% of Italy's GDP and is the dominant distributor of cocaine in Europe, with operations in more than 40 countries across five continents. Its blood-family clan structure, which made it resistant to the informant-driven prosecutions that weakened Cosa Nostra, is now the foundational advantage that has enabled its rise.",
+            "By most measures, the 'Ndrangheta is now the most powerful criminal organisation on earth — 3% of Italy's GDP, dominant in European cocaine, operations in 40+ countries. It won because you can't turn your family into an informant.",
         },
-        { type: "heading", content: "The Yakuza in Decline" },
+        { type: "heading", content: "The Yakuza Got Smaller and Quieter" },
         {
           type: "paragraph",
           content:
-            "The Yakuza's response to sustained legal pressure since 1992 has been a dramatic decline in official membership — from a peak of around 180,000 in the 1960s to under 30,000 today by official estimates — combined with structural adaptation. Yakuza organisations have become less visible, more corporate in their money laundering, and more willing to operate through legitimate-appearing business fronts. Whether this represents genuine weakening or merely tactical invisibility is debated among researchers.",
+            "From a peak of 180,000 members in the 1960s to under 30,000 today — the Yakuza shrank under sustained legal pressure. Whether that means genuine decline or just better camouflage is genuinely debated.",
         },
-        { type: "heading", content: "Russian Criminal-State Convergence" },
+        { type: "heading", content: "Russia: A Mafia State" },
         {
           type: "paragraph",
           content:
-            "The Putin era consolidated the convergence of Russian organised crime and state intelligence into what analysts have described as a 'mafia state' — a political system in which criminal networks are assets of state power rather than parasites on it. The implications extend far beyond Russia's borders: state-connected Russian criminal networks have been implicated in assassinations in the UK, election interference operations in multiple countries, and the use of financial crime as a foreign policy instrument.",
+            "The Putin era completed the criminal-state fusion into what analysts call a 'mafia state' — criminal networks as instruments of state power, not parasites on it. Assassinations abroad, election interference, financial crime as foreign policy.",
         },
-        { type: "heading", content: "Global Criminal Networks Today" },
+        { type: "heading", content: "Crime Goes Fully Global" },
         {
           type: "paragraph",
           content:
-            "The most significant development in global organised crime since the 1990s has been the full globalisation of criminal networks — mirroring the globalisation of legitimate business. Criminal organisations now operate logistics chains spanning multiple continents, with production in one region, distribution networks in another, and money laundering through a third. The 'Ndrangheta's cocaine supply chain — from Colombian producers through West African transit points to European consumers — is more sophisticated than many legitimate pharmaceutical distribution networks.",
+            "The 'Ndrangheta's cocaine supply chain — Colombia to West Africa to Europe — is more sophisticated than many legitimate pharmaceutical distribution networks. Globalisation didn't just help legitimate business. It supercharged criminal logistics too.",
         },
       ],
       quiz: {
@@ -316,31 +316,31 @@ const course: Course = {
       title: "What This Reveals About Society",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Organised Crime as a Mirror of Legitimate Business" },
+        { type: "heading", content: "Crime Mirrors Legitimate Business" },
         {
           type: "paragraph",
           content:
-            "The most analytically interesting feature of organised crime is how precisely it mirrors the legitimate business structures of its era. The American Mafia adopted the corporate form — the board, the franchise, the separation of ownership and management — as American corporate capitalism developed. The Yakuza integrated into Japanese post-war capitalism through construction and real estate at exactly the moment those sectors were driving Japanese growth. The 'Ndrangheta built a global cocaine supply chain as globalisation created the infrastructure to support it.",
+            "The American Mafia adopted the corporate board as American capitalism did. The Yakuza integrated into Japanese post-war growth sectors. The 'Ndrangheta built global supply chains as globalisation made them possible. Criminal organisations are always students of legitimate business.",
         },
-        { type: "heading", content: "The Drugs Trade as Supply Chain Innovation" },
+        { type: "heading", content: "Drugs: History's Most Efficient Black Market" },
         {
           type: "paragraph",
           content:
-            "The global narcotics trade is, stripped of its moral dimension, a remarkable logistical achievement. Cocaine produced in Colombia must be transported across oceans, through multiple transit countries, across numerous borders, and into consumer markets — while evading law enforcement at every stage. The organisations that manage this supply chain have solved problems in logistics, finance, and risk management that challenge legitimate businesses. The drugs trade is the most efficient black-market supply chain in history.",
+            "The global cocaine supply chain — produced in Colombia, transited through West Africa, consumed in Europe — solves logistics, finance, and risk management challenges that defeat legitimate businesses. The drugs trade is remarkable, stripped of its moral dimension.",
         },
         { type: "heading", content: "Every Organisation Is a Distorted Reflection" },
         {
           type: "paragraph",
           content:
-            "Each major criminal organisation is a distorted reflection of the legitimate economy of its society. The Triads reflect the overseas Chinese diaspora experience — the need for trust networks outside state protection in foreign environments. The Yakuza reflects Japan's managed capitalism and the social exclusion of minority populations. Russian organised crime reflects the catastrophic asset-stripping of Soviet collapse. You cannot understand any of these organisations without understanding the society they emerged from.",
+            "The Triads reflect overseas Chinese diaspora experience. The Yakuza reflect Japan's social exclusions. Russian organised crime reflects Soviet collapse. You cannot understand any of these organisations without understanding the society they emerged from.",
         },
-        { type: "heading", content: "State Failure as the Common Variable" },
+        { type: "heading", content: "State Failure Is the Common Variable" },
         {
           type: "paragraph",
           content:
-            "Across every case — Japan, China, Russia, Italy — the common variable is the same: organised crime fills voids that states leave open. The voids may be economic (markets that states prohibit but cannot suppress), social (communities that states exclude), security (regions or populations the state fails to protect), or political (populations denied legitimate channels for grievance). The implication is uncomfortable but clear: if you want to reduce organised crime, strengthen the state's capacity to perform its basic functions — and its willingness to perform them equitably.",
+            "Across every case — Japan, China, Russia, Italy — organised crime fills voids states leave open: prohibited markets, excluded communities, unprotected regions. The implication is uncomfortable: to reduce organised crime, strengthen the state and make it work equitably.",
         },
       ],
       reflection: {

@@ -16,30 +16,30 @@ const course: Course = {
       title: "What an Art Director Does",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "The Visual Architect" },
         {
           type: "paragraph",
           content:
-            "The art director is the visual architect of a publication, campaign, or project. Where the designer executes — laying out pages, choosing type sizes, refining the grid — the art director conceives: deciding what the whole thing should look and feel like, and why. The distinction matters. Design is the execution of a visual language. Art direction is the creation of that language in the first place.",
+            "The designer executes a visual language. The art director creates it. That distinction — conception vs. execution — is everything.",
         },
         {
           type: "paragraph",
           content:
-            "In editorial contexts (magazines, books), the art director decides what each story looks like visually — what photographs are commissioned, how they are cropped, what image leads a feature, how type and image work together across a spread. In advertising, the art director partners with a copywriter to conceive the campaign: the visual idea that will carry the message. In fashion, the art director oversees shoots — directing the photographer toward a specific visual outcome.",
+            "In editorial, the art director decides what each story looks like. In advertising, they conceive the campaign. In fashion, they direct the photographer. Different contexts, same core skill: deciding what something should look and feel like, and why.",
         },
-        { type: "heading", content: "Key Relationships" },
+        { type: "heading", content: "A Web of Relationships" },
         {
           type: "paragraph",
           content:
-            "An art director works inside a web of relationships. With the photographer: translating a visual concept into shoot direction, communicating what the images need to do rather than exactly how to make them (leaving room for the photographer's vision within the art director's framework). With the creative director: receiving the conceptual brief and translating it into actionable visual choices. With the editor: aligning visual choices with editorial strategy. Each relationship requires a different kind of communication.",
+            "Art directors work inside relationships — with photographers, creative directors, editors. Each requires different communication. With a photographer: what the images need to do, not how to make them. With a creative director: translating brief into visual choices.",
         },
-        { type: "heading", content: "What Art Direction Is Not" },
+        { type: "heading", content: "Not Taste. Intentionality." },
         {
           type: "paragraph",
           content:
-            "Art direction is not aesthetic preference. It is not choosing what you personally think looks beautiful. It is making visual decisions in service of a communication goal — asking not 'do I like this?' but 'does this do what we need it to do?' This distinction separates the art director from the person who just has good taste.",
+            "Art direction isn't choosing what you personally find beautiful. It's asking: does this do what we need it to do? That question separates the art director from the person who just has good taste.",
         },
       ],
       quiz: {
@@ -75,31 +75,31 @@ const course: Course = {
       title: "Legendary Art Directors",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Alexey Brodovitch: 'Astonish Me'" },
+        { type: "heading", content: "Brodovitch: 'Astonish Me'" },
         {
           type: "paragraph",
           content:
-            "Alexey Brodovitch was art director of Harper's Bazaar from 1934 to 1958 and ran a legendary design laboratory at the New School in New York. His teaching principle was the imperative he gave his students: 'astonish me.' He believed that photography in magazines should capture the energy of movement rather than static poses, that layouts should create visual rhythm across spreads rather than present isolated images. His graduates included Richard Avedon, Irving Penn, and Garry Winogrand. His influence on American visual culture in the second half of the twentieth century is without parallel.",
+            "Alexey Brodovitch ran Harper's Bazaar from 1934 to 1958 and taught everyone who mattered. His principle: 'astonish me.' Capture energy, not poses. Create rhythm across spreads, not isolated images. His graduates included Avedon and Penn.",
         },
-        { type: "heading", content: "Fabien Baron and Alexander Liberman" },
+        { type: "heading", content: "Baron and Liberman: Magazine Shapers" },
         {
           type: "paragraph",
           content:
-            "Fabien Baron redesigned Harper's Bazaar in 1992 — bold typography, white space as a design element, a visual language of confident luxury that defined magazine design for the decade. He also art directed Madonna's 'Sex' book (1992), Steven Meisel's photographs given a framework of metal binding and shrink-wrap. Alexander Liberman served as editorial director of Condé Nast from 1943 to 1994 — overseeing Vogue, Vanity Fair, The New Yorker — and shaped American magazine culture across five decades.",
+            "Fabien Baron redesigned Harper's Bazaar in 1992 — bold type, white space as design element, confident luxury. He also art directed Madonna's 'Sex.' Alexander Liberman ran Condé Nast for five decades and shaped American magazine culture.",
         },
-        { type: "heading", content: "Neville Brody and The Face" },
+        { type: "heading", content: "Neville Brody: Type as Image" },
         {
           type: "paragraph",
           content:
-            "Neville Brody's art direction of The Face magazine (1981–1986) was one of the most influential bodies of magazine design in the twentieth century. He used typography as image — letters as graphic elements, type that commented on and interacted with the photography rather than simply captioning it. His work made The Face the defining visual record of its cultural moment: post-punk London, the birth of the music video, the emergence of a new kind of youth culture.",
+            "Brody's art direction of The Face (1981–1986) used typography as image — letters as graphic elements that commented on the photography, not just captioned it. The visual record of post-punk London.",
         },
-        { type: "heading", content: "David Carson: Deconstructive Typography" },
+        { type: "heading", content: "David Carson: Beautiful Chaos" },
         {
           type: "paragraph",
           content:
-            "David Carson art directed Ray Gun magazine (1992–1995) and developed a visual language of extreme typographic deconstructivism: columns of text set in illegible display fonts, words broken across lines without apparent logic, images layered over type, an overall aesthetic of visual noise and information overload. It was simultaneously a critique of readability conventions and a prefigurement of the visual language of the internet. His work forced designers to confront what type is actually for.",
+            "Carson art directed Ray Gun with extreme typographic deconstructivism — illegible fonts, images layered over text, visual noise as a statement. It was a critique of readability and a preview of the internet's visual language.",
         },
       ],
       quiz: {
@@ -135,30 +135,30 @@ const course: Course = {
       title: "The Visual Brief",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Translating Concept into Direction" },
+        { type: "heading", content: "Abstractions Don't Make Photographs" },
         {
           type: "paragraph",
           content:
-            "The visual brief is the art director's primary tool for communication. It translates an abstract concept — 'we want something that feels both intimate and slightly unsettling' — into the concrete visual decisions a photographer can act on. The brief must answer, at minimum: what is the mood? what is the light quality? what is the palette? what is the casting direction? what is the wardrobe direction? what is the set or location direction?",
+            "The visual brief translates feeling into decisions. 'Intimate and slightly unsettling' means nothing to a photographer. Light quality, palette, casting direction, set direction — those mean something.",
         },
         {
           type: "paragraph",
           content:
-            "The brief exists because a photograph cannot be made from an abstraction. The photographer needs to know where to stand, how to light, what to look for. The art director's job is to translate the concept's emotional logic into physical parameters: the mood of the concept becomes the quality of light; the concept's palette becomes the colour of walls, clothes, and skin tones; the concept's emotional temperature becomes the casting decision.",
+            "The emotional logic of the concept becomes physical parameters. Mood becomes light quality. Palette becomes the colour of walls, clothes, and skin. Emotional temperature becomes casting. That's the translation.",
         },
-        { type: "heading", content: "Reference Images: Use and Misuse" },
+        { type: "heading", content: "References: Use, Don't Copy" },
         {
           type: "paragraph",
           content:
-            "Tearsheets and moodboards are the most common reference tools. Used well, they communicate a feeling — a light quality, a spatial relationship, a quality of tension between subject and background — that words cannot convey efficiently. Used badly, they communicate 'copy this': they replace creative thinking with reproduction. The difference is in how you select references. The goal is never to recreate a specific image. The goal is to isolate a specific quality that image contains and carry that quality into new work.",
+            "Tearsheets communicate feeling faster than words. Used well, they point at a quality — a light, a tension, a spatial relationship. Used badly, they say: copy this. The goal is never to recreate a specific image. It's to isolate a quality and carry it somewhere new.",
         },
-        { type: "heading", content: "Showing the Feeling" },
+        { type: "heading", content: "The Right Question" },
         {
           type: "paragraph",
           content:
-            "The most common mistake in briefing is confusing the reference with the target. 'I want it to look like this' — pointing at an Avedon portrait — is a different instruction from 'I want it to have this quality of psychological presence' — pointing at the same Avedon portrait. The first instruction produces copying. The second produces thinking. The art director's skill is in identifying precisely which quality of a reference is relevant and communicating only that.",
+            "'I want it to look like this Avedon' produces copying. 'I want this quality of psychological presence' produces thinking. Identifying precisely which quality matters — and communicating only that — is the art director's core skill.",
         },
       ],
       quiz: {
@@ -194,30 +194,30 @@ const course: Course = {
       title: "Directing a Shoot",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Art Director on Set" },
+        { type: "heading", content: "Stand by the Monitor, Not the Lens" },
         {
           type: "paragraph",
           content:
-            "The art director's position on set is specific: beside the monitor, not behind the lens. The photographer looks through the camera and sees the world through their own eye. The art director watches the monitor and asks a different question: does this image do what we need it to do? These are not the same question, and the person who asks the second question must not be the same as the person asking the first.",
+            "The photographer looks through the camera and asks: is this a good photograph? The art director watches the monitor and asks: does this do what we need it to do? These are different questions. They need different people.",
         },
         {
           type: "paragraph",
           content:
-            "The monitor relationship defines the art director's role. You are watching for whether the images are hitting the brief — whether the light has the quality specified, whether the model's expression carries the correct emotional temperature, whether the composition is creating the spatial relationships the concept requires. You are not watching for whether the photograph is beautiful. Beauty is the photographer's concern. Intentionality is yours.",
+            "Watch for whether the images hit the brief — whether the light has the right quality, whether the expression carries the right emotional temperature. Beauty is the photographer's concern. Intentionality is yours.",
         },
-        { type: "heading", content: "The Language of Redirection" },
+        { type: "heading", content: "Redirect Without Undermining" },
         {
           type: "paragraph",
           content:
-            "When an image is not working, the art director must redirect — and do so without undermining the photographer's authority on set. The language matters enormously. 'Can we try moving the light slightly warmer?' is a request. 'This light is wrong' is a criticism. 'What if we pushed the energy just slightly — a bit more forward in the body?' is a suggestion that gives the photographer room to interpret. The best art directors communicate what they want in terms of outcomes, not instructions.",
+            "'This light is wrong' is a criticism. 'Can we try moving it slightly warmer?' is a request. 'What if we pushed the energy just a bit more forward?' gives the photographer room to interpret. Communicate outcomes, not instructions.",
         },
-        { type: "heading", content: "Real-Time Decision Making" },
+        { type: "heading", content: "Brief as Compass, Not Map" },
         {
           type: "paragraph",
           content:
-            "A shoot is not a controlled laboratory. Models tire, light shifts, unexpected things happen, the energy of the room changes. The art director must make decisions in real time — recognising when something unexpected is better than what was planned, recognising when the session needs to change direction, knowing when enough frames have been made and when to push for one more. This requires the brief to be so thoroughly understood that it functions as a compass rather than a map: you always know which direction you're heading, even when the terrain is unfamiliar.",
+            "Shoots are unpredictable. Models tire, light shifts, the room changes. Know the brief so well it functions as a compass — you always know the direction even when the terrain is unfamiliar. And know when unexpected is better than planned.",
         },
       ],
       quiz: {
@@ -253,30 +253,30 @@ const course: Course = {
       title: "Art Direction in Editorial vs. Commercial",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Editorial Art Direction" },
+        { type: "heading", content: "Editorial: You Have the Page" },
         {
           type: "paragraph",
           content:
-            "Editorial art direction has a luxury that commercial work rarely affords: the page. A magazine feature spreads across multiple pages, and the art director's job is to think across that space — how does the sequence of images build? What does the opening image establish, and what does the final image resolve? The spread is the unit: two facing pages that must work as a single visual object, creating a relationship between image and type, between large and small, between colour and white space.",
+            "Editorial art direction thinks in sequences — opening spread, narrative build, resolution, pacing across pages. The spread is the unit: two facing pages that must work as one. The most experimental visual work happens here because magazines are the laboratory.",
         },
         {
           type: "paragraph",
           content:
-            "Editorial work also has relatively little accountability to a paying client. The art director answers to an editor and to the reader, but the brief is internal and the creative freedom is correspondingly large. This is why the most experimental visual work happens in editorial contexts: magazines have always been the laboratory for visual culture.",
+            "Editorial work answers to an editor and a reader, not a paying client. The creative freedom is correspondingly large. That's why the boldest visual ideas live in magazines first.",
         },
-        { type: "heading", content: "Commercial Art Direction" },
+        { type: "heading", content: "Commercial: One Shot to Say Everything" },
         {
           type: "paragraph",
           content:
-            "Commercial art direction is typically compressed to a single deliverable: the advertisement, the campaign image, the product photograph. The client has a brief, a brand identity, legal requirements, and a budget. The art director must work within all four constraints simultaneously. The creative freedom is smaller and the accountability is total: if the campaign doesn't work commercially, the art director has failed, regardless of whether the images are beautiful.",
+            "Commercial work compresses to a single deliverable. Client brief, brand identity, legal requirements, budget — all four constraints simultaneously. If the campaign doesn't work commercially, the images' beauty is irrelevant.",
         },
-        { type: "heading", content: "The Transfer of Skills" },
+        { type: "heading", content: "Skills That Travel Both Ways" },
         {
           type: "paragraph",
           content:
-            "The skills transfer in both directions. Editorial art directors who move into commercial work bring narrative intelligence — the ability to tell a story across a sequence of images rather than relying on a single hero shot. Commercial art directors who work in editorial bring discipline: the single-image mindset, the ability to distil a concept to its most essential visual statement. The most accomplished art directors move between contexts, letting each sharpen the other.",
+            "Editorial art directors who go commercial bring narrative intelligence. Commercial art directors who go editorial bring the single-image discipline — distilling a concept to its most essential statement. The best art directors move between both.",
         },
         {
           type: "quote",
@@ -317,31 +317,31 @@ const course: Course = {
       title: "Develop Your Visual Language",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Visual Brief as Creative Tool" },
+        { type: "heading", content: "Brief Shoots That Don't Exist Yet" },
         {
           type: "paragraph",
           content:
-            "The most useful exercise in developing art direction skills is making visual briefs for shoots that don't exist — yet. The brief is not a planning document. It is a thinking tool. The process of assembling references, specifying light quality, defining a palette, and writing the single-sentence mood statement forces you to translate an abstract feeling into concrete visual parameters. Do this regularly and you develop a visual language: a vocabulary of specific qualities you can reach for when a concept requires articulation.",
+            "The best exercise in art direction: make visual briefs for imaginary shoots. Assembling references, specifying light quality, defining a palette, writing the mood sentence — this forces abstract feeling into concrete parameters. Do it enough and you build a visual language.",
         },
-        { type: "heading", content: "Building a Reference Library" },
+        { type: "heading", content: "Build Your Reference Library Now" },
         {
           type: "paragraph",
           content:
-            "Art directors who work well under pressure have spent years building reference libraries — not archives of images they want to copy, but archives of specific qualities: this quality of light, this spatial relationship between figure and ground, this quality of tension in a face. The reference library is a vocabulary of visual effects. The more precisely it is organised (not by image, but by quality), the more useful it becomes.",
+            "Art directors who work well under pressure have been collecting for years. Not images to copy — qualities to reach for. Organise by quality, not subject. Light, spatial tension, emotional temperature. That's the vocabulary.",
         },
-        { type: "heading", content: "Looking at the World as an Art Director" },
+        { type: "heading", content: "Look Like an Art Director" },
         {
           type: "paragraph",
           content:
-            "Art direction is a mode of attention as much as a skill. It means looking at every image you encounter — in a magazine, on a screen, in a gallery, in a film — and asking: what is the light doing? what is the space doing? what is the relationship between the subject and the background? what would this feel like if the light were different, or the space were smaller, or the subject were further away? This is not analysis for its own sake. It is the building of a visual intelligence that eventually operates automatically.",
+            "Art direction is a mode of attention. Every image you see — magazine, screen, gallery, film — ask: what is the light doing? What is the space doing? What would this feel like if the light were different? This builds visual intelligence that eventually runs automatically.",
         },
-        { type: "heading", content: "Your First Brief" },
+        { type: "heading", content: "Your First Brief, Right Now" },
         {
           type: "paragraph",
           content:
-            "The practical exercise is simple: create a single-page visual brief for a shoot that doesn't exist yet. Choose a concept — one word or short phrase that names a feeling or a state. Find five reference images that connect to that concept without obviously illustrating it. Specify the palette in three colours. Describe the light quality in one sentence. Write the mood in one sentence. This is your visual brief. It is also the beginning of your visual language.",
+            "Pick one word — a feeling or a state. Find five reference images that connect without obviously illustrating it. Specify the palette in three colours. Describe the light in one sentence. Write the mood in one sentence. That's your visual brief. That's the beginning of your language.",
         },
       ],
       reflection: {

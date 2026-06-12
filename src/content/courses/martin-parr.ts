@@ -17,18 +17,18 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Martin Parr (b. 1952, Epsom, Surrey)" },
+        { type: "heading", content: "Born in Surrey, Raised in Salford" },
         {
           type: "paragraph",
           content:
-            "Martin Parr was born in 1952 in Epsom, Surrey, and grew up in Salford, where he discovered photography through his grandfather. He studied at Manchester Polytechnic and began his documentary career photographing working-class communities in the north of England — a far cry from the fashion world he would later intersect with.",
+            "Parr found photography through his grandfather and never stopped pointing it at the awkward, funny, uncomfortable truth of British life. He studied at Manchester Polytechnic and started with black-and-white social documentary.",
         },
         {
           type: "paragraph",
           content:
-            "His transition from black-and-white social documentary to his mature style — vivid colour, flash, extreme close-ups, sardonic humour — came with his project 'The Last Resort' (1986), which documented working-class tourists on a Liverpool beach. His election to Magnum Photos in 1994 was controversial among members who questioned whether his satirical approach was ethical documentary photography.",
+            "'The Last Resort' (1986) changed everything — vivid colour, flash, close-ups, sardonic humour. When Magnum elected him in 1994, it caused a row. Some members weren't sure his brand of satire was ethical documentary. That debate never really ended.",
         },
         {
           type: "heading",
@@ -37,13 +37,13 @@ const course: Course = {
         {
           type: "list",
           items: [
-            "1971: Studies photography at Manchester Polytechnic",
-            "1986: 'The Last Resort' — the defining statement of his mature style",
+            "1971: Studies at Manchester Polytechnic",
+            "1986: 'The Last Resort' — his mature style arrives fully formed",
             "1994: Elected to Magnum Photos (controversially)",
-            "1995: 'Common Sense' — global documentation of consumer culture",
-            "2004: Retrospective at Barbican, London",
+            "1995: 'Common Sense' — takes his lens global",
+            "2004: Barbican retrospective, London",
             "2013: Appointed President of Magnum Photos",
-            "Ongoing: Documentary work, commercial photography, book collecting",
+            "Ongoing: Documentary work, commercial photography, serious book collecting",
           ],
         },
         {
@@ -69,31 +69,31 @@ const course: Course = {
       title: "Visual Style Analysis",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Vivid Colour and Flash" },
+        { type: "heading", content: "Flash in Daylight: The Signature" },
         {
           type: "paragraph",
           content:
-            "Parr's mature style is characterised by extremely vivid colour — achieved through the combination of flash photography in bright outdoor conditions. The flash bleaches skin tones to near-white and makes colours appear hyper-saturated. Used in combination with extreme close-ups, it creates images that are simultaneously funny, uncomfortable, and deeply honest.",
+            "Flash plus bright outdoor light bleaches skin to near-white and hyper-saturates colour. Combine that with extreme close-ups and you get something simultaneously funny, uncomfortable, and brutally honest.",
         },
-        { type: "heading", content: "The Extreme Close-Up" },
+        { type: "heading", content: "So Close It's Rude" },
         {
           type: "paragraph",
           content:
-            "Parr is famous for extreme close-ups that fill the frame with details — greasy food, sunburned skin, cheap jewellery, out-of-date fashion. By moving to within inches of his subjects, he removes the context that might render these details sympathetic or explicable, leaving only the detail itself: exposed, slightly absurd, deeply revealing of social class and consumer behaviour.",
+            "Parr gets within inches — close enough to see the texture of sunburned skin, the detail of cheap jewellery, the reality of the food. At that distance, context disappears and truth is all that's left.",
         },
-        { type: "heading", content: "Satire and Affection" },
+        { type: "heading", content: "Satire or Affection? Both." },
         {
           type: "paragraph",
           content:
-            "The ongoing question about Parr's work is whether it is satirical mockery or affectionate documentation — and the honest answer is that it is both simultaneously. He finds his subjects funny and also, clearly, loves them. This ambivalence is what makes his work genuinely uncomfortable: you laugh, and then you wonder whether you should be laughing.",
+            "The honest answer to the big question about Parr's work: he finds his subjects funny and he loves them simultaneously. That ambivalence is what makes you laugh and then wonder if you should be laughing.",
         },
-        { type: "heading", content: "The British Subject" },
+        { type: "heading", content: "The Definitive British Eye" },
         {
           type: "paragraph",
           content:
-            "Parr is the great documentarian of British culture — specifically its class anxieties, its resort culture, its relationship to food, its collective desire to enjoy itself and its collective awkwardness about doing so. His images could only be of Britain and they reveal something about Britain that is simultaneously cruel and loving.",
+            "Parr documents Britain's class anxieties, its resort culture, its relationship with food, its collective awkwardness about having fun. His images are simultaneously cruel and loving — like the best British comedy.",
         },
         {
           type: "quote",
@@ -118,31 +118,31 @@ const course: Course = {
       title: "Signature Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "The Last Resort (1986)" },
         {
           type: "paragraph",
           content:
-            "Parr's defining work: a documentation of working-class tourists at New Brighton, a seaside resort near Liverpool. Made in vivid colour during overcast summer days, the images document the gap between the aspirations of leisure and its reality. Controversial on publication — accused of mocking the poor — but now widely recognised as one of the most significant British photography projects of the 20th century.",
+            "Working-class tourists at New Brighton, near Liverpool — shot in vivid colour, with all the gap between leisure aspiration and leisure reality exposed. Accused of mocking the poor on publication; now recognised as one of the most important British photography projects ever made.",
         },
         { type: "heading", content: "Common Sense (1999)" },
         {
           type: "paragraph",
           content:
-            "A global project documenting the visual culture of consumerism — food, fashion, tourism, souvenirs — in extreme close-up and vivid colour, across multiple countries. The project demonstrated that Parr's approach was not specific to Britain but described a global condition. The book is one of the most important photography books of its decade.",
+            "He went global — documenting the visual culture of consumerism across multiple countries in extreme close-up. The result proved his approach wasn't about Britain. It was about everyone.",
         },
         { type: "heading", content: "The Cost of Living (1989)" },
         {
           type: "paragraph",
           content:
-            "A documentation of middle-class British life in the Thatcher era — the new prosperity, the wine bars and dinner parties, the garden parties and village fetes. Parr's most explicitly political work, in which the English class system is dissected with uncomfortable precision.",
+            "Middle-class Britain in the Thatcher era: wine bars, dinner parties, garden fetes, new prosperity. His most explicitly political project — the English class system dissected with surgical precision.",
         },
         { type: "heading", content: "Luxury (2009)" },
         {
           type: "paragraph",
           content:
-            "Parr turned his lens on the super-rich — Davos, Monaco, the Henley Regatta — applying the same close-up, flash-in-daylight aesthetic that he had used to document the working class. The result is images that treat the wealthy with the same slightly satirical attention he had always given everyone else. The rich are as absurd as everyone else.",
+            "He turned the same flash-and-close-up treatment on the super-rich at Davos and Monaco. The finding: the wealthy are as absurd as everyone else.",
         },
       ],
       quiz: {
@@ -162,31 +162,31 @@ const course: Course = {
       title: "Techniques & Approach",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Ring Flash" },
+        { type: "heading", content: "The Ring Flash: Nothing to Hide" },
         {
           type: "paragraph",
           content:
-            "Parr's characteristic ring flash — a circular flash unit that mounts around the lens — creates a specific quality of light: shadowless, frontally lit, slightly clinical. It reveals detail with the merciless clarity of a forensic photograph. Everything is visible; nothing is hidden in shadow.",
+            "A circular flash unit that mounts around the lens creates shadowless, frontal light — clinical, revealing, forensic. Everything visible. Nothing hidden.",
         },
-        { type: "heading", content: "Extreme Proximity" },
+        { type: "heading", content: "Get Closer Than Feels Comfortable" },
         {
           type: "paragraph",
           content:
-            "Parr moves very close to his subjects — closer than is socially comfortable, closer than most photographers. This proximity requires both physical courage and social confidence. At close range, the detail that tells the truth becomes visible: the texture of sunburned skin, the close examination of food, the quality of cheap materials.",
+            "Parr moves in closer than social convention allows. That's the point. Close range reveals the texture and detail that polite photography keeps at arm's length.",
         },
         { type: "heading", content: "The Long Day" },
         {
           type: "paragraph",
           content:
-            "Parr's documentary projects typically involve spending extended time in a specific environment — a resort, a village fete, a food market — moving slowly through it and photographing repeatedly. This extended presence allows him to find the specific moments that reveal larger truths, and to be present when the ordinary becomes extraordinary.",
+            "He spends hours in a single environment — a resort, a fete, a food market — moving slowly, photographing repeatedly. Extended presence is how the ordinary becomes extraordinary.",
         },
         { type: "heading", content: "The Collector's Eye" },
         {
           type: "paragraph",
           content:
-            "Parr is also a serious collector of photobooks, kitsch objects, and vernacular photography. This collecting sensibility informs his documentary practice: he has an eye for the culturally specific, for the objects and images that define a time and a place, that is as much curatorial as photographic.",
+            "Parr collects photobooks, kitsch objects, and vernacular photography obsessively. His collector's eye — always looking for what's culturally specific — is inseparable from his photographic eye.",
         },
       ],
       quiz: {
@@ -206,31 +206,31 @@ const course: Course = {
       title: "Influence & Legacy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "British Documentary Photography" },
+        { type: "heading", content: "He Blew Up British Documentary" },
         {
           type: "paragraph",
           content:
-            "Parr transformed British documentary photography. Before his mature work, the dominant tradition was sympathetic, black-and-white, compassionate — the humanist tradition of the 1950s and 60s. Parr's colour satire challenged this, creating a new possibility for documentary photography that was political but ironic, engaged but wry.",
+            "Before Parr, British documentary photography was sympathetic, black-and-white, compassionate. He introduced colour satire — political but ironic, engaged but wry. The field has never looked the same since.",
         },
-        { type: "heading", content: "Colour Documentary Photography" },
+        { type: "heading", content: "Colour as Serious Medium" },
         {
           type: "paragraph",
           content:
-            "Parr was among the first British photographers to use vivid colour as the primary medium for serious documentary work, at a time when colour was considered commercial and black and white was considered art. This decision changed British photography and has been enormously influential on subsequent generations.",
+            "In British photography, colour was commercial — advertising, not art. Parr proved colour could be as rigorous and critical as any black-and-white tradition. That decision changed the game for generations.",
         },
-        { type: "heading", content: "The Ethics of Satire in Photography" },
+        { type: "heading", content: "The Ethics of Satire" },
         {
           type: "paragraph",
           content:
-            "The ongoing debate about Parr's work — affection or exploitation, satire or mockery — is one of the most important in contemporary photography's ethics. He has made the question of whose perspective is operating in a documentary photograph unavoidable, which is in itself a significant contribution.",
+            "The debate his work sparks — affection or exploitation? — is one of the most important in photography's ethics. He made the question of whose perspective operates in a documentary image impossible to ignore.",
         },
-        { type: "heading", content: "The Photobook Movement" },
+        { type: "heading", content: "The Photobook Canon" },
         {
           type: "paragraph",
           content:
-            "Parr, with Gerry Badger, wrote 'The Photobook: A History' — a three-volume encyclopaedia of photography books that transformed how the photobook is understood as an art form. This scholarly work has been enormously influential on photographers, collectors, and publishers worldwide.",
+            "With Gerry Badger, Parr wrote 'The Photobook: A History' — three volumes that transformed how the photobook is understood as an art form. Enormously influential worldwide.",
         },
       ],
       quiz: {
@@ -250,43 +250,43 @@ const course: Course = {
       title: "What You Can Learn From Parr",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From His Practice" },
+        { type: "heading", content: "Proximity, Colour, Honesty" },
         {
           type: "paragraph",
           content:
-            "Parr teaches the power of proximity, vivid colour, and the honest documentation of ordinary life — however uncomfortable that honesty might be.",
+            "Parr teaches that ordinary life, photographed close and in vivid colour, is more revealing than you think. Here's how to steal his methods.",
         },
         { type: "heading", content: "1. Move Closer" },
         {
           type: "paragraph",
           content:
-            "Robert Capa's maxim — 'if your pictures aren't good enough, you aren't close enough' — is Parr's principle too. Move physically closer to your subjects than feels socially comfortable. Notice what detail becomes visible at close range that disappears at a polite distance.",
+            "Closer than feels socially comfortable. Notice what detail becomes visible at close range that disappears at a polite distance. That detail is usually the truth.",
         },
         { type: "heading", content: "2. Photograph the Ordinary" },
         {
           type: "paragraph",
           content:
-            "Parr documents supermarket queues, seaside lunches, village fetes, business conferences. The most revealing photographs are often of the most ordinary situations. What ordinary events in your environment have you been photographing around rather than of?",
+            "Supermarket queues, seaside lunches, office parties — the most revealing images are often of the most unremarkable situations. What have you been shooting around rather than of?",
         },
         { type: "heading", content: "3. Use Flash in Daylight" },
         {
           type: "paragraph",
           content:
-            "Try using a flash unit in bright outdoor conditions. Notice what it does to colour saturation and skin tones. The effect is not naturalistic — it's something stranger and more revealing. Experiment with what this quality of light communicates.",
+            "Try it. Colour hyper-saturates, skin bleaches — you get something strange and more revealing than natural light. Experiment with what that strangeness communicates.",
         },
         { type: "heading", content: "4. Consider Your Own Position" },
         {
           type: "paragraph",
           content:
-            "Parr's work forces the question: what is your relationship to the people you photograph? Are you inside or outside the situation? Whose perspective is your photograph taken from? These questions don't have easy answers, but asking them makes you a more honest photographer.",
+            "Are you inside or outside the situation you're photographing? Whose perspective does your image represent? These questions don't have easy answers, but they make you a more honest photographer.",
         },
         { type: "heading", content: "5. Build a Visual Archive" },
         {
           type: "paragraph",
           content:
-            "Parr collects photobooks, objects, and images obsessively. His collecting sensibility informs his photographic eye. Build your own visual archive — not just photographs you admire but objects, advertisements, postcards, vernacular images that tell you something about the culture you're photographing.",
+            "Collect obsessively — photobooks, postcards, objects, advertisements. A collector's eye for what's culturally specific is inseparable from a good photographic eye.",
         },
       ],
       reflection: {

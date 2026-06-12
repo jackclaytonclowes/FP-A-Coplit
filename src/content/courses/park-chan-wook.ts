@@ -16,18 +16,18 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Park Chan-wook (Born 1963, Seoul, South Korea)" },
         {
           type: "paragraph",
           content:
-            "Park Chan-wook was born in 1963 in Seoul. He studied aesthetics at Sogang University, an unusually philosophical foundation for a filmmaker, and came to cinema through criticism rather than production — he worked as a film critic in the late 1980s before turning to directing. This critical background is visible in his films: they are made by someone who thinks in terms of form and argument, not just story.",
+            "Park studied aesthetics and worked as a film critic before he directed anything. He thinks in form and argument, not just story — and it shows in every frame he makes.",
         },
         {
           type: "paragraph",
           content:
-            "His early directorial career was commercially unsuccessful. The Moon Is the Sun's Dream (1992) and Trio (1997) both failed at the box office. He turned to genre with Joint Security Area (JSA) in 2000 — a thriller set on the border between North and South Korea — and the film became the highest-grossing Korean film of that year. JSA announced a filmmaker working at the highest level.",
+            "Early commercial failures gave way to Joint Security Area (2000), a thriller on the North-South Korean border that became the highest-grossing Korean film of that year. He arrived at full speed.",
         },
         {
           type: "heading",
@@ -68,31 +68,31 @@ const course: Course = {
       title: "Influences & Cinematic Education",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Alfred Hitchcock" },
+        { type: "heading", content: "Hitchcock: Desire Makes Criminals of Us All" },
         {
           type: "paragraph",
           content:
-            "Like Bong Joon-ho, Park draws heavily on Hitchcock — but where Bong takes the genre mechanics, Park takes the formal precision and the sexual obsession. Hitchcock's interest in guilt, complicity, and the way desire makes criminals of us all runs through every Park film. Stoker in particular reads as a direct Hitchcockian exercise, structured like a Hitchcock thriller and shot with his characteristic spatial elegance.",
+            "Where Bong takes Hitchcock's mechanics, Park takes his formal precision and sexual obsession. Stoker is practically a Hitchcock exercise — guilt, complicity, desire as danger.",
         },
-        { type: "heading", content: "Luis Buñuel" },
+        { type: "heading", content: "Buñuel: Control Makes Transgression Hit Harder" },
         {
           type: "paragraph",
           content:
-            "Buñuel's surrealist transgression — the willingness to place shocking, grotesque, or darkly comic images alongside everyday bourgeois life — is a clear presence in Park's work. Buñuel showed that cinema could be both formally controlled and viscerally disturbing, that the transgressive image gains power precisely from the control and beauty surrounding it.",
+            "Buñuel proved that a shocking image within a precisely controlled formal structure is more disturbing than shock alone. Park's most transgressive moments gain power from the beauty surrounding them.",
         },
-        { type: "heading", content: "Claude Chabrol" },
+        { type: "heading", content: "Claude Chabrol: Beauty as Indictment" },
         {
           type: "paragraph",
           content:
-            "The French New Wave director Claude Chabrol spent much of his career making elegant, cold-eyed films about the moral corruption of the French bourgeoisie. Park absorbed from Chabrol the idea that formal beauty applied to middle-class life can function as a form of indictment — that the more gorgeous the surface, the more damning the revelation of what lies beneath.",
+            "Chabrol spent his career making elegant films about bourgeois moral rot. Park absorbed the lesson: the more gorgeous the surface, the more damning what lies beneath.",
         },
-        { type: "heading", content: "Kim Ki-young" },
+        { type: "heading", content: "Kim Ki-young: Domestic Horror, Korean Style" },
         {
           type: "paragraph",
           content:
-            "Kim Ki-young's The Housemaid (1960) is the great precursor of Korean melodrama — a film of extraordinary formal control and disturbing content about desire, class, and domestic violence. Park's interest in the domestic space as a site of hidden horror, and his willingness to use melodramatic intensity for serious purposes, comes partly from this tradition.",
+            "The Housemaid (1960) showed that the home is a site of hidden violence — desire, class, and domestic chaos under formal control. Park's inheritance runs directly from here.",
         },
       ],
       quiz: {
@@ -112,31 +112,31 @@ const course: Course = {
       title: "Visual Style & Techniques",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Formalist Precision" },
+        { type: "heading", content: "Every Frame Is a Painting" },
         {
           type: "paragraph",
           content:
-            "Park composes each shot as a painting. This is not a metaphor — he works with his cinematographers to ensure that every frame, stopped at any moment, would be a coherent and beautiful visual composition. The rigour is not decorative: it is an argument that the beautiful and the monstrous can inhabit the same frame, that formal beauty does not cleanse the images of their moral weight.",
+            "This isn't a metaphor — Park composes each shot so it holds as a visual composition at any freeze-frame. The rigour argues that beauty and monstrousness can share the same image.",
         },
-        { type: "heading", content: "Deliberate Colour Palettes Per Film" },
+        { type: "heading", content: "Each Film Has Its Own Colour World" },
         {
           type: "paragraph",
           content:
-            "Each Park film has a defined and coherent colour world. Oldboy's desaturated greens and browns encode its world of rot and confinement. The Handmaiden's jewel-toned colours reflect the elaborate artificiality of its Japanese-occupied Korean setting. Stoker's muted blues and greys give way to sudden bursts of red. Colour is not mood-setting; it is argument.",
+            "Oldboy's desaturated greens encode rot and confinement. The Handmaiden's jewel tones reflect colonial artifice. Stoker's muted blues explode into red. Colour is argument, not mood.",
         },
-        { type: "heading", content: "The Long Take as Revelation" },
+        { type: "heading", content: "The Long Take as Moral Witness" },
         {
           type: "paragraph",
           content:
-            "Park uses the long take strategically — not as an aesthetic preference but as a revelatory device. The corridor fight in Oldboy, shot in a single long take, turns what could have been action spectacle into something exhausting and horrible. The camera does not cut away from the violence; neither does the moral universe of the film. You are required to watch.",
+            "Oldboy's corridor fight is a single long take — exhausting and horrible. The camera doesn't cut away. Neither does the moral universe of the film. You are required to watch.",
         },
-        { type: "heading", content: "Beauty in Scenes of Violence" },
+        { type: "heading", content: "Beautiful Violence as a Trap" },
         {
           type: "paragraph",
           content:
-            "Park's willingness to make violence formally beautiful is deliberately uncomfortable. He never aestheticises violence to make it acceptable — rather, the beauty implicates the viewer. You have found this beautiful. What does that mean about you? This is the question his films persistently ask, and it is one of the most honest things cinema can do.",
+            "Park makes violence formally gorgeous on purpose. He's not making it acceptable — he's implicating you. You found this beautiful. Now sit with what that means about you.",
         },
       ],
       quiz: {
@@ -156,31 +156,31 @@ const course: Course = {
       title: "Essential Films",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Oldboy (2003)" },
         {
           type: "paragraph",
           content:
-            "A man is imprisoned without explanation for fifteen years, then released. He has ninety days to discover who imprisoned him and why. Oldboy is one of cinema's most formally perfect films — its structure is as airtight as its content is extreme. The revelation is one of cinema's most devastating, not because of shock alone but because of what it means about the nature of revenge and the impossibility of undoing the past.",
+            "A man imprisoned for fifteen years without explanation, then released. He has ninety days to find out why. One of cinema's most formally perfect structures — and one of its most devastating revelations.",
         },
         { type: "heading", content: "The Vengeance Trilogy (2002–2005)" },
         {
           type: "paragraph",
           content:
-            "Sympathy for Mr. Vengeance, Oldboy, and Lady Vengeance are not sequels but thematic variations on a single question: does revenge bring justice? Each film approaches the question from a different angle and arrives at the same answer. The trilogy is the clearest statement of Park's moral philosophy: revenge is a poison that destroys the person who seeks it and creates more suffering than it resolves.",
+            "Three films, one question: does revenge bring justice? Three answers: no. Revenge is a poison that destroys its seeker and creates more suffering than it resolves.",
         },
         { type: "heading", content: "The Handmaiden (2016)" },
         {
           type: "paragraph",
           content:
-            "Set in Japanese-occupied Korea, The Handmaiden is adapted from Sarah Waters's novel Fingersmith and relocated to a period of colonial complicity and cultural suppression. A con artist poses as a handmaiden to a Japanese heiress. The film unfolds in three parts, each revealing that the previous part's perspective was incomplete. It is a film about the power of narrative, the erotics of reading, and who gets to tell a story.",
+            "Set in Japanese-occupied Korea, adapted from Sarah Waters's Fingersmith. Three-part structure, each section revealing the previous one was incomplete. A film about who gets to tell the story.",
         },
         { type: "heading", content: "Decision to Leave (2022)" },
         {
           type: "paragraph",
           content:
-            "A detective investigates the death of a hiker and falls in love with the dead man's wife. Decision to Leave is Park's most restrained film, and in many ways his most emotionally devastating. It is a Hitchcockian romantic thriller that asks what we are willing to not-see when we desire someone, and what the cost of that selective blindness is.",
+            "Park's most restrained film — and possibly his most devastating. A detective falls in love with a murder suspect. What do we choose not to see when we desire someone?",
         },
       ],
       quiz: {
@@ -200,31 +200,31 @@ const course: Course = {
       title: "Themes & Obsessions",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Revenge as Moral Poison" },
+        { type: "heading", content: "Revenge Destroys Its Seeker" },
         {
           type: "paragraph",
           content:
-            "Park's central moral proposition, stated and restated across his career, is that revenge destroys its seeker. The films are not against the desire for revenge — he depicts it with full sympathy and understanding. But they show, with rigorous consistency, that the act of revenge does not heal the original wound; it opens new wounds while the old one remains unaddressed.",
+            "Park depicts the desire for revenge with full sympathy — then shows, with rigorous consistency, that it doesn't heal the wound. It opens new ones while the old one stays raw.",
         },
-        { type: "heading", content: "Violence as Self-Perpetuating Cycle" },
+        { type: "heading", content: "Violence Generates More Violence" },
         {
           type: "paragraph",
           content:
-            "In Park's films, every act of violence generates more violence. The cycle is the moral trap. Sympathy for Mr. Vengeance traces how a single economic injustice ramifies into a chain of killings, each one justified from within the logic of the person committing it, each one making things worse. The film's title is almost ironic: everyone in it deserves our sympathy, and everyone in it does terrible things.",
+            "Sympathy for Mr. Vengeance traces how one economic injustice ramifies into a chain of killings. Everyone is justified from within their own logic. Everyone makes things worse.",
         },
-        { type: "heading", content: "The Ambiguity of Culpability" },
+        { type: "heading", content: "There Are No Villains, Just Conditions" },
         {
           type: "paragraph",
           content:
-            "Park resists assigning simple moral responsibility. In Sympathy for Mr. Vengeance the factory owner who fires the protagonist is not a villain — he is responding reasonably to economic pressure. The protagonist is not a villain either. There is no villain. There are only people in conditions that grind them together with tragic results. This refusal of simple culpability is more honest than most cinema's moral bookkeeping.",
+            "The factory owner who triggers tragedy isn't evil — he's responding to economic pressure. Park refuses simple culpability. The real villain, if there is one, is the system.",
         },
-        { type: "heading", content: "Desire as Beautiful and Destructive" },
+        { type: "heading", content: "Desire: Engine and Catastrophe" },
         {
           type: "paragraph",
           content:
-            "Across Park's filmography, desire — sexual, familial, economic — is presented as both the engine of life and the source of catastrophe. The Handmaiden is his most explicit treatment: a film about erotic desire, narrative desire, and the desire for freedom, in which desire is simultaneously what makes the characters fully alive and what makes them capable of extraordinary cruelty.",
+            "The Handmaiden puts this most clearly: desire makes you fully alive and makes you capable of extraordinary cruelty. Both things are true. At the same time.",
         },
       ],
       quiz: {
@@ -244,37 +244,37 @@ const course: Course = {
       title: "What You Can Learn",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From His Practice" },
+        { type: "heading", content: "What Park Teaches" },
         {
           type: "paragraph",
           content:
-            "Park teaches that formal beauty is not a distraction from moral seriousness — it is its amplification. And that the most honest thing cinema can do is make the audience sit with their own complicity.",
+            "Formal beauty amplifies moral seriousness — it doesn't distract from it. And making the audience sit with their own complicity is one of the most honest things cinema can do.",
         },
         { type: "heading", content: "1. Design a Colour World" },
         {
           type: "paragraph",
           content:
-            "Before shooting or writing your next project, define its colour world. What three or four colours will dominate? What do they mean? What colours are forbidden in this world? This exercise forces you to think about the emotional and ideological argument of your work before you make a single scene-level decision.",
+            "Before you write a scene, define your project's colour world. Three or four dominant colours. What they mean. What's forbidden. This forces you to think in argument before you think in scene.",
         },
         { type: "heading", content: "2. Ask Who Has the Right to Tell the Story" },
         {
           type: "paragraph",
           content:
-            "The Handmaiden's three-part structure, in which each section reveals the previous section's perspective to be incomplete, is a lesson in narrative epistemology. Whose perspective are you privileging? What would the story look like from a different character's point of view? Would it be the same story at all?",
+            "The Handmaiden's three-part structure keeps revealing that each previous perspective was incomplete. Whose point of view are you privileging? What would the story look like from somewhere else?",
         },
         { type: "heading", content: "3. Make the Audience Complicit" },
         {
           type: "paragraph",
           content:
-            "Identify a moment in your story where you could create audience complicity — where you let them enjoy something they should be troubled by, or desire something they should resist. This is uncomfortable filmmaking, but it is honest filmmaking. Most cinema lets audiences maintain comfortable distance from their own responses. Park does not.",
+            "Find a moment where you can let your audience enjoy something they should be troubled by. That discomfort is honest filmmaking. Most cinema keeps viewers at a comfortable distance. Park doesn't.",
         },
         { type: "heading", content: "4. Refuse Simple Moral Arithmetic" },
         {
           type: "paragraph",
           content:
-            "In your next story, try removing the villain. Replace the villain with conditions — economic, social, historical — that produce the harm. See if the story becomes more or less honest. What do you lose? What do you gain? Park's refusal of simple culpability is not cynicism; it is an insistence that human beings deserve a more complex moral accounting than genre usually provides.",
+            "Try removing the villain from your next story. Replace them with conditions — economic, social, historical — that produce the harm. What do you lose? What do you gain?",
         },
       ],
       reflection: {

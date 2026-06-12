@@ -17,22 +17,22 @@ const course: Course = {
       title: "Biography & Background",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Nan Goldin (b. 1953, Washington D.C.)" },
+        { type: "heading", content: "She Photographed So She Wouldn't Forget" },
         {
           type: "paragraph",
           content:
-            "Nan Goldin was born in 1953 in Washington D.C. Her childhood was defined by trauma — her older sister Barbara committed suicide when Nan was 11, an event that would haunt her work and fuel her lifelong obsession with documenting the people she loved before they disappeared.",
+            "Goldin's older sister committed suicide when Nan was 11. That loss became a lifelong obsession: document the people you love before they disappear.",
         },
         {
           type: "paragraph",
           content:
-            "At 18 she moved to Boston, then to New York, falling into the underground world of drag queens, sex workers, and artists in the late 1970s. She photographed this community from inside it — not as a documentarian but as a participant. Her camera was always with her, always on.",
+            "At 18 she landed in New York's underground — drag queens, sex workers, artists. She photographed this world from inside it. The camera was always on.",
         },
         {
           type: "heading",
-          content: "Key Career Milestones",
+          content: "A Life Fully Lived, Fully Documented",
         },
         {
           type: "list",
@@ -69,31 +69,31 @@ const course: Course = {
       title: "Visual Style Analysis",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Photography From Inside the Frame" },
         {
           type: "paragraph",
           content:
-            "Goldin's visual style is inseparable from her biography. She photographs her own life — her lovers, friends, community — from within. This is not journalism or documentary in the traditional sense; it is a form of visual diary, closer to autobiography than reportage.",
+            "Goldin doesn't document her community — she is her community. This isn't journalism. It's autobiography with a camera.",
         },
-        { type: "heading", content: "Flash Photography" },
+        { type: "heading", content: "Flash Is a Feature, Not a Bug" },
         {
           type: "paragraph",
           content:
-            "Goldin's signature technique is direct flash — typically an on-camera flash that creates harsh shadows, blown-out highlights, and red-eye. This was considered a technical 'mistake' by fine-art photography standards. Goldin made it her signature. The flash collapses distance; it makes images feel immediate and slightly uncomfortable, like an intrusion into private space.",
+            "Direct on-camera flash was a technical 'mistake' in fine art photography. Goldin made it her signature. The harsh light feels like an intrusion — which is exactly right.",
         },
-        { type: "heading", content: "Colour and Rawness" },
+        { type: "heading", content: "Lurid, Oversaturated, Alive" },
         {
           type: "paragraph",
           content:
-            "Where most photographers of her generation were working in black and white, Goldin used colour — often the lurid, oversaturated colour of a 35mm point-and-shoot. Skin tones are warm, shadows are deep, and everything carries the slightly feverish quality of late nights and cheap film.",
+            "While everyone else shot in black and white, Goldin used colour — the feverish, over-bright colour of 35mm film and late nights.",
         },
-        { type: "heading", content: "Intimacy as Subject" },
+        { type: "heading", content: "Nothing Is Off-Limits" },
         {
           type: "paragraph",
           content:
-            "The subject matter of her work is intimacy in all its forms: sex, tenderness, violence, grief, joy. She photographs couples in bed, friends after arguments, bruises after beatings. Nothing is off-limits — including her own face after being beaten by her then-boyfriend, an image she made deliberately and showed publicly.",
+            "Sex, tenderness, grief, bruises after beatings — she photographed all of it. Including her own face after her boyfriend beat her, which she showed publicly as an act of defiance.",
         },
         {
           type: "quote",
@@ -118,31 +118,31 @@ const course: Course = {
       title: "Signature Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Ballad of Sexual Dependency (1986)" },
+        { type: "heading", content: "The Ballad of Sexual Dependency — A Life in Slides" },
         {
           type: "paragraph",
           content:
-            "Goldin's masterwork: a slideshow of 700 images set to music, chronicling her social world from the 1970s to mid-80s. Originally screened at New York clubs — including the Mudd Club and Danceteria — it was later shown in galleries and published as a book. The Ballad documents love, sex, violence, addiction, and loss with unflinching candour.",
+            "700 images, music, New York clubs. Later a book, later a gallery. It documents love, sex, addiction, loss — with zero flinching.",
         },
-        { type: "heading", content: "Nan One Month After Being Battered (1984)" },
+        { type: "heading", content: "Nan One Month After Being Battered — A Self-Portrait of Defiance" },
         {
           type: "paragraph",
           content:
-            "One of the most discussed photographs of the 20th century. Goldin's self-portrait, taken one month after her then-boyfriend Brian beat her severely. Showing bruised eye, red lipstick, direct gaze into the camera. It is both a document and an act of defiance.",
+            "Bruised eye, red lipstick, direct gaze. Goldin photographed her own face after being beaten and showed it publicly. Both a document and an act of war.",
         },
-        { type: "heading", content: "The Other Side (1992)" },
+        { type: "heading", content: "The Other Side — Before It Was Mainstream" },
         {
           type: "paragraph",
           content:
-            "A series documenting the transgender and drag communities Goldin had been part of since the 1970s. Made with the same intimacy and love as the Ballad, these images helped bring transgender lives into mainstream photographic discourse decades before it became culturally common.",
+            "Goldin documented transgender and drag lives in the 1970s — with the same love she gave everyone else, decades before the culture caught up.",
         },
-        { type: "heading", content: "Sisters, Saints, and Sibyls (2004)" },
+        { type: "heading", content: "Sisters, Saints, and Sibyls — Grief as Art" },
         {
           type: "paragraph",
           content:
-            "A triptych video installation dedicated to her sister Barbara. It weaves together footage of saints and martyrs with images of Barbara's life and death. Goldin's most explicitly autobiographical and grief-driven work.",
+            "A video triptych dedicated to her sister Barbara. Footage of saints and martyrs woven with images of Barbara's life and death. Her most personal work.",
         },
       ],
       quiz: {
@@ -162,31 +162,31 @@ const course: Course = {
       title: "Techniques & Approach",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Photographing From Within" },
+        { type: "heading", content: "You Can't Fake Being There" },
         {
           type: "paragraph",
           content:
-            "The most important thing Goldin does technically is also the hardest: she is a genuine participant in the world she photographs. She was not visiting New York's underground — she lived in it. This is not a technique you can fake, but it points to a principle: the best documentary photography comes from proximity and trust.",
+            "Goldin lived in the world she photographed. That's not a technique — it's a commitment. But it points to a principle: real access comes from real trust.",
         },
-        { type: "heading", content: "The Compact Camera" },
+        { type: "heading", content: "Carry Something Small" },
         {
           type: "paragraph",
           content:
-            "For most of her career Goldin used a 35mm compact camera — small, unobtrusive, always available. This is a practical philosophy: the best camera is the one you have. The compact camera forced her to work with available light plus flash, which became her aesthetic.",
+            "A 35mm compact camera goes everywhere. That's the philosophy: the best camera is the one you always have. The built-in flash was a bonus she turned into an aesthetic.",
         },
-        { type: "heading", content: "The Slideshow Format" },
+        { type: "heading", content: "Think in Slideshows" },
         {
           type: "paragraph",
           content:
-            "Goldin thinks in sequences and slideshows, not single images. The pairing and sequencing of images creates meaning that single images cannot. Music, pacing, and the juxtaposition of images in the Ballad creates an experience closer to cinema than to a gallery walk.",
+            "Goldin sequences images like a director cuts film. Music, pacing, juxtaposition — the Ballad is closer to cinema than to a gallery walk.",
         },
-        { type: "heading", content: "Publishing as Practice" },
+        { type: "heading", content: "The Work Belongs to the Community" },
         {
           type: "paragraph",
           content:
-            "Goldin has always believed in making her work accessible — through clubs, books, and now film. She resists the gatekeeping of the gallery world. The work belongs to the community it documents.",
+            "Clubs, books, film — Goldin makes her work accessible. She resists gatekeeping. The people she photographs should be able to see their own story.",
         },
       ],
       quiz: {
@@ -206,31 +206,31 @@ const course: Course = {
       title: "Influence & Legacy",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Goldin's Cultural Impact" },
+        { type: "heading", content: "She Made Invisible Lives Visible" },
         {
           type: "paragraph",
           content:
-            "Nan Goldin fundamentally changed what photography was allowed to show. Before her work, the intimacy she depicted — sex, addiction, violence, queer life — was either invisible or treated as scandal. She made it art.",
+            "Before Goldin, intimacy of this kind — sex, addiction, queer life, violence — was either invisible or scandalous in art. She made it art.",
         },
-        { type: "heading", content: "Influence on Photography" },
+        { type: "heading", content: "The Template for Diary Photography" },
         {
           type: "paragraph",
           content:
-            "Virtually every photographer working in the 'confessional' or 'diary' mode — Wolfgang Tillmans, Juergen Teller, Harley Weir, Ryan McGinley — owes a direct debt to Goldin. She created the template for photography as personal testimony.",
+            "Tillmans, Teller, Weir, McGinley — every photographer working in the confessional or diary mode owes a direct debt to Goldin. She invented the template.",
         },
-        { type: "heading", content: "The Opioid Activism" },
+        { type: "heading", content: "She Took On the Sacklers" },
         {
           type: "paragraph",
           content:
-            "In her seventies, Goldin became a prominent activist against the opioid crisis and the Sackler family, who funded many museums through profits from OxyContin. Her organisation P.A.I.N. staged die-in protests at the Louvre, the Guggenheim, and the Metropolitan Museum. Several major institutions subsequently removed the Sackler name from their buildings.",
+            "In her seventies, Goldin founded P.A.I.N. and staged die-in protests at the Louvre, the Guggenheim, the Met. Multiple institutions removed the Sackler name. Art as activism.",
         },
-        { type: "heading", content: "All the Beauty and the Bloodshed (2022)" },
+        { type: "heading", content: "Golden Lion — The Film World Noticed Too" },
         {
           type: "paragraph",
           content:
-            "Laura Poitras' documentary film about Goldin's life and activism won the Golden Lion at the Venice Film Festival — the first documentary to do so in 20 years. It brought her work and activism to a new global audience.",
+            "Laura Poitras' documentary about Goldin's life won the Venice Golden Lion in 2022 — the first documentary to do so in 20 years. New audience, same story.",
         },
       ],
       quiz: {
@@ -250,43 +250,43 @@ const course: Course = {
       title: "What You Can Learn From Goldin",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From Her Practice" },
+        { type: "heading", content: "Five Things to Steal From Goldin" },
         {
           type: "paragraph",
           content:
-            "Goldin's work teaches lessons that go beyond technique. They are lessons about commitment, proximity, and the ethics of looking.",
+            "Goldin's lessons go way beyond technique. They're about commitment, proximity, and why photographs matter.",
         },
         { type: "heading", content: "1. Photograph Your Own World" },
         {
           type: "paragraph",
           content:
-            "Goldin's most radical move was to photograph her own community from within it. The resulting intimacy is impossible to fake. Ask yourself: what world do you inhabit that no one else can photograph with the same authority?",
+            "What world do you inhabit that no one else can photograph with the same authority? Start there.",
         },
         { type: "heading", content: "2. The Camera as Memory" },
         {
           type: "paragraph",
           content:
-            "Goldin photographs to remember. She is explicit about this: photographs are a hedge against loss. This gives her work an urgency that more casual photography lacks. Photograph with that same sense of stakes.",
+            "Goldin photographs to remember. Give your photography the same urgency — shoot like you might not get another chance.",
         },
         { type: "heading", content: "3. Embrace Technical 'Imperfection'" },
         {
           type: "paragraph",
           content:
-            "Direct flash, red-eye, blown highlights — these were considered mistakes that Goldin turned into signatures. What 'imperfections' in your own work might actually be strengths you're suppressing?",
+            "Red-eye, blown highlights, harsh flash — Goldin turned 'mistakes' into signatures. What so-called flaws in your work might actually be strengths?",
         },
         { type: "heading", content: "4. Sequence and Story" },
         {
           type: "paragraph",
           content:
-            "Goldin thinks in series and slideshows. A single image is a fragment; a sequence is a life. Begin to think about how your images relate to one another and what new meaning their proximity creates.",
+            "A single image is a fragment. A sequence is a life. Start thinking about how your images work together.",
         },
         { type: "heading", content: "5. Art Has Stakes" },
         {
           type: "paragraph",
           content:
-            "Goldin's life shows that photography is not separate from life — it is part of it. Her work on the opioid crisis, her grief, her joy: all are part of the same practice. Let your photography matter to you.",
+            "Goldin's photography and her activism are the same practice. Let your work matter to you — and to someone else.",
         },
       ],
       reflection: {

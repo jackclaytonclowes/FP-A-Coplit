@@ -16,26 +16,26 @@ const course: Course = {
       title: "Origins & History",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Fashion Magazine as Artistic Venue" },
+        { type: "heading", content: "The Free Pages Inside the Ad Machine" },
         {
           type: "paragraph",
           content:
-            "Editorial fashion photography exists because of the commercial structure of magazines. A fashion magazine earns its revenue from advertising — brands paying for pages to sell products. The editorial pages, which the magazine's staff produce, are not directly paid for by advertisers. This distinction creates a space: editorial pages can show fashion narratively, conceptually, provocatively, without the direct obligation to sell a specific product.",
+            "Fashion magazines make money from advertising. The editorial pages — produced by the magazine's own staff — aren't directly paid for by brands. That gap is where editorial photography lives: creatively freer, commercially unobliged.",
         },
         {
           type: "paragraph",
           content:
-            "This distinction — editorial as relatively free creative space, advertising as product-driven — is the founding condition of editorial fashion photography as an art form. It explains why the tradition's most ambitious and transgressive work appeared in Vogue, Harper's Bazaar, and The Face rather than in advertising campaigns.",
+            "That's why the tradition's most transgressive work ran in Vogue and Harper's Bazaar, not in ad campaigns. The magazine structure created the freedom by accident.",
         },
-        { type: "heading", content: "The Condé Nast Era" },
+        { type: "heading", content: "Condé Nast Changes Everything" },
         {
           type: "paragraph",
           content:
-            "Condé Nast's development of Vogue from a society newspaper into an international fashion authority — beginning with his purchase of the magazine in 1909 — created the institutional context for editorial fashion photography. His decision to publish photography rather than illustration was the foundational decision: he recruited Baron de Meyer, and later Edward Steichen, to create a photographic aesthetic for fashion that was artistic rather than merely documentary.",
+            "Condé Nast bought Vogue in 1909 and made a foundational bet: photography over illustration. He recruited Baron de Meyer, then Edward Steichen. Fashion photography as an art form begins here.",
         },
-        { type: "heading", content: "Key Moments in the Tradition" },
+        { type: "heading", content: "The Tradition's Greatest Hits" },
         {
           type: "list",
           items: [
@@ -52,7 +52,7 @@ const course: Course = {
         {
           type: "paragraph",
           content:
-            "Beaton defined the theatrical, studio-based English approach to editorial fashion photography. His images for British Vogue from the 1920s through the 1970s used elaborate sets, theatrical lighting, and a sensibility formed by his simultaneous careers as a set designer, portrait photographer, and diarist. He treated the fashion photograph as a theatrical production rather than a documentary record of clothes.",
+            "Beaton ran British Vogue for decades with a theatrical sensibility borrowed from his parallel life as a set designer. Every fashion photograph was a production — elaborate sets, dramatic light, pure spectacle.",
         },
         {
           type: "quote",
@@ -77,37 +77,37 @@ const course: Course = {
       title: "Key Practitioners",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Irving Penn (1917–2009)" },
         {
           type: "paragraph",
           content:
-            "Penn brought a formal severity to fashion photography that was unprecedented and enormously influential. His images for Vogue — begun in 1943 — used minimal, often plain white or grey backgrounds, precise lighting, and an uncompromising attention to form. He treated fashion photography as a problem of formal organisation rather than theatrical display. His parallel work as a still-life photographer and portraitist informed a formalist rigour that other fashion photographers could not easily imitate.",
+            "Penn stripped fashion photography bare: plain white or grey backgrounds, precise light, zero theatrics. For Vogue from 1943 onward, he treated fashion as a formal problem to solve, not a spectacle to produce.",
         },
         { type: "heading", content: "Guy Bourdin (1928–1991)" },
         {
           type: "paragraph",
           content:
-            "Bourdin is editorial fashion photography's most radical figure. His images for Charles Jourdan shoe advertising and for French Vogue in the 1970s and 1980s were constructed narratives of unsettling psychological ambiguity — crime scenes, sexual violence, abjection, surrealist dreamscapes — in which the shoes or clothes appeared incidentally, if at all. His work pushed the editorial freedom to its absolute limit, producing images that generated controversy and that remain among the most discussed in the tradition's history.",
+            "Bourdin made images where shoes appeared next to crime scenes, erotic ambiguity, and surrealist violence. The shoes were almost incidental. He took editorial freedom to its absolute limit — and then kept going.",
         },
         { type: "heading", content: "Helmut Newton (1920–2004)" },
         {
           type: "paragraph",
           content:
-            "Newton's fashion photography for French and American Vogue from the late 1960s onward introduced explicit sexuality, power dynamics, and provocative narratives into the mainstream fashion magazine. His Big Nudes series — large-format photographs of naked women in high heels, confrontational and physically powerful — appeared in Vogue and generated enormous controversy. He argued that his images were about women's power rather than their objectification. The argument has never been resolved, which is part of their continuing relevance.",
+            "Newton's Big Nudes — naked women in high heels, confrontational and physically powerful — ran in Vogue and caused outrage. Were they empowering or objectifying? Still debated. That's the point.",
         },
         { type: "heading", content: "Nick Knight (b. 1958)" },
         {
           type: "paragraph",
           content:
-            "Knight represents fashion photography's engagement with digital and conceptual art. His work for Dazed & Confused, Another Magazine, and SHOWstudio — the fashion film and digital media platform he founded — has consistently pushed the form into new technological and conceptual territory. He has worked extensively with Alexander McQueen, producing images that treat fashion as material for visual art rather than commercial documentation. His founding of SHOWstudio in 2000 was a decisive move in digital editorial fashion.",
+            "Knight founded SHOWstudio in 2000 and pushed fashion photography into digital, film, and live-streamed territory. His collaborations with Alexander McQueen treated fashion as raw material for visual art.",
         },
         { type: "heading", content: "Steven Meisel (b. 1954)" },
         {
           type: "paragraph",
           content:
-            "Meisel is Italian Vogue's central creative figure — a photographer whose work spans commercial fashion photography and extended conceptual essays. His issue-length projects for Italian Vogue have addressed oil spills, plastic surgery, and police violence with the visual language of fashion photography applied to social and political subjects. He works with collaborators including Pat McGrath and Karl Templer to produce images of extreme visual sophistication and, periodically, deliberate provocation.",
+            "Meisel made entire issues of Italian Vogue about oil spills, plastic surgery, and police violence. Fashion photography's visual language applied to things that have nothing to do with fashion. It worked.",
         },
         {
           type: "quote",
@@ -132,31 +132,31 @@ const course: Course = {
       title: "Visual Characteristics",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Narrative Construction" },
+        { type: "heading", content: "Editorial Tells Stories. Advertising Presents Products." },
         {
           type: "paragraph",
           content:
-            "Editorial fashion photography tells stories. Where advertising photography presents — here is the product, here is the desired lifestyle — editorial photography narrates. The image implies a before and after, a relationship between figures, an event partially visible. This narrative dimension is what distinguishes editorial from advertising aesthetics even when the surface visual language is similar.",
+            "The image implies a before and after, a relationship, an event half-visible. That narrative dimension is what distinguishes editorial from advertising — even when the surface visual language looks similar.",
         },
-        { type: "heading", content: "Conceptual Ambition" },
+        { type: "heading", content: "Every Great Editorial Has an Idea" },
         {
           type: "paragraph",
           content:
-            "The greatest editorial fashion photography is animated by a conceptual idea — an argument about beauty, desire, power, identity, or the relationship between the body and clothes — that the visual language enacts rather than simply illustrates. Bourdin's crime-scene aesthetics, Newton's power-sexuality dialectic, Knight's digitally dismembered bodies: these are conceptual positions expressed through fashion photography's visual language.",
+            "Bourdin's crime-scene aesthetics. Newton's power-sexuality dialectic. Knight's digitally dismembered bodies. These aren't vibes — they're conceptual positions expressed through fashion photography's visual language.",
         },
-        { type: "heading", content: "The Spread as Unit" },
+        { type: "heading", content: "The Spread Is the Unit" },
         {
           type: "paragraph",
           content:
-            "Editorial fashion photography's fundamental unit is the spread — the double-page layout — or the story: a sequence of six to twenty images that together constitute a coherent visual world. Individual images are composed in relation to each other and to the page: the fashion story is edited and sequenced as well as shot. This makes editorial fashion photography a fundamentally different discipline from portrait or advertising work, which typically produces isolated images.",
+            "Fashion editorial isn't made image by image — it's made spread by spread, story by story. Six to twenty images that build a coherent world. Individual photographs are elements of a sequence, not standalone pieces.",
         },
-        { type: "heading", content: "Art Direction" },
+        { type: "heading", content: "Art Direction Is Half the Work" },
         {
           type: "paragraph",
           content:
-            "Editorial fashion photography is a collaborative form. The art director, stylist, hair and makeup artists, and set designer are all integral to the creative process. The greatest editorial images emerge from creative collaboration in which the photographer's vision is one element in a larger team creative. This is alien to the romantic notion of the solitary artist photographer, but it is the reality of how editorial fashion photography has always worked.",
+            "The art director, stylist, hair, makeup, and set designer are all co-creators. The great editorial partnerships — Penn and Vreeland, Knight and McQueen — made work that neither could have made alone.",
         },
         {
           type: "quote",
@@ -181,31 +181,31 @@ const course: Course = {
       title: "Defining Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Guy Bourdin for Charles Jourdan (1967–1981)" },
         {
           type: "paragraph",
           content:
-            "Bourdin's advertising images for the Charles Jourdan shoe brand are among the most influential fashion photographs ever made. Working with extraordinary creative freedom — the brand gave him the freedom of a fine artist — he created images in which shoes appeared against a backdrop of implied violence, sexual intrigue, or surrealist narrative. A woman's legs extending from under a car. A crime scene with a shoe as the only clue. An apartment doorway from which a woman's feet protrude. These images redefined what fashion photography was permitted to show.",
+            "A woman's legs extending from under a car. A crime scene with a shoe as the only clue. Charles Jourdan gave Bourdin the freedom of a fine artist and got the most radical fashion images ever made.",
         },
         { type: "heading", content: "Helmut Newton's Big Nudes in Vogue (1981)" },
         {
           type: "paragraph",
           content:
-            "Newton's Big Nudes — large-format photographs of naked women in high heels, standing in confrontational contrapposto — appeared in French Vogue and generated intense controversy. The images placed naked women in commercial fashion photography contexts, without clothes to sell, as pure presence. Newton's argument was that his images were about power: these were not passive objects but physical forces. The controversy the images generated was inseparable from their meaning.",
+            "Large-format photographs of naked women in high heels, standing in confrontational contrapposto — published in French Vogue. No clothes to sell. Pure physical presence. The controversy was inseparable from the meaning.",
         },
         { type: "heading", content: "Steven Meisel's Issue-Length Essays for Italian Vogue" },
         {
           type: "paragraph",
           content:
-            "From the 1990s onward, Meisel produced extended essay-length stories for Italian Vogue that took fashion photography's narrative ambition to its furthest extent. His 2008 Makeover Madness story addressed plastic surgery culture; his 2010 Water & Oil addressed the BP oil spill; his 2011 State of Emergency addressed police violence using fashion-photography aesthetics applied to social documentary subjects. These works demonstrated that fashion photography's visual language could carry content that had nothing to do with fashion.",
+            "Plastic surgery culture. The BP oil spill. Police violence. Meisel applied fashion photography's visual language to social documentary subjects and proved the form could carry any content.",
         },
         { type: "heading", content: "Nick Knight and SHOWstudio" },
         {
           type: "paragraph",
           content:
-            "Knight's founding of SHOWstudio in 2000 was a decisive moment in the history of editorial fashion — the point at which the tradition moved decisively online and into motion. His collaborations with Alexander McQueen, including the Plato's Atlantis show (2010) which was live-streamed globally, represented a new form of editorial fashion presentation. His digitally manipulated images — bodies extended, fragmented, transformed — expanded the visual language available to fashion photography.",
+            "SHOWstudio (founded 2000) moved editorial fashion decisively online and into motion. Knight's live-streamed McQueen show in 2010 was watched globally. Fashion presentation had a new form.",
         },
       ],
       quiz: {
@@ -225,31 +225,31 @@ const course: Course = {
       title: "Modern Influence",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Digital Editorial and Online Publishing" },
+        { type: "heading", content: "Print Collapsed. Ambition Moved Indie." },
         {
           type: "paragraph",
           content:
-            "The collapse of print advertising revenue has transformed the institutional conditions of editorial fashion photography. Magazines that could once commission lavish, weeks-long productions with large creative teams have reduced budgets; many of the most ambitious editorial work now appears in smaller independent publications — AnOther Magazine, Document Journal, i-D — or on platforms like SHOWstudio rather than in the major commercial titles.",
+            "The big magazine budgets dried up. The best editorial work now often appears in AnOther, Document Journal, i-D, or SHOWstudio — smaller, weirder, more willing to take risks.",
         },
-        { type: "heading", content: "Instagram and the Editorial Aesthetic" },
+        { type: "heading", content: "Instagram Made Everyone Look Editorial" },
         {
           type: "paragraph",
           content:
-            "Instagram has produced a widespread adoption of editorial fashion aesthetics in non-editorial contexts. The visual language developed in magazine fashion photography — certain lighting ratios, colour grades, compositional conventions — has become the dominant visual language of aspirational personal branding. This diffusion has simultaneously elevated general photographic sophistication and diluted the distinction between editorial and commercial work.",
+            "Editorial lighting ratios, colour grades, compositional conventions — all now default visual language for aspirational personal branding. The tradition got democratised and diluted at the same time.",
         },
-        { type: "heading", content: "The Editorial vs Content Debate" },
+        { type: "heading", content: "Editorial vs Content: The Fight Is Real" },
         {
           type: "paragraph",
           content:
-            "Contemporary fashion media increasingly debates the distinction between 'editorial' and 'content' — with 'content' typically meaning social-media-optimised photography that is designed to generate engagement rather than to make a conceptual or narrative statement. Many photographers and editors argue that the term 'editorial' is being debased; others argue that the distinction was always partly ideological and that good visual work can be made in any format.",
+            "'Content' means photography made to generate engagement. 'Editorial' traditionally meant photography made with conceptual ambition. Many photographers argue the distinction is being erased. Others argue it was always ideological.",
         },
         { type: "heading", content: "Fashion Photography as Fine Art" },
         {
           type: "paragraph",
           content:
-            "The institutional recognition of fashion photography as fine art — major museum retrospectives of Newton, Penn, Avedon, Bourdin, and Knight; gallery sales of vintage fashion prints at significant prices — has changed how the tradition understands itself. Photographers now work with an awareness that their editorial images may have a gallery life that the magazine context does not exhaust. This retrospective recognition has made the tradition self-conscious about its own history in ways that were not previously possible.",
+            "Museum retrospectives of Newton, Penn, Avedon, Bourdin, Knight. Vintage fashion prints selling at gallery prices. The tradition now knows it's a tradition — which changes how it sees itself.",
         },
       ],
       quiz: {
@@ -269,43 +269,43 @@ const course: Course = {
       title: "What You Can Learn",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From Editorial Fashion Photography" },
+        { type: "heading", content: "What Editorial Teaches Everyone" },
         {
           type: "paragraph",
           content:
-            "Editorial fashion photography offers lessons in collaborative creative process, narrative construction, and the relationship between concept and image that are applicable far beyond fashion photography itself.",
+            "Editorial fashion photography teaches collaborative process, narrative construction, and concept-first thinking — skills that apply far beyond fashion.",
         },
-        { type: "heading", content: "1. Start With a Concept" },
+        { type: "heading", content: "1. Start With a Concept, Not a Camera" },
         {
           type: "paragraph",
           content:
-            "The greatest editorial fashion photographs begin not with a picture but with an idea — a narrative premise, a conceptual argument, a mood or psychological state. Before you pick up a camera, develop the concept. What is this story about? What feeling should it produce? What would it mean for this story to succeed? The concept drives all subsequent decisions about light, location, casting, and styling.",
+            "What is this story about? What should it feel like? What would success look like? Answer those before you pick up the camera. The concept drives everything — light, location, casting, styling.",
         },
-        { type: "heading", content: "2. Think in Sequences" },
+        { type: "heading", content: "2. Think Sequence, Not Singles" },
         {
           type: "paragraph",
           content:
-            "Train yourself to think about how images relate to each other. When you are planning a shoot, plan a sequence of images — establishing shot, close details, full-length, intimate. When you are editing, ask what the sequence says that no single image can say. The story is the unit; the individual photograph is an element of the story.",
+            "Plan a sequence: establishing shot, details, full-length, intimate. When editing, ask what the sequence says that no single image can. The story is the unit. The photograph is an element.",
         },
-        { type: "heading", content: "3. Collaborate Seriously" },
+        { type: "heading", content: "3. Find Collaborators and Keep Them" },
         {
           type: "paragraph",
           content:
-            "The best editorial fashion photography emerges from genuine creative collaboration. Find a stylist, a set designer, a hair and makeup artist whose aesthetic interests complement yours. Develop a shared visual language through repeated collaboration. The great editorial partnerships — Penn and Vreeland, Newton and Lagerfeld, Knight and McQueen — produced work that neither could have made alone.",
+            "Find a stylist, a set designer, a hair and makeup artist whose aesthetic clicks with yours. Keep working together. Penn and Vreeland, Knight and McQueen — great editorial comes from sustained creative relationships.",
         },
-        { type: "heading", content: "4. Learn the Distinction Between Editorial and Advertising" },
+        { type: "heading", content: "4. Learn to Spot the Difference" },
         {
           type: "paragraph",
           content:
-            "Looking at fashion photography, develop the skill of distinguishing editorial from advertising work. Advertising images present products clearly and desirably; editorial images use fashion as material for narrative and concept. This distinction is blurring in the social-media era, but understanding it gives you a conceptual tool for evaluating what a fashion image is trying to do and whether it succeeds.",
+            "Train your eye to distinguish editorial from advertising. Advertising presents. Editorial narrates. The distinction is blurring — but understanding it gives you a critical tool for evaluating what any fashion image is actually doing.",
         },
-        { type: "heading", content: "5. Study the Spread" },
+        { type: "heading", content: "5. Buy the Physical Magazines" },
         {
           type: "paragraph",
           content:
-            "Acquire physical copies of Vogue, AnOther Magazine, i-D, or Dazed and study how editorial stories are laid out. Notice how images are sequenced across spreads, how full-page and double-page images alternate with smaller frames, how the sequence creates rhythm. Understanding the spread as the unit of editorial photography is essential to understanding why individual images are made the way they are.",
+            "Get physical copies of Vogue, AnOther, i-D, Dazed. Study how stories are laid out across spreads. See the rhythm of sequencing. The spread as unit is only visible in print.",
         },
       ],
       reflection: {

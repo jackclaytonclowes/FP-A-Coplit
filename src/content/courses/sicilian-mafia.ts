@@ -16,36 +16,36 @@ const course: Course = {
       title: "Origins & Structure",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "19th-Century Sicily Under Bourbon Rule" },
+        { type: "heading", content: "Nobody Founded the Mafia" },
         {
           type: "paragraph",
           content:
-            "The Sicilian Mafia was not founded — it evolved. In the mid-19th century, Sicily existed under weak Bourbon governance, with vast feudal estates, absentee landlords, and a state apparatus too distant and corrupt to enforce contracts or guarantee security. In this vacuum, parallel power structures emerged.",
+            "Nobody founded the Mafia. It evolved where the state was weak — estate managers filling a power vacuum and never giving it back.",
         },
         {
           type: "paragraph",
           content:
-            "The gabellotti — estate managers who administered the great latifundia on behalf of absentee nobles — were proto-mafia figures. They hired armed men to protect crops, settle disputes, and collect debts. Their authority derived not from the state but from the credible threat of violence. As these networks consolidated, they became the cosca: the clan, the basic unit of what would become Cosa Nostra.",
+            "These estate managers — gabellotti — hired armed men to enforce deals the government wouldn't. Their networks hardened into clans, and the clans became Cosa Nostra.",
         },
-        { type: "heading", content: "Not Founded But Evolved" },
+        { type: "heading", content: "The Myth of the Secret Founding" },
         {
           type: "paragraph",
           content:
-            "A persistent myth holds that the Mafia was founded as a secret society in a specific year, perhaps to resist foreign domination. Historians reject this. The Mafia emerged gradually from the structural conditions of Sicilian rural life — the weakness of the state, the concentration of land, the absence of legitimate mechanisms for contract enforcement. Where the state cannot guarantee your agreements, you find someone who can.",
+            "There was no founding year, no secret ceremony, no manifesto. The Mafia grew from the structural rot of Sicilian rural life — absentee landlords, a useless state, and someone always willing to enforce your contract for a fee.",
         },
-        { type: "heading", content: "Cosa Nostra, Camorra, and 'Ndrangheta" },
+        { type: "heading", content: "Three Organisations, One Boot" },
         {
           type: "paragraph",
           content:
-            "The Sicilian Mafia — Cosa Nostra — is one of three major Italian criminal organisations. The Camorra is based in Naples and Campania, historically operating in urban markets, waste management, and construction. The 'Ndrangheta is based in Calabria, the toe of Italy's boot, and is today considered the most powerful of the three, with global cocaine distribution networks that reach every continent. These three organisations share cultural roots but are structurally distinct and have often been rivals.",
+            "Cosa Nostra (Sicily), Camorra (Naples), 'Ndrangheta (Calabria) — same cultural roots, very different structures. Today the 'Ndrangheta runs cocaine across 40+ countries and makes the others look small.",
         },
-        { type: "heading", content: "US Emigration and the American Branch" },
+        { type: "heading", content: "Emigration Exports the Model" },
         {
           type: "paragraph",
           content:
-            "Between the 1880s and 1920s, mass emigration from southern Italy and Sicily carried mafia structures to New York, Chicago, and other American cities. Men who had been members or associates of Sicilian cosche arrived in immigrant communities where the same conditions — weak state authority, ethnic exclusion from legitimate opportunity, distrust of police — reproduced the conditions for mafia organisation. The American Mafia grew from this transplant.",
+            "Between the 1880s and 1920s, Sicilian emigrants brought mafia structures to New York and Chicago. The same conditions — weak policing, ethnic exclusion, distrust of authority — made the transplant take root.",
         },
       ],
       quiz: {
@@ -81,36 +81,36 @@ const course: Course = {
       title: "Key Figures",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Lucky Luciano and the Modernisation of the Mob" },
+        { type: "heading", content: "Luciano Turned the Mob Corporate" },
         {
           type: "paragraph",
           content:
-            "Charles 'Lucky' Luciano, born in Sicily and raised in New York, transformed both the American and Sicilian mafia in the 1930s. He established the Commission — a conflict-resolution body for the major American crime families — bringing rational structure to what had been a chaotic, violent competition. Luciano's vision was corporate: the mob as a business, violence as a last resort rather than a first.",
+            "Lucky Luciano built the Commission — a board of directors for the American mob — and made violence a last resort rather than a first instinct. He ran the Mafia like a business because that's what it was.",
         },
-        { type: "heading", content: "The New York Families" },
+        { type: "heading", content: "Banana Wars and Power Plays" },
         {
           type: "paragraph",
           content:
-            "Vito Genovese and Joe Bonanno were central figures in the American branch's mid-century history. Bonanno's ambition triggered the Banana War — an internal conflict in the 1960s that destabilised the New York Commission. Carlo Gambino manoeuvred through these conflicts to become the most powerful boss in New York by the 1970s, the model for The Godfather's fictional Don Corleone.",
+            "Bonanno's ambition triggered the Banana War in the 1960s, destabilising New York. Carlo Gambino quietly manoeuvred through the chaos to become the most powerful boss in the city — the real-life Don Corleone.",
         },
-        { type: "heading", content: "Totò Riina: The Most Violent Don" },
+        { type: "heading", content: "Riina: The Don Who Declared War on the State" },
         {
           type: "paragraph",
           content:
-            "In Sicily, the defining figure of the late 20th century was Salvatore 'Totò' Riina, boss of the Corleonesi clan. Riina broke with the traditional mafia preference for discretion and pursued a strategy of open, spectacular violence — against rival clans, against politicians, and ultimately against the Italian state itself. He ordered the assassinations of judges Giovanni Falcone and Paolo Borsellino in 1992, bombings that killed both men along with their police escorts.",
+            "Totò Riina broke every rule — he went after judges, politicians, and eventually the Italian state itself. He ordered the 1992 bombings that killed Falcone and Borsellino, and triggered his own downfall.",
         },
         {
           type: "paragraph",
           content:
-            "Riina lived as a fugitive in Sicily for 23 years, hiding in plain sight in Palermo, before his capture in January 1993. He died in prison in 2017, never having shown remorse.",
+            "Riina hid in plain sight in Palermo for 23 years before his capture in 1993. He died in prison in 2017, unrepentant to the end.",
         },
-        { type: "heading", content: "Bernardo Provenzano: The Accountant" },
+        { type: "heading", content: "Provenzano: The Quiet Successor" },
         {
           type: "paragraph",
           content:
-            "Riina's successor as Cosa Nostra boss was Bernardo Provenzano, who survived as a fugitive for an extraordinary 43 years — from 1963 to 2006. Where Riina was violent, Provenzano was strategic. He pulled the Mafia back from confrontation with the state, preferring corruption and infiltration to bombs. He communicated with his lieutenants via pizzini — tiny handwritten notes passed through intermediaries — to avoid electronic surveillance. Captured in 2006, he died in custody in 2016.",
+            "Bernardo Provenzano stayed underground for 43 years. Where Riina used bombs, Provenzano used tiny handwritten notes — pizzini — passed through intermediaries. He pulled the Mafia back from the brink, preferring corruption to confrontation.",
         },
       ],
       quiz: {
@@ -146,37 +146,37 @@ const course: Course = {
       title: "Methods & Operations",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Omertà: The Code of Silence" },
+        { type: "heading", content: "Omertà: Don't Talk. Ever." },
         {
           type: "paragraph",
           content:
-            "The foundation of mafia operational security is omertà — the code of silence. Members are expected never to cooperate with authorities, never to speak about mafia affairs to outsiders, and to accept punishment rather than testify. This norm is enforced not only by the threat of violence but by deep cultural roots in Sicilian distrust of the state. For generations, talking to the police was culturally coded as shameful regardless of the topic.",
+            "The code of silence wasn't just a rule — it was a culture. Talking to police wasn't just dangerous; it was shameful. Generations of Sicilians absorbed this long before the Mafia ever knocked on their door.",
         },
-        { type: "heading", content: "The Cosca: Clan as Business Unit" },
+        { type: "heading", content: "The Cosca: Clan, Business, Army" },
         {
           type: "paragraph",
           content:
-            "The basic operational unit of Cosa Nostra is the cosca — the clan, literally meaning 'artichoke' (a plant that bundles tightly together). Each cosca controls a specific territory and derives income from that territory through a combination of protection rackets, construction contracts, political corruption, and, from the 1970s, drug trafficking. The cosca is simultaneously a family, a business, and a military unit.",
+            "Each cosca controls a territory and milks it — protection rackets, construction contracts, political favours, drugs. It's a family, a firm, and a militia all at once.",
         },
-        { type: "heading", content: "Violence as Last Resort" },
+        { type: "heading", content: "Violence: Use It Rarely, Make It Count" },
         {
           type: "paragraph",
           content:
-            "Contrary to popular representation, the traditional Sicilian Mafia used violence sparingly. Murder attracted attention, generated enemies, and risked retaliation. The preferred instrument was the implicit threat — everyone knew what the cosca could do, and that knowledge was sufficient. Violence was preserved for moments when its symbolic impact would be maximised: the elimination of a rival who had grown too powerful, the punishment of betrayal.",
+            "Murder attracts attention. The traditional Mafia preferred the implicit threat — everyone knew what could happen, and that was enough. Violence was saved for moments of maximum symbolic impact.",
         },
-        { type: "heading", content: "Construction and Political Corruption" },
+        { type: "heading", content: "Contracts and Kickbacks" },
         {
           type: "paragraph",
           content:
-            "The post-war economic boom and the reconstruction of Italian cities created the foundation of modern mafia wealth. Construction contracts — awarded by politicians, built with mafia-connected firms, financed through kickbacks — became the primary engine of accumulation. The relationship between Cosa Nostra and the Christian Democratic Party in Sicily was symbiotic: votes and order in exchange for contracts and protection.",
+            "Post-war reconstruction handed the Mafia its golden era. Construction contracts, political kickbacks, and Christian Democratic votes created a self-sustaining loop of mutual corruption.",
         },
         { type: "heading", content: "The French Connection" },
         {
           type: "paragraph",
           content:
-            "From the 1950s through the 1970s, Sicilian mafia networks partnered with Corsican criminals to run heroin from Turkish opium through processing laboratories in Marseille and on to US markets. This was the 'French Connection' — a supply chain that flooded American cities with heroin and generated profits that transformed the Mafia from a regional criminal organisation into an international one.",
+            "Sicilian networks partnered with Corsican criminals to run heroin from Turkey through Marseille to American cities. The profits transformed Cosa Nostra from a regional racket into a global enterprise.",
         },
       ],
       quiz: {
@@ -212,36 +212,36 @@ const course: Course = {
       title: "Cultural Representation",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Godfather: The Romanticised Account" },
+        { type: "heading", content: "The Godfather Is a Beautiful Lie" },
         {
           type: "paragraph",
           content:
-            "Francis Ford Coppola's Godfather trilogy (1972, 1974, 1990) is the defining cultural representation of the Mafia in the English-speaking world. Based on Mario Puzo's novel, it presents the Corleone family as tragic figures navigating between Old World honour codes and American ambition. The films are extraordinarily beautiful and psychologically rich — and they are also a romance. The Mafia is depicted as a world of loyalty, family, and dignity, with violence as a regrettable necessity.",
+            "Coppola's trilogy is gorgeous, psychologically rich, and deeply romantic. It presents the Mafia as a world of loyalty and tragic honour — which is exactly what it wasn't.",
         },
         {
           type: "paragraph",
           content:
-            "The Godfather shaped how multiple generations understood organised crime — and, according to many accounts, shaped how the actual Mafia understood itself. FBI surveillance recordings in the 1980s captured mafia bosses quoting the film and adopting its vocabulary.",
+            "FBI recordings from the 1980s caught actual mafia bosses quoting the film. The Godfather didn't just reflect the Mafia — it helped shape how the Mafia saw itself.",
         },
-        { type: "heading", content: "Gomorrah: The Counter-Narrative" },
+        { type: "heading", content: "Gomorrah: No Honour, Just Waste" },
         {
           type: "paragraph",
           content:
-            "Roberto Saviano's 2006 book Gomorrah, and Paolo Sorrentino's subsequent film, presents a deliberately counter-Godfather account of the Camorra in Naples. There is no honour, no dignity, no tragic grandeur — only squalor, stupidity, and waste. Young men die for nothing; the organisation eats its own. Saviano's account was so accurate and so damaging that he has lived under police protection since 2006, unable to return to normal life.",
+            "Saviano's Gomorrah is the counter-Godfather: no dignity, no code, just young men dying for nothing. It was so accurate that Saviano has lived under police protection ever since.",
         },
-        { type: "heading", content: "Goodfellas and the American Branch" },
+        { type: "heading", content: "Goodfellas Gets It Right" },
         {
           type: "paragraph",
           content:
-            "Martin Scorsese's Goodfellas (1990), based on Nicholas Pileggi's account of Henry Hill's life in the Lucchese crime family, is generally considered the most accurate cultural representation of the American Mafia — its appeal, its mundane brutality, its ultimate self-destruction. Where The Godfather is operatic, Goodfellas is observational: this is what it was actually like.",
+            "Scorsese's Goodfellas shows both why the life was genuinely attractive and exactly how it destroys everyone it touches. Operatic it isn't — but honest it is.",
         },
-        { type: "heading", content: "The Sopranos and Italian Documentaries" },
+        { type: "heading", content: "The Sopranos: The Mafia in Decay" },
         {
           type: "paragraph",
           content:
-            "David Chase's The Sopranos (1999-2007) is the story of the Mafia in decline — Tony Soprano as a man born into a dying institution, suffering panic attacks and existential crisis. Italian documentary and journalistic traditions have produced rigorous accounts: the work of journalists like Attilio Bolzoni at La Repubblica, and documentaries exploring the anti-mafia movement's civil society roots.",
+            "Tony Soprano is a man born into a dying institution, having panic attacks and therapy sessions. Chase's great insight: by the late 20th century, the mob wasn't powerful — it was just sad.",
         },
       ],
       quiz: {
@@ -277,37 +277,37 @@ const course: Course = {
       title: "Legacy & Modern Impact",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Judge Falcone and the Maxi-Trials" },
+        { type: "heading", content: "Falcone Built the Legal Weapon" },
         {
           type: "paragraph",
           content:
-            "The decisive turning point in the Italian state's war against Cosa Nostra came through the work of judge Giovanni Falcone and his colleague Paolo Borsellino. Through painstaking analysis of financial records, turncoat testimony, and organisational charts, Falcone built the legal architecture for prosecuting the Mafia as a criminal organisation rather than pursuing individual members. The result was the Palermo maxi-trial of 1986-87, in which 475 mafiosi were convicted.",
+            "Judge Falcone invented a new way to fight the Mafia — treating it as an organisation, not a collection of individuals. The 1986-87 Palermo maxi-trial convicted 475 people. It was a blueprint.",
         },
-        { type: "heading", content: "The 1992 Assassinations" },
+        { type: "heading", content: "The 1992 Bombings Backfired Spectacularly" },
         {
           type: "paragraph",
           content:
-            "In May 1992, Falcone was killed by a bomb planted under the Capaci motorway — a massive explosion that killed him, his wife, and three bodyguards. Two months later, Borsellino was killed by a car bomb outside his mother's apartment in Palermo. The assassinations were ordered by Riina. They were a tactical catastrophe for Cosa Nostra: the public outrage they generated in Italy was unlike anything that had come before, producing the political will for aggressive action.",
+            "Riina killed Falcone and Borsellino in massive public bombings. The public outrage that followed was unlike anything Italy had seen — and it handed the state the political will it had always lacked.",
         },
-        { type: "heading", content: "The Collapse of Cosa Nostra" },
+        { type: "heading", content: "Cosa Nostra Collapses" },
         {
           type: "paragraph",
           content:
-            "Riina was captured in January 1993. Provenzano in 2006. The senior leadership of Cosa Nostra was systematically imprisoned, and the pentiti — informers — who broke omertà provided evidence that dismantled the organisation's inner workings. Cosa Nostra in Sicily is today significantly weakened compared to its peak in the 1970s and 1980s.",
+            "Riina was arrested in 1993. Provenzano in 2006. Informers broke omertà and dismantled what violence couldn't. Cosa Nostra today is a shadow of what it was.",
         },
-        { type: "heading", content: "The 'Ndrangheta's Rise" },
+        { type: "heading", content: "The 'Ndrangheta Takes Over" },
         {
           type: "paragraph",
           content:
-            "While Cosa Nostra declined, the 'Ndrangheta of Calabria grew more powerful. Organised around blood families rather than the more abstract cosca structure, it proved more resistant to infiltration by informers — you cannot easily betray your own kin. The 'Ndrangheta today controls an estimated 3% of Italy's GDP and is the dominant distributor of cocaine in Europe, with operations in 40+ countries.",
+            "While Cosa Nostra fell, the 'Ndrangheta rose. Built on blood families — harder to infiltrate, impossible to betray — it now controls 3% of Italy's GDP and dominates European cocaine distribution.",
         },
-        { type: "heading", content: "Anti-Mafia Civil Society" },
+        { type: "heading", content: "Civil Society Fights Back" },
         {
           type: "paragraph",
           content:
-            "The anti-mafia movement — associations like Libera, founded in 1995 by priest Don Luigi Ciotti — represents perhaps the most significant legacy of Falcone and Borsellino. Libera coordinates hundreds of civil society organisations, runs agricultural cooperatives on confiscated mafia land, and maintains the names of mafia victims in public memory. The movement demonstrates that civil society can be the most durable weapon against organised crime.",
+            "Libera — founded in 1995 by Don Luigi Ciotti — runs cooperatives on confiscated mafia land and keeps the victims' names alive. Civil society turned out to be the Mafia's most durable enemy.",
         },
       ],
       quiz: {
@@ -343,31 +343,31 @@ const course: Course = {
       title: "What This Reveals About Society",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Mafia as a Response to State Failure" },
+        { type: "heading", content: "The Mafia Is a State Failure Story" },
         {
           type: "paragraph",
           content:
-            "The most important analytical insight about the Sicilian Mafia is also the simplest: it emerged where the state could not perform its basic functions. In 19th-century Sicily, the state could not reliably enforce contracts, guarantee property rights, protect citizens from violence, or deliver justice. Where the state fails to perform these functions, someone else will — and they will charge for the service.",
+            "The Mafia emerged because the state couldn't enforce contracts, protect citizens, or deliver justice. When the state won't do the job, someone else will — and they'll charge for it.",
         },
-        { type: "heading", content: "The Universal Pattern" },
+        { type: "heading", content: "This Pattern Is Everywhere" },
         {
           type: "paragraph",
           content:
-            "This pattern — parallel power filling the vacuum of state failure — is universal and recurrent. The Mafia in 1860s Sicily. The warlords of 1990s Somalia. The drug cartels of 1980s Medellín. The militias of contemporary Libya. In every case, the same logic: legitimate grievances, absent state, someone willing to provide order at a price. Understanding the Mafia means understanding the conditions that produce it, not simply condemning the outcome.",
+            "1860s Sicily. 1990s Somalia. 1980s Medellín. Contemporary Libya. Same logic every time: legitimate grievances, absent state, someone willing to provide order at a price.",
         },
-        { type: "heading", content: "The Question of the Vacuum" },
+        { type: "heading", content: "Who Fills the Vacuum?" },
         {
           type: "paragraph",
           content:
-            "The analytical question is always: who fills the vacuum, and why? When a state withdraws — through weakness, corruption, or deliberate policy — something takes its place. Criminal organisations, militias, warlords, or informal community structures. The vacuum will be filled. The relevant question is what determines which kind of organisation fills it, and what conditions allow legitimate state authority to reassert itself.",
+            "The real question isn't why criminal organisations exist — it's what determines which kind fills the void, and what conditions let the state eventually reclaim authority.",
         },
-        { type: "heading", content: "Collusion and the State Within the State" },
+        { type: "heading", content: "When Crime Becomes Governance" },
         {
           type: "paragraph",
           content:
-            "The relationship between the Sicilian Mafia and the Italian political system was not simply criminal parasitism — it was structural collusion. For decades, the Christian Democratic Party in Sicily used the Mafia to deliver votes; the Mafia used the party to secure contracts and protection from prosecution. This was a system, not a series of individual crimes. It suggests that organised crime at its most sophisticated becomes indistinguishable from a particular form of governance.",
+            "Cosa Nostra and the Christian Democrats weren't just corrupt — they were symbiotic. Votes for contracts, protection for loyalty. At its most sophisticated, organised crime stops being parasitism and starts being a form of government.",
         },
       ],
       reflection: {
