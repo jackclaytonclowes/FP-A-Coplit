@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: cultureiq
+    runtime: node
+    buildCommand: npm ci && npx prisma generate && npx prisma db push && npm run build
+    startCommand: node node_modules/.bin/next start
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: AUTH_SECRET
+        generateValue: true
+      - key: NEXTAUTH_URL
+        fromService:
+          type: web
+          name: cultureiq
+          property: host
+      - key: NODE_ENV
+        value: production
+    autoDeploy: true
