@@ -1,9 +1,10 @@
 "use client"
 
-import { use, useState } from "react"
+import { use, useState, useEffect, useRef } from "react"
 import { notFound, useRouter } from "next/navigation"
 import { getCourse } from "@/content/courses"
 import { ciqStore } from "@/stores/cultureIQStore"
+import { useCIQStore } from "@/hooks/useCIQStore"
 import type { LessonBlock } from "@/types"
 
 type Phase = "reading" | "quiz" | "reflection" | "complete"
@@ -20,12 +21,22 @@ export default function LessonPage({ params }: { params: Promise<{ courseId: str
   const lesson = course.lessons[lessonIndex]
   const nextLesson = course.lessons[lessonIndex + 1]
 
+  const { level, levelTitle, progressPercent, xpToNext, streak } = useCIQStore()
+
   const [phase, setPhase] = useState<Phase>("reading")
   const [selectedOption, setSelectedOption] = useState<string | null>(null)
   const [quizState, setQuizState] = useState<QuizState>("idle")
   const [reflectionText, setReflectionText] = useState("")
   const [isFirstAttempt, setIsFirstAttempt] = useState(true)
   const [earnedXp, setEarnedXp] = useState(0)
+  const [barWidth, setBarWidth] = useState(0)
+
+  useEffect(() => {
+    if (phase === "complete") {
+      const t = setTimeout(() => setBarWidth(progressPercent), 300)
+      return () => clearTimeout(t)
+    }
+  }, [phase, progressPercent])
 
   function handleFinishReading() {
     if (lesson.quiz) setPhase("quiz")
@@ -226,14 +237,85 @@ export default function LessonPage({ params }: { params: Promise<{ courseId: str
 
       {/* ── Complete ── */}
       {phase === "complete" && (
-        <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: "center" }}>
-          <div style={{ fontSize: 56, marginBottom: 20 }}>🎉</div>
-          <h2 style={{ font: "var(--text-h1)", color: "var(--fg-1)", marginBottom: 6 }}>Lesson Complete!</h2>
-          <p style={{ font: "var(--text-body)", color: "var(--fg-3)", marginBottom: 12 }}>{lesson.title}</p>
-          <p style={{ font: "var(--text-h2)", fontFamily: "var(--font-mono)", color: "var(--gold-text)", marginBottom: 32 }}>
-            +{lesson.xpReward} XP
+        <div style={{
+          flex: 1, display: "flex", flexDirection: "column", alignItems: "center",
+          textAlign: "center",
+          background: `radial-gradient(ellipse at 50% 20%, ${accent}20 0%, transparent 65%)`,
+          borderRadius: "var(--radius-lg)", padding: "8px 0 0",
+        }}>
+          {/* Label */}
+          <p style={{ font: "var(--text-label)", color: "var(--fg-3)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 10 }}>
+            Lesson Complete
           </p>
 
+          {/* Lesson + course name */}
+          <h2 style={{ font: "var(--text-h2)", color: "var(--fg-1)", marginBottom: 2 }}>{lesson.title}</h2>
+          <p style={{ font: "var(--text-caption)", color: "var(--fg-3)", marginBottom: 24 }}>{course.title}</p>
+
+          {/* XP earned — big focal point */}
+          <div style={{
+            fontSize: 54, fontFamily: "var(--font-display)", fontWeight: 700, lineHeight: 1,
+            color: "var(--gold-text)", marginBottom: 28,
+            filter: `drop-shadow(0 0 24px ${accent}55)`,
+          }}>
+            +{earnedXp} XP
+          </div>
+
+          {/* Level progress card */}
+          <div style={{
+            width: "100%", padding: "16px 20px",
+            background: "var(--surface)", border: "1px solid var(--border)",
+            borderRadius: "var(--radius-md)", marginBottom: 12,
+          }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 10 }}>
+              <span style={{ font: "var(--text-body-strong)", color: "var(--fg-1)" }}>
+                Lv {level} · {levelTitle}
+              </span>
+              <span style={{ font: "var(--text-caption)", color: "var(--fg-3)", fontFamily: "var(--font-mono)" }}>
+                {xpToNext > 0 ? `${xpToNext.toLocaleString()} to next` : "Max level"}
+              </span>
+            </div>
+            <div style={{ height: 10, background: "var(--surface-3)", borderRadius: "var(--radius-pill)", overflow: "hidden" }}>
+              <div style={{
+                height: "100%", width: `${barWidth}%`,
+                background: accent, borderRadius: "var(--radius-pill)",
+                transition: "width 0.9s cubic-bezier(0.34, 1.56, 0.64, 1)",
+              }} />
+            </div>
+          </div>
+
+          {/* Streak badge */}
+          {streak > 0 && (
+            <div style={{
+              display: "inline-flex", alignItems: "center", gap: 8,
+              padding: "8px 18px",
+              background: "var(--surface)", border: "1px solid var(--border)",
+              borderRadius: "var(--radius-pill)", marginBottom: 20,
+              font: "var(--text-body-strong)", color: "var(--fg-1)",
+            }}>
+              <span style={{ fontSize: 18 }}>🔥</span>
+              <span>{streak}-day streak</span>
+              {streak >= 3 && (
+                <span style={{ font: "var(--text-caption)", color: "var(--fg-3)" }}>· on fire</span>
+              )}
+            </div>
+          )}
+
+          {/* Course progress dots */}
+          <div style={{ display: "flex", gap: 5, marginBottom: 6, flexWrap: "wrap", justifyContent: "center" }}>
+            {course.lessons.map((_, i) => (
+              <div key={i} style={{
+                width: 8, height: 8, borderRadius: "50%",
+                background: i <= lessonIndex ? accent : "var(--surface-3)",
+                transition: "background 0.4s",
+              }} />
+            ))}
+          </div>
+          <p style={{ font: "var(--text-caption)", color: "var(--fg-3)", marginBottom: 28 }}>
+            {lessonIndex + 1} of {course.lessons.length} lessons
+          </p>
+
+          {/* CTAs */}
           <div style={{ width: "100%", display: "flex", flexDirection: "column", gap: 10 }}>
             {nextLesson ? (
               <button
@@ -266,7 +348,7 @@ export default function LessonPage({ params }: { params: Promise<{ courseId: str
                 border: "1px solid var(--border)",
                 borderRadius: "var(--radius-md)",
                 font: "var(--text-body)", color: "var(--fg-3)",
-                cursor: "pointer", transition: "border-color 0.15s",
+                cursor: "pointer",
               }}
             >
               Back to Course
