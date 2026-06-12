@@ -16,30 +16,30 @@ const course: Course = {
       title: "What a Moodboard Actually Does",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "A Communication Tool, Not a Collection" },
+        { type: "heading", content: "Not a Collection. A Communication." },
         {
           type: "paragraph",
           content:
-            "A moodboard is not a collection of things you like. This is the most common misunderstanding of the form, and it produces the most common failure: a board that expresses the maker's taste but fails to communicate a specific vision. The moodboard's job is to make someone else see what you see — to transfer a creative vision from your imagination to another person's understanding, using images rather than words.",
+            "A moodboard isn't a collection of things you like. That's the most common mistake — and it produces the most common failure: a board that shows your taste but fails to transfer your vision.",
         },
         {
           type: "paragraph",
           content:
-            "The test of a moodboard is simple: show it to someone who hasn't seen your brief, and ask them to describe what they think the project will feel like. If their description matches what you intend, the board is working. If it doesn't, the board has failed — regardless of how beautiful the individual images are.",
+            "The test: show it to someone who hasn't seen your brief. Ask them to describe what the project will feel like. If they're right, the board is working. If not, it has failed — regardless of how beautiful the individual images are.",
         },
-        { type: "heading", content: "Reference vs. Inspiration" },
+        { type: "heading", content: "Reference vs. Inspiration: Not the Same Thing" },
         {
           type: "paragraph",
           content:
-            "There is an important distinction between reference ('this is what I'm thinking about') and inspiration ('this is the feeling I'm going for'). Reference images are specific and directional: this light quality, this spatial relationship, this quality of tension between subject and environment. Inspiration images are more diffuse: they point at a mood without specifying how to achieve it. Both have uses, but they belong at different stages and need to be clearly distinguished in a brief.",
+            "Reference is specific and directional: this light quality, this spatial relationship, this tension between subject and environment. Inspiration is diffuse: it points at a mood without specifying how to get there. Both are useful — at different stages.",
         },
-        { type: "heading", content: "When to Use a Moodboard" },
+        { type: "heading", content: "When to Build One" },
         {
           type: "paragraph",
           content:
-            "Moodboards are most useful at three moments: at the beginning of a project, to establish the visual territory before any other decisions are made; when briefing collaborators, to communicate the visual logic of a concept to photographers, stylists, set designers, or clients; and as a thinking tool when a concept is stuck, to approach the problem visually rather than verbally. In each case, the board must do something specific, not simply exist.",
+            "Moodboards work at three moments: at the start of a project, when briefing collaborators, and when a concept gets stuck and needs a visual approach instead of a verbal one. Each time, the board must do something specific.",
         },
       ],
       quiz: {
@@ -75,30 +75,30 @@ const course: Course = {
       title: "Finding the Right References",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Where to Look" },
+        { type: "heading", content: "Look Outside Your Field" },
         {
           type: "paragraph",
           content:
-            "The most common mistake in building a moodboard is looking only in the field closest to the project. Fashion moodboards built from other fashion photographs, architecture moodboards built from architecture publications, film moodboards built from other films — all of these risk recycling the visual language of their own field. The more interesting sources are adjacent: films for a fashion project, textile details for a food project, natural phenomena for a product campaign, historical painting for a contemporary portrait series.",
+            "Fashion moodboards built from fashion images recycle fashion's visual language. Go adjacent: films for a fashion project, textile details for food, natural phenomena for a product campaign. The unexpected source produces the unexpected connection.",
         },
         {
           type: "paragraph",
           content:
-            "Productive sources for visual reference include: photography books (especially those outside your immediate field), architecture magazines and monographs, natural history photography, historical costume and painting archives, industrial and scientific photography, film stills (particularly from cinematographers whose light quality is distinctive), textile and material closeups, and geological or meteorological imagery. The unexpected source produces the unexpected connection.",
+            "Great sources: photography books outside your field, architecture monographs, natural history photography, historical painting, industrial and scientific imagery, film stills, geological or meteorological photography. Surprise yourself.",
         },
-        { type: "heading", content: "Building a Reference Library" },
+        { type: "heading", content: "Build the Library Before You Need It" },
         {
           type: "paragraph",
           content:
-            "The most useful practice for building strong moodboards is building a reference library before you need it. Collect images continuously — not when you have a brief, but always. Organise them not by subject (fashion, architecture, portraits) but by quality: images that have a specific quality of light, images that create a specific quality of spatial tension, images that carry a specific emotional temperature. A quality-organised library lets you find the right reference quickly when a concept requires articulation.",
+            "Collect images continuously — not when you have a brief. Organise by quality, not subject: images with a specific light quality, images with a specific spatial tension, images with a specific emotional temperature. That's the vocabulary you'll reach for under pressure.",
         },
-        { type: "heading", content: "The Unexpected Reference" },
+        { type: "heading", content: "The Surprising Image Is the Best Image" },
         {
           type: "paragraph",
           content:
-            "The most memorable moodboards contain at least one image that surprises the viewer — an image that is not obviously related to the project but that captures something essential about it. This image works precisely because it does not illustrate the concept: it illuminates it from an unexpected angle. Finding these images requires knowing what specific quality you are looking for and being willing to find it in unfamiliar places.",
+            "The most memorable moodboards contain at least one image that surprises the viewer — one that isn't obviously related but captures something essential. It works precisely because it doesn't illustrate. It illuminates from an unexpected angle.",
         },
       ],
       quiz: {
@@ -134,30 +134,30 @@ const course: Course = {
       title: "Composition and Curation",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Arrangement Creates Meaning" },
         {
           type: "paragraph",
           content:
-            "The arrangement of images on a moodboard creates meaning beyond what any individual image contains. Two images placed in proximity create a relationship: if you place a detail of weathered leather beside a portrait of an old face, the viewer will find a connection — texture, age, time, material memory. The art director uses this principle deliberately: proximity, scale, and contrast between images all generate meaning that the images do not contain individually.",
+            "Images placed in proximity create relationships. Weathered leather beside an old face: texture, age, material memory — the viewer finds it without being told. Use scale, contrast, and proximity deliberately. These are compositional principles, same as any printed page.",
         },
         {
           type: "paragraph",
           content:
-            "Scale matters: a large image on a board reads as primary, a small image reads as detail or texture. Contrast matters: placing a very light image beside a very dark one creates tension. Proximity matters: images placed close together create a tighter relationship than images separated by space. These compositional principles are the same as those that govern the design of the printed page, and they work the same way in a moodboard.",
+            "Large image = primary. Small image = detail or texture. Dark beside light = tension. Close together = tight relationship. You're designing the board, not just filling it.",
         },
-        { type: "heading", content: "Colour Across the Board" },
+        { type: "heading", content: "Colour Tells the Story" },
         {
           type: "paragraph",
           content:
-            "Colour harmony and tension across a moodboard communicate palette in a way that a written specification cannot. A board that leans toward warm ochres and dark greens communicates a very different palette from one that is built around pale lavenders and deep indigos, even if the text brief says the same words. When curating a board, consider how the overall colour temperature reads from a distance. If the palette is not working, the concept may not be working either.",
+            "A board of warm ochres and dark greens says something completely different from pale lavenders and deep indigos — even if the text brief uses the same words. Check how the overall colour temperature reads from a distance. If the palette isn't working, the concept might not be either.",
         },
-        { type: "heading", content: "Edit Ruthlessly" },
+        { type: "heading", content: "Edit Ruthlessly. Always." },
         {
           type: "paragraph",
           content:
-            "The most common error in moodboard construction is too many images. Ten images that are all pointing at slightly different things produce visual noise. Five images that are all pointing at the same thing with absolute precision produce communication. The rule: if an image is not saying something that no other image on the board says, remove it. Every image should contribute a distinct quality to the overall statement. Fewer, more specific is always better than many, general.",
+            "Ten images pointing at slightly different things produce visual noise. Five images all pointing at the same thing produce communication. Rule: if an image isn't saying something no other image on the board says, cut it.",
         },
       ],
       quiz: {
@@ -193,31 +193,31 @@ const course: Course = {
       title: "Moodboards for Different Purposes",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Shoot Moodboard" },
+        { type: "heading", content: "Shoot Moodboard: Align the Whole Team" },
         {
           type: "paragraph",
           content:
-            "A moodboard for a shoot communicates to the photographer, stylist, hair and make-up artists, and set designer. Its job is to align everyone's understanding of the visual target before a single decision is made on set. It must communicate: light quality, colour palette, the relationship between subject and background, the emotional temperature of the images, and the wardrobe and styling direction. A shoot moodboard that is shown to a photographer and a stylist should produce the same understanding in both.",
+            "A shoot moodboard speaks to photographer, stylist, hair, make-up, and set designer simultaneously. It must communicate light quality, palette, subject-background relationship, emotional temperature, and wardrobe direction. Show it to all of them and get the same understanding back.",
         },
-        { type: "heading", content: "The Campaign Moodboard" },
+        { type: "heading", content: "Campaign Moodboard: Help the Client Say Yes" },
         {
           type: "paragraph",
           content:
-            "A moodboard for a client campaign has a different function: it is a decision-making tool. Its job is to help a client visualise and approve a creative direction before significant resources are committed. This moodboard must balance creative ambition with legibility: the client must be able to see where you are going and feel confident about it. Boards for clients often include more explanatory text than those made for creative teams.",
+            "A client moodboard is a decision-making tool — it helps someone visualise and approve a direction before resources are committed. Balance creative ambition with legibility. Add explanatory text where the visual language isn't shared.",
         },
-        { type: "heading", content: "The Personal Moodboard" },
+        { type: "heading", content: "Personal Moodboard: Think Visually" },
         {
           type: "paragraph",
           content:
-            "A moodboard made for yourself — as a thinking tool, not a communication tool — operates by different rules. Its job is to help you understand what you are responding to and why. You can include images that you don't yet understand, images that feel connected without being able to explain why, images that contradict each other. The personal moodboard is a form of visual thinking: it makes visible what you are drawn to, which is the first step in understanding your own creative instincts.",
+            "A board for yourself operates by different rules. Include images you don't yet understand, images that feel connected without explanation, images that contradict each other. This is visual thinking — making visible what you're drawn to, which is the first step in knowing your own instincts.",
         },
-        { type: "heading", content: "The Audience Changes the Construction" },
+        { type: "heading", content: "Audience Changes Everything" },
         {
           type: "paragraph",
           content:
-            "The audience of a moodboard determines its structure, level of explanation, and degree of resolution. For a collaborator who shares your visual language, a board with no text can communicate everything. For a client without visual vocabulary in your field, the same board with explanatory text at each image may still fail to communicate. Understanding your audience is the first step in deciding what kind of moodboard to build.",
+            "A board with no text can communicate everything to a collaborator who shares your visual language. The same board might completely fail a client without it. Know your audience before you decide what kind of board to build.",
         },
       ],
       quiz: {
@@ -253,19 +253,19 @@ const course: Course = {
       title: "The Moodboard as Communication",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Presenting a Moodboard" },
+        { type: "heading", content: "Present It. Don't Just Show It." },
         {
           type: "paragraph",
           content:
-            "A moodboard should be presented, not just shown. The presentation is the moment of translation: you explain what the board is trying to say and invite the viewer into the logic you have built. But the presentation should be short. If you have to explain each image at length, the board is not communicating — it is surviving on your explanations. The goal is a board that works without you in the room: that communicates its visual logic to someone who has never heard the brief.",
+            "A moodboard should be presented, not just revealed. But keep it short — if you need to explain each image at length, the board isn't communicating. It's surviving on your narration. The goal: a board that works without you in the room.",
         },
-        { type: "heading", content: "What to Say and What Not to Say" },
+        { type: "heading", content: "Say the Concept. Then Stop." },
         {
           type: "paragraph",
           content:
-            "In a moodboard presentation, say the concept in one sentence, then let the board speak. Point out the key images and what each contributes to the concept. Name the palette and the light quality. Describe the emotional temperature. Then stop. Do not caption every image. Do not apologise for images that are not quite right. Do not pre-empt objections. Let the viewer respond to the board as a whole before you start managing their reaction.",
+            "State the concept in one sentence. Point to key images and what they contribute. Name the palette, the light quality, the emotional temperature. Then let the viewer respond to the whole. Don't pre-empt. Don't apologise. Don't manage.",
         },
         { type: "heading", content: "Questions a Moodboard Should Answer" },
         {
@@ -278,11 +278,11 @@ const course: Course = {
             "What is the emotional temperature — how will the viewer feel? (Communicated by the cumulative effect)",
           ],
         },
-        { type: "heading", content: "Testing Your Moodboard" },
+        { type: "heading", content: "Test It Before You Present It" },
         {
           type: "paragraph",
           content:
-            "Before presenting a moodboard to a collaborator or client, test it on someone who hasn't seen the brief. Show them the board for thirty seconds without explanation. Then ask: what do you think this project is? What does it feel like? What would the images look like? If the answers align with your brief, the board is working. If they don't, something in the curation or composition needs to change — not your presentation script.",
+            "Show the board to someone unfamiliar with the brief for thirty seconds. Ask: what do you think this is? What does it feel like? If the answers align — the board works. If not, the curation needs fixing, not your presentation script.",
         },
       ],
       quiz: {
@@ -318,31 +318,31 @@ const course: Course = {
       title: "Build a Moodboard",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "The Exercise: Nine Images, Nine Sentences" },
         {
           type: "paragraph",
           content:
-            "The most useful exercise in moodboard development is this: choose a creative project — a shoot, a room, a collection, a film, a brand identity. Build a moodboard of exactly nine images. The constraint of nine images is intentional: enough to create a coherent visual world, not so many that editing discipline collapses. Then write one sentence for each image — not describing what the image shows, but explaining what it contributes to the whole.",
+            "Choose a creative project. Build a moodboard of exactly nine images. Nine is intentional: enough to create a visual world, not so many that editing discipline collapses. Then write one sentence per image — not what it shows, but what it contributes.",
         },
         { type: "heading", content: "The Sentence Test" },
         {
           type: "paragraph",
           content:
-            "The sentence must answer: what quality does this image bring to the concept? Not: 'this is a photograph of a dark room.' But: 'this image brings the quality of threshold — the moment before entering a space — which is the emotional state the project lives in.' If you cannot write this sentence, you do not know why the image is on the board, which means it should not be on the board.",
+            "Not: 'this is a dark room.' But: 'this image brings the quality of threshold — the moment before entering a space — which is the emotional state the project lives in.' If you can't write that sentence, the image shouldn't be on the board.",
         },
-        { type: "heading", content: "Editing the Board" },
+        { type: "heading", content: "Edit the Board" },
         {
           type: "paragraph",
           content:
-            "After writing all nine sentences, read them aloud. Are any of them saying the same thing? If two sentences are describing the same quality, one of those images is redundant. Remove it and find an image that contributes a quality not yet on the board. The edited board — nine images, each contributing a distinct and necessary quality — is a communication tool. Each image is load-bearing; remove any one of them and the concept loses something specific.",
+            "Read all nine sentences aloud. Are any saying the same thing? If two sentences describe the same quality, one image is redundant — cut it and find one that contributes something not yet represented. Each image should be load-bearing.",
         },
         { type: "heading", content: "What the Exercise Reveals" },
         {
           type: "paragraph",
           content:
-            "Beyond the specific moodboard, this exercise reveals your visual instincts: what qualities do you reach for, what fields do you look in, what emotional temperatures are you drawn to? Repeat the exercise with different projects and the patterns become visible. Your visual language — the specific set of qualities and emotional territories you return to — is what makes your creative work distinctively yours.",
+            "Beyond the board itself, the exercise shows you your visual instincts: what qualities you reach for, what fields you look in, what emotional temperatures draw you in. Repeat it and the patterns become visible. That's your visual language.",
         },
       ],
       reflection: {

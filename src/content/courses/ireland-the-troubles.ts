@@ -16,29 +16,29 @@ const course: Course = {
       title: "Origins & Context",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Colonialism, Plantation, and Famine" },
+        { type: "heading", content: "The Fault Line Was Built in 1610" },
         {
           type: "paragraph",
           content:
-            "Ireland's modern political conflict has roots stretching back centuries. The Norman invasion of 1169 began the long entanglement with English power, but the decisive rupture came with the Plantation of Ulster in 1610. Under James I, large tracts of land in the north of Ireland were confiscated from native Catholic owners and settled by Protestant planters from England and Scotland. The demographic and religious division this created — between a Protestant settler class with economic and political privileges and a dispossessed Catholic native population — became the fault line around which subsequent centuries of conflict organised themselves.",
+            "The Plantation of Ulster under James I confiscated Catholic land and handed it to Protestant settlers from England and Scotland. That demographic and religious division became the fault line around which every subsequent conflict organised itself.",
         },
         {
           type: "paragraph",
           content:
-            "The Penal Laws restricted Catholic rights to own property, practise their religion, and participate in public life. The Great Famine of 1845–52 became the defining wound in Irish national memory: one million dead, one million emigrated, and a British government whose laissez-faire ideology prevented the intervention that might have saved lives. The population of Ireland, over eight million before the famine, never recovered. For many Irish nationalists, the famine was not a failure of policy but evidence of deliberate neglect — even genocide.",
+            "The Great Famine of 1845–52 killed one million and drove out another million. For many Irish nationalists, British laissez-faire ideology that prevented intervention wasn't a policy failure — it was deliberate neglect.",
         },
-        { type: "heading", content: "Revolution and Partition" },
+        { type: "heading", content: "A Military Failure That Became a Political Triumph" },
         {
           type: "paragraph",
           content:
-            "The Easter Rising of 1916 — a rebellion launched in Dublin at Easter by Irish republicans including Patrick Pearse and James Connolly — was militarily a failure, suppressed within a week. But the British execution of its leaders transformed them into martyrs and radicalised Irish public opinion. The Irish War of Independence (1919–21), fought as a guerrilla campaign by the Irish Republican Army under Michael Collins, ended with the Anglo-Irish Treaty of 1921.",
+            "The Easter Rising of 1916 was crushed within a week. Then the British executed fifteen leaders over ten days and created republican martyrs. Irish public opinion radicalised overnight.",
         },
         {
           type: "paragraph",
           content:
-            "The Treaty granted independence to 26 of Ireland's 32 counties. The six Ulster counties with Protestant majorities remained British — Northern Ireland. This partition satisfied neither unionists, who feared absorption into a Catholic state, nor nationalists, who had fought for a united Ireland. It triggered a bitter civil war in the south between pro-Treaty and anti-Treaty republicans, and planted the seeds of the conflict that would become The Troubles fifty years later.",
+            "The 1921 Anglo-Irish Treaty gave 26 counties independence. Six Ulster counties stayed British. Nobody was satisfied. A bitter civil war followed in the south, and the seeds of The Troubles were planted.",
         },
       ],
       quiz: {
@@ -75,35 +75,35 @@ const course: Course = {
       title: "Key Events",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Civil Rights to Armed Conflict" },
+        { type: "heading", content: "Civil Rights First, Then Armed Conflict" },
         {
           type: "paragraph",
           content:
-            "The conflict known as The Troubles is conventionally dated from 1969, but its immediate precursor was the Northern Ireland Civil Rights Movement of the late 1960s, inspired by the American civil rights movement. The Northern Ireland Civil Rights Association (NICRA) demanded equal voting rights (Catholic areas were systematically gerrymandered), equal access to public housing, and an end to discrimination in employment. These were demands within the existing constitutional order — not for a united Ireland but for equal citizenship within Northern Ireland.",
+            "The Northern Ireland Civil Rights Movement demanded equal voting rights, fair housing, and an end to job discrimination — not a united Ireland, just equal citizenship. Marches were attacked. Police complied. British troops arrived.",
         },
         {
           type: "paragraph",
           content:
-            "The marches were attacked by loyalist counter-demonstrators, sometimes with police complicity. The Battle of the Bogside in August 1969 — three days of sustained street fighting between Catholic residents of Derry and the Royal Ulster Constabulary — led to the deployment of British Army troops. Initially, many Catholics welcomed the Army as protection from loyalist attacks. Within years, that relationship had transformed entirely.",
+            "Catholics initially welcomed the Army as protection from loyalist violence. Within years, that relationship had inverted completely.",
         },
-        { type: "heading", content: "Bloody Sunday and Internment" },
+        { type: "heading", content: "Internment and Bloody Sunday: Two Radicalising Events" },
         {
           type: "paragraph",
           content:
-            "Internment without trial — the imprisonment of suspected republicans without charge or conviction — was introduced in August 1971. The policy was poorly targeted, mostly affected innocent Catholics, and radicalised the community it was meant to suppress. On January 30, 1972 — Bloody Sunday — British paratroopers shot twenty-six unarmed civilian protesters on the streets of Derry, killing fourteen. The paratroopers claimed they had been fired upon; subsequent investigations, including the Saville Inquiry (2010), found that the victims were innocent and unjustified, and that the killings were unjustified.",
+            "Internment without trial (1971) locked up mostly innocent Catholics and radicalised the community it was meant to suppress. Then on 30 January 1972, British paratroopers shot 26 unarmed civilians in Derry, killing fourteen.",
         },
         {
           type: "paragraph",
           content:
-            "Bloody Sunday was the single most consequential event of The Troubles. IRA recruitment surged. The British Embassy in Dublin was burned. The moral and political damage to Britain internationally was severe and lasting. The event confirmed for a generation of nationalists that peaceful protest within the constitutional framework would not be protected.",
+            "IRA recruitment surged. The British Embassy in Dublin was burned. The Saville Inquiry in 2010 — 38 years later — finally confirmed the killings were unjustified.",
         },
-        { type: "heading", content: "The Hunger Strikes" },
+        { type: "heading", content: "Bobby Sands and the Hunger Strikes" },
         {
           type: "paragraph",
           content:
-            "In 1981, republican prisoners in the Maze prison, led by Bobby Sands, began a hunger strike demanding to be treated as political prisoners rather than criminals. Sands was elected to the British Parliament while on hunger strike. He died on May 5, 1981, after 66 days without food. Nine more prisoners died before the strike was called off. The strikes created a template for Sinn Féin's subsequent electoral politics and demonstrated the power of the ballot box alongside the armed campaign.",
+            "Republican prisoners demanded political status in 1981. Bobby Sands was elected to Parliament while on hunger strike, then died after 66 days. Nine more followed. The ballot box suddenly looked as powerful as the Armalite.",
         },
       ],
       quiz: {
@@ -140,29 +140,29 @@ const course: Course = {
       title: "Major Figures",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Founding Generation" },
+        { type: "heading", content: "Michael Collins: Genius, Negotiator, Killed at 31" },
         {
           type: "paragraph",
           content:
-            "Michael Collins was the military and intelligence genius of the Irish War of Independence. As director of intelligence for the IRA, he built a network of informants inside Dublin Castle — British intelligence's own headquarters — that made the British position in Ireland increasingly untenable. He negotiated the Anglo-Irish Treaty in London in 1921, accepting partition as a stepping stone rather than a final settlement. His old comrades who rejected the Treaty as a betrayal shot him dead in an ambush in County Cork in August 1922. He was 31.",
+            "Collins built an intelligence network inside Dublin Castle — British HQ — that made British rule untenable. He negotiated the 1921 Treaty. His old comrades shot him dead in a Cork ambush eight months later.",
         },
         {
           type: "paragraph",
           content:
-            "Éamon de Valera, who had opposed the Treaty, survived the civil war and dominated Irish politics for the following fifty years as Taoiseach and President. His vision of Ireland — Catholic, rural, self-sufficient — shaped the Republic until the 1960s, and his constitutional claim to the whole island of Ireland remained in place until the Good Friday Agreement.",
+            "Éamon de Valera, who rejected the Treaty as betrayal, survived to dominate Irish politics for fifty years. His Catholic, rural, self-sufficient vision of Ireland shaped the Republic until the 1960s.",
         },
-        { type: "heading", content: "The Peace Architects" },
+        { type: "heading", content: "The Peace Architects: Former Enemies at One Table" },
         {
           type: "paragraph",
           content:
-            "Gerry Adams and Martin McGuinness led the Sinn Féin leadership through the political transition from military to electoral strategy. Both denied IRA membership for decades — an open secret — while managing the extraordinarily difficult internal process of convincing the republican movement that negotiation was not surrender. McGuinness, who had been an IRA commander in Derry during Bloody Sunday, ended his life as Deputy First Minister of Northern Ireland, shaking the hand of Queen Elizabeth II.",
+            "Gerry Adams and Martin McGuinness led Sinn Féin through the extraordinary internal work of convincing the republican movement that negotiation wasn't surrender. McGuinness — an IRA commander during Bloody Sunday — ended his life shaking Queen Elizabeth's hand.",
         },
         {
           type: "paragraph",
           content:
-            "Ian Paisley spent fifty years as the loudest voice against any accommodation with republicanism, founding the Democratic Unionist Party and the Free Presbyterian Church of Ulster. His 'Never, Never, Never' speech rejecting the Anglo-Irish Agreement became a symbol of unionist intransigence. Yet in 2007, now in his eighties, he became First Minister in a power-sharing government with Martin McGuinness — sitting side by side with his most bitter enemy. John Hume of the SDLP, who had argued for constitutional politics throughout the violence, was awarded the Nobel Peace Prize in 1998 alongside Ulster Unionist leader David Trimble. Tony Blair and Irish Taoiseach Bertie Ahern drove the final negotiations of the Good Friday Agreement.",
+            "Ian Paisley spent fifty years saying 'Never, Never, Never.' In 2007, now in his eighties, he became First Minister in a power-sharing government with Martin McGuinness. John Hume and David Trimble won the Nobel Prize. Blair and Ahern drove the final deal.",
         },
       ],
       quiz: {
@@ -199,30 +199,30 @@ const course: Course = {
       title: "Turning Points",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Events That Changed the Conflict's Direction" },
+        { type: "heading", content: "Bloody Sunday: The Radicalising Event" },
         {
           type: "paragraph",
           content:
-            "Bloody Sunday (January 30, 1972) was the defining radicalising event of The Troubles. The killing of fourteen unarmed civilians by British paratroopers at a civil rights march in Derry destroyed the credibility of peaceful protest and drove thousands toward the IRA. IRA recruitment reached levels it had never achieved through purely political argument. The British government's initial cover-up — the Widgery Tribunal largely exonerated the paratroopers — compounded the damage. The British government did not formally acknowledge the killings were unjustified until David Cameron's apology following the Saville Inquiry in 2010, thirty-eight years later.",
+            "Fourteen unarmed civilians shot dead at a civil rights march. IRA recruitment hit levels political argument never achieved. The initial Widgery cover-up compounded the damage. Britain didn't formally apologise until 2010.",
         },
-        { type: "heading", content: "The Anglo-Irish Agreement and Back-Channel Talks" },
+        { type: "heading", content: "The Anglo-Irish Agreement: An Irish Dimension Acknowledged" },
         {
           type: "paragraph",
           content:
-            "The Anglo-Irish Agreement of 1985, signed by Margaret Thatcher and Irish Taoiseach Garret FitzGerald, gave the Irish government a formal consultative role in Northern Irish affairs for the first time. Unionists were furious — Paisley's 'Ulster Says No' campaign drew 500,000 signatories. But the Agreement established a precedent: the Irish dimension of Northern Irish politics had been acknowledged by both governments.",
+            "Thatcher's 1985 agreement gave Dublin a formal consultative role in Northern Irish affairs. Unionists were furious. But the precedent was set: the Irish dimension of Northern Irish politics was now officially real.",
         },
         {
           type: "paragraph",
           content:
-            "Throughout the late 1980s and early 1990s, back-channel communications between the British government and the IRA leadership were developing in parallel with the official political process. Both sides knew a military solution was impossible: the IRA could not defeat the British Army, but Britain could not eliminate the IRA. This mutual recognition of stalemate was a precondition for negotiation. The IRA ceasefire of August 1994 opened the path. When the IRA broke the ceasefire with the Canary Wharf bombing of February 1996, killing two people, it demonstrated how fragile the process remained — but the ceasefire was restored, and the talks continued.",
+            "By the late 1980s, back channels between British intelligence and the IRA leadership had reached the same conclusion: neither side could win militarily. That mutual recognition of stalemate was the precondition for negotiation.",
         },
-        { type: "heading", content: "Good Friday" },
+        { type: "heading", content: "Good Friday, 10 April 1998" },
         {
           type: "paragraph",
           content:
-            "The Good Friday Agreement of April 10, 1998, established power-sharing between unionists and nationalists in a new Northern Ireland Assembly, created North-South bodies linking the two parts of Ireland, established a British-Irish Intergovernmental Conference, required decommissioning of paramilitary weapons, and led to the early release of paramilitary prisoners. The Republic of Ireland amended its constitution to remove the territorial claim to Northern Ireland. It was approved by referendums on both sides of the border.",
+            "Power-sharing. North-South bodies. Decommissioning. Early prisoner release. The Republic dropped its territorial claim. Both sides voted yes. A fragile peace became a real one.",
         },
       ],
       quiz: {
@@ -259,30 +259,30 @@ const course: Course = {
       title: "Legacy & Long-Term Impact",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Cost of The Troubles" },
+        { type: "heading", content: "3,500 Dead. Thousands More Wounded. Trauma Still Processing." },
         {
           type: "paragraph",
           content:
-            "Approximately 3,500 people were killed during The Troubles between 1969 and 1998. The IRA was responsible for approximately 1,800 deaths; loyalist paramilitaries for approximately 1,000; British security forces for approximately 360. Many thousands more were injured, and many thousands more were displaced from their communities. The trauma — in both communities, and among those caught between them — remains only partially processed.",
+            "The IRA killed approximately 1,800 people. Loyalist paramilitaries killed approximately 1,000. British security forces killed approximately 360. The trauma in both communities remains only partially addressed.",
         },
-        { type: "heading", content: "The Good Friday Agreement's Structures" },
+        { type: "heading", content: "Power-Sharing Works — Slowly and Imperfectly" },
         {
           type: "paragraph",
           content:
-            "The Agreement's power-sharing Executive requires that the First Minister and Deputy First Minister come from the largest unionist and nationalist parties respectively, meaning government requires cross-community cooperation. This made politics more stable but also gave small parties veto power over the Assembly's operation — and the Executive collapsed multiple times in its first decades. The decommissioning of IRA weapons was completed in 2005. Loyalist paramilitaries decommissioned more slowly and incompletely.",
+            "The Assembly requires cross-community cooperation. It collapsed multiple times in its first decades. IRA weapons were decommissioned in 2005. Loyalists moved more slowly. The structures hold, barely.",
         },
         {
           type: "paragraph",
           content:
-            "The constitutional question the Agreement addressed — Northern Ireland's status — was not settled but managed. Northern Ireland remains part of the United Kingdom unless a majority votes otherwise in a border poll. The possibility of such a poll — in which, for the first time, Northern Ireland's Catholic population is approaching a majority — has moved from theoretical to live political question.",
+            "The constitutional question wasn't resolved — it was managed. A border poll is now a live political question, not a theoretical one. Northern Ireland's Catholic population is approaching a majority for the first time.",
         },
-        { type: "heading", content: "The Unresolved Question" },
+        { type: "heading", content: "Brexit Ripped Open the Agreement's Foundations" },
         {
           type: "paragraph",
           content:
-            "Brexit forced open the contradictions the Good Friday Agreement had papered over. The Agreement's invisible Irish border was one of its cornerstones — people and goods moving freely between the Republic and Northern Ireland as both were EU members. Brexit threatened to restore a hard border. The resulting Northern Ireland Protocol — and its successor, the Windsor Framework — created trade barriers between Northern Ireland and Great Britain instead, generating unionist fury. The constitutional question is more live than at any time since 1998.",
+            "The invisible Irish border was a cornerstone of the Good Friday Agreement. Brexit threatened to restore it. The Windsor Framework put a regulatory border in the Irish Sea instead — satisfying nobody fully. The constitutional question is more live than at any point since 1998.",
         },
       ],
       quiz: {
@@ -319,31 +319,31 @@ const course: Course = {
       title: "Why This Matters Today",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "A Conflict That Never Quite Ended" },
         {
           type: "paragraph",
           content:
-            "The Good Friday Agreement ended large-scale political violence, but it did not resolve the underlying question: is Northern Ireland British or Irish? That question is now closer to an answer — through democratic means — than at any point since partition. Demographic change, the Catholic population's growth, and the alienation of many young people from both traditional identities have made a future border poll plausible in a way it was not in 1998.",
+            "The Good Friday Agreement stopped the killing — it didn't answer the question. Is Northern Ireland British or Irish? Demographic change is bringing that question to a head faster than anyone expected in 1998.",
         },
-        { type: "heading", content: "What The Troubles Teaches About Back-Channel Diplomacy" },
+        { type: "heading", content: "Back-Channel Diplomacy: The Template That Works" },
         {
           type: "paragraph",
           content:
-            "The peace process worked in part because of communication channels that operated outside the public political process. British intelligence and IRA leadership communicated through intermediaries for years before formal negotiations. The official political process — which required all parties to be seen not to be talking to terrorists — would have been impossible without the unofficial process that was actually resolving the core disagreements. This model of back-channel diplomacy as the enabler of official negotiation is relevant wherever entrenched conflicts resist direct engagement.",
+            "The official process — which required all parties to be seen not talking to terrorists — only worked because an unofficial process was resolving the real disagreements. Wherever entrenched conflicts resist direct engagement, this model is relevant.",
         },
-        { type: "heading", content: "Political Off-Ramps and the Necessity of Face-Saving" },
+        { type: "heading", content: "Peace Needs Face-Saving Architecture" },
         {
           type: "paragraph",
           content:
-            "One reason the peace process eventually succeeded is that it gave all parties — IRA, loyalists, unionists, nationalists — something they could present to their own constituencies as a form of victory. The IRA could argue it had not surrendered; it had achieved a settlement. Unionists could argue Northern Ireland remained British. Nationalists could argue the all-Ireland dimension had been formally recognised. Successful peace negotiations rarely require one side to admit complete defeat; they require creative ambiguity that allows all parties to claim partial vindication.",
+            "The Agreement let every party claim partial victory. The IRA didn't surrender — it reached a settlement. Unionists kept Northern Ireland British. Successful negotiations rarely require admission of defeat. They require creative ambiguity.",
         },
-        { type: "heading", content: "The Slow Work of Peace" },
+        { type: "heading", content: "Political Peace Arrives Before Community Peace Does" },
         {
           type: "paragraph",
           content:
-            "Belfast today is visibly different from Belfast in 1990 — investment, tourism, a transformed city centre, a culture of creative energy. But the peace walls dividing Catholic and Protestant communities in some areas are higher and more numerous than they were when the Agreement was signed. Political violence has greatly reduced; social segregation has not. Peace between political actors arrives faster than peace between communities. The slow work of reconciliation — education, shared spaces, dealing with the past — is still underway.",
+            "Belfast's city centre is transformed. But the peace walls dividing communities are higher and more numerous than in 1998. Political actors make peace first. Communities take longer. The slow work of reconciliation is still underway.",
         },
       ],
       reflection: {

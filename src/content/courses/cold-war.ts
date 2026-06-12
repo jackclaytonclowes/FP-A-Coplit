@@ -16,29 +16,29 @@ const course: Course = {
       title: "Origins & Context",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "An Alliance That Never Trusted Itself" },
+        { type: "heading", content: "The Alliance That Never Trusted Itself" },
         {
           type: "paragraph",
           content:
-            "The Cold War was visible in the cracks of the wartime alliance before Germany had surrendered. At Yalta in February 1945, Churchill, Roosevelt, and Stalin agreed on the outlines of post-war Europe — free elections in liberated countries, Soviet security interests acknowledged — but each party understood the agreement differently. Roosevelt hoped Soviet cooperation in the Pacific war and the new United Nations could sustain the partnership; Churchill was under no illusions, having already made his 'percentages agreement' with Stalin in October 1944 carving up Eastern Europe into spheres of influence on a piece of paper passed across a table.",
+            "The Cold War was visible in the cracks of the wartime alliance before Germany surrendered. At Yalta, Churchill, Roosevelt, and Stalin agreed on the outlines of post-war Europe — but each party understood the agreement differently.",
         },
         {
           type: "paragraph",
           content:
-            "The Potsdam Conference in July 1945 introduced a new variable: Harry Truman, who had not been told about the atomic bomb programme before Roosevelt's death, and who received confirmation of a successful test during the conference. His manner toward Stalin shifted. The Soviet leader — who had his own intelligence network inside the Manhattan Project — already knew.",
+            "At Potsdam, Truman received news of a successful atomic test and shifted his manner toward Stalin. The Soviet leader already knew — he had intelligence inside the Manhattan Project.",
         },
-        { type: "heading", content: "The Iron Curtain Descends" },
+        { type: "heading", content: "The Iron Curtain Descended Fast" },
         {
           type: "paragraph",
           content:
-            "Soviet expansion into Eastern Europe proceeded rapidly after 1945. In Poland, Romania, Bulgaria, Hungary, and Czechoslovakia, communist governments — sometimes through elections, sometimes through coup — replaced the provisional governments that had emerged from liberation. Churchill's Iron Curtain speech at Fulton, Missouri in March 1946 named the reality: a division of Europe from Stettin to Trieste, behind which Soviet power was consolidating.",
+            "By 1948, communist governments had replaced provisional ones across Eastern Europe — sometimes through elections, sometimes through coup. Churchill named the reality: a division of Europe from Stettin to Trieste.",
         },
         {
           type: "paragraph",
           content:
-            "The Truman Doctrine (March 1947) formally committed the United States to supporting any country resisting Soviet-backed subversion — the immediate context was Greece and Turkey. The Marshall Plan (June 1947) offered $13 billion in American aid to reconstruct Europe's economies, explicitly designed to prevent the economic desperation that had enabled fascism and might now enable communism. The Soviet Union declined participation and required its Eastern European satellites to do the same. The Berlin Blockade (June 1948 – May 1949) — Soviet attempt to cut off West Berlin by road and rail — was answered by a Western airlift that flew over 200,000 sorties. The Soviets backed down.",
+            "The Truman Doctrine (1947) committed the US to resisting Soviet expansion everywhere. The Marshall Plan ($13 billion) rebuilt Western European economies to prevent the desperation that enabled fascism from enabling communism. The Berlin Blockade tested the West — an airlift answered it.",
         },
       ],
       quiz: {
@@ -75,30 +75,30 @@ const course: Course = {
       title: "Key Events",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Early Cold War: 1949–1962" },
+        { type: "heading", content: "1949: A Year of Shocks" },
         {
           type: "paragraph",
           content:
-            "1949 was a year of shocks for the West: the Soviet Union tested its first atomic bomb in August, ending the American nuclear monopoly four years ahead of most intelligence estimates, and Mao Zedong's Communist Party completed its victory in the Chinese Civil War in October. McCarthy-era America responded to these setbacks with a Red Scare that destroyed careers and chilled political debate. The Korean War (1950–53), in which American-led UN forces defended South Korea against a North Korean invasion backed by China and the Soviet Union, ended in armistice along roughly the pre-war boundary. It was the first hot war of the Cold War and established the principle that conflicts between the superpowers would be fought through proxies.",
+            "The Soviets tested their first atom bomb — four years ahead of Western estimates. Mao's Communist Party won the Chinese Civil War. The US responded with a Red Scare that destroyed careers and chilled debate for years.",
         },
         {
           type: "paragraph",
           content:
-            "The Hungarian Uprising of 1956 — a genuine popular revolution against Soviet control, briefly encouraged by US radio broadcasts before being crushed by Soviet tanks — revealed the limits of 'rollback' rhetoric: the US would not risk war to liberate Eastern Europe. The same year, Khrushchev's Secret Speech to the Soviet Communist Party denouncing Stalin's crimes confirmed the ideological fissures within the communist world.",
+            "Hungary 1956: a genuine popular revolution, briefly encouraged by US radio broadcasts, crushed by Soviet tanks. The US would not risk war to liberate Eastern Europe. 'Rollback' was just rhetoric.",
         },
-        { type: "heading", content: "The Cuban Missile Crisis" },
+        { type: "heading", content: "Thirteen Days in October 1962" },
         {
           type: "paragraph",
           content:
-            "The Cuban Missile Crisis of October 1962 was the closest humanity has come to nuclear war. Soviet Premier Khrushchev had placed nuclear missiles in Cuba, 90 miles from Florida, in part to compensate for American nuclear superiority and in part to deter a second US invasion attempt after the Bay of Pigs fiasco. President Kennedy imposed a naval blockade and demanded removal of the missiles. For thirteen days, the world waited. A Soviet submarine carrying nuclear torpedoes, cut off from communication, was nearly fired upon; its commander Vasily Arkhipov refused to authorise a nuclear response, possibly preventing global catastrophe. The crisis was resolved through back-channel negotiation: Soviet missiles removed from Cuba, American missiles quietly removed from Turkey.",
+            "Soviet missiles in Cuba, 90 miles from Florida. Kennedy imposed a naval blockade. A Soviet submarine nearly fired nuclear torpedoes — its commander refused. The crisis was resolved through back channels: Soviet missiles out of Cuba, American missiles quietly out of Turkey.",
         },
-        { type: "heading", content: "Vietnam, Détente, and Collapse" },
+        { type: "heading", content: "Vietnam, Détente, and the Long Unravelling" },
         {
           type: "paragraph",
           content:
-            "The Vietnam War (US combat involvement 1964–1975) cost 58,000 American lives, killed millions of Vietnamese, and destroyed American public trust in its government and military leadership. The Prague Spring of 1968 — a Czechoslovak experiment in 'socialism with a human face' — was crushed by Soviet and Warsaw Pact forces within months. Nixon and Kissinger's détente (1972) — including the opening to China — briefly reduced Cold War tensions. The Soviet invasion of Afghanistan in 1979 ended détente. Reagan's massive arms buildup and Strategic Defence Initiative ('Star Wars') escalated the arms race beyond what the Soviet economy could match. Solidarity's resistance in Poland from 1980, Gorbachev's reform programme from 1985, and the chain reaction of 1989 revolutions brought the Berlin Wall down on November 9, 1989. The Soviet Union formally dissolved on December 25, 1991.",
+            "Vietnam cost 58,000 American lives, destroyed public trust in government, and proved the limits of American military power. The Soviet invasion of Afghanistan in 1979 became their Vietnam. Reagan's arms buildup bankrupted the competition. The Berlin Wall fell on 9 November 1989. The Soviet Union dissolved on 25 December 1991.",
         },
       ],
       quiz: {
@@ -135,24 +135,24 @@ const course: Course = {
       title: "Major Figures",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The American Presidents" },
+        { type: "heading", content: "The American Presidents Who Shaped the Cold War" },
         {
           type: "paragraph",
           content:
-            "Harry Truman established the two instruments that defined American Cold War strategy: the Truman Doctrine (resist Soviet expansion everywhere) and the Marshall Plan (economic reconstruction as ideological defence). His decision to drop the atomic bombs on Japan, made without full Cabinet deliberation, set the precedent for presidential control of nuclear weapons. Dwight Eisenhower, in his farewell address, warned of the 'military-industrial complex' — a permanent war economy fusing military and corporate interests — as a danger to American democracy. The warning was ignored.",
+            "Truman created the doctrine and the Marshall Plan. Eisenhower warned of the military-industrial complex in his farewell address — then everyone ignored him. Kennedy chose blockade over air strike at Cuba and probably prevented nuclear war.",
         },
         {
           type: "paragraph",
           content:
-            "John Kennedy's handling of the Cuban Missile Crisis — choosing blockade over air strike against the advice of many military advisers — is credited with preventing nuclear war. His willingness to consider the Soviet perspective, and to leave Khrushchev a face-saving exit, was more sophisticated than the hawkish advisers urging direct military action. Richard Nixon and Henry Kissinger's détente — including the opening of China as a counterweight to the Soviet Union — was realpolitik of high sophistication. Ronald Reagan's characterisation of the Soviet Union as an 'Evil Empire' and his massive arms buildup are credited by some with forcing the Soviet collapse; others argue Gorbachev's reforms would have happened regardless.",
+            "Nixon and Kissinger's opening to China as a Soviet counterweight was realpolitik of high sophistication. Reagan's arms buildup and 'Evil Empire' framing are credited by some with forcing Soviet collapse — others argue Gorbachev would have happened regardless.",
         },
-        { type: "heading", content: "The Soviet Leaders" },
+        { type: "heading", content: "The Soviet Leaders: Consolidators, Reformers, Enders" },
         {
           type: "paragraph",
           content:
-            "Stalin consolidated Eastern European control in the early Cold War and launched Soviet nuclear and space programmes. Nikita Khrushchev's Secret Speech (1956) denouncing Stalin's cult of personality was the first crack in Soviet ideological certainty. His 1962 overreach in Cuba, and the humiliation of its resolution, contributed to his removal in 1964. Leonid Brezhnev articulated the Brezhnev Doctrine — the Soviet right to intervene in any socialist state threatening to leave the bloc — and exercised it in Czechoslovakia. Mikhail Gorbachev's glasnost (openness) and perestroika (restructuring) were intended to save the Soviet system by reforming it. Instead, by releasing forces the system could not contain, they ended it.",
+            "Stalin locked in Eastern Europe and launched the nuclear programme. Khrushchev's Secret Speech cracked Soviet ideological certainty. Brezhnev exercised the right to crush any socialist state trying to leave the bloc. Gorbachev tried to reform the system — and accidentally ended it.",
         },
       ],
       quiz: {
@@ -189,29 +189,29 @@ const course: Course = {
       title: "Turning Points",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Moments That Changed the Cold War's Course" },
+        { type: "heading", content: "The Missile Crisis Built Safeguards Because It Terrified Both Sides" },
         {
           type: "paragraph",
           content:
-            "The Cuban Missile Crisis (October 1962) was the Cold War's most dangerous moment and, paradoxically, one of its most constructive. Both Kennedy and Khrushchev were shaken by how close the world had come to nuclear war through miscommunication, accident, and the fog of crisis. The direct hotline between Washington and Moscow — the 'red telephone' — was installed in 1963. The Limited Test Ban Treaty followed the same year. The crisis demonstrated that nuclear war could arrive through accident as much as intention, and accelerated arms control efforts that, however inadequate, reduced the risks.",
+            "Kennedy and Khrushchev were both shaken by how close accident and miscommunication had come to catastrophe. The Moscow-Washington hotline was installed in 1963. The Limited Test Ban Treaty followed. Crisis as catalyst for arms control.",
         },
         {
           type: "paragraph",
           content:
-            "American defeat in Vietnam (1975) was the Cold War's most significant psychological turning point for the United States. The fall of Saigon — US Embassy personnel evacuated by helicopter from the rooftop as South Vietnamese allies were left behind — destroyed the credibility of the domino theory, exposed the limits of American military power against guerrilla forces with popular support, and created a 'Vietnam syndrome' that constrained American military intervention for a generation.",
+            "The fall of Saigon in 1975 — US Embassy staff evacuated by helicopter as allies were left behind — destroyed the domino theory and created a Vietnam syndrome that constrained American military intervention for a generation.",
         },
-        { type: "heading", content: "Afghanistan and Solidarity" },
+        { type: "heading", content: "Afghanistan: The Soviet Union's Vietnam" },
         {
           type: "paragraph",
           content:
-            "The Soviet invasion of Afghanistan in December 1979 was the Soviet Union's Vietnam. The insurgency, funded and armed by the CIA and Pakistan — with weapons including the Stinger missile that neutralised the Soviet air advantage — proved impossible to suppress. The war cost 15,000 Soviet lives and an estimated one million Afghan lives, drained Soviet resources, and discredited the Soviet military and leadership at home. The Mujahideen the CIA funded included the networks that would later become the Taliban and shelter Al-Qaeda.",
+            "The Soviet invasion of Afghanistan (1979) proved impossible to suppress. 15,000 Soviet deaths. One million Afghan deaths. The CIA funded the Mujahideen — including the networks that became the Taliban and sheltered Al-Qaeda.",
         },
         {
           type: "paragraph",
           content:
-            "Solidarity, the Polish trade union movement led by Lech Wałęsa, from its founding in 1980 demonstrated that civil society could organise beyond the state's control in a Soviet bloc country. The Polish government's imposition of martial law in 1981 suppressed but did not destroy it. Solidarity's survival proved that Soviet-style systems could neither fully reform nor permanently suppress organised dissent — a contradiction that Gorbachev's reforms later made terminal.",
+            "Solidarity in Poland, from 1980, proved civil society could organise beyond the state's control in the Soviet bloc. Martial law suppressed it but didn't destroy it. That survival was a preview of 1989.",
         },
       ],
       quiz: {
@@ -248,25 +248,25 @@ const course: Course = {
       title: "Legacy & Long-Term Impact",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Nuclear Arsenals and Arms Control" },
+        { type: "heading", content: "The Arsenals Are Still There" },
         {
           type: "paragraph",
           content:
-            "The United States and Russia each retain approximately 5,000 nuclear warheads — enough to destroy human civilisation many times over. The Cold War's arms control architecture — SALT I and II, the INF Treaty, START — reduced arsenals from their Cold War peaks but did not eliminate them. The INF Treaty, which eliminated an entire class of intermediate-range nuclear missiles, was withdrawn from by the United States in 2019 over Russian violations. New START, the last remaining US-Russia nuclear arms control agreement, was suspended by Russia in 2023. The infrastructure of nuclear restraint built during the Cold War is now substantially dismantled.",
+            "The US and Russia each retain around 5,000 nuclear warheads. The Cold War arms control architecture — SALT, INF, START — has been substantially dismantled. The INF Treaty is gone. New START was suspended by Russia in 2023.",
         },
-        { type: "heading", content: "The Third World as Battlefield" },
+        { type: "heading", content: "The Third World Paid the Real Cost" },
         {
           type: "paragraph",
           content:
-            "The Cold War's most destructive dimension for actual human lives was not the nuclear standoff in Europe but the proxy wars fought in Asia, Africa, and Latin America. Angola, Mozambique, Nicaragua, Guatemala, Chile, Iran, Indonesia — in each, American and Soviet interests funded, armed, and sometimes directly organised violence that killed hundreds of thousands and destroyed development. In Chile, the CIA backed the 1973 coup that overthrew the democratically elected Salvador Allende and installed Pinochet's military dictatorship. In Guatemala, a CIA-engineered coup in 1954 preceded decades of civil war that killed 200,000 people. The Cold War's human cost was overwhelmingly borne by people who had not chosen either side.",
+            "Angola, Chile, Guatemala, Nicaragua, Indonesia — the Cold War's most destructive dimension was proxy wars fought by people who hadn't chosen either superpower. The CIA backed Pinochet's 1973 coup. A Guatemala coup in 1954 preceded decades of civil war killing 200,000.",
         },
-        { type: "heading", content: "The 'End of History' Illusion" },
+        { type: "heading", content: "The 'End of History' Was an Illusion" },
         {
           type: "paragraph",
           content:
-            "Francis Fukuyama's 1989 essay 'The End of History?' argued that liberal democracy had triumphed ideologically — that the great argument between political systems was over. NATO expanded eastward, incorporating former Warsaw Pact states. Russia, humiliated and economically chaotic through the 1990s, was expected to converge toward liberal democracy. The illusion lasted until the early 2000s. China remained authoritarian and grew to become the world's second-largest economy. Russia's democratic experiment ended with Vladimir Putin. The great-power competition the Cold War represented did not end in 1991 — it rested.",
+            "Fukuyama declared liberal democracy had permanently won. China remained authoritarian and became the world's second-largest economy. Russia's democratic experiment ended under Putin. Great-power competition didn't end in 1991 — it rested.",
         },
       ],
       quiz: {
@@ -303,31 +303,31 @@ const course: Course = {
       title: "Why This Matters Today",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Cold War Resumed" },
+        { type: "heading", content: "The Cold War Resumed — With Different Names" },
         {
           type: "paragraph",
           content:
-            "The Russian invasion of Ukraine in 2022 is the most visible evidence that the Cold War's fundamental dynamic — Russian sphere of influence versus Western institutions — did not end in 1991 but was suspended. NATO's eastward expansion, which Russia had consistently objected to as a violation of commitments made at the end of the Cold War (commitments whose precise content is disputed), provided the context for Putin's invasion. Whether the Cold War framing is the right one for the Ukraine conflict — it differs in important ways, including that it involves direct military aggression rather than proxy war — the pattern of a revisionist power challenging Western institutions is unmistakable.",
+            "Russia's 2022 invasion of Ukraine shows that the Cold War's fundamental dynamic — Russian sphere vs. Western institutions — wasn't resolved in 1991. It was suspended. The pattern of a revisionist power challenging Western institutions is unmistakable.",
         },
-        { type: "heading", content: "The Nuclear Risk" },
+        { type: "heading", content: "Nuclear Risk Is Higher Than Since the Missile Crisis" },
         {
           type: "paragraph",
           content:
-            "Expert consensus holds that the nuclear risk is currently higher than at any point since the Cuban Missile Crisis. The arms control architecture is largely dismantled. Russia has explicitly raised nuclear threats in the context of Ukraine. The number of nuclear-armed states has grown since the Cold War: nine countries now have nuclear weapons compared to five during most of the Cold War period. The logic of deterrence — that mutual assured destruction makes nuclear use irrational — has not failed yet, but it depends on rationality under pressure and clear communication, both of which have been strained.",
+            "Expert consensus: nuclear risk is now at its highest since 1962. Arms control architecture largely dismantled. Russia has explicitly raised nuclear threats. Nine countries now have nuclear weapons. Deterrence still depends on rationality under pressure.",
         },
-        { type: "heading", content: "China, Taiwan, and the Second Cold War" },
+        { type: "heading", content: "China, Taiwan, and Cold War 2.0" },
         {
           type: "paragraph",
           content:
-            "The US-China competition is structurally similar to the original Cold War: two great powers with incompatible political systems, competing for influence across the developing world, with a potential flashpoint — Taiwan — where miscalculation could trigger military conflict. The arms control lesson from the Cold War is relevant: the US and Soviet Union, despite deep mutual hostility, negotiated agreements that reduced the risk of accidental war. Whether equivalent agreements are possible with China — which has historically refused to include its relatively small arsenal in arms control discussions — is an open question.",
+            "Two great powers with incompatible systems, competing for global influence, with Taiwan as the potential flashpoint. The arms control lesson from the original Cold War is directly relevant — adversaries can cooperate on existential risks without becoming friends.",
         },
-        { type: "heading", content: "What Arms Control History Teaches" },
+        { type: "heading", content: "Arms Control Takes Decades to Build — and Days to Dismantle" },
         {
           type: "paragraph",
           content:
-            "The Cold War produced genuine progress in managing nuclear risk — the hotline, the test ban treaties, SALT, INF, START. This progress was achieved not through trust or ideological convergence but through the recognition by both superpowers that nuclear war was an outcome neither could survive. The lesson is not that rivals become friends but that shared existential interests can produce cooperation between adversaries. The infrastructure of that cooperation — which took decades to build — has been largely dismantled in the past decade. Rebuilding it, in a more complex multi-polar nuclear environment, is one of the defining strategic challenges of the coming decades.",
+            "The Cold War produced hotlines, test bans, SALT, INF, START — not through trust, but through shared recognition that nuclear war was unsurvivable. That infrastructure has been largely dismantled in a decade. Rebuilding it in a multipolar world is one of the defining challenges ahead.",
         },
       ],
       reflection: {

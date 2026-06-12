@@ -16,24 +16,24 @@ const course: Course = {
       title: "Origins & History",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Darkness as Aesthetic Choice" },
+        { type: "heading", content: "Darkness as a Material, Not a Problem" },
         {
           type: "paragraph",
           content:
-            "The aesthetic of darkness in photography has its roots not in photography itself but in the chiaroscuro tradition of painting — Caravaggio's violent contrasts of light and shadow, Rembrandt's figures emerging from deep brown obscurity, the Dutch masters' treatment of darkness as a substance with weight and texture. When photography arrived in the nineteenth century, darkness was initially an obstacle. The long exposures required by early photographic processes meant that night photography was technically impractical for decades.",
+            "Before photography, painters had already mastered darkness as substance — Caravaggio's violent contrasts, Rembrandt's figures emerging from brown obscurity. When photography arrived, night was initially just a technical obstacle. It took decades for photographers to treat it as the point.",
         },
         {
           type: "paragraph",
           content:
-            "Film noir cinematography of the 1930s and 1940s — with its hard-shadow lighting, its streets glistening with rain, its figures half-dissolved in shadow — created a visual vocabulary for the night that was specifically about moral and psychological ambiguity. The night, in film noir, was the time when the normal social order relaxed and something darker emerged. This cinematic language crossed into photography, particularly into the documentary tradition.",
+            "Film noir's shadow-heavy streets and morally ambiguous darkness created a visual vocabulary for the night that crossed straight into photography. Night as a time when the social order relaxes and something darker emerges.",
         },
-        { type: "heading", content: "Brassaï and the Nocturnal City" },
+        { type: "heading", content: "Brassaï Invented the Nocturnal City" },
         {
           type: "paragraph",
           content:
-            "The Hungarian-French photographer Brassaï (Gyula Halász, 1899–1984) essentially invented the language of nocturnal photography with his 1933 book Paris de nuit. Working on the streets of Paris from midnight to dawn over several years, Brassaï developed both the technical approaches and the aesthetic philosophy of night photography. His images of prostitutes, lovers, street cleaners, and criminals made darkness itself the subject.",
+            "Brassaï spent years on Paris streets from midnight to dawn, documenting prostitutes, lovers, criminals, and street cleaners. His 1933 book Paris de nuit didn't just photograph the night — it established darkness itself as the subject.",
         },
         {
           type: "list",
@@ -70,37 +70,37 @@ const course: Course = {
       title: "Key Practitioners",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Brassaï (1899–1984)" },
         {
           type: "paragraph",
           content:
-            "Brassaï's Paris de nuit established the nocturnal city as a legitimate and powerful subject for photography. His technical approach — long exposures on glass plates, careful use of available gaslight and electric light — produced images of atmospheric density that had never been achieved before. But the images are not merely atmospheric: they are precisely observed documents of a nocturnal subculture. Brassaï moved freely through the underworld of Paris, gaining access to subjects that remained invisible in daylight.",
+            "Long exposures on glass plates. Careful use of existing gaslight and electric light. Brassaï moved freely through the nocturnal underworld of Paris, making images of atmospheric density that had never been achieved before.",
         },
         { type: "heading", content: "Antoine d'Agata (b. 1961)" },
         {
           type: "paragraph",
           content:
-            "The French photographer Antoine d'Agata works in an extreme tradition of nocturnal documentary that implicates the photographer as participant rather than observer. His images — made in brothels, on street corners, in the extreme margins of urban life — are deliberately degraded in quality, using high-speed film and available light to create images of visceral darkness. d'Agata does not photograph from a position of safety.",
+            "d'Agata doesn't photograph from safety — he's a participant in the situations he shoots. Brothels, street corners, extreme margins. Deliberately degraded images. He implicates himself in the darkness he documents.",
         },
         { type: "heading", content: "Anders Petersen (b. 1944)" },
         {
           type: "paragraph",
           content:
-            "The Swedish photographer Anders Petersen's 'Café Lehmitz' series — made in a Hamburg harbour bar over several years in the late 1960s — is a foundational work of intimate nocturnal photography. Petersen spent years as a regular at the bar, becoming part of the community of prostitutes, drunks, and social outcasts who gathered there. The images are dark, grainy, intimate, and shot at close range without flash.",
+            "Petersen spent years as a regular at Café Lehmitz in Hamburg before making photographs. The resulting series — dark, grainy, intimate, shot close without flash — is the definitive work of intimate nocturnal photography.",
         },
         { type: "heading", content: "Daido Moriyama (b. 1938)" },
         {
           type: "paragraph",
           content:
-            "Moriyama's Tokyo street photographs often work in extreme darkness and near-darkness, using high-contrast printing that pushes shadows toward pure black. His 'are, bure, boke' aesthetic — rough, blurred, out-of-focus — embraces the expressive possibilities of photographic degradation. Darkness is not corrected in Moriyama's work; it is amplified, becoming a visual correlate of urban alienation and psychological intensity.",
+            "Moriyama's Tokyo street work pushes shadows toward pure black. His 'are, bure, boke' aesthetic — rough, blurred, out-of-focus — doesn't correct darkness; it amplifies it until it becomes a visual correlate of urban alienation.",
         },
         { type: "heading", content: "Bill Henson (b. 1955)" },
         {
           type: "paragraph",
           content:
-            "The Australian photographer Bill Henson makes large-scale dark portraits and landscapes of extraordinary atmospheric intensity. His figures — often adolescents, lit by a single directional source against deep darkness — emerge from shadow in a way that recalls old-master painting. His work has been consistently controversial in Australia, where its treatment of young subjects in states of vulnerability and darkness has provoked public debate.",
+            "Henson's large-scale dark portraits — single directional light, adolescent figures emerging from velvet darkness — recall old-master painting more than photography. Consistently controversial in Australia. Consistently extraordinary.",
         },
       ],
       quiz: {
@@ -120,37 +120,37 @@ const course: Course = {
       title: "Visual Characteristics",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Chiaroscuro" },
+        { type: "heading", content: "Chiaroscuro: Managing Darkness, Not Light" },
         {
           type: "paragraph",
           content:
-            "Chiaroscuro — the interplay of light and deep shadow — is the defining visual characteristic of midnight aesthetics. Where daytime photography manages light, nocturnal photography manages darkness. The key technical decision is not what to illuminate but what to leave in darkness: which parts of the face or figure to let dissolve into black, which surfaces to reveal and which to obscure. Darkness is not absence; it is material.",
+            "Daytime photography manages light. Nocturnal photography manages darkness. The key decision: what to leave dark. Which parts of the face dissolve into black. Darkness is not absence — it is material.",
         },
-        { type: "heading", content: "Available Darkness" },
+        { type: "heading", content: "Available Darkness: A Deliberate Choice" },
         {
           type: "paragraph",
           content:
-            "The concept of available darkness — by analogy with available light — describes the practice of using existing darkness rather than correcting or supplementing it. The midnight aesthetic resists fill flash and additional lighting precisely because these would destroy the darkness that is the subject. The photographer chooses not to illuminate. This is as deliberate a choice as any lighting decision.",
+            "By analogy with available light: use the darkness that's already there. Don't fill the shadows with flash. Don't supplement the night. The midnight aesthetic resists illumination because darkness is the subject.",
         },
-        { type: "heading", content: "Grain, Grit, and Degradation" },
+        { type: "heading", content: "Grain Is Not a Flaw — It's a Texture" },
         {
           type: "paragraph",
           content:
-            "High-speed film — pushed further in development — creates the dense, irregular grain associated with nocturnal photography. In the digital era, high ISO and deliberate noise are the equivalents. This visual texture — grain, noise, degradation — is not a technical failure but an expressive quality. It gives images a physical tactility and a sense of material presence that smoothly rendered digital images lack.",
+            "High-speed film pushed hard in development. High ISO with deliberate noise. The grain that comes from nocturnal shooting gives images physical tactility that smooth digital files lack. Embrace it.",
         },
-        { type: "heading", content: "High Contrast" },
+        { type: "heading", content: "Extreme Contrast: U-Shaped Histogram" },
         {
           type: "paragraph",
           content:
-            "Midnight aesthetic photography tends toward extreme contrast: deep, blocked-up blacks against isolated bright elements. The histogram is not a bell curve but a U-shape — most tones at the extremes, the midrange largely empty. This contrast creates visual drama and psychological tension. The eye is drawn to the isolated light; the surrounding darkness charges it with meaning.",
+            "Deep blocked-up blacks against isolated bright elements. Most tones at the extremes — midrange largely empty. The eye finds the isolated light; the surrounding darkness charges it with meaning.",
         },
-        { type: "heading", content: "The City at Night" },
+        { type: "heading", content: "The City After Dark Has Different Rules" },
         {
           type: "paragraph",
           content:
-            "The nocturnal city — wet pavements, neon reflections, pools of lamplight, long shadows — is the natural habitat of midnight aesthetics. The city at night has a different social geography from the city in daylight: different populations, different transactions, different norms. This social specificity gives nocturnal urban photography its documentary charge alongside its aesthetic power.",
+            "Wet pavements, neon reflections, lamplight pools, long shadows. Different populations, different transactions, different norms. That social specificity gives nocturnal urban photography its documentary charge.",
         },
       ],
       quiz: {
@@ -170,31 +170,31 @@ const course: Course = {
       title: "Defining Works",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
         { type: "heading", content: "Brassaï — Paris de nuit (1933)" },
         {
           type: "paragraph",
           content:
-            "Published in 1933 with a text by Paul Morand, Paris de nuit was the first major photographic document of the nocturnal city as a distinct world with its own population, geography, and laws. Brassaï's images — made over several years of nightly wandering — move from monuments to brothels, from street cleaners to lovers under bridges. The book established the language of nocturnal photography that is still in use.",
+            "The book that created nocturnal photography as a tradition. Years of nightly wandering — from monuments to brothels, street cleaners to lovers under bridges. The language it established is still in use.",
         },
         { type: "heading", content: "Bill Henson — Dark Portraits (1990s–present)" },
         {
           type: "paragraph",
           content:
-            "Henson's large-scale prints of figures emerging from darkness recall Caravaggio as much as they recall photographic tradition. His subjects — often young, lit by a single directional source, placed against velvet darkness — exist in a psychological space between presence and dissolution. The prints are technically extraordinary: dense, rich blacks, subtle tonal gradations in the lit areas, a physical surface quality that gives them the weight of painting.",
+            "Large-scale prints. Dense, rich blacks. Young figures emerging from velvet darkness with a tonal quality that gives them the weight of painting. Caravaggio-level chiaroscuro in photographic form.",
         },
         { type: "heading", content: "Antoine d'Agata — Vortex (2003) and subsequent work" },
         {
           type: "paragraph",
           content:
-            "d'Agata's books — Vortex, Insomnia, Ice — document a life lived on the extreme margins of urban society, photographed from the inside. The images are deliberately degraded: blurred, grainy, underexposed, often abstracted to the point where the subject is barely legible. This degradation is not aesthetic failure but ethical statement: the photographer does not stand back to observe but plunges into the darkness he documents.",
+            "Blurred, grainy, underexposed, barely legible. d'Agata's books document extreme urban margins from the inside. The degradation isn't aesthetic failure — it's an ethical statement. He doesn't stand back.",
         },
         { type: "heading", content: "Anders Petersen — Café Lehmitz (1978)" },
         {
           type: "paragraph",
           content:
-            "Petersen spent several years as a regular at Café Lehmitz in Hamburg's harbour district before making photographs there. The book — not published until 1978, a decade after the photographs were made — documents an intimate nocturnal community with a warmth and directness that distinguishes it from mere darkness for its own sake. The grain, the available light, the close-range intimacy are all in service of human connection, not aesthetic effect.",
+            "Years as a regular before a single photograph was made. The warmth and directness that resulted is what distinguishes this from darkness for its own sake. Human connection as the actual subject.",
         },
       ],
       quiz: {
@@ -214,31 +214,31 @@ const course: Course = {
       title: "Modern Influence",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Fashion Photography's Nocturnal Turn" },
+        { type: "heading", content: "Fashion Went Dark — On Purpose" },
         {
           type: "paragraph",
           content:
-            "From the 1990s onward, fashion photography increasingly absorbed the midnight aesthetic as a signifier of premium, edgy, or transgressive brand identity. Dark, high-contrast images with deep blacks and isolated light sources communicated a nocturnal glamour that distinguished luxury brands from the clean, bright aesthetics of mass-market photography. Photographers like Mario Sorrenti and Mert and Marcus developed sophisticated commercial languages derived from the documentary nocturnal tradition.",
+            "From the 1990s onward, dark high-contrast imagery became a premium brand signifier. Mario Sorrenti, Mert and Marcus — commercial visual languages derived from the documentary nocturnal tradition, applied to luxury.",
         },
-        { type: "heading", content: "Midnight Editorial Aesthetics" },
+        { type: "heading", content: "Dark Editorial = Cultural Seriousness" },
         {
           type: "paragraph",
           content:
-            "Magazine editorial photography — particularly in publications like i-D, Dazed and Confused, and various fashion supplements — adopted nocturnal aesthetics as a marker of cultural seriousness. The dark editorial communicated that this was photography for people who knew about photography: it cited Petersen, Moriyama, Brassaï without naming them. The aesthetic carried cultural capital precisely because it required knowledge to decode.",
+            "i-D, Dazed, various fashion supplements adopted nocturnal aesthetics as shorthand for knowing, culturally sophisticated photography. The dark editorial cited Petersen and Moriyama without naming them.",
         },
         { type: "heading", content: "The Dark Instagram Aesthetic" },
         {
           type: "paragraph",
           content:
-            "A recognisable dark aesthetic emerged on Instagram in the 2010s: desaturated or cool-toned palettes, heavy shadows, moody atmospheric lighting, a sense of psychological intensity and urban solitude. This aesthetic drew on the documentary nocturnal tradition without necessarily being aware of it, translating the visual language of Moriyama and Petersen into a contemporary social media form that valorised moodiness and introspection.",
+            "Desaturated palettes, heavy shadows, moody atmospheric lighting, urban solitude. A whole visual register on Instagram in the 2010s, descending from Moriyama without most users knowing his name.",
         },
-        { type: "heading", content: "Influence on Music Visual Culture" },
+        { type: "heading", content: "Music Visual Culture Is Midnight's Home" },
         {
           type: "paragraph",
           content:
-            "Album cover photography, music video aesthetics, and artist portraiture have been profoundly influenced by midnight aesthetics. From Joy Division's sleeve designs to contemporary dark pop visual culture, the nocturnal aesthetic carries specific cultural meanings: seriousness, depth, an engagement with uncomfortable emotional territory. Music visual culture has been one of the primary routes through which midnight aesthetics have entered popular consciousness.",
+            "Album art, music videos, artist portraiture — from Joy Division's sleeves to contemporary dark pop. Midnight aesthetics carry specific cultural meaning: seriousness, depth, emotional range. Music got there early.",
         },
       ],
       quiz: {
@@ -258,43 +258,43 @@ const course: Course = {
       title: "What You Can Learn",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Practical Lessons From Midnight Aesthetics" },
+        { type: "heading", content: "Darkness Is a Tool, Not a Problem" },
         {
           type: "paragraph",
           content:
-            "The midnight aesthetic teaches you to think about darkness as material — something to be shaped and used rather than corrected. This requires a fundamental shift in how you approach exposure and lighting decisions.",
+            "The midnight aesthetic teaches you to think about darkness as material — something to shape and use rather than correct. That requires a fundamental shift in how you approach exposure.",
         },
-        { type: "heading", content: "1. Resist the Impulse to Fill the Shadows" },
+        { type: "heading", content: "1. Stop Filling the Shadows" },
         {
           type: "paragraph",
           content:
-            "The first instinct when photographing in low light is to add light — to use flash, to push ISO, to lift the shadows in post-processing. The midnight aesthetic asks you to resist this. Let shadows remain dark. Decide what should remain in darkness as a positive compositional choice, not a technical compromise.",
+            "The instinct in low light: add more light. Resist it. Let shadows stay dark. Decide what remains in darkness as a positive compositional choice — not a technical compromise.",
         },
-        { type: "heading", content: "2. Work With a Single Light Source" },
+        { type: "heading", content: "2. One Light Source. That's It." },
         {
           type: "paragraph",
           content:
-            "Find a single strong light source — a street lamp, a window, a doorway — and place your subject in relation to it. Notice how the hardness or softness of the source, its direction, and its distance affect the quality of shadow. The drama in midnight aesthetic images almost always comes from the relationship between a single light source and the darkness surrounding it.",
+            "Find a single strong source — a street lamp, a window, a doorway — and place your subject in relation to it. The drama almost always comes from the relationship between one light and the surrounding darkness.",
         },
-        { type: "heading", content: "3. Push Contrast in Post-Processing" },
+        { type: "heading", content: "3. Push Contrast in Processing" },
         {
           type: "paragraph",
           content:
-            "In processing, push the blacks deeper rather than lifting them. Use curves to block up the shadow tones while maintaining detail in the lit areas. The histogram of a midnight aesthetic image should be weighted toward the left: most of the tonal information in the deep shadows and dark midtones, with highlights as isolated bright elements.",
+            "Push the blacks deeper, not lighter. Use curves to block up shadows while maintaining detail in lit areas. The histogram should be weighted left — most tonal information in deep shadow and dark midtones.",
         },
-        { type: "heading", content: "4. Stay in One Location for a Long Time" },
+        { type: "heading", content: "4. Stay Somewhere for a Long Time" },
         {
           type: "paragraph",
           content:
-            "Brassaï and Petersen both worked their subjects over years, not evenings. Authentic nocturnal photography requires presence and time — not technical equipment. Spend a whole night in a single location rather than moving through multiple locations looking for visual interest. Depth comes from duration.",
+            "Brassaï and Petersen worked their subjects over years. Spend a whole night in one location instead of moving between locations chasing visual interest. Depth comes from duration.",
         },
-        { type: "heading", content: "5. Let Grain Work for You" },
+        { type: "heading", content: "5. Let the Grain Work" },
         {
           type: "paragraph",
           content:
-            "Embrace the grain or digital noise that comes from high ISO nocturnal shooting. In post-processing, add grain if you are shooting on a modern sensor that produces clean files. The texture of grain gives dark images a physical, material quality that is essential to the aesthetic. Smooth noise reduction destroys the very texture that the image requires.",
+            "Embrace the noise from high ISO shooting. Add grain if your sensor produces clean files. The texture of grain gives dark images a physical, material quality that smooth noise reduction destroys.",
         },
       ],
       reflection: {

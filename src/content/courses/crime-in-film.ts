@@ -16,30 +16,30 @@ const course: Course = {
       title: "The Crime Film: Origins",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Gangster Film as Early Hollywood Genre" },
+        { type: "heading", content: "The Gangster Film Was Born American" },
         {
           type: "paragraph",
           content:
-            "The gangster film was among the first distinctly American genres — not adapted from European literary tradition but native to American urban experience. Public Enemy (1931, William Wellman), Scarface (1932, Howard Hawks), and Little Caesar (1931, Mervyn LeRoy) established the genre's conventions: the immigrant outsider who achieves spectacular success through violence, the rise and inevitable fall, the ambivalence between moral condemnation and visceral admiration. James Cagney's Tom Powers in Public Enemy — shoving a grapefruit into Mae Clarke's face, dying in the final shot — was the model.",
+            "Not adapted from European literary tradition — native to American urban experience. Public Enemy, Scarface, Little Caesar (all 1931-32) set the template: immigrant outsider, spectacular rise through violence, inevitable fall, and an audience that couldn't quite decide whether to cheer or condemn.",
         },
-        { type: "heading", content: "The Production Code: Crime Must Be Punished" },
+        { type: "heading", content: "The Production Code: Crime Must Not Pay" },
         {
           type: "paragraph",
           content:
-            "The Production Code (Hays Code), formally enforced from 1934, imposed a rigid moral structure on Hollywood crime films: crime could not pay, criminals must be punished, sympathy for lawbreakers must be balanced by moral condemnation. Every crime film made between 1934 and the Code's effective collapse in the mid-1960s was required to conclude with the criminal's defeat — death, arrest, repentance. This forced narrative structure produced films of remarkable ingenuity, as filmmakers found ways to generate sympathy for characters they were also required to condemn.",
+            "The Hays Code (enforced 1934) required criminals to be punished and crime not to pay. Every crime film for three decades had to conclude with the criminal's defeat. This forced constraint produced remarkable ingenuity — filmmakers found ways to generate real sympathy for characters they were also required to condemn.",
         },
-        { type: "heading", content: "Film Noir: Crime as Stylistic Revolution" },
+        { type: "heading", content: "Film Noir: The Great Mutation" },
         {
           type: "paragraph",
           content:
-            "Film noir — a term applied by French critics to a cycle of American films made between roughly 1941 and 1958 — was the crime film's greatest aesthetic mutation. Influenced by German Expressionist cinema (many noir directors were European émigrés) and American hard-boiled fiction (Chandler, Hammett, James M. Cain), noir defined a visual and narrative vocabulary: low-key lighting with deep shadows, night exteriors slicked with rain, protagonists trapped by circumstances or desire, femmes fatales who weaponised male weakness.",
+            "French critics named a cycle of American films from roughly 1941-1958 that changed the crime film forever. Low-key lighting, rain-slicked streets, protagonists trapped by desire, women who weaponised male weakness — influenced by German Expressionism and American hard-boiled fiction.",
         },
         {
           type: "paragraph",
           content:
-            "Double Indemnity (1944, Wilder), The Maltese Falcon (1941, Huston), and Out of the Past (1947, Tourneur) are the canonical texts. Humphrey Bogart — in The Maltese Falcon and The Big Sleep — defined the noir detective: cynical, competent, ultimately ethical in a world where ethics required constant compromise. Film noir introduced moral ambiguity to mainstream American cinema in ways the Production Code could not entirely suppress.",
+            "Double Indemnity, The Maltese Falcon, Out of the Past — the canonical texts. Humphrey Bogart defined the noir detective: cynical, competent, ultimately ethical in a world that rewarded neither. Film noir slipped moral ambiguity past the Code.",
         },
       ],
       quiz: {
@@ -75,30 +75,30 @@ const course: Course = {
       title: "The New Hollywood Crime Film",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Collapse of the Code and New Hollywood" },
+        { type: "heading", content: "The Code Collapsed — and Hollywood Got Dark" },
         {
           type: "paragraph",
           content:
-            "The Production Code's effective collapse — driven by the 1968 introduction of the MPAA rating system — freed American filmmakers from mandatory moral closure. A new generation of directors, influenced by European art cinema (Godard, Fellini, Truffaut), began making crime films without the requirement that crime be punished. The resulting work was the core of New Hollywood: morally ambiguous, stylistically adventurous, often cynical about institutions — including law enforcement.",
+            "The 1968 MPAA rating system killed the Hays Code. A new generation of directors, influenced by Godard and Truffaut, made crime films without mandatory moral closure — morally ambiguous, stylistically adventurous, cynical about institutions, especially law enforcement.",
         },
-        { type: "heading", content: "The Godfather: The Legitimisation of Crime Cinema" },
+        { type: "heading", content: "The Godfather Changed What Hollywood Believed It Could Do" },
         {
           type: "paragraph",
           content:
-            "Francis Ford Coppola's The Godfather (1972) was the cultural event that legitimised the crime film as serious art. Adapted from Mario Puzo's bestselling novel, it received the best reviews of any crime film in history, won three Academy Awards including Best Picture, and became the highest-grossing film ever made at the time of its release. It demonstrated that crime cinema could achieve the formal and emotional seriousness of the great literary novels — and in doing so, it changed what Hollywood studios believed they could invest in.",
+            "Coppola's 1972 masterpiece got the best reviews of any crime film in history, won Best Picture, and became the highest-grossing film ever made. It proved crime cinema could achieve the seriousness of literary art — and unlocked the investment that made New Hollywood possible.",
         },
         {
           type: "paragraph",
           content:
-            "Chinatown (1974, Polanski) extended the tradition into neo-noir — a contemporary crime investigation set in 1930s Los Angeles that ends without resolution or justice. Dog Day Afternoon (1975, Lumet) based on a real bank robbery, presented crime as the desperate act of a man excluded from the American mainstream. Taxi Driver (1976, Scorsese) made the disturbed urban vigilante its protagonist.",
+            "Chinatown (1974) ended without justice. Dog Day Afternoon (1975) made crime a desperate act of exclusion. Taxi Driver (1976) made the vigilante the protagonist. The Code was dead — and the genre exploded.",
         },
-        { type: "heading", content: "Scorsese: The Great Crime Filmmaker" },
+        { type: "heading", content: "Scorsese: The Crime Film's Greatest Champion" },
         {
           type: "paragraph",
           content:
-            "Martin Scorsese is the central figure in American crime cinema's second half-century. Mean Streets (1973) — his breakthrough film — presented crime as a Catholic moral drama: guilt, honour, violence, and damnation in Little Italy. Goodfellas (1990) is widely considered his masterpiece: a two-and-a-half-hour account of mob life that is both seductive and annihilating, formally innovative (the voice-over, the tracking shot, the freeze frames) and emotionally exhausting. Casino (1995) told the Las Vegas story. The Departed (2006) brought the intelligence-infiltration narrative to Boston organised crime. The Irishman (2019) was his valediction — three and a half hours of twilight.",
+            "Mean Streets through The Irishman — Scorsese treated crime as Catholic moral drama, formal experiment, and social analysis simultaneously. Goodfellas remains the benchmark: seductive, annihilating, formally innovative, emotionally exhausting.",
         },
       ],
       quiz: {
@@ -134,31 +134,31 @@ const course: Course = {
       title: "Visual Language of the Crime Film",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Low-Key Lighting: The Noir Inheritance" },
+        { type: "heading", content: "Darkness Is a Moral Statement" },
         {
           type: "paragraph",
           content:
-            "The visual signature of the crime film — and of film noir specifically — is low-key lighting: high contrast between light and shadow, deep blacks, faces half-illuminated. This is not merely aesthetic. Darkness as a visual metaphor for moral ambiguity, concealment, and the unknown is one of cinema's oldest and most reliable resources. The crime film's long association with this visual grammar reflects the genre's subject matter: the world that operates outside the lit spaces of legitimate society.",
+            "Low-key lighting — high contrast, deep blacks, faces half-illuminated — isn't just aesthetic. Darkness maps moral ambiguity, concealment, and the unknown. The crime film's long association with shadow reflects its subject: the world operating outside legitimate society's lit spaces.",
         },
-        { type: "heading", content: "Confined Spaces and Criminal Claustrophobia" },
+        { type: "heading", content: "Confined Spaces Mirror Criminal Life" },
         {
           type: "paragraph",
           content:
-            "Crime films are characteristically set in confined, enclosed spaces — the basement, the car, the back booth of a restaurant. This spatial grammar mirrors the criminal world's reality: the constant proximity of violence, the impossibility of escape, the world contracted to the immediate group. The Sopranos' recurring scenes at the Bada Bing club and in Tony's car replicate the claustrophobic intimacy that is one of mob life's defining features.",
+            "Basements, car back seats, restaurant booths — crime films are characteristically claustrophobic. The spatial grammar mirrors the reality: constant proximity to violence, no exit, the world contracted to the immediate group.",
         },
-        { type: "heading", content: "The Meal Scene as Ritual" },
+        { type: "heading", content: "The Meal: Where Two Worlds Collide" },
         {
           type: "paragraph",
           content:
-            "Few narrative films use food as consistently and significantly as crime films. The Godfather's Sunday dinner scenes — warm, domestic, crowded — are the counterpoint to the violence they frame; the horse's head is a meal-time intrusion. The Sopranos turns the Sunday dinner into an ongoing performance of family normality against a background of constant threat. Goodfellas has Henry Hill cooking for the family while coordinating a cocaine shipment. The meal in these films is where legitimate and criminal worlds are held in tension.",
+            "No genre uses food as consistently as crime cinema. The Godfather's Sunday dinners counterpoint the violence they frame. Goodfellas has Henry Hill cooking for his family while coordinating a cocaine shipment. The meal is where legitimate and criminal worlds are held in tension.",
         },
-        { type: "heading", content: "The Steadicam and the Long Take" },
+        { type: "heading", content: "The Long Take as Seduction" },
         {
           type: "paragraph",
           content:
-            "Two technical innovations shaped New Hollywood crime cinema's visual vocabulary. The steadicam — developed in the 1970s — allowed extended following shots with the fluidity of handheld and the stability of a dolly. Scorsese's Copacabana sequence in Goodfellas — a single two-and-a-half-minute take following Henry and Karen through the back entrance of the club — uses the steadicam to replicate the seductive momentum of the life itself: everything flowing, the world opening up, the crowd parting. The extended single take in crime films — from Touch of Evil's opening to the Copacabana — creates an immersive complicity that editing would disrupt.",
+            "The steadicam enabled extended following shots — and Scorsese's Copacabana sequence in Goodfellas used it brilliantly. A single two-and-a-half-minute take following Henry and Karen through the club replicates the momentum of the life itself: everything flowing, the world opening up, no obvious moment to stop.",
         },
       ],
       quiz: {
@@ -194,31 +194,31 @@ const course: Course = {
       title: "Essential Films",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 9,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "The Essential Canon" },
+        { type: "heading", content: "The Canon: Four Films You Need" },
         {
           type: "paragraph",
           content:
-            "Any serious engagement with crime cinema requires familiarity with a core canon. The Godfather (1972, Coppola) remains the genre's defining achievement — operatic, tragic, formally immaculate. Chinatown (1974, Polanski) is the definitive neo-noir: an investigation into institutional corruption with no resolution. Goodfellas (1990, Scorsese) is the most formally inventive mob film and the most honest about the life's actual texture. Heat (1995, Michael Mann) is the supreme procedural — police and criminal as mirror images, the longest preparation for the briefest contact.",
+            "The Godfather (1972): operatic, tragic, formally immaculate — the genre's defining achievement. Chinatown (1974): the definitive neo-noir, ending without justice. Goodfellas (1990): most formally inventive mob film, most honest about the actual texture of the life. Heat (1995): the supreme procedural — police and criminal as perfect mirrors.",
         },
-        { type: "heading", content: "The 1990s and 2000s" },
+        { type: "heading", content: "The 1990s and 2000s Raised the Bar" },
         {
           type: "paragraph",
           content:
-            "Fargo (1996, Coen Brothers) introduced regional American crime — the midwest, the snow, the banal brutality of small-scale criminals — with dark comedy that revealed something the urban crime film missed: most crime is stupid, mundane, and poorly planned. L.A. Confidential (1997, Curtis Hanson) restored the noir tradition with period precision. The Departed (2006, Scorsese) — his remake of Infernal Affairs — won the Academy Award for Best Picture and is the definitive Hollywood treatment of the double-infiltration narrative. No Country for Old Men (2007, Coen Brothers) presents crime as entropy — the Chigurh figure as impersonal force rather than villain.",
+            "Fargo revealed that most crime is stupid and poorly planned — a corrective to mob-film sophistication. L.A. Confidential restored period noir. The Departed won Best Picture. No Country for Old Men presented crime as entropy — Chigurh as impersonal force, not villain.",
         },
-        { type: "heading", content: "Gomorrah and the Anti-Glamour" },
+        { type: "heading", content: "Gomorrah: No Suits, No Respect, No Code" },
         {
           type: "paragraph",
           content:
-            "Matteo Garrone's Gomorrah (2008), based on Roberto Saviano's book, is the most rigorous anti-glamour crime film in the international canon. Shot in and around the Camorra estates of Naples with a predominantly non-professional cast, it presents five interlocking stories of people caught in the Camorra's orbit — none of them powerful, all of them damaged. There are no suits, no respect, no code. There is only the mechanism: the estate, the contract, the body.",
+            "Garrone's Gomorrah (2008) — shot on Camorra estates with non-professional actors — presents five interlocking stories of people caught in the organisation's orbit. None of them are powerful. All of them are damaged. It is the most rigorous anti-glamour crime film ever made.",
         },
-        { type: "heading", content: "Sicario: The Institution as Criminal" },
+        { type: "heading", content: "Sicario: The State Becomes the Criminal" },
         {
           type: "paragraph",
           content:
-            "Denis Villeneuve's Sicario (2015) occupies a distinctive position in contemporary crime cinema: a film in which the criminal organisation and the state apparatus fighting it become morally indistinguishable. Emily Blunt's FBI agent is the point-of-view character precisely because she cannot understand what she is part of — she is used as legal cover for operations that violate everything her training tells her is permissible. The film argues that the war on drugs requires methods that transform its practitioners into what they are fighting.",
+            "Villeneuve's Sicario (2015) makes its FBI agent protagonist a point-of-view character precisely because she cannot understand what she's been recruited into. The film's argument: the war on drugs requires methods that transform its practitioners into what they're fighting.",
         },
       ],
       quiz: {
@@ -254,31 +254,31 @@ const course: Course = {
       title: "Crime Cinema Beyond Hollywood",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 8,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "City of God: The Inside Account" },
+        { type: "heading", content: "City of God: Crime From the Inside" },
         {
           type: "paragraph",
           content:
-            "Fernando Meirelles and Kátia Lund's City of God (2002) — based on Paulo Lins' novel about the Cidade de Deus housing project in Rio de Janeiro — is perhaps the most formally revolutionary crime film of the 21st century. Shot with handheld cameras, a kinetic editing style influenced by music video, and a predominantly Black cast including non-professional actors from the favelas, it presents the drug economy from inside: from the perspective of those for whom it is the only visible economic structure, the only path to the status that the wider society denies them.",
+            "Meirelles and Lund's City of God (2002) — shot handheld in Rio's Cidade de Deus with non-professional actors from the favelas — presents the drug economy from the perspective of those for whom it is the only visible economic structure. Formally revolutionary; internationally influential.",
         },
-        { type: "heading", content: "A Prophet and the European Prison Epic" },
+        { type: "heading", content: "A Prophet: The Prison as France" },
         {
           type: "paragraph",
           content:
-            "Jacques Audiard's A Prophet (2009) — the story of Malik, an Arab-French man who enters prison uneducated and illiterate and navigates his way through the Corsican and Arab criminal worlds within it — is the European crime film of its generation. Its subject is education in the most extreme sense: learning how to survive, learning how to read, learning how to accumulate power in a closed system. The prison is a microcosm of French society's stratifications of race, class, and criminality.",
+            "Audiard's A Prophet (2009) follows Malik — Arab-French, illiterate, nobody — as he learns to read, survive, and accumulate power inside a French prison. The prison is a microcosm of French society's stratifications of race, class, and criminality. The European crime film of its generation.",
         },
-        { type: "heading", content: "British Crime Cinema: Get Carter to Sexy Beast" },
+        { type: "heading", content: "British Crime: Bleak, Morally Void, Excellent" },
         {
           type: "paragraph",
           content:
-            "British crime cinema has its own tradition, distinct from Hollywood's. Get Carter (1971, Mike Hodges) — Michael Caine as a London gangster returning to Newcastle — is the foundational text: bleaker than anything Hollywood produced at the same time, with a moral void at its centre. The Long Good Friday (1980, John Mackenzie) presents the British criminal class attempting to legitimise itself through property development at the exact moment the IRA disrupts its plans. Jonathan Glazer's Sexy Beast (2000) inverts the genre — a retired gangster who just wants to be left alone, pursued by a figure (Ben Kingsley) who is terrifying not through physical menace but through the relentlessness of his will.",
+            "Get Carter (1971) established the British tradition — bleaker than anything Hollywood produced, a moral void at its centre. The Long Good Friday presented the criminal class attempting legitimacy at the exact moment the IRA disrupted it. Sexy Beast inverted the genre: a retired gangster who just wants to be left alone.",
         },
-        { type: "heading", content: "Memories of Murder and Korean Crime Cinema" },
+        { type: "heading", content: "Korea: Crime Without Resolution" },
         {
           type: "paragraph",
           content:
-            "Bong Joon-ho's Memories of Murder (2003) — based on South Korea's first serial murder case — uses the crime investigation as a vehicle for examining the inadequacy of state institutions: underfunded, under-trained police in a country still emerging from military dictatorship. The film ends without resolution, the murderer unidentified — an ending that would be unthinkable in Hollywood crime cinema, where the mystery must be solved. Parasite (2019) reconfigured crime as class analysis: the Kim family's infiltration of the Park household as a heist film about the extremities of South Korean inequality.",
+            "Bong Joon-ho's Memories of Murder ends without identifying the killer — unthinkable in Hollywood. Parasite reconfigured crime as class analysis: infiltration as heist, inequality as the true subject. Korean cinema found angles Hollywood couldn't.",
         },
       ],
       quiz: {
@@ -314,37 +314,37 @@ const course: Course = {
       title: "What Crime Films Tell Us",
       type: "text",
       xpReward: 50,
-      estimatedMinutes: 10,
+      estimatedMinutes: 3,
       blocks: [
-        { type: "heading", content: "Crime Films Are Always About Legitimate Society" },
+        { type: "heading", content: "Crime Films Are Never Just About Crime" },
         {
           type: "paragraph",
           content:
-            "The crime film's paradox is that it is never simply about crime. It is about the society that produces crime — what it excludes, what it rewards, what desires it generates that it cannot satisfy through legitimate means. Every great crime film is, at a deeper level, a film about the society its criminals inhabit. The criminal is a figure who reveals what the legitimate world conceals: the violence underlying property relationships, the arbitrariness of the line between legitimate and illegitimate business, the structural exclusions that make crime rational.",
+            "Every great crime film is, at a deeper level, about the society its criminals inhabit. The criminal reveals what legitimate life conceals: the violence underlying property, the arbitrary line between the corporate raider and the racketeer, the exclusions that make crime rational.",
         },
-        { type: "heading", content: "The Godfather as Immigrant Epic" },
+        { type: "heading", content: "The Godfather Is an Immigrant Epic" },
         {
           type: "paragraph",
           content:
-            "The Godfather is, at its deepest level, a film about the American immigrant experience and its ambivalent relationship to American capitalism. The Corleones are a family that built what they have through methods the legitimate economy would not permit them to use — because the legitimate economy would not have them. Michael Corleone's tragedy is the second generation's tragedy: born into opportunity, educated at Ivy League institutions, a war hero — and yet returned to the family business because the legitimate world offered him no equivalent power. The film's elegiac quality comes from this: Coppola mourns something that was never, in fact, admirable.",
+            "The Corleones built what they have through methods the legitimate economy wouldn't permit them — because it wouldn't have them. Michael's tragedy is the second generation's tragedy: all the right credentials, still pulled back into the family business. Coppola mourns something that was never admirable.",
         },
-        { type: "heading", content: "Goodfellas as Status Story" },
+        { type: "heading", content: "Goodfellas Is a Status Story" },
         {
           type: "paragraph",
           content:
-            "Goodfellas is a film about what it feels like to have status when you are otherwise without it. Henry Hill is a nobody — half-Irish, half-Italian, ineligible for full membership in either the mob or the American mainstream. The mob gives him what the legitimate world cannot: money, respect, the feeling of consequence. The film takes this seriously, does not condescend to it. Then it shows what that status costs. The story is not about the immorality of crime but about the economics and psychology of status — which makes it as much about legitimate society as about criminal life.",
+            "Henry Hill was a nobody — the mob gave him money, respect, and consequence that the legitimate world withheld. Goodfellas takes this seriously, doesn't condescend to it. Then it shows exactly what that status costs. It's as much about legitimate society as about crime.",
         },
-        { type: "heading", content: "City of God as Structural Poverty" },
+        { type: "heading", content: "City of God Is Structural Poverty on Screen" },
         {
           type: "paragraph",
           content:
-            "City of God refuses the psychological explanation for crime — the bad character, the damaged childhood, the individual moral failure. Its drug economy is structural: it exists because no other economy is accessible to the people of the Cidade de Deus. The film's narrator, Rocket, wants to be a photographer — a legitimate, aspirational career. The film's interest is in how that aspiration survives in conditions designed to extinguish it, and what it costs. Crime in City of God is not a choice in any meaningful sense; it is the visible economy of structural exclusion.",
+            "The film refuses the psychological explanation for crime. The drug economy of the Cidade de Deus exists because no other economy is accessible to its residents. Crime isn't a choice in any meaningful sense — it's the visible economy of structural exclusion.",
         },
         { type: "heading", content: "The Mirror at an Angle" },
         {
           type: "paragraph",
           content:
-            "The crime film is a mirror held at an angle — it reflects legitimate society, but at a tilt that reveals what a straight reflection would conceal. The violence that underlies property relationships. The arbitrary distinction between the corporate raider and the racketeer. The status hierarchies that drive both Wall Street and the mob. The exclusions that make criminal markets the most accessible economic opportunity for large portions of every society. These are not radical insights in themselves; the crime film is the genre that makes them visible.",
+            "The crime film reflects legitimate society at a tilt that reveals what a straight reflection would hide: the violence underlying property, the blurred line between the Wall Street trader and the racketeer, the status hierarchies that drive both. These aren't radical insights. The crime film just makes them visible.",
         },
       ],
       reflection: {
