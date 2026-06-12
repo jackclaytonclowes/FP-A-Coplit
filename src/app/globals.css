@@ -110,10 +110,10 @@
   --text-h1:           700 26px/1.18 var(--font-display);
   --text-h2:           600 20px/1.25 var(--font-display);
   --text-h3:           600 16px/1.35 var(--font-display);
-  --text-body:         400 14px/1.55 var(--font-sans);
-  --text-body-strong:  600 14px/1.55 var(--font-sans);
+  --text-body:         400 15px/1.72 var(--font-sans);
+  --text-body-strong:  600 15px/1.72 var(--font-sans);
   --text-label:        600 12px/1.3  var(--font-sans);
-  --text-caption:      400 12.5px/1.4 var(--font-sans);
+  --text-caption:      400 13px/1.6 var(--font-sans);
   --text-metric:       600 32px/1.05 var(--font-mono);
   --text-data:         500 13.5px/1.4 var(--font-mono);
 }

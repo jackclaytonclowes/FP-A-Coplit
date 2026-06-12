@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className="h-full">
       <body>
         <TopBar />
-        <main style={{ paddingBottom: "5rem" }}>{children}</main>
+        <main style={{ paddingBottom: "calc(5rem + env(safe-area-inset-bottom, 0px))" }}>{children}</main>
         <BottomNav />
         <XPPopup />
       </body>

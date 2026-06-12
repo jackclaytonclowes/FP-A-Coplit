@@ -85,7 +85,7 @@ export default function LessonPage({ params }: { params: Promise<{ courseId: str
           <p style={{ font: "var(--text-label)", color: "var(--fg-3)", marginBottom: 4 }}>{course.title}</p>
           <h1 style={{ font: "var(--text-h1)", color: "var(--fg-1)", marginBottom: 24 }}>{lesson.title}</h1>
 
-          <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: 20 }}>
+          <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: 22 }}>
             {lesson.blocks.map((block, i) => (
               <BlockRenderer key={i} block={block} accent={accent} />
             ))}
@@ -287,17 +287,17 @@ function BlockRenderer({ block, accent }: { block: LessonBlock; accent: string }
         <h2 style={{
           font: "var(--text-h3)", color: "var(--fg-1)",
           paddingLeft: 12, borderLeft: `3px solid ${accent}`,
-          margin: "8px 0 0",
+          margin: "10px 0 0",
         }}>
           {block.content}
         </h2>
       )
     case "paragraph":
-      return <p style={{ font: "var(--text-body)", color: "var(--fg-2)", lineHeight: 1.65 }}>{block.content}</p>
+      return <p style={{ font: "var(--text-body)", color: "var(--fg-2)", lineHeight: 1.72 }}>{block.content}</p>
     case "quote":
       return (
         <blockquote style={{ borderLeft: `2px solid ${accent}`, paddingLeft: 16, margin: 0 }}>
-          <p style={{ font: "var(--text-body)", color: "var(--fg-2)", fontStyle: "italic", lineHeight: 1.65 }}>"{block.content}"</p>
+          <p style={{ font: "var(--text-body)", color: "var(--fg-2)", fontStyle: "italic", lineHeight: 1.72 }}>"{block.content}"</p>
           {block.author && (
             <p style={{ font: "var(--text-caption)", color: "var(--fg-3)", marginTop: 6 }}>— {block.author}</p>
           )}
@@ -305,7 +305,7 @@ function BlockRenderer({ block, accent }: { block: LessonBlock; accent: string }
       )
     case "list":
       return (
-        <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: 8 }}>
+        <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: 10 }}>
           {block.items?.map((item, i) => (
             <li key={i} style={{ display: "flex", gap: 10, alignItems: "flex-start", font: "var(--text-body)", color: "var(--fg-2)" }}>
               <span style={{ marginTop: 7, width: 6, height: 6, borderRadius: "50%", background: accent, flexShrink: 0 }} />
