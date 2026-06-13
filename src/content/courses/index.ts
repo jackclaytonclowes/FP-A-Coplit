@@ -60,6 +60,7 @@ import moodboarding from "./moodboarding"
 import brandStrategy from "./brand-strategy"
 import consumerPsychology from "./consumer-psychology"
 import luxuryBranding from "./luxury-branding"
+import brutalism from "./brutalism"
 
 export const ALL_COURSES: Course[] = [
   photographyFoundations,
@@ -123,6 +124,7 @@ export const ALL_COURSES: Course[] = [
   brandStrategy,
   consumerPsychology,
   luxuryBranding,
+  brutalism,
 ]
 
 export const COURSES_BY_ID: Record<string, Course> = Object.fromEntries(

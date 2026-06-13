@@ -16,6 +16,7 @@ const CATEGORY_ORDER = [
   "creative-direction",
   "marketing",
   "art-history",
+  "architecture",
   "glossary",
 ]
 
@@ -31,6 +32,7 @@ export const CATEGORY_LABELS: Record<string, string> = {
   "creative-direction":      "Creative Direction",
   "marketing":               "Marketing & Branding",
   "art-history":             "Art History",
+  "architecture":            "Architecture",
   "glossary":                "Glossary",
 }
 
@@ -46,6 +48,7 @@ export const CATEGORY_EMOJI: Record<string, string> = {
   "creative-direction":      "💡",
   "marketing":               "📊",
   "art-history":             "🖼️",
+  "architecture":            "🏛️",
   "glossary":                "📖",
 }
 
@@ -61,6 +64,7 @@ const CATEGORY_DESCRIPTIONS: Record<string, string> = {
   "creative-direction":      "From concept brief to finished campaign",
   "marketing":               "Brand, psychology, and desire",
   "art-history":             "Coming soon",
+  "architecture":            "Brutalism, modernism, and buildings that changed how we live",
   "glossary":                "Coming soon",
 }
 

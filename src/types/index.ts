@@ -59,6 +59,7 @@ export type CourseCategory =
   | "creative-direction"
   | "marketing"
   | "art-history"
+  | "architecture"
   | "glossary"
 
 export interface Photographer {
