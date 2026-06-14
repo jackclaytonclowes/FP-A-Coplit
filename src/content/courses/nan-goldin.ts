@@ -22,6 +22,12 @@ const course: Course = {
       blocks: [
         { type: "heading", content: "She Photographed So She Wouldn't Forget" },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Nan_Goldin.jpg/1280px-Nan_Goldin.jpg",
+          caption: "Nan Goldin, photographer and activist",
+          alt: "Portrait of photographer Nan Goldin",
+        },
+        {
           type: "paragraph",
           content:
             "Goldin's older sister committed suicide when Nan was 11. That loss became a lifelong obsession: document the people you love before they disappear.",
