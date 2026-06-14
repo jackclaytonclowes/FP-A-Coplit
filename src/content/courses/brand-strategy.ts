@@ -163,6 +163,12 @@ const course: Course = {
           content:
             "Gather all touchpoints — website, packaging, ads, retail, social — and ask: do these feel like they come from the same brand? Where inconsistencies appear, look for the unclear or unenforced strategy underneath them.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Christian_Dior_-_1947.jpg/800px-Christian_Dior_-_1947.jpg",
+          caption: "Dior's 1947 New Look: an identity so precisely articulated — a single silhouette, a clear visual philosophy — that it has governed a house's visual language for nearly eight decades",
+          alt: "Christian Dior in 1947, embodying the visual philosophy of the New Look collection",
+        },
       ],
       quiz: {
         question: "Why should each element of a brand identity system be determined by positioning rather than aesthetic preference?",
@@ -270,6 +276,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "Equity isn't built by one brilliant campaign. It's built by hundreds of consistent ordinary encounters — every product that delivers as expected, every service interaction that matches the brand's character, every communication that feels true.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dali_Atomicus_%281948%29_by_Philippe_Halsman.jpg/1280px-Dali_Atomicus_%281948%29_by_Philippe_Halsman.jpg",
+          caption: "Dalí Atomicus — a collaboration between Halsman and Dalí sustained over years. Consistent collaboration builds a visual identity that becomes recognisable as belonging to a specific creative intelligence",
+          alt: "Philippe Halsman's Dalí Atomicus photograph",
         },
         { type: "heading", content: "Destroyed by Inconsistency" },
         {

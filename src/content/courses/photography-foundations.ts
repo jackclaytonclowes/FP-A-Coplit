@@ -282,6 +282,12 @@ const course: Course = {
           content:
             "Wide apertures (f/1.4) isolate a subject in soft blur. Narrow apertures (f/8) keep everything sharp. Paolo Roversi shoots near-wide-open on large-format film — the dreamlike softness is entirely intentional.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/35mm_lens_aperture.jpg/1280px-35mm_lens_aperture.jpg",
+          caption: "The aperture iris: the mechanical diaphragm that controls depth of field — the most fundamental creative control in photography, determining what is sharp and what dissolves into blur",
+          alt: "Close-up of a 35mm lens aperture showing the geometric iris blade pattern",
+        },
       ],
       quiz: {
         question: "Which focal length range is typically associated with compressing background distance and creating background blur (bokeh)?",
@@ -404,6 +410,12 @@ const course: Course = {
           content:
             "Tillmans built his practice around what happens before and after the pose — the unguarded glance, the body at rest, the face between expressions. These moments often contain more truth than the posed image.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Avedon_nyc_1969.jpg/800px-Avedon_nyc_1969.jpg",
+          caption: "Richard Avedon in New York, 1969: the photographer who made the white background famous — stripping away environment to force complete attention onto the human subject",
+          alt: "Richard Avedon photographed in New York in 1969",
+        },
       ],
       quiz: {
         question: "Richard Avedon was known for his portrait style of shooting subjects against what kind of background?",
@@ -520,6 +532,12 @@ const course: Course = {
           type: "quote",
           content: "The camera is an instrument that teaches people how to see without a camera.",
           author: "Dorothea Lange",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Lange-MigrantMother02.jpg/1280px-Lange-MigrantMother02.jpg",
+          caption: "Migrant Mother by Dorothea Lange (1936): the defining image of documentary photography's social responsibility — photographing poverty, dignity, and the human cost of economic crisis",
+          alt: "Dorothea Lange's Migrant Mother photograph showing a worried mother with children in a migrant workers' camp",
         },
       ],
       quiz: {

@@ -101,6 +101,12 @@ const course: Course = {
           content:
             "Carson art directed Ray Gun with extreme typographic deconstructivism — illegible fonts, images layered over text, visual noise as a statement. It was a critique of readability and a preview of the internet's visual language.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Avedon_nyc_1969.jpg/800px-Avedon_nyc_1969.jpg",
+          caption: "Richard Avedon in New York, 1969 — trained under Brodovitch at Harper's Bazaar, he became the defining portrait photographer of his era and the proof of his teacher's methods",
+          alt: "Richard Avedon photographed in New York in 1969",
+        },
       ],
       quiz: {
         question: "What was Alexey Brodovitch's central teaching principle, and what did it mean in practice?",
@@ -282,6 +288,12 @@ const course: Course = {
           type: "quote",
           content: "In advertising you have one image to say everything. In editorial you have twelve pages to say nothing, or everything. The discipline is different but the intelligence is the same.",
           author: "Fabien Baron",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dali_Atomicus_%281948%29_by_Philippe_Halsman.jpg/1280px-Dali_Atomicus_%281948%29_by_Philippe_Halsman.jpg",
+          caption: "Dalí Atomicus by Philippe Halsman (1948): the result of art direction at its most ambitious — a single image that took 28 takes and required precise coordination of timing, physics, and visual intelligence",
+          alt: "Philippe Halsman's Dalí Atomicus, showing Salvador Dalí leaping with cats and splashing water",
         },
       ],
       quiz: {

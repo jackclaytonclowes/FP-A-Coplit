@@ -40,6 +40,12 @@ const course: Course = {
           content:
             "Every creative director at Dior answered the same question differently: what does this house actually stand for? The succession is fashion's richest argument about identity, heritage, and reinvention.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Christian_Dior_-_1947.jpg/800px-Christian_Dior_-_1947.jpg",
+          caption: "Christian Dior in 1947: the founder whose single collection created a house identity so powerful it has survived twelve creative directors and nearly eight decades",
+          alt: "Christian Dior photographed in 1947, the year of the landmark New Look collection",
+        },
       ],
       quiz: {
         question: "What was Karl Lagerfeld's core insight about the Chanel brand codes that enabled his thirty-six-year tenure?",
@@ -222,6 +228,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "Most luxury goods are produced industrially, however expensively. Hermès insists on genuine artisanal manufacture. You can verify the hours. You can feel the quality. In a world of mass luxury, that insistence is the most powerful brand statement possible.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dali_Atomicus_%281948%29_by_Philippe_Halsman.jpg/1280px-Dali_Atomicus_%281948%29_by_Philippe_Halsman.jpg",
+          caption: "Dalí Atomicus by Philippe Halsman (1948): the kind of extraordinary image that luxury fashion houses commission — where craft, spectacle, and artistic vision converge",
+          alt: "Philippe Halsman's Dalí Atomicus photograph showing Salvador Dalí mid-leap with cats and water",
         },
       ],
       quiz: {

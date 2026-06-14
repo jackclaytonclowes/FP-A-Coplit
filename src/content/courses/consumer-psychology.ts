@@ -224,6 +224,12 @@ const course: Course = {
           content:
             "Most luxury brand followers can't afford the product. But their awareness is essential — the Birkin's signal value depends on the majority knowing what a Birkin is and knowing they can't have one. Luxury marketing targets two audiences at once: the actual buyer and the aspirational many.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Christian_Dior_-_1947.jpg/800px-Christian_Dior_-_1947.jpg",
+          caption: "Christian Dior, 1947: the designer whose New Look demonstrated that luxury fashion sells aspiration and identity, not clothes — the aspirational majority made the actual purchases meaningful",
+          alt: "Christian Dior photographed in 1947, the year his luxury fashion vision changed how the world dressed",
+        },
       ],
       quiz: {
         question: "Why does discounting damage luxury brand equity more severely than it damages standard consumer brand equity?",
@@ -283,6 +289,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "For brand managers: lead with emotion, follow with reason. For creative directors: the image that feels right in three seconds outperforms a paragraph of product benefits. System 1 decides. System 2 explains.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dali_Atomicus_%281948%29_by_Philippe_Halsman.jpg/1280px-Dali_Atomicus_%281948%29_by_Philippe_Halsman.jpg",
+          caption: "Dalí Atomicus operates entirely on System 1: the visceral, immediate emotional impact of suspended chaos. The rational reading — atomic age anxiety, Surrealist philosophy — comes after",
+          alt: "Dalí Atomicus, demonstrating how great images communicate emotionally before rationally",
         },
       ],
       quiz: {

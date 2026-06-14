@@ -41,6 +41,12 @@ const course: Course = {
           content:
             "Nike's 'Just Do It' isn't a product description — it's a philosophy about inertia and the decision to move anyway. Apple's '1984' isn't a feature list — it's a position: we're the ones who break the monopoly. Both answer 'what are we saying?' with something that outlasts any product.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dali_Atomicus_%281948%29_by_Philippe_Halsman.jpg/1280px-Dali_Atomicus_%281948%29_by_Philippe_Halsman.jpg",
+          caption: "Dalí Atomicus (1948): Halsman's concept — suspending everything simultaneously to visualise atomic-age anxiety — is the image's entire logic. Concept came first; the visual followed inevitably",
+          alt: "Philippe Halsman's Dalí Atomicus showing Dalí leaping with cats, water, and easel mid-air",
+        },
       ],
       quiz: {
         question: "What is the essential difference between a theme and a concept?",
@@ -99,6 +105,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "Bad sign: you can describe the project entirely in terms of its references ('it's like this film meets this photo'). If you can't state the concept before showing references, the research hasn't done its job.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Man_Ray_Salvador_Dali.jpg/1280px-Man_Ray_Salvador_Dali.jpg",
+          caption: "Man Ray and Salvador Dalí: two practitioners whose concepts came from ideas first — Surrealism's theoretical framework generating images, not the other way round",
+          alt: "Photograph of Man Ray and Salvador Dalí together",
         },
       ],
       quiz: {

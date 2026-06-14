@@ -110,6 +110,12 @@ const course: Course = {
           content: "Balenciaga was the master of us all.",
           author: "Christian Dior",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Christian_Dior_-_1947.jpg/800px-Christian_Dior_-_1947.jpg",
+          caption: "Christian Dior in 1947, the year his New Look — nipped waists, padded hips, and full skirts — divided the fashion world and named an era",
+          alt: "Christian Dior photographed in 1947, the year of the New Look collection",
+        },
       ],
       quiz: {
         question: "What was Chanel's radical innovation in using costume jewellery?",
@@ -326,6 +332,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "Fashion historians can date a garment to within a few years by silhouette alone. The hourglass 50s, the geometric 60s, the padded 80s, the minimal 90s — each outline encodes a whole cultural moment.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Christian_Dior_-_1947.jpg/800px-Christian_Dior_-_1947.jpg",
+          caption: "Dior's 1947 New Look silhouette in portrait: the hourglass shape that became the defining outline of postwar fashion's return to femininity",
+          alt: "Christian Dior in 1947, representing the era of the New Look silhouette",
         },
         { type: "heading", content: "What to Look For" },
         {

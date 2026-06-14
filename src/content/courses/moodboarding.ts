@@ -100,6 +100,12 @@ const course: Course = {
           content:
             "The most memorable moodboards contain at least one image that surprises the viewer — one that isn't obviously related but captures something essential. It works precisely because it doesn't illustrate. It illuminates from an unexpected angle.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dali_Atomicus_%281948%29_by_Philippe_Halsman.jpg/1280px-Dali_Atomicus_%281948%29_by_Philippe_Halsman.jpg",
+          caption: "Dalí Atomicus by Halsman: on any moodboard about gravity, chaos, or the collision of order and disorder, this image would be the one that works precisely because it doesn't obviously illustrate",
+          alt: "Dalí Atomicus, the unexpected image that captures something essential without directly illustrating it",
+        },
       ],
       quiz: {
         question: "Why is it more productive to look for visual references outside your project's immediate field?",
@@ -158,6 +164,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "Ten images pointing at slightly different things produce visual noise. Five images all pointing at the same thing produce communication. Rule: if an image isn't saying something no other image on the board says, cut it.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Avedon_nyc_1969.jpg/800px-Avedon_nyc_1969.jpg",
+          caption: "Richard Avedon, New York, 1969 — a portrait by a photographer who understood the power of removing everything unnecessary and leaving only the essential element",
+          alt: "Richard Avedon photographed in New York in 1969",
         },
       ],
       quiz: {

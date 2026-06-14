@@ -42,6 +42,12 @@ const course: Course = {
           content:
             "Bong Joon-ho, Park Chan-wook, Kim Jee-woon, Lee Chang-dong — all arrived simultaneously. They had genre as a vehicle and creative freedom as fuel. The result was unlike any national cinema before or since.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Seoul_at_night.jpg/1280px-Seoul_at_night.jpg",
+          caption: "Seoul at night: the city whose democratic transformation, economic crisis, and chaebol inequality gave Korean New Wave cinema its urgency and subject matter",
+          alt: "Seoul cityscape at night with bright lights and urban density",
+        },
       ],
       quiz: {
         question: "What two political and economic events were most formative for the Korean New Wave generation?",
@@ -101,6 +107,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "Poetry, Burning, Secret Sunshine — literary cinema that attends to lives society ignores. Burning delivers its horror almost imperceptibly. His restraint hits harder than most filmmakers' explosions.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bong_Joon-ho_FilmFest_Muenchen_04Jul2019.jpg/1280px-Bong_Joon-ho_FilmFest_Muenchen_04Jul2019.jpg",
+          caption: "Bong Joon-ho at the Munich Film Festival, 2019 — the year Parasite became the first non-English film to win the Academy Award for Best Picture",
+          alt: "Bong Joon-ho at the Munich International Film Festival in 2019",
         },
         { type: "heading", content: "Na Hong-jin and Hong Sang-soo: The Extremes" },
         {
@@ -292,6 +304,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "The Handmaiden, A Tale of Two Sisters, Lady Vengeance — all centre women's confinement and resistance. Recent Korean films by women directors address gender inequality with increasing directness.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Seoul_City_Center_from_Seoul_Tower_(N-Seoul_Tower)_(5678277721).jpg/1280px-Seoul_City_Center_from_Seoul_Tower_(N-Seoul_Tower)_(5678277721).jpg",
+          caption: "Seoul from above: the chaebol-shaped city where Parasite's spatial hierarchy — sub-basement and penthouse — describes a real economic and architectural divide",
+          alt: "Seoul city centre seen from N Seoul Tower, showing the dense urban landscape",
         },
       ],
       quiz: {

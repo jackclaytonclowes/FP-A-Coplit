@@ -51,6 +51,12 @@ const course: Course = {
             "The Birds (1963) — irrational threat, the breakdown of natural order",
           ],
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Technician_35mm_projector.jpg/1280px-Technician_35mm_projector.jpg",
+          caption: "Cinema's machinery: Hitchcock understood the projector beam and the darkened room as instruments of psychological control over audiences",
+          alt: "Film technician operating a 35mm film projector",
+        },
       ],
       quiz: {
         question: "What is the difference between suspense and surprise as Hitchcock defined it?",
@@ -176,6 +182,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "In Psycho, the camera adopts Norman Bates's point of view at key moments. You see what he sees. That makes you an accomplice — and that's the thriller's darkest move.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Abandoned_factory.jpg/1280px-Abandoned_factory.jpg",
+          caption: "Industrial darkness and architectural paranoia: the thriller's visual language of shadow, isolation, and the spaces in which minds unravel",
+          alt: "Abandoned factory with dramatic light and shadow, creating an atmosphere of isolation",
         },
       ],
       quiz: {

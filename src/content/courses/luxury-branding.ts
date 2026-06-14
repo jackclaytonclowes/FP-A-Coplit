@@ -122,6 +122,12 @@ const course: Course = {
           content:
             "The product must actually justify the price. Feel of the leather, weight of the hardware, precision of the stitching — these are physical evidence that the price isn't pure fantasy.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Christian_Dior_-_1947.jpg/800px-Christian_Dior_-_1947.jpg",
+          caption: "Christian Dior in 1947: his New Look embodied all three luxury pillars simultaneously — heritage (couture tradition), craftsmanship (hand-sewn construction), and exclusivity (available only at the house)",
+          alt: "Christian Dior in 1947, embodying the luxury brand pillars of heritage, craft, and exclusivity",
+        },
       ],
       quiz: {
         question: "Why is the Hermès Birkin waiting list maintained as a strategy rather than eliminated by scaling production?",
@@ -185,6 +191,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "Heritage is a foundation — values that make present work meaningful. Nostalgia treats the past as the product, producing replicas instead of evolution.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dali_Atomicus_%281948%29_by_Philippe_Halsman.jpg/1280px-Dali_Atomicus_%281948%29_by_Philippe_Halsman.jpg",
+          caption: "Heritage at work: Halsman's 1948 image endures not as nostalgia but because its concept — the collision of the human and the atomic — remains permanently legible",
+          alt: "Dalí Atomicus demonstrating how genuine heritage outlasts its moment of creation",
         },
         { type: "heading", content: "You Can Build Heritage Without History" },
         {
