@@ -8,6 +8,7 @@ const course: Course = {
     "A historical study of the Sicilian Mafia — from its 19th-century origins as a rural power structure to its post-war industrial and political corruption, and the anti-mafia movement's long struggle.",
   category: "crime",
   accentColor: "#7a1515",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Palermo_panorama.jpg/1280px-Palermo_panorama.jpg",
   estimatedHours: 3,
   tags: ["mafia", "sicily", "organised-crime", "history", "italy"],
   lessons: [

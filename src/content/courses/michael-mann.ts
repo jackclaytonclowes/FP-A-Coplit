@@ -8,6 +8,7 @@ const course: Course = {
     "A study of Michael Mann — cinema's poet of professional obsession. Mann's nocturnal urban cinematography and deeply researched characters define the modern crime film.",
   category: "directors",
   accentColor: "#1a8899",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Los_Angeles_at_Night%2C_2011.jpg/1280px-Los_Angeles_at_Night%2C_2011.jpg",
   estimatedHours: 3,
   tags: ["crime", "procedural", "male-obsession", "digital", "nocturnal"],
   lessons: [

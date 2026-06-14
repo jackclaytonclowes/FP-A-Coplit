@@ -8,6 +8,7 @@ const course: Course = {
     "A study of David Fincher — Hollywood's most rigorous technician. Fincher's cold precision, desaturated palettes and obsessive visual control create crime dramas of extraordinary tension.",
   category: "directors",
   accentColor: "#2d4a5c",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/35mm_movie_negative.jpg/1280px-35mm_movie_negative.jpg",
   estimatedHours: 3,
   tags: ["thriller", "procedural", "dark", "technical", "american"],
   lessons: [

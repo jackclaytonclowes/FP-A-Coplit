@@ -8,6 +8,7 @@ const course: Course = {
     "The most controversial architectural movement of the 20th century — raw concrete, utopian ambition, and the buildings everyone has an opinion about.",
   category: "architecture",
   accentColor: "#6E7F8D",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Barbican_Centre_2.jpg/1280px-Barbican_Centre_2.jpg",
   estimatedHours: 3,
   tags: ["brutalism", "le-corbusier", "architecture", "modernism", "concrete"],
   lessons: [
@@ -154,11 +155,23 @@ const course: Course = {
           content:
             "Marseille, 1952. 337 apartments across 23 different floor plans. Internal shopping street on the 7th and 8th floors. Rooftop running track, gym, and paddling pool. Le Corbusier designed it as a complete vertical city — you'd never need to leave.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Marseille_Corbusier2.jpg/1280px-Marseille_Corbusier2.jpg",
+          caption: "Unité d'Habitation, Marseille (1952) — Le Corbusier",
+          alt: "Unité d'Habitation, Marseille",
+        },
         { type: "heading", content: "The Barbican: Villain to Trophy Address" },
         {
           type: "paragraph",
           content:
             "Built on London's WWII bomb damage, the Barbican Estate opened in the 1970s as 2,000 apartments, an arts centre, a lake, and elevated walkways. It was called inhuman. It's now the most sought-after address in the City of London.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Barbican_Centre_podium_level.jpg/1280px-Barbican_Centre_podium_level.jpg",
+          caption: "The Barbican Centre, London — Chamberlin, Powell and Bon (1965–1976)",
+          alt: "Barbican Centre, London",
         },
         { type: "heading", content: "Trellick Tower: \"Monument to Human Misery\"" },
         {

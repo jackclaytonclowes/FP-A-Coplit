@@ -398,6 +398,29 @@ function BlockRenderer({ block, accent }: { block: LessonBlock; accent: string }
       )
     case "divider":
       return <hr style={{ border: "none", borderTop: "1px solid var(--border)", margin: "4px 0" }} />
+    case "image":
+      return (
+        <figure style={{ margin: 0 }}>
+          <img
+            src={block.content}
+            alt={block.alt ?? block.caption ?? ""}
+            style={{
+              width: "100%", display: "block",
+              borderRadius: "var(--radius-md)",
+              background: "var(--surface-3)",
+            }}
+            onError={(e) => { (e.target as HTMLImageElement).style.display = "none" }}
+          />
+          {block.caption && (
+            <figcaption style={{
+              font: "var(--text-caption)", color: "var(--fg-3)",
+              marginTop: 8, fontStyle: "italic",
+            }}>
+              {block.caption}
+            </figcaption>
+          )}
+        </figure>
+      )
     default:
       return null
   }

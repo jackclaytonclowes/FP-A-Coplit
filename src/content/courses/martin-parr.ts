@@ -8,6 +8,7 @@ const course: Course = {
     "A study of Martin Parr — documentary photography's great satirist. Parr's vivid, close-range photographs of British life and global consumer culture are among the most important and entertaining in contemporary photography.",
   category: "great-photographers",
   accentColor: "#e87847",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Martin_Parr%2C_Rencontres_d%27Arles_2014.jpg/800px-Martin_Parr%2C_Rencontres_d%27Arles_2014.jpg",
   estimatedHours: 3,
   tags: ["documentary", "street", "british", "colour", "satire"],
   photographerId: "martin-parr",

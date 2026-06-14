@@ -8,6 +8,7 @@ const course: Course = {
     "The foundations of reading and understanding cinema. Learn the visual language of film — how shots, editing, sound and narrative structure create meaning.",
   category: "film",
   accentColor: "#c83020",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Technician_35mm_projector.jpg/1280px-Technician_35mm_projector.jpg",
   estimatedHours: 4,
   tags: ["foundations", "cinematography", "editing", "narrative", "visual-language"],
   lessons: [

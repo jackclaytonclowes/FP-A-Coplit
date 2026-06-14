@@ -8,6 +8,7 @@ const course: Course = {
     "A study of Surrealism's relationship with photography — from Man Ray and Lee Miller through to contemporary photographers who work in a surrealist register.",
   category: "style-movements",
   accentColor: "#7847c8",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dali_Atomicus_%281948%29_by_Philippe_Halsman.jpg/1280px-Dali_Atomicus_%281948%29_by_Philippe_Halsman.jpg",
   estimatedHours: 3,
   tags: ["surrealism", "conceptual", "dream", "experimental", "dada"],
   lessons: [

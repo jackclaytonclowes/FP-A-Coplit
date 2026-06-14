@@ -8,6 +8,7 @@ const course: Course = {
     "A survey of human civilisation from the ancient world through the medieval period — the empires, ideas, and cultural forces that shaped the foundations of the modern world.",
   category: "history",
   accentColor: "#8b6848",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/1280px-All_Gizah_Pyramids.jpg",
   estimatedHours: 4,
   tags: ["ancient", "medieval", "classical", "empire", "civilisation"],
   lessons: [

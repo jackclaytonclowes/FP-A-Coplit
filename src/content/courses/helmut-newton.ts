@@ -8,6 +8,7 @@ const course: Course = {
     "A study of Helmut Newton — fashion photography's great provocateur. His images of powerful, sexualised women in luxury settings remain among the most debated and influential in the medium's history.",
   category: "great-photographers",
   accentColor: "#555555",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Helmut_Newton_at_work.jpg/800px-Helmut_Newton_at_work.jpg",
   estimatedHours: 3,
   tags: ["fashion", "provocateur", "black-and-white", "luxury", "portrait"],
   photographerId: "helmut-newton",

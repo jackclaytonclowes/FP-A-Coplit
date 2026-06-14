@@ -8,6 +8,7 @@ const course: Course = {
     "The history of Ireland's partition and the thirty-year conflict known as The Troubles — its origins in British colonialism, its violent decades, and the fragile peace of the Good Friday Agreement.",
   category: "history",
   accentColor: "#1a4a2a",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bloody_sunday_nih.jpg/1280px-Bloody_sunday_nih.jpg",
   estimatedHours: 3,
   tags: ["ireland", "conflict", "partition", "republican", "british"],
   lessons: [

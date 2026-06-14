@@ -8,6 +8,7 @@ const course: Course = {
     "A study of Annie Leibovitz — America's most celebrated portrait photographer. From Rolling Stone to Vanity Fair, Leibovitz created the visual grammar of celebrity portraiture.",
   category: "great-photographers",
   accentColor: "#e8b847",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Annie_Leibovitz_2012_Shankbone.jpg/800px-Annie_Leibovitz_2012_Shankbone.jpg",
   estimatedHours: 3,
   tags: ["portrait", "celebrity", "editorial", "narrative", "american"],
   photographerId: "annie-leibovitz",

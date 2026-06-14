@@ -8,6 +8,7 @@ const course: Course = {
     "A survey of fashion history from the House of Worth and haute couture through to streetwear and sustainability — the designers, movements, and cultural forces that shaped how we dress.",
   category: "fashion",
   accentColor: "#c8a0c8",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Christian_Dior_-_1947.jpg/800px-Christian_Dior_-_1947.jpg",
   estimatedHours: 4,
   tags: ["fashion", "history", "haute-couture", "ready-to-wear", "style"],
   lessons: [

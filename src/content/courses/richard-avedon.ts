@@ -8,6 +8,7 @@ const course: Course = {
     "A study of Richard Avedon — perhaps the most influential American photographer of the 20th century. His stark white backgrounds and psychological intensity revolutionised both fashion and portrait photography.",
   category: "great-photographers",
   accentColor: "#e8e8e8",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Avedon_nyc_1969.jpg/800px-Avedon_nyc_1969.jpg",
   estimatedHours: 3,
   tags: ["portrait", "fashion", "american", "20th-century", "stark"],
   photographerId: "richard-avedon",

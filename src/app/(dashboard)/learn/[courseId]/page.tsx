@@ -73,8 +73,19 @@ export default function CourseOrCategoryPage({ params }: { params: Promise<{ cou
                     : `linear-gradient(135deg, ${c.accentColor}12 0%, var(--surface) 70%)`,
                   border: `1px solid ${completed ? "var(--favourable-border)" : "var(--border)"}`,
                   borderRadius: "var(--radius-lg)",
-                  padding: 16,
+                  overflow: "hidden",
                 }}>
+                  {c.coverImage && (
+                    <div style={{ width: "100%", height: 130, overflow: "hidden", background: `${c.accentColor}22` }}>
+                      <img
+                        src={c.coverImage}
+                        alt={c.title}
+                        style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+                        onError={(e) => { (e.target as HTMLImageElement).parentElement!.style.display = "none" }}
+                      />
+                    </div>
+                  )}
+                  <div style={{ padding: 16 }}>
                   <div style={{ display: "flex", gap: 12, alignItems: "flex-start" }}>
                     <div style={{
                       width: 44, height: 44, borderRadius: "var(--radius-md)", flexShrink: 0,
@@ -110,6 +121,7 @@ export default function CourseOrCategoryPage({ params }: { params: Promise<{ cou
                       </div>
                     </div>
                   </div>
+                  </div>
                 </div>
               </Link>
             )
@@ -138,6 +150,22 @@ export default function CourseOrCategoryPage({ params }: { params: Promise<{ cou
       >
         ← {backLabel}
       </Link>
+
+      {/* Cover image */}
+      {course.coverImage && (
+        <div style={{
+          width: "100%", aspectRatio: "16/7", overflow: "hidden",
+          borderRadius: "var(--radius-lg)", marginBottom: 16,
+          background: `${course.accentColor}22`,
+        }}>
+          <img
+            src={course.coverImage}
+            alt={course.title}
+            style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+            onError={(e) => { (e.target as HTMLImageElement).parentElement!.style.display = "none" }}
+          />
+        </div>
+      )}
 
       {/* Header card */}
       <div style={{

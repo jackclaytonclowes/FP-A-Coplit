@@ -8,6 +8,7 @@ const course: Course = {
     "The ideological and geopolitical struggle between the US and Soviet Union that shaped the world from 1947 to 1991 — its crises, proxy wars, cultural dimensions, and consequences.",
   category: "history",
   accentColor: "#444e5c",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Checkpoint_Charlie_1961-10-27.jpg/1280px-Checkpoint_Charlie_1961-10-27.jpg",
   estimatedHours: 4,
   tags: ["cold-war", "geopolitics", "nuclear", "ideology", "20th-century"],
   lessons: [

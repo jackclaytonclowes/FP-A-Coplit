@@ -8,6 +8,7 @@ const course: Course = {
     "Master the fundamental principles of photography — from light and composition to visual storytelling and the history of the medium.",
   category: "photography-foundations",
   accentColor: "#e8c547",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/35mm_lens_aperture.jpg/1280px-35mm_lens_aperture.jpg",
   estimatedHours: 4,
   tags: ["photography", "composition", "light", "colour", "beginner"],
   lessons: [

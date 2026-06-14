@@ -8,6 +8,7 @@ const course: Course = {
     "A study of David Lynch — cinema's great surrealist. Lynch's dreamlike images of American darkness and suburban dread created a wholly original cinematic language that influenced every subsequent generation.",
   category: "directors",
   accentColor: "#8b1c1c",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Abandoned_factory.jpg/1280px-Abandoned_factory.jpg",
   estimatedHours: 3,
   tags: ["surrealist", "american", "dream-logic", "darkness", "avant-garde"],
   lessons: [

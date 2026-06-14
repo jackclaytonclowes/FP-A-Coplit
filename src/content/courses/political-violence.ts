@@ -8,6 +8,7 @@ const course: Course = {
     "An educational examination of political violence — the IRA, ETA, Red Brigades, and Baader-Meinhof Group — their ideologies, contexts, and the long historical and political forces that produced them.",
   category: "crime",
   accentColor: "#2a2a2a",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Belfast_murals.jpg/1280px-Belfast_murals.jpg",
   estimatedHours: 3,
   tags: ["political-violence", "terrorism", "ira", "history", "ideology"],
   lessons: [

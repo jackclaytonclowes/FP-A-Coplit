@@ -8,6 +8,7 @@ const course: Course = {
     "A guide to Korean cinema — from the New Wave of the late 1990s to global domination. The directors, movements, and films that make Korean cinema the world's most vital national cinema.",
   category: "film",
   accentColor: "#8b1414",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Seoul_at_night.jpg/1280px-Seoul_at_night.jpg",
   estimatedHours: 3,
   tags: ["korean", "new-wave", "genre", "social-critique", "asia"],
   lessons: [

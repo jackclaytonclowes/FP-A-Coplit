@@ -8,6 +8,7 @@ const course: Course = {
     "The most destructive conflict in human history — its causes, turning points, and the world it made. From the rise of fascism to Hiroshima and the post-war order.",
   category: "history",
   accentColor: "#4a5c38",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/This_is_War%21_-_National_Archives_-_ARC_535790.jpg/1280px-This_is_War%21_-_National_Archives_-_ARC_535790.jpg",
   estimatedHours: 4,
   tags: ["wwii", "history", "europe", "conflict", "20th-century"],
   lessons: [

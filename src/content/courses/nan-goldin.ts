@@ -8,6 +8,7 @@ const course: Course = {
     "A study of Nan Goldin — the photographer who made intimacy radical. From The Ballad of Sexual Dependency to her activist work against the opioid crisis, Goldin's diary-form photography changed everything.",
   category: "great-photographers",
   accentColor: "#e87777",
+  coverImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Nan_Goldin.jpg/800px-Nan_Goldin.jpg",
   estimatedHours: 3,
   tags: ["documentary", "diary", "portrait", "underground", "intimacy"],
   photographerId: "nan-goldin",
