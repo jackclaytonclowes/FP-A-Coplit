@@ -21,6 +21,12 @@ const course: Course = {
       blocks: [
         { type: "heading", content: "Started With Skinheads, Ended Up Everywhere" },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Nick_Knight.jpg/1280px-Nick_Knight.jpg",
+          caption: "Nick Knight, fashion photographer and founder of SHOWstudio",
+          alt: "Portrait of British fashion photographer Nick Knight",
+        },
+        {
           type: "paragraph",
           content:
             "Knight graduated in 1982 with a book about 100 skinheads in Bournemouth. It announced his interest in communities outside the mainstream — and it's never left him.",

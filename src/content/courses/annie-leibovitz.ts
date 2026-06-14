@@ -22,6 +22,12 @@ const course: Course = {
       blocks: [
         { type: "heading", content: "Staff Photographer at 21. Yes, Really." },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Annie_Leibovitz_2012_Shankbone.jpg/1280px-Annie_Leibovitz_2012_Shankbone.jpg",
+          caption: "Annie Leibovitz, 2012",
+          alt: "Portrait of photographer Annie Leibovitz",
+        },
+        {
           type: "paragraph",
           content:
             "Born in Connecticut in 1949, raised in an Air Force family that never stayed put — Leibovitz was studying painting in San Francisco when a night photography class changed everything. She joined Rolling Stone at 21.",

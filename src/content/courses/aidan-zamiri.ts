@@ -21,6 +21,12 @@ const course: Course = {
       blocks: [
         { type: "heading", content: "London Born, Tillmans Raised" },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Aidan_Zamiri_at_Berlinale_2026.jpg/1280px-Aidan_Zamiri_at_Berlinale_2026.jpg",
+          caption: "Aidan Zamiri at the Berlin International Film Festival, 2026",
+          alt: "Portrait of photographer and filmmaker Aidan Zamiri at Berlinale 2026",
+        },
+        {
           type: "paragraph",
           content:
             "Born in London in 1991, Zamiri came to photography through personal obsession — not fashion school. Nan Goldin and Wolfgang Tillmans were his north stars, not Vogue.",

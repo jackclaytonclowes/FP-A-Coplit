@@ -24,6 +24,12 @@ const course: Course = {
           content: "Rave Kid Turned Turner Prize Winner",
         },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Re_publica_faces_2019_(47797688941).jpg/1280px-Re_publica_faces_2019_(47797688941).jpg",
+          caption: "Wolfgang Tillmans at re:publica, Berlin, 2019",
+          alt: "Portrait of photographer Wolfgang Tillmans at re:publica 2019",
+        },
+        {
           type: "paragraph",
           content:
             "Tillmans grew up in West Germany with the Berlin Wall as psychological wallpaper. He picked up a camera at 16 and started photographing rave culture — from the inside.",

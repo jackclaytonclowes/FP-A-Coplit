@@ -21,6 +21,12 @@ const course: Course = {
       blocks: [
         { type: "heading", content: "Painter, Window Dresser, Most In-Demand Photographer in the World" },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Peter_Lindbergh_by_Stefan_Rappo_2015_(cropped).jpg/1280px-Peter_Lindbergh_by_Stefan_Rappo_2015_(cropped).jpg",
+          caption: "Peter Lindbergh, photographed by Stefan Rappo, 2015",
+          alt: "Portrait of fashion photographer Peter Lindbergh, 2015",
+        },
+        {
           type: "paragraph",
           content:
             "Lindbergh studied painting before he ever touched a camera. That background gave him an unusual eye for light, shadow, and emotional register that purely photographic training rarely delivers.",
