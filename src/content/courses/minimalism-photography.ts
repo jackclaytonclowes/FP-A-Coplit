@@ -146,6 +146,12 @@ const course: Course = {
           content:
             "Long exposure averages movement over time. Water becomes silk. Clouds become streaks. People disappear. What remains when contingency is averaged away is the essential structure of the scene.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Long_Exposure_Example.jpg/1280px-Long_Exposure_Example.jpg",
+          caption: "Long-exposure photography of a road at night — vehicle light trails reduce moving traffic to pure geometric lines of light against a dark ground, demonstrating how duration becomes tonal minimalism",
+          alt: "Long exposure night photograph showing car light trails as continuous streaks of red and white light along a highway",
+        },
         { type: "heading", content: "The Frame as Composition, Not Window" },
         {
           type: "paragraph",

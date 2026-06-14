@@ -84,6 +84,12 @@ const course: Course = {
           content:
             "The Americans (1958) broke everything. Dark, blurred, off-angle, emotionally raw — Frank drove across America and made photographs that said: this place is not what it thinks it is. American publishers rejected it. France published it first.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Walker_Evans,_Penny_picture_displays,_Birmingham,_Alabama,_1936.jpg/1280px-Walker_Evans,_Penny_picture_displays,_Birmingham,_Alabama,_1936.jpg",
+          caption: "Walker Evans, Penny Picture Displays, Birmingham, Alabama, 1936 — FSA documentary photograph of portrait studio display boards (Library of Congress / Farm Security Administration)",
+          alt: "Walker Evans FSA documentary photograph showing rows of penny portrait photographs displayed on a shop front in Birmingham Alabama, 1936",
+        },
         { type: "heading", content: "W. Eugene Smith (1918–1978)" },
         {
           type: "paragraph",

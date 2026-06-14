@@ -45,6 +45,12 @@ const course: Course = {
           ],
         },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bong_Joon-ho_FilmFest_Muenchen_04Jul2019.jpg/1280px-Bong_Joon-ho_FilmFest_Muenchen_04Jul2019.jpg",
+          caption: "Bong Joon-ho at the Munich Film Festival, 4 July 2019 — the same year Parasite won the Palme d'Or at Cannes",
+          alt: "Bong Joon-ho at the Munich Film Festival in 2019",
+        },
+        {
           type: "quote",
           content: "Once you overcome the one-inch-tall barrier of subtitles, you will be introduced to so many more amazing films.",
           author: "Bong Joon-ho",
@@ -229,6 +235,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "You sit down for a monster movie and find yourself watching a critique of American foreign policy. Genre is the vehicle. Critique is the payload. The audience's guard is already down.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Seoul_City_Center_from_Seoul_Tower_(N-Seoul_Tower)_(5678277721).jpg/1280px-Seoul_City_Center_from_Seoul_Tower_(N-Seoul_Tower)_(5678277721).jpg",
+          caption: "Seoul city centre viewed from N Seoul Tower — the urban landscape that shapes Bong's class geography, from hilltop houses to semi-basement apartments",
+          alt: "Seoul South Korea city centre skyline viewed from N Seoul Tower",
         },
       ],
       quiz: {

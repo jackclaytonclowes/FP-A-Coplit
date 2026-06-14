@@ -53,6 +53,12 @@ const course: Course = {
           ],
         },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/D._Lynch_Energa_Camerimage_2017.jpg/1280px-D._Lynch_Energa_Camerimage_2017.jpg",
+          caption: "David Lynch at Energa Camerimage, 2017 — the international film festival dedicated to the art of cinematography, an art form Lynch approached as a painter",
+          alt: "David Lynch at Energa Camerimage festival in 2017",
+        },
+        {
           type: "quote",
           content:
             "I have a habit of asking myself: what is the idea? And then I fall in love with the idea and I want to do it.",

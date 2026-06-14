@@ -50,6 +50,12 @@ const course: Course = {
           ],
         },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Grumman_F-14_Tomcat_2.JPG/1280px-Grumman_F-14_Tomcat_2.JPG",
+          caption: "Grumman F-14 Tomcat — the defining image of Scott's breakthrough blockbuster Top Gun (1986), which cemented his reputation as a master of kinetic visual spectacle",
+          alt: "Grumman F-14 Tomcat aircraft on display",
+        },
+        {
           type: "quote",
           content: "I'm a commercial filmmaker. I make movies for a wide audience. But I also have a strong visual sense, and I want to use it.",
           author: "Tony Scott",
@@ -167,6 +173,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "A Navy recruitment film in disguise — and a cultural phenomenon. The aerial photography is still extraordinary. The politics aged badly. The energy never will.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/F-14_Tomcat_VF-31.jpg/1280px-F-14_Tomcat_VF-31.jpg",
+          caption: "Grumman F-14 Tomcat of Fighter Squadron VF-31 — the aircraft at the centre of Top Gun's visual spectacle",
+          alt: "F-14 Tomcat fighter jet in flight",
         },
         { type: "heading", content: "True Romance (1993)" },
         {

@@ -46,6 +46,12 @@ const course: Course = {
           ],
         },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/ParkChanwookCannesMay09.jpg/1280px-ParkChanwookCannesMay09.jpg",
+          caption: "Park Chan-wook at the Cannes Film Festival, May 2009 — where his film Thirst won the Jury Prize",
+          alt: "Park Chan-wook at Cannes Film Festival in May 2009",
+        },
+        {
           type: "quote",
           content: "I don't plan films with the intention of making them beautiful. The beauty is a by-product of trying to be truthful.",
           author: "Park Chan-wook",

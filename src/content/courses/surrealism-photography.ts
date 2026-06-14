@@ -81,6 +81,12 @@ const course: Course = {
           content:
             "Rayographs. Solarisation. Objects on sensitised paper exposed to light. Man Ray's techniques became the visual vocabulary of surrealist photography — ghostly, reversed, simultaneously real and abstract.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Man_Ray_Salvador_Dali.jpg/1280px-Man_Ray_Salvador_Dali.jpg",
+          caption: "Man Ray, Portrait of Salvador Dalí — Man Ray's portraiture extended his experimental practice; he photographed the leading surrealist figures of Paris",
+          alt: "Man Ray's portrait photograph of Salvador Dalí",
+        },
         { type: "heading", content: "Lee Miller (1907–1977)" },
         {
           type: "paragraph",
@@ -197,6 +203,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "Multiple disguised identities, androgynous and masked, documented in extraordinary self-portraits made with partner Marcel Moore. They anticipated Cindy Sherman by decades.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Claude_Cahun_-_I_Am_in_Training_Don't_Kiss_Me.jpg/1280px-Claude_Cahun_-_I_Am_in_Training_Don't_Kiss_Me.jpg",
+          caption: "Claude Cahun, I Am in Training Don't Kiss Me, c.1927 — a characteristic self-portrait in which Cahun performs an invented identity with text inscribed on the body",
+          alt: "Claude Cahun self-portrait with text reading I Am in Training Don't Kiss Me inscribed across the chest, c.1927",
         },
       ],
       quiz: {

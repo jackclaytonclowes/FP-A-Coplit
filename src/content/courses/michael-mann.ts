@@ -53,6 +53,12 @@ const course: Course = {
           ],
         },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Michael_Mann_-_French_Cinematheque_-_4th_July_2009.jpg/1280px-Michael_Mann_-_French_Cinematheque_-_4th_July_2009.jpg",
+          caption: "Michael Mann at the French Cinémathèque, Paris, 4 July 2009",
+          alt: "Michael Mann at the French Cinémathèque in 2009",
+        },
+        {
           type: "quote",
           content: "I'm interested in people who are dedicated professionals. People who are very, very good at what they do.",
           author: "Michael Mann",

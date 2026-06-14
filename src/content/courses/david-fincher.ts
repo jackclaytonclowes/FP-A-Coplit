@@ -46,6 +46,12 @@ const course: Course = {
           ],
         },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Rooney_Mara,_Daniel_Craig_and_David_Fincher_(2012)_3.jpg/1280px-Rooney_Mara,_Daniel_Craig_and_David_Fincher_(2012)_3.jpg",
+          caption: "David Fincher (right) with Rooney Mara and Daniel Craig at the Paris premiere of The Girl with the Dragon Tattoo, January 2012",
+          alt: "David Fincher at the Paris premiere of The Girl with the Dragon Tattoo in 2012",
+        },
+        {
           type: "quote",
           content: "I have very specific ideas about what I want. The question is always how to execute them.",
           author: "David Fincher",

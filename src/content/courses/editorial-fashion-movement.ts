@@ -35,6 +35,12 @@ const course: Course = {
           content:
             "Condé Nast bought Vogue in 1909 and made a foundational bet: photography over illustration. He recruited Baron de Meyer, then Edward Steichen. Fashion photography as an art form begins here.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Pelegrina_Pastorino_(Pele),_Harrods_editorial_catalogue,_Spring_1920s,_by_photographer_Louis_Pastorino.jpg/1280px-Pelegrina_Pastorino_(Pele),_Harrods_editorial_catalogue,_Spring_1920s,_by_photographer_Louis_Pastorino.jpg",
+          caption: "Pelegrina Pastorino (Pele), Harrods editorial catalogue, Spring 1920s, photograph by Louis Pastorino — an early example of editorial fashion catalogue photography",
+          alt: "1920s Harrods editorial catalogue photograph of a woman in fashionable dress, photographed by Louis Pastorino",
+        },
         { type: "heading", content: "The Tradition's Greatest Hits" },
         {
           type: "list",

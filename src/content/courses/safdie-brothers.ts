@@ -49,6 +49,12 @@ const course: Course = {
           ],
         },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/SafdieBros.jpeg/1280px-SafdieBros.jpeg",
+          caption: "Josh and Benny Safdie, the New York filmmaking duo whose work is rooted in the city they grew up in",
+          alt: "Josh and Benny Safdie, the Safdie Brothers",
+        },
+        {
           type: "quote",
           content:
             "We're not interested in making films about New York. We're interested in making films about people who happen to be in New York.",

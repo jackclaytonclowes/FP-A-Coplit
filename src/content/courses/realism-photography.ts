@@ -85,6 +85,12 @@ const course: Course = {
           content:
             "Trained as a sociologist, Hine used the camera as a weapon. His photographs of child labourers in mills and mines weren't art — they were evidence that changed laws.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Lewis_Hine,_A_little_spinner_in_the_Mollahan_Mills,_Newberry,_S.C._(LOC_nclc.01451).jpg/1280px-Lewis_Hine,_A_little_spinner_in_the_Mollahan_Mills,_Newberry,_S.C._(LOC_nclc.01451).jpg",
+          caption: "Lewis Hine, A little spinner in the Mollahan Mills, Newberry, South Carolina, c.1908 (Library of Congress)",
+          alt: "Young girl working as a spinner in a cotton mill, photographed by Lewis Hine for the National Child Labor Committee",
+        },
         { type: "heading", content: "Dorothea Lange (1895–1965)" },
         {
           type: "paragraph",
@@ -182,6 +188,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "Six frames at a pea-pickers' camp in Nipomo, California. The last one — Florence Owens Thompson looking away, two children burying their faces in her shoulders — became the definitive image of the Depression.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Lange-MigrantMother02.jpg/1280px-Lange-MigrantMother02.jpg",
+          caption: "Dorothea Lange, Migrant Mother, 1936 — Florence Owens Thompson with her children at a pea-pickers' camp, Nipomo, California (Library of Congress / Farm Security Administration)",
+          alt: "Dorothea Lange's Migrant Mother photograph showing Florence Owens Thompson with two children leaning against her shoulders",
         },
         { type: "heading", content: "Let Us Now Praise Famous Men — Walker Evans & James Agee (1941)" },
         {

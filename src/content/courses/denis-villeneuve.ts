@@ -47,6 +47,12 @@ const course: Course = {
           ],
         },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Denis_Villeneuve_Cannes_2018.jpg/1280px-Denis_Villeneuve_Cannes_2018.jpg",
+          caption: "Denis Villeneuve at the Cannes Film Festival, 2018",
+          alt: "Denis Villeneuve at Cannes Film Festival 2018",
+        },
+        {
           type: "quote",
           content: "Cinema for me is a way to dream awake.",
           author: "Denis Villeneuve",

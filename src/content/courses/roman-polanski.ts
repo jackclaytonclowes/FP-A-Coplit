@@ -45,6 +45,12 @@ const course: Course = {
           ],
         },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/2023.11.15._Roman_Polanski_Photo_Mariusz_Kubik.JPG/1280px-2023.11.15._Roman_Polanski_Photo_Mariusz_Kubik.JPG",
+          caption: "Roman Polanski, 2023 (photo: Mariusz Kubik)",
+          alt: "Roman Polanski photographed in 2023",
+        },
+        {
           type: "quote",
           content: "Cinema should make you forget you are sitting in a theater.",
           author: "Roman Polanski",
@@ -235,6 +241,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "His protagonists don't belong where they are. Identity slips. Environments turn hostile. It runs through everything he made — because it ran through everything he lived.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Kraków_-_Plac_Bohaterów_Getta_(3).jpg/1280px-Kraków_-_Plac_Bohaterów_Getta_(3).jpg",
+          caption: "Plac Bohaterów Getta (Heroes of the Ghetto Square), Kraków — the site of the former Kraków Ghetto where Polanski survived as a child",
+          alt: "Heroes of the Ghetto Square in Kraków, Poland",
         },
       ],
       quiz: {

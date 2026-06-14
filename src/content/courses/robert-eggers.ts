@@ -49,6 +49,12 @@ const course: Course = {
           ],
         },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Robert_Eggers_-_The_Witch,Fantastic_Fest_2015-1667_(28894993650)_(cropped).jpg/1280px-Robert_Eggers_-_The_Witch,Fantastic_Fest_2015-1667_(28894993650)_(cropped).jpg",
+          caption: "Robert Eggers at Fantastic Fest 2015, following the premiere of The Witch",
+          alt: "Robert Eggers at Fantastic Fest 2015",
+        },
+        {
           type: "quote",
           content:
             "I want the audience to feel that this world really existed — that we are looking through a window at something true.",

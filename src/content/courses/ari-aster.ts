@@ -228,6 +228,12 @@ const course: Course = {
           content:
             "Grief as horror engine. Every event grows from a family's inability to process loss. Toni Collette's performance is one of the decade's great achievements — a mother's grief becoming indistinguishable from madness.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Hereditary_Director_Ari_Aster_with_Toni_Collette.jpg/1280px-Hereditary_Director_Ari_Aster_with_Toni_Collette.jpg",
+          caption: "Director Ari Aster with Toni Collette during the promotion of Hereditary (2018)",
+          alt: "Ari Aster and Toni Collette promoting Hereditary",
+        },
         { type: "heading", content: "Midsommar (2019)" },
         {
           type: "paragraph",
