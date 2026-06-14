@@ -1,6 +1,6 @@
 "use client"
 
-import { use, useState, useEffect, useRef } from "react"
+import { use, useState, useEffect, useCallback } from "react"
 import { notFound, useRouter } from "next/navigation"
 import { getCourse } from "@/content/courses"
 import { ciqStore } from "@/stores/cultureIQStore"
@@ -9,6 +9,20 @@ import type { LessonBlock } from "@/types"
 
 type Phase = "reading" | "quiz" | "reflection" | "complete"
 type QuizState = "idle" | "correct" | "wrong"
+
+function groupIntoCards(blocks: LessonBlock[]): LessonBlock[][] {
+  const cards: LessonBlock[][] = []
+  let current: LessonBlock[] = []
+  for (const block of blocks) {
+    if (block.type === "heading" && current.length > 0) {
+      cards.push(current)
+      current = []
+    }
+    current.push(block)
+  }
+  if (current.length > 0) cards.push(current)
+  return cards.length > 0 ? cards : [blocks]
+}
 
 export default function LessonPage({ params }: { params: Promise<{ courseId: string; lessonId: string }> }) {
   const { courseId, lessonId } = use(params)
@@ -23,13 +37,17 @@ export default function LessonPage({ params }: { params: Promise<{ courseId: str
 
   const { level, levelTitle, progressPercent, xpToNext, streak } = useCIQStore()
 
+  const cards = groupIntoCards(lesson.blocks)
+
   const [phase, setPhase] = useState<Phase>("reading")
+  const [cardIndex, setCardIndex] = useState(0)
   const [selectedOption, setSelectedOption] = useState<string | null>(null)
   const [quizState, setQuizState] = useState<QuizState>("idle")
   const [reflectionText, setReflectionText] = useState("")
   const [isFirstAttempt, setIsFirstAttempt] = useState(true)
   const [earnedXp, setEarnedXp] = useState(0)
   const [barWidth, setBarWidth] = useState(0)
+  const [cardVisible, setCardVisible] = useState(true)
 
   useEffect(() => {
     if (phase === "complete") {
@@ -37,6 +55,20 @@ export default function LessonPage({ params }: { params: Promise<{ courseId: str
       return () => clearTimeout(t)
     }
   }, [phase, progressPercent])
+
+  const advanceCard = useCallback(() => {
+    setCardVisible(false)
+    setTimeout(() => {
+      if (cardIndex < cards.length - 1) {
+        setCardIndex((i) => i + 1)
+      } else {
+        if (lesson.quiz) setPhase("quiz")
+        else if (lesson.reflection) setPhase("reflection")
+        else completeLesson()
+      }
+      setCardVisible(true)
+    }, 150)
+  }, [cardIndex, cards.length, lesson.quiz, lesson.reflection])
 
   function handleFinishReading() {
     if (lesson.quiz) setPhase("quiz")
@@ -93,17 +125,42 @@ export default function LessonPage({ params }: { params: Promise<{ courseId: str
       {/* ── Reading ── */}
       {phase === "reading" && (
         <div style={{ flex: 1, display: "flex", flexDirection: "column" }}>
+          {/* Lesson header */}
           <p style={{ font: "var(--text-label)", color: "var(--fg-3)", marginBottom: 4 }}>{course.title}</p>
-          <h1 style={{ font: "var(--text-h1)", color: "var(--fg-1)", marginBottom: 24 }}>{lesson.title}</h1>
+          <h1 style={{ font: "var(--text-h1)", color: "var(--fg-1)", marginBottom: 20 }}>{lesson.title}</h1>
 
-          <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: 22 }}>
-            {lesson.blocks.map((block, i) => (
-              <BlockRenderer key={i} block={block} accent={accent} />
+          {/* Card progress dots */}
+          {cards.length > 1 && (
+            <div style={{ display: "flex", gap: 5, marginBottom: 20, alignItems: "center" }}>
+              {cards.map((_, i) => (
+                <div key={i} style={{
+                  height: 4,
+                  flex: i === cardIndex ? 2 : 1,
+                  background: i <= cardIndex ? accent : "var(--surface-3)",
+                  borderRadius: "var(--radius-pill)",
+                  transition: "all 0.3s ease",
+                }} />
+              ))}
+            </div>
+          )}
+
+          {/* Current card content */}
+          <div
+            style={{
+              flex: 1, display: "flex", flexDirection: "column", gap: 22,
+              opacity: cardVisible ? 1 : 0,
+              transform: cardVisible ? "translateY(0)" : "translateY(6px)",
+              transition: "opacity 0.15s ease, transform 0.15s ease",
+            }}
+          >
+            {cards[cardIndex]?.map((block, i) => (
+              <BlockRenderer key={`${cardIndex}-${i}`} block={block} accent={accent} />
             ))}
           </div>
 
+          {/* Advance button */}
           <button
-            onClick={handleFinishReading}
+            onClick={advanceCard}
             style={{
               marginTop: 32, width: "100%", padding: "14px 0",
               background: accent, color: "#000", borderRadius: "var(--radius-md)",
@@ -111,7 +168,13 @@ export default function LessonPage({ params }: { params: Promise<{ courseId: str
               transition: "opacity 0.15s",
             }}
           >
-            {lesson.quiz ? "Take the Quiz →" : lesson.reflection ? "Reflect →" : "Complete →"}
+            {cardIndex < cards.length - 1
+              ? "Next →"
+              : lesson.quiz
+                ? "Take the Quiz →"
+                : lesson.reflection
+                  ? "Reflect →"
+                  : "Complete →"}
           </button>
         </div>
       )}
