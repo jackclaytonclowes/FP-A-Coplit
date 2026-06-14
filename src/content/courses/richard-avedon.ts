@@ -22,6 +22,12 @@ const course: Course = {
       blocks: [
         { type: "heading", content: "Born Into Fashion, Obsessed With Faces" },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Avedon_nyc_1969.jpg/800px-Avedon_nyc_1969.jpg",
+          caption: "Richard Avedon, New York City, 1969",
+          alt: "Portrait of photographer Richard Avedon, 1969",
+        },
+        {
           type: "paragraph",
           content:
             "Avedon grew up in New York staring at Vogue photos in his father's Fifth Avenue clothing store. He knew exactly what he wanted to do.",

@@ -22,6 +22,12 @@ const course: Course = {
       blocks: [
         { type: "heading", content: "Born in Surrey, Raised in Salford" },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Martin_Parr%2C_Rencontres_d%27Arles_2014.jpg/800px-Martin_Parr%2C_Rencontres_d%27Arles_2014.jpg",
+          caption: "Martin Parr at the Rencontres d'Arles photography festival, 2014",
+          alt: "Portrait of photographer Martin Parr at the Rencontres d'Arles festival in 2014",
+        },
+        {
           type: "paragraph",
           content:
             "Parr found photography through his grandfather and never stopped pointing it at the awkward, funny, uncomfortable truth of British life. He studied at Manchester Polytechnic and started with black-and-white social documentary.",

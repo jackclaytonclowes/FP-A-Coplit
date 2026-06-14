@@ -54,6 +54,12 @@ const course: Course = {
           content: "I did not photograph myself. I photographed a character.",
           author: "Cindy Sherman",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/35mm_movie_negative.jpg/1280px-35mm_movie_negative.jpg",
+          caption: "35mm film negative: the shared material heritage of cinema and photography, and the source of cinematic photography's grain and frame",
+          alt: "35mm movie film negative showing frames and sprocket holes",
+        },
       ],
       quiz: {
         question: "What fundamental question did Cindy Sherman's Untitled Film Stills raise about cinema and photography?",
@@ -141,6 +147,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "Crewdson, Prager, and Sherman all share attention to production design — costume, setting, prop — borrowed from cinema, not photography. And across cinematic photography, a recurring emotion: a specific loneliness cinema taught us to feel.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Abandoned_factory.jpg/1280px-Abandoned_factory.jpg",
+          caption: "Industrial spaces and atmospheric isolation: the locations that cinematic photography uses for its visual language of loneliness and psychological crisis",
+          alt: "Abandoned factory interior with dramatic industrial atmosphere and chiaroscuro lighting",
         },
       ],
       quiz: {

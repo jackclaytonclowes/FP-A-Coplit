@@ -21,6 +21,12 @@ const course: Course = {
       blocks: [
         { type: "heading", content: "Bavaria to London, Rules Optional" },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/FILAF_2013_-_Juergen_Teller_(cropped).jpg/1280px-FILAF_2013_-_Juergen_Teller_(cropped).jpg",
+          caption: "Juergen Teller at FILAF (Festival international du livre d'art et du film), 2013",
+          alt: "Portrait of photographer Juergen Teller at FILAF 2013",
+        },
+        {
           type: "paragraph",
           content:
             "Juergen Teller grew up in Erlangen, Bavaria, moved to London in 1986, and immediately started doing everything fashion photography said you shouldn't do.",

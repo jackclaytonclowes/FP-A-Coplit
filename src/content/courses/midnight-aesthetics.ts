@@ -52,6 +52,12 @@ const course: Course = {
           content: "For me the night was never ordinary darkness. It was always a presence, a material thing with weight and texture.",
           author: "Brassaï",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Los_Angeles_at_Night%2C_2011.jpg/1280px-Los_Angeles_at_Night%2C_2011.jpg",
+          caption: "The nocturnal city: artificial light pools, glowing windows, and the darkness that defines them",
+          alt: "Los Angeles at night seen from above, city lights spread across the dark landscape",
+        },
       ],
       quiz: {
         question: "What made film noir cinematography significant for the development of midnight aesthetics in photography?",
@@ -151,6 +157,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "Wet pavements, neon reflections, lamplight pools, long shadows. Different populations, different transactions, different norms. That social specificity gives nocturnal urban photography its documentary charge.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Abandoned_factory.jpg/1280px-Abandoned_factory.jpg",
+          caption: "Industrial darkness: the chiaroscuro of shadow against isolated light sources, where darkness is the primary material",
+          alt: "Abandoned factory interior with dramatic light and shadow contrast",
         },
       ],
       quiz: {

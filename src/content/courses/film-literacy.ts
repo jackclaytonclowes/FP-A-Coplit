@@ -48,6 +48,12 @@ const course: Course = {
           content:
             "Shallow focus isolates your subject. Deep focus — as in Citizen Kane — keeps everything sharp, letting the audience choose where to look. One locks your attention; the other trusts you.",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Technician_35mm_projector.jpg/1280px-Technician_35mm_projector.jpg",
+          caption: "A film projectionist at work: the moment where cinema's craft — its shots, cuts, and decisions — meets the audience",
+          alt: "Film technician operating a 35mm film projector in a projection booth",
+        },
       ],
       quiz: {
         question: "What is the primary function of the point-of-view shot?",
@@ -311,6 +317,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "Deakins and Villeneuve. Gordon Willis and Coppola. Storaro and Bertolucci. The director imagines; the cinematographer makes it real. These are creative partnerships, not service relationships.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/35mm_movie_negative.jpg/1280px-35mm_movie_negative.jpg",
+          caption: "35mm film: the material that cinematographers shaped by controlling light, colour, and grain across every frame",
+          alt: "35mm movie negative showing the film frames and sprocket holes",
         },
       ],
       quiz: {

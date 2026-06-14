@@ -21,6 +21,12 @@ const course: Course = {
       blocks: [
         { type: "heading", content: "From Byzantine Mosaics to Paris Studios" },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Paolo_Roversi_Paris_Fashion_Week_Spring_Summer_2019.jpg/1280px-Paolo_Roversi_Paris_Fashion_Week_Spring_Summer_2019.jpg",
+          caption: "Paolo Roversi at Paris Fashion Week, Spring/Summer 2019",
+          alt: "Portrait of fashion photographer Paolo Roversi at Paris Fashion Week 2019",
+        },
+        {
           type: "paragraph",
           content:
             "Paolo Roversi grew up in Ravenna — a city literally covered in ancient golden mosaics. That early visual education in timeless, luminous beauty never left him.",

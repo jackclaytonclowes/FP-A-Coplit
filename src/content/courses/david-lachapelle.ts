@@ -21,6 +21,12 @@ const course: Course = {
       blocks: [
         { type: "heading", content: "Warhol's Protégé, America's Prophet" },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/David_LaChapelle_Tak_pravil_LaChapelle,_Galerie_Rudolfinum,_Praha,_2011_12_01.JPG/1280px-David_LaChapelle_Tak_pravil_LaChapelle,_Galerie_Rudolfinum,_Praha,_2011_12_01.JPG",
+          caption: "David LaChapelle at his exhibition 'Tak pravil LaChapelle', Galerie Rudolfinum, Prague, 2011",
+          alt: "Portrait of photographer David LaChapelle at his Prague exhibition in 2011",
+        },
+        {
           type: "paragraph",
           content:
             "Born in Connecticut in 1963, LaChapelle made it to New York as a teenager and found Andy Warhol. Warhol gave him his first photography job at Interview magazine — and handed him a creative DNA he's never shaken.",

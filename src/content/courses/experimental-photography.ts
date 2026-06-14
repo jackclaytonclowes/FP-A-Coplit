@@ -54,6 +54,12 @@ const course: Course = {
           content: "The enemy of photography is the convention, the fixed rules of 'how to do it'. Everything new is developed from the ruins of the old.",
           author: "László Moholy-Nagy",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/35mm_lens_aperture.jpg/1280px-35mm_lens_aperture.jpg",
+          caption: "The aperture: the mechanical heart of the camera that experimental photographers have challenged, bypassed, and reimagined since the 1920s",
+          alt: "Close-up of a 35mm lens aperture showing the iris blades in a geometric pattern",
+        },
       ],
       quiz: {
         question: "What did László Moholy-Nagy mean by Lichtgestaltung — 'light-writing' or light-design?",
@@ -97,6 +103,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "Khan layers every image from a Becher typology into one dense composite — all water towers at once, simultaneously present and invisible. Kasten builds geometric light constructions in the studio that exist only as photographs.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Man_Ray_Salvador_Dali.jpg/1280px-Man_Ray_Salvador_Dali.jpg",
+          caption: "Man Ray photographed Salvador Dalí — a meeting of two Surrealists whose experimental approaches to image-making challenged every convention of the medium",
+          alt: "Photograph of Man Ray and Salvador Dalí together",
         },
       ],
       quiz: {

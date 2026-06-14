@@ -22,6 +22,12 @@ const course: Course = {
       blocks: [
         { type: "heading", content: "Berlin Kid, World Photographer" },
         {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Helmut_Newton_at_work.jpg/800px-Helmut_Newton_at_work.jpg",
+          caption: "Helmut Newton at work",
+          alt: "Photographer Helmut Newton working with camera",
+        },
+        {
           type: "paragraph",
           content:
             "Helmut Newton was born Helmut Neustädter in Berlin in 1920 — son of a button manufacturer, apprentice to a photographer, Jewish refugee. He fled Hitler in 1938, bounced through Singapore, and ended up in Australia.",

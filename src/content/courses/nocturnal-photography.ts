@@ -54,6 +54,12 @@ const course: Course = {
           content: "I invented nothing. I rediscovered things. Rediscovered them for myself.",
           author: "Brassaï",
         },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Los_Angeles_at_Night%2C_2011.jpg/1280px-Los_Angeles_at_Night%2C_2011.jpg",
+          caption: "The nocturnal city as photographic subject: light pools, glowing grids, and the social world that only becomes visible after dark",
+          alt: "Los Angeles at night, city lights spread across the dark landscape as seen from above",
+        },
       ],
       quiz: {
         question: "What made Paris de Nuit (1932) technically groundbreaking for its time?",
@@ -147,6 +153,12 @@ const course: Course = {
           type: "paragraph",
           content:
             "Your eye adapts to darkness in real time. The camera accumulates light over seconds or minutes, revealing brightness and detail that exists only across duration — not in any single moment. Nocturnal photography always shows a vision no eye has ever seen.",
+        },
+        {
+          type: "image",
+          content: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Long_Exposure_Example.jpg/1280px-Long_Exposure_Example.jpg",
+          caption: "Long exposure photography: the camera accumulates light over time, revealing trails and brightness no single moment contains",
+          alt: "Long exposure photograph showing light trails and accumulated nocturnal light",
         },
       ],
       quiz: {
