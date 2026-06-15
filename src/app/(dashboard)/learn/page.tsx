@@ -15,9 +15,7 @@ const CATEGORY_ORDER = [
   "fashion",
   "creative-direction",
   "marketing",
-  "art-history",
   "architecture",
-  "glossary",
 ]
 
 export const CATEGORY_LABELS: Record<string, string> = {
@@ -155,23 +153,29 @@ export default function LearnPage() {
       {suggestedStart && (
         <Link href={`/learn/${suggestedStart.id}`} style={{ textDecoration: "none" }}>
           <div style={{
-            background: `linear-gradient(135deg, ${suggestedStart.accentColor}18 0%, var(--surface) 60%)`,
-            border: `1px solid ${suggestedStart.accentColor}44`,
-            borderLeft: `4px solid ${suggestedStart.accentColor}`,
-            borderRadius: "var(--radius-lg)",
-            padding: "18px 20px",
-            display: "flex", alignItems: "center", justifyContent: "space-between",
+            background: `linear-gradient(135deg, ${suggestedStart.accentColor}20 0%, var(--surface) 60%)`,
+            border: `1px solid ${suggestedStart.accentColor}55`,
+            borderTop: `3px solid ${suggestedStart.accentColor}`,
+            borderRadius: "var(--radius-xl)",
+            padding: "20px 20px",
+            display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16,
           }}>
             <div>
-              <p style={{ font: "var(--text-label)", color: "var(--fg-3)", marginBottom: 3, textTransform: "uppercase", letterSpacing: "0.05em" }}>
+              <p style={{ font: "var(--text-label)", color: suggestedStart.accentColor, marginBottom: 4, textTransform: "uppercase", letterSpacing: "0.08em" }}>
                 Start Here
               </p>
-              <p style={{ font: "var(--text-body-strong)", color: "var(--fg-1)" }}>{suggestedStart.title}</p>
-              <p style={{ font: "var(--text-caption)", color: "var(--fg-3)", marginTop: 2 }}>
+              <p style={{ font: "var(--text-body-strong)", color: "var(--fg-1)", marginBottom: 2 }}>{suggestedStart.title}</p>
+              <p style={{ font: "var(--text-caption)", color: "var(--fg-3)" }}>
                 {suggestedStart.lessons.length} lessons · the foundations
               </p>
             </div>
-            <span style={{ font: "var(--text-h2)", color: suggestedStart.accentColor, flexShrink: 0 }}>→</span>
+            <div style={{
+              width: 44, height: 44, borderRadius: "50%", flexShrink: 0,
+              background: `${suggestedStart.accentColor}25`,
+              border: `2px solid ${suggestedStart.accentColor}60`,
+              display: "flex", alignItems: "center", justifyContent: "center",
+              font: "var(--text-h2)", color: suggestedStart.accentColor,
+            }}>→</div>
           </div>
         </Link>
       )}
@@ -188,38 +192,51 @@ export default function LearnPage() {
             const totalLessons = courses.reduce((s, c) => s + c.lessons.length, 0)
             const doneLessons = courses.reduce((s, c) => s + (completedLessons[c.id] || []).length, 0)
             const pct = totalLessons > 0 ? doneLessons / totalLessons : 0
-            // photography-foundations is both category slug and course id — link directly to course
-            const href = courses.length === 1 && courses[0].id === cat ? `/learn/${cat}` : `/learn/${cat}`
+            const href = `/learn/${cat}`
 
             return (
               <Link key={cat} href={href} style={{ textDecoration: "none" }}>
                 <div style={{
-                  background: `linear-gradient(145deg, ${accent}15 0%, var(--surface) 65%)`,
-                  border: `1px solid ${accent}30`,
+                  background: `linear-gradient(160deg, ${accent}18 0%, var(--surface) 55%)`,
+                  border: `1px solid ${accent}50`,
+                  borderTop: `3px solid ${accent}`,
                   borderRadius: "var(--radius-lg)",
-                  padding: "16px 14px",
-                  display: "flex", flexDirection: "column", gap: 6,
-                  minHeight: 110,
+                  padding: "14px 14px 14px",
+                  display: "flex", flexDirection: "column", gap: 8,
+                  minHeight: 140,
                 }}>
-                  <span style={{ fontSize: 26, lineHeight: 1 }}>{CATEGORY_EMOJI[cat] ?? "📚"}</span>
-                  <p style={{ font: "var(--text-body-strong)", color: "var(--fg-1)", lineHeight: 1.25, marginTop: 4 }}>
-                    {CATEGORY_LABELS[cat]}
-                  </p>
-                  <p style={{ font: "var(--text-caption)", color: "var(--fg-3)", lineHeight: 1.3 }}>
-                    {CATEGORY_DESCRIPTIONS[cat]}
-                  </p>
-                  <div style={{ marginTop: "auto", paddingTop: 8 }}>
+                  {/* Emoji in coloured circle */}
+                  <div style={{
+                    width: 38, height: 38, borderRadius: "var(--radius-md)",
+                    background: `${accent}25`,
+                    border: `1px solid ${accent}45`,
+                    display: "flex", alignItems: "center", justifyContent: "center",
+                    fontSize: 20,
+                  }}>
+                    {CATEGORY_EMOJI[cat] ?? "📚"}
+                  </div>
+
+                  <div style={{ flex: 1 }}>
+                    <p style={{ font: "var(--text-body-strong)", color: "var(--fg-1)", lineHeight: 1.25 }}>
+                      {CATEGORY_LABELS[cat]}
+                    </p>
+                    <p style={{ font: "var(--text-caption)", color: "var(--fg-3)", lineHeight: 1.35, marginTop: 3 }}>
+                      {CATEGORY_DESCRIPTIONS[cat]}
+                    </p>
+                  </div>
+
+                  <div>
                     <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 5 }}>
                       <span style={{ font: "var(--text-caption)", color: "var(--fg-3)", fontFamily: "var(--font-mono)" }}>
                         {courses.length} course{courses.length !== 1 ? "s" : ""}
                       </span>
                       {doneLessons > 0 && (
-                        <span style={{ font: "var(--text-caption)", color: accent, fontFamily: "var(--font-mono)" }}>
+                        <span style={{ font: "var(--text-caption)", color: accent, fontFamily: "var(--font-mono)", fontWeight: 600 }}>
                           {Math.round(pct * 100)}%
                         </span>
                       )}
                     </div>
-                    <div style={{ height: 3, background: "var(--surface-3)", borderRadius: "var(--radius-pill)", overflow: "hidden" }}>
+                    <div style={{ height: 4, background: "var(--surface-3)", borderRadius: "var(--radius-pill)", overflow: "hidden" }}>
                       <div style={{ height: "100%", width: `${pct * 100}%`, background: accent, borderRadius: "var(--radius-pill)" }} />
                     </div>
                   </div>
